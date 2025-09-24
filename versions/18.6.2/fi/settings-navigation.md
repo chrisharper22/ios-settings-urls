@@ -1,0 +1,29 @@
+- Apple-tili: `settings-navigation://com.apple.Settings.AppleAccount`
+- Apple-tili → iCloud: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE`
+- Apple-tili → iCloud → Kalenteri: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Calendars`
+- Apple-tili → iCloud → Kalenteri → Lähetys/vastaanotto: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Calendars/CALENDAR_SEND_RECEIVE`
+- Apple-tili → iCloud → Kalenteri → Vastaanota sähköpostipäivityksiä: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Calendars/CALENDAR_SHARED_CALENDAR_UPDATE`
+- Apple-tili → iCloud → Mail: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail`
+- Apple-tili → iCloud → Mail → Oletussähköposti: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/DEFAULT_EMAIL`
+- Apple-tili → iCloud → Mail → Osoitteet: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/ALIASES`
+- Apple-tili → iCloud → Mail → Automaatti­vastaus: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/AUTO_REPLY`
+- Apple-tili → iCloud → Mail → iCloud Mail -säännöt: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/SERVER_SIDE_RULES`
+- Apple-tili → iCloud → Mail → Edelleenlähettäminen: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/MAIL_FORWARDING`
+- Apple-tili → iCloud → Mail → Postilaatikon toiminta: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/MAILBOX_BEHAVIORS`
+- Apple-tili → iCloud → Mail → Allekirjoitus ja salaus: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/S_MIME`
+- Apple-tili → iCloud → Mail → Tuo viestit: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/MAIL_IMPORT`
+- Apps: `settings-navigation://com.apple.Settings.Apps`
+- Apps → Fitness: `settings-navigation://com.apple.Settings.Apps/com.apple.Fitness`
+- Apps → Safari: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/`
+- Apps → Safari → Laajennukset: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/WEB_EXTENSIONS`
+- Apps → Safari → Estä ponnahdusikkunat: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari#BLOCK_POPUPS`
+- Apps → Safari → Estä seuranta sivujen välillä: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari#TRACKER_PROTECTION`
+- Apps → Safari → Automaattinen täyttö: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/AUTO_FILL`
+- Apps → Safari → Lataukset: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/DOWNLOADS`
+- Apps → Salasanat: `settings-navigation://com.apple.Settings.Apps/com.apple.Passwords`
+- Apps → Salasanat → Suojaussuositukset: `settings-navigation://com.apple.Settings.Apps/com.apple.Passwords#SECURITY_RECOMMENDATIONS`
+- Tietosuoja ja suojaus: `settings-navigation://com.apple.Settings.PrivacyAndSecurity`
+- Tietosuoja ja suojaus → Turvatarkastus: `settings-navigation://com.apple.Settings.PrivacyAndSecurity/SAFETY_CHECK`
+- Koti: `settings-navigation://com.apple.Settings.HomeKit`
+- Search: `settings-navigation://com.apple.Settings.Search`
+- TV-palveluntarjoaja: `settings-navigation://com.apple.Settings.TVProvider`

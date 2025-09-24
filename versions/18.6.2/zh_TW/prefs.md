@@ -1,0 +1,1186 @@
+- 電池: `prefs:root=BATTERY_USAGE`
+- 電池 → 低耗電模式: `prefs:root=BATTERY_USAGE#BATTERY_SAVER_MODE`
+- 電池 → 電池健康度: `prefs:root=BATTERY_USAGE#BATTERY_HEALTH_ID`
+- 動作按鈕: `prefs:root=ACTION_BUTTON`
+- 通知: `prefs:root=NOTIFICATIONS_ID`
+- 通知 → 摘要排程: `prefs:root=NOTIFICATIONS_ID&path=SCHEDULED_DELIVERY_ID`
+- 一般: `prefs:root=General`
+- 一般 → VPN與裝置管理: `prefs:root=General&path=ManagedConfigurationList`
+- 一般 → AppleCare與保固: `prefs:root=General&path=COVERAGE/`
+- 一般 → 自動填寫與密碼: `prefs:root=General&path=AUTOFILL`
+- 一般 → 自動填寫與密碼 → 自動填寫密碼: `prefs:root=General&path=AUTOFILL#AUTOFILL`
+- 一般 → 自動填寫與密碼 → 清除驗證碼: `prefs:root=General&path=AUTOFILL#CLEAN_UP_VERIFICATION_CODES`
+- 一般 → 自動填寫與密碼 → 設定驗證碼: `prefs:root=General&path=AUTOFILL#SET_UP_VERIFICATION_CODES`
+- 一般 → 儲存空間: `prefs:root=General&path=STORAGE_MGMT`
+- 一般 → 儲存空間 → 儲存空間: `prefs:root=General&path=STORAGE_MGMT#MANAGE`
+- 一般 → 儲存空間 → 卸載未使用的App: `prefs:root=General&path=STORAGE_MGMT#OFFLOAD`
+- 一般 → 軟體更新: `prefs:root=General&path=SOFTWARE_UPDATE_LINK`
+- 一般 → 軟體更新 → 自動更新: `prefs:root=General&path=SOFTWARE_UPDATE_LINK/SUAutomaticUpdateButton`
+- 一般 → 鍵盤: `prefs:root=General&path=Keyboard`
+- 一般 → 鍵盤 → 鍵盤: `prefs:root=General&path=Keyboard/KEYBOARDS`
+- 一般 → 鍵盤 → 替代文字: `prefs:root=General&path=Keyboard/USER_DICTIONARY`
+- 一般 → 鍵盤 → 自動大寫: `prefs:root=General&path=Keyboard#KeyboardAutocapitalization`
+- 一般 → 鍵盤 → 自動修正: `prefs:root=General&path=Keyboard#KeyboardAutocorrection`
+- 一般 → 鍵盤 → 檢查拼字: `prefs:root=General&path=Keyboard#KeyboardCheckSpelling`
+- 一般 → 鍵盤 → 啟用大寫鎖定鍵: `prefs:root=General&path=Keyboard#KeyboardCapsLock`
+- 一般 → 鍵盤 → 快速鍵: `prefs:root=General&path=Keyboard#KeyboardAssistant`
+- 一般 → 鍵盤 → 預測字詞: `prefs:root=General&path=Keyboard#KeyboardPrediction`
+- 一般 → 鍵盤 → 智慧型標點符號: `prefs:root=General&path=Keyboard#SmartTyping`
+- 一般 → 鍵盤 → 分開式鍵盤: `prefs:root=General&path=Keyboard#RivenKeyboard`
+- 一般 → 鍵盤 → 啟用按鍵滑動: `prefs:root=General&path=Keyboard#GesturesEnabled`
+- 一般 → 鍵盤 → 預覽字元: `prefs:root=General&path=Keyboard#KeyboardAllowPaddle`
+- 一般 → 鍵盤 → 句號快速鍵: `prefs:root=General&path=Keyboard#KeyboardPeriodShortcut`
+- 一般 → 鍵盤 → 滑動輸入: `prefs:root=General&path=Keyboard#KeyboardContinuousPathEnabled`
+- 一般 → 鍵盤 → 啟用聽寫: `prefs:root=General&path=Keyboard#Dictation`
+- 一般 → 鍵盤 → 自動標點符號: `prefs:root=General&path=Keyboard#AutoPunctuationSetting`
+- 一般 → 語言與地區: `prefs:root=General&path=INTERNATIONAL`
+- 一般 → 語言與地區 → 其他語言⋯: `prefs:root=General&path=INTERNATIONAL#NEW_PREFERRED_LANGUAGE`
+- 一般 → 語言與地區 → 偏好的語言順序: `prefs:root=General&path=INTERNATIONAL#PREFERRED_LANGUAGE_GROUP`
+- 一般 → 語言與地區 → 加入語言⋯: `prefs:root=General&path=INTERNATIONAL#ADD_PREFERRED_LANGUAGE`
+- 一般 → 語言與地區 → 地區: `prefs:root=General&path=INTERNATIONAL/LOCALE`
+- 一般 → 語言與地區 → 數字: `prefs:root=General&path=INTERNATIONAL/NUMBERING_SYSTEM`
+- 一般 → 語言與地區 → 行事曆: `prefs:root=General&path=INTERNATIONAL/CALENDAR`
+- 一般 → 語言與地區 → 溫度單位: `prefs:root=General&path=INTERNATIONAL/TEMPERATURE_UNIT`
+- 一般 → 辭典: `prefs:root=General&path=DICTIONARY`
+- 一般 → 子母畫面: `prefs:root=General&path=PiP_SPEC`
+- 一般 → 觸控式軌跡板: `prefs:root=General&path=POINTERS`
+- 一般 → NFC: `prefs:root=General&path=NFC_LINK`
+- 一般 → VPN: `prefs:root=General&path=VPN`
+- 一般 → CarPlay: `prefs:root=General&path=CARPLAY`
+- 一般 → 關於本機: `prefs:root=General&path=About`
+- 一般 → 關於本機 → 信任的憑證: `prefs:root=General&path=About/CERT_TRUST_SETTINGS`
+- 一般 → 關於本機 → 序號: `prefs:root=General&path=About#SerialNumber`
+- 一般 → 關於本機 → 機型型號: `prefs:root=General&path=About#ProductModel`
+- 一般 → 關於本機 → 機型名稱: `prefs:root=General&path=About#ProductModelName`
+- 一般 → 關於本機 → iOS版本: `prefs:root=General&path=About/SW_VERSION_SPECIFIER`
+- 一般 → 法律資訊與電信規範: `prefs:root=General&path=LEGAL_AND_REGULATORY`
+- 一般 → 法律資訊與電信規範 → 保固: `prefs:root=General&path=LEGAL_AND_REGULATORY#Warranty`
+- 一般 → AirDrop: `prefs:root=General&path=AIRDROP_LINK`
+- 一般 → AirDrop → 將裝置互相靠近: `prefs:root=General&path=AIRDROP_LINK#AIRDROP_NFC_ID`
+- 一般 → 主畫面按鈕: `prefs:root=General&path=HOME_BUTTON`
+- 一般 → 側邊切換: `prefs:root=General#Rotation_Switch_Action_Group`
+- 一般 → 背景App重新整理: `prefs:root=General&path=AUTO_CONTENT_DOWNLOAD`
+- 一般 → 日期與時間: `prefs:root=General&path=DATE_AND_TIME`
+- 一般 → 電視輸出: `prefs:root=General&path=TV_OUT`
+- 一般 → 重置: `prefs:root=General&path=Reset`
+- 一般 → 重置 → 重置所有設定: `prefs:root=General&path=Reset#settingsErase`
+- 一般 → 重置 → 清除所有內容和設定: `prefs:root=General&path=Reset#fullErase`
+- 一般 → 重置 → 重置網路設定: `prefs:root=General&path=Reset#RESET_NETWORK_LABEL`
+- 一般 → 重置 → 移除所有行動數據方案: `prefs:root=General&path=Reset#cellularErase`
+- 一般 → 重置 → 訂戶服務: `prefs:root=General&path=Reset#SUBSCRIBER_SERVICES_ID`
+- 一般 → 重置 → 重置鍵盤辭典: `prefs:root=General&path=Reset#RESET_KEYBOARD_DICTIONARY_LABEL`
+- 一般 → 重置 → 重置主畫面佈局: `prefs:root=General&path=Reset#RESET_ICONS_LABEL`
+- 一般 → 重置 → 重置定位服務與隱私權: `prefs:root=General&path=Reset#RESET_PRIVACY_LABEL`
+- 一般 → 關機: `prefs:root=General#SHUTDOWN_LABEL`
+- 一般 → AirPlay與接續互通: `prefs:root=General&path=CONTINUITY_SPEC`
+- 一般 → AirPlay與接續互通 → 接力: `prefs:root=General&path=CONTINUITY_SPEC#CONTINUITY`
+- 一般 → AirPlay與接續互通 → 傳送到HomePod: `prefs:root=General&path=CONTINUITY_SPEC#TRANSFER_TO_HOMEPOD`
+- 一般 → AirPlay與接續互通 → 自動AirPlay: `prefs:root=General&path=CONTINUITY_SPEC#AUTOMATICALLY_AIRPLAY`
+- 一般 → AirPlay與接續互通 → 接續互通相機: `prefs:root=General&path=CONTINUITY_SPEC#WOMBAT_CAMERA`
+- 錢包與Apple Pay: `prefs:root=PASSBOOK`
+- 錢包與Apple Pay → Apple Cash: `prefs:root=PASSBOOK#Apple%C2%A0Cash`
+- 錢包與Apple Pay → 付款卡: `prefs:root=PASSBOOK#SETTINGS_PAYMENT_CARDS_GROUP`
+- 錢包與Apple Pay → 加入卡片: `prefs:root=PASSBOOK#Add%20Card`
+- 錢包與Apple Pay → 按兩下側邊按鈕: `prefs:root=PASSBOOK#Double-Click%20Side%20Button`
+- 錢包與Apple Pay → 訂單追蹤: `prefs:root=PASSBOOK#ORDER_TRACKING`
+- 日誌: `prefs:root=JOURNAL`
+- 待機模式: `prefs:root=AMBIENT`
+- 天氣: `prefs:root=WEATHER`
+- Apple帳號: `prefs:root=APPLE_ACCOUNT` or `settings-navigation://com.apple.Settings.AppleAccount`
+- Apple帳號 → iCloud: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE` or `prefs:root=CASTLE`
+- Apple帳號 → iCloud → iCloud儲存空間: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/STORAGE_AND_BACKUP` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/STORAGE_AND_BACKUP` or `prefs:root=CASTLE&path=STORAGE_AND_BACKUP`
+- Apple帳號 → iCloud → iCloud雲碟: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity` or `prefs:root=CASTLE&path=com.apple.Dataclass.Ubiquity`
+- Apple帳號 → iCloud → 照片: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.MediaStream` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.MediaStream` or `prefs:root=CASTLE&path=com.apple.Dataclass.MediaStream`
+- Apple帳號 → iCloud → 郵件: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Mail` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail` or `prefs:root=CASTLE&path=com.apple.Dataclass.Mail`
+- Apple帳號 → iCloud → 郵件 → 自訂電子郵件網域: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Mail/BYOD_SETTING_SPECIFIER_ID` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/BYOD_SETTING_SPECIFIER_ID` or `prefs:root=CASTLE&path=com.apple.Dataclass.Mail/BYOD_SETTING_SPECIFIER_ID`
+- Apple帳號 → iCloud → 聯絡人: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Contacts` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Contacts` or `prefs:root=CASTLE&path=com.apple.Dataclass.Contacts`
+- Apple帳號 → iCloud → 行事曆: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Calendars` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Calendars` or `prefs:root=CASTLE&path=com.apple.Dataclass.Calendars`
+- Apple帳號 → iCloud → 提醒事項: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Reminders` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Reminders` or `prefs:root=CASTLE&path=com.apple.Dataclass.Reminders`
+- Apple帳號 → iCloud → Safari: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks` or `prefs:root=CASTLE&path=com.apple.Dataclass.Bookmarks`
+- Apple帳號 → iCloud → 備忘錄: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Notes` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Notes` or `prefs:root=CASTLE&path=com.apple.Dataclass.Notes`
+- Apple帳號 → iCloud → 新聞: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.News` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.News` or `prefs:root=CASTLE&path=com.apple.Dataclass.News`
+- Apple帳號 → iCloud → 備份: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/BACKUP` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/BACKUP` or `prefs:root=CASTLE&path=BACKUP`
+- Apple帳號 → iCloud → 健康: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Health` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Health` or `prefs:root=CASTLE&path=com.apple.Dataclass.Health`
+- Apple帳號 → iCloud → 密碼與鑰匙圈: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync` or `prefs:root=CASTLE&path=com.apple.Dataclass.KeychainSync`
+- Apple帳號 → iCloud → 隱藏電子郵件地址: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE` or `prefs:root=CASTLE&path=PRIVATE_EMAIL_MANAGE`
+- Apple帳號 → 分享我的位置: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING` or `settings-navigation://com.apple.Settings.AppleAccount/LOCATION_SHARING`
+- Apple帳號 → 分享我的位置 → 尋找: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING/FindMyDevice-Settings` or `settings-navigation://com.apple.Settings.AppleAccount/LOCATION_SHARING/FindMyDevice-Settings`
+- Apple帳號 → 姓名、電話號碼、電子郵件: `prefs:root=APPLE_ACCOUNT&path=APPLE_ACCOUNT_CONTACT` or `settings-navigation://com.apple.Settings.AppleAccount/APPLE_ACCOUNT_CONTACT`
+- Apple帳號 → 密碼與安全性: `prefs:root=APPLE_ACCOUNT&path=PASSWORD_AND_SECURITY` or `settings-navigation://com.apple.Settings.AppleAccount/PASSWORD_AND_SECURITY`
+- Apple帳號 → 付款與寄送: `prefs:root=APPLE_ACCOUNT&path=PAYMENT_AND_SHIPPING` or `settings-navigation://com.apple.Settings.AppleAccount/PAYMENT_AND_SHIPPING`
+- Apple帳號 → 訂閱項目: `prefs:root=APPLE_ACCOUNT&path=SUBSCRIPTIONS` or `settings-navigation://com.apple.Settings.AppleAccount/SUBSCRIPTIONS`
+- Apple帳號 → 家人共享: `prefs:root=APPLE_ACCOUNT&path=Family` or `settings-navigation://com.apple.Settings.AppleAccount/Family`
+- Apple帳號 → 聯絡人密鑰驗證: `prefs:root=APPLE_ACCOUNT&path=TRANSPARENCY` or `settings-navigation://com.apple.Settings.AppleAccount/TRANSPARENCY`
+- 地圖: `prefs:root=MAPS`
+- 地圖 → 空氣品質指標: `prefs:root=MAPS#AirQualityPreferenceID`
+- 地圖 → 總是使用中文: `prefs:root=MAPS#LabelLanguageAlwaysUIPreferenceID`
+- 地圖 → 自行車: `prefs:root=MAPS&path=CyclingLinkPreferenceID`
+- 地圖 → 偏好的交通類型: `prefs:root=MAPS#TransportTypePreferenceGroupID`
+- 地圖 → 開車: `prefs:root=MAPS&path=DrivingLinkPreferenceID`
+- 地圖 → 語音導航: `prefs:root=MAPS&path=NavigationGuidanceLinkPreferenceID`
+- 地圖 → 顯示停車位置: `prefs:root=MAPS#ParkedCarPreferenceID`
+- 地圖 → 分享抵達時間: `prefs:root=MAPS#ShareETAPreferenceID`
+- 地圖 → 大眾運輸: `prefs:root=MAPS&path=TransitLinkPreferenceID`
+- 地圖 → 步行: `prefs:root=MAPS&path=WalkingLinkPreferenceID`
+- 地圖 → 天氣狀況: `prefs:root=MAPS#WeatherConditionsPreferenceID`
+- 螢幕使用時間: `prefs:root=SCREEN_TIME`
+- 螢幕使用時間 → See All App & Website Activity: `prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY`
+- 螢幕使用時間 → See All App & Website Activity → 今天: `prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY#DAY`
+- 螢幕使用時間 → See All App & Website Activity → 週: `prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY#WEEK`
+- 螢幕使用時間 → 停用時間: `prefs:root=SCREEN_TIME&path=DOWNTIME`
+- 螢幕使用時間 → App限制: `prefs:root=SCREEN_TIME&path=APP_LIMITS`
+- 螢幕使用時間 → 通訊限制: `prefs:root=SCREEN_TIME&path=COMMUNICATION_LIMITS`
+- 螢幕使用時間 → 通訊安全: `prefs:root=SCREEN_TIME&path=COMMUNICATION_SAFETY`
+- 螢幕使用時間 → 永遠允許: `prefs:root=SCREEN_TIME&path=ALWAYS_ALLOWED`
+- 螢幕使用時間 → 內容與隱私權限制: `prefs:root=SCREEN_TIME&path=CONTENT_PRIVACY`
+- 螢幕使用時間 → 分級保護控制: `prefs:root=SCREEN_TIME#FAMILY`
+- 螢幕使用時間 → 螢幕距離: `prefs:root=SCREEN_TIME&path=EYE_DISTANCE`
+- 無邊記: `prefs:root=FREEFORM`
+- 專注模式: `prefs:root=DO_NOT_DISTURB`
+- 專注模式 → 專注模式狀態: `prefs:root=DO_NOT_DISTURB&path=status`
+- 外觀: `prefs:root=DISPLAY`
+- 外觀 → 外觀: `prefs:root=DISPLAY#DEVICE_APPEARANCE`
+- 外觀 → 原彩: `prefs:root=DISPLAY#WHITE_BALANCE`
+- 外觀 → 夜覽: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION`
+- 外觀 → 夜覽 → 已排程: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#SCHEDULED`
+- 外觀 → 夜覽 → 手動啟用直到明天為止: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#MANUAL`
+- 外觀 → 夜覽 → 色溫: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#COLOR_TEMPERATURE`
+- 外觀 → 自動鎖定: `prefs:root=DISPLAY&path=AUTOLOCK`
+- 外觀 → 抬起喚醒: `prefs:root=DISPLAY#RAISE_TO_WAKE`
+- 外觀 → 鎖定/解鎖: `prefs:root=DISPLAY#SMART_CASE_LOCK_SPEC`
+- 外觀 → 文字大小: `prefs:root=DISPLAY&path=TEXT_SIZE`
+- 外觀 → 粗體文字: `prefs:root=DISPLAY#BOLD_TEXT`
+- 外觀 → 亮度: `prefs:root=DISPLAY#BRIGHTNESS`
+- 外觀 → 螢幕縮放: `prefs:root=DISPLAY#DISPLAY_ZOOM_GROUP`
+- 外觀 → 外觀: `prefs:root=DISPLAY&path=APPEARANCE`
+- 外觀 → 外觀 → 視窗縮放: `prefs:root=DISPLAY&path=APPEARANCE#WINDOW_ZOOM`
+- 外觀 → 外觀 → 使用兩手視窗縮放: `prefs:root=DISPLAY&path=APPEARANCE#TWO_HANDED_WINDOW_ZOOM`
+- 外觀 → 顯示方式: `prefs:root=DISPLAY&path=MAGNIFY`
+- 外觀 → 永遠顯示: `prefs:root=DISPLAY&path=ALWAYS_ON`
+- 外觀 → 永遠顯示 → 永遠顯示: `prefs:root=DISPLAY&path=ALWAYS_ON#ALWAYS_ON`
+- 外觀 → 相容App: `prefs:root=DISPLAY&path=COMPATIBLE_APPEARANCE`
+- 外觀 → 相容App → 深色、淺色: `prefs:root=DISPLAY&path=COMPATIBLE_APPEARANCE#COMPATIBLE_APPEARANCE_CHOICES`
+- 主畫面: `prefs:root=HOME_SCREEN`
+- 主畫面 → 新下載的App: `prefs:root=HOME_SCREEN&path=APP_DOWNLOADS_GO_TO`
+- 主畫面 → 通知標記: `prefs:root=HOME_SCREEN#BADGES_IN_APP_LIBRARY`
+- 主畫面與App資料庫: `prefs:root=HOME_SCREEN_DOCK`
+- 主畫面與App資料庫 → 新下載的App: `prefs:root=HOME_SCREEN_DOCK&path=APP_DOWNLOADS_GO_TO`
+- 主畫面與App資料庫 → Dock: `prefs:root=HOME_SCREEN_DOCK&path=MULTITASKING_DOCK`
+- 主畫面與App資料庫 → Dock → 在Dock中顯示App資料庫: `prefs:root=HOME_SCREEN_DOCK&path=MULTITASKING_DOCK#SHOW_APP_LIBRARY`
+- 主畫面與App資料庫 → 在Dock中顯示建議的App和最近使用的App: `prefs:root=HOME_SCREEN_DOCK#ALLOW_RECENTS`
+- 主畫面與App資料庫 → 幕前調度: `prefs:root=HOME_SCREEN_DOCK&path=CONTINUOUS-EXPOSE`
+- Multitasking & Gestures: `prefs:root=com.apple.MultitaskingAndGesturesSettings`
+- Multitasking & Gestures → 多工處理: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Multitasking`
+- Multitasking & Gestures → 多工處理 → 允許多個App: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Multitasking#MultipleApps`
+- Multitasking & Gestures → 多工處理 → 分割顯示與滑動置前: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Multitasking#SplitViewSlideOver`
+- Multitasking & Gestures → 多工處理 → 螢幕鏡像輸出: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Multitasking#ScreenMirroring`
+- Multitasking & Gestures → 多工處理 → 幕前調度: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Multitasking#StageManager`
+- Multitasking & Gestures → 多工處理 → 在幕前調度中顯示最近使用的App: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Multitasking#StageManagerRecentApps`
+- Multitasking & Gestures → 多工處理 → 在幕前調度中顯示Dock: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Multitasking#StageManagerDock`
+- Multitasking & Gestures → 子母畫面: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=PictureInPicture`
+- Multitasking & Gestures → 高效率手勢: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Productivity`
+- Multitasking & Gestures → 高效率手勢 → 手勢: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Productivity#Gestures`
+- Multitasking & Gestures → 高效率手勢 → 高效率手勢: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Productivity#ProductivityGestures`
+- Multitasking & Gestures → 四指與五指手勢: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=FourAndFiveFingers`
+- Multitasking & Gestures → 晃動來還原: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=ShakeToUndo`
+- Multitasking & Gestures → 角落手勢: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=CornerGestures`
+- 輔助使用: `prefs:root=ACCESSIBILITY`
+- 輔助使用 → 旁白: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE`
+- 輔助使用 → 旁白 → 旁白教學指南: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#VoiceOverTouchTutorialEnabled`
+- 輔助使用 → 旁白 → 朗讀速度: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#SpeakingRateSlider`
+- 輔助使用 → 旁白 → 語音: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Voices`
+- 輔助使用 → 旁白 → 語音 → 發音: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Voices/PRONUNCIATION_DICTIONARY`
+- 輔助使用 → 旁白 → 語音 → 發音 → 發音: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Voices/PRONUNCIATION_DICTIONARY#PRONUNCIATION_DICTIONARY`
+- 輔助使用 → 旁白 → 語音 → 音高變更: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Voices#PITCH_CHANGES_TITLE`
+- 輔助使用 → 旁白 → 語音 → 加入轉輪聲音⋯: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Voices#ADD_NEW_VOICE`
+- 輔助使用 → 旁白 → 語音 → 偵測語言: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Voices#LANGUAGE_DETECTION`
+- 輔助使用 → 旁白 → 語音 → 空間化語音: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Voices#SPATIALIZE_SPEECH`
+- 輔助使用 → 旁白 → 詳細程度: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity`
+- 輔助使用 → 旁白 → 詳細程度 → 詳細程度: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#Verbosity`
+- 輔助使用 → 旁白 → 詳細程度 → 標點符號: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup`
+- 輔助使用 → 旁白 → 詳細程度 → 標點符號 → 標點符號: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup#voiceOverPunctuationGroup`
+- 輔助使用 → 旁白 → 詳細程度 → 標點符號 → 啟用的標點符號群組: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup#voiceOverActivePunctuationGroup`
+- 輔助使用 → 旁白 → 詳細程度 → 標點符號 → 全部: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup#all`
+- 輔助使用 → 旁白 → 詳細程度 → 標點符號 → 部分: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup#AXSSVoiceOverPunctuationGroupSome`
+- 輔助使用 → 旁白 → 詳細程度 → 標點符號 → 無: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup#PunctuationGroupNone`
+- 輔助使用 → 旁白 → 詳細程度 → 標點符號 → 加入標點符號群組: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup/NewPunctuation`
+- 輔助使用 → 旁白 → 詳細程度 → 標點符號 → 加入標點符號群組 → 加入標點符號群組: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup/NewPunctuation#NewPunctuation`
+- 輔助使用 → 旁白 → 詳細程度 → 標點符號 → 輸入: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup/ImportPunctuation`
+- 輔助使用 → 旁白 → 詳細程度 → 標點符號 → 輸入 → 輸入: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup/ImportPunctuation#ImportPunctuation`
+- 輔助使用 → 旁白 → 詳細程度 → 朗讀提示: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#HINTS_TITLE`
+- 輔助使用 → 旁白 → 詳細程度 → 系統通知: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/SystemNotifications`
+- 輔助使用 → 旁白 → 詳細程度 → 系統通知 → 系統通知: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/SystemNotifications#SystemNotifications`
+- 輔助使用 → 旁白 → 詳細程度 → 系統通知 → 鎖定時通知: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/SystemNotifications#LockScreenNotifications`
+- 輔助使用 → 旁白 → 詳細程度 → 系統通知 → 橫幅通知: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/SystemNotifications#BannerNotifications`
+- 輔助使用 → 旁白 → 詳細程度 → 系統通知 → 使用靜音模式: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/SystemNotifications#NOTIFICATION_USE_RINGER_SWITCH`
+- 輔助使用 → 旁白 → 詳細程度 → 快速導覽宣告: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverQuickNavAnnouncementFeedback`
+- 輔助使用 → 旁白 → 詳細程度 → 快速導覽宣告 → 快速導覽宣告: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverQuickNavAnnouncementFeedback#voiceOverQuickNavAnnouncementFeedback`
+- 輔助使用 → 旁白 → 詳細程度 → 手電筒通知: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverFlashlightNotificationsEnabled`
+- 輔助使用 → 旁白 → 詳細程度 → 手電筒通知 → 手電筒通知: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverFlashlightNotificationsEnabled#voiceOverFlashlightNotificationsEnabled`
+- 輔助使用 → 旁白 → 詳細程度 → 大寫字母: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverCapitalLetterFeedback`
+- 輔助使用 → 旁白 → 詳細程度 → 大寫字母 → 大寫字母: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverCapitalLetterFeedback#voiceOverCapitalLetterFeedback`
+- 輔助使用 → 旁白 → 詳細程度 → 刪除文字: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverDeletionFeedback`
+- 輔助使用 → 旁白 → 詳細程度 → 刪除文字 → 刪除文字: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverDeletionFeedback#voiceOverDeletionFeedback`
+- 輔助使用 → 旁白 → 詳細程度 → 連結: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverLinkFeedback`
+- 輔助使用 → 旁白 → 詳細程度 → 連結 → 連結: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverLinkFeedback#voiceOverLinkFeedback`
+- 輔助使用 → 旁白 → 詳細程度 → 動作: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverActionsFeedback`
+- 輔助使用 → 旁白 → 詳細程度 → 動作 → 動作: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverActionsFeedback#voiceOverActionsFeedback`
+- 輔助使用 → 旁白 → 詳細程度 → 更多內容: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMoreContentOutputFeedback`
+- 輔助使用 → 旁白 → 詳細程度 → 更多內容 → 更多內容: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMoreContentOutputFeedback#voiceOverMoreContentOutputFeedback`
+- 輔助使用 → 旁白 → 詳細程度 → 容器描述: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverContainerOutputFeedback`
+- 輔助使用 → 旁白 → 詳細程度 → 容器描述 → 容器描述: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverContainerOutputFeedback#voiceOverContainerOutputFeedback`
+- 輔助使用 → 旁白 → 詳細程度 → 數字: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverNumberFeedback`
+- 輔助使用 → 旁白 → 詳細程度 → 數字 → 數字: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverNumberFeedback#voiceOverNumberFeedback`
+- 輔助使用 → 旁白 → 詳細程度 → 預測字詞回饋: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/PREDICTIVE_TEXT_FEEDBACK`
+- 輔助使用 → 旁白 → 詳細程度 → 預測字詞回饋 → 預測字詞回饋: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/PREDICTIVE_TEXT_FEEDBACK#PREDICTIVE_TEXT_FEEDBACK`
+- 輔助使用 → 旁白 → 詳細程度 → 預測字詞回饋 → 當預測字詞顯示時: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/PREDICTIVE_TEXT_FEEDBACK/InlineTextCompletionAppearanceFeedback`
+- 輔助使用 → 旁白 → 詳細程度 → 預測字詞回饋 → 當預測字詞顯示時 → 當預測字詞顯示時: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/PREDICTIVE_TEXT_FEEDBACK/InlineTextCompletionAppearanceFeedback#InlineTextCompletionAppearanceFeedback`
+- 輔助使用 → 旁白 → 詳細程度 → 預測字詞回饋 → 當輸入預測字詞回饋時: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/PREDICTIVE_TEXT_FEEDBACK/InlineTextCompletionInsertionFeedback`
+- 輔助使用 → 旁白 → 詳細程度 → 預測字詞回饋 → 當輸入預測字詞回饋時 → 當輸入預測字詞回饋時: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/PREDICTIVE_TEXT_FEEDBACK/InlineTextCompletionInsertionFeedback#InlineTextCompletionInsertionFeedback`
+- 輔助使用 → 旁白 → 詳細程度 → 表格標題: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#speakTableHeader`
+- 輔助使用 → 旁白 → 詳細程度 → 橫列與直欄編號: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#SPEAK_TABLE_ROW_COLUMN`
+- 輔助使用 → 旁白 → 詳細程度 → 朗讀確認訊息: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#ACTION_CONFIRMATION`
+- 輔助使用 → 旁白 → 詳細程度 → 網頁轉輪摘要: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverRotorSummaryFeedback`
+- 輔助使用 → 旁白 → 詳細程度 → 網頁轉輪摘要 → 網頁轉輪摘要: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverRotorSummaryFeedback#voiceOverRotorSummaryFeedback`
+- 輔助使用 → 旁白 → 詳細程度 → 表情符號: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverEmojiFeedback`
+- 輔助使用 → 旁白 → 詳細程度 → 表情符號 → 表情符號: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverEmojiFeedback#voiceOverEmojiFeedback`
+- 輔助使用 → 旁白 → 詳細程度 → 表情符號後綴: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#EMOJI_SUFFIX`
+- 輔助使用 → 旁白 → 詳細程度 → 媒體描述: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions`
+- 輔助使用 → 旁白 → 詳細程度 → 媒體描述 → 媒體描述: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#voiceOverMediaDescriptions`
+- 輔助使用 → 旁白 → 詳細程度 → 輸入回饋: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#voiceOverInputFeedback`
+- 輔助使用 → 旁白 → 詳細程度 → App懸浮回饋: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#voiceOverAppHoverFeedback`
+- 輔助使用 → 旁白 → 點字: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille`
+- 輔助使用 → 旁白 → 點字 → 點字: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#Braille`
+- 輔助使用 → 旁白 → 點字 → 輸出: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput`
+- 輔助使用 → 旁白 → 點字 → 輸出 → 輸出: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#BrailleDisplayOutput`
+- 輔助使用 → 旁白 → 點字 → 輸入: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput`
+- 輔助使用 → 旁白 → 點字 → 輸入 → 輸入: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#BrailleDisplayInput`
+- 輔助使用 → 旁白 → 點字 → 符合輸入和輸出表: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BRAILLE_SYNC_TABLES`
+- 輔助使用 → 旁白 → 點字 → 輸入和輸出: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleDisplayOutput`
+- 輔助使用 → 旁白 → 點字 → 自動轉譯: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#GRADE2_AUTO_TRANSLATE`
+- 輔助使用 → 旁白 → 點字 → 點字螢幕輸入: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput`
+- 輔助使用 → 旁白 → 點字 → 點字螢幕輸入 → 點字螢幕輸入: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#BrailleGesturesInput`
+- 輔助使用 → 旁白 → 點字 → 點字螢幕輸入 → 編輯文字時自動開始: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#AUTO_ACTIVATE_ON_TEXT_FIELDS`
+- 輔助使用 → 旁白 → 點字 → 點字螢幕輸入 → 反向點位置: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#SHOULD_REVERSE_DOTS`
+- 輔助使用 → 旁白 → 點字 → 點字螢幕輸入 → 保持啟用直到關閉: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#CONTROL_DEVICE_USING_BRAILLE_GESTURE`
+- 輔助使用 → 旁白 → 點字 → 點字螢幕輸入 → 視覺文字回饋: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#DISPLAY_ENTERED_TEXT`
+- 輔助使用 → 旁白 → 點字 → 點字螢幕輸入 → 輸入回饋: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#TYPING_FEEDBACK`
+- 輔助使用 → 旁白 → 點字 → 點字螢幕輸入 → 聲音: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#USE_TYPING_SOUND_FEEDBACK`
+- 輔助使用 → 旁白 → 點字 → 點字螢幕輸入 → 聲音: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#USE_HAPTIC_FEEDBACK`
+- 輔助使用 → 旁白 → 點字 → 點字螢幕輸入 → 模式宣告: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#SOUND_OPTION`
+- 輔助使用 → 旁白 → 點字 → 點字螢幕輸入 → 選擇點字表: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#BSI_TABLES`
+- 輔助使用 → 旁白 → 點字 → 點字表: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier`
+- 輔助使用 → 旁白 → 點字 → 點字表 → 點字表: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier#tableIdentifier`
+- 輔助使用 → 旁白 → 點字 → 點字表 → 加入點字表⋯: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier/ADD_NEW_BRAILLE_LANGUAGE`
+- 輔助使用 → 旁白 → 點字 → 點字表 → 加入點字表⋯ → 加入點字表⋯: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier/ADD_NEW_BRAILLE_LANGUAGE#ADD_NEW_BRAILLE_LANGUAGE`
+- 輔助使用 → 旁白 → 點字 → 狀態輸入格: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL`
+- 輔助使用 → 旁白 → 點字 → 狀態輸入格 → 狀態輸入格: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL`
+- 輔助使用 → 旁白 → 點字 → 狀態輸入格 → 狀態輸入格位置: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_POSITION`
+- 輔助使用 → 旁白 → 點字 → 狀態輸入格 → 顯示一般狀態: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#StatusCellGeneral`
+- 輔助使用 → 旁白 → 點字 → 狀態輸入格 → 顯示文字狀態: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#StatusCellTextStyle`
+- 輔助使用 → 旁白 → 點字 → 方程式使用聶美茲數學點字: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#ALWAYS_USE_NEMETH`
+- 輔助使用 → 旁白 → 點字 → 顯示螢幕鍵盤: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#SHOW_SW_KEYBOARD`
+- 輔助使用 → 旁白 → 點字 → 移動時翻頁: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#AUTO_TURN_PAGES`
+- 輔助使用 → 旁白 → 點字 → 自動換行: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#WORD_WRAP`
+- 輔助使用 → 旁白 → 點字 → 文字格式: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BRAILLE_FORMATTING`
+- 輔助使用 → 旁白 → 點字 → 點字提示訊息: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleAlertDisplayDuration`
+- 輔助使用 → 旁白 → 點字 → 點字提示訊息 → 點字提示訊息: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleAlertDisplayDuration#voiceOverBrailleAlertDisplayDuration`
+- 輔助使用 → 旁白 → 點字 → 點字提示訊息 → 點字提示訊息: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleAlertDisplayDuration#NumericalPreferenceSwitcherIdentifier`
+- 輔助使用 → 旁白 → 點字 → 點字提示訊息 → 顯示直到關閉: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleAlertDisplayDuration#NumericalPreferenceInfiniteTimeDurationIdentifier`
+- 輔助使用 → 旁白 → 點字 → 忽略組合持續時間: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleDebounceTimeout`
+- 輔助使用 → 旁白 → 點字 → 忽略組合持續時間 → 忽略組合持續時間: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleDebounceTimeout/voiceOverBrailleDebounceTimeout`
+- 輔助使用 → 旁白 → 點字 → 自動前進持續時間: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleAutoAdvance`
+- 輔助使用 → 旁白 → 點字 → 自動前進持續時間 → 自動前進持續時間: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleAutoAdvance#voiceOverBrailleAutoAdvance`
+- 輔助使用 → 旁白 → 點字 → 聲音簾幕: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#SOUND_CURTAIN`
+- 輔助使用 → 旁白 → 點字 → 啟動時啟用藍牙: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverAlwaysTurnOnBluetooth`
+- 輔助使用 → 旁白 → 點字 → 選擇點字顯示器: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#DEVICES`
+- 輔助使用 → 旁白 → 音訊: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio`
+- 輔助使用 → 旁白 → 音訊 → 音訊: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#Audio`
+- 輔助使用 → 旁白 → 音訊 → 旁白音效: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds`
+- 輔助使用 → 旁白 → 音訊 → 旁白音效 → 旁白音效: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSounds`
+- 輔助使用 → 旁白 → 音訊 → 旁白音效 → 音效: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSSettingsItem.Sounds`
+- 輔助使用 → 旁白 → 音訊 → 旁白音效 → 互動: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSOutputEventCategory.Interaction`
+- 輔助使用 → 旁白 → 音訊 → 旁白音效 → 旁白回饋: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSOutputEventCategory.VoiceOverFeedback`
+- 輔助使用 → 旁白 → 音訊 → 旁白音效 → App回饋: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSOutputEventCategory.AppFeedback`
+- 輔助使用 → 旁白 → 音訊 → 旁白音效 → 點字: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSOutputEventCategory.Braille`
+- 輔助使用 → 旁白 → 音訊 → 旁白音效 → 文字編輯: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSOutputEventCategory.TextEditing`
+- 輔助使用 → 旁白 → 音訊 → 旁白音效 → 系統: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSOutputEventCategory.System`
+- 輔助使用 → 旁白 → 音訊 → 音訊迴避: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#AUDIO_DUCKING`
+- 輔助使用 → 旁白 → 音訊 → 通話期間自動選取擴音: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#ROUTE_TO_SPEAKER`
+- 輔助使用 → 旁白 → 音訊 → 傳到HDMI: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#ROUTE_TO_HDMI`
+- 輔助使用 → 旁白 → 指令: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands`
+- 輔助使用 → 旁白 → 指令 → 指令: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands#CustomizeCommands`
+- 輔助使用 → 旁白 → 指令 → 所有指令: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/AllCommands`
+- 輔助使用 → 旁白 → 指令 → 所有指令 → 所有指令: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/AllCommands#AllCommands`
+- 輔助使用 → 旁白 → 指令 → 點字鍵盤輸入: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/BrailleKeyboardInput`
+- 輔助使用 → 旁白 → 指令 → 點字鍵盤輸入 → 點字鍵盤輸入: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/BrailleKeyboardInput#BrailleKeyboardInput`
+- 輔助使用 → 旁白 → 指令 → 觸控手勢: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/TouchGestures`
+- 輔助使用 → 旁白 → 指令 → 觸控手勢 → 觸控手勢: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/TouchGestures#TouchGestures`
+- 輔助使用 → 旁白 → 指令 → 鍵盤快速鍵: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/KeyboardShortcuts`
+- 輔助使用 → 旁白 → 指令 → 鍵盤快速鍵 → 鍵盤快速鍵: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/KeyboardShortcuts#KeyboardShortcuts`
+- 輔助使用 → 旁白 → 指令 → 手寫: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/Handwriting`
+- 輔助使用 → 旁白 → 指令 → 手寫 → 手寫: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/Handwriting#Handwriting`
+- 輔助使用 → 旁白 → 指令 → 點字螢幕輸入: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/BrailleScreenInput`
+- 輔助使用 → 旁白 → 指令 → 點字螢幕輸入 → 點字螢幕輸入: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/BrailleScreenInput#BrailleScreenInput`
+- 輔助使用 → 旁白 → 指令 → 重置「旁白」指令: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands#ResetVoiceOverCommands`
+- 輔助使用 → 旁白 → 指令 → 切換手勢慣用手: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands#SWITCH_GESTURE_HANDEDNESS`
+- 輔助使用 → 旁白 → 活動: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/activities`
+- 輔助使用 → 旁白 → 活動 → 活動: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/activities#activities`
+- 輔助使用 → 旁白 → 活動 → 程式設計: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/activities/Programming`
+- 輔助使用 → 旁白 → 活動 → 程式設計 → 程式設計: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/activities/Programming#Programming`
+- 輔助使用 → 旁白 → 活動 → 加入活動⋯: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/activities/New`
+- 輔助使用 → 旁白 → 活動 → 加入活動⋯ → 加入活動⋯: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/activities/New#New`
+- 輔助使用 → 旁白 → 轉輪: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions`
+- 輔助使用 → 旁白 → 轉輪 → 轉輪: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#RotorActions`
+- 輔助使用 → 旁白 → 轉輪 → 轉輪項目: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions/WebRotor`
+- 輔助使用 → 旁白 → 轉輪 → 轉輪項目 → 轉輪項目: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions/WebRotor#WebRotor`
+- 輔助使用 → 旁白 → 轉輪 → 以項目更改轉輪: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#STICKY_ROTOR_TITLE`
+- 輔助使用 → 旁白 → 轉輪 → 編輯主畫面上的App: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#editApps`
+- 輔助使用 → 旁白 → 轉輪 → 直接觸控App: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions/apps`
+- 輔助使用 → 旁白 → 轉輪 → 直接觸控App → 直接觸控App: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions/apps#apps`
+- 輔助使用 → 旁白 → 輸入: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions`
+- 輔助使用 → 旁白 → 輸入 → 輸入: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#TypingOptions`
+- 輔助使用 → 旁白 → 輸入 → 輸入樣式: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_MODE_TITLE`
+- 輔助使用 → 旁白 → 輸入 → 輸入樣式 → 輸入樣式: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_MODE_TITLE#TYPING_MODE_TITLE`
+- 輔助使用 → 旁白 → 輸入 → 音標回饋: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE`
+- 輔助使用 → 旁白 → 輸入 → 音標回饋 → 音標回饋: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_TITLE`
+- 輔助使用 → 旁白 → 輸入 → 輸入回饋: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_FEEDBACK`
+- 輔助使用 → 旁白 → 輸入 → 輸入回饋 → 輸入回饋: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_FEEDBACK#TYPING_FEEDBACK`
+- 輔助使用 → 旁白 → 輸入 → 變更鍵: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS`
+- 輔助使用 → 旁白 → 輸入 → 變更鍵 → 變更鍵: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS#MODIFIER_KEYS`
+- 輔助使用 → 旁白 → 輸入 → 鍵盤互動時間: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/KEYBOARD_TIMING_TIMEOUT`
+- 輔助使用 → 旁白 → 輸入 → 鍵盤互動時間 → 鍵盤互動時間: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/KEYBOARD_TIMING_TIMEOUT#KEYBOARD_TIMING_TIMEOUT`
+- 輔助使用 → 旁白 → 導覽影像: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages`
+- 輔助使用 → 旁白 → 導覽影像 → 導覽影像: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#IncludeUnlabeledImages`
+- 輔助使用 → 旁白 → 大型游標: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CursorStyle`
+- 輔助使用 → 旁白 → 字幕面板: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CaptionPanel`
+- 輔助使用 → 旁白 → 點兩下逾時: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/DOUBLE_TAP_INTERVAL_TITLE`
+- 輔助使用 → 旁白 → 點兩下逾時 → 點兩下逾時: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/DOUBLE_TAP_INTERVAL_TITLE#NumericalPreferencePickerGroupIdentifier`
+- 輔助使用 → 旁白 → 導覽樣式: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NavigationStyle`
+- 輔助使用 → 旁白 → 導覽樣式 → 導覽樣式: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NavigationStyle#NavigationStyle`
+- 輔助使用 → 旁白 → 快速設定: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings`
+- 輔助使用 → 旁白 → 快速設定 → 快速設定: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#QuickSettings`
+- 輔助使用 → 旁白 → 旁白辨識: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver`
+- 輔助使用 → 旁白 → 旁白辨識 → 旁白辨識: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver#NeuralVoiceOver`
+- 輔助使用 → 旁白 → 旁白辨識 → 影像描述: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_IMAGE_DESCRIPTIONS`
+- 輔助使用 → 旁白 → 旁白辨識 → 影像描述 → 影像描述: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_IMAGE_DESCRIPTIONS#VO_IMAGE_DESCRIPTIONS`
+- 輔助使用 → 旁白 → 旁白辨識 → 影像描述 → 敏感性內容輸出: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_IMAGE_DESCRIPTIONS#SensitiveContentGroup`
+- 輔助使用 → 旁白 → 旁白辨識 → 影像描述 → 其他語言: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_IMAGE_DESCRIPTIONS/AdditionalLanguages`
+- 輔助使用 → 旁白 → 旁白辨識 → 影像描述 → 其他語言 → 其他語言: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_IMAGE_DESCRIPTIONS/AdditionalLanguages#AdditionalLanguages`
+- 輔助使用 → 旁白 → 旁白辨識 → 影像描述 → 套用到App: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_IMAGE_DESCRIPTIONS/apps`
+- 輔助使用 → 旁白 → 旁白辨識 → 影像描述 → 套用到App → 套用到App: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_IMAGE_DESCRIPTIONS/apps#apps`
+- 輔助使用 → 旁白 → 旁白辨識 → 螢幕辨識: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_SCREEN_RECOGNITION`
+- 輔助使用 → 旁白 → 旁白辨識 → 螢幕辨識 → 螢幕辨識: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_SCREEN_RECOGNITION#VO_SCREEN_RECOGNITION`
+- 輔助使用 → 旁白 → 旁白辨識 → 螢幕辨識 → 套用到App: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_SCREEN_RECOGNITION/apps`
+- 輔助使用 → 旁白 → 旁白辨識 → 螢幕辨識 → 套用到App → 套用到App: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_SCREEN_RECOGNITION/apps#apps`
+- 輔助使用 → 旁白 → 旁白辨識 → 文字辨識: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver#VO_OCR`
+- 輔助使用 → 旁白 → 旁白辨識 → 回饋樣式: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_FEEDBACK`
+- 輔助使用 → 旁白 → 旁白辨識 → 回饋樣式 → 回饋樣式: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_FEEDBACK#VO_FEEDBACK`
+- 輔助使用 → 旁白 → 旁白辨識 → 即時辨識: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_REAL_WORLD_DETECTION`
+- 輔助使用 → 旁白 → 所選範圍前的延遲時間: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#VoiceOverDelayUntilSpeak`
+- 輔助使用 → 旁白 → 捏兩下逾時: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#DOUBLE_TAP_INTERVAL`
+- 輔助使用 → 縮放: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE`
+- 輔助使用 → 縮放 → 隨焦點移動: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomShouldFollowFocus`
+- 輔助使用 → 縮放 → 智慧輸入: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomAlwaysUseWindowZoomForTyping`
+- 輔助使用 → 縮放 → 鍵盤快速鍵: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts`
+- 輔助使用 → 縮放 → 鍵盤快速鍵 → 鍵盤快速鍵: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomEnableKeyboardShortcuts`
+- 輔助使用 → 縮放 → 鍵盤快速鍵 → 調整縮放層級: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutAdjustZoomLevel`
+- 輔助使用 → 縮放 → 鍵盤快速鍵 → 切換縮放: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutToggleZoom`
+- 輔助使用 → 縮放 → 鍵盤快速鍵 → 移動縮放視窗: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutPanZoom`
+- 輔助使用 → 縮放 → 鍵盤快速鍵 → 調整縮放視窗大小: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutResizeZoomWindow`
+- 輔助使用 → 縮放 → 鍵盤快速鍵 → 切換縮放區域: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutSwitchZoomMode`
+- 輔助使用 → 縮放 → 鍵盤快速鍵 → 暫時切換縮放: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutTempToggleZoom`
+- 輔助使用 → 縮放 → 鍵盤快速鍵 → 透過滾輪縮放: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutScrollWheel`
+- 輔助使用 → 縮放 → 使用觸控式軌跡板手勢來縮放: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomWithTrackpad`
+- 輔助使用 → 縮放 → 縮放控制器: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug`
+- 輔助使用 → 縮放 → 縮放控制器 → 縮放控制器: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug#ZoomSlug`
+- 輔助使用 → 縮放 → 縮放控制器 → 顯示控制器: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug#ZOOM_DETACH_CONTROLS`
+- 輔助使用 → 縮放 → 縮放控制器 → 點一下: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_CONTROLLER_ACTION_SINGLE_TAP`
+- 輔助使用 → 縮放 → 縮放控制器 → 點一下 → 點一下: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_CONTROLLER_ACTION_SINGLE_TAP#ZOOM_CONTROLLER_ACTION_SINGLE_TAP`
+- 輔助使用 → 縮放 → 縮放控制器 → 點兩下: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_CONTROLLER_ACTION_DOUBLE_TAP`
+- 輔助使用 → 縮放 → 縮放控制器 → 點兩下 → 點兩下: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_CONTROLLER_ACTION_DOUBLE_TAP#ZOOM_CONTROLLER_ACTION_DOUBLE_TAP`
+- 輔助使用 → 縮放 → 縮放控制器 → 點三下: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_CONTROLLER_ACTION_TRIPLE_TAP`
+- 輔助使用 → 縮放 → 縮放控制器 → 點三下 → 點三下: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_CONTROLLER_ACTION_TRIPLE_TAP#ZOOM_CONTROLLER_ACTION_TRIPLE_TAP`
+- 輔助使用 → 縮放 → 縮放控制器 → 調整縮放層級: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug#ZOOM_TAP_AND_SLIDE_TO_ADJUST_ZOOM_LEVEL`
+- 輔助使用 → 縮放 → 縮放控制器 → 顏色: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/CONTROLLER_COLOR`
+- 輔助使用 → 縮放 → 縮放控制器 → 顏色 → 顏色: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/CONTROLLER_COLOR#CONTROLLER_COLOR`
+- 輔助使用 → 縮放 → 縮放控制器 → 閒置不透明度: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_IDLE_SLUG_OPACITY`
+- 輔助使用 → 縮放 → 縮放控制器 → 閒置不透明度 → 閒置不透明度: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_IDLE_SLUG_OPACITY#ZOOM_IDLE_SLUG_OPACITY`
+- 輔助使用 → 縮放 → 縮放區域: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode`
+- 輔助使用 → 縮放 → 縮放區域 → 縮放區域: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode#ZoomLensMode`
+- 輔助使用 → 縮放 → 最大縮放層級: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomPreferredMaxZoomLevel`
+- 輔助使用 → 縮放 → 縮放濾鏡: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomFilter`
+- 輔助使用 → 縮放 → 縮放濾鏡 → 縮放濾鏡: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomFilter#ZoomFilter`
+- 輔助使用 → 縮放 → 鏡像輸出時顯示: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomShowWhileMirroring`
+- 輔助使用 → 縮放 → 將縮放設為預設的焦點: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomAsDefaultDial`
+- 輔助使用 → 縮放 → 使用數位旋鈕來縮放: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomStealsCrownTurns`
+- 輔助使用 → 縮放 → 邊線顏色: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#MagnifyingGlassBorderColor`
+- 輔助使用 → 懸浮文字: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE`
+- 輔助使用 → 懸浮文字 → 顯示模式: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextDisplayMode`
+- 輔助使用 → 懸浮文字 → 顯示模式 → 顯示模式: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextDisplayMode#HoverTextDisplayMode`
+- 輔助使用 → 懸浮文字 → 捲動速度: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextScrollSpeed`
+- 輔助使用 → 懸浮文字 → 捲動速度 → 捲動速度: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextScrollSpeed#HoverTextScrollSpeed`
+- 輔助使用 → 懸浮文字 → 字體: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextStyle`
+- 輔助使用 → 懸浮文字 → 字體 → 字體: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextStyle#HoverTextStyle`
+- 輔助使用 → 懸浮文字 → 大小: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextSize`
+- 輔助使用 → 懸浮文字 → 大小 → 大小: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextSize#HoverTextSize`
+- 輔助使用 → 懸浮文字 → 顏色: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE#HOVER_TEXT_COLOR_OPTIONS`
+- 輔助使用 → 懸浮文字 → 啟用變更鍵: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextActivationModifier`
+- 輔助使用 → 懸浮文字 → 啟用變更鍵 → 啟用變更鍵: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextActivationModifier#HoverTextActivationModifier`
+- 輔助使用 → 懸浮文字 → 啟用鎖定: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE#HOVER_TEXT_ACTIVATION_LOCK`
+- 輔助使用 → 鍵盤與輸入: `prefs:root=ACCESSIBILITY&path=KEYBOARDS`
+- 輔助使用 → 鍵盤與輸入 → 懸浮輸入: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING`
+- 輔助使用 → 鍵盤與輸入 → 懸浮輸入 → 顯示模式: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING/HoverTextTypingDisplayMode`
+- 輔助使用 → 鍵盤與輸入 → 懸浮輸入 → 顯示模式 → 顯示模式: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING/HoverTextTypingDisplayMode#HoverTextTypingDisplayMode`
+- 輔助使用 → 鍵盤與輸入 → 懸浮輸入 → 字體: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING/HoverTypingStyle`
+- 輔助使用 → 鍵盤與輸入 → 懸浮輸入 → 字體 → 字體: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING/HoverTypingStyle#HoverTypingStyle`
+- 輔助使用 → 鍵盤與輸入 → 懸浮輸入 → 大小: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING/HoverTextSize`
+- 輔助使用 → 鍵盤與輸入 → 懸浮輸入 → 大小 → 大小: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING/HoverTextSize#HoverTextSize`
+- 輔助使用 → 鍵盤與輸入 → 懸浮輸入 → 輸入顏色: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TYPING_COLOR_OPTIONS`
+- 輔助使用 → 鍵盤與輸入 → 懸浮輸入 → 顯示顏色: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TYPING_DISPLAY_COLOR_OPTIONS`
+- 輔助使用 → 鍵盤與輸入 → 懸浮輸入 → 文字顏色: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TEXT_TEXT_COLOR`
+- 輔助使用 → 鍵盤與輸入 → 懸浮輸入 → 插入點顏色: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TEXT_INSERTION_POINT_COLOR`
+- 輔助使用 → 鍵盤與輸入 → 懸浮輸入 → 背景顏色: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TEXT_BACKGROUND_COLOR`
+- 輔助使用 → 鍵盤與輸入 → 懸浮輸入 → 邊線顏色: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TEXT_BORDER_COLOR`
+- 輔助使用 → 鍵盤與輸入 → 懸浮輸入 → 自動修正的字詞顏色: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TYPING_AUTOCORRECTED_WORD_COLOR`
+- 輔助使用 → 鍵盤與輸入 → 懸浮輸入 → 拼錯的字詞顏色: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TYPING_MISSPELLED_WORD`
+- 輔助使用 → 鍵盤與輸入 → 懸浮輸入 → 重置為預設值: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TYPING_RESET_BUTTON`
+- 輔助使用 → 鍵盤與輸入 → 全面鍵盤操控: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS`
+- 輔助使用 → 鍵盤與輸入 → 全面鍵盤操控 → 全面鍵盤操控: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAEnabledSwitch`
+- 輔助使用 → 鍵盤與輸入 → 全面鍵盤操控 → 指令: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKACommands`
+- 輔助使用 → 鍵盤與輸入 → 全面鍵盤操控 → 指令 → 指令: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKACommands#FKACommands`
+- 輔助使用 → 鍵盤與輸入 → 全面鍵盤操控 → 自動隱藏: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKAFocusRingTimeout`
+- 輔助使用 → 鍵盤與輸入 → 全面鍵盤操控 → 自動隱藏 → 自動隱藏: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKAFocusRingTimeout#FKAFocusRingTimeout`
+- 輔助使用 → 鍵盤與輸入 → 全面鍵盤操控 → 增加大小: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKALargeFocusRingEnabled`
+- 輔助使用 → 鍵盤與輸入 → 全面鍵盤操控 → 高對比: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKAFocusRingHighContrastEnabled`
+- 輔助使用 → 鍵盤與輸入 → 全面鍵盤操控 → 顏色: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKAFocusRingColor`
+- 輔助使用 → 鍵盤與輸入 → 全面鍵盤操控 → 顏色 → 顏色: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKAFocusRingColor#FKAFocusRingColor`
+- 輔助使用 → 鍵盤與輸入 → 按鍵重複: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT`
+- 輔助使用 → 鍵盤與輸入 → 按鍵重複 → 按鍵重複: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatEnabled`
+- 輔助使用 → 鍵盤與輸入 → 按鍵重複 → 按鍵重複間隔: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatInterval`
+- 輔助使用 → 鍵盤與輸入 → 按鍵重複 → 重複前暫延: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatDelay`
+- 輔助使用 → 鍵盤與輸入 → 按鍵暫留: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS`
+- 輔助使用 → 鍵盤與輸入 → 按鍵暫留 → 按鍵暫留: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysEnabled`
+- 輔助使用 → 鍵盤與輸入 → 按鍵暫留 → 使用Shift鍵切換: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysShiftToggle`
+- 輔助使用 → 鍵盤與輸入 → 按鍵暫留 → 提示聲: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysSound`
+- 輔助使用 → 鍵盤與輸入 → 慢速按鍵: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/SLOW_KEYS`
+- 輔助使用 → 鍵盤與輸入 → 慢速按鍵 → 慢速按鍵: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/SLOW_KEYS#NumericalPreferenceSwitcherIdentifier`
+- 輔助使用 → 鍵盤與輸入 → 軟體鍵盤: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#SOFTWARE_KEYBOARDS`
+- 輔助使用 → 鍵盤與輸入 → 顯示小寫按鍵: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#LOWERCASE_KEYBOARD`
+- 輔助使用 → 顯示與文字大小: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT`
+- 輔助使用 → 顯示與文字大小 → 粗體文字: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#ENHANCE_TEXT_LEGIBILITY`
+- 輔助使用 → 顯示與文字大小 → 放大文字: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/LARGER_TEXT`
+- 輔助使用 → 顯示與文字大小 → 放大文字 → 放大文字: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/LARGER_TEXT#LARGER_TEXT`
+- 輔助使用 → 顯示與文字大小 → 放大文字 → 更大的輔助使用字體大小: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/LARGER_TEXT#LARGER_DYNAMIC_TYPE_SWITCH`
+- 輔助使用 → 顯示與文字大小 → 按鈕形狀: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#BUTTON_SHAPES`
+- 輔助使用 → 顯示與文字大小 → 開啟/關閉標籤: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#OnOffLabels`
+- 輔助使用 → 顯示與文字大小 → 減少透明度: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#REDUCE_TRANSPARENCY`
+- 輔助使用 → 顯示與文字大小 → 增加對比: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#TEXT_COLORS_DARKEN`
+- 輔助使用 → 顯示與文字大小 → 不以顏色來區分: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#DIFFERENTIATE_WITHOUT_COLOR`
+- 輔助使用 → 顯示與文字大小 → 橫書文字優先: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#PREFER_HORIZONTAL_TEXT`
+- 輔助使用 → 顯示與文字大小 → 智慧型反相: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#SMART_INVERT`
+- 輔助使用 → 顯示與文字大小 → 經典反相: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#CLASSIC_INVERT`
+- 輔助使用 → 顯示與文字大小 → 顏色濾鏡: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR`
+- 輔助使用 → 顯示與文字大小 → 顏色濾鏡 → 顏色濾鏡: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR#DISPLAY_FILTER_COLOR`
+- 輔助使用 → 顯示與文字大小 → 顏色濾鏡 → 套用於影像透視: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR#VIDEO_PASSTHROUGH`
+- 輔助使用 → 顯示與文字大小 → 降低白點值: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#WHITE_POINT`
+- 輔助使用 → 顯示與文字大小 → 自動調整亮度: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#AUTO_BRIGHTNESS`
+- 輔助使用 → 顯示與文字大小 → 忽略眼球運動以穩定影像: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#STATIC_FOVEATION_TEXT`
+- 輔助使用 → 顯示與文字大小 → 自動對齊螢幕: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#AUTO_IPD_TEXT`
+- 輔助使用 → 顯示與文字大小 → 增加注視狀態: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#INCREASE_FOCUS_STATE_TEXT`
+- 輔助使用 → 動態效果: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE`
+- 輔助使用 → 動態效果 → 減少動態效果: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION`
+- 輔助使用 → 動態效果 → 自動播放訊息效果: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#ReduceMotionAutoplayMessagesEffects`
+- 輔助使用 → 動態效果 → 自動播放動畫式影像: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION_AUTOPLAY_ANIMATED_IMAGES`
+- 輔助使用 → 動態效果 → 自動播放影片預覽: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION_AUTOPLAY_VIDEO_PREVIEWS`
+- 輔助使用 → 動態效果 → 偏好不閃爍的游標: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#PREFER_NONBLINKING_CURSOR`
+- 輔助使用 → 動態效果 → 限制影格率: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REFRESH_RATE`
+- 輔助使用 → 動態效果 → 調暗閃爍燈光: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#PHOTOSENSITIVE_MITIGATION`
+- 輔助使用 → 動態效果 → 顯示車輛動態提示: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#MotionCues`
+- 輔助使用 → 語音內容: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE`
+- 輔助使用 → 語音內容 → 朗讀所選範圍: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QUICK_SPEAK_TITLE`
+- 輔助使用 → 語音內容 → 朗讀螢幕: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpeakThisEnabled`
+- 輔助使用 → 語音內容 → 語音控制器: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController`
+- 輔助使用 → 語音內容 → 語音控制器 → 語音控制器: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController#SpeechController`
+- 輔助使用 → 語音內容 → 語音控制器 → 長時間按下: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController/SpeechControllerLongPressAction`
+- 輔助使用 → 語音內容 → 語音控制器 → 長時間按下 → 長時間按下: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController/SpeechControllerLongPressAction#SpeechControllerLongPressAction`
+- 輔助使用 → 語音內容 → 語音控制器 → 點兩下: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController/SpeechControllerDoubleTapAction`
+- 輔助使用 → 語音內容 → 語音控制器 → 點兩下 → 點兩下: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController/SpeechControllerDoubleTapAction#SpeechControllerDoubleTapAction`
+- 輔助使用 → 語音內容 → 語音控制器 → 閒置不透明度: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController/SpeechControllerIdleOpacity`
+- 輔助使用 → 語音內容 → 語音控制器 → 閒置不透明度 → 閒置不透明度: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController/SpeechControllerIdleOpacity#SpeechControllerIdleOpacity`
+- 輔助使用 → 語音內容 → 語音控制器 → 自訂滑鼠按鈕: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController#CustomizeMouseButtons`
+- 輔助使用 → 語音內容 → 反白內容: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/QuickSpeakHighlight`
+- 輔助使用 → 語音內容 → 反白內容 → 反白內容: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/QuickSpeakHighlight#QuickSpeakHighlight`
+- 輔助使用 → 語音內容 → 反白內容 → 句子反白樣式: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/QuickSpeakHighlight#SENTENCE_HIGHLIGHT_STYLE`
+- 輔助使用 → 語音內容 → 反白內容 → 反白顏色: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/QuickSpeakHighlight#COLOR_CHOICE`
+- 輔助使用 → 語音內容 → 輸入回饋: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback`
+- 輔助使用 → 語音內容 → 輸入回饋 → 輸入回饋: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#TypingFeedback`
+- 輔助使用 → 語音內容 → 輸入回饋 → 字元: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#LETTER`
+- 輔助使用 → 語音內容 → 輸入回饋 → 字元提示: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#PhoneticFeedback`
+- 輔助使用 → 語音內容 → 輸入回饋 → 朗讀字詞: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#WORD_FEEDBACK`
+- 輔助使用 → 語音內容 → 輸入回饋 → 朗讀自動文字: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#SPEAK_AUTOCORRECTIONS`
+- 輔助使用 → 語音內容 → 輸入回饋 → 按住來朗讀預測字詞: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#QUICKTYPE_WORD_FEEDBACK`
+- 輔助使用 → 語音內容 → 聲音: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/QuickSpeakAccents`
+- 輔助使用 → 語音內容 → 聲音 → 聲音: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/QuickSpeakAccents#QuickSpeakAccents`
+- 輔助使用 → 語音內容 → 預設語言: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpokenContentDefaultLanguage`
+- 輔助使用 → 語音內容 → 預設語言 → 預設語言: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpokenContentDefaultLanguage#SpokenContentDefaultLanguage`
+- 輔助使用 → 語音內容 → 偵測語言: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#LANGUAGE_DETECTION`
+- 輔助使用 → 語音內容 → 朗讀速度: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakRate`
+- 輔助使用 → 語音內容 → 發音: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/VoiceOverSettings`
+- 輔助使用 → 語音內容 → 發音 → 發音: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/VoiceOverSettings#VoiceOverSettings`
+- 輔助使用 → 語音內容 → 空間化語音: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SPATIALIZE_SPEECH`
+- 輔助使用 → 口述影像: `prefs:root=ACCESSIBILITY&path=DESCRIPTIVE_VIDEO`
+- 輔助使用 → 互動: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE`
+- 輔助使用 → 互動 → 輔助觸控: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE`
+- 輔助使用 → 互動 → 輔助觸控 → 輔助觸控: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#EnableAssistiveTouchSpecifier`
+- 輔助使用 → 互動 → 輔助觸控 → 自訂最上層選單: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize`
+- 輔助使用 → 互動 → 輔助觸控 → 自訂最上層選單 → 自訂最上層選單: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize#AssistiveTouchCustomize`
+- 輔助使用 → 互動 → 輔助觸控 → 自訂最上層選單 → 點一下圖像來更改：: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize#ASTStepperCell`
+- 輔助使用 → 互動 → 輔助觸控 → 點一下: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/TapSpecifier`
+- 輔助使用 → 互動 → 輔助觸控 → 點一下 → 點一下: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/TapSpecifier#TapSpecifier`
+- 輔助使用 → 互動 → 輔助觸控 → 點兩下: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier`
+- 輔助使用 → 互動 → 輔助觸控 → 點兩下 → 點兩下: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier#DoubleTapSpecifier`
+- 輔助使用 → 互動 → 輔助觸控 → 點兩下 → 點兩下逾時: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier/ASTDoubleTapTimeoutSpecifier`
+- 輔助使用 → 互動 → 輔助觸控 → 點兩下 → 點兩下逾時 → 點兩下逾時: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier/ASTDoubleTapTimeoutSpecifier#ASTDoubleTapTimeoutSpecifier`
+- 輔助使用 → 互動 → 輔助觸控 → 長時間按下: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier`
+- 輔助使用 → 互動 → 輔助觸控 → 長時間按下 → 長時間按下: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier#LongPressSpecifier`
+- 輔助使用 → 互動 → 輔助觸控 → 長時間按下 → 長時間按下持續時間: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier/ASTLongPressDurationSpecifier`
+- 輔助使用 → 互動 → 輔助觸控 → 長時間按下 → 長時間按下持續時間 → 長時間按下持續時間: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier/ASTLongPressDurationSpecifier#ASTLongPressDurationSpecifier`
+- 輔助使用 → 互動 → 輔助觸控 → 3D觸控: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#ForceTouchSpecifier`
+- 輔助使用 → 互動 → 輔助觸控 → 新增手勢⋯: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/CreateCustomGesture`
+- 輔助使用 → 互動 → 輔助觸控 → 新增手勢⋯ → 新增手勢⋯: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/CreateCustomGesture#CreateCustomGesture`
+- 輔助使用 → 互動 → 輔助觸控 → 閒置不透明度: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/IdleOpacity`
+- 輔助使用 → 互動 → 輔助觸控 → 閒置不透明度 → 閒置不透明度: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/IdleOpacity#IdleOpacity`
+- 輔助使用 → 互動 → 輔助觸控 → 虛擬觸控式軌跡板: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID`
+- 輔助使用 → 互動 → 輔助觸控 → 虛擬觸控式軌跡板 → 軌跡速度: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID#TRACKING_SPEED_SLIDER`
+- 輔助使用 → 互動 → 輔助觸控 → 虛擬觸控式軌跡板 → 自然捲動: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID#NATURAL_SCROLLING`
+- 輔助使用 → 互動 → 輔助觸控 → 虛擬觸控式軌跡板 → 捲動速度: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID#SCROLL_SPEED_SLIDER`
+- 輔助使用 → 互動 → 輔助觸控 → 虛擬觸控式軌跡板 → 邊線: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID#BORDER`
+- 輔助使用 → 互動 → 輔助觸控 → 虛擬觸控式軌跡板 → 邊線: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID/BORDER`
+- 輔助使用 → 互動 → 輔助觸控 → 虛擬觸控式軌跡板 → 邊線 → 顏色: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID/BORDER#COLOR`
+- 輔助使用 → 互動 → 輔助觸控 → 虛擬觸控式軌跡板 → 邊線 → 不透明度: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID/BORDER#OPACITY`
+- 輔助使用 → 互動 → 輔助觸控 → 虛擬觸控式軌跡板 → 邊線 → 邊線寬度: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID/BORDER#BORDER_WIDTH`
+- 輔助使用 → 互動 → 輔助觸控 → 虛擬觸控式軌跡板 → 觸控式軌跡板: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID#TRACKPAD`
+- 輔助使用 → 互動 → 輔助觸控 → 虛擬觸控式軌跡板 → 觸控式軌跡板: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID/TRACKPAD`
+- 輔助使用 → 互動 → 輔助觸控 → 虛擬觸控式軌跡板 → 觸控式軌跡板 → 顏色: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID/TRACKPAD#COLOR`
+- 輔助使用 → 互動 → 輔助觸控 → 虛擬觸控式軌跡板 → 觸控式軌跡板 → 不透明度: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID/TRACKPAD#OPACITY`
+- 輔助使用 → 互動 → 輔助觸控 → 裝置: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices`
+- 輔助使用 → 互動 → 輔助觸控 → 裝置 → 裝置: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices#AssistiveTouchMouseDevices`
+- 輔助使用 → 互動 → 輔助觸控 → 裝置 → 藍牙裝置⋯: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices/BluetoothDevicesScanning`
+- 輔助使用 → 互動 → 輔助觸控 → 裝置 → 藍牙裝置⋯ → 藍牙裝置⋯: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices/BluetoothDevicesScanning#BluetoothDevicesScanning`
+- 輔助使用 → 互動 → 輔助觸控 → 模擬滑鼠: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseKeys`
+- 輔助使用 → 互動 → 輔助觸控 → 模擬滑鼠 → 模擬滑鼠: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseKeys#AssistiveTouchMouseKeys`
+- 輔助使用 → 互動 → 輔助觸控 → 模擬滑鼠 → Option鍵切換: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseKeys#OptionKeyToggle`
+- 輔助使用 → 互動 → 輔助觸控 → 模擬滑鼠 → 使用主要鍵盤: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseKeys#UsePrimaryKeyboard`
+- 輔助使用 → 互動 → 輔助觸控 → 模擬滑鼠 → 開始前的延遲: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseKeys#InitialDelay`
+- 輔助使用 → 互動 → 輔助觸控 → 模擬滑鼠 → 最快速度: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseKeys#MaximumSpeed`
+- 輔助使用 → 互動 → 輔助觸控 → 顯示螢幕鍵盤: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AlwaysShowSoftwareKeyboard`
+- 輔助使用 → 互動 → 輔助觸控 → 永遠顯示選單: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AlwaysShowMenu`
+- 輔助使用 → 互動 → 輔助觸控 → 點按聲: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#MouseClickSounds`
+- 輔助使用 → 互動 → 輔助觸控 → 停留控制: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellEnabledSpecifier`
+- 輔助使用 → 互動 → 輔助觸控 → 動作誤差: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellToleranceSpecifier`
+- 輔助使用 → 互動 → 輔助觸控 → 動作誤差 → 動作誤差: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellToleranceSpecifier#DwellToleranceSpecifier`
+- 輔助使用 → 互動 → 輔助觸控 → 軌跡敏感度: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#TouchSpeed`
+- 輔助使用 → 互動 → 輔助觸控 → 後備動作: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellAutorevertSpecifier`
+- 輔助使用 → 互動 → 輔助觸控 → 後備動作 → 後備動作: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellAutorevertSpecifier#DwellAutorevertSpecifier`
+- 輔助使用 → 互動 → 輔助觸控 → 熱點: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellCornersSpecifier`
+- 輔助使用 → 互動 → 輔助觸控 → 熱點 → 熱點: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellCornersSpecifier#DwellCornersSpecifier`
+- 輔助使用 → 互動 → 輔助觸控 → 熱點 → 左上: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellCornersSpecifier#TopLeft`
+- 輔助使用 → 互動 → 輔助觸控 → 熱點 → 右上: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellCornersSpecifier#TopRight`
+- 輔助使用 → 互動 → 輔助觸控 → 熱點 → 左下: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellCornersSpecifier#BottomLeft`
+- 輔助使用 → 互動 → 輔助觸控 → 熱點 → 右下: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellCornersSpecifier#BottomRight`
+- 輔助使用 → 互動 → 輔助觸控 → 擴大預測字詞範圍: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellExtendedPredictionsSpecifier`
+- 輔助使用 → 互動 → 輔助觸控 → 停留控制逾時: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellTimeoutSpecifier`
+- 輔助使用 → 互動 → 輔助觸控 → 透過輔助觸控確認: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#APPLE_PAY_SWITCH`
+- 輔助使用 → 互動 → 輔助觸控 → 執行觸控手勢: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#MouseBehavesLikeFinger`
+- 輔助使用 → 互動 → 輔助觸控 → 使用遊戲控制器: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#EnableAssistiveTouchGameControllerSpecifier`
+- 輔助使用 → 互動 → 輔助觸控 → 聲音動作: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/SOUND_ACTIONS`
+- 輔助使用 → 互動 → 輔助觸控 → 聲音動作: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#SOUND_ACTIONS`
+- 輔助使用 → 互動 → 停留控制: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL`
+- 輔助使用 → 互動 → 停留控制 → 停留控制: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL#DWELL_CONTROL_TITLE`
+- 輔助使用 → 互動 → 停留控制 → 目標: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL/DWELL_CONTROL_TARGET`
+- 輔助使用 → 互動 → 停留控制 → 動作誤差: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL/DWELL_MOVEMENT_TOLERANCE`
+- 輔助使用 → 互動 → 停留控制 → 反白控制項目: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL#DWELL_HIGHLIGHT_CONTROL_TITLE`
+- 輔助使用 → 互動 → 停留控制 → 媒體播放期間暫停: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL#DWELL_PAUSE_FOR_MEDIA_PLAYBACK_TITLE`
+- 輔助使用 → 互動 → 停留控制 → 顯示捲動控制項目: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL#AXDwellQuickScrollSpecifierID`
+- 輔助使用 → 互動 → 停留控制 → 選單追蹤: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL#AXDwellFollowSpecifierID`
+- 輔助使用 → 互動 → 停留控制: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/#DwellEnabledSpecifier`
+- 輔助使用 → 互動 → 螢幕上方觸控: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#REACHABILITY`
+- 輔助使用 → 互動 → 觸覺回饋觸控: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch`
+- 輔助使用 → 互動 → 觸覺回饋觸控 → 觸覺回饋觸控: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#ForceTouch`
+- 輔助使用 → 互動 → 觸覺回饋觸控 → 3D觸控: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#ForceTouchAccessibilityMainSwitch`
+- 輔助使用 → 互動 → 觸覺回饋觸控 → 3D觸控敏感度: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#FourceTouchSensitivityGroupIdentifier`
+- 輔助使用 → 互動 → 觸覺回饋觸控 → 觸控持續時間: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#timingGroup`
+- 輔助使用 → 互動 → 觸覺回饋觸控 → 觸控持續時間測試: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#FourceTouchSensitivityTestGroupIdentifier`
+- 輔助使用 → 互動 → 觸控調節: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS`
+- 輔助使用 → 互動 → 觸控調節 → 觸控調節: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#TOUCH_ACCOMMODATIONS_SWITCHER`
+- 輔助使用 → 互動 → 觸控調節 → 按住持續時間: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#HoldDuration`
+- 輔助使用 → 互動 → 觸控調節 → 忽略重複: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#IgnoreRepeat`
+- 輔助使用 → 互動 → 觸控調節 → 輕點輔助: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#Tap%20Assistance`
+- 輔助使用 → 互動 → 點一下喚醒: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TAP_TO_WAKE_TITLE`
+- 輔助使用 → 互動 → 點一下或滑動來喚醒: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TAP_TOUCH_TO_WAKE_TITLE`
+- 輔助使用 → 互動 → 晃動來還原: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#SHAKE_TO_UNDO`
+- 輔助使用 → 互動 → 震動模式: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#VIBRATION`
+- 輔助使用 → 互動 → 防止鎖定被用來結束通話: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#LockButtonIgnore`
+- 輔助使用 → 互動 → 來電語音傳送: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING`
+- 輔助使用 → 互動 → 來電語音傳送 → 來電語音傳送: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING`
+- 輔助使用 → 互動 → 來電語音傳送 → 自動接聽來電: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING/callAudioRoutingAutoAnswer`
+- 輔助使用 → 互動 → 來電語音傳送 → 自動接聽來電 → 自動接聽來電: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING/callAudioRoutingAutoAnswer#callAudioRoutingAutoAnswer`
+- 輔助使用 → 互動 → 背面輕點: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/BackTap`
+- 輔助使用 → 互動 → 背面輕點 → 背面輕點: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/BackTap#BackTap`
+- 輔助使用 → 互動 → 背面輕點 → 點兩下: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/BackTap/DoubleTap`
+- 輔助使用 → 互動 → 背面輕點 → 點兩下 → 點兩下: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/BackTap/DoubleTap#DoubleTap`
+- 輔助使用 → 互動 → 背面輕點 → 點三下: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/BackTap/TripleTap`
+- 輔助使用 → 互動 → 背面輕點 → 點三下 → 點三下: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/BackTap/TripleTap#TripleTap`
+- 輔助使用 → 互動 → 指標控制: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer`
+- 輔助使用 → 互動 → 指標控制 → 增加對比: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#PointerIncreaseContrastSpecifier`
+- 輔助使用 → 互動 → 指標控制 → 自動隱藏指標: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#PointerAutoHideSpecifier`
+- 輔助使用 → 互動 → 指標控制 → 顏色: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#PointerColorSpecifier`
+- 輔助使用 → 互動 → 指標控制 → 指標大小: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#PointerSizeSpecifier`
+- 輔助使用 → 互動 → 指標控制 → 指標控制: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#PointerControlEnablingCell`
+- 輔助使用 → 互動 → 指標控制 → 控制: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer/POINTER_CONTROL_CONTROL`
+- 輔助使用 → 互動 → 指標控制 → 顏色: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer/PointerColorSpecifier`
+- 輔助使用 → 互動 → 指標控制 → 顏色 → 邊線寬度: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer/PointerColorSpecifier#PointerStrokeWidth`
+- 輔助使用 → 互動 → 指標控制 → 忽略觸控式軌跡板: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#IgnoreTrackpad`
+- 輔助使用 → 互動 → 指標控制 → 觸控式軌跡板慣性: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#PointerInertia`
+- 輔助使用 → 互動 → 指標控制 → 指標動畫: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#PointerCustomShapes`
+- 輔助使用 → 互動 → 指標控制 → 捲動速度: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#DeviceScrollSpeed`
+- 輔助使用 → 互動 → 向上看來顯示控制中心: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/UPWARDS_HUD`
+- 輔助使用 → 互動 → 向上看來顯示控制中心 → 「控制中心」的垂直位置: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/UPWARDS_HUD#UpwardsHUDPositionSpecifier`
+- 輔助使用 → 互動 → 向上看來顯示控制中心 → 向上看來顯示控制中心: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/UPWARDS_HUD#UpwardsHUDToggleSpecifier`
+- 輔助使用 → 互動 → 聲音動作: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/SOUND_ACTIONS`
+- 輔助使用 → 互動 → 偏好非頭部鎖定的控制項目: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#CAMERA_ANCHOR_ALTERNATIVE_Preference`
+- 輔助使用 → Face ID與螢幕注視: `prefs:root=ACCESSIBILITY&path=FACE_ID`
+- 輔助使用 → Face ID與螢幕注視 → 使用Face ID需要注視螢幕: `prefs:root=ACCESSIBILITY&path=FACE_ID#PearlUnlockAttention`
+- 輔助使用 → Face ID與螢幕注視 → 螢幕注視感知功能: `prefs:root=ACCESSIBILITY&path=FACE_ID#AttentionAware`
+- 輔助使用 → Face ID與螢幕注視 → 成功認證時播放觸覺回饋: `prefs:root=ACCESSIBILITY&path=FACE_ID#PearlSuccessHaptic`
+- 輔助使用 → 切換控制: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle`
+- 輔助使用 → 切換控制 → 切換: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier`
+- 輔助使用 → 切換控制 → 切換 → 切換: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier#SwitchesIdentifier`
+- 輔助使用 → 切換控制 → 切換 → 新增切換⋯: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier/AddSwitchIdentifier`
+- 輔助使用 → 切換控制 → 切換 → 新增切換⋯ → 新增切換⋯: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier/AddSwitchIdentifier#AddSwitchIdentifier`
+- 輔助使用 → 切換控制 → 切換 → 藍牙裝置⋯: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier/BluetoothDevicesIdentifier`
+- 輔助使用 → 切換控制 → 切換 → 藍牙裝置⋯ → 藍牙裝置⋯: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier/BluetoothDevicesIdentifier/BluetoothDevicesIdentifier`
+- 輔助使用 → 切換控制 → 切換 → 略過無效的切換設定: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier#UpwardsHUDToggleSpecifier`
+- 輔助使用 → 切換控制 → 組合: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/RecipesIdentifier`
+- 輔助使用 → 切換控制 → 組合 → 組合: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/RecipesIdentifier#RecipesIdentifier`
+- 輔助使用 → 切換控制 → 組合 → 新增組合⋯: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/RecipesIdentifier/CreateNewRecipe`
+- 輔助使用 → 切換控制 → 組合 → 新增組合⋯ → 新增組合⋯: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/RecipesIdentifier/CreateNewRecipe#CreateNewRecipe`
+- 輔助使用 → 切換控制 → 組合 → 啟動組合: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/RecipesIdentifier/LaunchRecipe`
+- 輔助使用 → 切換控制 → 組合 → 啟動組合 → 啟動組合: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/RecipesIdentifier/LaunchRecipe#LaunchRecipe`
+- 輔助使用 → 切換控制 → 掃描樣式: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier`
+- 輔助使用 → 切換控制 → 掃描樣式 → 掃描樣式: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#ScanningStyleIdentifier`
+- 輔助使用 → 切換控制 → 切換控制模式: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/FirstLaunchScanningModeIdentifier`
+- 輔助使用 → 切換控制 → 切換控制模式 → 切換控制模式: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/FirstLaunchScanningModeIdentifier#FirstLaunchScanningModeIdentifier`
+- 輔助使用 → 切換控制 → 自動掃描時間: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningSpeedIdentifier`
+- 輔助使用 → 切換控制 → 自動掃描時間 → 自動掃描時間: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningSpeedIdentifier#NumericalPreferencePickerGroupIdentifier`
+- 輔助使用 → 切換控制 → 於第一個項目暫停: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/DelayAfterInputIdentifier`
+- 輔助使用 → 切換控制 → 於第一個項目暫停 → 於第一個項目暫停: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/DelayAfterInputIdentifier#NumericalPreferenceSwitcherIdentifier`
+- 輔助使用 → 切換控制 → 循環: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanCyclesIdentifier`
+- 輔助使用 → 切換控制 → 循環 → 循環: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanCyclesIdentifier#ScanCyclesIdentifier`
+- 輔助使用 → 切換控制 → 移動重複項目: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ActionRepeatIdentifier`
+- 輔助使用 → 切換控制 → 移動重複項目 → 移動重複項目: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ActionRepeatIdentifier#NumericalPreferenceSwitcherIdentifier`
+- 輔助使用 → 切換控制 → 切換控制模式: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSelectionGroupIdentifier`
+- 輔助使用 → 切換控制 → 切換控制模式 → 滑動游標: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSelectionGroupIdentifier#POINTER_PICKER_ENABLED`
+- 輔助使用 → 切換控制 → 長時間按下: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/LongPressIdentifier`
+- 輔助使用 → 切換控制 → 長時間按下 → 長時間按下: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/LongPressIdentifier#NumericalPreferenceSwitcherIdentifier`
+- 輔助使用 → 切換控制 → 點一下動作: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier`
+- 輔助使用 → 切換控制 → 點一下動作 → 點一下動作: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#TapBehaviorIdentifier`
+- 輔助使用 → 切換控制 → 點下後在焦點內的項目: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanLocationIdentifier`
+- 輔助使用 → 切換控制 → 點下後在焦點內的項目 → 點下後在焦點內的項目: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanLocationIdentifier#ScanLocationIdentifier`
+- 輔助使用 → 切換控制 → 點下後掃描相同按鍵: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#RestartScanAtCurrentIdentifier`
+- 輔助使用 → 切換控制 → 總是點一下鍵盤按鍵: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AlwaysTapKeyboardIdentifier`
+- 輔助使用 → 切換控制 → 擴大預測字詞範圍: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#UseExtendedKeyboardPredictionsIdentifier`
+- 輔助使用 → 切換控制 → 按住持續時間: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/HoldDurationIdentifier`
+- 輔助使用 → 切換控制 → 按住持續時間 → 按住持續時間: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/HoldDurationIdentifier#NumericalPreferenceSwitcherIdentifier`
+- 輔助使用 → 切換控制 → 忽略重複: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/IgnoreRepeatIdentifier`
+- 輔助使用 → 切換控制 → 忽略重複 → 忽略重複: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/IgnoreRepeatIdentifier#NumericalPreferenceSwitcherIdentifier`
+- 輔助使用 → 切換控制 → 滑動游標: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier`
+- 輔助使用 → 切換控制 → 滑動游標 → 滑動游標: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#AxisSweepIdentifier`
+- 輔助使用 → 切換控制 → 滑動游標 → 選擇模式: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleGroup`
+- 輔助使用 → 切換控制 → 滑動游標 → 滑動游標速度: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#AxisSweepSpeed`
+- 輔助使用 → 切換控制 → 頭部追蹤: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CameraPointPickerSwitch`
+- 輔助使用 → 切換控制 → 頭部追蹤 → 頭部追蹤: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CameraPointPickerSwitch#CameraPointPickerSwitcher`
+- 輔助使用 → 切換控制 → 音效: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SoundIdentifier`
+- 輔助使用 → 切換控制 → 語音: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier`
+- 輔助使用 → 切換控制 → 語音 → 聲音: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#VoicesIdentifier`
+- 輔助使用 → 切換控制 → 語音 → 朗讀項目屬性: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#SPEECH_SPEAKS_TRAITS_LABEL`
+- 輔助使用 → 切換控制 → 語音 → 朗讀時暫停: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#SPEECH_PAUSES_SCANNING_LABEL`
+- 輔助使用 → 切換控制 → 選單項目: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier`
+- 輔助使用 → 切換控制 → 選單項目 → 選單項目: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier#CustomizeMenuIdentifier`
+- 輔助使用 → 切換控制 → 選單項目 → 最上層: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/TopLevel`
+- 輔助使用 → 切換控制 → 選單項目 → 最上層 → 最上層: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/TopLevel#TopLevel`
+- 輔助使用 → 切換控制 → 選單項目 → 手勢: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Gestures`
+- 輔助使用 → 切換控制 → 選單項目 → 手勢 → 手勢: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Gestures#Gestures`
+- 輔助使用 → 切換控制 → 選單項目 → 裝置: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Device`
+- 輔助使用 → 切換控制 → 選單項目 → 裝置 → 裝置: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Device#Device`
+- 輔助使用 → 切換控制 → 選單項目 → 設定: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Settings`
+- 輔助使用 → 切換控制 → 選單項目 → 設定 → 設定: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Settings#Settings`
+- 輔助使用 → 切換控制 → 選單項目 → 媒體控制項目: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/MediaControls`
+- 輔助使用 → 切換控制 → 選單項目 → 媒體控制項目 → 媒體控制項目: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/MediaControls#MediaControls`
+- 輔助使用 → 切換控制 → 群組項目: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ItemGroupingIdentifier`
+- 輔助使用 → 切換控制 → 大型游標: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CursorVisibilityIdentifier`
+- 輔助使用 → 切換控制 → 已儲存的手勢: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomGesturesIdentifier`
+- 輔助使用 → 切換控制 → 已儲存的手勢 → 已儲存的手勢: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomGesturesIdentifier#CustomGesturesIdentifier`
+- 輔助使用 → 切換控制 → 已儲存的手勢 → 新增手勢⋯: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomGesturesIdentifier/CreateCustomGesture`
+- 輔助使用 → 切換控制 → 已儲存的手勢 → 新增手勢⋯ → 新增手勢⋯: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomGesturesIdentifier/CreateCustomGesture#CreateCustomGesture`
+- 輔助使用 → 切換控制 → 透過切換控制確認: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#APPLE_PAY_SWITCH`
+- 輔助使用 → 切換控制 → 游標顏色: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CursorColorIdentifier`
+- 輔助使用 → 切換控制 → 游標顏色 → 游標顏色: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CursorColorIdentifier#CursorColorIdentifier`
+- 輔助使用 → 語音控制: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle`
+- 輔助使用 → 語音控制 → 設定語音控制: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#SETUP_COMMAND_AND_CONTROL`
+- 輔助使用 → 語音控制 → 打開語音控制教學指南: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#COMMAND_AND_CONTROL_LAUNCH_ONBOARDING`
+- 輔助使用 → 語音控制 → 語言: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_LANGUAGE`
+- 輔助使用 → 語音控制 → 語言 → 語言: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_LANGUAGE#COMMAND_AND_CONTROL_LANGUAGE`
+- 輔助使用 → 語音控制 → 指令: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS`
+- 輔助使用 → 語音控制 → 指令 → 指令: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS#COMMAND_AND_CONTROL_COMMANDS`
+- 輔助使用 → 語音控制 → 指令 → 新增指令: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/CreateNewCommand`
+- 輔助使用 → 語音控制 → 指令 → 新增指令 → 新增指令: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/CreateNewCommand#CreateNewCommand`
+- 輔助使用 → 語音控制 → 指令 → 基本導覽: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/System`
+- 輔助使用 → 語音控制 → 指令 → 覆疊: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/Overlays`
+- 輔助使用 → 語音控制 → 指令 → 基本手勢: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/Gestures`
+- 輔助使用 → 語音控制 → 指令 → 進階手勢: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/DragDropGestures`
+- 輔助使用 → 語音控制 → 指令 → 聽寫: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/TextDictation`
+- 輔助使用 → 語音控制 → 指令 → 文字導覽: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/Movement`
+- 輔助使用 → 語音控制 → 指令 → 文字所選範圍: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/Selection`
+- 輔助使用 → 語音控制 → 指令 → 文字編輯: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/Editing`
+- 輔助使用 → 語音控制 → 指令 → 文字刪除: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/AdvancedDeletion`
+- 輔助使用 → 語音控制 → 指令 → 裝置: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/Hardware`
+- 輔助使用 → 語音控制 → 指令 → 輔助使用: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/Accessibility`
+- 輔助使用 → 語音控制 → 指令 → 輸入自訂指令: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/ImportCustomCommands`
+- 輔助使用 → 語音控制 → 指令 → 輸入自訂指令 → 輸入自訂指令: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/ImportCustomCommands#ImportCustomCommands`
+- 輔助使用 → 語音控制 → 詞彙: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_VOCABULARY`
+- 輔助使用 → 語音控制 → 詞彙 → 詞彙: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_VOCABULARY/VOCABULARY`
+- 輔助使用 → 語音控制 → 詞彙 → 詞彙 → 詞彙: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_VOCABULARY/VOCABULARY#VOCABULARY`
+- 輔助使用 → 語音控制 → 詞彙 → 輸入詞彙: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_VOCABULARY#IMPORT_VOCABULARY`
+- 輔助使用 → 語音控制 → 詞彙 → 輸出詞彙: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_VOCABULARY#EXPORT_VOCABULARY`
+- 輔助使用 → 語音控制 → 詞彙 → 刪除所有詞彙: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_VOCABULARY#DELETE_ALL_VOCABULARY`
+- 輔助使用 → 語音控制 → 顯示確認: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#SHOW_TEXT_RESPONSE_TITLE`
+- 輔助使用 → 語音控制 → 播放聲音: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#PLAY_SOUND_RESPONSE_TITLE`
+- 輔助使用 → 語音控制 → 顯示提示: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#USER_HINTS_SHOW_HINTS_TITLE`
+- 輔助使用 → 語音控制 → 覆疊: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY`
+- 輔助使用 → 語音控制 → 覆疊 → 覆疊: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#ALWAYS_SHOW_OVERLAY`
+- 輔助使用 → 語音控制 → 螢幕注視感知: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ATTENTION_AWARE_ACTION`
+- 輔助使用 → 頂端按鈕/Touch ID: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE`
+- 輔助使用 → 頂端按鈕/Touch ID → 按鍵速度: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_SPEED_HEADER`
+- 輔助使用 → 頂端按鈕/Touch ID → 按住來說話: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantTitle`
+- 輔助使用 → 頂端按鈕/Touch ID → 主畫面按鈕: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE/HomeButtonAssistantTitle`
+- 輔助使用 → 頂端按鈕/Touch ID → 主畫面按鈕 → 輕觸按鈕來打開: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE/HomeButtonAssistantTitle#RestingUnlockSetting`
+- 輔助使用 → 頂端按鈕/Touch ID → 啟用透過切換控制確認: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#APPLE_PAY_CONFIRM_WITH_SC`
+- 輔助使用 → 頂端按鈕/Touch ID → 啟用透過輔助觸控確認: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#APPLE_PAY_CONFIRM_WITH_AST`
+- 輔助使用 → Apple TV遙控器: `prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE`
+- 輔助使用 → Apple TV遙控器 → 方向按鈕: `prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE#AppleTVSimpleGestures`
+- 輔助使用 → Apple TV遙控器 → 直播電視按鈕: `prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE#AppleTVLiveTVButtons`
+- 輔助使用 → Apple Watch鏡像輸出: `prefs:root=ACCESSIBILITY&path=APPLE_WATCH_REMOTE_SCREEN`
+- 輔助使用 → 助聽裝置: `prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE`
+- 輔助使用 → 助聽裝置 → MFi助聽裝置: `prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#AvailableAidsHeading`
+- 輔助使用 → 助聽裝置 → 助聽器相容性: `prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#HEARING_AID_COMPLIANCE`
+- 輔助使用 → 聆聽控制中心: `prefs:root=ACCESSIBILITY&path=HEARING_CONTROL_CENTER`
+- 輔助使用 → 聆聽控制中心 → 已包含控制項目: `prefs:root=ACCESSIBILITY&path=HEARING_CONTROL_CENTER#INCLUDED_MODULES_SECTION_TITLE`
+- 輔助使用 → 聆聽控制中心 → 更多控制項目: `prefs:root=ACCESSIBILITY&path=HEARING_CONTROL_CENTER#MORE_MODULES_SECTION_TITLE`
+- 輔助使用 → 聲音辨識: `prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE`
+- 輔助使用 → 聲音辨識 → 音效: `prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE/Sounds`
+- 輔助使用 → 聲音辨識 → 音效 → 音效: `prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE/Sounds#Sounds`
+- 輔助使用 → RTT/TTY: `prefs:root=ACCESSIBILITY&path=RTT`
+- 輔助使用 → RTT/TTY → 軟體RTT/TTY: `prefs:root=ACCESSIBILITY&path=RTT#SW_TTY`
+- 輔助使用 → RTT/TTY → 硬體TTY: `prefs:root=ACCESSIBILITY&path=RTT#HW_TTY`
+- 輔助使用 → 音訊與視覺: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE`
+- 輔助使用 → 音訊與視覺 → 耳機調節: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID`
+- 輔助使用 → 音訊與視覺 → 耳機調節 → 耳機調節: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID#AXPAEnableSpecID`
+- 輔助使用 → 音訊與視覺 → 耳機調節 → 自訂音訊設定: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID#AXPAPersonalAudioSetupSpecID`
+- 輔助使用 → 音訊與視覺 → 背景聲音: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID`
+- 輔助使用 → 音訊與視覺 → 背景聲音 → 背景聲音: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID#CSFeatureToggleSpecID`
+- 輔助使用 → 音訊與視覺 → 背景聲音 → 聲音: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID/ComfortSoundSoundLabel`
+- 輔助使用 → 音訊與視覺 → 背景聲音 → 聲音 → 聲音: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID/ComfortSoundSoundLabel#ComfortSoundSoundLabel`
+- 輔助使用 → 音訊與視覺 → 背景聲音 → 背景聲音音量: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID#ComfortSoundsVolume`
+- 輔助使用 → 音訊與視覺 → 背景聲音 → 在媒體播放時使用: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID#ComfortSoundsMixingName`
+- 輔助使用 → 音訊與視覺 → 背景聲音 → 播放媒體時的音量: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID#ComfortSoundsMixingVolume`
+- 輔助使用 → 音訊與視覺 → 背景聲音 → 鎖定時停止聲音: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID#ComfortSoundsPlayWhenLockedName`
+- 輔助使用 → 音訊與視覺 → 單聲道音訊: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAMonoSpecID`
+- 輔助使用 → 音訊與視覺 → 永遠顯示音量控制: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAAlwaysShowVolumeControlSpecID`
+- 輔助使用 → 音訊與視覺 → 電話降噪: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPANoiseSpecID`
+- 輔助使用 → 音訊與視覺 → 收到提示時閃爍LED: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH`
+- 輔助使用 → 音訊與視覺 → 收到提示時閃爍LED → 收到提示時閃爍LED: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_FLASH`
+- 輔助使用 → 音訊與視覺 → 收到提示時閃爍LED → 解鎖期間閃爍: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_FLASH_WHILE_UNLOCKED`
+- 輔助使用 → 音訊與視覺 → 收到提示時閃爍LED → 靜音模式中閃爍: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_RINGER_SWITCH_CONTROL`
+- 輔助使用 → 音訊與視覺 → 左右立體聲平衡: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#LeftRightBalance`
+- 輔助使用 → 音訊與視覺 → 開機與關機聲音: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#StartupSound`
+- 輔助使用 → 音訊與視覺 → 耳機通知: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXHeadphoneNotificationsSpecID`
+- 輔助使用 → 音訊與視覺 → 加入語音隔離: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#ExtendedVoiceIsolationSpecID`
+- 輔助使用 → 音訊與視覺 → 音效: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#SOUND_EFFECTS_PREFERENCE`
+- 輔助使用 → 音訊與視覺 → 在通話中加入音訊: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/MIX_TO_UPLINK`
+- 輔助使用 → 音訊與視覺 → 在通話中加入音訊 → 允許App在通話中加入音訊: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/MIX_TO_UPLINK#MIX_TO_UPLINK`
+- 輔助使用 → 字幕與隱藏式字幕: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING`
+- 輔助使用 → 字幕與隱藏式字幕 → 樣式: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING/currentTheme`
+- 輔助使用 → 字幕與隱藏式字幕 → 樣式 → 樣式: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING/currentTheme#currentTheme`
+- 輔助使用 → 字幕與隱藏式字幕 → 隱藏式字幕 + SDH: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#PREFER_SDH`
+- 輔助使用 → 字幕與隱藏式字幕 → 顯示音訊逐字稿: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#SHOW_AUDIO_TRANSCRIPTIONS`
+- 輔助使用 → 字幕與隱藏式字幕 → 靜音時顯示: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#SHOW_WHEN_MUTED`
+- 輔助使用 → 字幕與隱藏式字幕 → 倒轉時顯示: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#SHOW_ON_SKIP_BACK`
+- 輔助使用 → 即時字幕: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION`
+- 輔助使用 → 即時字幕 → 即時字幕: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION#LIVE_TRANSCRIPTION_TITLE`
+- 輔助使用 → 即時字幕 → 外觀: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE`
+- 輔助使用 → 即時字幕 → 外觀 → 外觀: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE#LIVE_TRANSCRIPTION_APPEARANCE`
+- 輔助使用 → 即時字幕 → 外觀 → 粗體文字: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE/ENHANCE_TEXT_LEGIBILITY`
+- 輔助使用 → 即時字幕 → 外觀 → 粗體文字 → 粗體文字: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE/ENHANCE_TEXT_LEGIBILITY#ENHANCE_TEXT_LEGIBILITY`
+- 輔助使用 → 即時字幕 → 外觀 → 文字大小: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE/LARGER_TEXT`
+- 輔助使用 → 即時字幕 → 外觀 → 文字大小 → 文字大小: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE/LARGER_TEXT#LARGER_TEXT`
+- 輔助使用 → 即時字幕 → 外觀 → 顏色選項: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE#LIVE_TRANSCRIPTION_COLOR_OPTIONS`
+- 輔助使用 → 即時字幕 → 外觀 → 文字顏色: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE#LIVE_TRANSCRIPTION_TEXT_COLOR`
+- 輔助使用 → 即時字幕 → 外觀 → 背景顏色: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE#LIVE_TRANSCRIPTION_BACKGROUND_COLOR`
+- 輔助使用 → 即時字幕 → 外觀 → 重置顏色: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE#LIVE_TRANSCRIPTION_RESET_COLORS`
+- 輔助使用 → 即時字幕 → 外觀 → 閒置不透明度: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE#LIVE_CAPTIONS_IDLE_OPACITY_TITLE`
+- 輔助使用 → 即時字幕 → FaceTime中顯示即時字幕: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION#FACE_TIME_CAPTIONS`
+- 輔助使用 → 引導使用模式: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE`
+- 輔助使用 → 引導使用模式 → 密碼設定: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessSecurityLinkList`
+- 輔助使用 → 引導使用模式 → 密碼設定 → 密碼設定: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessSecurityLinkList#GuidedAccessSecurityLinkList`
+- 輔助使用 → 引導使用模式 → 密碼設定 → 設定引導使用模式密碼: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessSecurityLinkList#GAXPinButton`
+- 輔助使用 → 引導使用模式 → 密碼設定 → Touch ID: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessSecurityLinkList#GAXSpecIDTouchIDSwitch`
+- 輔助使用 → 引導使用模式 → 時間限制: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList`
+- 輔助使用 → 引導使用模式 → 時間限制 → 時間限制: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GuidedAccessTimeRestrictionsLinkList`
+- 輔助使用 → 引導使用模式 → 時間限制 → 提示聲: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList/GUIDED_ACCESS_TIME_RESTRICTIONS_SOUND_TITLE`
+- 輔助使用 → 引導使用模式 → 時間限制 → 提示聲 → 提示聲: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList/GUIDED_ACCESS_TIME_RESTRICTIONS_SOUND_TITLE#GUIDED_ACCESS_TIME_RESTRICTIONS_SOUND_TITLE`
+- 輔助使用 → 引導使用模式 → 時間限制 → 朗讀: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_SPEAK_TITLE`
+- 輔助使用 → 引導使用模式 → 輔助使用快速鍵: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessEnableAXFeatures`
+- 輔助使用 → 引導使用模式 → 螢幕自動鎖定: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessAutoLockTime`
+- 輔助使用 → 引導使用模式 → 螢幕自動鎖定 → 螢幕自動鎖定: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessAutoLockTime#GuidedAccessAutoLockTime`
+- 輔助使用 → 自訂輔助取用: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE`
+- 輔助使用 → 自訂輔助取用 → 設定自訂輔助取用: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#SetUpClarityUISpecifier`
+- 輔助使用 → 自訂輔助取用 → 開始自訂輔助取用: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#ClarityUIStart`
+- 輔助使用 → 自訂輔助取用 → 應用程式: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#Applications`
+- 輔助使用 → 自訂輔助取用 → 選項: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#Options`
+- 輔助使用 → 自訂輔助取用 → 背景圖片: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE/Wallpaper`
+- 輔助使用 → 自訂輔助取用 → 背景圖片 → 背景圖片: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE/Wallpaper#Wallpaper`
+- 輔助使用 → 自訂輔助取用 → 允許音量按鈕: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#VolumeButtons`
+- 輔助使用 → 自訂輔助取用 → 在鎖定畫面上顯示時間: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#ShowTime`
+- 輔助使用 → 自訂輔助取用 → 在主畫面上顯示電池電量: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#ShowBattery`
+- 輔助使用 → 自訂輔助取用 → 顯示通知標記: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#ShowNotification`
+- 輔助使用 → 自訂輔助取用 → 允許Siri: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#AllowSiri`
+- 輔助使用 → 自訂輔助取用 → 密碼設定: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE/PasscodeSettings`
+- 輔助使用 → 自訂輔助取用 → 密碼設定 → 密碼設定: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE/PasscodeSettings#PasscodeSettings`
+- 輔助使用 → Siri: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE`
+- 輔助使用 → Siri → 輸入來與Siri對話: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_SETTINGS_TYPE_TO_SIRI`
+- 輔助使用 → Siri → Siri暫停時間: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#ENDPOINTER`
+- 輔助使用 → Siri → Siri朗讀速度: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SPEECH_RATE`
+- 輔助使用 → Siri → 語音回應: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK`
+- 輔助使用 → Siri → 永遠聆聽「Siri」: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_SETTINGS_VOICE_ACTIVATION_ALWAYS_ALLOW`
+- 輔助使用 → Siri → 顯示Siri後方的App: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRL_SHOW_APPS`
+- 輔助使用 → Siri → 透過揚聲器播報通知: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#ANNOUNCE_NOTIFICATIONS_BUILT_IN_SPEAKER_ID`
+- 輔助使用 → Siri → 通話掛斷: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE/SIRI_CALL_HANGUP_ID`
+- 輔助使用 → Siri → 通話掛斷 → 通話掛斷: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE/SIRI_CALL_HANGUP_ID#SIRI_CALL_HANGUP_ID`
+- 輔助使用 → Siri → 聆聽非典型語音: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_ATYPICAL_SPEECH`
+- 輔助使用 → Siri → 必須說「Siri」才能打斷: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_BARGE`
+- 輔助使用 → 輔助使用快速鍵: `prefs:root=ACCESSIBILITY&path=TRIPLE_CLICK_TITLE`
+- 輔助使用 → 個別App設定: `prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE`
+- 輔助使用 → 個別App設定 → 顯示隱藏的App: `prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE#PROTECTED_APPS_SHOW_HIDDEN_TITLE`
+- 輔助使用 → 個別App設定 → 加入App: `prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE#AX_ADD_BUTTON_IDENTIFIER`
+- 輔助使用 → 控制附近裝置: `prefs:root=ACCESSIBILITY&path=CONTROL_NEARBY_DEVICES`
+- 輔助使用 → 控制附近裝置 → 控制附近裝置: `prefs:root=ACCESSIBILITY&path=CONTROL_NEARBY_DEVICES#CONTROL_NEARBY_DEVICES`
+- 輔助使用 → 眼睛輸入: `prefs:root=ACCESSIBILITY&path=DOMINANT_EYE`
+- 輔助使用 → 即時語音: `prefs:root=ACCESSIBILITY&path=LIVE_SPEECH_TITLE`
+- 輔助使用 → 即時語音 → 詞句: `prefs:root=ACCESSIBILITY&path=LIVE_SPEECH_TITLE/LiveSpeechCategoryManagement`
+- 輔助使用 → 即時語音 → 聲音: `prefs:root=ACCESSIBILITY&path=LIVE_SPEECH_TITLE#LIVE_SPEECH_VOICES`
+- 輔助使用 → 個人聲音: `prefs:root=ACCESSIBILITY&path=PERSONAL_VOICE_TITLE`
+- 輔助使用 → 個人聲音 → 製作個人聲音: `prefs:root=ACCESSIBILITY&path=PERSONAL_VOICE_TITLE#VB_CREATE_PERSONAL_VOICE`
+- 輔助使用 → 個人聲音 → 在裝置之間共享: `prefs:root=ACCESSIBILITY&path=PERSONAL_VOICE_TITLE#VB_USE_ICLOUD_TITLE`
+- 輔助使用 → 個人聲音 → 允許App發出使用要求: `prefs:root=ACCESSIBILITY&path=PERSONAL_VOICE_TITLE#VB_ALLOW_WITH_APPS`
+- 輔助使用 → AirPods: `prefs:root=ACCESSIBILITY&path=AIRPODS`
+- 輔助使用 → AirPods → 按下速度: `prefs:root=ACCESSIBILITY&path=AIRPODS#TapGroup`
+- 輔助使用 → AirPods → 按住持續時間: `prefs:root=ACCESSIBILITY&path=AIRPODS#HoldGroup`
+- 輔助使用 → AirPods → iPhone音訊與視覺設定: `prefs:root=ACCESSIBILITY&path=AIRPODS#PERSONAL_AUDIO_AIRPODS_BUTTON`
+- 輔助使用 → AirPods → 隨著iPhone移動: `prefs:root=ACCESSIBILITY&path=AIRPODS#SPATIAL_AUDIO_SWITCH`
+- 輔助使用 → AirPods → 提示聲音量: `prefs:root=ACCESSIBILITY&path=AIRPODS#TONE_VOLUME`
+- 輔助使用 → 語音捷徑: `prefs:root=ACCESSIBILITY&path=ADAPTIVE_VOICE_SHORTCUTS_TITLE`
+- 輔助使用 → 語音捷徑 → 設定語音捷徑: `prefs:root=ACCESSIBILITY&path=ADAPTIVE_VOICE_SHORTCUTS_TITLE#AVS_SET_UP_BUTTON_TITLE`
+- 輔助使用 → 音樂觸覺回饋: `prefs:root=ACCESSIBILITY&path=HAPTIC_MUSIC`
+- 輔助使用 → 眼球追蹤: `prefs:root=ACCESSIBILITY&path=OnDeviceEyeTracking`
+- 輔助使用 → 眼球追蹤 → 眼球追蹤: `prefs:root=ACCESSIBILITY&path=OnDeviceEyeTracking#OnDeviceEyeTrackingEnabledSpecifier`
+- 輔助使用 → 眼球追蹤 → 平滑: `prefs:root=ACCESSIBILITY&path=OnDeviceEyeTracking#SMOOTHING`
+- 輔助使用 → 眼球追蹤 → 貼齊項目: `prefs:root=ACCESSIBILITY&path=OnDeviceEyeTracking#SNAP_TO_ITEM`
+- 輔助使用 → 眼球追蹤 → 放大鍵盤按鍵: `prefs:root=ACCESSIBILITY&path=OnDeviceEyeTracking#KEYBOARD_ZOOM`
+- 輔助使用 → 眼球追蹤 → 自動隱藏: `prefs:root=ACCESSIBILITY&path=OnDeviceEyeTracking#AUTO_HIDE`
+- 輔助使用 → 眼球追蹤 → 停留控制: `prefs:root=ACCESSIBILITY&path=OnDeviceEyeTracking#DWELL_CONTROL`
+- 輔助使用 → 相機控制: `prefs:root=ACCESSIBILITY&path=CAMERA_CONTROL`
+- 輔助使用 → 相機控制 → 相機控制: `prefs:root=ACCESSIBILITY&path=CAMERA_CONTROL#CAMERA_CONTROL_SWITCH`
+- 輔助使用 → 相機控制 → 輕按: `prefs:root=ACCESSIBILITY&path=CAMERA_CONTROL#LIGHT_PRESS`
+- 輔助使用 → 相機控制 → 滑動: `prefs:root=ACCESSIBILITY&path=CAMERA_CONTROL#SWIPE`
+- 輔助使用 → 相機控制 → 輕按力度: `prefs:root=ACCESSIBILITY&path=CAMERA_CONTROL#LIGHT_PRESS_FORCE`
+- 輔助使用 → 相機控制 → 輕按兩下速度: `prefs:root=ACCESSIBILITY&path=CAMERA_CONTROL#SENSITIVITY`
+- 郵件: `prefs:root=MAIL`
+- 郵件 → 帳號: `prefs:root=MAIL&path=ACCOUNTS`
+- 郵件 → 帳號 → 加入帳號: `prefs:root=MAIL&path=ACCOUNTS#ADD_ACCOUNT`
+- 郵件 → 帳號 → 擷取新資料: `prefs:root=MAIL&path=ACCOUNTS#FETCH_NEW_DATA`
+- 郵件 → 預覽: `prefs:root=MAIL&path=Preview`
+- 郵件 → 顯示收件人/副本標籤: `prefs:root=MAIL#Show%20To/Cc%20Labels`
+- 郵件 → 滑動選項: `prefs:root=MAIL&path=Swipe%20Options`
+- 郵件 → 刪除前先詢問: `prefs:root=MAIL#Ask%20Before%20Deleting`
+- 郵件 → 載入遠端影像: `prefs:root=MAIL#Load%20Remote%20Images`
+- 郵件 → 以討論串來分類: `prefs:root=MAIL#Organize%20by%20Thread`
+- 郵件 → 收合已讀郵件: `prefs:root=MAIL#Collapse%20Read%20Messages`
+- 郵件 → 最新的郵件置於最上方: `prefs:root=MAIL#Most%20Recent%20Message%20on%20Top`
+- 郵件 → 完整討論串: `prefs:root=MAIL#Complete%20Threads`
+- 郵件 → 已靜音的討論串動作: `prefs:root=MAIL&path=Muted%20Thread%20Action`
+- 郵件 → 忽略已封鎖的寄件人: `prefs:root=MAIL#Ignore%20Blocked%20Senders`
+- 郵件 → 已封鎖的寄件人選項: `prefs:root=MAIL&path=Blocked%20Sender%20Options`
+- 郵件 → 封鎖名單: `prefs:root=MAIL&path=Blocked`
+- 郵件 → 寄送密件副本給自己: `prefs:root=MAIL#Always%20Bcc%20Myself`
+- 郵件 → 標示地址: `prefs:root=MAIL&path=Mark%20Addresses`
+- 郵件 → 增加引言層級: `prefs:root=MAIL&path=Increase%20Quote%20Level`
+- 郵件 → 在回覆中加入附件: `prefs:root=MAIL&path=Include%20Attachments%20with%20Replies`
+- 郵件 → 簽名: `prefs:root=MAIL&path=Signature`
+- 背景圖片: `prefs:root=Wallpaper`
+- 備忘錄: `prefs:root=NOTES`
+- 備忘錄 → 預設帳號: `prefs:root=NOTES&path=Default%20Account`
+- 備忘錄 → 密碼: `prefs:root=NOTES&path=Password`
+- 備忘錄 → 備忘錄排序方式: `prefs:root=NOTES&path=Sort%20Notes%20By`
+- 備忘錄 → 新備忘錄開頭格式: `prefs:root=NOTES&path=New%20Notes%20Start%20With`
+- 備忘錄 → 排序已勾選的項目: `prefs:root=NOTES&path=Sort%20Checked%20Items`
+- 備忘錄 → 橫線與格線: `prefs:root=NOTES&path=Lines%20%26%20Grids`
+- 備忘錄 → 儲存到「照片」: `prefs:root=NOTES#Save%20to%20Photos`
+- 備忘錄 → 從鎖定畫面取用備忘錄: `prefs:root=NOTES&path=Access%20Notes%20from%20Lock%20Screen`
+- 裝置密碼: `prefs:root=PASSCODE`
+- 裝置密碼 → 關閉密碼: `prefs:root=PASSCODE#PASSCODE_OFF`
+- 裝置密碼 → 更改裝置密碼: `prefs:root=PASSCODE#CHANGE_PASSCODE`
+- 裝置密碼 → 需要密碼: `prefs:root=PASSCODE&path=PASSCODE_REQ`
+- 裝置密碼 → 語音撥號: `prefs:root=PASSCODE#VOICE_DIAL`
+- 裝置密碼 → 鎖定時允許取用: `prefs:root=PASSCODE#ALLOW_ACCESS_WHEN_LOCKED`
+- 裝置密碼 → 用訊息回覆: `prefs:root=PASSCODE#REPLY_WITH_MESSAGE_SWITCH`
+- 裝置密碼 → 家庭控制: `prefs:root=PASSCODE#HOME_CONTROL_SWITCH`
+- 裝置密碼 → 錢包: `prefs:root=PASSCODE#WALLET_SWITCH`
+- 裝置密碼 → 回撥未接來電: `prefs:root=PASSCODE#RETURN_MISSED_CALLS_SWITCH`
+- 裝置密碼 → 清除資料: `prefs:root=PASSCODE#WIPE_DEVICE`
+- 裝置密碼 → 透過Apple Watch解鎖: `prefs:root=PASSCODE#AUTO_UNLOCK_DEVICES_GROUP`
+- 裝置密碼 → 遭竊裝置防護: `prefs:root=PASSCODE#DTO_GROUP_ID`
+- 行事曆: `prefs:root=CALENDAR`
+- 行事曆 → 時區覆蓋: `prefs:root=CALENDAR&path=TimeZoneCityArray`
+- 行事曆 → 其他曆法: `prefs:root=CALENDAR&path=Alternate%20Calendars`
+- 行事曆 → 週數: `prefs:root=CALENDAR#Week%20Numbers`
+- 行事曆 → 顯示邀請對象的拒絕內容: `prefs:root=CALENDAR#Show%20Invitee%20Declines`
+- 行事曆 → 同步: `prefs:root=CALENDAR&path=Sync`
+- 行事曆 → 預設提示時間: `prefs:root=CALENDAR&path=Default%20Alert%20Times`
+- 行事曆 → 每週開始日: `prefs:root=CALENDAR&path=Start%20Week%20On`
+- 行事曆 → 地點建議: `prefs:root=CALENDAR#Location%20Suggestions`
+- 健康資料: `prefs:root=HEALTH`
+- 電話: `prefs:root=Phone`
+- 電話 → 本機號碼: `prefs:root=Phone&path=My%20Number`
+- 電話 → 撥入電話: `prefs:root=Phone&path=INCOMING_CALL_STYLE`
+- 電話 → 播報來電者: `prefs:root=Phone&path=ANNOUNCE_CALLS`
+- 電話 → SMS/來電回報: `prefs:root=Phone&path=CLASSIFICATION_AND_REPORTING`
+- 電話 → 用訊息回覆: `prefs:root=Phone&path=Respond%20with%20Text`
+- 電話 → 來電轉接: `prefs:root=Phone&path=Call%20Forwarding`
+- 電話 → 來電轉接 → 來電轉接: `prefs:root=Phone&path=Call%20Forwarding#idMasterOnOffSwitch`
+- 電話 → 來電等候: `prefs:root=Phone&path=Call%20Waiting`
+- 電話 → 顯示發話號碼: `prefs:root=Phone&path=Show%20My%20Caller%20ID`
+- 電話 → 顯示發話號碼 → 顯示發話號碼: `prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary`
+- 電話 → 顯示發話號碼 → 顯示發話號碼 → 顯示發話號碼: `prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary#Show%20My%20Caller%20ID`
+- 電話 → 將未知的來電設為靜音: `prefs:root=Phone#SILENCE_CALLS`
+- 電話 → 封鎖的聯絡人: `prefs:root=Phone&path=SPECIFIER_IDENTIFIER_BLACKLIST`
+- 電話 → 撥號輔助: `prefs:root=Phone&path=Dial%20Assist`
+- App Store: `prefs:root=STORE`
+- App Store → 自動下載: `prefs:root=STORE#Automatic%20Downloads`
+- App Store → App更新項目: `prefs:root=STORE#App%20Updates`
+- App Store → App下載項目: `prefs:root=STORE&path=App%20Downloads`
+- App Store → 自動播放影片: `prefs:root=STORE&path=Video%20Autoplay`
+- App Store → App內評分與評論: `prefs:root=STORE#In-App%20Ratings%20&%20Reviews`
+- 隱私權與安全性: `prefs:root=Privacy` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity`
+- 隱私權與安全性 → 健康: `prefs:root=Privacy&path=HEALTH` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/HEALTH`
+- 隱私權與安全性 → 健康資料: `prefs:root=Privacy&path=HEALTH_DATA` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/HEALTH_DATA`
+- 隱私權與安全性 → 定位服務: `prefs:root=Privacy&path=LOCATION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/LOCATION`
+- 隱私權與安全性 → 定位服務 → 分享我的位置: `prefs:root=Privacy&path=LOCATION/LOCATION_SHARING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/LOCATION/LOCATION_SHARING`
+- 隱私權與安全性 → 聯絡人: `prefs:root=Privacy&path=CONTACTS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CONTACTS`
+- 隱私權與安全性 → 行事曆: `prefs:root=Privacy&path=CALENDARS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CALENDARS`
+- 隱私權與安全性 → 提醒事項: `prefs:root=Privacy&path=REMINDERS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/REMINDERS`
+- 隱私權與安全性 → 照片: `prefs:root=Privacy&path=PHOTOS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PHOTOS`
+- 隱私權與安全性 → 藍牙分享: `prefs:root=Privacy&path=BT_PERIPHERAL` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/BT_PERIPHERAL`
+- 隱私權與安全性 → 麥克風: `prefs:root=Privacy&path=MICROPHONE` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/MICROPHONE`
+- 隱私權與安全性 → 語音辨識: `prefs:root=Privacy&path=SPEECH_RECOGNITION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/SPEECH_RECOGNITION`
+- 隱私權與安全性 → 相機: `prefs:root=Privacy&path=CAMERA` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CAMERA`
+- 隱私權與安全性 → HomeKit: `prefs:root=Privacy&path=WILLOW` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/WILLOW`
+- 隱私權與安全性 → 媒體與Apple Music: `prefs:root=Privacy&path=MEDIALIBRARY` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/MEDIALIBRARY`
+- 隱私權與安全性 → 分析: `prefs:root=Privacy&path=PROBLEM_REPORTING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PROBLEM_REPORTING`
+- 隱私權與安全性 → 廣告: `prefs:root=Privacy&path=ADVERTISING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/ADVERTISING`
+- 隱私權與安全性 → 檔案和檔案夾: `prefs:root=Privacy&path=FILEACCESS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/FILEACCESS`
+- 隱私權與安全性 → 追蹤: `prefs:root=Privacy&path=USER_TRACKING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/USER_TRACKING`
+- 隱私權與安全性 → App隱私權報告: `prefs:root=Privacy&path=PRIVACY_REPORT` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PRIVACY_REPORT`
+- 隱私權與安全性 → 封閉模式: `prefs:root=Privacy#LOCKDOWN_MODE` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity#LOCKDOWN_MODE#LOCKDOWN_MODE`
+- 隱私權與安全性 → 敏感性內容: `prefs:root=Privacy#NUDITY_DETECTION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity#NUDITY_DETECTION#NUDITY_DETECTION`
+- 測距儀: `prefs:root=MEASURE`
+- 測距儀 → 測量單位: `prefs:root=MEASURE#MEASURE_UNITS`
+- 測距儀 → 英制: `prefs:root=MEASURE#Imperial`
+- 測距儀 → 公制: `prefs:root=MEASURE#Metric`
+- 影片: `prefs:root=TVAPP`
+- 影片 → 使用行動數據來播放: `prefs:root=TVAPP#com.apple.videos%3AVideosUseCellularDataEnabledSetting`
+- 影片 → 播放品質: `prefs:root=TVAPP#com.apple.videos%3APlaybackQualityGroup`
+- 影片 → 購買和租借項目: `prefs:root=TVAPP&path=com.apple.videos%3APreferredPurchaseResolution`
+- 影片 → 家庭共享: `prefs:root=TVAPP#com.apple.videos%3AHomeSharingFooter`
+- Game Center: `prefs:root=GAMECENTER`
+- 語音備忘錄: `prefs:root=VOICE_MEMOS`
+- 語音備忘錄 → 清除已刪除的項目: `prefs:root=VOICE_MEMOS&path=RCVoiceMemosRecentlyDeletedWindowKey`
+- 語音備忘錄 → 音訊品質: `prefs:root=VOICE_MEMOS&path=RCVoiceMemosAudioQualityKey`
+- 語音備忘錄 → 基於位置命名: `prefs:root=VOICE_MEMOS#RCVoiceMemosUseLocationBasedNaming`
+- 捷徑: `prefs:root=SHORTCUTS`
+- 捷徑 → iCloud同步: `prefs:root=SHORTCUTS#WFCloudKitSyncEnabled`
+- 捷徑 → 同步捷徑順序: `prefs:root=SHORTCUTS#WFCloudKitSyncOrderEnabled`
+- 捷徑 → 法律聲明: `prefs:root=SHORTCUTS&path=Legal%20Notices`
+- 提醒事項: `prefs:root=REMINDERS`
+- 提醒事項 → 預設列表: `prefs:root=REMINDERS&path=DEFAULT_LIST`
+- 提醒事項 → 預設列表 → 提醒事項: `prefs:root=REMINDERS&path=DEFAULT_LIST#preferredDefaultListID`
+- 提醒事項 → 今天通知: `prefs:root=REMINDERS#todayNotificationFireTime`
+- 提醒事項 → 顯示為已過期: `prefs:root=REMINDERS#showRemindersAsOverdue`
+- 音樂: `prefs:root=MUSIC`
+- 音樂 → 顯示Apple Music: `prefs:root=MUSIC#com.apple.Music%3AAppleMusicEnabled`
+- 音樂 → 加入播放列表歌曲: `prefs:root=MUSIC#com.apple.Music%3AAddPlaylistSongsToMyMusicSwitch`
+- 音樂 → 顯示星星評分: `prefs:root=MUSIC#com.apple.Music%3AShowStarRatings`
+- 音樂 → 同步資料庫: `prefs:root=MUSIC#com.apple.Music%3ACloudMusicLibraryEnabled`
+- 音樂 → 行動數據: `prefs:root=MUSIC&path=com.apple.Music%3ACellularData`
+- 音樂 → 已下載的音樂: `prefs:root=MUSIC&path=com.apple.Music%3AMusicUsageLink`
+- 音樂 → 最佳化儲存空間: `prefs:root=MUSIC&path=com.apple.Music%3AOptimizeStorage`
+- 音樂 → 自動下載: `prefs:root=MUSIC#com.apple.Music%3AMusicAutomaticDownload`
+- 音樂 → 等化器: `prefs:root=MUSIC&path=com.apple.Music%3AEQ`
+- 音樂 → 音量平衡: `prefs:root=MUSIC#com.apple.Music%3ASoundCheck`
+- 音樂 → 使用聆聽記錄: `prefs:root=MUSIC#com.apple.Music%3APrivateListening`
+- Siri: `prefs:root=SIRI`
+- Siri → 鎖定時允許Siri: `prefs:root=SIRI#ASSISTANT_LOCK_SCREEN_ACCESS`
+- Siri → 語言: `prefs:root=SIRI&path=LANGUAGE_ID`
+- Siri → Siri聲音: `prefs:root=SIRI&path=VOICE_ID`
+- Siri → 語音回饋: `prefs:root=SIRI&path=VOICE_FEEDBACK_ID`
+- Siri → 我的資訊: `prefs:root=SIRI&path=MY_INFO`
+- 聲音: `prefs:root=Sounds`
+- 聲音 → 耳機安全性: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING`
+- 聲音 → 耳機安全性 → Lightning轉接器: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING/HEADPHONE_LIGHTNING_ADAPTERS`
+- 聲音 → 耳機安全性 → 耳機通知: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneWeeklyNotificationsKey`
+- 聲音 → 耳機安全性 → 降低高音量: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneLevelLimitSwitchKey`
+- 聲音 → 音效: `prefs:root=Sounds&path=SOUND_EFFECTS`
+- 聲音 → 鈴聲和提示聲: `prefs:root=Sounds#RINGER_AND_ALERT_GROUP`
+- 聲音 → 使用按鈕更改音量: `prefs:root=Sounds#CHANGE_WITH_BUTTONS`
+- 聲音 → 聲音和震動模式: `prefs:root=Sounds#SOUNDS_ALERT_GROUP`
+- 聲音 → 鈴聲: `prefs:root=Sounds&path=Ringtone`
+- 聲音 → 訊息聲: `prefs:root=Sounds&path=Text_Messages`
+- 聲音 → 收到新留言: `prefs:root=Sounds&path=Voicemail`
+- 聲音 → 新增郵件: `prefs:root=Sounds&path=NEW_MAIL`
+- 聲音 → 已傳送郵件: `prefs:root=Sounds&path=SENT_MAIL`
+- 聲音 → 行事曆提示: `prefs:root=Sounds&path=Calendar%20Alarm`
+- 聲音 → 提醒事項提示: `prefs:root=Sounds&path=Reminder%20Alerts`
+- 聲音 → 按鍵聲: `prefs:root=Sounds#KEYBOARD_SOUND_SWITCH`
+- 聲音 → 鎖定聲: `prefs:root=Sounds#LOCK_SOUND_SWITCH`
+- 聲音 → 個人化空間音訊: `prefs:root=Sounds&path=Personalized%20Spatial%20Audio`
+- Apple Pencil: `prefs:root=Pencil`
+- Apple Pencil → Apple Pencil: `prefs:root=Pencil#PrefersPencilDraws`
+- Apple Pencil → Apple Pencil: `prefs:root=Pencil#PencilTextInput`
+- SOS緊急服務: `prefs:root=EMERGENCY_SOS`
+- SOS緊急服務 → 透過側邊按鈕通話: `prefs:root=EMERGENCY_SOS#CALL_WITH_SIDE_BUTTON`
+- SOS緊急服務 → 自動通話: `prefs:root=EMERGENCY_SOS#AUTO_CALL`
+- SOS緊急服務 → 緊急聯絡人: `prefs:root=EMERGENCY_SOS#EMERGENCY_CONTACTS`
+- SOS緊急服務 → 倒數聲: `prefs:root=EMERGENCY_SOS#ALARM_SOUND_SWITCH`
+- Wi-Fi: `prefs:root=WIFI`
+- 聯絡人: `prefs:root=CONTACTS`
+- 聯絡人 → 允許聯絡人取用: `prefs:root=CONTACTS#Allow%20Contacts%20To%20Access`
+- 聯絡人 → Siri: `prefs:root=CONTACTS&path=SIRI_AND_SEARCH`
+- 聯絡人 → 排序: `prefs:root=CONTACTS&path=ContactsSortOrder`
+- 聯絡人 → 顯示順序: `prefs:root=CONTACTS&path=PersonNameOrder`
+- 聯絡人 → 簡稱: `prefs:root=CONTACTS&path=PersonShortName`
+- 聯絡人 → 簡稱 → 簡稱: `prefs:root=CONTACTS&path=PersonShortName#Short%20Name`
+- 聯絡人 → 簡稱 → 偏好暱稱: `prefs:root=CONTACTS&path=PersonShortName#Prefer%20Nicknames`
+- 聯絡人 → 我的資訊: `prefs:root=CONTACTS&path=MeCard`
+- 聯絡人 → 輸入SIM卡的聯絡人: `prefs:root=CONTACTS#SIMImport`
+- 控制中心: `prefs:root=ControlCenter`
+- 控制中心 → 在App中取用: `prefs:root=ControlCenter#ALLOWED_WITHIN_APPS`
+- 控制中心 → 自訂控制項目: `prefs:root=ControlCenter&path=CUSTOMIZE_CONTROLS`
+- 開發者: `prefs:root=DEVELOPER_SETTINGS`
+- 開發者 → 多重路徑網路: `prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG`
+- 開發者 → 多重路徑網路 → 多重路徑網路: `prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG#Multipath%20Networking`
+- 開發者 → 外觀: `prefs:root=DEVELOPER_SETTINGS#UIAppearanceGroup`
+- 開發者 → 深色外觀: `prefs:root=DEVELOPER_SETTINGS#UIAppearanceSettings`
+- 開發者 → 配對的裝置: `prefs:root=DEVELOPER_SETTINGS#DTPairedDevicesGroup`
+- 開發者 → 清除已信任的電腦: `prefs:root=DEVELOPER_SETTINGS#CLEAR_TRUSTED_COMPUTERS`
+- 開發者 → 記錄: `prefs:root=DEVELOPER_SETTINGS&path=DTInstrumentsSettings`
+- 開發者 → 啟用介面自動化: `prefs:root=DEVELOPER_SETTINGS#UIAGroup`
+- 開發者 → 網路: `prefs:root=DEVELOPER_SETTINGS#NLCGroup`
+- 開發者 → 網路連結調節器: `prefs:root=DEVELOPER_SETTINGS&path=NLC`
+- 開發者 → 其他記錄: `prefs:root=DEVELOPER_SETTINGS#ADDITIONAL_LOGGING`
+- 開發者 → 允許HTTP服務: `prefs:root=DEVELOPER_SETTINGS#ALLOW_HTTP_SERVICES`
+- 開發者 → 停用速率限制: `prefs:root=DEVELOPER_SETTINGS#DISABLE_RATE_LIMITING`
+- 開發者 → NFC票卡密鑰可不填: `prefs:root=DEVELOPER_SETTINGS#NFC_PASS_KEY_OPTIONAL`
+- 開發者 → 媒體服務測試: `prefs:root=DEVELOPER_SETTINGS#MEDIA_SERVICES_TESTING`
+- 開發者 → 重置媒體服務: `prefs:root=DEVELOPER_SETTINGS#RESET_MEDIA_SERVICES`
+- 開發者 → 新聞測試: `prefs:root=DEVELOPER_SETTINGS#NEWS_TESTING`
+- 開發者 → 下次啟動時重置本機資料: `prefs:root=DEVELOPER_SETTINGS#RESET_LOCAL_DATA_ON_NEXT_LAUNCH`
+- 開發者 → 媒體播放程式架構測試: `prefs:root=DEVELOPER_SETTINGS#RoutineSettingsGroup`
+- 開發者 → 可播放內容API: `prefs:root=DEVELOPER_SETTINGS&path=RoutineSettings`
+- 開發者 → 電視業者: `prefs:root=DEVELOPER_SETTINGS&path=VideoSubscriberAccountSettings`
+- 開發者 → ClassKit API: `prefs:root=DEVELOPER_SETTINGS&path=ClassKitSettings`
+- 開發者 → CoreSpotlight測試: `prefs:root=DEVELOPER_SETTINGS#CORESPOTLIGHT_TESTING`
+- 開發者 → 重新索引所有項目: `prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS`
+- 開發者 → 重新索引所有包含識別碼的項目: `prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS_WITH_IDENTIFIERS`
+- 開發者 → 捷徑測試: `prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_TESTING`
+- 開發者 → 顯示最近提供的捷徑: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_SPOTLIGHT`
+- 開發者 → 顯示下一個媒體: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_UPCOMING_MEDIA`
+- 開發者 → 在鎖定畫面上顯示捐贈: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_LOCKSCREEN`
+- 開發者 → 強制將捷徑同步到手錶: `prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_SYNC_WATCHOS`
+- 開發者 → MIDI-CI測試: `prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA`
+- 開發者 → 啟用MIDI-CI: `prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA_ENABLE`
+- 開發者 → 當機偵測: `prefs:root=DEVELOPER_SETTINGS#HANGTRACER_EXTERNAL_CONFIGURE`
+- 藍牙: `prefs:root=Bluetooth`
+- 股市: `prefs:root=STOCKS`
+- 股市 → 隱私權: `prefs:root=STOCKS#Privacy`
+- 股市 → 重置識別碼: `prefs:root=STOCKS#reset_identifier`
+- 翻譯: `prefs:root=TRANSLATE`
+- 翻譯 → 裝置端模式: `prefs:root=TRANSLATE#OnDeviceOnly`
+- News: `prefs:root=NEWS`
+- News → 顯示報導預覽: `prefs:root=NEWS#show_excerpt_mode`
+- News → 限制Today中的報導: `prefs:root=NEWS#showStoriesFromFavoritesSpecifierID`
+- News → 隱私權: `prefs:root=NEWS#Privacy`
+- News → 重置識別碼: `prefs:root=NEWS#reset_identifier`
+- News → 版權宣告: `prefs:root=NEWS&path=Acknowledgements`
+- 訊息: `prefs:root=MESSAGES`
+- FaceTime: `prefs:root=FACETIME`
+- 照片: `prefs:root=Photos`
+- 照片 → iCloud照片: `prefs:root=Photos#iCloudPhotosSwitch`
+- 照片 → 最佳化儲存空間: `prefs:root=Photos#iCloudOptimizeStorageOption`
+- 照片 → 下載並保留原始檔: `prefs:root=Photos#iCloudKeepOriginalsOption`
+- 照片 → 共享的相簿: `prefs:root=Photos#SharedStreamsSwitch`
+- 照片 → 行動數據: `prefs:root=Photos&path=CellularDataLinkList`
+- 照片 → 自動播放影片: `prefs:root=Photos#VideoAutoplaySwitch`
+- 照片 → 檢視完整HDR: `prefs:root=Photos#ImageModulationSwitch`
+- 照片 → 顯示節日: `prefs:root=Photos#MEMORIES_HOLIDAY_CALENDAR_EVENTS_SWITCH`
+- 照片 → 傳到Mac或PC: `prefs:root=Photos#TransferGroup`
+- 暴露通知: `prefs:root=EXPOSURE_NOTIFICATION`
+- 相機: `prefs:root=CAMERA`
+- 相機 → 格式: `prefs:root=CAMERA&path=CameraFormatsSettingsList`
+- 相機 → 格式 → Apple ProRaw: `prefs:root=CAMERA&path=CameraFormatsSettingsList#CAMUserPreferenceEnableLinearDNGControl`
+- 相機 → Record Video: `prefs:root=CAMERA&path=Record%20Video`
+- 相機 → Record Video → HDR影片: `prefs:root=CAMERA&path=Record%20Video#HDR%20Video`
+- 相機 → 保留設定: `prefs:root=CAMERA&path=CameraPreserveSettingsSwitch`
+- 相機 → 保留設定 → 相機模式: `prefs:root=CAMERA&path=CameraPreserveSettingsSwitch#CAMUserPreferencePreserveCaptureMode`
+- 相機 → 格線: `prefs:root=CAMERA#CameraGridSwitch`
+- 相機 → 掃描行動條碼: `prefs:root=CAMERA#CameraQRBannerSwitch`
+- 行動服務: `prefs:root=MOBILE_DATA_SETTINGS_ID`
+- 行動服務 → 行動數據選項: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS`
+- 行動服務 → 行動數據選項 → 低數據模式: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS#Low%20Data%20Mode`
+- 行動服務 → 行動數據: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=SHOW_ALL`
+- Podcast: `prefs:root=PODCASTS`
+- 指南針: `prefs:root=COMPASS`
+- 指南針 → 使用正北: `prefs:root=COMPASS#USE_TRUE_NORTH`
+- 書籍: `prefs:root=IBOOKS`
+- 書籍 → 線上內容: `prefs:root=IBOOKS#BKAllowOnlineContent`
+- 書籍 → 同步: `prefs:root=IBOOKS#SYNCING`
+- 書籍 → 閱讀中: `prefs:root=IBOOKS#BKLibrary.ReadingNow`
+- 書籍 → iCloud雲碟: `prefs:root=IBOOKS#BCSyncICloudDrive`
+- 書籍 → 閱讀: `prefs:root=IBOOKS#READING`
+- 書籍 → 左右齊行: `prefs:root=IBOOKS#BKFullJustification`
+- 書籍 → 自動加入連字號: `prefs:root=IBOOKS#BKAutoHyphenation`
+- 書籍 → 點一下左右頁邊來翻頁: `prefs:root=IBOOKS#BKLeftTapTurnToNext`
+- 書籍 → 閱讀目標: `prefs:root=IBOOKS#READING_GOALS`
+- 書籍 → 清除閱讀目標資料: `prefs:root=IBOOKS#BKReadingGoalsShouldClearDataKey`
+- 書籍 → 搜尋: `prefs:root=IBOOKS#SEARCHING`
+- 書籍 → 書店: `prefs:root=IBOOKS#BKIncludeBookStoreResultsInSearch`
+- 書籍 → 有聲書: `prefs:root=IBOOKS#AUDIOBOOKS`
+- 書籍 → 跳到下一段: `prefs:root=IBOOKS&path=BKAudioBookSkipForward`
+- 書籍 → 跳到上一段: `prefs:root=IBOOKS&path=BKAudioBookSkipBackward`
+- 書籍 → 外部控制項目: `prefs:root=IBOOKS#BKRemoteSkipInsteadOfNextTrackDefaultKey`
+- 書籍 → 下一集/上一集: `prefs:root=IBOOKS#Next/Previous`
+- 書籍 → 快轉/倒轉: `prefs:root=IBOOKS#Skip%20Forward/Back`
+- 書籍 → 隱私權: `prefs:root=IBOOKS#PRIVACY`
+- 書籍 → 重置識別碼: `prefs:root=IBOOKS#BAResetAnalyticsUserID`
+- 書籍 → 版權宣告: `prefs:root=IBOOKS&path=Acknowledgements`
+- 飛航模式: `prefs:root=ROOT#AIRPLANE_MODE`

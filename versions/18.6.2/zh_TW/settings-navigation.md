@@ -1,0 +1,29 @@
+- Apple帳號: `settings-navigation://com.apple.Settings.AppleAccount`
+- Apple帳號 → iCloud: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE`
+- Apple帳號 → iCloud → 行事曆: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Calendars`
+- Apple帳號 → iCloud → 行事曆 → 傳送與接收: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Calendars/CALENDAR_SEND_RECEIVE`
+- Apple帳號 → iCloud → 行事曆 → 接收電子郵件更新: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Calendars/CALENDAR_SHARED_CALENDAR_UPDATE`
+- Apple帳號 → iCloud → 郵件: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail`
+- Apple帳號 → iCloud → 郵件 → 預設電子郵件: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/DEFAULT_EMAIL`
+- Apple帳號 → iCloud → 郵件 → 地址: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/ALIASES`
+- Apple帳號 → iCloud → 郵件 → 自動回覆: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/AUTO_REPLY`
+- Apple帳號 → iCloud → 郵件 → iCloud郵件規則: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/SERVER_SIDE_RULES`
+- Apple帳號 → iCloud → 郵件 → 郵件轉寄: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/MAIL_FORWARDING`
+- Apple帳號 → iCloud → 郵件 → 信箱動作: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/MAILBOX_BEHAVIORS`
+- Apple帳號 → iCloud → 郵件 → 簽署和加密: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/S_MIME`
+- Apple帳號 → iCloud → 郵件 → 輸入郵件: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/MAIL_IMPORT`
+- Apps: `settings-navigation://com.apple.Settings.Apps`
+- Apps → Fitness: `settings-navigation://com.apple.Settings.Apps/com.apple.Fitness`
+- Apps → Safari: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/`
+- Apps → Safari → 延伸功能: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/WEB_EXTENSIONS`
+- Apps → Safari → 阻擋彈出式視窗: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari#BLOCK_POPUPS`
+- Apps → Safari → 防止跨網站追蹤: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari#TRACKER_PROTECTION`
+- Apps → Safari → 自動填寫: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/AUTO_FILL`
+- Apps → Safari → 下載項目: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/DOWNLOADS`
+- Apps → 密碼: `settings-navigation://com.apple.Settings.Apps/com.apple.Passwords`
+- Apps → 密碼 → 安全層級建議: `settings-navigation://com.apple.Settings.Apps/com.apple.Passwords#SECURITY_RECOMMENDATIONS`
+- 隱私權與安全性: `settings-navigation://com.apple.Settings.PrivacyAndSecurity`
+- 隱私權與安全性 → 安全檢查: `settings-navigation://com.apple.Settings.PrivacyAndSecurity/SAFETY_CHECK`
+- 家庭: `settings-navigation://com.apple.Settings.HomeKit`
+- Search: `settings-navigation://com.apple.Settings.Search`
+- 電視業者: `settings-navigation://com.apple.Settings.TVProvider`

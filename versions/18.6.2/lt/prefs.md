@@ -1,0 +1,1186 @@
+- Akumuliatorius: `prefs:root=BATTERY_USAGE`
+- Akumuliatorius → Energijos taupymo režimas: `prefs:root=BATTERY_USAGE#BATTERY_SAVER_MODE`
+- Akumuliatorius → Akumuliatoriaus būklė: `prefs:root=BATTERY_USAGE#BATTERY_HEALTH_ID`
+- Veiksmo mygtukas: `prefs:root=ACTION_BUTTON`
+- Pranešimai: `prefs:root=NOTIFICATIONS_ID`
+- Pranešimai → Suplanuota suvestinė: `prefs:root=NOTIFICATIONS_ID&path=SCHEDULED_DELIVERY_ID`
+- Bendrieji: `prefs:root=General`
+- Bendrieji → VPN ir įrenginių valdymas: `prefs:root=General&path=ManagedConfigurationList`
+- Bendrieji → „AppleCare“ ir garantija: `prefs:root=General&path=COVERAGE/`
+- Bendrieji → Automatinis užpildymas ir slaptažodžiai: `prefs:root=General&path=AUTOFILL`
+- Bendrieji → Automatinis užpildymas ir slaptažodžiai → Automatiškai užpildyti slaptažodžius: `prefs:root=General&path=AUTOFILL#AUTOFILL`
+- Bendrieji → Automatinis užpildymas ir slaptažodžiai → Išvalyti patvirtinimo kodus: `prefs:root=General&path=AUTOFILL#CLEAN_UP_VERIFICATION_CODES`
+- Bendrieji → Automatinis užpildymas ir slaptažodžiai → Nustatyti patvirtinimo kodus: `prefs:root=General&path=AUTOFILL#SET_UP_VERIFICATION_CODES`
+- Bendrieji → Saugykla: `prefs:root=General&path=STORAGE_MGMT`
+- Bendrieji → Saugykla → Saugykla: `prefs:root=General&path=STORAGE_MGMT#MANAGE`
+- Bendrieji → Saugykla → Nenaudojamų programų iškėlimas: `prefs:root=General&path=STORAGE_MGMT#OFFLOAD`
+- Bendrieji → Programinės įrangos atnaujinimas: `prefs:root=General&path=SOFTWARE_UPDATE_LINK`
+- Bendrieji → Programinės įrangos atnaujinimas → Automatiniai atnaujinimai: `prefs:root=General&path=SOFTWARE_UPDATE_LINK/SUAutomaticUpdateButton`
+- Bendrieji → Klaviatūra: `prefs:root=General&path=Keyboard`
+- Bendrieji → Klaviatūra → Klaviatūros: `prefs:root=General&path=Keyboard/KEYBOARDS`
+- Bendrieji → Klaviatūra → Teksto keitimas: `prefs:root=General&path=Keyboard/USER_DICTIONARY`
+- Bendrieji → Klaviatūra → Automatiškai didžiosiomis: `prefs:root=General&path=Keyboard#KeyboardAutocapitalization`
+- Bendrieji → Klaviatūra → Automatinis taisymas: `prefs:root=General&path=Keyboard#KeyboardAutocorrection`
+- Bendrieji → Klaviatūra → Tikrinti rašybą: `prefs:root=General&path=Keyboard#KeyboardCheckSpelling`
+- Bendrieji → Klaviatūra → Įjungti didžiąsias raides: `prefs:root=General&path=Keyboard#KeyboardCapsLock`
+- Bendrieji → Klaviatūra → Sparčiosios komandos: `prefs:root=General&path=Keyboard#KeyboardAssistant`
+- Bendrieji → Klaviatūra → Numatomas: `prefs:root=General&path=Keyboard#KeyboardPrediction`
+- Bendrieji → Klaviatūra → Išmanioji skyryba: `prefs:root=General&path=Keyboard#SmartTyping`
+- Bendrieji → Klaviatūra → Padalytasis režimas: `prefs:root=General&path=Keyboard#RivenKeyboard`
+- Bendrieji → Klaviatūra → Įjungti klavišų brūkštelėjimą: `prefs:root=General&path=Keyboard#GesturesEnabled`
+- Bendrieji → Klaviatūra → Ženklų peržiūra: `prefs:root=General&path=Keyboard#KeyboardAllowPaddle`
+- Bendrieji → Klaviatūra → „.“ sparčioji komanda: `prefs:root=General&path=Keyboard#KeyboardPeriodShortcut`
+- Bendrieji → Klaviatūra → Rašymas braukiant: `prefs:root=General&path=Keyboard#KeyboardContinuousPathEnabled`
+- Bendrieji → Klaviatūra → Įjungti diktavimą: `prefs:root=General&path=Keyboard#Dictation`
+- Bendrieji → Klaviatūra → Automatinė skyryba: `prefs:root=General&path=Keyboard#AutoPunctuationSetting`
+- Bendrieji → Kalba ir regionas: `prefs:root=General&path=INTERNATIONAL`
+- Bendrieji → Kalba ir regionas → Kitos kalbos…: `prefs:root=General&path=INTERNATIONAL#NEW_PREFERRED_LANGUAGE`
+- Bendrieji → Kalba ir regionas → Pageidaujama kalbų rodymo tvarka: `prefs:root=General&path=INTERNATIONAL#PREFERRED_LANGUAGE_GROUP`
+- Bendrieji → Kalba ir regionas → Įtraukti kalbą…: `prefs:root=General&path=INTERNATIONAL#ADD_PREFERRED_LANGUAGE`
+- Bendrieji → Kalba ir regionas → Regionas: `prefs:root=General&path=INTERNATIONAL/LOCALE`
+- Bendrieji → Kalba ir regionas → Skaičiai: `prefs:root=General&path=INTERNATIONAL/NUMBERING_SYSTEM`
+- Bendrieji → Kalba ir regionas → Kalendorius: `prefs:root=General&path=INTERNATIONAL/CALENDAR`
+- Bendrieji → Kalba ir regionas → Temperatūros matavimo vienetas: `prefs:root=General&path=INTERNATIONAL/TEMPERATURE_UNIT`
+- Bendrieji → Žodynas: `prefs:root=General&path=DICTIONARY`
+- Bendrieji → Vaizdas vaizde: `prefs:root=General&path=PiP_SPEC`
+- Bendrieji → Jutiklinis pultas: `prefs:root=General&path=POINTERS`
+- Bendrieji → NFC: `prefs:root=General&path=NFC_LINK`
+- Bendrieji → VPN: `prefs:root=General&path=VPN`
+- Bendrieji → CarPlay: `prefs:root=General&path=CARPLAY`
+- Bendrieji → Apie: `prefs:root=General&path=About`
+- Bendrieji → Apie → Patikimi sertifikatai: `prefs:root=General&path=About/CERT_TRUST_SETTINGS`
+- Bendrieji → Apie → Serijos numeris: `prefs:root=General&path=About#SerialNumber`
+- Bendrieji → Apie → Modelio numeris: `prefs:root=General&path=About#ProductModel`
+- Bendrieji → Apie → Modelio pavadinimas: `prefs:root=General&path=About#ProductModelName`
+- Bendrieji → Apie → „iOS“ versija: `prefs:root=General&path=About/SW_VERSION_SPECIFIER`
+- Bendrieji → Teisinė ir reguliavimo informacija: `prefs:root=General&path=LEGAL_AND_REGULATORY`
+- Bendrieji → Teisinė ir reguliavimo informacija → Garantija: `prefs:root=General&path=LEGAL_AND_REGULATORY#Warranty`
+- Bendrieji → AirDrop: `prefs:root=General&path=AIRDROP_LINK`
+- Bendrieji → AirDrop → Įrenginių suartinimas: `prefs:root=General&path=AIRDROP_LINK#AIRDROP_NFC_ID`
+- Bendrieji → Pradžios mygtukas: `prefs:root=General&path=HOME_BUTTON`
+- Bendrieji → Šoninis perjungiklis: `prefs:root=General#Rotation_Switch_Action_Group`
+- Bendrieji → Programų atnaujinimas fone: `prefs:root=General&path=AUTO_CONTENT_DOWNLOAD`
+- Bendrieji → Data ir laikas: `prefs:root=General&path=DATE_AND_TIME`
+- Bendrieji → Televizijos išvestis: `prefs:root=General&path=TV_OUT`
+- Bendrieji → Nustatyti iš naujo: `prefs:root=General&path=Reset`
+- Bendrieji → Nustatyti iš naujo → Nustatyti visus nustatymus iš naujo: `prefs:root=General&path=Reset#settingsErase`
+- Bendrieji → Nustatyti iš naujo → Trinti visą turinį ir nustatymus: `prefs:root=General&path=Reset#fullErase`
+- Bendrieji → Nustatyti iš naujo → Nustatyti tinklo nustatymus iš naujo: `prefs:root=General&path=Reset#RESET_NETWORK_LABEL`
+- Bendrieji → Nustatyti iš naujo → Šalinti visus mobiliojo ryšio duomenų planus: `prefs:root=General&path=Reset#cellularErase`
+- Bendrieji → Nustatyti iš naujo → Paslaugos prenumeratoriams: `prefs:root=General&path=Reset#SUBSCRIBER_SERVICES_ID`
+- Bendrieji → Nustatyti iš naujo → Nustatyti klaviatūros žodyną iš naujo: `prefs:root=General&path=Reset#RESET_KEYBOARD_DICTIONARY_LABEL`
+- Bendrieji → Nustatyti iš naujo → Nustatyti pradžios ekrano išdėstymą iš naujo: `prefs:root=General&path=Reset#RESET_ICONS_LABEL`
+- Bendrieji → Nustatyti iš naujo → Nustatyti sritį „Vieta ir privatumas“ iš naujo: `prefs:root=General&path=Reset#RESET_PRIVACY_LABEL`
+- Bendrieji → Išjungti: `prefs:root=General#SHUTDOWN_LABEL`
+- Bendrieji → „AirPlay“ ir tęstinumas: `prefs:root=General&path=CONTINUITY_SPEC`
+- Bendrieji → „AirPlay“ ir tęstinumas → Handoff: `prefs:root=General&path=CONTINUITY_SPEC#CONTINUITY`
+- Bendrieji → „AirPlay“ ir tęstinumas → Perduoti į „HomePod“: `prefs:root=General&path=CONTINUITY_SPEC#TRANSFER_TO_HOMEPOD`
+- Bendrieji → „AirPlay“ ir tęstinumas → Leisti automatiškai per „AirPlay“: `prefs:root=General&path=CONTINUITY_SPEC#AUTOMATICALLY_AIRPLAY`
+- Bendrieji → „AirPlay“ ir tęstinumas → Tęstinio vaizdo kamera: `prefs:root=General&path=CONTINUITY_SPEC#WOMBAT_CAMERA`
+- „Piniginė“ ir „Apple Pay“: `prefs:root=PASSBOOK`
+- „Piniginė“ ir „Apple Pay“ → Apple Cash: `prefs:root=PASSBOOK#Apple%C2%A0Cash`
+- „Piniginė“ ir „Apple Pay“ → Mokėjimo kortelės: `prefs:root=PASSBOOK#SETTINGS_PAYMENT_CARDS_GROUP`
+- „Piniginė“ ir „Apple Pay“ → Įtraukti kortelę: `prefs:root=PASSBOOK#Add%20Card`
+- „Piniginė“ ir „Apple Pay“ → Dvigubas šoninio mygtuko spustelėjimas: `prefs:root=PASSBOOK#Double-Click%20Side%20Button`
+- „Piniginė“ ir „Apple Pay“ → Užsakymo sekimas: `prefs:root=PASSBOOK#ORDER_TRACKING`
+- Dienoraštis: `prefs:root=JOURNAL`
+- Budėjimas: `prefs:root=AMBIENT`
+- Orai: `prefs:root=WEATHER`
+- „Apple“ paskyra: `prefs:root=APPLE_ACCOUNT` or `settings-navigation://com.apple.Settings.AppleAccount`
+- „Apple“ paskyra → iCloud: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE` or `prefs:root=CASTLE`
+- „Apple“ paskyra → iCloud → „iCloud“ saugykla: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/STORAGE_AND_BACKUP` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/STORAGE_AND_BACKUP` or `prefs:root=CASTLE&path=STORAGE_AND_BACKUP`
+- „Apple“ paskyra → iCloud → iCloud Drive: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity` or `prefs:root=CASTLE&path=com.apple.Dataclass.Ubiquity`
+- „Apple“ paskyra → iCloud → Nuotraukos: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.MediaStream` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.MediaStream` or `prefs:root=CASTLE&path=com.apple.Dataclass.MediaStream`
+- „Apple“ paskyra → iCloud → Mail: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Mail` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail` or `prefs:root=CASTLE&path=com.apple.Dataclass.Mail`
+- „Apple“ paskyra → iCloud → Mail → Pasirinktinis el. pašto domenas: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Mail/BYOD_SETTING_SPECIFIER_ID` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/BYOD_SETTING_SPECIFIER_ID` or `prefs:root=CASTLE&path=com.apple.Dataclass.Mail/BYOD_SETTING_SPECIFIER_ID`
+- „Apple“ paskyra → iCloud → Adresatai: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Contacts` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Contacts` or `prefs:root=CASTLE&path=com.apple.Dataclass.Contacts`
+- „Apple“ paskyra → iCloud → Kalendorius: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Calendars` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Calendars` or `prefs:root=CASTLE&path=com.apple.Dataclass.Calendars`
+- „Apple“ paskyra → iCloud → Priminimai: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Reminders` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Reminders` or `prefs:root=CASTLE&path=com.apple.Dataclass.Reminders`
+- „Apple“ paskyra → iCloud → Safari: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks` or `prefs:root=CASTLE&path=com.apple.Dataclass.Bookmarks`
+- „Apple“ paskyra → iCloud → Užrašai: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Notes` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Notes` or `prefs:root=CASTLE&path=com.apple.Dataclass.Notes`
+- „Apple“ paskyra → iCloud → News: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.News` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.News` or `prefs:root=CASTLE&path=com.apple.Dataclass.News`
+- „Apple“ paskyra → iCloud → Atsarginė kopija: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/BACKUP` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/BACKUP` or `prefs:root=CASTLE&path=BACKUP`
+- „Apple“ paskyra → iCloud → Sveikata: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Health` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Health` or `prefs:root=CASTLE&path=com.apple.Dataclass.Health`
+- „Apple“ paskyra → iCloud → Slaptažodžiai ir raktai: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync` or `prefs:root=CASTLE&path=com.apple.Dataclass.KeychainSync`
+- „Apple“ paskyra → iCloud → Slėpti mano el. pašto adresą: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE` or `prefs:root=CASTLE&path=PRIVATE_EMAIL_MANAGE`
+- „Apple“ paskyra → Bendrinti mano vietą: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING` or `settings-navigation://com.apple.Settings.AppleAccount/LOCATION_SHARING`
+- „Apple“ paskyra → Bendrinti mano vietą → Lokatorius: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING/FindMyDevice-Settings` or `settings-navigation://com.apple.Settings.AppleAccount/LOCATION_SHARING/FindMyDevice-Settings`
+- „Apple“ paskyra → Vardas ir pavardė, telefono numeriai, el. pašto adresas: `prefs:root=APPLE_ACCOUNT&path=APPLE_ACCOUNT_CONTACT` or `settings-navigation://com.apple.Settings.AppleAccount/APPLE_ACCOUNT_CONTACT`
+- „Apple“ paskyra → Slaptažodis ir sauga: `prefs:root=APPLE_ACCOUNT&path=PASSWORD_AND_SECURITY` or `settings-navigation://com.apple.Settings.AppleAccount/PASSWORD_AND_SECURITY`
+- „Apple“ paskyra → Mokėjimas ir pristatymas: `prefs:root=APPLE_ACCOUNT&path=PAYMENT_AND_SHIPPING` or `settings-navigation://com.apple.Settings.AppleAccount/PAYMENT_AND_SHIPPING`
+- „Apple“ paskyra → Prenumeratos: `prefs:root=APPLE_ACCOUNT&path=SUBSCRIPTIONS` or `settings-navigation://com.apple.Settings.AppleAccount/SUBSCRIPTIONS`
+- „Apple“ paskyra → Šeima: `prefs:root=APPLE_ACCOUNT&path=Family` or `settings-navigation://com.apple.Settings.AppleAccount/Family`
+- „Apple“ paskyra → Adresato rakto patvirtinimas: `prefs:root=APPLE_ACCOUNT&path=TRANSPARENCY` or `settings-navigation://com.apple.Settings.AppleAccount/TRANSPARENCY`
+- Žemėlapiai: `prefs:root=MAPS`
+- Žemėlapiai → Oro kokybės indeksas: `prefs:root=MAPS#AirQualityPreferenceID`
+- Žemėlapiai → Visada lietuviškai: `prefs:root=MAPS#LabelLanguageAlwaysUIPreferenceID`
+- Žemėlapiai → Važiavimas dviračiu: `prefs:root=MAPS&path=CyclingLinkPreferenceID`
+- Žemėlapiai → Pageidaujamas keliavimo tipas: `prefs:root=MAPS#TransportTypePreferenceGroupID`
+- Žemėlapiai → Vairavimas: `prefs:root=MAPS&path=DrivingLinkPreferenceID`
+- Žemėlapiai → Garsiniai maršrutai: `prefs:root=MAPS&path=NavigationGuidanceLinkPreferenceID`
+- Žemėlapiai → Rodyti stovėjimo vietą: `prefs:root=MAPS#ParkedCarPreferenceID`
+- Žemėlapiai → Bendrinti atvykimo laiką: `prefs:root=MAPS#ShareETAPreferenceID`
+- Žemėlapiai → Transportas: `prefs:root=MAPS&path=TransitLinkPreferenceID`
+- Žemėlapiai → Ėjimas pėsčiomis: `prefs:root=MAPS&path=WalkingLinkPreferenceID`
+- Žemėlapiai → Oro sąlygos: `prefs:root=MAPS#WeatherConditionsPreferenceID`
+- Ekrano laikas: `prefs:root=SCREEN_TIME`
+- Ekrano laikas → See All App & Website Activity: `prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY`
+- Ekrano laikas → See All App & Website Activity → Šiandien: `prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY#DAY`
+- Ekrano laikas → See All App & Website Activity → Savaitė: `prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY#WEEK`
+- Ekrano laikas → Laikas be ekrano: `prefs:root=SCREEN_TIME&path=DOWNTIME`
+- Ekrano laikas → Programų limitai: `prefs:root=SCREEN_TIME&path=APP_LIMITS`
+- Ekrano laikas → Ryšio limitai: `prefs:root=SCREEN_TIME&path=COMMUNICATION_LIMITS`
+- Ekrano laikas → Saugus bendravimas: `prefs:root=SCREEN_TIME&path=COMMUNICATION_SAFETY`
+- Ekrano laikas → Visada leidžiama: `prefs:root=SCREEN_TIME&path=ALWAYS_ALLOWED`
+- Ekrano laikas → Turinio ir privatumo apribojimai: `prefs:root=SCREEN_TIME&path=CONTENT_PRIVACY`
+- Ekrano laikas → Tėvų kontrolės priemonės: `prefs:root=SCREEN_TIME#FAMILY`
+- Ekrano laikas → Atstumas nuo ekrano: `prefs:root=SCREEN_TIME&path=EYE_DISTANCE`
+- Freeform: `prefs:root=FREEFORM`
+- Susitelkimas: `prefs:root=DO_NOT_DISTURB`
+- Susitelkimas → Susitelkimo būsena: `prefs:root=DO_NOT_DISTURB&path=status`
+- Išvaizda: `prefs:root=DISPLAY`
+- Išvaizda → Išvaizda: `prefs:root=DISPLAY#DEVICE_APPEARANCE`
+- Išvaizda → True Tone: `prefs:root=DISPLAY#WHITE_BALANCE`
+- Išvaizda → Night Shift: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION`
+- Išvaizda → Night Shift → Suplanuota: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#SCHEDULED`
+- Išvaizda → Night Shift → Įjungti neautomatiškai iki rytojaus: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#MANUAL`
+- Išvaizda → Night Shift → Spalvos temperatūra: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#COLOR_TEMPERATURE`
+- Išvaizda → Automatinis užrakinimas: `prefs:root=DISPLAY&path=AUTOLOCK`
+- Išvaizda → Pakelkite norėdami pažadinti: `prefs:root=DISPLAY#RAISE_TO_WAKE`
+- Išvaizda → Užrakinti / atrakinti: `prefs:root=DISPLAY#SMART_CASE_LOCK_SPEC`
+- Išvaizda → Teksto dydis: `prefs:root=DISPLAY&path=TEXT_SIZE`
+- Išvaizda → Paryškintas tekstas: `prefs:root=DISPLAY#BOLD_TEXT`
+- Išvaizda → Šviesumas: `prefs:root=DISPLAY#BRIGHTNESS`
+- Išvaizda → Ekrano mastelis: `prefs:root=DISPLAY#DISPLAY_ZOOM_GROUP`
+- Išvaizda → Išvaizda: `prefs:root=DISPLAY&path=APPEARANCE`
+- Išvaizda → Išvaizda → Lango mastelis: `prefs:root=DISPLAY&path=APPEARANCE#WINDOW_ZOOM`
+- Išvaizda → Išvaizda → Dviem rankomis keičiamas lango mastelis: `prefs:root=DISPLAY&path=APPEARANCE#TWO_HANDED_WINDOW_ZOOM`
+- Išvaizda → Rodinys: `prefs:root=DISPLAY&path=MAGNIFY`
+- Išvaizda → Visada rodyti: `prefs:root=DISPLAY&path=ALWAYS_ON`
+- Išvaizda → Visada rodyti → Visada rodyti: `prefs:root=DISPLAY&path=ALWAYS_ON#ALWAYS_ON`
+- Išvaizda → Suderinamos programos: `prefs:root=DISPLAY&path=COMPATIBLE_APPEARANCE`
+- Išvaizda → Suderinamos programos → Tamsi, šviesi: `prefs:root=DISPLAY&path=COMPATIBLE_APPEARANCE#COMPATIBLE_APPEARANCE_CHOICES`
+- Pradžios ekranas: `prefs:root=HOME_SCREEN`
+- Pradžios ekranas → Naujai atsisiųstos programos: `prefs:root=HOME_SCREEN&path=APP_DOWNLOADS_GO_TO`
+- Pradžios ekranas → Pranešimų ženkleliai: `prefs:root=HOME_SCREEN#BADGES_IN_APP_LIBRARY`
+- Pradžios ekranas ir programų biblioteka: `prefs:root=HOME_SCREEN_DOCK`
+- Pradžios ekranas ir programų biblioteka → Naujai atsisiųstos programos: `prefs:root=HOME_SCREEN_DOCK&path=APP_DOWNLOADS_GO_TO`
+- Pradžios ekranas ir programų biblioteka → Dock: `prefs:root=HOME_SCREEN_DOCK&path=MULTITASKING_DOCK`
+- Pradžios ekranas ir programų biblioteka → Dock → Rodyti programų biblioteką „Dock“ juostoje: `prefs:root=HOME_SCREEN_DOCK&path=MULTITASKING_DOCK#SHOW_APP_LIBRARY`
+- Pradžios ekranas ir programų biblioteka → Rodyti siūlomas ir vėliausiai naudotas programas „Dock“ juostoje: `prefs:root=HOME_SCREEN_DOCK#ALLOW_RECENTS`
+- Pradžios ekranas ir programų biblioteka → Langų tvarkytuvė: `prefs:root=HOME_SCREEN_DOCK&path=CONTINUOUS-EXPOSE`
+- Multitasking & Gestures: `prefs:root=com.apple.MultitaskingAndGesturesSettings`
+- Multitasking & Gestures → Daugiaprocesis režimas: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Multitasking`
+- Multitasking & Gestures → Daugiaprocesis režimas → Leisti kelias programas: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Multitasking#MultipleApps`
+- Multitasking & Gestures → Daugiaprocesis režimas → „Split View“ ir „Slide Over“: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Multitasking#SplitViewSlideOver`
+- Multitasking & Gestures → Daugiaprocesis režimas → Ekrano dubliavimas: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Multitasking#ScreenMirroring`
+- Multitasking & Gestures → Daugiaprocesis režimas → Langų tvarkytuvė: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Multitasking#StageManager`
+- Multitasking & Gestures → Daugiaprocesis režimas → Rodyti naujausias programas funkcijoje „Langų tvarkytuvė“: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Multitasking#StageManagerRecentApps`
+- Multitasking & Gestures → Daugiaprocesis režimas → Rodyti „Dock“ srityje „Langų tvarkytuvė“: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Multitasking#StageManagerDock`
+- Multitasking & Gestures → Vaizdas vaizde: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=PictureInPicture`
+- Multitasking & Gestures → Produktyvumo gestai: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Productivity`
+- Multitasking & Gestures → Produktyvumo gestai → Gestai: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Productivity#Gestures`
+- Multitasking & Gestures → Produktyvumo gestai → Produktyvumo gestai: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Productivity#ProductivityGestures`
+- Multitasking & Gestures → Keturių ir penkių pirštų gestai: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=FourAndFiveFingers`
+- Multitasking & Gestures → Anuliavimas pakračius: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=ShakeToUndo`
+- Multitasking & Gestures → Kampiniai gestai: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=CornerGestures`
+- Prieinamumas: `prefs:root=ACCESSIBILITY`
+- Prieinamumas → VoiceOver: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE`
+- Prieinamumas → VoiceOver → „VoiceOver“ mokymo priemonė: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#VoiceOverTouchTutorialEnabled`
+- Prieinamumas → VoiceOver → Ištarimo sparta: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#SpeakingRateSlider`
+- Prieinamumas → VoiceOver → Kalba: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Voices`
+- Prieinamumas → VoiceOver → Kalba → Tarimai: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Voices/PRONUNCIATION_DICTIONARY`
+- Prieinamumas → VoiceOver → Kalba → Tarimai → Tarimai: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Voices/PRONUNCIATION_DICTIONARY#PRONUNCIATION_DICTIONARY`
+- Prieinamumas → VoiceOver → Kalba → Keisti tono aukštį: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Voices#PITCH_CHANGES_TITLE`
+- Prieinamumas → VoiceOver → Kalba → Įtraukti rotoriaus balsą…: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Voices#ADD_NEW_VOICE`
+- Prieinamumas → VoiceOver → Kalba → Aptikti kalbas: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Voices#LANGUAGE_DETECTION`
+- Prieinamumas → VoiceOver → Kalba → Erdvinė kalba: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Voices#SPATIALIZE_SPEECH`
+- Prieinamumas → VoiceOver → Detalizavimas: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity`
+- Prieinamumas → VoiceOver → Detalizavimas → Detalizavimas: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#Verbosity`
+- Prieinamumas → VoiceOver → Detalizavimas → Skyryba: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup`
+- Prieinamumas → VoiceOver → Detalizavimas → Skyryba → Skyryba: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup#voiceOverPunctuationGroup`
+- Prieinamumas → VoiceOver → Detalizavimas → Skyryba → Aktyvi skyrybos ženklų grupė: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup#voiceOverActivePunctuationGroup`
+- Prieinamumas → VoiceOver → Detalizavimas → Skyryba → Visos: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup#all`
+- Prieinamumas → VoiceOver → Detalizavimas → Skyryba → Kelios: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup#AXSSVoiceOverPunctuationGroupSome`
+- Prieinamumas → VoiceOver → Detalizavimas → Skyryba → Nėra: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup#PunctuationGroupNone`
+- Prieinamumas → VoiceOver → Detalizavimas → Skyryba → Įtraukti skyrybos ženklų grupę: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup/NewPunctuation`
+- Prieinamumas → VoiceOver → Detalizavimas → Skyryba → Įtraukti skyrybos ženklų grupę → Įtraukti skyrybos ženklų grupę: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup/NewPunctuation#NewPunctuation`
+- Prieinamumas → VoiceOver → Detalizavimas → Skyryba → Importuoti: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup/ImportPunctuation`
+- Prieinamumas → VoiceOver → Detalizavimas → Skyryba → Importuoti → Importuoti: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup/ImportPunctuation#ImportPunctuation`
+- Prieinamumas → VoiceOver → Detalizavimas → Sakyti užuominas: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#HINTS_TITLE`
+- Prieinamumas → VoiceOver → Detalizavimas → Sistemos pranešimai: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/SystemNotifications`
+- Prieinamumas → VoiceOver → Detalizavimas → Sistemos pranešimai → Sistemos pranešimai: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/SystemNotifications#SystemNotifications`
+- Prieinamumas → VoiceOver → Detalizavimas → Sistemos pranešimai → Pranešimai, kai užrakinta: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/SystemNotifications#LockScreenNotifications`
+- Prieinamumas → VoiceOver → Detalizavimas → Sistemos pranešimai → Reklaminės juostos pranešimai: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/SystemNotifications#BannerNotifications`
+- Prieinamumas → VoiceOver → Detalizavimas → Sistemos pranešimai → Naudoti tylųjį režimą: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/SystemNotifications#NOTIFICATION_USE_RINGER_SWITCH`
+- Prieinamumas → VoiceOver → Detalizavimas → „QuickNav“ pranešimai: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverQuickNavAnnouncementFeedback`
+- Prieinamumas → VoiceOver → Detalizavimas → „QuickNav“ pranešimai → „QuickNav“ pranešimai: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverQuickNavAnnouncementFeedback#voiceOverQuickNavAnnouncementFeedback`
+- Prieinamumas → VoiceOver → Detalizavimas → Žibintuvėlio pranešimai: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverFlashlightNotificationsEnabled`
+- Prieinamumas → VoiceOver → Detalizavimas → Žibintuvėlio pranešimai → Žibintuvėlio pranešimai: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverFlashlightNotificationsEnabled#voiceOverFlashlightNotificationsEnabled`
+- Prieinamumas → VoiceOver → Detalizavimas → Didžiosios raidės: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverCapitalLetterFeedback`
+- Prieinamumas → VoiceOver → Detalizavimas → Didžiosios raidės → Didžiosios raidės: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverCapitalLetterFeedback#voiceOverCapitalLetterFeedback`
+- Prieinamumas → VoiceOver → Detalizavimas → Trinamas tekstas: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverDeletionFeedback`
+- Prieinamumas → VoiceOver → Detalizavimas → Trinamas tekstas → Trinamas tekstas: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverDeletionFeedback#voiceOverDeletionFeedback`
+- Prieinamumas → VoiceOver → Detalizavimas → Nuorodos: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverLinkFeedback`
+- Prieinamumas → VoiceOver → Detalizavimas → Nuorodos → Nuorodos: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverLinkFeedback#voiceOverLinkFeedback`
+- Prieinamumas → VoiceOver → Detalizavimas → Veiksmai: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverActionsFeedback`
+- Prieinamumas → VoiceOver → Detalizavimas → Veiksmai → Veiksmai: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverActionsFeedback#voiceOverActionsFeedback`
+- Prieinamumas → VoiceOver → Detalizavimas → Daugiau turinio: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMoreContentOutputFeedback`
+- Prieinamumas → VoiceOver → Detalizavimas → Daugiau turinio → Daugiau turinio: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMoreContentOutputFeedback#voiceOverMoreContentOutputFeedback`
+- Prieinamumas → VoiceOver → Detalizavimas → Aplankų apibūdinimai: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverContainerOutputFeedback`
+- Prieinamumas → VoiceOver → Detalizavimas → Aplankų apibūdinimai → Aplankų apibūdinimai: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverContainerOutputFeedback#voiceOverContainerOutputFeedback`
+- Prieinamumas → VoiceOver → Detalizavimas → Skaičiai: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverNumberFeedback`
+- Prieinamumas → VoiceOver → Detalizavimas → Skaičiai → Skaičiai: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverNumberFeedback#voiceOverNumberFeedback`
+- Prieinamumas → VoiceOver → Detalizavimas → Nuspėjamojo teksto atsakas: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/PREDICTIVE_TEXT_FEEDBACK`
+- Prieinamumas → VoiceOver → Detalizavimas → Nuspėjamojo teksto atsakas → Nuspėjamojo teksto atsakas: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/PREDICTIVE_TEXT_FEEDBACK#PREDICTIVE_TEXT_FEEDBACK`
+- Prieinamumas → VoiceOver → Detalizavimas → Nuspėjamojo teksto atsakas → Kai pasirodo nuspėjamasis tekstas: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/PREDICTIVE_TEXT_FEEDBACK/InlineTextCompletionAppearanceFeedback`
+- Prieinamumas → VoiceOver → Detalizavimas → Nuspėjamojo teksto atsakas → Kai pasirodo nuspėjamasis tekstas → Kai pasirodo nuspėjamasis tekstas: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/PREDICTIVE_TEXT_FEEDBACK/InlineTextCompletionAppearanceFeedback#InlineTextCompletionAppearanceFeedback`
+- Prieinamumas → VoiceOver → Detalizavimas → Nuspėjamojo teksto atsakas → Kai įvedami nuspėjamojo teksto atsakas: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/PREDICTIVE_TEXT_FEEDBACK/InlineTextCompletionInsertionFeedback`
+- Prieinamumas → VoiceOver → Detalizavimas → Nuspėjamojo teksto atsakas → Kai įvedami nuspėjamojo teksto atsakas → Kai įvedami nuspėjamojo teksto atsakas: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/PREDICTIVE_TEXT_FEEDBACK/InlineTextCompletionInsertionFeedback#InlineTextCompletionInsertionFeedback`
+- Prieinamumas → VoiceOver → Detalizavimas → Lentelės antraštės: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#speakTableHeader`
+- Prieinamumas → VoiceOver → Detalizavimas → Eilučių ir stulpelių numeriai: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#SPEAK_TABLE_ROW_COLUMN`
+- Prieinamumas → VoiceOver → Detalizavimas → Ištarti patvirtinimą: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#ACTION_CONFIRMATION`
+- Prieinamumas → VoiceOver → Detalizavimas → Saityno rotoriaus suvestinė: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverRotorSummaryFeedback`
+- Prieinamumas → VoiceOver → Detalizavimas → Saityno rotoriaus suvestinė → Saityno rotoriaus suvestinė: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverRotorSummaryFeedback#voiceOverRotorSummaryFeedback`
+- Prieinamumas → VoiceOver → Detalizavimas → Jausmaženkliai: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverEmojiFeedback`
+- Prieinamumas → VoiceOver → Detalizavimas → Jausmaženkliai → Jausmaženkliai: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverEmojiFeedback#voiceOverEmojiFeedback`
+- Prieinamumas → VoiceOver → Detalizavimas → Jausmaženklio priedėlis: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#EMOJI_SUFFIX`
+- Prieinamumas → VoiceOver → Detalizavimas → Medijos apibūdinimai: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions`
+- Prieinamumas → VoiceOver → Detalizavimas → Medijos apibūdinimai → Medijos apibūdinimai: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#voiceOverMediaDescriptions`
+- Prieinamumas → VoiceOver → Detalizavimas → Įvesties atsakas: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#voiceOverInputFeedback`
+- Prieinamumas → VoiceOver → Detalizavimas → Atsakas laikant pelės žymeklį virš programų: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#voiceOverAppHoverFeedback`
+- Prieinamumas → VoiceOver → Brailio raštas: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille`
+- Prieinamumas → VoiceOver → Brailio raštas → Brailio raštas: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#Braille`
+- Prieinamumas → VoiceOver → Brailio raštas → Išvestis: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput`
+- Prieinamumas → VoiceOver → Brailio raštas → Išvestis → Išvestis: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#BrailleDisplayOutput`
+- Prieinamumas → VoiceOver → Brailio raštas → Įvestis: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput`
+- Prieinamumas → VoiceOver → Brailio raštas → Įvestis → Įvestis: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#BrailleDisplayInput`
+- Prieinamumas → VoiceOver → Brailio raštas → Įvesties ir išvesties lentelių derinimas: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BRAILLE_SYNC_TABLES`
+- Prieinamumas → VoiceOver → Brailio raštas → Įvestis ir išvestis: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleDisplayOutput`
+- Prieinamumas → VoiceOver → Brailio raštas → Automatinis vertimas: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#GRADE2_AUTO_TRANSLATE`
+- Prieinamumas → VoiceOver → Brailio raštas → Brailio ekrano įvestis: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput`
+- Prieinamumas → VoiceOver → Brailio raštas → Brailio ekrano įvestis → Brailio ekrano įvestis: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#BrailleGesturesInput`
+- Prieinamumas → VoiceOver → Brailio raštas → Brailio ekrano įvestis → Paleisti automatiškai redaguojant tekstą: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#AUTO_ACTIVATE_ON_TEXT_FIELDS`
+- Prieinamumas → VoiceOver → Brailio raštas → Brailio ekrano įvestis → Sukeisti vietomis taškų pozicijas: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#SHOULD_REVERSE_DOTS`
+- Prieinamumas → VoiceOver → Brailio raštas → Brailio ekrano įvestis → Palikti aktyvintą, kol bus atmesta: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#CONTROL_DEVICE_USING_BRAILLE_GESTURE`
+- Prieinamumas → VoiceOver → Brailio raštas → Brailio ekrano įvestis → Vaizdinio teksto atsakas: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#DISPLAY_ENTERED_TEXT`
+- Prieinamumas → VoiceOver → Brailio raštas → Brailio ekrano įvestis → Įvedimo atsakas: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#TYPING_FEEDBACK`
+- Prieinamumas → VoiceOver → Brailio raštas → Brailio ekrano įvestis → Garsas: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#USE_TYPING_SOUND_FEEDBACK`
+- Prieinamumas → VoiceOver → Brailio raštas → Brailio ekrano įvestis → Garsas: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#USE_HAPTIC_FEEDBACK`
+- Prieinamumas → VoiceOver → Brailio raštas → Brailio ekrano įvestis → Pranešimų režimas: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#SOUND_OPTION`
+- Prieinamumas → VoiceOver → Brailio raštas → Brailio ekrano įvestis → Pasirinkti Brailio rašto lentelę: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#BSI_TABLES`
+- Prieinamumas → VoiceOver → Brailio raštas → Brailio lentelės: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier`
+- Prieinamumas → VoiceOver → Brailio raštas → Brailio lentelės → Brailio lentelės: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier#tableIdentifier`
+- Prieinamumas → VoiceOver → Brailio raštas → Brailio lentelės → Įtraukti Brailio lentelę…: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier/ADD_NEW_BRAILLE_LANGUAGE`
+- Prieinamumas → VoiceOver → Brailio raštas → Brailio lentelės → Įtraukti Brailio lentelę… → Įtraukti Brailio lentelę…: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier/ADD_NEW_BRAILLE_LANGUAGE#ADD_NEW_BRAILLE_LANGUAGE`
+- Prieinamumas → VoiceOver → Brailio raštas → Būsenos langeliai: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL`
+- Prieinamumas → VoiceOver → Brailio raštas → Būsenos langeliai → Būsenos langeliai: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL`
+- Prieinamumas → VoiceOver → Brailio raštas → Būsenos langeliai → Būsenos langelių padėtis: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_POSITION`
+- Prieinamumas → VoiceOver → Brailio raštas → Būsenos langeliai → Rodyti bendrą būseną: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#StatusCellGeneral`
+- Prieinamumas → VoiceOver → Brailio raštas → Būsenos langeliai → Rodyti teksto būseną: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#StatusCellTextStyle`
+- Prieinamumas → VoiceOver → Brailio raštas → Lygtyse naudojamas „Nemeth“ kodas: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#ALWAYS_USE_NEMETH`
+- Prieinamumas → VoiceOver → Brailio raštas → Rodyti klaviatūrą ekrane: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#SHOW_SW_KEYBOARD`
+- Prieinamumas → VoiceOver → Brailio raštas → Versti puslapius slenkant vaizdą: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#AUTO_TURN_PAGES`
+- Prieinamumas → VoiceOver → Brailio raštas → Žodžių kėlimas: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#WORD_WRAP`
+- Prieinamumas → VoiceOver → Brailio raštas → Teksto formatavimas: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BRAILLE_FORMATTING`
+- Prieinamumas → VoiceOver → Brailio raštas → Įspėjimai Brailio raštu: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleAlertDisplayDuration`
+- Prieinamumas → VoiceOver → Brailio raštas → Įspėjimai Brailio raštu → Įspėjimai Brailio raštu: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleAlertDisplayDuration#voiceOverBrailleAlertDisplayDuration`
+- Prieinamumas → VoiceOver → Brailio raštas → Įspėjimai Brailio raštu → Įspėjimai Brailio raštu: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleAlertDisplayDuration#NumericalPreferenceSwitcherIdentifier`
+- Prieinamumas → VoiceOver → Brailio raštas → Įspėjimai Brailio raštu → Rodyti, kol bus atmesta: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleAlertDisplayDuration#NumericalPreferenceInfiniteTimeDurationIdentifier`
+- Prieinamumas → VoiceOver → Brailio raštas → Nepaisyti kombinacijos trukmės: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleDebounceTimeout`
+- Prieinamumas → VoiceOver → Brailio raštas → Nepaisyti kombinacijos trukmės → Nepaisyti kombinacijos trukmės: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleDebounceTimeout/voiceOverBrailleDebounceTimeout`
+- Prieinamumas → VoiceOver → Brailio raštas → Automatinio perėjimo trukmė: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleAutoAdvance`
+- Prieinamumas → VoiceOver → Brailio raštas → Automatinio perėjimo trukmė → Automatinio perėjimo trukmė: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleAutoAdvance#voiceOverBrailleAutoAdvance`
+- Prieinamumas → VoiceOver → Brailio raštas → Garso uždanga: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#SOUND_CURTAIN`
+- Prieinamumas → VoiceOver → Brailio raštas → Įjungti „Bluetooth“ paleidus: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverAlwaysTurnOnBluetooth`
+- Prieinamumas → VoiceOver → Brailio raštas → Pasirinkti Brailio ekraną: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#DEVICES`
+- Prieinamumas → VoiceOver → Garsas: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio`
+- Prieinamumas → VoiceOver → Garsas → Garsas: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#Audio`
+- Prieinamumas → VoiceOver → Garsas → „VoiceOver“ garsai: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds`
+- Prieinamumas → VoiceOver → Garsas → „VoiceOver“ garsai → „VoiceOver“ garsai: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSounds`
+- Prieinamumas → VoiceOver → Garsas → „VoiceOver“ garsai → Garsai: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSSettingsItem.Sounds`
+- Prieinamumas → VoiceOver → Garsas → „VoiceOver“ garsai → Valdymas: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSOutputEventCategory.Interaction`
+- Prieinamumas → VoiceOver → Garsas → „VoiceOver“ garsai → „VoiceOver“ atsakas: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSOutputEventCategory.VoiceOverFeedback`
+- Prieinamumas → VoiceOver → Garsas → „VoiceOver“ garsai → Atsiliepimai apie programą: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSOutputEventCategory.AppFeedback`
+- Prieinamumas → VoiceOver → Garsas → „VoiceOver“ garsai → Brailio raštas: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSOutputEventCategory.Braille`
+- Prieinamumas → VoiceOver → Garsas → „VoiceOver“ garsai → Teksto redagavimas: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSOutputEventCategory.TextEditing`
+- Prieinamumas → VoiceOver → Garsas → „VoiceOver“ garsai → Sistema: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSOutputEventCategory.System`
+- Prieinamumas → VoiceOver → Garsas → Garso pritildymas: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#AUDIO_DUCKING`
+- Prieinamumas → VoiceOver → Garsas → Automatinis garsiakalbio pasirinkimas per skambutį: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#ROUTE_TO_SPEAKER`
+- Prieinamumas → VoiceOver → Garsas → Perduoti per HDMI: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#ROUTE_TO_HDMI`
+- Prieinamumas → VoiceOver → Komandos: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands`
+- Prieinamumas → VoiceOver → Komandos → Komandos: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands#CustomizeCommands`
+- Prieinamumas → VoiceOver → Komandos → Visos komandos: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/AllCommands`
+- Prieinamumas → VoiceOver → Komandos → Visos komandos → Visos komandos: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/AllCommands#AllCommands`
+- Prieinamumas → VoiceOver → Komandos → Brailio rašto klaviatūros įvestis: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/BrailleKeyboardInput`
+- Prieinamumas → VoiceOver → Komandos → Brailio rašto klaviatūros įvestis → Brailio rašto klaviatūros įvestis: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/BrailleKeyboardInput#BrailleKeyboardInput`
+- Prieinamumas → VoiceOver → Komandos → Palietimo gestai: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/TouchGestures`
+- Prieinamumas → VoiceOver → Komandos → Palietimo gestai → Palietimo gestai: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/TouchGestures#TouchGestures`
+- Prieinamumas → VoiceOver → Komandos → Spartieji klavišai: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/KeyboardShortcuts`
+- Prieinamumas → VoiceOver → Komandos → Spartieji klavišai → Spartieji klavišai: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/KeyboardShortcuts#KeyboardShortcuts`
+- Prieinamumas → VoiceOver → Komandos → Rašymas ranka: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/Handwriting`
+- Prieinamumas → VoiceOver → Komandos → Rašymas ranka → Rašymas ranka: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/Handwriting#Handwriting`
+- Prieinamumas → VoiceOver → Komandos → Brailio ekrano įvestis: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/BrailleScreenInput`
+- Prieinamumas → VoiceOver → Komandos → Brailio ekrano įvestis → Brailio ekrano įvestis: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/BrailleScreenInput#BrailleScreenInput`
+- Prieinamumas → VoiceOver → Komandos → Iš naujo nustatyti „VoiceOver“ komandas: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands#ResetVoiceOverCommands`
+- Prieinamumas → VoiceOver → Komandos → Sukeisti rankų gestus: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands#SWITCH_GESTURE_HANDEDNESS`
+- Prieinamumas → VoiceOver → Veiklos: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/activities`
+- Prieinamumas → VoiceOver → Veiklos → Veiklos: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/activities#activities`
+- Prieinamumas → VoiceOver → Veiklos → Programavimas: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/activities/Programming`
+- Prieinamumas → VoiceOver → Veiklos → Programavimas → Programavimas: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/activities/Programming#Programming`
+- Prieinamumas → VoiceOver → Veiklos → Įtraukti veiklą…: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/activities/New`
+- Prieinamumas → VoiceOver → Veiklos → Įtraukti veiklą… → Įtraukti veiklą…: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/activities/New#New`
+- Prieinamumas → VoiceOver → Rotorius: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions`
+- Prieinamumas → VoiceOver → Rotorius → Rotorius: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#RotorActions`
+- Prieinamumas → VoiceOver → Rotorius → Rotoriaus elementai: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions/WebRotor`
+- Prieinamumas → VoiceOver → Rotorius → Rotoriaus elementai → Rotoriaus elementai: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions/WebRotor#WebRotor`
+- Prieinamumas → VoiceOver → Rotorius → Keisti rotorių elementu: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#STICKY_ROTOR_TITLE`
+- Prieinamumas → VoiceOver → Rotorius → Pradžios ekrano programų redagavimas: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#editApps`
+- Prieinamumas → VoiceOver → Rotorius → Tiesioginio palietimo programos: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions/apps`
+- Prieinamumas → VoiceOver → Rotorius → Tiesioginio palietimo programos → Tiesioginio palietimo programos: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions/apps#apps`
+- Prieinamumas → VoiceOver → Teksto įvedimas: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions`
+- Prieinamumas → VoiceOver → Teksto įvedimas → Teksto įvedimas: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#TypingOptions`
+- Prieinamumas → VoiceOver → Teksto įvedimas → Įvedimo tipas: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_MODE_TITLE`
+- Prieinamumas → VoiceOver → Teksto įvedimas → Įvedimo tipas → Įvedimo tipas: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_MODE_TITLE#TYPING_MODE_TITLE`
+- Prieinamumas → VoiceOver → Teksto įvedimas → Fonetinis atsakas: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE`
+- Prieinamumas → VoiceOver → Teksto įvedimas → Fonetinis atsakas → Fonetinis atsakas: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_TITLE`
+- Prieinamumas → VoiceOver → Teksto įvedimas → Įvedimo atsakas: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_FEEDBACK`
+- Prieinamumas → VoiceOver → Teksto įvedimas → Įvedimo atsakas → Įvedimo atsakas: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_FEEDBACK#TYPING_FEEDBACK`
+- Prieinamumas → VoiceOver → Teksto įvedimas → Modifikavimo klavišai: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS`
+- Prieinamumas → VoiceOver → Teksto įvedimas → Modifikavimo klavišai → Modifikavimo klavišai: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS#MODIFIER_KEYS`
+- Prieinamumas → VoiceOver → Teksto įvedimas → Klaviatūros sąveikos trukmė: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/KEYBOARD_TIMING_TIMEOUT`
+- Prieinamumas → VoiceOver → Teksto įvedimas → Klaviatūros sąveikos trukmė → Klaviatūros sąveikos trukmė: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/KEYBOARD_TIMING_TIMEOUT#KEYBOARD_TIMING_TIMEOUT`
+- Prieinamumas → VoiceOver → Naršyti vaizdus: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages`
+- Prieinamumas → VoiceOver → Naršyti vaizdus → Naršyti vaizdus: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#IncludeUnlabeledImages`
+- Prieinamumas → VoiceOver → Didelis žymeklis: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CursorStyle`
+- Prieinamumas → VoiceOver → Titrų skydelis: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CaptionPanel`
+- Prieinamumas → VoiceOver → Dvigubo bakstelėjimo skirtasis laikas: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/DOUBLE_TAP_INTERVAL_TITLE`
+- Prieinamumas → VoiceOver → Dvigubo bakstelėjimo skirtasis laikas → Dvigubo bakstelėjimo skirtasis laikas: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/DOUBLE_TAP_INTERVAL_TITLE#NumericalPreferencePickerGroupIdentifier`
+- Prieinamumas → VoiceOver → Naršymo stilius: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NavigationStyle`
+- Prieinamumas → VoiceOver → Naršymo stilius → Naršymo stilius: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NavigationStyle#NavigationStyle`
+- Prieinamumas → VoiceOver → Spartieji nustatymai: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings`
+- Prieinamumas → VoiceOver → Spartieji nustatymai → Spartieji nustatymai: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#QuickSettings`
+- Prieinamumas → VoiceOver → „VoiceOver“ atpažinimas: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver`
+- Prieinamumas → VoiceOver → „VoiceOver“ atpažinimas → „VoiceOver“ atpažinimas: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver#NeuralVoiceOver`
+- Prieinamumas → VoiceOver → „VoiceOver“ atpažinimas → Vaizdų apibūdinimai: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_IMAGE_DESCRIPTIONS`
+- Prieinamumas → VoiceOver → „VoiceOver“ atpažinimas → Vaizdų apibūdinimai → Vaizdų apibūdinimai: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_IMAGE_DESCRIPTIONS#VO_IMAGE_DESCRIPTIONS`
+- Prieinamumas → VoiceOver → „VoiceOver“ atpažinimas → Vaizdų apibūdinimai → Neskelbtino turinio išvestis: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_IMAGE_DESCRIPTIONS#SensitiveContentGroup`
+- Prieinamumas → VoiceOver → „VoiceOver“ atpažinimas → Vaizdų apibūdinimai → Papildomos kalbos: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_IMAGE_DESCRIPTIONS/AdditionalLanguages`
+- Prieinamumas → VoiceOver → „VoiceOver“ atpažinimas → Vaizdų apibūdinimai → Papildomos kalbos → Papildomos kalbos: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_IMAGE_DESCRIPTIONS/AdditionalLanguages#AdditionalLanguages`
+- Prieinamumas → VoiceOver → „VoiceOver“ atpažinimas → Vaizdų apibūdinimai → Taikyti programoms: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_IMAGE_DESCRIPTIONS/apps`
+- Prieinamumas → VoiceOver → „VoiceOver“ atpažinimas → Vaizdų apibūdinimai → Taikyti programoms → Taikyti programoms: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_IMAGE_DESCRIPTIONS/apps#apps`
+- Prieinamumas → VoiceOver → „VoiceOver“ atpažinimas → Ekrano atpažinimas: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_SCREEN_RECOGNITION`
+- Prieinamumas → VoiceOver → „VoiceOver“ atpažinimas → Ekrano atpažinimas → Ekrano atpažinimas: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_SCREEN_RECOGNITION#VO_SCREEN_RECOGNITION`
+- Prieinamumas → VoiceOver → „VoiceOver“ atpažinimas → Ekrano atpažinimas → Taikyti programoms: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_SCREEN_RECOGNITION/apps`
+- Prieinamumas → VoiceOver → „VoiceOver“ atpažinimas → Ekrano atpažinimas → Taikyti programoms → Taikyti programoms: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_SCREEN_RECOGNITION/apps#apps`
+- Prieinamumas → VoiceOver → „VoiceOver“ atpažinimas → Teksto atpažinimas: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver#VO_OCR`
+- Prieinamumas → VoiceOver → „VoiceOver“ atpažinimas → Atsako stilius: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_FEEDBACK`
+- Prieinamumas → VoiceOver → „VoiceOver“ atpažinimas → Atsako stilius → Atsako stilius: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_FEEDBACK#VO_FEEDBACK`
+- Prieinamumas → VoiceOver → „VoiceOver“ atpažinimas → Aplinkos atpažinimas: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_REAL_WORLD_DETECTION`
+- Prieinamumas → VoiceOver → Delsa prieš pasirenkant: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#VoiceOverDelayUntilSpeak`
+- Prieinamumas → VoiceOver → Suėmimo dukart skirtasis laikas: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#DOUBLE_TAP_INTERVAL`
+- Prieinamumas → Mastelis: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE`
+- Prieinamumas → Mastelis → Sekti fokusavimą: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomShouldFollowFocus`
+- Prieinamumas → Mastelis → Išmanusis įvedimas: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomAlwaysUseWindowZoomForTyping`
+- Prieinamumas → Mastelis → Spartieji klavišai: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts`
+- Prieinamumas → Mastelis → Spartieji klavišai → Spartieji klavišai: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomEnableKeyboardShortcuts`
+- Prieinamumas → Mastelis → Spartieji klavišai → Koreguoti mastelio lygį: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutAdjustZoomLevel`
+- Prieinamumas → Mastelis → Spartieji klavišai → Perjungti mastelį: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutToggleZoom`
+- Prieinamumas → Mastelis → Spartieji klavišai → Perkelti mastelio keitimo langą: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutPanZoom`
+- Prieinamumas → Mastelis → Spartieji klavišai → Keisti mastelio keitimo lango dydį: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutResizeZoomWindow`
+- Prieinamumas → Mastelis → Spartieji klavišai → Perjungti mastelio keitimo sritį: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutSwitchZoomMode`
+- Prieinamumas → Mastelis → Spartieji klavišai → Laikinai perjungti mastelį: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutTempToggleZoom`
+- Prieinamumas → Mastelis → Spartieji klavišai → Keisti mastelį slinkties ratuku: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutScrollWheel`
+- Prieinamumas → Mastelis → Naudoti jutiklinio pulto gestą masteliui keisti: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomWithTrackpad`
+- Prieinamumas → Mastelis → Mastelio valdiklis: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug`
+- Prieinamumas → Mastelis → Mastelio valdiklis → Mastelio valdiklis: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug#ZoomSlug`
+- Prieinamumas → Mastelis → Mastelio valdiklis → Valdiklio rodymas: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug#ZOOM_DETACH_CONTROLS`
+- Prieinamumas → Mastelis → Mastelio valdiklis → Bakstelėjimas vieną kartą: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_CONTROLLER_ACTION_SINGLE_TAP`
+- Prieinamumas → Mastelis → Mastelio valdiklis → Bakstelėjimas vieną kartą → Bakstelėjimas vieną kartą: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_CONTROLLER_ACTION_SINGLE_TAP#ZOOM_CONTROLLER_ACTION_SINGLE_TAP`
+- Prieinamumas → Mastelis → Mastelio valdiklis → Bakstelėjimas du kartus: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_CONTROLLER_ACTION_DOUBLE_TAP`
+- Prieinamumas → Mastelis → Mastelio valdiklis → Bakstelėjimas du kartus → Bakstelėjimas du kartus: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_CONTROLLER_ACTION_DOUBLE_TAP#ZOOM_CONTROLLER_ACTION_DOUBLE_TAP`
+- Prieinamumas → Mastelis → Mastelio valdiklis → Bakstelėjimas tris kartus: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_CONTROLLER_ACTION_TRIPLE_TAP`
+- Prieinamumas → Mastelis → Mastelio valdiklis → Bakstelėjimas tris kartus → Bakstelėjimas tris kartus: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_CONTROLLER_ACTION_TRIPLE_TAP#ZOOM_CONTROLLER_ACTION_TRIPLE_TAP`
+- Prieinamumas → Mastelis → Mastelio valdiklis → Koreguoti mastelio lygį: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug#ZOOM_TAP_AND_SLIDE_TO_ADJUST_ZOOM_LEVEL`
+- Prieinamumas → Mastelis → Mastelio valdiklis → Spalva: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/CONTROLLER_COLOR`
+- Prieinamumas → Mastelis → Mastelio valdiklis → Spalva → Spalva: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/CONTROLLER_COLOR#CONTROLLER_COLOR`
+- Prieinamumas → Mastelis → Mastelio valdiklis → Matomumas nenaudojant: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_IDLE_SLUG_OPACITY`
+- Prieinamumas → Mastelis → Mastelio valdiklis → Matomumas nenaudojant → Matomumas nenaudojant: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_IDLE_SLUG_OPACITY#ZOOM_IDLE_SLUG_OPACITY`
+- Prieinamumas → Mastelis → Mastelio keitimo sritis: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode`
+- Prieinamumas → Mastelis → Mastelio keitimo sritis → Mastelio keitimo sritis: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode#ZoomLensMode`
+- Prieinamumas → Mastelis → Didžiausias mastelio lygis: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomPreferredMaxZoomLevel`
+- Prieinamumas → Mastelis → Mastelio filtras: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomFilter`
+- Prieinamumas → Mastelis → Mastelio filtras → Mastelio filtras: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomFilter#ZoomFilter`
+- Prieinamumas → Mastelis → Rodyti dubliuojant: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomShowWhileMirroring`
+- Prieinamumas → Mastelis → Nustatyti „Priartintą“ režimą kaip numatytąjį susitelkimo režimą: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomAsDefaultDial`
+- Prieinamumas → Mastelis → Mastelio keitimas naudojant „Digital Crown“: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomStealsCrownTurns`
+- Prieinamumas → Mastelis → Kraštinės spalva: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#MagnifyingGlassBorderColor`
+- Prieinamumas → Laikyti virš teksto: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE`
+- Prieinamumas → Laikyti virš teksto → Rodymo režimas: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextDisplayMode`
+- Prieinamumas → Laikyti virš teksto → Rodymo režimas → Rodymo režimas: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextDisplayMode#HoverTextDisplayMode`
+- Prieinamumas → Laikyti virš teksto → Slinkimo sparta: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextScrollSpeed`
+- Prieinamumas → Laikyti virš teksto → Slinkimo sparta → Slinkimo sparta: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextScrollSpeed#HoverTextScrollSpeed`
+- Prieinamumas → Laikyti virš teksto → Šriftas: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextStyle`
+- Prieinamumas → Laikyti virš teksto → Šriftas → Šriftas: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextStyle#HoverTextStyle`
+- Prieinamumas → Laikyti virš teksto → Dydis: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextSize`
+- Prieinamumas → Laikyti virš teksto → Dydis → Dydis: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextSize#HoverTextSize`
+- Prieinamumas → Laikyti virš teksto → Spalvos: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE#HOVER_TEXT_COLOR_OPTIONS`
+- Prieinamumas → Laikyti virš teksto → Aktyvinimo modifikatorius: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextActivationModifier`
+- Prieinamumas → Laikyti virš teksto → Aktyvinimo modifikatorius → Aktyvinimo modifikatorius: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextActivationModifier#HoverTextActivationModifier`
+- Prieinamumas → Laikyti virš teksto → Aktyvinimo blokavimas: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE#HOVER_TEXT_ACTIVATION_LOCK`
+- Prieinamumas → Klaviatūros ir įvedimas: `prefs:root=ACCESSIBILITY&path=KEYBOARDS`
+- Prieinamumas → Klaviatūros ir įvedimas → Įvedamo teksto išryškinimas: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING`
+- Prieinamumas → Klaviatūros ir įvedimas → Įvedamo teksto išryškinimas → Rodymo režimas: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING/HoverTextTypingDisplayMode`
+- Prieinamumas → Klaviatūros ir įvedimas → Įvedamo teksto išryškinimas → Rodymo režimas → Rodymo režimas: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING/HoverTextTypingDisplayMode#HoverTextTypingDisplayMode`
+- Prieinamumas → Klaviatūros ir įvedimas → Įvedamo teksto išryškinimas → Šriftas: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING/HoverTypingStyle`
+- Prieinamumas → Klaviatūros ir įvedimas → Įvedamo teksto išryškinimas → Šriftas → Šriftas: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING/HoverTypingStyle#HoverTypingStyle`
+- Prieinamumas → Klaviatūros ir įvedimas → Įvedamo teksto išryškinimas → Dydis: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING/HoverTextSize`
+- Prieinamumas → Klaviatūros ir įvedimas → Įvedamo teksto išryškinimas → Dydis → Dydis: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING/HoverTextSize#HoverTextSize`
+- Prieinamumas → Klaviatūros ir įvedimas → Įvedamo teksto išryškinimas → Įvesties spalvos: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TYPING_COLOR_OPTIONS`
+- Prieinamumas → Klaviatūros ir įvedimas → Įvedamo teksto išryškinimas → Rodomos spalvos: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TYPING_DISPLAY_COLOR_OPTIONS`
+- Prieinamumas → Klaviatūros ir įvedimas → Įvedamo teksto išryškinimas → Teksto spalva: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TEXT_TEXT_COLOR`
+- Prieinamumas → Klaviatūros ir įvedimas → Įvedamo teksto išryškinimas → Įterpimo vietos spalva: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TEXT_INSERTION_POINT_COLOR`
+- Prieinamumas → Klaviatūros ir įvedimas → Įvedamo teksto išryškinimas → Fono spalva: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TEXT_BACKGROUND_COLOR`
+- Prieinamumas → Klaviatūros ir įvedimas → Įvedamo teksto išryškinimas → Kraštinės spalva: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TEXT_BORDER_COLOR`
+- Prieinamumas → Klaviatūros ir įvedimas → Įvedamo teksto išryškinimas → Automatiškai pataisyto žodžio spalva: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TYPING_AUTOCORRECTED_WORD_COLOR`
+- Prieinamumas → Klaviatūros ir įvedimas → Įvedamo teksto išryškinimas → Klaidingai parašyto žodžio spalva: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TYPING_MISSPELLED_WORD`
+- Prieinamumas → Klaviatūros ir įvedimas → Įvedamo teksto išryškinimas → Iš naujo nustatyti numatytuosius nustatymus: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TYPING_RESET_BUTTON`
+- Prieinamumas → Klaviatūros ir įvedimas → Klaviatūros prieiga: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS`
+- Prieinamumas → Klaviatūros ir įvedimas → Klaviatūros prieiga → Klaviatūros prieiga: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAEnabledSwitch`
+- Prieinamumas → Klaviatūros ir įvedimas → Klaviatūros prieiga → Komandos: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKACommands`
+- Prieinamumas → Klaviatūros ir įvedimas → Klaviatūros prieiga → Komandos → Komandos: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKACommands#FKACommands`
+- Prieinamumas → Klaviatūros ir įvedimas → Klaviatūros prieiga → Automatinis slėpimas: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKAFocusRingTimeout`
+- Prieinamumas → Klaviatūros ir įvedimas → Klaviatūros prieiga → Automatinis slėpimas → Automatinis slėpimas: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKAFocusRingTimeout#FKAFocusRingTimeout`
+- Prieinamumas → Klaviatūros ir įvedimas → Klaviatūros prieiga → Padidinti: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKALargeFocusRingEnabled`
+- Prieinamumas → Klaviatūros ir įvedimas → Klaviatūros prieiga → Didelis kontrastingumas: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKAFocusRingHighContrastEnabled`
+- Prieinamumas → Klaviatūros ir įvedimas → Klaviatūros prieiga → Spalva: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKAFocusRingColor`
+- Prieinamumas → Klaviatūros ir įvedimas → Klaviatūros prieiga → Spalva → Spalva: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKAFocusRingColor#FKAFocusRingColor`
+- Prieinamumas → Klaviatūros ir įvedimas → Klavišų pasikartojimas: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT`
+- Prieinamumas → Klaviatūros ir įvedimas → Klavišų pasikartojimas → Klavišų pasikartojimas: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatEnabled`
+- Prieinamumas → Klaviatūros ir įvedimas → Klavišų pasikartojimas → Klavišų pasikartojimo intervalas: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatInterval`
+- Prieinamumas → Klaviatūros ir įvedimas → Klavišų pasikartojimas → Delsa iki kartojimo: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatDelay`
+- Prieinamumas → Klaviatūros ir įvedimas → Fiksavimo klavišai: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS`
+- Prieinamumas → Klaviatūros ir įvedimas → Fiksavimo klavišai → Fiksavimo klavišai: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysEnabled`
+- Prieinamumas → Klaviatūros ir įvedimas → Fiksavimo klavišai → Perjungti naudojant klavišą „Shift“: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysShiftToggle`
+- Prieinamumas → Klaviatūros ir įvedimas → Fiksavimo klavišai → Garsas: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysSound`
+- Prieinamumas → Klaviatūros ir įvedimas → Lėtieji klavišai: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/SLOW_KEYS`
+- Prieinamumas → Klaviatūros ir įvedimas → Lėtieji klavišai → Lėtieji klavišai: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/SLOW_KEYS#NumericalPreferenceSwitcherIdentifier`
+- Prieinamumas → Klaviatūros ir įvedimas → Programinės klaviatūros: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#SOFTWARE_KEYBOARDS`
+- Prieinamumas → Klaviatūros ir įvedimas → Rodyti mažąsias raides: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#LOWERCASE_KEYBOARD`
+- Prieinamumas → Ekranas ir teksto dydis: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT`
+- Prieinamumas → Ekranas ir teksto dydis → Paryškintas tekstas: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#ENHANCE_TEXT_LEGIBILITY`
+- Prieinamumas → Ekranas ir teksto dydis → Didesnis tekstas: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/LARGER_TEXT`
+- Prieinamumas → Ekranas ir teksto dydis → Didesnis tekstas → Didesnis tekstas: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/LARGER_TEXT#LARGER_TEXT`
+- Prieinamumas → Ekranas ir teksto dydis → Didesnis tekstas → Didesni prieinamumo dydžiai: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/LARGER_TEXT#LARGER_DYNAMIC_TYPE_SWITCH`
+- Prieinamumas → Ekranas ir teksto dydis → Mygtukų išskyrimas: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#BUTTON_SHAPES`
+- Prieinamumas → Ekranas ir teksto dydis → Įjungti / išjungti žymes: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#OnOffLabels`
+- Prieinamumas → Ekranas ir teksto dydis → Sumažinti skaidrumą: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#REDUCE_TRANSPARENCY`
+- Prieinamumas → Ekranas ir teksto dydis → Padidinti kontrastą: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#TEXT_COLORS_DARKEN`
+- Prieinamumas → Ekranas ir teksto dydis → Atskirti be spalvos: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#DIFFERENTIATE_WITHOUT_COLOR`
+- Prieinamumas → Ekranas ir teksto dydis → Teikti pirmenybę horizontaliajam tekstui: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#PREFER_HORIZONTAL_TEXT`
+- Prieinamumas → Ekranas ir teksto dydis → Išmanusis invertavimas: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#SMART_INVERT`
+- Prieinamumas → Ekranas ir teksto dydis → Klasikinis invertavimas: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#CLASSIC_INVERT`
+- Prieinamumas → Ekranas ir teksto dydis → Spalvų filtrai: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR`
+- Prieinamumas → Ekranas ir teksto dydis → Spalvų filtrai → Spalvų filtrai: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR#DISPLAY_FILTER_COLOR`
+- Prieinamumas → Ekranas ir teksto dydis → Spalvų filtrai → Taikyti pereinančiam vaizdui: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR#VIDEO_PASSTHROUGH`
+- Prieinamumas → Ekranas ir teksto dydis → Sumažinti baltąjį tašką: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#WHITE_POINT`
+- Prieinamumas → Ekranas ir teksto dydis → Automatinis šviesumas: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#AUTO_BRIGHTNESS`
+- Prieinamumas → Ekranas ir teksto dydis → Akių judesių nepaisymas siekiant stabilizuoti: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#STATIC_FOVEATION_TEXT`
+- Prieinamumas → Ekranas ir teksto dydis → Automatinis ekranų sulygiavimas: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#AUTO_IPD_TEXT`
+- Prieinamumas → Ekranas ir teksto dydis → Padidinti susitelkimo būseną: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#INCREASE_FOCUS_STATE_TEXT`
+- Prieinamumas → Judėjimas: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE`
+- Prieinamumas → Judėjimas → Sumažinti judesio efektus: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION`
+- Prieinamumas → Judėjimas → Automatiškai leisti žinučių efektus: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#ReduceMotionAutoplayMessagesEffects`
+- Prieinamumas → Judėjimas → Automatiškai atkurti animuotus vaizdus: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION_AUTOPLAY_ANIMATED_IMAGES`
+- Prieinamumas → Judėjimas → Automatiškai paleisti vaizdo įrašų peržiūrą: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION_AUTOPLAY_VIDEO_PREVIEWS`
+- Prieinamumas → Judėjimas → Pirmenybė nemirksinčiam žymekliui: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#PREFER_NONBLINKING_CURSOR`
+- Prieinamumas → Judėjimas → Riboti kadrų dažnį: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REFRESH_RATE`
+- Prieinamumas → Judėjimas → Pritemdyti mirksinčias šviesas: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#PHOTOSENSITIVE_MITIGATION`
+- Prieinamumas → Judėjimas → Rodyti transporto priemonės judėjimo žymes: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#MotionCues`
+- Prieinamumas → Perskaitomas turinys: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE`
+- Prieinamumas → Perskaitomas turinys → Pasirinkimo skaitymas: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QUICK_SPEAK_TITLE`
+- Prieinamumas → Perskaitomas turinys → Ekrano skaitymas: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpeakThisEnabled`
+- Prieinamumas → Perskaitomas turinys → Kalbos valdiklis: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController`
+- Prieinamumas → Perskaitomas turinys → Kalbos valdiklis → Kalbos valdiklis: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController#SpeechController`
+- Prieinamumas → Perskaitomas turinys → Kalbos valdiklis → Ilgas paspaudimas: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController/SpeechControllerLongPressAction`
+- Prieinamumas → Perskaitomas turinys → Kalbos valdiklis → Ilgas paspaudimas → Ilgas paspaudimas: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController/SpeechControllerLongPressAction#SpeechControllerLongPressAction`
+- Prieinamumas → Perskaitomas turinys → Kalbos valdiklis → Bakstelėjimas du kartus: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController/SpeechControllerDoubleTapAction`
+- Prieinamumas → Perskaitomas turinys → Kalbos valdiklis → Bakstelėjimas du kartus → Bakstelėjimas du kartus: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController/SpeechControllerDoubleTapAction#SpeechControllerDoubleTapAction`
+- Prieinamumas → Perskaitomas turinys → Kalbos valdiklis → Matomumas nenaudojant: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController/SpeechControllerIdleOpacity`
+- Prieinamumas → Perskaitomas turinys → Kalbos valdiklis → Matomumas nenaudojant → Matomumas nenaudojant: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController/SpeechControllerIdleOpacity#SpeechControllerIdleOpacity`
+- Prieinamumas → Perskaitomas turinys → Kalbos valdiklis → Pritaikyti pelės mygtukus: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController#CustomizeMouseButtons`
+- Prieinamumas → Perskaitomas turinys → Paryškinti turinį: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/QuickSpeakHighlight`
+- Prieinamumas → Perskaitomas turinys → Paryškinti turinį → Paryškinti turinį: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/QuickSpeakHighlight#QuickSpeakHighlight`
+- Prieinamumas → Perskaitomas turinys → Paryškinti turinį → Sakinių paryškinimo stilius: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/QuickSpeakHighlight#SENTENCE_HIGHLIGHT_STYLE`
+- Prieinamumas → Perskaitomas turinys → Paryškinti turinį → Paryškinti spalvas: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/QuickSpeakHighlight#COLOR_CHOICE`
+- Prieinamumas → Perskaitomas turinys → Įvedimo atsakas: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback`
+- Prieinamumas → Perskaitomas turinys → Įvedimo atsakas → Įvedimo atsakas: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#TypingFeedback`
+- Prieinamumas → Perskaitomas turinys → Įvedimo atsakas → Ženklai: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#LETTER`
+- Prieinamumas → Perskaitomas turinys → Įvedimo atsakas → Ženklų užuominos: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#PhoneticFeedback`
+- Prieinamumas → Perskaitomas turinys → Įvedimo atsakas → Ištarti žodžius: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#WORD_FEEDBACK`
+- Prieinamumas → Perskaitomas turinys → Įvedimo atsakas → Automatinio teksto skaitymas: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#SPEAK_AUTOCORRECTIONS`
+- Prieinamumas → Perskaitomas turinys → Įvedimo atsakas → Laikykite, kad būtų tariami nuspėjami variantai: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#QUICKTYPE_WORD_FEEDBACK`
+- Prieinamumas → Perskaitomas turinys → Balsai: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/QuickSpeakAccents`
+- Prieinamumas → Perskaitomas turinys → Balsai → Balsai: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/QuickSpeakAccents#QuickSpeakAccents`
+- Prieinamumas → Perskaitomas turinys → Numatytoji kalba: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpokenContentDefaultLanguage`
+- Prieinamumas → Perskaitomas turinys → Numatytoji kalba → Numatytoji kalba: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpokenContentDefaultLanguage#SpokenContentDefaultLanguage`
+- Prieinamumas → Perskaitomas turinys → Aptikti kalbas: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#LANGUAGE_DETECTION`
+- Prieinamumas → Perskaitomas turinys → Ištarimo sparta: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakRate`
+- Prieinamumas → Perskaitomas turinys → Tarimai: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/VoiceOverSettings`
+- Prieinamumas → Perskaitomas turinys → Tarimai → Tarimai: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/VoiceOverSettings#VoiceOverSettings`
+- Prieinamumas → Perskaitomas turinys → Erdvinė kalba: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SPATIALIZE_SPEECH`
+- Prieinamumas → Garsiniai apibūdinimai: `prefs:root=ACCESSIBILITY&path=DESCRIPTIVE_VIDEO`
+- Prieinamumas → Valdymas: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE`
+- Prieinamumas → Valdymas → AssistiveTouch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE`
+- Prieinamumas → Valdymas → AssistiveTouch → AssistiveTouch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#EnableAssistiveTouchSpecifier`
+- Prieinamumas → Valdymas → AssistiveTouch → Aukščiausio lygio meniu pritaikymas: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize`
+- Prieinamumas → Valdymas → AssistiveTouch → Aukščiausio lygio meniu pritaikymas → Aukščiausio lygio meniu pritaikymas: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize#AssistiveTouchCustomize`
+- Prieinamumas → Valdymas → AssistiveTouch → Aukščiausio lygio meniu pritaikymas → Bakstelėkite piktogramą, kad pakeistumėte:: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize#ASTStepperCell`
+- Prieinamumas → Valdymas → AssistiveTouch → Vienas bakstelėjimas: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/TapSpecifier`
+- Prieinamumas → Valdymas → AssistiveTouch → Vienas bakstelėjimas → Vienas bakstelėjimas: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/TapSpecifier#TapSpecifier`
+- Prieinamumas → Valdymas → AssistiveTouch → Dvigubas bakstelėjimas: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier`
+- Prieinamumas → Valdymas → AssistiveTouch → Dvigubas bakstelėjimas → Dvigubas bakstelėjimas: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier#DoubleTapSpecifier`
+- Prieinamumas → Valdymas → AssistiveTouch → Dvigubas bakstelėjimas → Dvigubo bakstelėjimo skirtasis laikas: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier/ASTDoubleTapTimeoutSpecifier`
+- Prieinamumas → Valdymas → AssistiveTouch → Dvigubas bakstelėjimas → Dvigubo bakstelėjimo skirtasis laikas → Dvigubo bakstelėjimo skirtasis laikas: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier/ASTDoubleTapTimeoutSpecifier#ASTDoubleTapTimeoutSpecifier`
+- Prieinamumas → Valdymas → AssistiveTouch → Ilgas paspaudimas: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier`
+- Prieinamumas → Valdymas → AssistiveTouch → Ilgas paspaudimas → Ilgas paspaudimas: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier#LongPressSpecifier`
+- Prieinamumas → Valdymas → AssistiveTouch → Ilgas paspaudimas → Ilgo paspaudimo trukmė: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier/ASTLongPressDurationSpecifier`
+- Prieinamumas → Valdymas → AssistiveTouch → Ilgas paspaudimas → Ilgo paspaudimo trukmė → Ilgo paspaudimo trukmė: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier/ASTLongPressDurationSpecifier#ASTLongPressDurationSpecifier`
+- Prieinamumas → Valdymas → AssistiveTouch → 3D Touch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#ForceTouchSpecifier`
+- Prieinamumas → Valdymas → AssistiveTouch → Kurti naują gestą…: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/CreateCustomGesture`
+- Prieinamumas → Valdymas → AssistiveTouch → Kurti naują gestą… → Kurti naują gestą…: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/CreateCustomGesture#CreateCustomGesture`
+- Prieinamumas → Valdymas → AssistiveTouch → Matomumas nenaudojant: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/IdleOpacity`
+- Prieinamumas → Valdymas → AssistiveTouch → Matomumas nenaudojant → Matomumas nenaudojant: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/IdleOpacity#IdleOpacity`
+- Prieinamumas → Valdymas → AssistiveTouch → Virtualusis jutiklinis pultas: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID`
+- Prieinamumas → Valdymas → AssistiveTouch → Virtualusis jutiklinis pultas → Sekimo sparta: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID#TRACKING_SPEED_SLIDER`
+- Prieinamumas → Valdymas → AssistiveTouch → Virtualusis jutiklinis pultas → Natūralus slinkimas: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID#NATURAL_SCROLLING`
+- Prieinamumas → Valdymas → AssistiveTouch → Virtualusis jutiklinis pultas → Slinkimo sparta: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID#SCROLL_SPEED_SLIDER`
+- Prieinamumas → Valdymas → AssistiveTouch → Virtualusis jutiklinis pultas → Kraštas: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID#BORDER`
+- Prieinamumas → Valdymas → AssistiveTouch → Virtualusis jutiklinis pultas → Kraštas: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID/BORDER`
+- Prieinamumas → Valdymas → AssistiveTouch → Virtualusis jutiklinis pultas → Kraštas → Spalva: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID/BORDER#COLOR`
+- Prieinamumas → Valdymas → AssistiveTouch → Virtualusis jutiklinis pultas → Kraštas → Matomumas: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID/BORDER#OPACITY`
+- Prieinamumas → Valdymas → AssistiveTouch → Virtualusis jutiklinis pultas → Kraštas → Kraštinės plotis: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID/BORDER#BORDER_WIDTH`
+- Prieinamumas → Valdymas → AssistiveTouch → Virtualusis jutiklinis pultas → Jutiklinis pultas: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID#TRACKPAD`
+- Prieinamumas → Valdymas → AssistiveTouch → Virtualusis jutiklinis pultas → Jutiklinis pultas: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID/TRACKPAD`
+- Prieinamumas → Valdymas → AssistiveTouch → Virtualusis jutiklinis pultas → Jutiklinis pultas → Spalva: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID/TRACKPAD#COLOR`
+- Prieinamumas → Valdymas → AssistiveTouch → Virtualusis jutiklinis pultas → Jutiklinis pultas → Matomumas: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID/TRACKPAD#OPACITY`
+- Prieinamumas → Valdymas → AssistiveTouch → Įrenginiai: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices`
+- Prieinamumas → Valdymas → AssistiveTouch → Įrenginiai → Įrenginiai: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices#AssistiveTouchMouseDevices`
+- Prieinamumas → Valdymas → AssistiveTouch → Įrenginiai → „Bluetooth“ įrenginiai…: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices/BluetoothDevicesScanning`
+- Prieinamumas → Valdymas → AssistiveTouch → Įrenginiai → „Bluetooth“ įrenginiai… → „Bluetooth“ įrenginiai…: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices/BluetoothDevicesScanning#BluetoothDevicesScanning`
+- Prieinamumas → Valdymas → AssistiveTouch → Pelės klavišai: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseKeys`
+- Prieinamumas → Valdymas → AssistiveTouch → Pelės klavišai → Pelės klavišai: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseKeys#AssistiveTouchMouseKeys`
+- Prieinamumas → Valdymas → AssistiveTouch → Pelės klavišai → Klavišo „Option“ perjungimas: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseKeys#OptionKeyToggle`
+- Prieinamumas → Valdymas → AssistiveTouch → Pelės klavišai → Naudokite pagrindinę klaviatūrą: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseKeys#UsePrimaryKeyboard`
+- Prieinamumas → Valdymas → AssistiveTouch → Pelės klavišai → Pradinė delsa: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseKeys#InitialDelay`
+- Prieinamumas → Valdymas → AssistiveTouch → Pelės klavišai → Didžiausia sparta: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseKeys#MaximumSpeed`
+- Prieinamumas → Valdymas → AssistiveTouch → Rodyti klaviatūrą ekrane: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AlwaysShowSoftwareKeyboard`
+- Prieinamumas → Valdymas → AssistiveTouch → Visada rodyti meniu: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AlwaysShowMenu`
+- Prieinamumas → Valdymas → AssistiveTouch → Spustelėjimo garsas: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#MouseClickSounds`
+- Prieinamumas → Valdymas → AssistiveTouch → Žvilgsnio išlaikymas: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellEnabledSpecifier`
+- Prieinamumas → Valdymas → AssistiveTouch → Galimas judėjimo nuokrypis: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellToleranceSpecifier`
+- Prieinamumas → Valdymas → AssistiveTouch → Galimas judėjimo nuokrypis → Galimas judėjimo nuokrypis: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellToleranceSpecifier#DwellToleranceSpecifier`
+- Prieinamumas → Valdymas → AssistiveTouch → Sekimo jautrumas: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#TouchSpeed`
+- Prieinamumas → Valdymas → AssistiveTouch → Atsarginis veiksmas: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellAutorevertSpecifier`
+- Prieinamumas → Valdymas → AssistiveTouch → Atsarginis veiksmas → Atsarginis veiksmas: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellAutorevertSpecifier#DwellAutorevertSpecifier`
+- Prieinamumas → Valdymas → AssistiveTouch → Aktyvūs kampai: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellCornersSpecifier`
+- Prieinamumas → Valdymas → AssistiveTouch → Aktyvūs kampai → Aktyvūs kampai: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellCornersSpecifier#DwellCornersSpecifier`
+- Prieinamumas → Valdymas → AssistiveTouch → Aktyvūs kampai → Viršuje kairėje: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellCornersSpecifier#TopLeft`
+- Prieinamumas → Valdymas → AssistiveTouch → Aktyvūs kampai → Viršuje dešinėje: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellCornersSpecifier#TopRight`
+- Prieinamumas → Valdymas → AssistiveTouch → Aktyvūs kampai → Apačioje kairėje: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellCornersSpecifier#BottomLeft`
+- Prieinamumas → Valdymas → AssistiveTouch → Aktyvūs kampai → Apačioje dešinėje: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellCornersSpecifier#BottomRight`
+- Prieinamumas → Valdymas → AssistiveTouch → Išplėsti nuspėjami variantai: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellExtendedPredictionsSpecifier`
+- Prieinamumas → Valdymas → AssistiveTouch → Žvilgsnio išlaikymo laikas baigėsi: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellTimeoutSpecifier`
+- Prieinamumas → Valdymas → AssistiveTouch → Patvirtinti naudojant „AssistiveTouch“: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#APPLE_PAY_SWITCH`
+- Prieinamumas → Valdymas → AssistiveTouch → Atlikti ilgo palietimo gestus: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#MouseBehavesLikeFinger`
+- Prieinamumas → Valdymas → AssistiveTouch → Žaidimo valdiklio naudojimas: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#EnableAssistiveTouchGameControllerSpecifier`
+- Prieinamumas → Valdymas → AssistiveTouch → Garsiniai veiksmai: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/SOUND_ACTIONS`
+- Prieinamumas → Valdymas → AssistiveTouch → Garsiniai veiksmai: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#SOUND_ACTIONS`
+- Prieinamumas → Valdymas → Žvilgsnio išlaikymas: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL`
+- Prieinamumas → Valdymas → Žvilgsnio išlaikymas → Žvilgsnio išlaikymas: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL#DWELL_CONTROL_TITLE`
+- Prieinamumas → Valdymas → Žvilgsnio išlaikymas → Tikslinis: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL/DWELL_CONTROL_TARGET`
+- Prieinamumas → Valdymas → Žvilgsnio išlaikymas → Galimas judėjimo nuokrypis: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL/DWELL_MOVEMENT_TOLERANCE`
+- Prieinamumas → Valdymas → Žvilgsnio išlaikymas → Paryškinimo valdymas: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL#DWELL_HIGHLIGHT_CONTROL_TITLE`
+- Prieinamumas → Valdymas → Žvilgsnio išlaikymas → Pristabdyti atkuriant mediją: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL#DWELL_PAUSE_FOR_MEDIA_PLAYBACK_TITLE`
+- Prieinamumas → Valdymas → Žvilgsnio išlaikymas → Rodyti slinkimo valdiklius: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL#AXDwellQuickScrollSpecifierID`
+- Prieinamumas → Valdymas → Žvilgsnio išlaikymas → Meniu sekimas: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL#AXDwellFollowSpecifierID`
+- Prieinamumas → Valdymas → Žvilgsnio išlaikymas: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/#DwellEnabledSpecifier`
+- Prieinamumas → Valdymas → Pasiekiamumas: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#REACHABILITY`
+- Prieinamumas → Valdymas → Haptinis palietimas: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch`
+- Prieinamumas → Valdymas → Haptinis palietimas → Haptinis palietimas: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#ForceTouch`
+- Prieinamumas → Valdymas → Haptinis palietimas → 3D Touch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#ForceTouchAccessibilityMainSwitch`
+- Prieinamumas → Valdymas → Haptinis palietimas → „3D Touch“ jautrumas: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#FourceTouchSensitivityGroupIdentifier`
+- Prieinamumas → Valdymas → Haptinis palietimas → Palietimo trukmė: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#timingGroup`
+- Prieinamumas → Valdymas → Haptinis palietimas → Palietimo trukmės testas: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#FourceTouchSensitivityTestGroupIdentifier`
+- Prieinamumas → Valdymas → Palietimo pritaikymas: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS`
+- Prieinamumas → Valdymas → Palietimo pritaikymas → Palietimo pritaikymas: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#TOUCH_ACCOMMODATIONS_SWITCHER`
+- Prieinamumas → Valdymas → Palietimo pritaikymas → Laikymo trukmė: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#HoldDuration`
+- Prieinamumas → Valdymas → Palietimo pritaikymas → Nepaisyti pakartojimų: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#IgnoreRepeat`
+- Prieinamumas → Valdymas → Palietimo pritaikymas → Bakstelėjimo pagalba: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#Tap%20Assistance`
+- Prieinamumas → Valdymas → Bakstelėkite, kad pažadintumėte: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TAP_TO_WAKE_TITLE`
+- Prieinamumas → Valdymas → Bakstelėkite arba braukite, kad pažadintumėte: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TAP_TOUCH_TO_WAKE_TITLE`
+- Prieinamumas → Valdymas → Anuliavimas pakračius: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#SHAKE_TO_UNDO`
+- Prieinamumas → Valdymas → Vibravimas: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#VIBRATION`
+- Prieinamumas → Valdymas → Neleiskite užraktui baigti dabartinio skambučio: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#LockButtonIgnore`
+- Prieinamumas → Valdymas → Skambučių garso maršruto parinkimas: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING`
+- Prieinamumas → Valdymas → Skambučių garso maršruto parinkimas → Skambučių garso maršruto parinkimas: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING`
+- Prieinamumas → Valdymas → Skambučių garso maršruto parinkimas → Automatinis atsiliepimas: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING/callAudioRoutingAutoAnswer`
+- Prieinamumas → Valdymas → Skambučių garso maršruto parinkimas → Automatinis atsiliepimas → Automatinis atsiliepimas: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING/callAudioRoutingAutoAnswer#callAudioRoutingAutoAnswer`
+- Prieinamumas → Valdymas → Nugarėlės bakstelėjimas: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/BackTap`
+- Prieinamumas → Valdymas → Nugarėlės bakstelėjimas → Nugarėlės bakstelėjimas: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/BackTap#BackTap`
+- Prieinamumas → Valdymas → Nugarėlės bakstelėjimas → Bakstelėjimas du kartus: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/BackTap/DoubleTap`
+- Prieinamumas → Valdymas → Nugarėlės bakstelėjimas → Bakstelėjimas du kartus → Bakstelėjimas du kartus: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/BackTap/DoubleTap#DoubleTap`
+- Prieinamumas → Valdymas → Nugarėlės bakstelėjimas → Trigubas bakstelėjimas: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/BackTap/TripleTap`
+- Prieinamumas → Valdymas → Nugarėlės bakstelėjimas → Trigubas bakstelėjimas → Trigubas bakstelėjimas: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/BackTap/TripleTap#TripleTap`
+- Prieinamumas → Valdymas → Žymeklio valdymas: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer`
+- Prieinamumas → Valdymas → Žymeklio valdymas → Padidinti kontrastą: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#PointerIncreaseContrastSpecifier`
+- Prieinamumas → Valdymas → Žymeklio valdymas → Automatiškai slėpti žymeklį: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#PointerAutoHideSpecifier`
+- Prieinamumas → Valdymas → Žymeklio valdymas → Spalva: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#PointerColorSpecifier`
+- Prieinamumas → Valdymas → Žymeklio valdymas → Žymeklio dydis: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#PointerSizeSpecifier`
+- Prieinamumas → Valdymas → Žymeklio valdymas → Žymeklio valdymas: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#PointerControlEnablingCell`
+- Prieinamumas → Valdymas → Žymeklio valdymas → Valdymas: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer/POINTER_CONTROL_CONTROL`
+- Prieinamumas → Valdymas → Žymeklio valdymas → Spalva: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer/PointerColorSpecifier`
+- Prieinamumas → Valdymas → Žymeklio valdymas → Spalva → Kraštinės plotis: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer/PointerColorSpecifier#PointerStrokeWidth`
+- Prieinamumas → Valdymas → Žymeklio valdymas → Nepaisyti jutiklinio pulto: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#IgnoreTrackpad`
+- Prieinamumas → Valdymas → Žymeklio valdymas → Jutiklinio pulto inercija: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#PointerInertia`
+- Prieinamumas → Valdymas → Žymeklio valdymas → Žymeklio animacijos: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#PointerCustomShapes`
+- Prieinamumas → Valdymas → Žymeklio valdymas → Slinkimo sparta: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#DeviceScrollSpeed`
+- Prieinamumas → Valdymas → Valdymo centro atidarymas pažiūrėjus į viršų: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/UPWARDS_HUD`
+- Prieinamumas → Valdymas → Valdymo centro atidarymas pažiūrėjus į viršų → Vertikali valdymo centro padėtis: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/UPWARDS_HUD#UpwardsHUDPositionSpecifier`
+- Prieinamumas → Valdymas → Valdymo centro atidarymas pažiūrėjus į viršų → Valdymo centro atidarymas pažiūrėjus į viršų: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/UPWARDS_HUD#UpwardsHUDToggleSpecifier`
+- Prieinamumas → Valdymas → Garsiniai veiksmai: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/SOUND_ACTIONS`
+- Prieinamumas → Valdymas → Pirmenybė su galvos judėjimu nesusietiems valdikliams: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#CAMERA_ANCHOR_ALTERNATIVE_Preference`
+- Prieinamumas → „Face ID“ ir dėmesys: `prefs:root=ACCESSIBILITY&path=FACE_ID`
+- Prieinamumas → „Face ID“ ir dėmesys → Reikalauti dėmesio naudojant „Face ID“: `prefs:root=ACCESSIBILITY&path=FACE_ID#PearlUnlockAttention`
+- Prieinamumas → „Face ID“ ir dėmesys → Dėmesį atpažįstančios funkcijos: `prefs:root=ACCESSIBILITY&path=FACE_ID#AttentionAware`
+- Prieinamumas → „Face ID“ ir dėmesys → Haptika sėkmingo autentifikavimo metu: `prefs:root=ACCESSIBILITY&path=FACE_ID#PearlSuccessHaptic`
+- Prieinamumas → Valdymas perjungikliais: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle`
+- Prieinamumas → Valdymas perjungikliais → Perjungikliai: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier`
+- Prieinamumas → Valdymas perjungikliais → Perjungikliai → Perjungikliai: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier#SwitchesIdentifier`
+- Prieinamumas → Valdymas perjungikliais → Perjungikliai → Įtraukti naują perjungiklį…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier/AddSwitchIdentifier`
+- Prieinamumas → Valdymas perjungikliais → Perjungikliai → Įtraukti naują perjungiklį… → Įtraukti naują perjungiklį…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier/AddSwitchIdentifier#AddSwitchIdentifier`
+- Prieinamumas → Valdymas perjungikliais → Perjungikliai → „Bluetooth“ įrenginiai…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier/BluetoothDevicesIdentifier`
+- Prieinamumas → Valdymas perjungikliais → Perjungikliai → „Bluetooth“ įrenginiai… → „Bluetooth“ įrenginiai…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier/BluetoothDevicesIdentifier/BluetoothDevicesIdentifier`
+- Prieinamumas → Valdymas perjungikliais → Perjungikliai → Ignoruoti netinkamą perjungiklio sąranką: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier#UpwardsHUDToggleSpecifier`
+- Prieinamumas → Valdymas perjungikliais → Taisyklių rinkiniai: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/RecipesIdentifier`
+- Prieinamumas → Valdymas perjungikliais → Taisyklių rinkiniai → Taisyklių rinkiniai: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/RecipesIdentifier#RecipesIdentifier`
+- Prieinamumas → Valdymas perjungikliais → Taisyklių rinkiniai → Kurti naują elgesną…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/RecipesIdentifier/CreateNewRecipe`
+- Prieinamumas → Valdymas perjungikliais → Taisyklių rinkiniai → Kurti naują elgesną… → Kurti naują elgesną…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/RecipesIdentifier/CreateNewRecipe#CreateNewRecipe`
+- Prieinamumas → Valdymas perjungikliais → Taisyklių rinkiniai → Paleisti elgseną: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/RecipesIdentifier/LaunchRecipe`
+- Prieinamumas → Valdymas perjungikliais → Taisyklių rinkiniai → Paleisti elgseną → Paleisti elgseną: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/RecipesIdentifier/LaunchRecipe#LaunchRecipe`
+- Prieinamumas → Valdymas perjungikliais → Nuskaitymo tipas: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier`
+- Prieinamumas → Valdymas perjungikliais → Nuskaitymo tipas → Nuskaitymo tipas: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#ScanningStyleIdentifier`
+- Prieinamumas → Valdymas perjungikliais → Valdymo perjungikliais režimas: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/FirstLaunchScanningModeIdentifier`
+- Prieinamumas → Valdymas perjungikliais → Valdymo perjungikliais režimas → Valdymo perjungikliais režimas: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/FirstLaunchScanningModeIdentifier#FirstLaunchScanningModeIdentifier`
+- Prieinamumas → Valdymas perjungikliais → Automatinio nuskaitymo laikas: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningSpeedIdentifier`
+- Prieinamumas → Valdymas perjungikliais → Automatinio nuskaitymo laikas → Automatinio nuskaitymo laikas: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningSpeedIdentifier#NumericalPreferencePickerGroupIdentifier`
+- Prieinamumas → Valdymas perjungikliais → Pristabdyti prie pirmo elemento: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/DelayAfterInputIdentifier`
+- Prieinamumas → Valdymas perjungikliais → Pristabdyti prie pirmo elemento → Pristabdyti prie pirmo elemento: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/DelayAfterInputIdentifier#NumericalPreferenceSwitcherIdentifier`
+- Prieinamumas → Valdymas perjungikliais → Ciklai: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanCyclesIdentifier`
+- Prieinamumas → Valdymas perjungikliais → Ciklai → Ciklai: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanCyclesIdentifier#ScanCyclesIdentifier`
+- Prieinamumas → Valdymas perjungikliais → Veiksmo kartojimas: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ActionRepeatIdentifier`
+- Prieinamumas → Valdymas perjungikliais → Veiksmo kartojimas → Veiksmo kartojimas: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ActionRepeatIdentifier#NumericalPreferenceSwitcherIdentifier`
+- Prieinamumas → Valdymas perjungikliais → Valdymo perjungikliais režimas: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSelectionGroupIdentifier`
+- Prieinamumas → Valdymas perjungikliais → Valdymo perjungikliais režimas → Slenkantis žymeklis: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSelectionGroupIdentifier#POINTER_PICKER_ENABLED`
+- Prieinamumas → Valdymas perjungikliais → Ilgas paspaudimas: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/LongPressIdentifier`
+- Prieinamumas → Valdymas perjungikliais → Ilgas paspaudimas → Ilgas paspaudimas: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/LongPressIdentifier#NumericalPreferenceSwitcherIdentifier`
+- Prieinamumas → Valdymas perjungikliais → Bakstelėjimo elgsena: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier`
+- Prieinamumas → Valdymas perjungikliais → Bakstelėjimo elgsena → Bakstelėjimo elgsena: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#TapBehaviorIdentifier`
+- Prieinamumas → Valdymas perjungikliais → Sufokusuotas elementas bakstelėjus: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanLocationIdentifier`
+- Prieinamumas → Valdymas perjungikliais → Sufokusuotas elementas bakstelėjus → Sufokusuotas elementas bakstelėjus: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanLocationIdentifier#ScanLocationIdentifier`
+- Prieinamumas → Valdymas perjungikliais → Nuskaityti tą patį klavišą bakstelėjus: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#RestartScanAtCurrentIdentifier`
+- Prieinamumas → Valdymas perjungikliais → Visada bakstelėti klaviatūros klavišus: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AlwaysTapKeyboardIdentifier`
+- Prieinamumas → Valdymas perjungikliais → Išplėsti nuspėjami variantai: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#UseExtendedKeyboardPredictionsIdentifier`
+- Prieinamumas → Valdymas perjungikliais → Laikymo trukmė: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/HoldDurationIdentifier`
+- Prieinamumas → Valdymas perjungikliais → Laikymo trukmė → Laikymo trukmė: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/HoldDurationIdentifier#NumericalPreferenceSwitcherIdentifier`
+- Prieinamumas → Valdymas perjungikliais → Nepaisyti pakartojimų: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/IgnoreRepeatIdentifier`
+- Prieinamumas → Valdymas perjungikliais → Nepaisyti pakartojimų → Nepaisyti pakartojimų: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/IgnoreRepeatIdentifier#NumericalPreferenceSwitcherIdentifier`
+- Prieinamumas → Valdymas perjungikliais → Slenkantis žymeklis: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier`
+- Prieinamumas → Valdymas perjungikliais → Slenkantis žymeklis → Slenkantis žymeklis: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#AxisSweepIdentifier`
+- Prieinamumas → Valdymas perjungikliais → Slenkantis žymeklis → Pasirinkimo režimas: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleGroup`
+- Prieinamumas → Valdymas perjungikliais → Slenkantis žymeklis → Slenkančio žymeklio sparta: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#AxisSweepSpeed`
+- Prieinamumas → Valdymas perjungikliais → Galvos sekimas: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CameraPointPickerSwitch`
+- Prieinamumas → Valdymas perjungikliais → Galvos sekimas → Galvos sekimas: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CameraPointPickerSwitch#CameraPointPickerSwitcher`
+- Prieinamumas → Valdymas perjungikliais → Garso efektai: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SoundIdentifier`
+- Prieinamumas → Valdymas perjungikliais → Kalba: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier`
+- Prieinamumas → Valdymas perjungikliais → Kalba → Balsai: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#VoicesIdentifier`
+- Prieinamumas → Valdymas perjungikliais → Kalba → Perskaityti elemento atributus: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#SPEECH_SPEAKS_TRAITS_LABEL`
+- Prieinamumas → Valdymas perjungikliais → Kalba → Pristabdyti skaitant: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#SPEECH_PAUSES_SCANNING_LABEL`
+- Prieinamumas → Valdymas perjungikliais → Meniu elementai: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier`
+- Prieinamumas → Valdymas perjungikliais → Meniu elementai → Meniu elementai: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier#CustomizeMenuIdentifier`
+- Prieinamumas → Valdymas perjungikliais → Meniu elementai → Aukščiausias lygis: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/TopLevel`
+- Prieinamumas → Valdymas perjungikliais → Meniu elementai → Aukščiausias lygis → Aukščiausias lygis: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/TopLevel#TopLevel`
+- Prieinamumas → Valdymas perjungikliais → Meniu elementai → Gestai: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Gestures`
+- Prieinamumas → Valdymas perjungikliais → Meniu elementai → Gestai → Gestai: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Gestures#Gestures`
+- Prieinamumas → Valdymas perjungikliais → Meniu elementai → Įrenginys: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Device`
+- Prieinamumas → Valdymas perjungikliais → Meniu elementai → Įrenginys → Įrenginys: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Device#Device`
+- Prieinamumas → Valdymas perjungikliais → Meniu elementai → Nustatymai: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Settings`
+- Prieinamumas → Valdymas perjungikliais → Meniu elementai → Nustatymai → Nustatymai: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Settings#Settings`
+- Prieinamumas → Valdymas perjungikliais → Meniu elementai → Medijos valdikliai: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/MediaControls`
+- Prieinamumas → Valdymas perjungikliais → Meniu elementai → Medijos valdikliai → Medijos valdikliai: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/MediaControls#MediaControls`
+- Prieinamumas → Valdymas perjungikliais → Grupuoti elementus: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ItemGroupingIdentifier`
+- Prieinamumas → Valdymas perjungikliais → Didelis žymeklis: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CursorVisibilityIdentifier`
+- Prieinamumas → Valdymas perjungikliais → Išsaugoti gestai: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomGesturesIdentifier`
+- Prieinamumas → Valdymas perjungikliais → Išsaugoti gestai → Išsaugoti gestai: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomGesturesIdentifier#CustomGesturesIdentifier`
+- Prieinamumas → Valdymas perjungikliais → Išsaugoti gestai → Kurti naują gestą…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomGesturesIdentifier/CreateCustomGesture`
+- Prieinamumas → Valdymas perjungikliais → Išsaugoti gestai → Kurti naują gestą… → Kurti naują gestą…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomGesturesIdentifier/CreateCustomGesture#CreateCustomGesture`
+- Prieinamumas → Valdymas perjungikliais → Patvirtinimas perjungikliu: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#APPLE_PAY_SWITCH`
+- Prieinamumas → Valdymas perjungikliais → Žymeklio spalva: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CursorColorIdentifier`
+- Prieinamumas → Valdymas perjungikliais → Žymeklio spalva → Žymeklio spalva: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CursorColorIdentifier#CursorColorIdentifier`
+- Prieinamumas → Valdymas balsu: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle`
+- Prieinamumas → Valdymas balsu → Nustatyti valdymą balsu: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#SETUP_COMMAND_AND_CONTROL`
+- Prieinamumas → Valdymas balsu → Atidaryti „Valdymo balsu“ mokymus: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#COMMAND_AND_CONTROL_LAUNCH_ONBOARDING`
+- Prieinamumas → Valdymas balsu → Kalba: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_LANGUAGE`
+- Prieinamumas → Valdymas balsu → Kalba → Kalba: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_LANGUAGE#COMMAND_AND_CONTROL_LANGUAGE`
+- Prieinamumas → Valdymas balsu → Komandos: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS`
+- Prieinamumas → Valdymas balsu → Komandos → Komandos: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS#COMMAND_AND_CONTROL_COMMANDS`
+- Prieinamumas → Valdymas balsu → Komandos → Kurti naują komandą: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/CreateNewCommand`
+- Prieinamumas → Valdymas balsu → Komandos → Kurti naują komandą → Kurti naują komandą: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/CreateNewCommand#CreateNewCommand`
+- Prieinamumas → Valdymas balsu → Komandos → Įprastas naršymas: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/System`
+- Prieinamumas → Valdymas balsu → Komandos → Perdanga: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/Overlays`
+- Prieinamumas → Valdymas balsu → Komandos → Pagrindiniai gestai: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/Gestures`
+- Prieinamumas → Valdymas balsu → Komandos → Išplėstiniai gestai: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/DragDropGestures`
+- Prieinamumas → Valdymas balsu → Komandos → Diktavimas: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/TextDictation`
+- Prieinamumas → Valdymas balsu → Komandos → Teksto naršymas: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/Movement`
+- Prieinamumas → Valdymas balsu → Komandos → Teksto pasirinkimas: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/Selection`
+- Prieinamumas → Valdymas balsu → Komandos → Teksto redagavimas: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/Editing`
+- Prieinamumas → Valdymas balsu → Komandos → Teksto aptikimas: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/AdvancedDeletion`
+- Prieinamumas → Valdymas balsu → Komandos → Įrenginys: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/Hardware`
+- Prieinamumas → Valdymas balsu → Komandos → Prieinamumas: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/Accessibility`
+- Prieinamumas → Valdymas balsu → Komandos → Importuoti pritaikytas komandas: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/ImportCustomCommands`
+- Prieinamumas → Valdymas balsu → Komandos → Importuoti pritaikytas komandas → Importuoti pritaikytas komandas: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/ImportCustomCommands#ImportCustomCommands`
+- Prieinamumas → Valdymas balsu → Žodynas: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_VOCABULARY`
+- Prieinamumas → Valdymas balsu → Žodynas → Žodynas: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_VOCABULARY/VOCABULARY`
+- Prieinamumas → Valdymas balsu → Žodynas → Žodynas → Žodynas: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_VOCABULARY/VOCABULARY#VOCABULARY`
+- Prieinamumas → Valdymas balsu → Žodynas → Importuoti žodyną: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_VOCABULARY#IMPORT_VOCABULARY`
+- Prieinamumas → Valdymas balsu → Žodynas → Eksportuoti žodyną: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_VOCABULARY#EXPORT_VOCABULARY`
+- Prieinamumas → Valdymas balsu → Žodynas → Trinti visą žodyną: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_VOCABULARY#DELETE_ALL_VOCABULARY`
+- Prieinamumas → Valdymas balsu → Rodyti patvirtinimą: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#SHOW_TEXT_RESPONSE_TITLE`
+- Prieinamumas → Valdymas balsu → Leisti garsą: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#PLAY_SOUND_RESPONSE_TITLE`
+- Prieinamumas → Valdymas balsu → Rodyti užuominas: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#USER_HINTS_SHOW_HINTS_TITLE`
+- Prieinamumas → Valdymas balsu → Perdanga: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY`
+- Prieinamumas → Valdymas balsu → Perdanga → Perdanga: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#ALWAYS_SHOW_OVERLAY`
+- Prieinamumas → Valdymas balsu → Dėmesio atpažinimas: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ATTENTION_AWARE_ACTION`
+- Prieinamumas → Viršutinis mygtukas / „Touch ID“: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE`
+- Prieinamumas → Viršutinis mygtukas / „Touch ID“ → Spustelėjimo greitis: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_SPEED_HEADER`
+- Prieinamumas → Viršutinis mygtukas / „Touch ID“ → Paspauskite ir palaikykite norėdami kalbėti: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantTitle`
+- Prieinamumas → Viršutinis mygtukas / „Touch ID“ → Pradžios mygtukas: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE/HomeButtonAssistantTitle`
+- Prieinamumas → Viršutinis mygtukas / „Touch ID“ → Pradžios mygtukas → Uždėkite pirštą, kad atidarytumėte: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE/HomeButtonAssistantTitle#RestingUnlockSetting`
+- Prieinamumas → Viršutinis mygtukas / „Touch ID“ → Įjungti patvirtinimą perjungikliu: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#APPLE_PAY_CONFIRM_WITH_SC`
+- Prieinamumas → Viršutinis mygtukas / „Touch ID“ → Įjungti patvirtinimą naudojant „AssistiveTouch“: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#APPLE_PAY_CONFIRM_WITH_AST`
+- Prieinamumas → Apple TV Remote: `prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE`
+- Prieinamumas → Apple TV Remote → Krypčių mygtukai: `prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE#AppleTVSimpleGestures`
+- Prieinamumas → Apple TV Remote → Televizijos transliacijos mygtukai: `prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE#AppleTVLiveTVButtons`
+- Prieinamumas → „Apple Watch“ dubliavimas: `prefs:root=ACCESSIBILITY&path=APPLE_WATCH_REMOTE_SCREEN`
+- Prieinamumas → Klausos aparatai: `prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE`
+- Prieinamumas → Klausos aparatai → „MFi“ klausos aparatai: `prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#AvailableAidsHeading`
+- Prieinamumas → Klausos aparatai → Klausos aparato suderinamumas: `prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#HEARING_AID_COMPLIANCE`
+- Prieinamumas → Klausos valdymo centras: `prefs:root=ACCESSIBILITY&path=HEARING_CONTROL_CENTER`
+- Prieinamumas → Klausos valdymo centras → Įtraukti valdikliai: `prefs:root=ACCESSIBILITY&path=HEARING_CONTROL_CENTER#INCLUDED_MODULES_SECTION_TITLE`
+- Prieinamumas → Klausos valdymo centras → Daugiau valdiklių: `prefs:root=ACCESSIBILITY&path=HEARING_CONTROL_CENTER#MORE_MODULES_SECTION_TITLE`
+- Prieinamumas → Garso atpažinimas: `prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE`
+- Prieinamumas → Garso atpažinimas → Garsai: `prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE/Sounds`
+- Prieinamumas → Garso atpažinimas → Garsai → Garsai: `prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE/Sounds#Sounds`
+- Prieinamumas → RTT / TTY: `prefs:root=ACCESSIBILITY&path=RTT`
+- Prieinamumas → RTT / TTY → Programinės įrangos RTT / TTY: `prefs:root=ACCESSIBILITY&path=RTT#SW_TTY`
+- Prieinamumas → RTT / TTY → Aparatinės įrangos TTY: `prefs:root=ACCESSIBILITY&path=RTT#HW_TTY`
+- Prieinamumas → Garsas ir vaizdas: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE`
+- Prieinamumas → Garsas ir vaizdas → Ausinių pritaikymas: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID`
+- Prieinamumas → Garsas ir vaizdas → Ausinių pritaikymas → Ausinių pritaikymas: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID#AXPAEnableSpecID`
+- Prieinamumas → Garsas ir vaizdas → Ausinių pritaikymas → Pasirinktinė garso sąranka: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID#AXPAPersonalAudioSetupSpecID`
+- Prieinamumas → Garsas ir vaizdas → Fono garsai: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID`
+- Prieinamumas → Garsas ir vaizdas → Fono garsai → Fono garsai: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID#CSFeatureToggleSpecID`
+- Prieinamumas → Garsas ir vaizdas → Fono garsai → Garsas: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID/ComfortSoundSoundLabel`
+- Prieinamumas → Garsas ir vaizdas → Fono garsai → Garsas → Garsas: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID/ComfortSoundSoundLabel#ComfortSoundSoundLabel`
+- Prieinamumas → Garsas ir vaizdas → Fono garsai → Fono garsų lygis: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID#ComfortSoundsVolume`
+- Prieinamumas → Garsas ir vaizdas → Fono garsai → Naudoti, kai leidžiama medija: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID#ComfortSoundsMixingName`
+- Prieinamumas → Garsas ir vaizdas → Fono garsai → Garsumas naudojant mediją: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID#ComfortSoundsMixingVolume`
+- Prieinamumas → Garsas ir vaizdas → Fono garsai → Nutildyti garsus, kai užrakinta: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID#ComfortSoundsPlayWhenLockedName`
+- Prieinamumas → Garsas ir vaizdas → Monofoninis garsas: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAMonoSpecID`
+- Prieinamumas → Garsas ir vaizdas → Visada rodyti garsumo valdiklį: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAAlwaysShowVolumeControlSpecID`
+- Prieinamumas → Garsas ir vaizdas → Aplinkos triukšmo slopinimas: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPANoiseSpecID`
+- Prieinamumas → Garsas ir vaizdas → LED blykstės naudojimas įspėjimams: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH`
+- Prieinamumas → Garsas ir vaizdas → LED blykstės naudojimas įspėjimams → LED blykstės naudojimas įspėjimams: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_FLASH`
+- Prieinamumas → Garsas ir vaizdas → LED blykstės naudojimas įspėjimams → Įjungti blykstę, kai atrakinta: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_FLASH_WHILE_UNLOCKED`
+- Prieinamumas → Garsas ir vaizdas → LED blykstės naudojimas įspėjimams → Blykstė veikiant tyliuoju režimu: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_RINGER_SWITCH_CONTROL`
+- Prieinamumas → Garsas ir vaizdas → Garso stereobalansas: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#LeftRightBalance`
+- Prieinamumas → Garsas ir vaizdas → Įjungimo ir išjungimo garsai: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#StartupSound`
+- Prieinamumas → Garsas ir vaizdas → Ausinių pranešimai: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXHeadphoneNotificationsSpecID`
+- Prieinamumas → Garsas ir vaizdas → Įtraukti balso izoliavimą: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#ExtendedVoiceIsolationSpecID`
+- Prieinamumas → Garsas ir vaizdas → Garso efektai: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#SOUND_EFFECTS_PREFERENCE`
+- Prieinamumas → Garsas ir vaizdas → Garsų įtraukimas į skambučius: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/MIX_TO_UPLINK`
+- Prieinamumas → Garsas ir vaizdas → Garsų įtraukimas į skambučius → Leiskite programoms įtraukti garsus į skambučius: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/MIX_TO_UPLINK#MIX_TO_UPLINK`
+- Prieinamumas → Subtitrai ir titrai: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING`
+- Prieinamumas → Subtitrai ir titrai → Stilius: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING/currentTheme`
+- Prieinamumas → Subtitrai ir titrai → Stilius → Stilius: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING/currentTheme#currentTheme`
+- Prieinamumas → Subtitrai ir titrai → Titrai + SKN: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#PREFER_SDH`
+- Prieinamumas → Subtitrai ir titrai → Rodyti garso transkripcijas: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#SHOW_AUDIO_TRANSCRIPTIONS`
+- Prieinamumas → Subtitrai ir titrai → Rodyti nutildžius garsą: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#SHOW_WHEN_MUTED`
+- Prieinamumas → Subtitrai ir titrai → Rodyti sukant atgal: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#SHOW_ON_SKIP_BACK`
+- Prieinamumas → Tiesioginiai titrai: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION`
+- Prieinamumas → Tiesioginiai titrai → Tiesioginiai titrai: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION#LIVE_TRANSCRIPTION_TITLE`
+- Prieinamumas → Tiesioginiai titrai → Išvaizda: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE`
+- Prieinamumas → Tiesioginiai titrai → Išvaizda → Išvaizda: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE#LIVE_TRANSCRIPTION_APPEARANCE`
+- Prieinamumas → Tiesioginiai titrai → Išvaizda → Paryškintas tekstas: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE/ENHANCE_TEXT_LEGIBILITY`
+- Prieinamumas → Tiesioginiai titrai → Išvaizda → Paryškintas tekstas → Paryškintas tekstas: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE/ENHANCE_TEXT_LEGIBILITY#ENHANCE_TEXT_LEGIBILITY`
+- Prieinamumas → Tiesioginiai titrai → Išvaizda → Teksto dydis: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE/LARGER_TEXT`
+- Prieinamumas → Tiesioginiai titrai → Išvaizda → Teksto dydis → Teksto dydis: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE/LARGER_TEXT#LARGER_TEXT`
+- Prieinamumas → Tiesioginiai titrai → Išvaizda → Spalvų parinktys: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE#LIVE_TRANSCRIPTION_COLOR_OPTIONS`
+- Prieinamumas → Tiesioginiai titrai → Išvaizda → Teksto spalva: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE#LIVE_TRANSCRIPTION_TEXT_COLOR`
+- Prieinamumas → Tiesioginiai titrai → Išvaizda → Fono spalva: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE#LIVE_TRANSCRIPTION_BACKGROUND_COLOR`
+- Prieinamumas → Tiesioginiai titrai → Išvaizda → Nustatyti spalvas iš naujo: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE#LIVE_TRANSCRIPTION_RESET_COLORS`
+- Prieinamumas → Tiesioginiai titrai → Išvaizda → Matomumas nenaudojant: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE#LIVE_CAPTIONS_IDLE_OPACITY_TITLE`
+- Prieinamumas → Tiesioginiai titrai → Tiesioginiai titrai „FaceTime“ programoje: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION#FACE_TIME_CAPTIONS`
+- Prieinamumas → Ribotoji prieiga: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE`
+- Prieinamumas → Ribotoji prieiga → Prieigos kodo nustatymai: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessSecurityLinkList`
+- Prieinamumas → Ribotoji prieiga → Prieigos kodo nustatymai → Prieigos kodo nustatymai: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessSecurityLinkList#GuidedAccessSecurityLinkList`
+- Prieinamumas → Ribotoji prieiga → Prieigos kodo nustatymai → Ribotosios prieigos kodo nustatymas: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessSecurityLinkList#GAXPinButton`
+- Prieinamumas → Ribotoji prieiga → Prieigos kodo nustatymai → Touch ID: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessSecurityLinkList#GAXSpecIDTouchIDSwitch`
+- Prieinamumas → Ribotoji prieiga → Laiko ribos: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList`
+- Prieinamumas → Ribotoji prieiga → Laiko ribos → Laiko ribos: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GuidedAccessTimeRestrictionsLinkList`
+- Prieinamumas → Ribotoji prieiga → Laiko ribos → Garsas: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList/GUIDED_ACCESS_TIME_RESTRICTIONS_SOUND_TITLE`
+- Prieinamumas → Ribotoji prieiga → Laiko ribos → Garsas → Garsas: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList/GUIDED_ACCESS_TIME_RESTRICTIONS_SOUND_TITLE#GUIDED_ACCESS_TIME_RESTRICTIONS_SOUND_TITLE`
+- Prieinamumas → Ribotoji prieiga → Laiko ribos → Skaityti: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_SPEAK_TITLE`
+- Prieinamumas → Ribotoji prieiga → Prieinamumo sparčioji komanda: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessEnableAXFeatures`
+- Prieinamumas → Ribotoji prieiga → Automatinis ekrano užrakinimas: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessAutoLockTime`
+- Prieinamumas → Ribotoji prieiga → Automatinis ekrano užrakinimas → Automatinis ekrano užrakinimas: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessAutoLockTime#GuidedAccessAutoLockTime`
+- Prieinamumas → Pagalbinė prieiga: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE`
+- Prieinamumas → Pagalbinė prieiga → Nustatyti pagalbinę prieigą: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#SetUpClarityUISpecifier`
+- Prieinamumas → Pagalbinė prieiga → Įjungti pagalbinę prieigą: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#ClarityUIStart`
+- Prieinamumas → Pagalbinė prieiga → Programos: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#Applications`
+- Prieinamumas → Pagalbinė prieiga → Parinktys: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#Options`
+- Prieinamumas → Pagalbinė prieiga → Fonas: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE/Wallpaper`
+- Prieinamumas → Pagalbinė prieiga → Fonas → Fonas: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE/Wallpaper#Wallpaper`
+- Prieinamumas → Pagalbinė prieiga → Leisti garsumo mygtukus: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#VolumeButtons`
+- Prieinamumas → Pagalbinė prieiga → Rodyti laiką užrakintame ekrane: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#ShowTime`
+- Prieinamumas → Pagalbinė prieiga → Rodyti akumuliatoriaus įkrovos lygį pradžios ekrane: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#ShowBattery`
+- Prieinamumas → Pagalbinė prieiga → Rodyti pranešimų ženklelius: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#ShowNotification`
+- Prieinamumas → Pagalbinė prieiga → Leisti „Siri“: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#AllowSiri`
+- Prieinamumas → Pagalbinė prieiga → Prieigos kodo nustatymai: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE/PasscodeSettings`
+- Prieinamumas → Pagalbinė prieiga → Prieigos kodo nustatymai → Prieigos kodo nustatymai: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE/PasscodeSettings#PasscodeSettings`
+- Prieinamumas → Siri: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE`
+- Prieinamumas → Siri → „Siri“ komandų įvedimas: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_SETTINGS_TYPE_TO_SIRI`
+- Prieinamumas → Siri → „Siri“ pristabdymo laikas: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#ENDPOINTER`
+- Prieinamumas → Siri → „Siri“ ištarimo sparta: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SPEECH_RATE`
+- Prieinamumas → Siri → Garsiniai atsakymai: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK`
+- Prieinamumas → Siri → Visada reaguoti į „Siri“: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_SETTINGS_VOICE_ACTIVATION_ALWAYS_ALLOW`
+- Prieinamumas → Siri → Rodyti programas už „Siri“: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRL_SHOW_APPS`
+- Prieinamumas → Siri → Informuoti apie pranešimus per garsiakalbį: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#ANNOUNCE_NOTIFICATIONS_BUILT_IN_SPEAKER_ID`
+- Prieinamumas → Siri → Skambučių baigimas: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE/SIRI_CALL_HANGUP_ID`
+- Prieinamumas → Siri → Skambučių baigimas → Skambučių baigimas: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE/SIRI_CALL_HANGUP_ID#SIRI_CALL_HANGUP_ID`
+- Prieinamumas → Siri → Reaguoti į neįprastą kalbą: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_ATYPICAL_SPEECH`
+- Prieinamumas → Siri → Prašyti „Siri“ reaguoti į trukdžius: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_BARGE`
+- Prieinamumas → Prieinamumo sparčioji komanda: `prefs:root=ACCESSIBILITY&path=TRIPLE_CLICK_TITLE`
+- Prieinamumas → Programos nustatymai: `prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE`
+- Prieinamumas → Programos nustatymai → Rodyti paslėptas programas: `prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE#PROTECTED_APPS_SHOW_HIDDEN_TITLE`
+- Prieinamumas → Programos nustatymai → Įtraukti programą: `prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE#AX_ADD_BUTTON_IDENTIFIER`
+- Prieinamumas → Valdyti netoliese esančius įrenginius: `prefs:root=ACCESSIBILITY&path=CONTROL_NEARBY_DEVICES`
+- Prieinamumas → Valdyti netoliese esančius įrenginius → Valdyti netoliese esančius įrenginius: `prefs:root=ACCESSIBILITY&path=CONTROL_NEARBY_DEVICES#CONTROL_NEARBY_DEVICES`
+- Prieinamumas → Akies įvestis: `prefs:root=ACCESSIBILITY&path=DOMINANT_EYE`
+- Prieinamumas → Tiesioginė kalba: `prefs:root=ACCESSIBILITY&path=LIVE_SPEECH_TITLE`
+- Prieinamumas → Tiesioginė kalba → Frazės: `prefs:root=ACCESSIBILITY&path=LIVE_SPEECH_TITLE/LiveSpeechCategoryManagement`
+- Prieinamumas → Tiesioginė kalba → Balsai: `prefs:root=ACCESSIBILITY&path=LIVE_SPEECH_TITLE#LIVE_SPEECH_VOICES`
+- Prieinamumas → Asmeninis balsas: `prefs:root=ACCESSIBILITY&path=PERSONAL_VOICE_TITLE`
+- Prieinamumas → Asmeninis balsas → Kurti asmeninį balsą: `prefs:root=ACCESSIBILITY&path=PERSONAL_VOICE_TITLE#VB_CREATE_PERSONAL_VOICE`
+- Prieinamumas → Asmeninis balsas → Bendrinti įrenginiuose: `prefs:root=ACCESSIBILITY&path=PERSONAL_VOICE_TITLE#VB_USE_ICLOUD_TITLE`
+- Prieinamumas → Asmeninis balsas → Leisti programoms prašyti leidimo naudoti: `prefs:root=ACCESSIBILITY&path=PERSONAL_VOICE_TITLE#VB_ALLOW_WITH_APPS`
+- Prieinamumas → AirPods: `prefs:root=ACCESSIBILITY&path=AIRPODS`
+- Prieinamumas → AirPods → Paspaudimo sparta: `prefs:root=ACCESSIBILITY&path=AIRPODS#TapGroup`
+- Prieinamumas → AirPods → Paspaudimo ir palaikymo trukmė: `prefs:root=ACCESSIBILITY&path=AIRPODS#HoldGroup`
+- Prieinamumas → AirPods → „iPhone“ garso ir vaizdo nustatymai: `prefs:root=ACCESSIBILITY&path=AIRPODS#PERSONAL_AUDIO_AIRPODS_BUTTON`
+- Prieinamumas → AirPods → Sekti „iPhone“: `prefs:root=ACCESSIBILITY&path=AIRPODS#SPATIAL_AUDIO_SWITCH`
+- Prieinamumas → AirPods → Tono garsumas: `prefs:root=ACCESSIBILITY&path=AIRPODS#TONE_VOLUME`
+- Prieinamumas → Balso sparčiosios komandos: `prefs:root=ACCESSIBILITY&path=ADAPTIVE_VOICE_SHORTCUTS_TITLE`
+- Prieinamumas → Balso sparčiosios komandos → Nustatyti balso sparčiąsias komandas: `prefs:root=ACCESSIBILITY&path=ADAPTIVE_VOICE_SHORTCUTS_TITLE#AVS_SET_UP_BUTTON_TITLE`
+- Prieinamumas → Muzikos haptika: `prefs:root=ACCESSIBILITY&path=HAPTIC_MUSIC`
+- Prieinamumas → Akių sekimas: `prefs:root=ACCESSIBILITY&path=OnDeviceEyeTracking`
+- Prieinamumas → Akių sekimas → Akių sekimas: `prefs:root=ACCESSIBILITY&path=OnDeviceEyeTracking#OnDeviceEyeTrackingEnabledSpecifier`
+- Prieinamumas → Akių sekimas → Tolygumo pagerinimas: `prefs:root=ACCESSIBILITY&path=OnDeviceEyeTracking#SMOOTHING`
+- Prieinamumas → Akių sekimas → Prikabinti prie elemento: `prefs:root=ACCESSIBILITY&path=OnDeviceEyeTracking#SNAP_TO_ITEM`
+- Prieinamumas → Akių sekimas → Klaviatūros klavišų mastelis: `prefs:root=ACCESSIBILITY&path=OnDeviceEyeTracking#KEYBOARD_ZOOM`
+- Prieinamumas → Akių sekimas → Automatinis slėpimas: `prefs:root=ACCESSIBILITY&path=OnDeviceEyeTracking#AUTO_HIDE`
+- Prieinamumas → Akių sekimas → Žvilgsnio išlaikymas: `prefs:root=ACCESSIBILITY&path=OnDeviceEyeTracking#DWELL_CONTROL`
+- Prieinamumas → Kameros valdiklis: `prefs:root=ACCESSIBILITY&path=CAMERA_CONTROL`
+- Prieinamumas → Kameros valdiklis → Kameros valdiklis: `prefs:root=ACCESSIBILITY&path=CAMERA_CONTROL#CAMERA_CONTROL_SWITCH`
+- Prieinamumas → Kameros valdiklis → Nestiprus paspaudimas: `prefs:root=ACCESSIBILITY&path=CAMERA_CONTROL#LIGHT_PRESS`
+- Prieinamumas → Kameros valdiklis → Braukimas: `prefs:root=ACCESSIBILITY&path=CAMERA_CONTROL#SWIPE`
+- Prieinamumas → Kameros valdiklis → Nestipraus paspaudimo jėga: `prefs:root=ACCESSIBILITY&path=CAMERA_CONTROL#LIGHT_PRESS_FORCE`
+- Prieinamumas → Kameros valdiklis → Dviguba nestipraus paspaudimo sparta: `prefs:root=ACCESSIBILITY&path=CAMERA_CONTROL#SENSITIVITY`
+- Mail: `prefs:root=MAIL`
+- Mail → Paskyros: `prefs:root=MAIL&path=ACCOUNTS`
+- Mail → Paskyros → Įtraukti paskyrą: `prefs:root=MAIL&path=ACCOUNTS#ADD_ACCOUNT`
+- Mail → Paskyros → Gauti naujų duomenų: `prefs:root=MAIL&path=ACCOUNTS#FETCH_NEW_DATA`
+- Mail → Peržiūrėti: `prefs:root=MAIL&path=Preview`
+- Mail → Rodyti gavėjo / kopijos siuntimo žymes: `prefs:root=MAIL#Show%20To/Cc%20Labels`
+- Mail → Braukimo parinktys: `prefs:root=MAIL&path=Swipe%20Options`
+- Mail → Paklausti prieš ištrinant: `prefs:root=MAIL#Ask%20Before%20Deleting`
+- Mail → Įkelti nuotolinių vaizdų: `prefs:root=MAIL#Load%20Remote%20Images`
+- Mail → Tvarkyti pagal giją: `prefs:root=MAIL#Organize%20by%20Thread`
+- Mail → Suskleisti skaitytas žinutes: `prefs:root=MAIL#Collapse%20Read%20Messages`
+- Mail → Naujausia žinutė viršuje: `prefs:root=MAIL#Most%20Recent%20Message%20on%20Top`
+- Mail → Visos gijos: `prefs:root=MAIL#Complete%20Threads`
+- Mail → Nutildyta gija: `prefs:root=MAIL&path=Muted%20Thread%20Action`
+- Mail → Nepaisyti užblokuotų siuntėjų: `prefs:root=MAIL#Ignore%20Blocked%20Senders`
+- Mail → Užblokuoti siuntėjai: `prefs:root=MAIL&path=Blocked%20Sender%20Options`
+- Mail → Užrakinta: `prefs:root=MAIL&path=Blocked`
+- Mail → Visada siųsti man nematomą kopiją: `prefs:root=MAIL#Always%20Bcc%20Myself`
+- Mail → Žymėti adresus: `prefs:root=MAIL&path=Mark%20Addresses`
+- Mail → Padidinti atitraukimo lygį: `prefs:root=MAIL&path=Increase%20Quote%20Level`
+- Mail → Priedai su atsakymais: `prefs:root=MAIL&path=Include%20Attachments%20with%20Replies`
+- Mail → Parašas: `prefs:root=MAIL&path=Signature`
+- Fonas: `prefs:root=Wallpaper`
+- Užrašai: `prefs:root=NOTES`
+- Užrašai → Numatytoji paskyra: `prefs:root=NOTES&path=Default%20Account`
+- Užrašai → Slaptažodis: `prefs:root=NOTES&path=Password`
+- Užrašai → Rikiuoti užrašus pagal: `prefs:root=NOTES&path=Sort%20Notes%20By`
+- Užrašai → Nauji užrašai, prasidedantys: `prefs:root=NOTES&path=New%20Notes%20Start%20With`
+- Užrašai → Rikiuoti patikrintus elementus: `prefs:root=NOTES&path=Sort%20Checked%20Items`
+- Užrašai → Linijos ir tinkleliai: `prefs:root=NOTES&path=Lines%20%26%20Grids`
+- Užrašai → Išsaugoti programoje „Nuotraukos“: `prefs:root=NOTES#Save%20to%20Photos`
+- Užrašai → Pasiekite užrašus užrakintame ekrane: `prefs:root=NOTES&path=Access%20Notes%20from%20Lock%20Screen`
+- Prieigos kodas: `prefs:root=PASSCODE`
+- Prieigos kodas → Išjungti prieigos kodą: `prefs:root=PASSCODE#PASSCODE_OFF`
+- Prieigos kodas → Keisti prieigos kodą: `prefs:root=PASSCODE#CHANGE_PASSCODE`
+- Prieigos kodas → Reikalauti prieigos kodo: `prefs:root=PASSCODE&path=PASSCODE_REQ`
+- Prieigos kodas → Numerio rinkimas balsu: `prefs:root=PASSCODE#VOICE_DIAL`
+- Prieigos kodas → Leisti prieigą, kai užrakinta: `prefs:root=PASSCODE#ALLOW_ACCESS_WHEN_LOCKED`
+- Prieigos kodas → Atsakyti žinute: `prefs:root=PASSCODE#REPLY_WITH_MESSAGE_SWITCH`
+- Prieigos kodas → Pradžios puslapio valdymas: `prefs:root=PASSCODE#HOME_CONTROL_SWITCH`
+- Prieigos kodas → Piniginė: `prefs:root=PASSCODE#WALLET_SWITCH`
+- Prieigos kodas → Atsakyti į praleistus skambučius: `prefs:root=PASSCODE#RETURN_MISSED_CALLS_SWITCH`
+- Prieigos kodas → Trinti duomenis: `prefs:root=PASSCODE#WIPE_DEVICE`
+- Prieigos kodas → Atrakinkite naudodami „Apple Watch“: `prefs:root=PASSCODE#AUTO_UNLOCK_DEVICES_GROUP`
+- Prieigos kodas → Pavogto įrenginio apsauga: `prefs:root=PASSCODE#DTO_GROUP_ID`
+- Kalendorius: `prefs:root=CALENDAR`
+- Kalendorius → Laiko juostos nepaisymas: `prefs:root=CALENDAR&path=TimeZoneCityArray`
+- Kalendorius → Alternatyvūs kalendoriai: `prefs:root=CALENDAR&path=Alternate%20Calendars`
+- Kalendorius → Savaitės numeriai: `prefs:root=CALENDAR#Week%20Numbers`
+- Kalendorius → Rodyti pakviestųjų atsisakymus: `prefs:root=CALENDAR#Show%20Invitee%20Declines`
+- Kalendorius → Sinchronizuoti: `prefs:root=CALENDAR&path=Sync`
+- Kalendorius → Numatytieji įspėjimo laikai: `prefs:root=CALENDAR&path=Default%20Alert%20Times`
+- Kalendorius → Savaitės pradžios diena: `prefs:root=CALENDAR&path=Start%20Week%20On`
+- Kalendorius → Vietos pasiūlymai: `prefs:root=CALENDAR#Location%20Suggestions`
+- Sveikatos duomenys: `prefs:root=HEALTH`
+- Telefonas: `prefs:root=Phone`
+- Telefonas → Mano numeris: `prefs:root=Phone&path=My%20Number`
+- Telefonas → Gaunami skambučiai: `prefs:root=Phone&path=INCOMING_CALL_STYLE`
+- Telefonas → Informuoti apie skambučius: `prefs:root=Phone&path=ANNOUNCE_CALLS`
+- Telefonas → Nepageidaujami SMS / skambučiai: `prefs:root=Phone&path=CLASSIFICATION_AND_REPORTING`
+- Telefonas → Atsakyti tekstine žinute: `prefs:root=Phone&path=Respond%20with%20Text`
+- Telefonas → Skambučių peradresavimas: `prefs:root=Phone&path=Call%20Forwarding`
+- Telefonas → Skambučių peradresavimas → Skambučių peradresavimas: `prefs:root=Phone&path=Call%20Forwarding#idMasterOnOffSwitch`
+- Telefonas → Skambučio laukimas: `prefs:root=Phone&path=Call%20Waiting`
+- Telefonas → Rodyti skambintojo identifikatorių: `prefs:root=Phone&path=Show%20My%20Caller%20ID`
+- Telefonas → Rodyti skambintojo identifikatorių → Rodyti skambintojo identifikatorių: `prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary`
+- Telefonas → Rodyti skambintojo identifikatorių → Rodyti skambintojo identifikatorių → Rodyti skambintojo identifikatorių: `prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary#Show%20My%20Caller%20ID`
+- Telefonas → Nutildyti nežinomus: `prefs:root=Phone#SILENCE_CALLS`
+- Telefonas → Užblokuoti adresatai: `prefs:root=Phone&path=SPECIFIER_IDENTIFIER_BLACKLIST`
+- Telefonas → Pagalba renkant numerį: `prefs:root=Phone&path=Dial%20Assist`
+- App Store: `prefs:root=STORE`
+- App Store → Automatiniai atsisiuntimai: `prefs:root=STORE#Automatic%20Downloads`
+- App Store → Programų naujiniai: `prefs:root=STORE#App%20Updates`
+- App Store → Atsisiuntimai: `prefs:root=STORE&path=App%20Downloads`
+- App Store → Automatiniai vaizdo įrašai: `prefs:root=STORE&path=Video%20Autoplay`
+- App Store → Įvertinimai ir atsiliepimai: `prefs:root=STORE#In-App%20Ratings%20&%20Reviews`
+- Privatumas ir sauga: `prefs:root=Privacy` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity`
+- Privatumas ir sauga → Sveikata: `prefs:root=Privacy&path=HEALTH` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/HEALTH`
+- Privatumas ir sauga → Sveikatos duomenys: `prefs:root=Privacy&path=HEALTH_DATA` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/HEALTH_DATA`
+- Privatumas ir sauga → Vieta: `prefs:root=Privacy&path=LOCATION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/LOCATION`
+- Privatumas ir sauga → Vieta → Bendrinti mano vietą: `prefs:root=Privacy&path=LOCATION/LOCATION_SHARING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/LOCATION/LOCATION_SHARING`
+- Privatumas ir sauga → Adresatai: `prefs:root=Privacy&path=CONTACTS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CONTACTS`
+- Privatumas ir sauga → Kalendoriai: `prefs:root=Privacy&path=CALENDARS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CALENDARS`
+- Privatumas ir sauga → Priminimai: `prefs:root=Privacy&path=REMINDERS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/REMINDERS`
+- Privatumas ir sauga → Nuotraukos: `prefs:root=Privacy&path=PHOTOS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PHOTOS`
+- Privatumas ir sauga → „Bluetooth“ bendrinimas: `prefs:root=Privacy&path=BT_PERIPHERAL` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/BT_PERIPHERAL`
+- Privatumas ir sauga → Mikrofonas: `prefs:root=Privacy&path=MICROPHONE` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/MICROPHONE`
+- Privatumas ir sauga → Šnekos atpažinimas: `prefs:root=Privacy&path=SPEECH_RECOGNITION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/SPEECH_RECOGNITION`
+- Privatumas ir sauga → Kamera: `prefs:root=Privacy&path=CAMERA` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CAMERA`
+- Privatumas ir sauga → HomeKit: `prefs:root=Privacy&path=WILLOW` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/WILLOW`
+- Privatumas ir sauga → Medija ir „Apple Music“: `prefs:root=Privacy&path=MEDIALIBRARY` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/MEDIALIBRARY`
+- Privatumas ir sauga → Analizė: `prefs:root=Privacy&path=PROBLEM_REPORTING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PROBLEM_REPORTING`
+- Privatumas ir sauga → Reklama: `prefs:root=Privacy&path=ADVERTISING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/ADVERTISING`
+- Privatumas ir sauga → Failai ir aplankai: `prefs:root=Privacy&path=FILEACCESS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/FILEACCESS`
+- Privatumas ir sauga → Sekama: `prefs:root=Privacy&path=USER_TRACKING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/USER_TRACKING`
+- Privatumas ir sauga → Programų privatumo ataskaita: `prefs:root=Privacy&path=PRIVACY_REPORT` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PRIVACY_REPORT`
+- Privatumas ir sauga → Blokavimo režimas: `prefs:root=Privacy#LOCKDOWN_MODE` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity#LOCKDOWN_MODE#LOCKDOWN_MODE`
+- Privatumas ir sauga → Neskelbtinas turinys: `prefs:root=Privacy#NUDITY_DETECTION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity#NUDITY_DETECTION#NUDITY_DETECTION`
+- Matuoklis: `prefs:root=MEASURE`
+- Matuoklis → Matavimo vienetai: `prefs:root=MEASURE#MEASURE_UNITS`
+- Matuoklis → Imperinė sistema: `prefs:root=MEASURE#Imperial`
+- Matuoklis → Metrinė sistema: `prefs:root=MEASURE#Metric`
+- Vaizdo įrašai: `prefs:root=TVAPP`
+- Vaizdo įrašai → Atkūrimui naudoti mobiliojo ryšio duomenis: `prefs:root=TVAPP#com.apple.videos%3AVideosUseCellularDataEnabledSetting`
+- Vaizdo įrašai → Atkūrimo kokybė: `prefs:root=TVAPP#com.apple.videos%3APlaybackQualityGroup`
+- Vaizdo įrašai → Pirkiniai ir nuoma: `prefs:root=TVAPP&path=com.apple.videos%3APreferredPurchaseResolution`
+- Vaizdo įrašai → Namų bendrinimas: `prefs:root=TVAPP#com.apple.videos%3AHomeSharingFooter`
+- Game Center: `prefs:root=GAMECENTER`
+- Balso pastabos: `prefs:root=VOICE_MEMOS`
+- Balso pastabos → Išvalyti ištrintus: `prefs:root=VOICE_MEMOS&path=RCVoiceMemosRecentlyDeletedWindowKey`
+- Balso pastabos → Garso kokybė: `prefs:root=VOICE_MEMOS&path=RCVoiceMemosAudioQualityKey`
+- Balso pastabos → Su buvimo vieta susijęs pavadinimas: `prefs:root=VOICE_MEMOS#RCVoiceMemosUseLocationBasedNaming`
+- Sparčiosios komandos: `prefs:root=SHORTCUTS`
+- Sparčiosios komandos → „iCloud“ sinchronizavimas: `prefs:root=SHORTCUTS#WFCloudKitSyncEnabled`
+- Sparčiosios komandos → Sinchronizuoti sparčiųjų komandų tvarką: `prefs:root=SHORTCUTS#WFCloudKitSyncOrderEnabled`
+- Sparčiosios komandos → Teisiniai pranešimai: `prefs:root=SHORTCUTS&path=Legal%20Notices`
+- Priminimai: `prefs:root=REMINDERS`
+- Priminimai → Numatytasis sąrašas: `prefs:root=REMINDERS&path=DEFAULT_LIST`
+- Priminimai → Numatytasis sąrašas → Priminimai: `prefs:root=REMINDERS&path=DEFAULT_LIST#preferredDefaultListID`
+- Priminimai → Šiandienos pranešimas: `prefs:root=REMINDERS#todayNotificationFireTime`
+- Priminimai → Rodyti kaip vėluojamą: `prefs:root=REMINDERS#showRemindersAsOverdue`
+- Muzika: `prefs:root=MUSIC`
+- Muzika → Rodyti „Apple Music“: `prefs:root=MUSIC#com.apple.Music%3AAppleMusicEnabled`
+- Muzika → Įtraukti grojaraščio dainų: `prefs:root=MUSIC#com.apple.Music%3AAddPlaylistSongsToMyMusicSwitch`
+- Muzika → Rodyti įvertinimus žvaigždėmis: `prefs:root=MUSIC#com.apple.Music%3AShowStarRatings`
+- Muzika → Sinchronizuoti biblioteką: `prefs:root=MUSIC#com.apple.Music%3ACloudMusicLibraryEnabled`
+- Muzika → Mobiliojo ryšio duomenys: `prefs:root=MUSIC&path=com.apple.Music%3ACellularData`
+- Muzika → Atsisiųsta muzika: `prefs:root=MUSIC&path=com.apple.Music%3AMusicUsageLink`
+- Muzika → Optimizuoti saugyklą: `prefs:root=MUSIC&path=com.apple.Music%3AOptimizeStorage`
+- Muzika → Automatiniai atsisiuntimai: `prefs:root=MUSIC#com.apple.Music%3AMusicAutomaticDownload`
+- Muzika → EKV: `prefs:root=MUSIC&path=com.apple.Music%3AEQ`
+- Muzika → Garso patikra: `prefs:root=MUSIC#com.apple.Music%3ASoundCheck`
+- Muzika → Naudoti klausymosi istoriją: `prefs:root=MUSIC#com.apple.Music%3APrivateListening`
+- Siri: `prefs:root=SIRI`
+- Siri → Leisti „Siri“ užrakinus ekraną: `prefs:root=SIRI#ASSISTANT_LOCK_SCREEN_ACCESS`
+- Siri → Kalba: `prefs:root=SIRI&path=LANGUAGE_ID`
+- Siri → „Siri“ balsas: `prefs:root=SIRI&path=VOICE_ID`
+- Siri → Garsinis atsakas: `prefs:root=SIRI&path=VOICE_FEEDBACK_ID`
+- Siri → Mano informacija: `prefs:root=SIRI&path=MY_INFO`
+- Garsai: `prefs:root=Sounds`
+- Garsai → Ausinių sauga: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING`
+- Garsai → Ausinių sauga → „Lightning“ adapteriai: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING/HEADPHONE_LIGHTNING_ADAPTERS`
+- Garsai → Ausinių sauga → Ausinių pranešimai: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneWeeklyNotificationsKey`
+- Garsai → Ausinių sauga → Pritildyti garsų garso įrašą: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneLevelLimitSwitchKey`
+- Garsai → Garso efektai: `prefs:root=Sounds&path=SOUND_EFFECTS`
+- Garsai → Skambutis ir įspėjimai: `prefs:root=Sounds#RINGER_AND_ALERT_GROUP`
+- Garsai → Keisti mygtukais: `prefs:root=Sounds#CHANGE_WITH_BUTTONS`
+- Garsai → Garsai ir vibravimo modeliai: `prefs:root=Sounds#SOUNDS_ALERT_GROUP`
+- Garsai → Skambučio melodija: `prefs:root=Sounds&path=Ringtone`
+- Garsai → Žinutės garsas: `prefs:root=Sounds&path=Text_Messages`
+- Garsai → Naujas balso paštas: `prefs:root=Sounds&path=Voicemail`
+- Garsai → Naujas paštas: `prefs:root=Sounds&path=NEW_MAIL`
+- Garsai → Išsiųstas paštas: `prefs:root=Sounds&path=SENT_MAIL`
+- Garsai → Kalendoriaus įspėjimai: `prefs:root=Sounds&path=Calendar%20Alarm`
+- Garsai → Priminimų įspėjimai: `prefs:root=Sounds&path=Reminder%20Alerts`
+- Garsai → Klaviatūros spustelėjimai: `prefs:root=Sounds#KEYBOARD_SOUND_SWITCH`
+- Garsai → Užrakinimo garsas: `prefs:root=Sounds#LOCK_SOUND_SWITCH`
+- Garsai → Suasmenintas erdvinis garsas: `prefs:root=Sounds&path=Personalized%20Spatial%20Audio`
+- Apple Pencil: `prefs:root=Pencil`
+- Apple Pencil → Apple Pencil: `prefs:root=Pencil#PrefersPencilDraws`
+- Apple Pencil → Apple Pencil: `prefs:root=Pencil#PencilTextInput`
+- SOS signalas: `prefs:root=EMERGENCY_SOS`
+- SOS signalas → Skambinti naudojant šoninį mygtuką: `prefs:root=EMERGENCY_SOS#CALL_WITH_SIDE_BUTTON`
+- SOS signalas → Automatinis skambinimas: `prefs:root=EMERGENCY_SOS#AUTO_CALL`
+- SOS signalas → Adresatai nelaimės atveju: `prefs:root=EMERGENCY_SOS#EMERGENCY_CONTACTS`
+- SOS signalas → Atvirkštinio laikmačio garsas: `prefs:root=EMERGENCY_SOS#ALARM_SOUND_SWITCH`
+- Wi-Fi: `prefs:root=WIFI`
+- Adresatai: `prefs:root=CONTACTS`
+- Adresatai → Leisti prieigą prie adresatų: `prefs:root=CONTACTS#Allow%20Contacts%20To%20Access`
+- Adresatai → Siri: `prefs:root=CONTACTS&path=SIRI_AND_SEARCH`
+- Adresatai → Rikiavimo tvarka: `prefs:root=CONTACTS&path=ContactsSortOrder`
+- Adresatai → Rodymo tvarka: `prefs:root=CONTACTS&path=PersonNameOrder`
+- Adresatai → Trumpasis vardas: `prefs:root=CONTACTS&path=PersonShortName`
+- Adresatai → Trumpasis vardas → Trumpasis vardas: `prefs:root=CONTACTS&path=PersonShortName#Short%20Name`
+- Adresatai → Trumpasis vardas → Pirmenybę teikti slapyvardžiams: `prefs:root=CONTACTS&path=PersonShortName#Prefer%20Nicknames`
+- Adresatai → Mano informacija: `prefs:root=CONTACTS&path=MeCard`
+- Adresatai → Importuoti SIM adresatus: `prefs:root=CONTACTS#SIMImport`
+- Valdymo centras: `prefs:root=ControlCenter`
+- Valdymo centras → Prieiga programose: `prefs:root=ControlCenter#ALLOWED_WITHIN_APPS`
+- Valdymo centras → Pritaikyti valdiklius: `prefs:root=ControlCenter&path=CUSTOMIZE_CONTROLS`
+- Kūrėjas: `prefs:root=DEVELOPER_SETTINGS`
+- Kūrėjas → Daugiakanalis tinklas: `prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG`
+- Kūrėjas → Daugiakanalis tinklas → Daugiakanalis tinklas: `prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG#Multipath%20Networking`
+- Kūrėjas → Išvaizda: `prefs:root=DEVELOPER_SETTINGS#UIAppearanceGroup`
+- Kūrėjas → Tamsi išvaizda: `prefs:root=DEVELOPER_SETTINGS#UIAppearanceSettings`
+- Kūrėjas → Susieti įrenginiai: `prefs:root=DEVELOPER_SETTINGS#DTPairedDevicesGroup`
+- Kūrėjas → Valyti patikimus kompiuterius: `prefs:root=DEVELOPER_SETTINGS#CLEAR_TRUSTED_COMPUTERS`
+- Kūrėjas → Registravimas: `prefs:root=DEVELOPER_SETTINGS&path=DTInstrumentsSettings`
+- Kūrėjas → Įjungti naudotojo sąsajos automatizavimą: `prefs:root=DEVELOPER_SETTINGS#UIAGroup`
+- Kūrėjas → Darbas tinkle: `prefs:root=DEVELOPER_SETTINGS#NLCGroup`
+- Kūrėjas → Tinklo jungties kondicionierius: `prefs:root=DEVELOPER_SETTINGS&path=NLC`
+- Kūrėjas → Papildomas registravimas: `prefs:root=DEVELOPER_SETTINGS#ADDITIONAL_LOGGING`
+- Kūrėjas → Leisti HTTP paslaugas: `prefs:root=DEVELOPER_SETTINGS#ALLOW_HTTP_SERVICES`
+- Kūrėjas → Išjungti spartos ribojimą: `prefs:root=DEVELOPER_SETTINGS#DISABLE_RATE_LIMITING`
+- Kūrėjas → NFC prieigos raktas (nebūtinas): `prefs:root=DEVELOPER_SETTINGS#NFC_PASS_KEY_OPTIONAL`
+- Kūrėjas → Medijos paslaugų testavimas: `prefs:root=DEVELOPER_SETTINGS#MEDIA_SERVICES_TESTING`
+- Kūrėjas → Nustatyti medijos paslaugas iš naujo: `prefs:root=DEVELOPER_SETTINGS#RESET_MEDIA_SERVICES`
+- Kūrėjas → Naujienų testavimas: `prefs:root=DEVELOPER_SETTINGS#NEWS_TESTING`
+- Kūrėjas → Nustatyti vietos duomenis iš naujo kitą kartą paleidžiant: `prefs:root=DEVELOPER_SETTINGS#RESET_LOCAL_DATA_ON_NEXT_LAUNCH`
+- Kūrėjas → Medijos leistuvo sistemos testavimas: `prefs:root=DEVELOPER_SETTINGS#RoutineSettingsGroup`
+- Kūrėjas → Leidžiamo turinio API: `prefs:root=DEVELOPER_SETTINGS&path=RoutineSettings`
+- Kūrėjas → Televizijos paslaugų teikėjas: `prefs:root=DEVELOPER_SETTINGS&path=VideoSubscriberAccountSettings`
+- Kūrėjas → ClassKit API: `prefs:root=DEVELOPER_SETTINGS&path=ClassKitSettings`
+- Kūrėjas → „CoreSpotlight“ testavimas: `prefs:root=DEVELOPER_SETTINGS#CORESPOTLIGHT_TESTING`
+- Kūrėjas → Indeksuoti visus elementus iš naujo: `prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS`
+- Kūrėjas → Indeksuoti visus elementus su identifikatoriais iš naujo: `prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS_WITH_IDENTIFIERS`
+- Kūrėjas → Nuorodų testavimas: `prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_TESTING`
+- Kūrėjas → Rodyti naujausias nuorodas: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_SPOTLIGHT`
+- Kūrėjas → Rodyti būsimą mediją: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_UPCOMING_MEDIA`
+- Kūrėjas → Rodyti aukas užrakintame ekrane: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_LOCKSCREEN`
+- Kūrėjas → Priverstinai sinchronizuoti nuorodas į „Watch“: `prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_SYNC_WATCHOS`
+- Kūrėjas → MIDI-CI testavimas: `prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA`
+- Kūrėjas → Įjungti MIDI-CI: `prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA_ENABLE`
+- Kūrėjas → Užstrigimo aptikimas: `prefs:root=DEVELOPER_SETTINGS#HANGTRACER_EXTERNAL_CONFIGURE`
+- Bluetooth: `prefs:root=Bluetooth`
+- Akcijos: `prefs:root=STOCKS`
+- Akcijos → Privatumas: `prefs:root=STOCKS#Privacy`
+- Akcijos → Nustatyti identifikatorių iš naujo: `prefs:root=STOCKS#reset_identifier`
+- Vertimas: `prefs:root=TRANSLATE`
+- Vertimas → Įrenginio režimas: `prefs:root=TRANSLATE#OnDeviceOnly`
+- News: `prefs:root=NEWS`
+- News → Rodyti istorijų peržiūras: `prefs:root=NEWS#show_excerpt_mode`
+- News → Riboti istorijas šiandien: `prefs:root=NEWS#showStoriesFromFavoritesSpecifierID`
+- News → Privatumas: `prefs:root=NEWS#Privacy`
+- News → Nustatyti identifikatorių iš naujo: `prefs:root=NEWS#reset_identifier`
+- News → Patvirtinimai: `prefs:root=NEWS&path=Acknowledgements`
+- Žinutės: `prefs:root=MESSAGES`
+- FaceTime: `prefs:root=FACETIME`
+- Nuotraukos: `prefs:root=Photos`
+- Nuotraukos → „iCloud“ nuotraukos: `prefs:root=Photos#iCloudPhotosSwitch`
+- Nuotraukos → Optimizuoti saugyklą: `prefs:root=Photos#iCloudOptimizeStorageOption`
+- Nuotraukos → Atsisiųsti ir palikti originalus: `prefs:root=Photos#iCloudKeepOriginalsOption`
+- Nuotraukos → Bendrinami albumai: `prefs:root=Photos#SharedStreamsSwitch`
+- Nuotraukos → Mobiliojo ryšio duomenys: `prefs:root=Photos&path=CellularDataLinkList`
+- Nuotraukos → Automatiniai vaizdo įrašai: `prefs:root=Photos#VideoAutoplaySwitch`
+- Nuotraukos → Peržiūrėti „Full HDR“: `prefs:root=Photos#ImageModulationSwitch`
+- Nuotraukos → Rodyti šventes: `prefs:root=Photos#MEMORIES_HOLIDAY_CALENDAR_EVENTS_SWITCH`
+- Nuotraukos → Perkelti į „Mac“ ar kitą kompiuterį: `prefs:root=Photos#TransferGroup`
+- Pranešimai apie kontaktą: `prefs:root=EXPOSURE_NOTIFICATION`
+- Kamera: `prefs:root=CAMERA`
+- Kamera → Formatai: `prefs:root=CAMERA&path=CameraFormatsSettingsList`
+- Kamera → Formatai → Apple ProRaw: `prefs:root=CAMERA&path=CameraFormatsSettingsList#CAMUserPreferenceEnableLinearDNGControl`
+- Kamera → Record Video: `prefs:root=CAMERA&path=Record%20Video`
+- Kamera → Record Video → HDR vaizdo įrašas: `prefs:root=CAMERA&path=Record%20Video#HDR%20Video`
+- Kamera → Išsaugotieji nustatymai: `prefs:root=CAMERA&path=CameraPreserveSettingsSwitch`
+- Kamera → Išsaugotieji nustatymai → Kameros režimas: `prefs:root=CAMERA&path=CameraPreserveSettingsSwitch#CAMUserPreferencePreserveCaptureMode`
+- Kamera → Tinklelis: `prefs:root=CAMERA#CameraGridSwitch`
+- Kamera → Nuskaityti QR kodus: `prefs:root=CAMERA#CameraQRBannerSwitch`
+- Mobilusis ryšys: `prefs:root=MOBILE_DATA_SETTINGS_ID`
+- Mobilusis ryšys → Mobiliojo ryšio duomenų parinktys: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS`
+- Mobilusis ryšys → Mobiliojo ryšio duomenų parinktys → Duomenų taupymo režimas: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS#Low%20Data%20Mode`
+- Mobilusis ryšys → Mobiliojo ryšio duomenys: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=SHOW_ALL`
+- Tinklalaidės: `prefs:root=PODCASTS`
+- Kompasas: `prefs:root=COMPASS`
+- Kompasas → Naudoti tikrąją šiaurę: `prefs:root=COMPASS#USE_TRUE_NORTH`
+- Knygos: `prefs:root=IBOOKS`
+- Knygos → Turinys prisijungus: `prefs:root=IBOOKS#BKAllowOnlineContent`
+- Knygos → SINCHRONIZAVIMAS: `prefs:root=IBOOKS#SYNCING`
+- Knygos → Skaitoma dabar: `prefs:root=IBOOKS#BKLibrary.ReadingNow`
+- Knygos → iCloud Drive: `prefs:root=IBOOKS#BCSyncICloudDrive`
+- Knygos → SKAITOMA: `prefs:root=IBOOKS#READING`
+- Knygos → Visiškas lygiavimas: `prefs:root=IBOOKS#BKFullJustification`
+- Knygos → Automatinis žodžių kėlimas: `prefs:root=IBOOKS#BKAutoHyphenation`
+- Knygos → Abiejų paraščių perėjimas: `prefs:root=IBOOKS#BKLeftTapTurnToNext`
+- Knygos → Skaitymo tikslai: `prefs:root=IBOOKS#READING_GOALS`
+- Knygos → Valyti skaitymo tikslų duomenis: `prefs:root=IBOOKS#BKReadingGoalsShouldClearDataKey`
+- Knygos → IEŠKOMA: `prefs:root=IBOOKS#SEARCHING`
+- Knygos → Book Store: `prefs:root=IBOOKS#BKIncludeBookStoreResultsInSearch`
+- Knygos → AUDIOKNYGOS: `prefs:root=IBOOKS#AUDIOBOOKS`
+- Knygos → Sukti pirmyn: `prefs:root=IBOOKS&path=BKAudioBookSkipForward`
+- Knygos → Sukti atgal: `prefs:root=IBOOKS&path=BKAudioBookSkipBackward`
+- Knygos → IŠORINIAI VALDIKLIAI: `prefs:root=IBOOKS#BKRemoteSkipInsteadOfNextTrackDefaultKey`
+- Knygos → Kitas / ankstesnis: `prefs:root=IBOOKS#Next/Previous`
+- Knygos → Sukti pirmyn / atgal: `prefs:root=IBOOKS#Skip%20Forward/Back`
+- Knygos → PRIVATUMAS: `prefs:root=IBOOKS#PRIVACY`
+- Knygos → Nustatyti identifikatorių iš naujo: `prefs:root=IBOOKS#BAResetAnalyticsUserID`
+- Knygos → Patvirtinimai: `prefs:root=IBOOKS&path=Acknowledgements`
+- Skrydžio režimas: `prefs:root=ROOT#AIRPLANE_MODE`

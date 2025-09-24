@@ -1,0 +1,29 @@
+- Apple ଆକାଉଣ୍ଟ୍: `settings-navigation://com.apple.Settings.AppleAccount`
+- Apple ଆକାଉଣ୍ଟ୍ → iCloud: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE`
+- Apple ଆକାଉଣ୍ଟ୍ → iCloud → କ‍୍ୟାଲେଣ୍ଡର୍‌: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Calendars`
+- Apple ଆକାଉଣ୍ଟ୍ → iCloud → କ‍୍ୟାଲେଣ୍ଡର୍‌ → ପଠାନ୍ତୁ ଏବଂ ପ୍ରାପ୍ତ କରନ୍ତୁ: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Calendars/CALENDAR_SEND_RECEIVE`
+- Apple ଆକାଉଣ୍ଟ୍ → iCloud → କ‍୍ୟାଲେଣ୍ଡର୍‌ → ଇମେଲ୍ ଅପ୍‌ଡେଟ୍ ପାଆନ୍ତୁ: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Calendars/CALENDAR_SHARED_CALENDAR_UPDATE`
+- Apple ଆକାଉଣ୍ଟ୍ → iCloud → Mail: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail`
+- Apple ଆକାଉଣ୍ଟ୍ → iCloud → Mail → ଡିଫଲ୍ଟ୍‌ ଇମେଲ୍‌: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/DEFAULT_EMAIL`
+- Apple ଆକାଉଣ୍ଟ୍ → iCloud → Mail → ଠିକଣାଗୁଡ଼ିକ: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/ALIASES`
+- Apple ଆକାଉଣ୍ଟ୍ → iCloud → Mail → ଅଟୋ-ରିପ୍ଲାଇ: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/AUTO_REPLY`
+- Apple ଆକାଉଣ୍ଟ୍ → iCloud → Mail → iCloud ମେଲ୍‌ ନିୟମ: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/SERVER_SIDE_RULES`
+- Apple ଆକାଉଣ୍ଟ୍ → iCloud → Mail → ମେଲ୍‌ ଫର୍‌ୱର୍ଡିଂ: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/MAIL_FORWARDING`
+- Apple ଆକାଉଣ୍ଟ୍ → iCloud → Mail → ମେଲ୍‌ବକ୍ସ୍‌ ଆଚରଣ: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/MAILBOX_BEHAVIORS`
+- Apple ଆକାଉଣ୍ଟ୍ → iCloud → Mail → ସାଇନ୍ କରିବା ଏବଂ ଏନ୍‌କ୍ରିପ୍ସନ୍‌: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/S_MIME`
+- Apple ଆକାଉଣ୍ଟ୍ → iCloud → Mail → ମେସେଜ୍‌ ଇମ୍ପୋର୍ଟ୍‌ କରନ୍ତୁ: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/MAIL_IMPORT`
+- Apps: `settings-navigation://com.apple.Settings.Apps`
+- Apps → Fitness: `settings-navigation://com.apple.Settings.Apps/com.apple.Fitness`
+- Apps → Safari: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/`
+- Apps → Safari → ଏକ୍ସ୍‌ଟେନ୍‌ଶନ୍: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/WEB_EXTENSIONS`
+- Apps → Safari → ପପ୍-ଅପ୍‌ ବ୍ଲକ୍ କରନ୍ତୁ: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari#BLOCK_POPUPS`
+- Apps → Safari → କ୍ରସ୍-ସାଇଟ୍ ଟ୍ରାକିଂ ପ୍ରତିରୋଧ କରନ୍ତୁ: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari#TRACKER_PROTECTION`
+- Apps → Safari → ଅଟୋଫିଲ୍: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/AUTO_FILL`
+- Apps → Safari → ଡାଉନ୍‌ଲୋଡ୍‌ଗୁଡ଼ିକ: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/DOWNLOADS`
+- Apps → ପାସ୍‌ୱର୍ଡ୍‌: `settings-navigation://com.apple.Settings.Apps/com.apple.Passwords`
+- Apps → ପାସ୍‌ୱର୍ଡ୍‌ → ସୁରକ୍ଷା ସୁପାରିଶଗୁଡ଼ିକ: `settings-navigation://com.apple.Settings.Apps/com.apple.Passwords#SECURITY_RECOMMENDATIONS`
+- ଗୋପନୀୟତା ଓ ସୁରକ୍ଷା: `settings-navigation://com.apple.Settings.PrivacyAndSecurity`
+- ଗୋପନୀୟତା ଓ ସୁରକ୍ଷା → ନିରାପତ୍ତା ଯାଞ୍ଚ: `settings-navigation://com.apple.Settings.PrivacyAndSecurity/SAFETY_CHECK`
+- ଘର: `settings-navigation://com.apple.Settings.HomeKit`
+- Search: `settings-navigation://com.apple.Settings.Search`
+- TV ପ୍ରୋଭାଇଡର୍‌: `settings-navigation://com.apple.Settings.TVProvider`

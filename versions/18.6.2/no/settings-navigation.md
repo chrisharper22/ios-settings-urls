@@ -1,0 +1,29 @@
+- Apple-konto: `settings-navigation://com.apple.Settings.AppleAccount`
+- Apple-konto → iCloud: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE`
+- Apple-konto → iCloud → Kalender: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Calendars`
+- Apple-konto → iCloud → Kalender → Send og motta: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Calendars/CALENDAR_SEND_RECEIVE`
+- Apple-konto → iCloud → Kalender → Motta e‑postoppdateringer: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Calendars/CALENDAR_SHARED_CALENDAR_UPDATE`
+- Apple-konto → iCloud → Mail: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail`
+- Apple-konto → iCloud → Mail → Standard e‑postadresse: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/DEFAULT_EMAIL`
+- Apple-konto → iCloud → Mail → Adresser: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/ALIASES`
+- Apple-konto → iCloud → Mail → Autosvar: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/AUTO_REPLY`
+- Apple-konto → iCloud → Mail → Regler for iCloud Mail: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/SERVER_SIDE_RULES`
+- Apple-konto → iCloud → Mail → Videresending av e‑post: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/MAIL_FORWARDING`
+- Apple-konto → iCloud → Mail → Postkasseoppførsel: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/MAILBOX_BEHAVIORS`
+- Apple-konto → iCloud → Mail → Signering og kryptering: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/S_MIME`
+- Apple-konto → iCloud → Mail → Importer meldinger: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/MAIL_IMPORT`
+- Apps: `settings-navigation://com.apple.Settings.Apps`
+- Apps → Fitness: `settings-navigation://com.apple.Settings.Apps/com.apple.Fitness`
+- Apps → Safari: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/`
+- Apps → Safari → Utvidelser: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/WEB_EXTENSIONS`
+- Apps → Safari → Blokker popupvinduer: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari#BLOCK_POPUPS`
+- Apps → Safari → Ikke spor mellom nettsteder: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari#TRACKER_PROTECTION`
+- Apps → Safari → Autoutfyll: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/AUTO_FILL`
+- Apps → Safari → Nedlastinger: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/DOWNLOADS`
+- Apps → Passord: `settings-navigation://com.apple.Settings.Apps/com.apple.Passwords`
+- Apps → Passord → Sikkerhetsanbefalinger: `settings-navigation://com.apple.Settings.Apps/com.apple.Passwords#SECURITY_RECOMMENDATIONS`
+- Personvern og sikkerhet: `settings-navigation://com.apple.Settings.PrivacyAndSecurity`
+- Personvern og sikkerhet → Trygghetssjekk: `settings-navigation://com.apple.Settings.PrivacyAndSecurity/SAFETY_CHECK`
+- Hjem: `settings-navigation://com.apple.Settings.HomeKit`
+- Search: `settings-navigation://com.apple.Settings.Search`
+- TV-distributør: `settings-navigation://com.apple.Settings.TVProvider`

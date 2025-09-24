@@ -1,0 +1,1186 @@
+- బ్యాటరీ: `prefs:root=BATTERY_USAGE`
+- బ్యాటరీ → తక్కువ పవర్ మోడ్: `prefs:root=BATTERY_USAGE#BATTERY_SAVER_MODE`
+- బ్యాటరీ → బ్యాటరీ సామర్థ్యం: `prefs:root=BATTERY_USAGE#BATTERY_HEALTH_ID`
+- యాక్షన్ బటన్: `prefs:root=ACTION_BUTTON`
+- నోటిఫికేషన్స్: `prefs:root=NOTIFICATIONS_ID`
+- నోటిఫికేషన్స్ → షెడ్యూల్ చేసిన సారాంశం: `prefs:root=NOTIFICATIONS_ID&path=SCHEDULED_DELIVERY_ID`
+- సాధారణం: `prefs:root=General`
+- సాధారణం → VPN & డివైజ్ మేనేజ్‌మెంట్: `prefs:root=General&path=ManagedConfigurationList`
+- సాధారణం → AppleCare & వారంటీ: `prefs:root=General&path=COVERAGE/`
+- సాధారణం → ఆటోఫిల్ & పాస్‌వర్డ్‌లు: `prefs:root=General&path=AUTOFILL`
+- సాధారణం → ఆటోఫిల్ & పాస్‌వర్డ్‌లు → పాస్‌వర్డ్‌ల ఆటోఫిల్: `prefs:root=General&path=AUTOFILL#AUTOFILL`
+- సాధారణం → ఆటోఫిల్ & పాస్‌వర్డ్‌లు → ధృవీకరణ కోడ్‌లను క్లీనప్ చేయండి: `prefs:root=General&path=AUTOFILL#CLEAN_UP_VERIFICATION_CODES`
+- సాధారణం → ఆటోఫిల్ & పాస్‌వర్డ్‌లు → ధృవీకరణ కోడ్‌లను సెటప్ చేయండి: `prefs:root=General&path=AUTOFILL#SET_UP_VERIFICATION_CODES`
+- సాధారణం → స్టోరేజ్: `prefs:root=General&path=STORAGE_MGMT`
+- సాధారణం → స్టోరేజ్ → స్టోరేజ్: `prefs:root=General&path=STORAGE_MGMT#MANAGE`
+- సాధారణం → స్టోరేజ్ → ఉపయోగించని యాప్‌లను ఆఫ్‌‌లోడ్ చేయండి: `prefs:root=General&path=STORAGE_MGMT#OFFLOAD`
+- సాధారణం → సాఫ్ట్‌వేర్ అప్‌డేట్: `prefs:root=General&path=SOFTWARE_UPDATE_LINK`
+- సాధారణం → సాఫ్ట్‌వేర్ అప్‌డేట్ → ఆటోమేటిక్ అప్‌డేట్‌లు: `prefs:root=General&path=SOFTWARE_UPDATE_LINK/SUAutomaticUpdateButton`
+- సాధారణం → కీబోర్డ్: `prefs:root=General&path=Keyboard`
+- సాధారణం → కీబోర్డ్ → కీబోర్డ్‌లు: `prefs:root=General&path=Keyboard/KEYBOARDS`
+- సాధారణం → కీబోర్డ్ → టెక్స్ట్ రిప్లేస్‌మెంట్: `prefs:root=General&path=Keyboard/USER_DICTIONARY`
+- సాధారణం → కీబోర్డ్ → ఆటో క్యాపిటలైజేషన్: `prefs:root=General&path=Keyboard#KeyboardAutocapitalization`
+- సాధారణం → కీబోర్డ్ → ఆటో కరెక్షన్: `prefs:root=General&path=Keyboard#KeyboardAutocorrection`
+- సాధారణం → కీబోర్డ్ → స్పెల్లింగ్‌ను చెక్ చేయండి: `prefs:root=General&path=Keyboard#KeyboardCheckSpelling`
+- సాధారణం → కీబోర్డ్ → క్యాప్స్ లాక్ ఎనేబల్ చేయండి: `prefs:root=General&path=Keyboard#KeyboardCapsLock`
+- సాధారణం → కీబోర్డ్ → షార్ట్‌కట్స్: `prefs:root=General&path=Keyboard#KeyboardAssistant`
+- సాధారణం → కీబోర్డ్ → అంచనా: `prefs:root=General&path=Keyboard#KeyboardPrediction`
+- సాధారణం → కీబోర్డ్ → స్మార్ట్ విరామచిహ్నం: `prefs:root=General&path=Keyboard#SmartTyping`
+- సాధారణం → కీబోర్డ్ → స్ప్లిట్ కీబోర్డ్: `prefs:root=General&path=Keyboard#RivenKeyboard`
+- సాధారణం → కీబోర్డ్ → కీ ఫ్లిక్స్‌ను ఎనేబల్ చేయండి: `prefs:root=General&path=Keyboard#GesturesEnabled`
+- సాధారణం → కీబోర్డ్ → క్యారెక్టర్ ప్రివ్యూ: `prefs:root=General&path=Keyboard#KeyboardAllowPaddle`
+- సాధారణం → కీబోర్డ్ → “.” షార్ట్‌కట్: `prefs:root=General&path=Keyboard#KeyboardPeriodShortcut`
+- సాధారణం → కీబోర్డ్ → టైప్ చేయడానికి స్లయిడ్ చేయండి: `prefs:root=General&path=Keyboard#KeyboardContinuousPathEnabled`
+- సాధారణం → కీబోర్డ్ → డిక్టేషన్‌ను ఎనేబల్ చేయండి: `prefs:root=General&path=Keyboard#Dictation`
+- సాధారణం → కీబోర్డ్ → ఆటో పంక్చుయేషన్: `prefs:root=General&path=Keyboard#AutoPunctuationSetting`
+- సాధారణం → భాష, ప్రాంతం: `prefs:root=General&path=INTERNATIONAL`
+- సాధారణం → భాష, ప్రాంతం → ఇతర భాషలు…: `prefs:root=General&path=INTERNATIONAL#NEW_PREFERRED_LANGUAGE`
+- సాధారణం → భాష, ప్రాంతం → ప్రాధాన్య భాషా క్రమం: `prefs:root=General&path=INTERNATIONAL#PREFERRED_LANGUAGE_GROUP`
+- సాధారణం → భాష, ప్రాంతం → భాషను జోడించండి…: `prefs:root=General&path=INTERNATIONAL#ADD_PREFERRED_LANGUAGE`
+- సాధారణం → భాష, ప్రాంతం → ప్రాంతం: `prefs:root=General&path=INTERNATIONAL/LOCALE`
+- సాధారణం → భాష, ప్రాంతం → నంబర్‌లు: `prefs:root=General&path=INTERNATIONAL/NUMBERING_SYSTEM`
+- సాధారణం → భాష, ప్రాంతం → క్యాలెండర్: `prefs:root=General&path=INTERNATIONAL/CALENDAR`
+- సాధారణం → భాష, ప్రాంతం → ఉష్ణోగ్రత కొలమానం: `prefs:root=General&path=INTERNATIONAL/TEMPERATURE_UNIT`
+- సాధారణం → నిఘంటువు: `prefs:root=General&path=DICTIONARY`
+- సాధారణం → పిక్చర్ ఇన్ పిక్చర్: `prefs:root=General&path=PiP_SPEC`
+- సాధారణం → ట్ర్యాక్‌ప్యాడ్: `prefs:root=General&path=POINTERS`
+- సాధారణం → NFC: `prefs:root=General&path=NFC_LINK`
+- సాధారణం → VPN: `prefs:root=General&path=VPN`
+- సాధారణం → CarPlay: `prefs:root=General&path=CARPLAY`
+- సాధారణం → పరిచయం: `prefs:root=General&path=About`
+- సాధారణం → పరిచయం → విశ్వసనీయ సర్టిఫికేట్‌లు: `prefs:root=General&path=About/CERT_TRUST_SETTINGS`
+- సాధారణం → పరిచయం → సీరియల్ నంబర్: `prefs:root=General&path=About#SerialNumber`
+- సాధారణం → పరిచయం → మోడల్ నంబర్: `prefs:root=General&path=About#ProductModel`
+- సాధారణం → పరిచయం → మోడల్ పేరు: `prefs:root=General&path=About#ProductModelName`
+- సాధారణం → పరిచయం → iOS వెర్షన్: `prefs:root=General&path=About/SW_VERSION_SPECIFIER`
+- సాధారణం → చట్టం, నియంత్రణాధికారం: `prefs:root=General&path=LEGAL_AND_REGULATORY`
+- సాధారణం → చట్టం, నియంత్రణాధికారం → వారంటీ: `prefs:root=General&path=LEGAL_AND_REGULATORY#Warranty`
+- సాధారణం → AirDrop: `prefs:root=General&path=AIRDROP_LINK`
+- సాధారణం → AirDrop → డివైజ్‌లను కలిపి ఉంచండి: `prefs:root=General&path=AIRDROP_LINK#AIRDROP_NFC_ID`
+- సాధారణం → హోమ్ బటన్: `prefs:root=General&path=HOME_BUTTON`
+- సాధారణం → సైడ్ స్విచ్: `prefs:root=General#Rotation_Switch_Action_Group`
+- సాధారణం → బ్యాక్‌గ్రౌండ్ యాప్ రిఫ్రెష్: `prefs:root=General&path=AUTO_CONTENT_DOWNLOAD`
+- సాధారణం → తేదీ, సమయం: `prefs:root=General&path=DATE_AND_TIME`
+- సాధారణం → TV ఔట్: `prefs:root=General&path=TV_OUT`
+- సాధారణం → రీసెట్: `prefs:root=General&path=Reset`
+- సాధారణం → రీసెట్ → అన్ని సెట్టింగ్‌లను రీసెట్ చేయండి: `prefs:root=General&path=Reset#settingsErase`
+- సాధారణం → రీసెట్ → పూర్తి కంటెంట్ మరియు సెట్టింగ్‌లను ఎరేజ్ చేయండి: `prefs:root=General&path=Reset#fullErase`
+- సాధారణం → రీసెట్ → నెట్‌వర్క్ సెట్టింగ్‌లను రీసెట్ చేయండి: `prefs:root=General&path=Reset#RESET_NETWORK_LABEL`
+- సాధారణం → రీసెట్ → అన్ని మొబైల్ డేటా ప్లాన్‌లను తొలగించండి: `prefs:root=General&path=Reset#cellularErase`
+- సాధారణం → రీసెట్ → సబ్‌స్క్రైబర్ సర్వీస్‌లు: `prefs:root=General&path=Reset#SUBSCRIBER_SERVICES_ID`
+- సాధారణం → రీసెట్ → కీబోర్డ్ నిఘంటువును రీసెట్ చేయండి: `prefs:root=General&path=Reset#RESET_KEYBOARD_DICTIONARY_LABEL`
+- సాధారణం → రీసెట్ → హోమ్ స్క్రీన్ లేఔట్‌ను రీసెట్ చేయండి: `prefs:root=General&path=Reset#RESET_ICONS_LABEL`
+- సాధారణం → రీసెట్ → లొకేషన్ & గోప్యతను రీసెట్ చేయండి: `prefs:root=General&path=Reset#RESET_PRIVACY_LABEL`
+- సాధారణం → షట్ డౌన్ చేయండి: `prefs:root=General#SHUTDOWN_LABEL`
+- సాధారణం → AirPlay & కంటిన్యూటీ: `prefs:root=General&path=CONTINUITY_SPEC`
+- సాధారణం → AirPlay & కంటిన్యూటీ → Handoff: `prefs:root=General&path=CONTINUITY_SPEC#CONTINUITY`
+- సాధారణం → AirPlay & కంటిన్యూటీ → HomePodకు ట్రాన్స్‌ఫర్ చేయండి: `prefs:root=General&path=CONTINUITY_SPEC#TRANSFER_TO_HOMEPOD`
+- సాధారణం → AirPlay & కంటిన్యూటీ → ఆటోమేటిక్‌గా AirPlay చేయండి: `prefs:root=General&path=CONTINUITY_SPEC#AUTOMATICALLY_AIRPLAY`
+- సాధారణం → AirPlay & కంటిన్యూటీ → కంటిన్యుటి కెమెరా: `prefs:root=General&path=CONTINUITY_SPEC#WOMBAT_CAMERA`
+- వాలెట్ & Apple Pay: `prefs:root=PASSBOOK`
+- వాలెట్ & Apple Pay → Apple Cash: `prefs:root=PASSBOOK#Apple%C2%A0Cash`
+- వాలెట్ & Apple Pay → చెల్లింపు కార్డ్‌లు: `prefs:root=PASSBOOK#SETTINGS_PAYMENT_CARDS_GROUP`
+- వాలెట్ & Apple Pay → కార్డ్‌ను జోడించండి: `prefs:root=PASSBOOK#Add%20Card`
+- వాలెట్ & Apple Pay → సైడ్ బటన్‌ను రెండుసార్లు నొక్కండి: `prefs:root=PASSBOOK#Double-Click%20Side%20Button`
+- వాలెట్ & Apple Pay → ఆర్డర్ ట్ర్యాకింగ్: `prefs:root=PASSBOOK#ORDER_TRACKING`
+- జర్నల్: `prefs:root=JOURNAL`
+- స్టాండ్‌బై: `prefs:root=AMBIENT`
+- వాతావరణం: `prefs:root=WEATHER`
+- Apple ఖాతా: `prefs:root=APPLE_ACCOUNT` or `settings-navigation://com.apple.Settings.AppleAccount`
+- Apple ఖాతా → iCloud: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE` or `prefs:root=CASTLE`
+- Apple ఖాతా → iCloud → iCloud స్టోరేజ్: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/STORAGE_AND_BACKUP` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/STORAGE_AND_BACKUP` or `prefs:root=CASTLE&path=STORAGE_AND_BACKUP`
+- Apple ఖాతా → iCloud → iCloud Drive: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity` or `prefs:root=CASTLE&path=com.apple.Dataclass.Ubiquity`
+- Apple ఖాతా → iCloud → ఫోటోస్: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.MediaStream` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.MediaStream` or `prefs:root=CASTLE&path=com.apple.Dataclass.MediaStream`
+- Apple ఖాతా → iCloud → మెయిల్: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Mail` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail` or `prefs:root=CASTLE&path=com.apple.Dataclass.Mail`
+- Apple ఖాతా → iCloud → మెయిల్ → కస్టమ్ ఇమెయిల్ డొమైన్: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Mail/BYOD_SETTING_SPECIFIER_ID` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/BYOD_SETTING_SPECIFIER_ID` or `prefs:root=CASTLE&path=com.apple.Dataclass.Mail/BYOD_SETTING_SPECIFIER_ID`
+- Apple ఖాతా → iCloud → కాంటాక్ట్స్: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Contacts` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Contacts` or `prefs:root=CASTLE&path=com.apple.Dataclass.Contacts`
+- Apple ఖాతా → iCloud → క్యాలెండర్: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Calendars` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Calendars` or `prefs:root=CASTLE&path=com.apple.Dataclass.Calendars`
+- Apple ఖాతా → iCloud → రిమైండర్స్: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Reminders` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Reminders` or `prefs:root=CASTLE&path=com.apple.Dataclass.Reminders`
+- Apple ఖాతా → iCloud → Safari: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks` or `prefs:root=CASTLE&path=com.apple.Dataclass.Bookmarks`
+- Apple ఖాతా → iCloud → నోట్స్: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Notes` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Notes` or `prefs:root=CASTLE&path=com.apple.Dataclass.Notes`
+- Apple ఖాతా → iCloud → వార్తలు: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.News` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.News` or `prefs:root=CASTLE&path=com.apple.Dataclass.News`
+- Apple ఖాతా → iCloud → బ్యాకప్: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/BACKUP` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/BACKUP` or `prefs:root=CASTLE&path=BACKUP`
+- Apple ఖాతా → iCloud → ఆరోగ్యం: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Health` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Health` or `prefs:root=CASTLE&path=com.apple.Dataclass.Health`
+- Apple ఖాతా → iCloud → పాస్‌వర్డ్‌లు & కీచెయిన్: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync` or `prefs:root=CASTLE&path=com.apple.Dataclass.KeychainSync`
+- Apple ఖాతా → iCloud → నా ఇమెయిల్‌ని దాచండి: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE` or `prefs:root=CASTLE&path=PRIVATE_EMAIL_MANAGE`
+- Apple ఖాతా → నా లొకేషన్ షేర్ చేయండి: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING` or `settings-navigation://com.apple.Settings.AppleAccount/LOCATION_SHARING`
+- Apple ఖాతా → నా లొకేషన్ షేర్ చేయండి → Find My: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING/FindMyDevice-Settings` or `settings-navigation://com.apple.Settings.AppleAccount/LOCATION_SHARING/FindMyDevice-Settings`
+- Apple ఖాతా → పేరు, ఫోన్ నంబర్‌లు, ఇమెయిల్: `prefs:root=APPLE_ACCOUNT&path=APPLE_ACCOUNT_CONTACT` or `settings-navigation://com.apple.Settings.AppleAccount/APPLE_ACCOUNT_CONTACT`
+- Apple ఖాతా → పాస్‌వర్డ్ & భద్రత: `prefs:root=APPLE_ACCOUNT&path=PASSWORD_AND_SECURITY` or `settings-navigation://com.apple.Settings.AppleAccount/PASSWORD_AND_SECURITY`
+- Apple ఖాతా → చెల్లింపు & షిప్పింగ్: `prefs:root=APPLE_ACCOUNT&path=PAYMENT_AND_SHIPPING` or `settings-navigation://com.apple.Settings.AppleAccount/PAYMENT_AND_SHIPPING`
+- Apple ఖాతా → సబ్‌స్క్రిప్షన్‌లు: `prefs:root=APPLE_ACCOUNT&path=SUBSCRIPTIONS` or `settings-navigation://com.apple.Settings.AppleAccount/SUBSCRIPTIONS`
+- Apple ఖాతా → కుటుంబం: `prefs:root=APPLE_ACCOUNT&path=Family` or `settings-navigation://com.apple.Settings.AppleAccount/Family`
+- Apple ఖాతా → కాంటాక్ట్ కీ ధృవీకరణ: `prefs:root=APPLE_ACCOUNT&path=TRANSPARENCY` or `settings-navigation://com.apple.Settings.AppleAccount/TRANSPARENCY`
+- మ్యాప్స్: `prefs:root=MAPS`
+- మ్యాప్స్ → గాలి నాణ్యత సూచిక: `prefs:root=MAPS#AirQualityPreferenceID`
+- మ్యాప్స్ → ఎల్లప్పుడూ తెలుగులో: `prefs:root=MAPS#LabelLanguageAlwaysUIPreferenceID`
+- మ్యాప్స్ → సైక్లింగ్: `prefs:root=MAPS&path=CyclingLinkPreferenceID`
+- మ్యాప్స్ → ప్రయాణానికి ప్రాధాన్య రకం: `prefs:root=MAPS#TransportTypePreferenceGroupID`
+- మ్యాప్స్ → డ్రైవింగ్: `prefs:root=MAPS&path=DrivingLinkPreferenceID`
+- మ్యాప్స్ → చదివి వినిపించే దిశలు: `prefs:root=MAPS&path=NavigationGuidanceLinkPreferenceID`
+- మ్యాప్స్ → పార్క్ చేసిన లొకేషన్‌ను చూపండి: `prefs:root=MAPS#ParkedCarPreferenceID`
+- మ్యాప్స్ → ETA షేర్ చేయండి: `prefs:root=MAPS#ShareETAPreferenceID`
+- మ్యాప్స్ → రవాణా: `prefs:root=MAPS&path=TransitLinkPreferenceID`
+- మ్యాప్స్ → నడక: `prefs:root=MAPS&path=WalkingLinkPreferenceID`
+- మ్యాప్స్ → వాతావరణ పరిస్థితులు: `prefs:root=MAPS#WeatherConditionsPreferenceID`
+- స్క్రీన్ టైమ్: `prefs:root=SCREEN_TIME`
+- స్క్రీన్ టైమ్ → See All App & Website Activity: `prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY`
+- స్క్రీన్ టైమ్ → See All App & Website Activity → ఈరోజు: `prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY#DAY`
+- స్క్రీన్ టైమ్ → See All App & Website Activity → వారం: `prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY#WEEK`
+- స్క్రీన్ టైమ్ → డౌన్‌టైమ్: `prefs:root=SCREEN_TIME&path=DOWNTIME`
+- స్క్రీన్ టైమ్ → యాప్ పరిమితులు: `prefs:root=SCREEN_TIME&path=APP_LIMITS`
+- స్క్రీన్ టైమ్ → సంభాషణ పరిమితులు: `prefs:root=SCREEN_TIME&path=COMMUNICATION_LIMITS`
+- స్క్రీన్ టైమ్ → సంభాషణ భద్రత: `prefs:root=SCREEN_TIME&path=COMMUNICATION_SAFETY`
+- స్క్రీన్ టైమ్ → ఎల్లప్పుడూ అనుమతించండి: `prefs:root=SCREEN_TIME&path=ALWAYS_ALLOWED`
+- స్క్రీన్ టైమ్ → కంటెంట్ & గోప్యత పరిమితులు: `prefs:root=SCREEN_TIME&path=CONTENT_PRIVACY`
+- స్క్రీన్ టైమ్ → పేరెంటల్ కంట్రోల్‌లు: `prefs:root=SCREEN_TIME#FAMILY`
+- స్క్రీన్ టైమ్ → స్క్రీన్ నుండి దూరం: `prefs:root=SCREEN_TIME&path=EYE_DISTANCE`
+- Freeform: `prefs:root=FREEFORM`
+- ఫోకస్: `prefs:root=DO_NOT_DISTURB`
+- ఫోకస్ → ఫోకస్ స్థితి: `prefs:root=DO_NOT_DISTURB&path=status`
+- కనిపించే తీరు: `prefs:root=DISPLAY`
+- కనిపించే తీరు → కనిపించే తీరు: `prefs:root=DISPLAY#DEVICE_APPEARANCE`
+- కనిపించే తీరు → True Tone: `prefs:root=DISPLAY#WHITE_BALANCE`
+- కనిపించే తీరు → Night Shift: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION`
+- కనిపించే తీరు → Night Shift → షెడ్యూల్ చేయబడింది: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#SCHEDULED`
+- కనిపించే తీరు → Night Shift → రేపటి వరకు సొంతంగా ఆన్ చేయండి: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#MANUAL`
+- కనిపించే తీరు → Night Shift → కలర్ టెంపరేచర్: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#COLOR_TEMPERATURE`
+- కనిపించే తీరు → ఆటోమేటిక్ లాక్: `prefs:root=DISPLAY&path=AUTOLOCK`
+- కనిపించే తీరు → యాక్షన్‌కి డివైజ్ ఎత్తండి: `prefs:root=DISPLAY#RAISE_TO_WAKE`
+- కనిపించే తీరు → లాక్ / అన్‌లాక్: `prefs:root=DISPLAY#SMART_CASE_LOCK_SPEC`
+- కనిపించే తీరు → టెక్స్ట్ సైజ్: `prefs:root=DISPLAY&path=TEXT_SIZE`
+- కనిపించే తీరు → బోల్డ్ టెక్స్ట్: `prefs:root=DISPLAY#BOLD_TEXT`
+- కనిపించే తీరు → బ్రైట్‌నెస్: `prefs:root=DISPLAY#BRIGHTNESS`
+- కనిపించే తీరు → డిస్‌ప్లే జూమ్: `prefs:root=DISPLAY#DISPLAY_ZOOM_GROUP`
+- కనిపించే తీరు → కనిపించే తీరు: `prefs:root=DISPLAY&path=APPEARANCE`
+- కనిపించే తీరు → కనిపించే తీరు → విండో జూమ్: `prefs:root=DISPLAY&path=APPEARANCE#WINDOW_ZOOM`
+- కనిపించే తీరు → కనిపించే తీరు → రెండు చేతులతో విండో జూమ్: `prefs:root=DISPLAY&path=APPEARANCE#TWO_HANDED_WINDOW_ZOOM`
+- కనిపించే తీరు → వీక్షణ: `prefs:root=DISPLAY&path=MAGNIFY`
+- కనిపించే తీరు → డిస్‌ప్లేను ఎల్లప్పుడూ ఆన్‌లో ఉంచండి: `prefs:root=DISPLAY&path=ALWAYS_ON`
+- కనిపించే తీరు → డిస్‌ప్లేను ఎల్లప్పుడూ ఆన్‌లో ఉంచండి → డిస్‌ప్లేను ఎల్లప్పుడూ ఆన్‌లో ఉంచండి: `prefs:root=DISPLAY&path=ALWAYS_ON#ALWAYS_ON`
+- కనిపించే తీరు → అనుకూల యాప్‌లు: `prefs:root=DISPLAY&path=COMPATIBLE_APPEARANCE`
+- కనిపించే తీరు → అనుకూల యాప్‌లు → డార్క్, లైట్: `prefs:root=DISPLAY&path=COMPATIBLE_APPEARANCE#COMPATIBLE_APPEARANCE_CHOICES`
+- హోమ్ స్క్రీన్: `prefs:root=HOME_SCREEN`
+- హోమ్ స్క్రీన్ → కొత్తగా డౌన్‌లోడ్ చేయబడిన యాప్‌లు: `prefs:root=HOME_SCREEN&path=APP_DOWNLOADS_GO_TO`
+- హోమ్ స్క్రీన్ → నోటిఫికేషన్ బ్యాడ్జ్‌లు: `prefs:root=HOME_SCREEN#BADGES_IN_APP_LIBRARY`
+- హోమ్ స్క్రీన్ & యాప్ లైబ్రరీ: `prefs:root=HOME_SCREEN_DOCK`
+- హోమ్ స్క్రీన్ & యాప్ లైబ్రరీ → కొత్తగా డౌన్‌లోడ్ చేయబడిన యాప్‌లు: `prefs:root=HOME_SCREEN_DOCK&path=APP_DOWNLOADS_GO_TO`
+- హోమ్ స్క్రీన్ & యాప్ లైబ్రరీ → Dock: `prefs:root=HOME_SCREEN_DOCK&path=MULTITASKING_DOCK`
+- హోమ్ స్క్రీన్ & యాప్ లైబ్రరీ → Dock → యాప్ లైబ్రరీని Dockలో చూపండి: `prefs:root=HOME_SCREEN_DOCK&path=MULTITASKING_DOCK#SHOW_APP_LIBRARY`
+- హోమ్ స్క్రీన్ & యాప్ లైబ్రరీ → సూచించిన మరియు ఇటీవలి యాప్‌లను Dockలో చూపండి: `prefs:root=HOME_SCREEN_DOCK#ALLOW_RECENTS`
+- హోమ్ స్క్రీన్ & యాప్ లైబ్రరీ → స్టేజ్ మేనేజర్: `prefs:root=HOME_SCREEN_DOCK&path=CONTINUOUS-EXPOSE`
+- Multitasking & Gestures: `prefs:root=com.apple.MultitaskingAndGesturesSettings`
+- Multitasking & Gestures → మల్టిటాస్కింగ్: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Multitasking`
+- Multitasking & Gestures → మల్టిటాస్కింగ్ → అనేక యాప్‌లను అనుమతించండి: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Multitasking#MultipleApps`
+- Multitasking & Gestures → మల్టిటాస్కింగ్ → Split View & Slide Over: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Multitasking#SplitViewSlideOver`
+- Multitasking & Gestures → మల్టిటాస్కింగ్ → స్క్రీన్ మిర్రరింగ్: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Multitasking#ScreenMirroring`
+- Multitasking & Gestures → మల్టిటాస్కింగ్ → స్టేజ్ మేనేజర్: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Multitasking#StageManager`
+- Multitasking & Gestures → మల్టిటాస్కింగ్ → ఇటీవలి యాప్‌లను స్టేజ్ మేనేజర్‌లో చూపండి: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Multitasking#StageManagerRecentApps`
+- Multitasking & Gestures → మల్టిటాస్కింగ్ → స్టేజ్ మేనేజర్‌లో Dockను చూపండి: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Multitasking#StageManagerDock`
+- Multitasking & Gestures → పిక్చర్ ఇన్ పిక్చర్: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=PictureInPicture`
+- Multitasking & Gestures → ప్రొడక్టివిటీ జెశ్చర్స్: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Productivity`
+- Multitasking & Gestures → ప్రొడక్టివిటీ జెశ్చర్స్ → జెశ్చర్స్: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Productivity#Gestures`
+- Multitasking & Gestures → ప్రొడక్టివిటీ జెశ్చర్స్ → ప్రొడక్టివిటీ జెశ్చర్స్: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Productivity#ProductivityGestures`
+- Multitasking & Gestures → నాలుగు, ఐదు వేళ్లతో జెశ్చర్స్: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=FourAndFiveFingers`
+- Multitasking & Gestures → అన్‌డూ చేయడానికి ఊపండి: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=ShakeToUndo`
+- Multitasking & Gestures → మూల జెశ్చర్స్‌: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=CornerGestures`
+- సౌలభ్య సాధనాలు: `prefs:root=ACCESSIBILITY`
+- సౌలభ్య సాధనాలు → VoiceOver: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE`
+- సౌలభ్య సాధనాలు → VoiceOver → VoiceOver ట్యుటోరియల్: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#VoiceOverTouchTutorialEnabled`
+- సౌలభ్య సాధనాలు → VoiceOver → మాట్లాడే వేగం: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#SpeakingRateSlider`
+- సౌలభ్య సాధనాలు → VoiceOver → స్పీచ్: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Voices`
+- సౌలభ్య సాధనాలు → VoiceOver → స్పీచ్ → ఉచ్చారణలు: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Voices/PRONUNCIATION_DICTIONARY`
+- సౌలభ్య సాధనాలు → VoiceOver → స్పీచ్ → ఉచ్చారణలు → ఉచ్చారణలు: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Voices/PRONUNCIATION_DICTIONARY#PRONUNCIATION_DICTIONARY`
+- సౌలభ్య సాధనాలు → VoiceOver → స్పీచ్ → పిచ్ మార్పు: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Voices#PITCH_CHANGES_TITLE`
+- సౌలభ్య సాధనాలు → VoiceOver → స్పీచ్ → రోటర్ వాయిస్‌ను జోడించండి…: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Voices#ADD_NEW_VOICE`
+- సౌలభ్య సాధనాలు → VoiceOver → స్పీచ్ → భాషలను గుర్తించండి: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Voices#LANGUAGE_DETECTION`
+- సౌలభ్య సాధనాలు → VoiceOver → స్పీచ్ → స్పీచ్‌ను స్పేషియలైజ్ చేయండి: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Voices#SPATIALIZE_SPEECH`
+- సౌలభ్య సాధనాలు → VoiceOver → వెర్బోసిటీ: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity`
+- సౌలభ్య సాధనాలు → VoiceOver → వెర్బోసిటీ → వెర్బోసిటీ: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#Verbosity`
+- సౌలభ్య సాధనాలు → VoiceOver → వెర్బోసిటీ → విరామ చిహ్నం: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup`
+- సౌలభ్య సాధనాలు → VoiceOver → వెర్బోసిటీ → విరామ చిహ్నం → విరామ చిహ్నం: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup#voiceOverPunctuationGroup`
+- సౌలభ్య సాధనాలు → VoiceOver → వెర్బోసిటీ → విరామ చిహ్నం → యాక్టివ్ విరామ చిహ్నాల గ్రూప్: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup#voiceOverActivePunctuationGroup`
+- సౌలభ్య సాధనాలు → VoiceOver → వెర్బోసిటీ → విరామ చిహ్నం → అన్నీ: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup#all`
+- సౌలభ్య సాధనాలు → VoiceOver → వెర్బోసిటీ → విరామ చిహ్నం → కొన్ని: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup#AXSSVoiceOverPunctuationGroupSome`
+- సౌలభ్య సాధనాలు → VoiceOver → వెర్బోసిటీ → విరామ చిహ్నం → ఏదీ లేదు: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup#PunctuationGroupNone`
+- సౌలభ్య సాధనాలు → VoiceOver → వెర్బోసిటీ → విరామ చిహ్నం → విరామచిహ్నాల గ్రూప్‌ను జోడించండి: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup/NewPunctuation`
+- సౌలభ్య సాధనాలు → VoiceOver → వెర్బోసిటీ → విరామ చిహ్నం → విరామచిహ్నాల గ్రూప్‌ను జోడించండి → విరామచిహ్నాల గ్రూప్‌ను జోడించండి: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup/NewPunctuation#NewPunctuation`
+- సౌలభ్య సాధనాలు → VoiceOver → వెర్బోసిటీ → విరామ చిహ్నం → ఇంపోర్ట్ చేయండి: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup/ImportPunctuation`
+- సౌలభ్య సాధనాలు → VoiceOver → వెర్బోసిటీ → విరామ చిహ్నం → ఇంపోర్ట్ చేయండి → ఇంపోర్ట్ చేయండి: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup/ImportPunctuation#ImportPunctuation`
+- సౌలభ్య సాధనాలు → VoiceOver → వెర్బోసిటీ → సూచనలను చదివి వినిపించండి: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#HINTS_TITLE`
+- సౌలభ్య సాధనాలు → VoiceOver → వెర్బోసిటీ → సిస్టమ్ నోటిఫికేషన్‌లు: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/SystemNotifications`
+- సౌలభ్య సాధనాలు → VoiceOver → వెర్బోసిటీ → సిస్టమ్ నోటిఫికేషన్‌లు → సిస్టమ్ నోటిఫికేషన్‌లు: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/SystemNotifications#SystemNotifications`
+- సౌలభ్య సాధనాలు → VoiceOver → వెర్బోసిటీ → సిస్టమ్ నోటిఫికేషన్‌లు → లాక్ చేయబడినప్పుడు నోటిఫికేషన్‌లు: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/SystemNotifications#LockScreenNotifications`
+- సౌలభ్య సాధనాలు → VoiceOver → వెర్బోసిటీ → సిస్టమ్ నోటిఫికేషన్‌లు → బ్యానర్ నోటిఫికేషన్‌లు: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/SystemNotifications#BannerNotifications`
+- సౌలభ్య సాధనాలు → VoiceOver → వెర్బోసిటీ → సిస్టమ్ నోటిఫికేషన్‌లు → సైలెంట్ మోడ్‌ను ఉపయోగించండి: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/SystemNotifications#NOTIFICATION_USE_RINGER_SWITCH`
+- సౌలభ్య సాధనాలు → VoiceOver → వెర్బోసిటీ → QuickNav అనౌన్స్‌మెంట్‌లు: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverQuickNavAnnouncementFeedback`
+- సౌలభ్య సాధనాలు → VoiceOver → వెర్బోసిటీ → QuickNav అనౌన్స్‌మెంట్‌లు → QuickNav అనౌన్స్‌మెంట్‌లు: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverQuickNavAnnouncementFeedback#voiceOverQuickNavAnnouncementFeedback`
+- సౌలభ్య సాధనాలు → VoiceOver → వెర్బోసిటీ → ఫ్లాష్‌లైట్ నోటిఫికేషన్‌లు: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverFlashlightNotificationsEnabled`
+- సౌలభ్య సాధనాలు → VoiceOver → వెర్బోసిటీ → ఫ్లాష్‌లైట్ నోటిఫికేషన్‌లు → ఫ్లాష్‌లైట్ నోటిఫికేషన్‌లు: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverFlashlightNotificationsEnabled#voiceOverFlashlightNotificationsEnabled`
+- సౌలభ్య సాధనాలు → VoiceOver → వెర్బోసిటీ → క్యాపిటల్ అక్షరాలు: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverCapitalLetterFeedback`
+- సౌలభ్య సాధనాలు → VoiceOver → వెర్బోసిటీ → క్యాపిటల్ అక్షరాలు → క్యాపిటల్ అక్షరాలు: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverCapitalLetterFeedback#voiceOverCapitalLetterFeedback`
+- సౌలభ్య సాధనాలు → VoiceOver → వెర్బోసిటీ → టెక్స్ట్ డిలీట్ చేయబడుతోంది: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverDeletionFeedback`
+- సౌలభ్య సాధనాలు → VoiceOver → వెర్బోసిటీ → టెక్స్ట్ డిలీట్ చేయబడుతోంది → టెక్స్ట్ డిలీట్ చేయబడుతోంది: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverDeletionFeedback#voiceOverDeletionFeedback`
+- సౌలభ్య సాధనాలు → VoiceOver → వెర్బోసిటీ → లింక్‌లు: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverLinkFeedback`
+- సౌలభ్య సాధనాలు → VoiceOver → వెర్బోసిటీ → లింక్‌లు → లింక్‌లు: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverLinkFeedback#voiceOverLinkFeedback`
+- సౌలభ్య సాధనాలు → VoiceOver → వెర్బోసిటీ → చర్యలు: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverActionsFeedback`
+- సౌలభ్య సాధనాలు → VoiceOver → వెర్బోసిటీ → చర్యలు → చర్యలు: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverActionsFeedback#voiceOverActionsFeedback`
+- సౌలభ్య సాధనాలు → VoiceOver → వెర్బోసిటీ → మరింత కంటెంట్: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMoreContentOutputFeedback`
+- సౌలభ్య సాధనాలు → VoiceOver → వెర్బోసిటీ → మరింత కంటెంట్ → మరింత కంటెంట్: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMoreContentOutputFeedback#voiceOverMoreContentOutputFeedback`
+- సౌలభ్య సాధనాలు → VoiceOver → వెర్బోసిటీ → కంటైనర్ వివరణలు: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverContainerOutputFeedback`
+- సౌలభ్య సాధనాలు → VoiceOver → వెర్బోసిటీ → కంటైనర్ వివరణలు → కంటైనర్ వివరణలు: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverContainerOutputFeedback#voiceOverContainerOutputFeedback`
+- సౌలభ్య సాధనాలు → VoiceOver → వెర్బోసిటీ → నంబర్‌లు: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverNumberFeedback`
+- సౌలభ్య సాధనాలు → VoiceOver → వెర్బోసిటీ → నంబర్‌లు → నంబర్‌లు: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverNumberFeedback#voiceOverNumberFeedback`
+- సౌలభ్య సాధనాలు → VoiceOver → వెర్బోసిటీ → అంచనా టెక్స్ట్: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/PREDICTIVE_TEXT_FEEDBACK`
+- సౌలభ్య సాధనాలు → VoiceOver → వెర్బోసిటీ → అంచనా టెక్స్ట్ → అంచనా టెక్స్ట్: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/PREDICTIVE_TEXT_FEEDBACK#PREDICTIVE_TEXT_FEEDBACK`
+- సౌలభ్య సాధనాలు → VoiceOver → వెర్బోసిటీ → అంచనా టెక్స్ట్ → అంచనా టెక్స్ట్ కనిపించినప్పుడు: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/PREDICTIVE_TEXT_FEEDBACK/InlineTextCompletionAppearanceFeedback`
+- సౌలభ్య సాధనాలు → VoiceOver → వెర్బోసిటీ → అంచనా టెక్స్ట్ → అంచనా టెక్స్ట్ కనిపించినప్పుడు → అంచనా టెక్స్ట్ కనిపించినప్పుడు: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/PREDICTIVE_TEXT_FEEDBACK/InlineTextCompletionAppearanceFeedback#InlineTextCompletionAppearanceFeedback`
+- సౌలభ్య సాధనాలు → VoiceOver → వెర్బోసిటీ → అంచనా టెక్స్ట్ → అంచనా టెక్స్ట్ ఫీడ్‌బ్యాక్ ఎంటర్ చేయబడినప్పుడు: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/PREDICTIVE_TEXT_FEEDBACK/InlineTextCompletionInsertionFeedback`
+- సౌలభ్య సాధనాలు → VoiceOver → వెర్బోసిటీ → అంచనా టెక్స్ట్ → అంచనా టెక్స్ట్ ఫీడ్‌బ్యాక్ ఎంటర్ చేయబడినప్పుడు → అంచనా టెక్స్ట్ ఫీడ్‌బ్యాక్ ఎంటర్ చేయబడినప్పుడు: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/PREDICTIVE_TEXT_FEEDBACK/InlineTextCompletionInsertionFeedback#InlineTextCompletionInsertionFeedback`
+- సౌలభ్య సాధనాలు → VoiceOver → వెర్బోసిటీ → టేబల్ హెడర్‌లు: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#speakTableHeader`
+- సౌలభ్య సాధనాలు → VoiceOver → వెర్బోసిటీ → అడ్డు వరుస, నిలువు వరుస నంబర్‌లు: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#SPEAK_TABLE_ROW_COLUMN`
+- సౌలభ్య సాధనాలు → VoiceOver → వెర్బోసిటీ → నిర్ధారణను చెప్పండి: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#ACTION_CONFIRMATION`
+- సౌలభ్య సాధనాలు → VoiceOver → వెర్బోసిటీ → వెబ్ రోటర్ సారాంశం: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverRotorSummaryFeedback`
+- సౌలభ్య సాధనాలు → VoiceOver → వెర్బోసిటీ → వెబ్ రోటర్ సారాంశం → వెబ్ రోటర్ సారాంశం: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverRotorSummaryFeedback#voiceOverRotorSummaryFeedback`
+- సౌలభ్య సాధనాలు → VoiceOver → వెర్బోసిటీ → ఎమోజీ: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverEmojiFeedback`
+- సౌలభ్య సాధనాలు → VoiceOver → వెర్బోసిటీ → ఎమోజీ → ఎమోజీ: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverEmojiFeedback#voiceOverEmojiFeedback`
+- సౌలభ్య సాధనాలు → VoiceOver → వెర్బోసిటీ → ఎమోజీ సఫిక్స్: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#EMOJI_SUFFIX`
+- సౌలభ్య సాధనాలు → VoiceOver → వెర్బోసిటీ → మీడియా వివరణలు: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions`
+- సౌలభ్య సాధనాలు → VoiceOver → వెర్బోసిటీ → మీడియా వివరణలు → మీడియా వివరణలు: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#voiceOverMediaDescriptions`
+- సౌలభ్య సాధనాలు → VoiceOver → వెర్బోసిటీ → ఇన్‌పుట్ ఫీడ్‌బ్యాక్: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#voiceOverInputFeedback`
+- సౌలభ్య సాధనాలు → VoiceOver → వెర్బోసిటీ → యాప్ హోవర్ ఫీడ్‌బ్యాక్: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#voiceOverAppHoverFeedback`
+- సౌలభ్య సాధనాలు → VoiceOver → బ్రెయిల్: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille`
+- సౌలభ్య సాధనాలు → VoiceOver → బ్రెయిల్ → బ్రెయిల్: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#Braille`
+- సౌలభ్య సాధనాలు → VoiceOver → బ్రెయిల్ → ఔట్‌పుట్: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput`
+- సౌలభ్య సాధనాలు → VoiceOver → బ్రెయిల్ → ఔట్‌పుట్ → ఔట్‌పుట్: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#BrailleDisplayOutput`
+- సౌలభ్య సాధనాలు → VoiceOver → బ్రెయిల్ → ఇన్‌పుట్: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput`
+- సౌలభ్య సాధనాలు → VoiceOver → బ్రెయిల్ → ఇన్‌పుట్ → ఇన్‌పుట్: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#BrailleDisplayInput`
+- సౌలభ్య సాధనాలు → VoiceOver → బ్రెయిల్ → ఇన్‌పుట్ మరియు ఔట్‌పుట్ టేబల్‌లను సరిపోల్చండి: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BRAILLE_SYNC_TABLES`
+- సౌలభ్య సాధనాలు → VoiceOver → బ్రెయిల్ → ఇన్‌పుట్ మరియు ఔట్‌పుట్: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleDisplayOutput`
+- సౌలభ్య సాధనాలు → VoiceOver → బ్రెయిల్ → ఆటోమెటిక్ అనువాదం: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#GRADE2_AUTO_TRANSLATE`
+- సౌలభ్య సాధనాలు → VoiceOver → బ్రెయిల్ → బ్రెయిల్ స్క్రీన్ ఇన్‌పుట్: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput`
+- సౌలభ్య సాధనాలు → VoiceOver → బ్రెయిల్ → బ్రెయిల్ స్క్రీన్ ఇన్‌పుట్ → బ్రెయిల్ స్క్రీన్ ఇన్‌పుట్: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#BrailleGesturesInput`
+- సౌలభ్య సాధనాలు → VoiceOver → బ్రెయిల్ → బ్రెయిల్ స్క్రీన్ ఇన్‌పుట్ → టెక్స్ట్ ఎడిట్ చేస్తున్నప్పుడు ఆటోమేటిక్‌గా ప్రారంభమవుతుంది: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#AUTO_ACTIVATE_ON_TEXT_FIELDS`
+- సౌలభ్య సాధనాలు → VoiceOver → బ్రెయిల్ → బ్రెయిల్ స్క్రీన్ ఇన్‌పుట్ → రివర్స్ డాట్ పొజిషన్‌లు: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#SHOULD_REVERSE_DOTS`
+- సౌలభ్య సాధనాలు → VoiceOver → బ్రెయిల్ → బ్రెయిల్ స్క్రీన్ ఇన్‌పుట్ → తీసివేయబడే వరకు యాక్టివ్‌గా ఉంచండి: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#CONTROL_DEVICE_USING_BRAILLE_GESTURE`
+- సౌలభ్య సాధనాలు → VoiceOver → బ్రెయిల్ → బ్రెయిల్ స్క్రీన్ ఇన్‌పుట్ → విజువల్ టెక్స్ట్ ఫీడ్‌బ్యాక్: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#DISPLAY_ENTERED_TEXT`
+- సౌలభ్య సాధనాలు → VoiceOver → బ్రెయిల్ → బ్రెయిల్ స్క్రీన్ ఇన్‌పుట్ → టైపింగ్ ఫీడ్‌బ్యాక్: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#TYPING_FEEDBACK`
+- సౌలభ్య సాధనాలు → VoiceOver → బ్రెయిల్ → బ్రెయిల్ స్క్రీన్ ఇన్‌పుట్ → సౌండ్: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#USE_TYPING_SOUND_FEEDBACK`
+- సౌలభ్య సాధనాలు → VoiceOver → బ్రెయిల్ → బ్రెయిల్ స్క్రీన్ ఇన్‌పుట్ → సౌండ్: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#USE_HAPTIC_FEEDBACK`
+- సౌలభ్య సాధనాలు → VoiceOver → బ్రెయిల్ → బ్రెయిల్ స్క్రీన్ ఇన్‌పుట్ → మోడ్ అనౌన్స్‌మెంట్‌లు: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#SOUND_OPTION`
+- సౌలభ్య సాధనాలు → VoiceOver → బ్రెయిల్ → బ్రెయిల్ స్క్రీన్ ఇన్‌పుట్ → బ్రెయిల్ టేబల్‌ను ఎంచుకోండి: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#BSI_TABLES`
+- సౌలభ్య సాధనాలు → VoiceOver → బ్రెయిల్ → బ్రెయిల్ టేబుల్‌లు: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier`
+- సౌలభ్య సాధనాలు → VoiceOver → బ్రెయిల్ → బ్రెయిల్ టేబుల్‌లు → బ్రెయిల్ టేబుల్‌లు: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier#tableIdentifier`
+- సౌలభ్య సాధనాలు → VoiceOver → బ్రెయిల్ → బ్రెయిల్ టేబుల్‌లు → బ్రెయిల్ టేబుల్‌ను జోడించండి…: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier/ADD_NEW_BRAILLE_LANGUAGE`
+- సౌలభ్య సాధనాలు → VoiceOver → బ్రెయిల్ → బ్రెయిల్ టేబుల్‌లు → బ్రెయిల్ టేబుల్‌ను జోడించండి… → బ్రెయిల్ టేబుల్‌ను జోడించండి…: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier/ADD_NEW_BRAILLE_LANGUAGE#ADD_NEW_BRAILLE_LANGUAGE`
+- సౌలభ్య సాధనాలు → VoiceOver → బ్రెయిల్ → స్టేటస్ సెల్స్: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL`
+- సౌలభ్య సాధనాలు → VoiceOver → బ్రెయిల్ → స్టేటస్ సెల్స్ → స్టేటస్ సెల్స్: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL`
+- సౌలభ్య సాధనాలు → VoiceOver → బ్రెయిల్ → స్టేటస్ సెల్స్ → స్టేటస్ సెల్స్ స్థానం: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_POSITION`
+- సౌలభ్య సాధనాలు → VoiceOver → బ్రెయిల్ → స్టేటస్ సెల్స్ → సాధారణ స్టేటస్‌ను చూపండి: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#StatusCellGeneral`
+- సౌలభ్య సాధనాలు → VoiceOver → బ్రెయిల్ → స్టేటస్ సెల్స్ → టెక్స్ట్ స్థితిని చూపండి: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#StatusCellTextStyle`
+- సౌలభ్య సాధనాలు → VoiceOver → బ్రెయిల్ → ఈక్వేషన్‌లు Nemeth కోడ్‌ను ఉపయోగిస్తాయి: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#ALWAYS_USE_NEMETH`
+- సౌలభ్య సాధనాలు → VoiceOver → బ్రెయిల్ → ఆన్‌స్క్రీన్ కీబోర్డ్‌ను చూపండి: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#SHOW_SW_KEYBOARD`
+- సౌలభ్య సాధనాలు → VoiceOver → బ్రెయిల్ → ప్యాన్ చేయడం వలన పేజీలు తిప్పబడతాయి: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#AUTO_TURN_PAGES`
+- సౌలభ్య సాధనాలు → VoiceOver → బ్రెయిల్ → వర్డ్ ర్యాప్: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#WORD_WRAP`
+- సౌలభ్య సాధనాలు → VoiceOver → బ్రెయిల్ → టెక్స్ట్ ఫార్మాటింగ్: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BRAILLE_FORMATTING`
+- సౌలభ్య సాధనాలు → VoiceOver → బ్రెయిల్ → బ్రెయిల్ అలర్ట్ సందేశాలు: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleAlertDisplayDuration`
+- సౌలభ్య సాధనాలు → VoiceOver → బ్రెయిల్ → బ్రెయిల్ అలర్ట్ సందేశాలు → బ్రెయిల్ అలర్ట్ సందేశాలు: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleAlertDisplayDuration#voiceOverBrailleAlertDisplayDuration`
+- సౌలభ్య సాధనాలు → VoiceOver → బ్రెయిల్ → బ్రెయిల్ అలర్ట్ సందేశాలు → Braille అలర్ట్ సందేశాలు: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleAlertDisplayDuration#NumericalPreferenceSwitcherIdentifier`
+- సౌలభ్య సాధనాలు → VoiceOver → బ్రెయిల్ → బ్రెయిల్ అలర్ట్ సందేశాలు → తీసివేయబడే వరకు చూపండి: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleAlertDisplayDuration#NumericalPreferenceInfiniteTimeDurationIdentifier`
+- సౌలభ్య సాధనాలు → VoiceOver → బ్రెయిల్ → కార్డ్ వ్యవధిని విస్మరించండి: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleDebounceTimeout`
+- సౌలభ్య సాధనాలు → VoiceOver → బ్రెయిల్ → కార్డ్ వ్యవధిని విస్మరించండి → కార్డ్ వ్యవధిని విస్మరించండి: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleDebounceTimeout/voiceOverBrailleDebounceTimeout`
+- సౌలభ్య సాధనాలు → VoiceOver → బ్రెయిల్ → ఆటోమేటిక్ అడ్వాన్స్ వ్యవధి: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleAutoAdvance`
+- సౌలభ్య సాధనాలు → VoiceOver → బ్రెయిల్ → ఆటోమేటిక్ అడ్వాన్స్ వ్యవధి → ఆటోమేటిక్ అడ్వాన్స్ వ్యవధి: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleAutoAdvance#voiceOverBrailleAutoAdvance`
+- సౌలభ్య సాధనాలు → VoiceOver → బ్రెయిల్ → సౌండ్ కర్టెయిన్: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#SOUND_CURTAIN`
+- సౌలభ్య సాధనాలు → VoiceOver → బ్రెయిల్ → ప్రారంభించినప్పుడు Bluetoothను ఎనేబల్ చేయండి: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverAlwaysTurnOnBluetooth`
+- సౌలభ్య సాధనాలు → VoiceOver → బ్రెయిల్ → బ్రెయిల్ డిస్‌ప్లేను ఎంచుకోండి: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#DEVICES`
+- సౌలభ్య సాధనాలు → VoiceOver → ఆడియో: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio`
+- సౌలభ్య సాధనాలు → VoiceOver → ఆడియో → ఆడియో: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#Audio`
+- సౌలభ్య సాధనాలు → VoiceOver → ఆడియో → VoiceOver సౌండ్‌లు: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds`
+- సౌలభ్య సాధనాలు → VoiceOver → ఆడియో → VoiceOver సౌండ్‌లు → VoiceOver సౌండ్‌లు: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSounds`
+- సౌలభ్య సాధనాలు → VoiceOver → ఆడియో → VoiceOver సౌండ్‌లు → సౌండ్‌లు: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSSettingsItem.Sounds`
+- సౌలభ్య సాధనాలు → VoiceOver → ఆడియో → VoiceOver సౌండ్‌లు → ఇంటరాక్షన్: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSOutputEventCategory.Interaction`
+- సౌలభ్య సాధనాలు → VoiceOver → ఆడియో → VoiceOver సౌండ్‌లు → VoiceOver ఫీడ్‌బ్యాక్: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSOutputEventCategory.VoiceOverFeedback`
+- సౌలభ్య సాధనాలు → VoiceOver → ఆడియో → VoiceOver సౌండ్‌లు → యాప్ ఫీడ్‌బ్యాక్: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSOutputEventCategory.AppFeedback`
+- సౌలభ్య సాధనాలు → VoiceOver → ఆడియో → VoiceOver సౌండ్‌లు → బ్రెయిల్: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSOutputEventCategory.Braille`
+- సౌలభ్య సాధనాలు → VoiceOver → ఆడియో → VoiceOver సౌండ్‌లు → టెక్స్ట్ ఎడిట్ చేయబడుతోంది: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSOutputEventCategory.TextEditing`
+- సౌలభ్య సాధనాలు → VoiceOver → ఆడియో → VoiceOver సౌండ్‌లు → సిస్టమ్: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSOutputEventCategory.System`
+- సౌలభ్య సాధనాలు → VoiceOver → ఆడియో → ఆడియో డకింగ్: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#AUDIO_DUCKING`
+- సౌలభ్య సాధనాలు → VoiceOver → ఆడియో → కాల్‌లో ఆటోమేటిక్‌గా స్పీకర్‌ను ఎంచుకోండి: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#ROUTE_TO_SPEAKER`
+- సౌలభ్య సాధనాలు → VoiceOver → ఆడియో → HDMIకి పంపించండి: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#ROUTE_TO_HDMI`
+- సౌలభ్య సాధనాలు → VoiceOver → కమాండ్‌లు: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands`
+- సౌలభ్య సాధనాలు → VoiceOver → కమాండ్‌లు → కమాండ్‌లు: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands#CustomizeCommands`
+- సౌలభ్య సాధనాలు → VoiceOver → కమాండ్‌లు → అన్ని కమాండ్‌లు: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/AllCommands`
+- సౌలభ్య సాధనాలు → VoiceOver → కమాండ్‌లు → అన్ని కమాండ్‌లు → అన్ని కమాండ్‌లు: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/AllCommands#AllCommands`
+- సౌలభ్య సాధనాలు → VoiceOver → కమాండ్‌లు → బ్రెయిల్ కీబోర్డ్ ఇన్‌పుట్: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/BrailleKeyboardInput`
+- సౌలభ్య సాధనాలు → VoiceOver → కమాండ్‌లు → బ్రెయిల్ కీబోర్డ్ ఇన్‌పుట్ → బ్రెయిల్ కీబోర్డ్ ఇన్‌పుట్: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/BrailleKeyboardInput#BrailleKeyboardInput`
+- సౌలభ్య సాధనాలు → VoiceOver → కమాండ్‌లు → టచ్ జెశ్చర్స్‌: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/TouchGestures`
+- సౌలభ్య సాధనాలు → VoiceOver → కమాండ్‌లు → టచ్ జెశ్చర్స్‌ → టచ్ జెశ్చర్స్‌: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/TouchGestures#TouchGestures`
+- సౌలభ్య సాధనాలు → VoiceOver → కమాండ్‌లు → కీబోర్డ్ షార్ట్‌కట్‌లు: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/KeyboardShortcuts`
+- సౌలభ్య సాధనాలు → VoiceOver → కమాండ్‌లు → కీబోర్డ్ షార్ట్‌కట్‌లు → కీబోర్డ్ షార్ట్‌కట్‌లు: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/KeyboardShortcuts#KeyboardShortcuts`
+- సౌలభ్య సాధనాలు → VoiceOver → కమాండ్‌లు → చేతివ్రాత: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/Handwriting`
+- సౌలభ్య సాధనాలు → VoiceOver → కమాండ్‌లు → చేతివ్రాత → చేతివ్రాత: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/Handwriting#Handwriting`
+- సౌలభ్య సాధనాలు → VoiceOver → కమాండ్‌లు → బ్రెయిల్ స్క్రీన్ ఇన్‌పుట్: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/BrailleScreenInput`
+- సౌలభ్య సాధనాలు → VoiceOver → కమాండ్‌లు → బ్రెయిల్ స్క్రీన్ ఇన్‌పుట్ → బ్రెయిల్ స్క్రీన్ ఇన్‌పుట్: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/BrailleScreenInput#BrailleScreenInput`
+- సౌలభ్య సాధనాలు → VoiceOver → కమాండ్‌లు → VoiceOver కమాండ్‌లను రీసెట్ చేయండి: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands#ResetVoiceOverCommands`
+- సౌలభ్య సాధనాలు → VoiceOver → కమాండ్‌లు → జెశ్చర్‌ల విషయంలో కుడి లేదా ఎడమ చేతిని ఉపయోగించడం మధ్య మారండి: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands#SWITCH_GESTURE_HANDEDNESS`
+- సౌలభ్య సాధనాలు → VoiceOver → యాక్టివిటీలు: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/activities`
+- సౌలభ్య సాధనాలు → VoiceOver → యాక్టివిటీలు → యాక్టివిటీలు: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/activities#activities`
+- సౌలభ్య సాధనాలు → VoiceOver → యాక్టివిటీలు → ప్రోగ్రామింగ్: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/activities/Programming`
+- సౌలభ్య సాధనాలు → VoiceOver → యాక్టివిటీలు → ప్రోగ్రామింగ్ → ప్రోగ్రామింగ్: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/activities/Programming#Programming`
+- సౌలభ్య సాధనాలు → VoiceOver → యాక్టివిటీలు → యాక్టివిటీని జోడించండి…: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/activities/New`
+- సౌలభ్య సాధనాలు → VoiceOver → యాక్టివిటీలు → యాక్టివిటీని జోడించండి… → యాక్టివిటీని జోడించండి…: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/activities/New#New`
+- సౌలభ్య సాధనాలు → VoiceOver → రోటర్: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions`
+- సౌలభ్య సాధనాలు → VoiceOver → రోటర్ → రోటర్: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#RotorActions`
+- సౌలభ్య సాధనాలు → VoiceOver → రోటర్ → రోటర్ ఐటెమ్‌లు: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions/WebRotor`
+- సౌలభ్య సాధనాలు → VoiceOver → రోటర్ → రోటర్ ఐటెమ్‌లు → రోటర్ ఐటెమ్‌లు: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions/WebRotor#WebRotor`
+- సౌలభ్య సాధనాలు → VoiceOver → రోటర్ → ఐటెమ్‌తో రోటర్‌ను మార్చండి: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#STICKY_ROTOR_TITLE`
+- సౌలభ్య సాధనాలు → VoiceOver → రోటర్ → హోమ్ స్క్రీన్‌లో యాప్‌లను ఎడిట్ చేయండి: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#editApps`
+- సౌలభ్య సాధనాలు → VoiceOver → రోటర్ → డైరెక్ట్ టచ్ యాప్‌లు: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions/apps`
+- సౌలభ్య సాధనాలు → VoiceOver → రోటర్ → డైరెక్ట్ టచ్ యాప్‌లు → డైరెక్ట్ టచ్ యాప్‌లు: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions/apps#apps`
+- సౌలభ్య సాధనాలు → VoiceOver → టైప్ చేస్తున్నారు: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions`
+- సౌలభ్య సాధనాలు → VoiceOver → టైప్ చేస్తున్నారు → టైప్ చేస్తున్నారు: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#TypingOptions`
+- సౌలభ్య సాధనాలు → VoiceOver → టైప్ చేస్తున్నారు → టైపింగ్ స్టైల్: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_MODE_TITLE`
+- సౌలభ్య సాధనాలు → VoiceOver → టైప్ చేస్తున్నారు → టైపింగ్ స్టైల్ → టైపింగ్ స్టైల్: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_MODE_TITLE#TYPING_MODE_TITLE`
+- సౌలభ్య సాధనాలు → VoiceOver → టైప్ చేస్తున్నారు → ఫోనెటిక్ ఫీడ్‌బ్యాక్: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE`
+- సౌలభ్య సాధనాలు → VoiceOver → టైప్ చేస్తున్నారు → ఫోనెటిక్ ఫీడ్‌బ్యాక్ → ఫోనెటిక్ ఫీడ్‌బ్యాక్: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_TITLE`
+- సౌలభ్య సాధనాలు → VoiceOver → టైప్ చేస్తున్నారు → టైపింగ్ ఫీడ్‌బ్యాక్: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_FEEDBACK`
+- సౌలభ్య సాధనాలు → VoiceOver → టైప్ చేస్తున్నారు → టైపింగ్ ఫీడ్‌బ్యాక్ → టైపింగ్ ఫీడ్‌బ్యాక్: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_FEEDBACK#TYPING_FEEDBACK`
+- సౌలభ్య సాధనాలు → VoiceOver → టైప్ చేస్తున్నారు → మాడిఫైయర్ కీలు: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS`
+- సౌలభ్య సాధనాలు → VoiceOver → టైప్ చేస్తున్నారు → మాడిఫైయర్ కీలు → మాడిఫైయర్ కీలు: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS#MODIFIER_KEYS`
+- సౌలభ్య సాధనాలు → VoiceOver → టైప్ చేస్తున్నారు → కీబోర్డ్ ఇంటరాక్షన్ సమయం: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/KEYBOARD_TIMING_TIMEOUT`
+- సౌలభ్య సాధనాలు → VoiceOver → టైప్ చేస్తున్నారు → కీబోర్డ్ ఇంటరాక్షన్ సమయం → కీబోర్డ్ ఇంటరాక్షన్ సమయం: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/KEYBOARD_TIMING_TIMEOUT#KEYBOARD_TIMING_TIMEOUT`
+- సౌలభ్య సాధనాలు → VoiceOver → ఇమేజ్‌లను నావిగేట్ చేయండి: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages`
+- సౌలభ్య సాధనాలు → VoiceOver → ఇమేజ్‌లను నావిగేట్ చేయండి → ఇమేజ్‌లను నావిగేట్ చేయండి: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#IncludeUnlabeledImages`
+- సౌలభ్య సాధనాలు → VoiceOver → పెద్ద కర్సర్: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CursorStyle`
+- సౌలభ్య సాధనాలు → VoiceOver → క్యాప్షన్ ప్యానెల్: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CaptionPanel`
+- సౌలభ్య సాధనాలు → VoiceOver → డబల్-ట్యాప్ టైమ్‌ఔట్: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/DOUBLE_TAP_INTERVAL_TITLE`
+- సౌలభ్య సాధనాలు → VoiceOver → డబల్-ట్యాప్ టైమ్‌ఔట్ → డబల్-ట్యాప్ టైమ్‌ఔట్: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/DOUBLE_TAP_INTERVAL_TITLE#NumericalPreferencePickerGroupIdentifier`
+- సౌలభ్య సాధనాలు → VoiceOver → నావిగేషన్ స్టైల్: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NavigationStyle`
+- సౌలభ్య సాధనాలు → VoiceOver → నావిగేషన్ స్టైల్ → నావిగేషన్ స్టైల్: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NavigationStyle#NavigationStyle`
+- సౌలభ్య సాధనాలు → VoiceOver → క్విక్ సెట్టింగ్‌లు: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings`
+- సౌలభ్య సాధనాలు → VoiceOver → క్విక్ సెట్టింగ్‌లు → క్విక్ సెట్టింగ్‌లు: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#QuickSettings`
+- సౌలభ్య సాధనాలు → VoiceOver → VoiceOver రికగ్నిషన్: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver`
+- సౌలభ్య సాధనాలు → VoiceOver → VoiceOver రికగ్నిషన్ → VoiceOver రికగ్నిషన్: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver#NeuralVoiceOver`
+- సౌలభ్య సాధనాలు → VoiceOver → VoiceOver రికగ్నిషన్ → ఇమేజ్ వివరణలు: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_IMAGE_DESCRIPTIONS`
+- సౌలభ్య సాధనాలు → VoiceOver → VoiceOver రికగ్నిషన్ → ఇమేజ్ వివరణలు → ఇమేజ్ వివరణలు: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_IMAGE_DESCRIPTIONS#VO_IMAGE_DESCRIPTIONS`
+- సౌలభ్య సాధనాలు → VoiceOver → VoiceOver రికగ్నిషన్ → ఇమేజ్ వివరణలు → సున్నితమైన కంటెంట్ ఔట్‌పుట్: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_IMAGE_DESCRIPTIONS#SensitiveContentGroup`
+- సౌలభ్య సాధనాలు → VoiceOver → VoiceOver రికగ్నిషన్ → ఇమేజ్ వివరణలు → అదనపు భాషలు: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_IMAGE_DESCRIPTIONS/AdditionalLanguages`
+- సౌలభ్య సాధనాలు → VoiceOver → VoiceOver రికగ్నిషన్ → ఇమేజ్ వివరణలు → అదనపు భాషలు → అదనపు భాషలు: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_IMAGE_DESCRIPTIONS/AdditionalLanguages#AdditionalLanguages`
+- సౌలభ్య సాధనాలు → VoiceOver → VoiceOver రికగ్నిషన్ → ఇమేజ్ వివరణలు → యాప్‌లకు వర్తింపజేయండి: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_IMAGE_DESCRIPTIONS/apps`
+- సౌలభ్య సాధనాలు → VoiceOver → VoiceOver రికగ్నిషన్ → ఇమేజ్ వివరణలు → యాప్‌లకు వర్తింపజేయండి → యాప్‌లకు వర్తింపజేయండి: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_IMAGE_DESCRIPTIONS/apps#apps`
+- సౌలభ్య సాధనాలు → VoiceOver → VoiceOver రికగ్నిషన్ → స్క్రీన్ రికగ్నిషన్: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_SCREEN_RECOGNITION`
+- సౌలభ్య సాధనాలు → VoiceOver → VoiceOver రికగ్నిషన్ → స్క్రీన్ రికగ్నిషన్ → స్క్రీన్ రికగ్నిషన్: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_SCREEN_RECOGNITION#VO_SCREEN_RECOGNITION`
+- సౌలభ్య సాధనాలు → VoiceOver → VoiceOver రికగ్నిషన్ → స్క్రీన్ రికగ్నిషన్ → యాప్‌లకు వర్తింపజేయండి: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_SCREEN_RECOGNITION/apps`
+- సౌలభ్య సాధనాలు → VoiceOver → VoiceOver రికగ్నిషన్ → స్క్రీన్ రికగ్నిషన్ → యాప్‌లకు వర్తింపజేయండి → యాప్‌లకు వర్తింపజేయండి: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_SCREEN_RECOGNITION/apps#apps`
+- సౌలభ్య సాధనాలు → VoiceOver → VoiceOver రికగ్నిషన్ → టెక్స్ట్ రికగ్నిషన్: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver#VO_OCR`
+- సౌలభ్య సాధనాలు → VoiceOver → VoiceOver రికగ్నిషన్ → ఫీడ్‌బ్యాక్ స్టైల్: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_FEEDBACK`
+- సౌలభ్య సాధనాలు → VoiceOver → VoiceOver రికగ్నిషన్ → ఫీడ్‌బ్యాక్ స్టైల్ → ఫీడ్‌బ్యాక్ స్టైల్: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_FEEDBACK#VO_FEEDBACK`
+- సౌలభ్య సాధనాలు → VoiceOver → VoiceOver రికగ్నిషన్ → లైవ్ రికగ్నిషన్: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_REAL_WORLD_DETECTION`
+- సౌలభ్య సాధనాలు → VoiceOver → ఎంచుకోవడానికి ముందు జరిగే ఆలస్యం: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#VoiceOverDelayUntilSpeak`
+- సౌలభ్య సాధనాలు → VoiceOver → డబల్-పించ్ టైమ్‌ఔట్: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#DOUBLE_TAP_INTERVAL`
+- సౌలభ్య సాధనాలు → జూమ్: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE`
+- సౌలభ్య సాధనాలు → జూమ్ → ఫోకస్‌ను ఫాలో చేయండి: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomShouldFollowFocus`
+- సౌలభ్య సాధనాలు → జూమ్ → స్మార్ట్ టైపింగ్: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomAlwaysUseWindowZoomForTyping`
+- సౌలభ్య సాధనాలు → జూమ్ → కీబోర్డ్ షార్ట్‌కట్‌లు: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts`
+- సౌలభ్య సాధనాలు → జూమ్ → కీబోర్డ్ షార్ట్‌కట్‌లు → కీబోర్డ్ షార్ట్‌కట్‌లు: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomEnableKeyboardShortcuts`
+- సౌలభ్య సాధనాలు → జూమ్ → కీబోర్డ్ షార్ట్‌కట్‌లు → జూమ్ లెవల్‌ను అడ్జస్ట్ చేయండి: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutAdjustZoomLevel`
+- సౌలభ్య సాధనాలు → జూమ్ → కీబోర్డ్ షార్ట్‌కట్‌లు → జూమ్‌ను టోగల్ చేయండి: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutToggleZoom`
+- సౌలభ్య సాధనాలు → జూమ్ → కీబోర్డ్ షార్ట్‌కట్‌లు → జూమ్ విండోను తరలించండి: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutPanZoom`
+- సౌలభ్య సాధనాలు → జూమ్ → కీబోర్డ్ షార్ట్‌కట్‌లు → జూమ్ విండో సైజ్ మార్చండి: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutResizeZoomWindow`
+- సౌలభ్య సాధనాలు → జూమ్ → కీబోర్డ్ షార్ట్‌కట్‌లు → జూమ్ రీజియన్‌ను మార్చండి: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutSwitchZoomMode`
+- సౌలభ్య సాధనాలు → జూమ్ → కీబోర్డ్ షార్ట్‌కట్‌లు → తాత్కాలికంగా జూమ్‌ను టోగల్ చేయండి: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutTempToggleZoom`
+- సౌలభ్య సాధనాలు → జూమ్ → కీబోర్డ్ షార్ట్‌కట్‌లు → స్క్రోల్ వీల్‌తో జూమ్ చేయండి: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutScrollWheel`
+- సౌలభ్య సాధనాలు → జూమ్ → జూమ్ చేయడానికి ట్ర్యాక్‌ప్యాడ్ జెశ్చర్‌ను ఉపయోగించండి: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomWithTrackpad`
+- సౌలభ్య సాధనాలు → జూమ్ → జూమ్ కంట్రోలర్: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug`
+- సౌలభ్య సాధనాలు → జూమ్ → జూమ్ కంట్రోలర్ → జూమ్ కంట్రోలర్: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug#ZoomSlug`
+- సౌలభ్య సాధనాలు → జూమ్ → జూమ్ కంట్రోలర్ → కంట్రోలర్‌ను చూపండి: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug#ZOOM_DETACH_CONTROLS`
+- సౌలభ్య సాధనాలు → జూమ్ → జూమ్ కంట్రోలర్ → సింగిల్ ట్యాప్: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_CONTROLLER_ACTION_SINGLE_TAP`
+- సౌలభ్య సాధనాలు → జూమ్ → జూమ్ కంట్రోలర్ → సింగిల్ ట్యాప్ → సింగిల్ ట్యాప్: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_CONTROLLER_ACTION_SINGLE_TAP#ZOOM_CONTROLLER_ACTION_SINGLE_TAP`
+- సౌలభ్య సాధనాలు → జూమ్ → జూమ్ కంట్రోలర్ → డబల్ ట్యాప్ చేయండి: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_CONTROLLER_ACTION_DOUBLE_TAP`
+- సౌలభ్య సాధనాలు → జూమ్ → జూమ్ కంట్రోలర్ → డబల్ ట్యాప్ చేయండి → డబల్ ట్యాప్ చేయండి: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_CONTROLLER_ACTION_DOUBLE_TAP#ZOOM_CONTROLLER_ACTION_DOUBLE_TAP`
+- సౌలభ్య సాధనాలు → జూమ్ → జూమ్ కంట్రోలర్ → ట్రిపల్-ట్యాప్: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_CONTROLLER_ACTION_TRIPLE_TAP`
+- సౌలభ్య సాధనాలు → జూమ్ → జూమ్ కంట్రోలర్ → ట్రిపల్-ట్యాప్ → ట్రిపల్-ట్యాప్: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_CONTROLLER_ACTION_TRIPLE_TAP#ZOOM_CONTROLLER_ACTION_TRIPLE_TAP`
+- సౌలభ్య సాధనాలు → జూమ్ → జూమ్ కంట్రోలర్ → జూమ్ లెవల్‌ను అడ్జస్ట్ చేయండి: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug#ZOOM_TAP_AND_SLIDE_TO_ADJUST_ZOOM_LEVEL`
+- సౌలభ్య సాధనాలు → జూమ్ → జూమ్ కంట్రోలర్ → రంగు: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/CONTROLLER_COLOR`
+- సౌలభ్య సాధనాలు → జూమ్ → జూమ్ కంట్రోలర్ → రంగు → రంగు: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/CONTROLLER_COLOR#CONTROLLER_COLOR`
+- సౌలభ్య సాధనాలు → జూమ్ → జూమ్ కంట్రోలర్ → ఐడిల్ అపారదర్శకత: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_IDLE_SLUG_OPACITY`
+- సౌలభ్య సాధనాలు → జూమ్ → జూమ్ కంట్రోలర్ → ఐడిల్ అపారదర్శకత → ఐడిల్ అపారదర్శకత: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_IDLE_SLUG_OPACITY#ZOOM_IDLE_SLUG_OPACITY`
+- సౌలభ్య సాధనాలు → జూమ్ → జూమ్ ప్రాంతం: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode`
+- సౌలభ్య సాధనాలు → జూమ్ → జూమ్ ప్రాంతం → జూమ్ ప్రాంతం: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode#ZoomLensMode`
+- సౌలభ్య సాధనాలు → జూమ్ → గరిష్ట జూమ్ లెవల్: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomPreferredMaxZoomLevel`
+- సౌలభ్య సాధనాలు → జూమ్ → జూమ్ ఫిల్టర్: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomFilter`
+- సౌలభ్య సాధనాలు → జూమ్ → జూమ్ ఫిల్టర్ → జూమ్ ఫిల్టర్: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomFilter#ZoomFilter`
+- సౌలభ్య సాధనాలు → జూమ్ → మిర్రర్ చేస్తున్న సమయంలో చూపండి: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomShowWhileMirroring`
+- సౌలభ్య సాధనాలు → జూమ్ → జూమ్‌ను డిఫాల్ట్ ఫోకస్‌గా సెట్ చేయండి: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomAsDefaultDial`
+- సౌలభ్య సాధనాలు → జూమ్ → జూమ్ చేయడానికి Digital Crownను ఉపయోగించండి: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomStealsCrownTurns`
+- సౌలభ్య సాధనాలు → జూమ్ → బోర్డర్ రంగు: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#MagnifyingGlassBorderColor`
+- సౌలభ్య సాధనాలు → హోవర్ టెక్స్ట్: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE`
+- సౌలభ్య సాధనాలు → హోవర్ టెక్స్ట్ → డిస్‌ప్లే మోడ్: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextDisplayMode`
+- సౌలభ్య సాధనాలు → హోవర్ టెక్స్ట్ → డిస్‌ప్లే మోడ్ → డిస్‌ప్లే మోడ్: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextDisplayMode#HoverTextDisplayMode`
+- సౌలభ్య సాధనాలు → హోవర్ టెక్స్ట్ → స్క్రోలింగ్ వేగం: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextScrollSpeed`
+- సౌలభ్య సాధనాలు → హోవర్ టెక్స్ట్ → స్క్రోలింగ్ వేగం → స్క్రోలింగ్ వేగం: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextScrollSpeed#HoverTextScrollSpeed`
+- సౌలభ్య సాధనాలు → హోవర్ టెక్స్ట్ → ఫాంట్: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextStyle`
+- సౌలభ్య సాధనాలు → హోవర్ టెక్స్ట్ → ఫాంట్ → ఫాంట్: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextStyle#HoverTextStyle`
+- సౌలభ్య సాధనాలు → హోవర్ టెక్స్ట్ → సైజ్: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextSize`
+- సౌలభ్య సాధనాలు → హోవర్ టెక్స్ట్ → సైజ్ → సైజ్: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextSize#HoverTextSize`
+- సౌలభ్య సాధనాలు → హోవర్ టెక్స్ట్ → రంగులు: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE#HOVER_TEXT_COLOR_OPTIONS`
+- సౌలభ్య సాధనాలు → హోవర్ టెక్స్ట్ → యాక్టివేషన్ మాడిఫైయర్: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextActivationModifier`
+- సౌలభ్య సాధనాలు → హోవర్ టెక్స్ట్ → యాక్టివేషన్ మాడిఫైయర్ → యాక్టివేషన్ మాడిఫైయర్: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextActivationModifier#HoverTextActivationModifier`
+- సౌలభ్య సాధనాలు → హోవర్ టెక్స్ట్ → యాక్టివేషన్ లాక్: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE#HOVER_TEXT_ACTIVATION_LOCK`
+- సౌలభ్య సాధనాలు → కీబోర్డ్‌లు & టైపింగ్: `prefs:root=ACCESSIBILITY&path=KEYBOARDS`
+- సౌలభ్య సాధనాలు → కీబోర్డ్‌లు & టైపింగ్ → హోవర్ టైపింగ్: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING`
+- సౌలభ్య సాధనాలు → కీబోర్డ్‌లు & టైపింగ్ → హోవర్ టైపింగ్ → డిస్‌ప్లే మోడ్: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING/HoverTextTypingDisplayMode`
+- సౌలభ్య సాధనాలు → కీబోర్డ్‌లు & టైపింగ్ → హోవర్ టైపింగ్ → డిస్‌ప్లే మోడ్ → డిస్‌ప్లే మోడ్: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING/HoverTextTypingDisplayMode#HoverTextTypingDisplayMode`
+- సౌలభ్య సాధనాలు → కీబోర్డ్‌లు & టైపింగ్ → హోవర్ టైపింగ్ → ఫాంట్: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING/HoverTypingStyle`
+- సౌలభ్య సాధనాలు → కీబోర్డ్‌లు & టైపింగ్ → హోవర్ టైపింగ్ → ఫాంట్ → ఫాంట్: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING/HoverTypingStyle#HoverTypingStyle`
+- సౌలభ్య సాధనాలు → కీబోర్డ్‌లు & టైపింగ్ → హోవర్ టైపింగ్ → సైజ్: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING/HoverTextSize`
+- సౌలభ్య సాధనాలు → కీబోర్డ్‌లు & టైపింగ్ → హోవర్ టైపింగ్ → సైజ్ → సైజ్: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING/HoverTextSize#HoverTextSize`
+- సౌలభ్య సాధనాలు → కీబోర్డ్‌లు & టైపింగ్ → హోవర్ టైపింగ్ → టైపింగ్ రంగులు: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TYPING_COLOR_OPTIONS`
+- సౌలభ్య సాధనాలు → కీబోర్డ్‌లు & టైపింగ్ → హోవర్ టైపింగ్ → డిస్‌ప్లే రంగులు: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TYPING_DISPLAY_COLOR_OPTIONS`
+- సౌలభ్య సాధనాలు → కీబోర్డ్‌లు & టైపింగ్ → హోవర్ టైపింగ్ → టెక్స్ట్ రంగు: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TEXT_TEXT_COLOR`
+- సౌలభ్య సాధనాలు → కీబోర్డ్‌లు & టైపింగ్ → హోవర్ టైపింగ్ → ఇన్సర్షన్ పాయింట్ రంగు: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TEXT_INSERTION_POINT_COLOR`
+- సౌలభ్య సాధనాలు → కీబోర్డ్‌లు & టైపింగ్ → హోవర్ టైపింగ్ → బ్యాక్‌గ్రౌండ్ కలర్: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TEXT_BACKGROUND_COLOR`
+- సౌలభ్య సాధనాలు → కీబోర్డ్‌లు & టైపింగ్ → హోవర్ టైపింగ్ → బోర్డర్ రంగు: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TEXT_BORDER_COLOR`
+- సౌలభ్య సాధనాలు → కీబోర్డ్‌లు & టైపింగ్ → హోవర్ టైపింగ్ → ఆటోమేటిక్‌గా సవరించబడిన పదం రంగు: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TYPING_AUTOCORRECTED_WORD_COLOR`
+- సౌలభ్య సాధనాలు → కీబోర్డ్‌లు & టైపింగ్ → హోవర్ టైపింగ్ → తప్పుగా స్పెల్ చేయబడిన పదం రంగు: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TYPING_MISSPELLED_WORD`
+- సౌలభ్య సాధనాలు → కీబోర్డ్‌లు & టైపింగ్ → హోవర్ టైపింగ్ → డిఫాల్ట్‌లకు రీసెట్ చేయండి: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TYPING_RESET_BUTTON`
+- సౌలభ్య సాధనాలు → కీబోర్డ్‌లు & టైపింగ్ → పూర్తి కీబోర్డ్ యాక్సెస్: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS`
+- సౌలభ్య సాధనాలు → కీబోర్డ్‌లు & టైపింగ్ → పూర్తి కీబోర్డ్ యాక్సెస్ → పూర్తి కీబోర్డ్ యాక్సెస్: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAEnabledSwitch`
+- సౌలభ్య సాధనాలు → కీబోర్డ్‌లు & టైపింగ్ → పూర్తి కీబోర్డ్ యాక్సెస్ → కమాండ్‌లు: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKACommands`
+- సౌలభ్య సాధనాలు → కీబోర్డ్‌లు & టైపింగ్ → పూర్తి కీబోర్డ్ యాక్సెస్ → కమాండ్‌లు → కమాండ్‌లు: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKACommands#FKACommands`
+- సౌలభ్య సాధనాలు → కీబోర్డ్‌లు & టైపింగ్ → పూర్తి కీబోర్డ్ యాక్సెస్ → ఆటోమేటిక్‌గా దాస్తుంది: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKAFocusRingTimeout`
+- సౌలభ్య సాధనాలు → కీబోర్డ్‌లు & టైపింగ్ → పూర్తి కీబోర్డ్ యాక్సెస్ → ఆటోమేటిక్‌గా దాస్తుంది → ఆటోమేటిక్‌గా దాస్తుంది: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKAFocusRingTimeout#FKAFocusRingTimeout`
+- సౌలభ్య సాధనాలు → కీబోర్డ్‌లు & టైపింగ్ → పూర్తి కీబోర్డ్ యాక్సెస్ → సైజ్‌ను పెంచండి: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKALargeFocusRingEnabled`
+- సౌలభ్య సాధనాలు → కీబోర్డ్‌లు & టైపింగ్ → పూర్తి కీబోర్డ్ యాక్సెస్ → హై కాంట్రాస్ట్: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKAFocusRingHighContrastEnabled`
+- సౌలభ్య సాధనాలు → కీబోర్డ్‌లు & టైపింగ్ → పూర్తి కీబోర్డ్ యాక్సెస్ → రంగు: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKAFocusRingColor`
+- సౌలభ్య సాధనాలు → కీబోర్డ్‌లు & టైపింగ్ → పూర్తి కీబోర్డ్ యాక్సెస్ → రంగు → రంగు: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKAFocusRingColor#FKAFocusRingColor`
+- సౌలభ్య సాధనాలు → కీబోర్డ్‌లు & టైపింగ్ → కీ రిపీట్: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT`
+- సౌలభ్య సాధనాలు → కీబోర్డ్‌లు & టైపింగ్ → కీ రిపీట్ → కీ రిపీట్: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatEnabled`
+- సౌలభ్య సాధనాలు → కీబోర్డ్‌లు & టైపింగ్ → కీ రిపీట్ → కీ రిపీట్ ఇంటర్వల్: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatInterval`
+- సౌలభ్య సాధనాలు → కీబోర్డ్‌లు & టైపింగ్ → కీ రిపీట్ → రిపీట్ అయ్యే వరకు ఆలస్యం: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatDelay`
+- సౌలభ్య సాధనాలు → కీబోర్డ్‌లు & టైపింగ్ → స్టిక్కీ కీలు: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS`
+- సౌలభ్య సాధనాలు → కీబోర్డ్‌లు & టైపింగ్ → స్టిక్కీ కీలు → స్టిక్కీ కీలు: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysEnabled`
+- సౌలభ్య సాధనాలు → కీబోర్డ్‌లు & టైపింగ్ → స్టిక్కీ కీలు → షిఫ్ట్ కీతో టోగల్ చేయండి: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysShiftToggle`
+- సౌలభ్య సాధనాలు → కీబోర్డ్‌లు & టైపింగ్ → స్టిక్కీ కీలు → సౌండ్: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysSound`
+- సౌలభ్య సాధనాలు → కీబోర్డ్‌లు & టైపింగ్ → స్లో కీలు: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/SLOW_KEYS`
+- సౌలభ్య సాధనాలు → కీబోర్డ్‌లు & టైపింగ్ → స్లో కీలు → స్లో కీలు: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/SLOW_KEYS#NumericalPreferenceSwitcherIdentifier`
+- సౌలభ్య సాధనాలు → కీబోర్డ్‌లు & టైపింగ్ → సాఫ్ట్‌వేర్ కీబోర్డ్‌లు: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#SOFTWARE_KEYBOARDS`
+- సౌలభ్య సాధనాలు → కీబోర్డ్‌లు & టైపింగ్ → లోయర్ కేస్ కీలను చూపండి: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#LOWERCASE_KEYBOARD`
+- సౌలభ్య సాధనాలు → డిస్‌ప్లే & టెక్స్ట్ సైజ్: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT`
+- సౌలభ్య సాధనాలు → డిస్‌ప్లే & టెక్స్ట్ సైజ్ → బోల్డ్ టెక్స్ట్: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#ENHANCE_TEXT_LEGIBILITY`
+- సౌలభ్య సాధనాలు → డిస్‌ప్లే & టెక్స్ట్ సైజ్ → పెద్ద టెక్స్ట్: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/LARGER_TEXT`
+- సౌలభ్య సాధనాలు → డిస్‌ప్లే & టెక్స్ట్ సైజ్ → పెద్ద టెక్స్ట్ → పెద్ద టెక్స్ట్: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/LARGER_TEXT#LARGER_TEXT`
+- సౌలభ్య సాధనాలు → డిస్‌ప్లే & టెక్స్ట్ సైజ్ → పెద్ద టెక్స్ట్ → పెద్ద సౌలభ్య సాధనాల సైజ్‌లు: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/LARGER_TEXT#LARGER_DYNAMIC_TYPE_SWITCH`
+- సౌలభ్య సాధనాలు → డిస్‌ప్లే & టెక్స్ట్ సైజ్ → బటన్ ఆకారాలు: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#BUTTON_SHAPES`
+- సౌలభ్య సాధనాలు → డిస్‌ప్లే & టెక్స్ట్ సైజ్ → ఆన్/ఆఫ్ లేబల్‌లు: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#OnOffLabels`
+- సౌలభ్య సాధనాలు → డిస్‌ప్లే & టెక్స్ట్ సైజ్ → పారదర్శకతను తగ్గించండి: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#REDUCE_TRANSPARENCY`
+- సౌలభ్య సాధనాలు → డిస్‌ప్లే & టెక్స్ట్ సైజ్ → కాంట్రాస్ట్‌ను పెంచండి: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#TEXT_COLORS_DARKEN`
+- సౌలభ్య సాధనాలు → డిస్‌ప్లే & టెక్స్ట్ సైజ్ → రంగు లేకుండా వేరు చేయండి: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#DIFFERENTIATE_WITHOUT_COLOR`
+- సౌలభ్య సాధనాలు → డిస్‌ప్లే & టెక్స్ట్ సైజ్ → హరిజాంటల్ టెక్స్ట్‌కు ప్రాధాన్యతనివ్వండి: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#PREFER_HORIZONTAL_TEXT`
+- సౌలభ్య సాధనాలు → డిస్‌ప్లే & టెక్స్ట్ సైజ్ → స్మార్ట్ ఇన్వర్ట్: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#SMART_INVERT`
+- సౌలభ్య సాధనాలు → డిస్‌ప్లే & టెక్స్ట్ సైజ్ → క్లాసిక్ ఇన్‌వర్ట్: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#CLASSIC_INVERT`
+- సౌలభ్య సాధనాలు → డిస్‌ప్లే & టెక్స్ట్ సైజ్ → కలర్ ఫిల్టర్‌లు: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR`
+- సౌలభ్య సాధనాలు → డిస్‌ప్లే & టెక్స్ట్ సైజ్ → కలర్ ఫిల్టర్‌లు → కలర్ ఫిల్టర్‌లు: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR#DISPLAY_FILTER_COLOR`
+- సౌలభ్య సాధనాలు → డిస్‌ప్లే & టెక్స్ట్ సైజ్ → కలర్ ఫిల్టర్‌లు → వీడియో పాస్‌థ్రూకు వర్తింపజేయండి: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR#VIDEO_PASSTHROUGH`
+- సౌలభ్య సాధనాలు → డిస్‌ప్లే & టెక్స్ట్ సైజ్ → వైట్ పాయింట్‌ను తగ్గించండి: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#WHITE_POINT`
+- సౌలభ్య సాధనాలు → డిస్‌ప్లే & టెక్స్ట్ సైజ్ → ఆటోమేటిక్ బ్రైట్‌నెస్: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#AUTO_BRIGHTNESS`
+- సౌలభ్య సాధనాలు → డిస్‌ప్లే & టెక్స్ట్ సైజ్ → స్థిరీకరించడానికి కంటి కదలికలను విస్మరించండి: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#STATIC_FOVEATION_TEXT`
+- సౌలభ్య సాధనాలు → డిస్‌ప్లే & టెక్స్ట్ సైజ్ → డిస్‌ప్లేలను ఆటోమేటిక్‌గా అమర్చండి: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#AUTO_IPD_TEXT`
+- సౌలభ్య సాధనాలు → డిస్‌ప్లే & టెక్స్ట్ సైజ్ → ఫోకస్ స్థితిని పెంచండి: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#INCREASE_FOCUS_STATE_TEXT`
+- సౌలభ్య సాధనాలు → కదలిక: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE`
+- సౌలభ్య సాధనాలు → కదలిక → మోషన్‌ను తగ్గించండి: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION`
+- సౌలభ్య సాధనాలు → కదలిక → ఆటో-ప్లే సందేశం ఎఫెక్ట్‌లు: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#ReduceMotionAutoplayMessagesEffects`
+- సౌలభ్య సాధనాలు → కదలిక → యానిమేట్ చేయబడిన ఇమేజ్‌లను ఆటోమేటిక్‌గా ప్లే చేయండి: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION_AUTOPLAY_ANIMATED_IMAGES`
+- సౌలభ్య సాధనాలు → కదలిక → వీడియో ప్రివ్యూలను ఆటోమేటిక్‌గా ప్లే చేయండి: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION_AUTOPLAY_VIDEO_PREVIEWS`
+- సౌలభ్య సాధనాలు → కదలిక → బ్లింక్ అవ్వని కర్సర్‌కు ప్రాధాన్యతనివ్వండి: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#PREFER_NONBLINKING_CURSOR`
+- సౌలభ్య సాధనాలు → కదలిక → ఫ్రేమ్ రేట్‌ను పరిమితం చేయండి: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REFRESH_RATE`
+- సౌలభ్య సాధనాలు → కదలిక → ఫ్లాష్ అవుతున్న లైట్‌లను డిమ్ చేయండి: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#PHOTOSENSITIVE_MITIGATION`
+- సౌలభ్య సాధనాలు → కదలిక → వాహన చలన సూచనలను చూపండి: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#MotionCues`
+- సౌలభ్య సాధనాలు → స్పీక్ కంటెంట్: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE`
+- సౌలభ్య సాధనాలు → స్పీక్ కంటెంట్ → ఎంచుకున్న టెక్స్ట్‌ను వినండి: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QUICK_SPEAK_TITLE`
+- సౌలభ్య సాధనాలు → స్పీక్ కంటెంట్ → స్పీక్ స్క్రీన్: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpeakThisEnabled`
+- సౌలభ్య సాధనాలు → స్పీక్ కంటెంట్ → స్పీచ్ కంట్రోలర్: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController`
+- సౌలభ్య సాధనాలు → స్పీక్ కంటెంట్ → స్పీచ్ కంట్రోలర్ → స్పీచ్ కంట్రోలర్: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController#SpeechController`
+- సౌలభ్య సాధనాలు → స్పీక్ కంటెంట్ → స్పీచ్ కంట్రోలర్ → నొక్కి ఉంచడం: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController/SpeechControllerLongPressAction`
+- సౌలభ్య సాధనాలు → స్పీక్ కంటెంట్ → స్పీచ్ కంట్రోలర్ → నొక్కి ఉంచడం → నొక్కి ఉంచడం: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController/SpeechControllerLongPressAction#SpeechControllerLongPressAction`
+- సౌలభ్య సాధనాలు → స్పీక్ కంటెంట్ → స్పీచ్ కంట్రోలర్ → డబల్ ట్యాప్ చేయండి: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController/SpeechControllerDoubleTapAction`
+- సౌలభ్య సాధనాలు → స్పీక్ కంటెంట్ → స్పీచ్ కంట్రోలర్ → డబల్ ట్యాప్ చేయండి → డబల్ ట్యాప్ చేయండి: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController/SpeechControllerDoubleTapAction#SpeechControllerDoubleTapAction`
+- సౌలభ్య సాధనాలు → స్పీక్ కంటెంట్ → స్పీచ్ కంట్రోలర్ → ఐడిల్ అపారదర్శకత: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController/SpeechControllerIdleOpacity`
+- సౌలభ్య సాధనాలు → స్పీక్ కంటెంట్ → స్పీచ్ కంట్రోలర్ → ఐడిల్ అపారదర్శకత → ఐడిల్ అపారదర్శకత: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController/SpeechControllerIdleOpacity#SpeechControllerIdleOpacity`
+- సౌలభ్య సాధనాలు → స్పీక్ కంటెంట్ → స్పీచ్ కంట్రోలర్ → మౌస్ బటన్‌లను కస్టమైజ్ చేయండి: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController#CustomizeMouseButtons`
+- సౌలభ్య సాధనాలు → స్పీక్ కంటెంట్ → కంటెంట్‌ను హైలైట్ చేయండి: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/QuickSpeakHighlight`
+- సౌలభ్య సాధనాలు → స్పీక్ కంటెంట్ → కంటెంట్‌ను హైలైట్ చేయండి → కంటెంట్‌ను హైలైట్ చేయండి: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/QuickSpeakHighlight#QuickSpeakHighlight`
+- సౌలభ్య సాధనాలు → స్పీక్ కంటెంట్ → కంటెంట్‌ను హైలైట్ చేయండి → వాక్యాన్ని హైలైట్ చేసే విధానం: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/QuickSpeakHighlight#SENTENCE_HIGHLIGHT_STYLE`
+- సౌలభ్య సాధనాలు → స్పీక్ కంటెంట్ → కంటెంట్‌ను హైలైట్ చేయండి → రంగులను హైలైట్ చేయండి: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/QuickSpeakHighlight#COLOR_CHOICE`
+- సౌలభ్య సాధనాలు → స్పీక్ కంటెంట్ → టైపింగ్ ఫీడ్‌బ్యాక్: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback`
+- సౌలభ్య సాధనాలు → స్పీక్ కంటెంట్ → టైపింగ్ ఫీడ్‌బ్యాక్ → టైపింగ్ ఫీడ్‌బ్యాక్: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#TypingFeedback`
+- సౌలభ్య సాధనాలు → స్పీక్ కంటెంట్ → టైపింగ్ ఫీడ్‌బ్యాక్ → క్యారెక్టర్‌లు: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#LETTER`
+- సౌలభ్య సాధనాలు → స్పీక్ కంటెంట్ → టైపింగ్ ఫీడ్‌బ్యాక్ → క్యారెక్టర్ సూచనలు: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#PhoneticFeedback`
+- సౌలభ్య సాధనాలు → స్పీక్ కంటెంట్ → టైపింగ్ ఫీడ్‌బ్యాక్ → పదాలను చదివి వినిపించండి: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#WORD_FEEDBACK`
+- సౌలభ్య సాధనాలు → స్పీక్ కంటెంట్ → టైపింగ్ ఫీడ్‌బ్యాక్ → ఆటో టెక్స్ట్‌ను చెప్పండి: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#SPEAK_AUTOCORRECTIONS`
+- సౌలభ్య సాధనాలు → స్పీక్ కంటెంట్ → టైపింగ్ ఫీడ్‌బ్యాక్ → అంచనాలను వినడానికి నొక్కి ఉంచండి: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#QUICKTYPE_WORD_FEEDBACK`
+- సౌలభ్య సాధనాలు → స్పీక్ కంటెంట్ → వాయిస్‌లు: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/QuickSpeakAccents`
+- సౌలభ్య సాధనాలు → స్పీక్ కంటెంట్ → వాయిస్‌లు → వాయిస్‌లు: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/QuickSpeakAccents#QuickSpeakAccents`
+- సౌలభ్య సాధనాలు → స్పీక్ కంటెంట్ → డిఫాల్ట్ భాష: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpokenContentDefaultLanguage`
+- సౌలభ్య సాధనాలు → స్పీక్ కంటెంట్ → డిఫాల్ట్ భాష → డిఫాల్ట్ భాష: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpokenContentDefaultLanguage#SpokenContentDefaultLanguage`
+- సౌలభ్య సాధనాలు → స్పీక్ కంటెంట్ → భాషలను గుర్తించండి: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#LANGUAGE_DETECTION`
+- సౌలభ్య సాధనాలు → స్పీక్ కంటెంట్ → మాట్లాడే వేగం: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakRate`
+- సౌలభ్య సాధనాలు → స్పీక్ కంటెంట్ → ఉచ్చారణలు: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/VoiceOverSettings`
+- సౌలభ్య సాధనాలు → స్పీక్ కంటెంట్ → ఉచ్చారణలు → ఉచ్చారణలు: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/VoiceOverSettings#VoiceOverSettings`
+- సౌలభ్య సాధనాలు → స్పీక్ కంటెంట్ → స్పీచ్‌ను స్పేషియలైజ్ చేయండి: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SPATIALIZE_SPEECH`
+- సౌలభ్య సాధనాలు → ఆడియో వివరణలు: `prefs:root=ACCESSIBILITY&path=DESCRIPTIVE_VIDEO`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → AssistiveTouch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → AssistiveTouch → AssistiveTouch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#EnableAssistiveTouchSpecifier`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → AssistiveTouch → టాప్ లెవల్ మెన్యూను కస్టమైజ్ చేయండి: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → AssistiveTouch → టాప్ లెవల్ మెన్యూను కస్టమైజ్ చేయండి → టాప్ లెవల్ మెన్యూను కస్టమైజ్ చేయండి: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize#AssistiveTouchCustomize`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → AssistiveTouch → టాప్ లెవల్ మెన్యూను కస్టమైజ్ చేయండి → మార్చడానికి ఐకాన్‌ను ట్యాప్ చేయండి:: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize#ASTStepperCell`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → AssistiveTouch → సింగిల్ ట్యాప్: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/TapSpecifier`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → AssistiveTouch → సింగిల్ ట్యాప్ → సింగిల్ ట్యాప్: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/TapSpecifier#TapSpecifier`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → AssistiveTouch → డబల్ ట్యాప్ చేయండి: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → AssistiveTouch → డబల్ ట్యాప్ చేయండి → డబల్ ట్యాప్ చేయండి: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier#DoubleTapSpecifier`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → AssistiveTouch → డబల్ ట్యాప్ చేయండి → డబల్-ట్యాప్ టైమ్‌ఔట్: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier/ASTDoubleTapTimeoutSpecifier`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → AssistiveTouch → డబల్ ట్యాప్ చేయండి → డబల్-ట్యాప్ టైమ్‌ఔట్ → డబల్-ట్యాప్ టైమ్‌ఔట్: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier/ASTDoubleTapTimeoutSpecifier#ASTDoubleTapTimeoutSpecifier`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → AssistiveTouch → నొక్కి ఉంచడం: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → AssistiveTouch → నొక్కి ఉంచడం → నొక్కి ఉంచడం: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier#LongPressSpecifier`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → AssistiveTouch → నొక్కి ఉంచడం → నొక్కి ఉంచే యాక్షన్: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier/ASTLongPressDurationSpecifier`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → AssistiveTouch → నొక్కి ఉంచడం → నొక్కి ఉంచే యాక్షన్ → నొక్కి ఉంచే యాక్షన్: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier/ASTLongPressDurationSpecifier#ASTLongPressDurationSpecifier`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → AssistiveTouch → 3D Touch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#ForceTouchSpecifier`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → AssistiveTouch → కొత్త జెశ్చర్‌ను సృష్టించండి…: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/CreateCustomGesture`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → AssistiveTouch → కొత్త జెశ్చర్‌ను సృష్టించండి… → కొత్త జెశ్చర్‌ను సృష్టించండి…: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/CreateCustomGesture#CreateCustomGesture`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → AssistiveTouch → ఐడిల్ అపారదర్శకత: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/IdleOpacity`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → AssistiveTouch → ఐడిల్ అపారదర్శకత → ఐడిల్ అపారదర్శకత: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/IdleOpacity#IdleOpacity`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → AssistiveTouch → వర్చువల్ ట్ర్యాక్‌పాడ్: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → AssistiveTouch → వర్చువల్ ట్ర్యాక్‌పాడ్ → ట్ర్యాకింగ్ స్పీడ్: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID#TRACKING_SPEED_SLIDER`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → AssistiveTouch → వర్చువల్ ట్ర్యాక్‌పాడ్ → సహజ స్క్రోలింగ్: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID#NATURAL_SCROLLING`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → AssistiveTouch → వర్చువల్ ట్ర్యాక్‌పాడ్ → స్క్రోల్ వేగం: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID#SCROLL_SPEED_SLIDER`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → AssistiveTouch → వర్చువల్ ట్ర్యాక్‌పాడ్ → బోర్డర్: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID#BORDER`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → AssistiveTouch → వర్చువల్ ట్ర్యాక్‌పాడ్ → బోర్డర్: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID/BORDER`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → AssistiveTouch → వర్చువల్ ట్ర్యాక్‌పాడ్ → బోర్డర్ → రంగు: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID/BORDER#COLOR`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → AssistiveTouch → వర్చువల్ ట్ర్యాక్‌పాడ్ → బోర్డర్ → అపారదర్శకత: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID/BORDER#OPACITY`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → AssistiveTouch → వర్చువల్ ట్ర్యాక్‌పాడ్ → బోర్డర్ → బోర్డర్ వెడల్పు: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID/BORDER#BORDER_WIDTH`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → AssistiveTouch → వర్చువల్ ట్ర్యాక్‌పాడ్ → ట్ర్యాక్‌ప్యాడ్: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID#TRACKPAD`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → AssistiveTouch → వర్చువల్ ట్ర్యాక్‌పాడ్ → ట్ర్యాక్‌ప్యాడ్: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID/TRACKPAD`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → AssistiveTouch → వర్చువల్ ట్ర్యాక్‌పాడ్ → ట్ర్యాక్‌ప్యాడ్ → రంగు: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID/TRACKPAD#COLOR`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → AssistiveTouch → వర్చువల్ ట్ర్యాక్‌పాడ్ → ట్ర్యాక్‌ప్యాడ్ → అపారదర్శకత: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID/TRACKPAD#OPACITY`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → AssistiveTouch → డివైజ్‌లు: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → AssistiveTouch → డివైజ్‌లు → డివైజ్‌లు: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices#AssistiveTouchMouseDevices`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → AssistiveTouch → డివైజ్‌లు → Bluetooth డివైజ్‌లు…: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices/BluetoothDevicesScanning`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → AssistiveTouch → డివైజ్‌లు → Bluetooth డివైజ్‌లు… → Bluetooth డివైజ్‌లు…: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices/BluetoothDevicesScanning#BluetoothDevicesScanning`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → AssistiveTouch → మౌస్ కీలు: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseKeys`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → AssistiveTouch → మౌస్ కీలు → మౌస్ కీలు: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseKeys#AssistiveTouchMouseKeys`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → AssistiveTouch → మౌస్ కీలు → ఆప్షన్ కీ టోగల్: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseKeys#OptionKeyToggle`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → AssistiveTouch → మౌస్ కీలు → ప్రాథమిక కీబోర్డ్‌ను ఉపయోగించండి: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseKeys#UsePrimaryKeyboard`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → AssistiveTouch → మౌస్ కీలు → ప్రారంభ ఆలస్యం: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseKeys#InitialDelay`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → AssistiveTouch → మౌస్ కీలు → గరిష్ట వేగం: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseKeys#MaximumSpeed`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → AssistiveTouch → ఆన్‌స్క్రీన్ కీబోర్డ్‌ను చూపండి: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AlwaysShowSoftwareKeyboard`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → AssistiveTouch → ఎల్లప్పుడూ మెన్యూను చూపండి: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AlwaysShowMenu`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → AssistiveTouch → క్లిక్ చేసినప్పుడు శబ్దం: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#MouseClickSounds`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → AssistiveTouch → డ్వెల్ కంట్రోల్: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellEnabledSpecifier`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → AssistiveTouch → మూవ్‌మెంట్ టోలరెన్స్: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellToleranceSpecifier`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → AssistiveTouch → మూవ్‌మెంట్ టోలరెన్స్ → మూవ్‌మెంట్ టోలరెన్స్: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellToleranceSpecifier#DwellToleranceSpecifier`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → AssistiveTouch → ట్ర్యాకింగ్ సెన్సిటివిటీ: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#TouchSpeed`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → AssistiveTouch → ఫాల్‌బ్యాక్ యాక్షన్: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellAutorevertSpecifier`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → AssistiveTouch → ఫాల్‌బ్యాక్ యాక్షన్ → ఫాల్‌బ్యాక్ యాక్షన్: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellAutorevertSpecifier#DwellAutorevertSpecifier`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → AssistiveTouch → హాట్ కార్నర్‌లు: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellCornersSpecifier`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → AssistiveTouch → హాట్ కార్నర్‌లు → హాట్ కార్నర్‌లు: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellCornersSpecifier#DwellCornersSpecifier`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → AssistiveTouch → హాట్ కార్నర్‌లు → ఎగువ ఎడమవైపు: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellCornersSpecifier#TopLeft`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → AssistiveTouch → హాట్ కార్నర్‌లు → ఎగువన కుడివైపు: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellCornersSpecifier#TopRight`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → AssistiveTouch → హాట్ కార్నర్‌లు → దిగువ ఎడమవైపు: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellCornersSpecifier#BottomLeft`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → AssistiveTouch → హాట్ కార్నర్‌లు → దిగువ కుడివైపు: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellCornersSpecifier#BottomRight`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → AssistiveTouch → విస్తరించబడిన అంచనాలు: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellExtendedPredictionsSpecifier`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → AssistiveTouch → డ్వెల్ కంట్రోల్ టైమ్‌ఔట్: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellTimeoutSpecifier`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → AssistiveTouch → AssistiveTouchతో నిర్ధారణ: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#APPLE_PAY_SWITCH`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → AssistiveTouch → టచ్ జెశ్చర్స్‌ను అమలు చేయండి: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#MouseBehavesLikeFinger`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → AssistiveTouch → గేమ్ కంట్రోలర్‌ను ఉపయోగించండి: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#EnableAssistiveTouchGameControllerSpecifier`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → AssistiveTouch → సౌండ్ యాక్షన్‌లు: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/SOUND_ACTIONS`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → AssistiveTouch → సౌండ్ యాక్షన్‌లు: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#SOUND_ACTIONS`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → డ్వెల్ కంట్రోల్: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → డ్వెల్ కంట్రోల్ → డ్వెల్ కంట్రోల్: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL#DWELL_CONTROL_TITLE`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → డ్వెల్ కంట్రోల్ → టార్గెట్: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL/DWELL_CONTROL_TARGET`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → డ్వెల్ కంట్రోల్ → మూవ్‌మెంట్ టోలరెన్స్: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL/DWELL_MOVEMENT_TOLERANCE`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → డ్వెల్ కంట్రోల్ → కంట్రోల్‌ను హైలైట్ చేయండి: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL#DWELL_HIGHLIGHT_CONTROL_TITLE`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → డ్వెల్ కంట్రోల్ → మీడియా ప్లేబ్యాక్ సమయంలో పాజ్ చేయండి: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL#DWELL_PAUSE_FOR_MEDIA_PLAYBACK_TITLE`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → డ్వెల్ కంట్రోల్ → స్క్రోల్ కంట్రోల్‌లను చూపండి: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL#AXDwellQuickScrollSpecifierID`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → డ్వెల్ కంట్రోల్ → మెన్యూను ఫాలో అవ్వండి: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL#AXDwellFollowSpecifierID`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → డ్వెల్ కంట్రోల్: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/#DwellEnabledSpecifier`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → టాప్ స్క్రీన్ అందుబాటు: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#REACHABILITY`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → హ్యాప్టిక్ టచ్: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → హ్యాప్టిక్ టచ్ → హ్యాప్టిక్ టచ్: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#ForceTouch`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → హ్యాప్టిక్ టచ్ → 3D Touch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#ForceTouchAccessibilityMainSwitch`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → హ్యాప్టిక్ టచ్ → 3D Touch సెన్సిటివిటీ: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#FourceTouchSensitivityGroupIdentifier`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → హ్యాప్టిక్ టచ్ → టచ్ వ్యవధి: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#timingGroup`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → హ్యాప్టిక్ టచ్ → టచ్ వ్యవధి టెస్ట్: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#FourceTouchSensitivityTestGroupIdentifier`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → టచ్ సౌలభ్యాలు: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → టచ్ సౌలభ్యాలు → టచ్ సౌలభ్యాలు: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#TOUCH_ACCOMMODATIONS_SWITCHER`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → టచ్ సౌలభ్యాలు → హోల్డ్ వ్యవధి: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#HoldDuration`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → టచ్ సౌలభ్యాలు → రిపీట్ చేయడాన్ని విస్మరించండి: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#IgnoreRepeat`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → టచ్ సౌలభ్యాలు → అసిస్టెన్స్‌పై ట్యాప్ చేయండి: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#Tap%20Assistance`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → యాక్టివేట్ చేయడానికి ట్యాప్ చేయండి: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TAP_TO_WAKE_TITLE`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → మేల్కొలపడానికి ట్యాప్ లేదా స్వైప్ చేయండి: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TAP_TOUCH_TO_WAKE_TITLE`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → అన్‌డూ చేయడానికి ఊపండి: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#SHAKE_TO_UNDO`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → వైబ్రేషన్: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#VIBRATION`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → కాల్‌ను ముగించడానికి లాక్‌ను నివారించండి: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#LockButtonIgnore`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → కాల్ ఆడియో రూటింగ్: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → కాల్ ఆడియో రూటింగ్ → కాల్ ఆడియో రూటింగ్: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → కాల్ ఆడియో రూటింగ్ → కాల్స్‌కు ఆటోమెటిక్‌గా సమాధానం ఇవ్వండి: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING/callAudioRoutingAutoAnswer`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → కాల్ ఆడియో రూటింగ్ → కాల్స్‌కు ఆటోమెటిక్‌గా సమాధానం ఇవ్వండి → కాల్స్‌కు ఆటోమెటిక్‌గా సమాధానం ఇవ్వండి: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING/callAudioRoutingAutoAnswer#callAudioRoutingAutoAnswer`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → వెనుకవైపు ట్యాప్ చేయండి: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/BackTap`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → వెనుకవైపు ట్యాప్ చేయండి → వెనుకవైపు ట్యాప్ చేయండి: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/BackTap#BackTap`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → వెనుకవైపు ట్యాప్ చేయండి → డబల్ ట్యాప్ చేయండి: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/BackTap/DoubleTap`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → వెనుకవైపు ట్యాప్ చేయండి → డబల్ ట్యాప్ చేయండి → డబల్ ట్యాప్ చేయండి: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/BackTap/DoubleTap#DoubleTap`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → వెనుకవైపు ట్యాప్ చేయండి → ట్రిపల్ ట్యాప్: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/BackTap/TripleTap`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → వెనుకవైపు ట్యాప్ చేయండి → ట్రిపల్ ట్యాప్ → ట్రిపల్ ట్యాప్: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/BackTap/TripleTap#TripleTap`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → పాయింటర్ కంట్రోల్: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → పాయింటర్ కంట్రోల్ → కాంట్రాస్ట్ పెంచండి: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#PointerIncreaseContrastSpecifier`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → పాయింటర్ కంట్రోల్ → ఆటోమేటిక్‌గా పాయింటర్‌ను దాస్తుంది: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#PointerAutoHideSpecifier`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → పాయింటర్ కంట్రోల్ → రంగు: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#PointerColorSpecifier`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → పాయింటర్ కంట్రోల్ → పాయింటర్ సైజ్: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#PointerSizeSpecifier`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → పాయింటర్ కంట్రోల్ → పాయింటర్ కంట్రోల్: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#PointerControlEnablingCell`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → పాయింటర్ కంట్రోల్ → నియంత్రణ: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer/POINTER_CONTROL_CONTROL`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → పాయింటర్ కంట్రోల్ → రంగు: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer/PointerColorSpecifier`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → పాయింటర్ కంట్రోల్ → రంగు → బోర్డర్ వెడల్పు: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer/PointerColorSpecifier#PointerStrokeWidth`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → పాయింటర్ కంట్రోల్ → ట్ర్యాక్‌ప్యాడ్‌ను విస్మరించండి: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#IgnoreTrackpad`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → పాయింటర్ కంట్రోల్ → ట్ర్యాక్‌ప్యాడ్ ఇనర్షియ: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#PointerInertia`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → పాయింటర్ కంట్రోల్ → పాయింటర్ యానిమేషన్‌లు: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#PointerCustomShapes`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → పాయింటర్ కంట్రోల్ → స్క్రోలింగ్ వేగం: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#DeviceScrollSpeed`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → కంట్రోల్ సెంటర్ కోసం పైన చూడండి: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/UPWARDS_HUD`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → కంట్రోల్ సెంటర్ కోసం పైన చూడండి → కంట్రోల్ సెంటర్ వర్టికల్ పొజిషన్: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/UPWARDS_HUD#UpwardsHUDPositionSpecifier`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → కంట్రోల్ సెంటర్ కోసం పైన చూడండి → కంట్రోల్ సెంటర్ కోసం పైన చూడండి: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/UPWARDS_HUD#UpwardsHUDToggleSpecifier`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → సౌండ్ యాక్షన్‌లు: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/SOUND_ACTIONS`
+- సౌలభ్య సాధనాలు → ఇంటరాక్షన్ → హెడ్‌లాక్ చేయని కంట్రోల్‌లకు ప్రాధాన్యత ఇవ్వండి: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#CAMERA_ANCHOR_ALTERNATIVE_Preference`
+- సౌలభ్య సాధనాలు → Face ID & అటెన్షన్: `prefs:root=ACCESSIBILITY&path=FACE_ID`
+- సౌలభ్య సాధనాలు → Face ID & అటెన్షన్ → Face ID కోసం అటెన్షన్ అవసరం: `prefs:root=ACCESSIBILITY&path=FACE_ID#PearlUnlockAttention`
+- సౌలభ్య సాధనాలు → Face ID & అటెన్షన్ → అటెన్షన్ అవేర్ ఫీచర్‌లు: `prefs:root=ACCESSIBILITY&path=FACE_ID#AttentionAware`
+- సౌలభ్య సాధనాలు → Face ID & అటెన్షన్ → విజయవంతంగా ప్రామాణీకరించినప్పుడు హ్యాప్టిక్‌ను ప్లే చేస్తుంది: `prefs:root=ACCESSIBILITY&path=FACE_ID#PearlSuccessHaptic`
+- సౌలభ్య సాధనాలు → స్విచ్ కంట్రోల్: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle`
+- సౌలభ్య సాధనాలు → స్విచ్ కంట్రోల్ → స్విచ్‌లు: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier`
+- సౌలభ్య సాధనాలు → స్విచ్ కంట్రోల్ → స్విచ్‌లు → స్విచ్‌లు: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier#SwitchesIdentifier`
+- సౌలభ్య సాధనాలు → స్విచ్ కంట్రోల్ → స్విచ్‌లు → కొత్త స్విచ్ జోడించండి…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier/AddSwitchIdentifier`
+- సౌలభ్య సాధనాలు → స్విచ్ కంట్రోల్ → స్విచ్‌లు → కొత్త స్విచ్ జోడించండి… → కొత్త స్విచ్ జోడించండి…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier/AddSwitchIdentifier#AddSwitchIdentifier`
+- సౌలభ్య సాధనాలు → స్విచ్ కంట్రోల్ → స్విచ్‌లు → Bluetooth డివైజ్‌లు…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier/BluetoothDevicesIdentifier`
+- సౌలభ్య సాధనాలు → స్విచ్ కంట్రోల్ → స్విచ్‌లు → Bluetooth డివైజ్‌లు… → Bluetooth డివైజ్‌లు…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier/BluetoothDevicesIdentifier/BluetoothDevicesIdentifier`
+- సౌలభ్య సాధనాలు → స్విచ్ కంట్రోల్ → స్విచ్‌లు → చెల్లని స్విచ్ సెటప్‌ను విస్మరించండి: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier#UpwardsHUDToggleSpecifier`
+- సౌలభ్య సాధనాలు → స్విచ్ కంట్రోల్ → రెసిపీలు: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/RecipesIdentifier`
+- సౌలభ్య సాధనాలు → స్విచ్ కంట్రోల్ → రెసిపీలు → రెసిపీలు: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/RecipesIdentifier#RecipesIdentifier`
+- సౌలభ్య సాధనాలు → స్విచ్ కంట్రోల్ → రెసిపీలు → కొత్త రెసిపీని సృష్టించండి…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/RecipesIdentifier/CreateNewRecipe`
+- సౌలభ్య సాధనాలు → స్విచ్ కంట్రోల్ → రెసిపీలు → కొత్త రెసిపీని సృష్టించండి… → కొత్త రెసిపీని సృష్టించండి…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/RecipesIdentifier/CreateNewRecipe#CreateNewRecipe`
+- సౌలభ్య సాధనాలు → స్విచ్ కంట్రోల్ → రెసిపీలు → రెసిపీని లాంచ్ చేయండి: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/RecipesIdentifier/LaunchRecipe`
+- సౌలభ్య సాధనాలు → స్విచ్ కంట్రోల్ → రెసిపీలు → రెసిపీని లాంచ్ చేయండి → రెసిపీని లాంచ్ చేయండి: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/RecipesIdentifier/LaunchRecipe#LaunchRecipe`
+- సౌలభ్య సాధనాలు → స్విచ్ కంట్రోల్ → స్కానింగ్ స్టైల్: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier`
+- సౌలభ్య సాధనాలు → స్విచ్ కంట్రోల్ → స్కానింగ్ స్టైల్ → స్కానింగ్ స్టైల్: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#ScanningStyleIdentifier`
+- సౌలభ్య సాధనాలు → స్విచ్ కంట్రోల్ → స్విచ్ కంట్రోల్ మోడ్: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/FirstLaunchScanningModeIdentifier`
+- సౌలభ్య సాధనాలు → స్విచ్ కంట్రోల్ → స్విచ్ కంట్రోల్ మోడ్ → స్విచ్ కంట్రోల్ మోడ్: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/FirstLaunchScanningModeIdentifier#FirstLaunchScanningModeIdentifier`
+- సౌలభ్య సాధనాలు → స్విచ్ కంట్రోల్ → ఆటోమేటిక్ స్కానింగ్ సమయం: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningSpeedIdentifier`
+- సౌలభ్య సాధనాలు → స్విచ్ కంట్రోల్ → ఆటోమేటిక్ స్కానింగ్ సమయం → ఆటోమేటిక్ స్కానింగ్ సమయం: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningSpeedIdentifier#NumericalPreferencePickerGroupIdentifier`
+- సౌలభ్య సాధనాలు → స్విచ్ కంట్రోల్ → మొదటి ఐటెమ్‌పై పాజ్ చేయండి: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/DelayAfterInputIdentifier`
+- సౌలభ్య సాధనాలు → స్విచ్ కంట్రోల్ → మొదటి ఐటెమ్‌పై పాజ్ చేయండి → మొదటి ఐటెమ్‌పై పాజ్ చేయండి: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/DelayAfterInputIdentifier#NumericalPreferenceSwitcherIdentifier`
+- సౌలభ్య సాధనాలు → స్విచ్ కంట్రోల్ → లూప్‌లు: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanCyclesIdentifier`
+- సౌలభ్య సాధనాలు → స్విచ్ కంట్రోల్ → లూప్‌లు → లూప్‌లు: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanCyclesIdentifier#ScanCyclesIdentifier`
+- సౌలభ్య సాధనాలు → స్విచ్ కంట్రోల్ → మూవ్ రిపీట్: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ActionRepeatIdentifier`
+- సౌలభ్య సాధనాలు → స్విచ్ కంట్రోల్ → మూవ్ రిపీట్ → మూవ్ రిపీట్: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ActionRepeatIdentifier#NumericalPreferenceSwitcherIdentifier`
+- సౌలభ్య సాధనాలు → స్విచ్ కంట్రోల్ → స్విచ్ కంట్రోల్ మోడ్: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSelectionGroupIdentifier`
+- సౌలభ్య సాధనాలు → స్విచ్ కంట్రోల్ → స్విచ్ కంట్రోల్ మోడ్ → గ్లైడింగ్ కర్సర్: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSelectionGroupIdentifier#POINTER_PICKER_ENABLED`
+- సౌలభ్య సాధనాలు → స్విచ్ కంట్రోల్ → నొక్కి ఉంచడం: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/LongPressIdentifier`
+- సౌలభ్య సాధనాలు → స్విచ్ కంట్రోల్ → నొక్కి ఉంచడం → నొక్కి ఉంచడం: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/LongPressIdentifier#NumericalPreferenceSwitcherIdentifier`
+- సౌలభ్య సాధనాలు → స్విచ్ కంట్రోల్ → ట్యాప్ ప్రవర్తన: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier`
+- సౌలభ్య సాధనాలు → స్విచ్ కంట్రోల్ → ట్యాప్ ప్రవర్తన → ట్యాప్ ప్రవర్తన: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#TapBehaviorIdentifier`
+- సౌలభ్య సాధనాలు → స్విచ్ కంట్రోల్ → ఫోకస్ చేయబడే ఐటెమ్: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanLocationIdentifier`
+- సౌలభ్య సాధనాలు → స్విచ్ కంట్రోల్ → ఫోకస్ చేయబడే ఐటెమ్ → ఫోకస్ చేయబడే ఐటెమ్: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanLocationIdentifier#ScanLocationIdentifier`
+- సౌలభ్య సాధనాలు → స్విచ్ కంట్రోల్ → ట్యాప్ చేసిన తర్వాత అదే కీని స్కాన్ చేయండి: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#RestartScanAtCurrentIdentifier`
+- సౌలభ్య సాధనాలు → స్విచ్ కంట్రోల్ → ఎల్లప్పుడూ కీబోర్డ్ ‘కీ’లను ట్యాప్ చేయండి: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AlwaysTapKeyboardIdentifier`
+- సౌలభ్య సాధనాలు → స్విచ్ కంట్రోల్ → విస్తరించబడిన అంచనాలు: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#UseExtendedKeyboardPredictionsIdentifier`
+- సౌలభ్య సాధనాలు → స్విచ్ కంట్రోల్ → హోల్డ్ వ్యవధి: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/HoldDurationIdentifier`
+- సౌలభ్య సాధనాలు → స్విచ్ కంట్రోల్ → హోల్డ్ వ్యవధి → హోల్డ్ వ్యవధి: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/HoldDurationIdentifier#NumericalPreferenceSwitcherIdentifier`
+- సౌలభ్య సాధనాలు → స్విచ్ కంట్రోల్ → రిపీట్ చేయడాన్ని విస్మరించండి: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/IgnoreRepeatIdentifier`
+- సౌలభ్య సాధనాలు → స్విచ్ కంట్రోల్ → రిపీట్ చేయడాన్ని విస్మరించండి → రిపీట్ చేయడాన్ని విస్మరించండి: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/IgnoreRepeatIdentifier#NumericalPreferenceSwitcherIdentifier`
+- సౌలభ్య సాధనాలు → స్విచ్ కంట్రోల్ → గ్లైడింగ్ కర్సర్: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier`
+- సౌలభ్య సాధనాలు → స్విచ్ కంట్రోల్ → గ్లైడింగ్ కర్సర్ → గ్లైడింగ్ కర్సర్: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#AxisSweepIdentifier`
+- సౌలభ్య సాధనాలు → స్విచ్ కంట్రోల్ → గ్లైడింగ్ కర్సర్ → ఎంపిక మోడ్: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleGroup`
+- సౌలభ్య సాధనాలు → స్విచ్ కంట్రోల్ → గ్లైడింగ్ కర్సర్ → గ్లైడింగ్ కర్సర్ వేగం: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#AxisSweepSpeed`
+- సౌలభ్య సాధనాలు → స్విచ్ కంట్రోల్ → హెడ్ ట్ర్యాకింగ్: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CameraPointPickerSwitch`
+- సౌలభ్య సాధనాలు → స్విచ్ కంట్రోల్ → హెడ్ ట్ర్యాకింగ్ → హెడ్ ట్ర్యాకింగ్: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CameraPointPickerSwitch#CameraPointPickerSwitcher`
+- సౌలభ్య సాధనాలు → స్విచ్ కంట్రోల్ → సౌండ్ ఎఫెక్ట్‌లు: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SoundIdentifier`
+- సౌలభ్య సాధనాలు → స్విచ్ కంట్రోల్ → స్పీచ్: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier`
+- సౌలభ్య సాధనాలు → స్విచ్ కంట్రోల్ → స్పీచ్ → వాయిస్‌లు: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#VoicesIdentifier`
+- సౌలభ్య సాధనాలు → స్విచ్ కంట్రోల్ → స్పీచ్ → ఐటెమ్ ఆట్రిబ్యూట్‌లను చెప్పండి: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#SPEECH_SPEAKS_TRAITS_LABEL`
+- సౌలభ్య సాధనాలు → స్విచ్ కంట్రోల్ → స్పీచ్ → మాట్లాడుతున్నప్పుడు పాజ్ చేయండి: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#SPEECH_PAUSES_SCANNING_LABEL`
+- సౌలభ్య సాధనాలు → స్విచ్ కంట్రోల్ → మెన్యూ ఐటెమ్‌లు: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier`
+- సౌలభ్య సాధనాలు → స్విచ్ కంట్రోల్ → మెన్యూ ఐటెమ్‌లు → మెన్యూ ఐటెమ్‌లు: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier#CustomizeMenuIdentifier`
+- సౌలభ్య సాధనాలు → స్విచ్ కంట్రోల్ → మెన్యూ ఐటెమ్‌లు → టాప్ లెవల్: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/TopLevel`
+- సౌలభ్య సాధనాలు → స్విచ్ కంట్రోల్ → మెన్యూ ఐటెమ్‌లు → టాప్ లెవల్ → టాప్ లెవల్: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/TopLevel#TopLevel`
+- సౌలభ్య సాధనాలు → స్విచ్ కంట్రోల్ → మెన్యూ ఐటెమ్‌లు → జెశ్చర్స్‌: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Gestures`
+- సౌలభ్య సాధనాలు → స్విచ్ కంట్రోల్ → మెన్యూ ఐటెమ్‌లు → జెశ్చర్స్‌ → జెశ్చర్స్‌: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Gestures#Gestures`
+- సౌలభ్య సాధనాలు → స్విచ్ కంట్రోల్ → మెన్యూ ఐటెమ్‌లు → డివైజ్: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Device`
+- సౌలభ్య సాధనాలు → స్విచ్ కంట్రోల్ → మెన్యూ ఐటెమ్‌లు → డివైజ్ → డివైజ్: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Device#Device`
+- సౌలభ్య సాధనాలు → స్విచ్ కంట్రోల్ → మెన్యూ ఐటెమ్‌లు → సెట్టింగ్స్: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Settings`
+- సౌలభ్య సాధనాలు → స్విచ్ కంట్రోల్ → మెన్యూ ఐటెమ్‌లు → సెట్టింగ్స్ → సెట్టింగ్స్: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Settings#Settings`
+- సౌలభ్య సాధనాలు → స్విచ్ కంట్రోల్ → మెన్యూ ఐటెమ్‌లు → మీడియా నియంత్రణలు: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/MediaControls`
+- సౌలభ్య సాధనాలు → స్విచ్ కంట్రోల్ → మెన్యూ ఐటెమ్‌లు → మీడియా నియంత్రణలు → మీడియా నియంత్రణలు: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/MediaControls#MediaControls`
+- సౌలభ్య సాధనాలు → స్విచ్ కంట్రోల్ → ఐటెమ్‌లను గ్రూప్‌గా చేయండి: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ItemGroupingIdentifier`
+- సౌలభ్య సాధనాలు → స్విచ్ కంట్రోల్ → పెద్ద కర్సర్: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CursorVisibilityIdentifier`
+- సౌలభ్య సాధనాలు → స్విచ్ కంట్రోల్ → సేవ్ చేయబడిన జెశ్చర్స్‌: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomGesturesIdentifier`
+- సౌలభ్య సాధనాలు → స్విచ్ కంట్రోల్ → సేవ్ చేయబడిన జెశ్చర్స్‌ → సేవ్ చేయబడిన జెశ్చర్స్‌: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomGesturesIdentifier#CustomGesturesIdentifier`
+- సౌలభ్య సాధనాలు → స్విచ్ కంట్రోల్ → సేవ్ చేయబడిన జెశ్చర్స్‌ → కొత్త జెశ్చర్‌ను సృష్టించండి…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomGesturesIdentifier/CreateCustomGesture`
+- సౌలభ్య సాధనాలు → స్విచ్ కంట్రోల్ → సేవ్ చేయబడిన జెశ్చర్స్‌ → కొత్త జెశ్చర్‌ను సృష్టించండి… → కొత్త జెశ్చర్‌ను సృష్టించండి…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomGesturesIdentifier/CreateCustomGesture#CreateCustomGesture`
+- సౌలభ్య సాధనాలు → స్విచ్ కంట్రోల్ → స్విచ్ కంట్రోల్‌తో నిర్ధారణ: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#APPLE_PAY_SWITCH`
+- సౌలభ్య సాధనాలు → స్విచ్ కంట్రోల్ → కర్సర్ రంగు: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CursorColorIdentifier`
+- సౌలభ్య సాధనాలు → స్విచ్ కంట్రోల్ → కర్సర్ రంగు → కర్సర్ రంగు: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CursorColorIdentifier#CursorColorIdentifier`
+- సౌలభ్య సాధనాలు → వాయిస్ కంట్రోల్: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle`
+- సౌలభ్య సాధనాలు → వాయిస్ కంట్రోల్ → వాయిస్ కంట్రోల్‌ను సెటప్ చేయండి: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#SETUP_COMMAND_AND_CONTROL`
+- సౌలభ్య సాధనాలు → వాయిస్ కంట్రోల్ → వాయిస్ కంట్రోల్ ట్యుటోరియల్‌ను తెరవండి: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#COMMAND_AND_CONTROL_LAUNCH_ONBOARDING`
+- సౌలభ్య సాధనాలు → వాయిస్ కంట్రోల్ → భాష: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_LANGUAGE`
+- సౌలభ్య సాధనాలు → వాయిస్ కంట్రోల్ → భాష → భాష: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_LANGUAGE#COMMAND_AND_CONTROL_LANGUAGE`
+- సౌలభ్య సాధనాలు → వాయిస్ కంట్రోల్ → కమాండ్‌లు: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS`
+- సౌలభ్య సాధనాలు → వాయిస్ కంట్రోల్ → కమాండ్‌లు → కమాండ్‌లు: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS#COMMAND_AND_CONTROL_COMMANDS`
+- సౌలభ్య సాధనాలు → వాయిస్ కంట్రోల్ → కమాండ్‌లు → కొత్త కమాండ్‌ను సృష్టించండి: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/CreateNewCommand`
+- సౌలభ్య సాధనాలు → వాయిస్ కంట్రోల్ → కమాండ్‌లు → కొత్త కమాండ్‌ను సృష్టించండి → కొత్త కమాండ్‌ను సృష్టించండి: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/CreateNewCommand#CreateNewCommand`
+- సౌలభ్య సాధనాలు → వాయిస్ కంట్రోల్ → కమాండ్‌లు → సాధారణ నావిగేషన్: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/System`
+- సౌలభ్య సాధనాలు → వాయిస్ కంట్రోల్ → కమాండ్‌లు → ఓవర్‌లేలు: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/Overlays`
+- సౌలభ్య సాధనాలు → వాయిస్ కంట్రోల్ → కమాండ్‌లు → సాధారణ జెశ్చర్స్‌: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/Gestures`
+- సౌలభ్య సాధనాలు → వాయిస్ కంట్రోల్ → కమాండ్‌లు → అధునాతన జెశ్చర్స్‌: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/DragDropGestures`
+- సౌలభ్య సాధనాలు → వాయిస్ కంట్రోల్ → కమాండ్‌లు → డిక్టేషన్: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/TextDictation`
+- సౌలభ్య సాధనాలు → వాయిస్ కంట్రోల్ → కమాండ్‌లు → టెక్స్ట్ నావిగేషన్: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/Movement`
+- సౌలభ్య సాధనాలు → వాయిస్ కంట్రోల్ → కమాండ్‌లు → టెక్స్ట్ ఎంపిక: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/Selection`
+- సౌలభ్య సాధనాలు → వాయిస్ కంట్రోల్ → కమాండ్‌లు → టెక్స్ట్ ఎడిట్ చేయబడుతోంది: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/Editing`
+- సౌలభ్య సాధనాలు → వాయిస్ కంట్రోల్ → కమాండ్‌లు → టెక్స్ట్ డిలీట్ చేయడం: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/AdvancedDeletion`
+- సౌలభ్య సాధనాలు → వాయిస్ కంట్రోల్ → కమాండ్‌లు → డివైజ్: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/Hardware`
+- సౌలభ్య సాధనాలు → వాయిస్ కంట్రోల్ → కమాండ్‌లు → సౌలభ్య సాధనాలు: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/Accessibility`
+- సౌలభ్య సాధనాలు → వాయిస్ కంట్రోల్ → కమాండ్‌లు → కస్టమ్ కమాండ్‌లను ఇంపోర్ట్ చేయండి: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/ImportCustomCommands`
+- సౌలభ్య సాధనాలు → వాయిస్ కంట్రోల్ → కమాండ్‌లు → కస్టమ్ కమాండ్‌లను ఇంపోర్ట్ చేయండి → కస్టమ్ కమాండ్‌లను ఇంపోర్ట్ చేయండి: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/ImportCustomCommands#ImportCustomCommands`
+- సౌలభ్య సాధనాలు → వాయిస్ కంట్రోల్ → పదజాలం: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_VOCABULARY`
+- సౌలభ్య సాధనాలు → వాయిస్ కంట్రోల్ → పదజాలం → పదజాలం: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_VOCABULARY/VOCABULARY`
+- సౌలభ్య సాధనాలు → వాయిస్ కంట్రోల్ → పదజాలం → పదజాలం → పదజాలం: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_VOCABULARY/VOCABULARY#VOCABULARY`
+- సౌలభ్య సాధనాలు → వాయిస్ కంట్రోల్ → పదజాలం → ముఖ్యమైన పదజాలం: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_VOCABULARY#IMPORT_VOCABULARY`
+- సౌలభ్య సాధనాలు → వాయిస్ కంట్రోల్ → పదజాలం → పదజాలాన్ని ఎక్స్‌పోర్ట్ చేయండి: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_VOCABULARY#EXPORT_VOCABULARY`
+- సౌలభ్య సాధనాలు → వాయిస్ కంట్రోల్ → పదజాలం → మొత్తం పదజాలాన్ని డిలీట్ చేయండి: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_VOCABULARY#DELETE_ALL_VOCABULARY`
+- సౌలభ్య సాధనాలు → వాయిస్ కంట్రోల్ → నిర్ధారణను చూపండి: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#SHOW_TEXT_RESPONSE_TITLE`
+- సౌలభ్య సాధనాలు → వాయిస్ కంట్రోల్ → సౌండ్‌ను ప్లే చేయండి: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#PLAY_SOUND_RESPONSE_TITLE`
+- సౌలభ్య సాధనాలు → వాయిస్ కంట్రోల్ → సూచనలను చూడండి: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#USER_HINTS_SHOW_HINTS_TITLE`
+- సౌలభ్య సాధనాలు → వాయిస్ కంట్రోల్ → ఓవర్‌లే: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY`
+- సౌలభ్య సాధనాలు → వాయిస్ కంట్రోల్ → ఓవర్‌లే → ఓవర్‌లే: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#ALWAYS_SHOW_OVERLAY`
+- సౌలభ్య సాధనాలు → వాయిస్ కంట్రోల్ → అటెన్షన్ అవేర్: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ATTENTION_AWARE_ACTION`
+- సౌలభ్య సాధనాలు → టాప్ బటన్/Touch ID: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE`
+- సౌలభ్య సాధనాలు → టాప్ బటన్/Touch ID → క్లిక్ వేగం: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_SPEED_HEADER`
+- సౌలభ్య సాధనాలు → టాప్ బటన్/Touch ID → మాట్లాడటానికి నొక్కి ఉంచండి: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantTitle`
+- సౌలభ్య సాధనాలు → టాప్ బటన్/Touch ID → హోమ్ బటన్: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE/HomeButtonAssistantTitle`
+- సౌలభ్య సాధనాలు → టాప్ బటన్/Touch ID → హోమ్ బటన్ → తెరవడానికి వేలిని అలాగే ఉంచండి: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE/HomeButtonAssistantTitle#RestingUnlockSetting`
+- సౌలభ్య సాధనాలు → టాప్ బటన్/Touch ID → స్విచ్ కంట్రోల్‌తో నిర్ధారణను ఎనేబల్ చేయండి: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#APPLE_PAY_CONFIRM_WITH_SC`
+- సౌలభ్య సాధనాలు → టాప్ బటన్/Touch ID → AssistiveTouchతో నిర్ధారణను ఎనేబల్ చేయండి: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#APPLE_PAY_CONFIRM_WITH_AST`
+- సౌలభ్య సాధనాలు → Apple TV రిమోట్: `prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE`
+- సౌలభ్య సాధనాలు → Apple TV రిమోట్ → డైరెక్షనల్ బటన్‌లు: `prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE#AppleTVSimpleGestures`
+- సౌలభ్య సాధనాలు → Apple TV రిమోట్ → లైవ్ TV బటన్‌లు: `prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE#AppleTVLiveTVButtons`
+- సౌలభ్య సాధనాలు → Apple Watch మిర్రరింగ్: `prefs:root=ACCESSIBILITY&path=APPLE_WATCH_REMOTE_SCREEN`
+- సౌలభ్య సాధనాలు → వినికిడి డివైజ్‌లు: `prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE`
+- సౌలభ్య సాధనాలు → వినికిడి డివైజ్‌లు → MFi వినికిడి డివైజ్‌లు: `prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#AvailableAidsHeading`
+- సౌలభ్య సాధనాలు → వినికిడి డివైజ్‌లు → వినికిడి సాధనం అనుకూలత: `prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#HEARING_AID_COMPLIANCE`
+- సౌలభ్య సాధనాలు → వినికిడి కంట్రోల్ సెంటర్: `prefs:root=ACCESSIBILITY&path=HEARING_CONTROL_CENTER`
+- సౌలభ్య సాధనాలు → వినికిడి కంట్రోల్ సెంటర్ → చేర్చబడిన కంట్రోల్‌లు: `prefs:root=ACCESSIBILITY&path=HEARING_CONTROL_CENTER#INCLUDED_MODULES_SECTION_TITLE`
+- సౌలభ్య సాధనాలు → వినికిడి కంట్రోల్ సెంటర్ → మరిన్ని కంట్రోల్‌లు: `prefs:root=ACCESSIBILITY&path=HEARING_CONTROL_CENTER#MORE_MODULES_SECTION_TITLE`
+- సౌలభ్య సాధనాలు → సౌండ్ రికగ్నిషన్: `prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE`
+- సౌలభ్య సాధనాలు → సౌండ్ రికగ్నిషన్ → సౌండ్‌లు: `prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE/Sounds`
+- సౌలభ్య సాధనాలు → సౌండ్ రికగ్నిషన్ → సౌండ్‌లు → సౌండ్‌లు: `prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE/Sounds#Sounds`
+- సౌలభ్య సాధనాలు → RTT/TTY: `prefs:root=ACCESSIBILITY&path=RTT`
+- సౌలభ్య సాధనాలు → RTT/TTY → సాఫ్ట్‌వేర్ RTT/TTY: `prefs:root=ACCESSIBILITY&path=RTT#SW_TTY`
+- సౌలభ్య సాధనాలు → RTT/TTY → హార్డ్‌వేర్ TTY: `prefs:root=ACCESSIBILITY&path=RTT#HW_TTY`
+- సౌలభ్య సాధనాలు → ఆడియో & విజువల్: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE`
+- సౌలభ్య సాధనాలు → ఆడియో & విజువల్ → హెడ్‌ఫోన్ అనుకూలీకరణలు: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID`
+- సౌలభ్య సాధనాలు → ఆడియో & విజువల్ → హెడ్‌ఫోన్ అనుకూలీకరణలు → హెడ్‌ఫోన్ అనుకూలీకరణలు: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID#AXPAEnableSpecID`
+- సౌలభ్య సాధనాలు → ఆడియో & విజువల్ → హెడ్‌ఫోన్ అనుకూలీకరణలు → కస్టమ్ ఆడియో సెటప్: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID#AXPAPersonalAudioSetupSpecID`
+- సౌలభ్య సాధనాలు → ఆడియో & విజువల్ → బ్యాక్‌గ్రౌండ్ సౌండ్‌లు: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID`
+- సౌలభ్య సాధనాలు → ఆడియో & విజువల్ → బ్యాక్‌గ్రౌండ్ సౌండ్‌లు → బ్యాక్‌గ్రౌండ్ సౌండ్‌లు: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID#CSFeatureToggleSpecID`
+- సౌలభ్య సాధనాలు → ఆడియో & విజువల్ → బ్యాక్‌గ్రౌండ్ సౌండ్‌లు → సౌండ్: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID/ComfortSoundSoundLabel`
+- సౌలభ్య సాధనాలు → ఆడియో & విజువల్ → బ్యాక్‌గ్రౌండ్ సౌండ్‌లు → సౌండ్ → సౌండ్: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID/ComfortSoundSoundLabel#ComfortSoundSoundLabel`
+- సౌలభ్య సాధనాలు → ఆడియో & విజువల్ → బ్యాక్‌గ్రౌండ్ సౌండ్‌లు → బ్యాక్‌గ్రౌండ్ సౌండ్‌ల వాల్యూమ్: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID#ComfortSoundsVolume`
+- సౌలభ్య సాధనాలు → ఆడియో & విజువల్ → బ్యాక్‌గ్రౌండ్ సౌండ్‌లు → మీడియా ప్లే అవుతున్నప్పుడు ఉపయోగించండి: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID#ComfortSoundsMixingName`
+- సౌలభ్య సాధనాలు → ఆడియో & విజువల్ → బ్యాక్‌గ్రౌండ్ సౌండ్‌లు → మీడియాతో వాల్యూమ్: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID#ComfortSoundsMixingVolume`
+- సౌలభ్య సాధనాలు → ఆడియో & విజువల్ → బ్యాక్‌గ్రౌండ్ సౌండ్‌లు → లాక్ చేయబడినప్పుడు సౌండ్‌లను ఆపివేయండి: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID#ComfortSoundsPlayWhenLockedName`
+- సౌలభ్య సాధనాలు → ఆడియో & విజువల్ → మోనో ఆడియో: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAMonoSpecID`
+- సౌలభ్య సాధనాలు → ఆడియో & విజువల్ → ఎల్లప్పుడూ వాల్యూమ్ కంట్రోల్‌ను చూపండి: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAAlwaysShowVolumeControlSpecID`
+- సౌలభ్య సాధనాలు → ఆడియో & విజువల్ → ఫోన్ నాయిస్ క్యాన్సిలేషన్: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPANoiseSpecID`
+- సౌలభ్య సాధనాలు → ఆడియో & విజువల్ → అలర్ట్‌ల కోసం LED ఫ్లాష్: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH`
+- సౌలభ్య సాధనాలు → ఆడియో & విజువల్ → అలర్ట్‌ల కోసం LED ఫ్లాష్ → అలర్ట్‌ల కోసం LED ఫ్లాష్: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_FLASH`
+- సౌలభ్య సాధనాలు → ఆడియో & విజువల్ → అలర్ట్‌ల కోసం LED ఫ్లాష్ → అన్‌లాక్ చేయబడే సమయంలో ఫ్లాష్: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_FLASH_WHILE_UNLOCKED`
+- సౌలభ్య సాధనాలు → ఆడియో & విజువల్ → అలర్ట్‌ల కోసం LED ఫ్లాష్ → సైలెంట్ మోడ్‌లో ఫ్లాష్ చేయండి: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_RINGER_SWITCH_CONTROL`
+- సౌలభ్య సాధనాలు → ఆడియో & విజువల్ → ఎడమ-కుడి స్టీరియో బ్యాలెన్స్: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#LeftRightBalance`
+- సౌలభ్య సాధనాలు → ఆడియో & విజువల్ → పవర్ ఆన్ & ఆఫ్ సౌండ్‌లు: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#StartupSound`
+- సౌలభ్య సాధనాలు → ఆడియో & విజువల్ → హెడ్‌ఫోన్ నోటిఫికేషన్‌లు: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXHeadphoneNotificationsSpecID`
+- సౌలభ్య సాధనాలు → ఆడియో & విజువల్ → వాయిస్ ఐసోలేషన్‌ను జోడించండి: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#ExtendedVoiceIsolationSpecID`
+- సౌలభ్య సాధనాలు → ఆడియో & విజువల్ → సౌండ్ ఎఫెక్ట్‌లు: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#SOUND_EFFECTS_PREFERENCE`
+- సౌలభ్య సాధనాలు → ఆడియో & విజువల్ → కాల్స్‌లో ఆడియోను జోడించండి: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/MIX_TO_UPLINK`
+- సౌలభ్య సాధనాలు → ఆడియో & విజువల్ → కాల్స్‌లో ఆడియోను జోడించండి → కాల్‌లలో ఆడియోను జోడించడానికి యాప్‌లకు అనుమతి ఇవ్వండి: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/MIX_TO_UPLINK#MIX_TO_UPLINK`
+- సౌలభ్య సాధనాలు → సబ్‌టైటిల్‌లు & క్యాప్షనింగ్: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING`
+- సౌలభ్య సాధనాలు → సబ్‌టైటిల్‌లు & క్యాప్షనింగ్ → స్టైల్: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING/currentTheme`
+- సౌలభ్య సాధనాలు → సబ్‌టైటిల్‌లు & క్యాప్షనింగ్ → స్టైల్ → స్టైల్: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING/currentTheme#currentTheme`
+- సౌలభ్య సాధనాలు → సబ్‌టైటిల్‌లు & క్యాప్షనింగ్ → క్లోజ్డ్ క్యాప్షన్‌లు + SDH: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#PREFER_SDH`
+- సౌలభ్య సాధనాలు → సబ్‌టైటిల్‌లు & క్యాప్షనింగ్ → ఆడియో ట్రాన్‌స్క్రిప్షన్‌లను చూడండి: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#SHOW_AUDIO_TRANSCRIPTIONS`
+- సౌలభ్య సాధనాలు → సబ్‌టైటిల్‌లు & క్యాప్షనింగ్ → మ్యూట్ చేయబడినప్పుడు చూపండి: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#SHOW_WHEN_MUTED`
+- సౌలభ్య సాధనాలు → సబ్‌టైటిల్‌లు & క్యాప్షనింగ్ → వెనుకకు దాటవేసినప్పుడు చూపండి: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#SHOW_ON_SKIP_BACK`
+- సౌలభ్య సాధనాలు → లైవ్ క్యాప్షన్‌లు: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION`
+- సౌలభ్య సాధనాలు → లైవ్ క్యాప్షన్‌లు → లైవ్ క్యాప్షన్‌లు: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION#LIVE_TRANSCRIPTION_TITLE`
+- సౌలభ్య సాధనాలు → లైవ్ క్యాప్షన్‌లు → కనిపించే తీరు: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE`
+- సౌలభ్య సాధనాలు → లైవ్ క్యాప్షన్‌లు → కనిపించే తీరు → కనిపించే తీరు: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE#LIVE_TRANSCRIPTION_APPEARANCE`
+- సౌలభ్య సాధనాలు → లైవ్ క్యాప్షన్‌లు → కనిపించే తీరు → బోల్డ్ టెక్స్ట్: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE/ENHANCE_TEXT_LEGIBILITY`
+- సౌలభ్య సాధనాలు → లైవ్ క్యాప్షన్‌లు → కనిపించే తీరు → బోల్డ్ టెక్స్ట్ → బోల్డ్ టెక్స్ట్: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE/ENHANCE_TEXT_LEGIBILITY#ENHANCE_TEXT_LEGIBILITY`
+- సౌలభ్య సాధనాలు → లైవ్ క్యాప్షన్‌లు → కనిపించే తీరు → టెక్స్ట్ సైజ్: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE/LARGER_TEXT`
+- సౌలభ్య సాధనాలు → లైవ్ క్యాప్షన్‌లు → కనిపించే తీరు → టెక్స్ట్ సైజ్ → టెక్స్ట్ సైజ్: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE/LARGER_TEXT#LARGER_TEXT`
+- సౌలభ్య సాధనాలు → లైవ్ క్యాప్షన్‌లు → కనిపించే తీరు → రంగు ఎంపికలు: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE#LIVE_TRANSCRIPTION_COLOR_OPTIONS`
+- సౌలభ్య సాధనాలు → లైవ్ క్యాప్షన్‌లు → కనిపించే తీరు → టెక్స్ట్ రంగు: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE#LIVE_TRANSCRIPTION_TEXT_COLOR`
+- సౌలభ్య సాధనాలు → లైవ్ క్యాప్షన్‌లు → కనిపించే తీరు → బ్యాక్‌గ్రౌండ్ కలర్: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE#LIVE_TRANSCRIPTION_BACKGROUND_COLOR`
+- సౌలభ్య సాధనాలు → లైవ్ క్యాప్షన్‌లు → కనిపించే తీరు → రంగులను రీసెట్ చేయండి: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE#LIVE_TRANSCRIPTION_RESET_COLORS`
+- సౌలభ్య సాధనాలు → లైవ్ క్యాప్షన్‌లు → కనిపించే తీరు → ఐడిల్ అపారదర్శకత: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE#LIVE_CAPTIONS_IDLE_OPACITY_TITLE`
+- సౌలభ్య సాధనాలు → లైవ్ క్యాప్షన్‌లు → FaceTimeలో లైవ్ క్యాప్షన్‌లు: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION#FACE_TIME_CAPTIONS`
+- సౌలభ్య సాధనాలు → గైడెడ్ యాక్సెస్: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE`
+- సౌలభ్య సాధనాలు → గైడెడ్ యాక్సెస్ → పాస్‌కోడ్ సెట్టింగ్‌లు: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessSecurityLinkList`
+- సౌలభ్య సాధనాలు → గైడెడ్ యాక్సెస్ → పాస్‌కోడ్ సెట్టింగ్‌లు → పాస్‌కోడ్ సెట్టింగ్‌లు: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessSecurityLinkList#GuidedAccessSecurityLinkList`
+- సౌలభ్య సాధనాలు → గైడెడ్ యాక్సెస్ → పాస్‌కోడ్ సెట్టింగ్‌లు → గైడెడ్ యాక్సెస్ పాస్‌కోడ్‌ను సెట్ చేయండి: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessSecurityLinkList#GAXPinButton`
+- సౌలభ్య సాధనాలు → గైడెడ్ యాక్సెస్ → పాస్‌కోడ్ సెట్టింగ్‌లు → Touch ID: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessSecurityLinkList#GAXSpecIDTouchIDSwitch`
+- సౌలభ్య సాధనాలు → గైడెడ్ యాక్సెస్ → సమయ పరిమితులు: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList`
+- సౌలభ్య సాధనాలు → గైడెడ్ యాక్సెస్ → సమయ పరిమితులు → సమయ పరిమితులు: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GuidedAccessTimeRestrictionsLinkList`
+- సౌలభ్య సాధనాలు → గైడెడ్ యాక్సెస్ → సమయ పరిమితులు → సౌండ్: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList/GUIDED_ACCESS_TIME_RESTRICTIONS_SOUND_TITLE`
+- సౌలభ్య సాధనాలు → గైడెడ్ యాక్సెస్ → సమయ పరిమితులు → సౌండ్ → సౌండ్: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList/GUIDED_ACCESS_TIME_RESTRICTIONS_SOUND_TITLE#GUIDED_ACCESS_TIME_RESTRICTIONS_SOUND_TITLE`
+- సౌలభ్య సాధనాలు → గైడెడ్ యాక్సెస్ → సమయ పరిమితులు → మాట్లాడండి: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_SPEAK_TITLE`
+- సౌలభ్య సాధనాలు → గైడెడ్ యాక్సెస్ → సౌలభ్య సాధనాల షార్ట్‌కట్: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessEnableAXFeatures`
+- సౌలభ్య సాధనాలు → గైడెడ్ యాక్సెస్ → ఆటో-లాక్‌ను డిస్‌ప్లే చేయండి: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessAutoLockTime`
+- సౌలభ్య సాధనాలు → గైడెడ్ యాక్సెస్ → ఆటో-లాక్‌ను డిస్‌ప్లే చేయండి → ఆటో-లాక్‌ను డిస్‌ప్లే చేయండి: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessAutoLockTime#GuidedAccessAutoLockTime`
+- సౌలభ్య సాధనాలు → అసిస్టివ్ యాక్సెస్: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE`
+- సౌలభ్య సాధనాలు → అసిస్టివ్ యాక్సెస్ → అసిస్టివ్ యాక్సెస్‌ను సెటప్ చేయండి: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#SetUpClarityUISpecifier`
+- సౌలభ్య సాధనాలు → అసిస్టివ్ యాక్సెస్ → అసిస్టివ్ యాక్సెస్‌ను ప్రారంభించండి: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#ClarityUIStart`
+- సౌలభ్య సాధనాలు → అసిస్టివ్ యాక్సెస్ → అప్లికేషన్‌లు: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#Applications`
+- సౌలభ్య సాధనాలు → అసిస్టివ్ యాక్సెస్ → ఎంపికలు: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#Options`
+- సౌలభ్య సాధనాలు → అసిస్టివ్ యాక్సెస్ → వాల్‌పేపర్: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE/Wallpaper`
+- సౌలభ్య సాధనాలు → అసిస్టివ్ యాక్సెస్ → వాల్‌పేపర్ → వాల్‌పేపర్: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE/Wallpaper#Wallpaper`
+- సౌలభ్య సాధనాలు → అసిస్టివ్ యాక్సెస్ → వాల్యూమ్ బటన్‌లను అనుమతించండి: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#VolumeButtons`
+- సౌలభ్య సాధనాలు → అసిస్టివ్ యాక్సెస్ → లాక్ స్క్రీన్‌పై సమయాన్ని చూపండి: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#ShowTime`
+- సౌలభ్య సాధనాలు → అసిస్టివ్ యాక్సెస్ → హోమ్ స్క్రీన్‌పై బ్యాటరీ స్థాయిని చూపండి: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#ShowBattery`
+- సౌలభ్య సాధనాలు → అసిస్టివ్ యాక్సెస్ → నోటిఫికేషన్ బ్యాడ్జ్‌లను చూడండి: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#ShowNotification`
+- సౌలభ్య సాధనాలు → అసిస్టివ్ యాక్సెస్ → Siriని అనుమతించండి: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#AllowSiri`
+- సౌలభ్య సాధనాలు → అసిస్టివ్ యాక్సెస్ → పాస్‌కోడ్ సెట్టింగ్‌లు: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE/PasscodeSettings`
+- సౌలభ్య సాధనాలు → అసిస్టివ్ యాక్సెస్ → పాస్‌కోడ్ సెట్టింగ్‌లు → పాస్‌కోడ్ సెట్టింగ్‌లు: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE/PasscodeSettings#PasscodeSettings`
+- సౌలభ్య సాధనాలు → Siri: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE`
+- సౌలభ్య సాధనాలు → Siri → Siriకి చెప్పడానికి టైప్ చేయండి: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_SETTINGS_TYPE_TO_SIRI`
+- సౌలభ్య సాధనాలు → Siri → Siri పాజ్ టైమ్: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#ENDPOINTER`
+- సౌలభ్య సాధనాలు → Siri → Siri మాట్లాడే వేగం: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SPEECH_RATE`
+- సౌలభ్య సాధనాలు → Siri → మాటలతో ఇచ్చే ప్రతిస్పందనలు: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK`
+- సౌలభ్య సాధనాలు → Siri → నిరంతరం “Siri” కోసం వింటుంది: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_SETTINGS_VOICE_ACTIVATION_ALWAYS_ALLOW`
+- సౌలభ్య సాధనాలు → Siri → Siri వెనుక యాప్‌లను చూపించండి: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRL_SHOW_APPS`
+- సౌలభ్య సాధనాలు → Siri → నోటిఫికేషన్‌లను స్పీకర్‌లో అనౌన్స్ చేస్తుంది: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#ANNOUNCE_NOTIFICATIONS_BUILT_IN_SPEAKER_ID`
+- సౌలభ్య సాధనాలు → Siri → కాల్ ముగించండి: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE/SIRI_CALL_HANGUP_ID`
+- సౌలభ్య సాధనాలు → Siri → కాల్ ముగించండి → కాల్ ముగించండి: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE/SIRI_CALL_HANGUP_ID#SIRI_CALL_HANGUP_ID`
+- సౌలభ్య సాధనాలు → Siri → విలక్షణ స్పీచ్ కోసం వినండి: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_ATYPICAL_SPEECH`
+- సౌలభ్య సాధనాలు → Siri → అంతరాయాలకు “Siri” అవసరం: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_BARGE`
+- సౌలభ్య సాధనాలు → సౌలభ్య సాధనాల షార్ట్‌కట్: `prefs:root=ACCESSIBILITY&path=TRIPLE_CLICK_TITLE`
+- సౌలభ్య సాధనాలు → వేర్వేరు యాప్ సెట్టింగ్‌లు: `prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE`
+- సౌలభ్య సాధనాలు → వేర్వేరు యాప్ సెట్టింగ్‌లు → దాచబడిన యాప్‌లను చూపండి: `prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE#PROTECTED_APPS_SHOW_HIDDEN_TITLE`
+- సౌలభ్య సాధనాలు → వేర్వేరు యాప్ సెట్టింగ్‌లు → యాప్ జోడించండి: `prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE#AX_ADD_BUTTON_IDENTIFIER`
+- సౌలభ్య సాధనాలు → సమీప డివైజ్‌ల నియంత్రణ: `prefs:root=ACCESSIBILITY&path=CONTROL_NEARBY_DEVICES`
+- సౌలభ్య సాధనాలు → సమీప డివైజ్‌ల నియంత్రణ → సమీప డివైజ్‌ల నియంత్రణ: `prefs:root=ACCESSIBILITY&path=CONTROL_NEARBY_DEVICES#CONTROL_NEARBY_DEVICES`
+- సౌలభ్య సాధనాలు → కంటి ఇన్‌పుట్: `prefs:root=ACCESSIBILITY&path=DOMINANT_EYE`
+- సౌలభ్య సాధనాలు → లైవ్ స్పీచ్: `prefs:root=ACCESSIBILITY&path=LIVE_SPEECH_TITLE`
+- సౌలభ్య సాధనాలు → లైవ్ స్పీచ్ → పదబంధాలు: `prefs:root=ACCESSIBILITY&path=LIVE_SPEECH_TITLE/LiveSpeechCategoryManagement`
+- సౌలభ్య సాధనాలు → లైవ్ స్పీచ్ → వాయిస్‌లు: `prefs:root=ACCESSIBILITY&path=LIVE_SPEECH_TITLE#LIVE_SPEECH_VOICES`
+- సౌలభ్య సాధనాలు → వ్యక్తిగత వాయిస్: `prefs:root=ACCESSIBILITY&path=PERSONAL_VOICE_TITLE`
+- సౌలభ్య సాధనాలు → వ్యక్తిగత వాయిస్ → వ్యక్తిగత వాయిస్‌ను సృష్టించండి: `prefs:root=ACCESSIBILITY&path=PERSONAL_VOICE_TITLE#VB_CREATE_PERSONAL_VOICE`
+- సౌలభ్య సాధనాలు → వ్యక్తిగత వాయిస్ → అన్ని డివైజ్‌లకు షేర్ చేయండి: `prefs:root=ACCESSIBILITY&path=PERSONAL_VOICE_TITLE#VB_USE_ICLOUD_TITLE`
+- సౌలభ్య సాధనాలు → వ్యక్తిగత వాయిస్ → ఉపయోగించడానికి అభ్యర్థించడం కోసం యాప్‌లను అనుమతించండి: `prefs:root=ACCESSIBILITY&path=PERSONAL_VOICE_TITLE#VB_ALLOW_WITH_APPS`
+- సౌలభ్య సాధనాలు → AirPods: `prefs:root=ACCESSIBILITY&path=AIRPODS`
+- సౌలభ్య సాధనాలు → AirPods → నొక్కే వేగం: `prefs:root=ACCESSIBILITY&path=AIRPODS#TapGroup`
+- సౌలభ్య సాధనాలు → AirPods → నొక్కి ఉంచే వ్యవధి: `prefs:root=ACCESSIBILITY&path=AIRPODS#HoldGroup`
+- సౌలభ్య సాధనాలు → AirPods → iPhone ఆడియో & విజువల్ సెట్టింగ్‌లు: `prefs:root=ACCESSIBILITY&path=AIRPODS#PERSONAL_AUDIO_AIRPODS_BUTTON`
+- సౌలభ్య సాధనాలు → AirPods → iPhoneను ఫాలో చేస్తాయి: `prefs:root=ACCESSIBILITY&path=AIRPODS#SPATIAL_AUDIO_SWITCH`
+- సౌలభ్య సాధనాలు → AirPods → టోన్ వాల్యూమ్: `prefs:root=ACCESSIBILITY&path=AIRPODS#TONE_VOLUME`
+- సౌలభ్య సాధనాలు → వోకల్ షార్ట్‌కట్‌లు: `prefs:root=ACCESSIBILITY&path=ADAPTIVE_VOICE_SHORTCUTS_TITLE`
+- సౌలభ్య సాధనాలు → వోకల్ షార్ట్‌కట్‌లు → వోకల్ షార్ట్‌కట్‌లను సెట్ చేయండి: `prefs:root=ACCESSIBILITY&path=ADAPTIVE_VOICE_SHORTCUTS_TITLE#AVS_SET_UP_BUTTON_TITLE`
+- సౌలభ్య సాధనాలు → సంగీత హ్యాప్టిక్‌లు: `prefs:root=ACCESSIBILITY&path=HAPTIC_MUSIC`
+- సౌలభ్య సాధనాలు → కంటి ట్ర్యాకింగ్: `prefs:root=ACCESSIBILITY&path=OnDeviceEyeTracking`
+- సౌలభ్య సాధనాలు → కంటి ట్ర్యాకింగ్ → కంటి ట్ర్యాకింగ్: `prefs:root=ACCESSIBILITY&path=OnDeviceEyeTracking#OnDeviceEyeTrackingEnabledSpecifier`
+- సౌలభ్య సాధనాలు → కంటి ట్ర్యాకింగ్ → స్మూతింగ్: `prefs:root=ACCESSIBILITY&path=OnDeviceEyeTracking#SMOOTHING`
+- సౌలభ్య సాధనాలు → కంటి ట్ర్యాకింగ్ → ఐటెమ్‌కు స్నాప్ చేయండి: `prefs:root=ACCESSIBILITY&path=OnDeviceEyeTracking#SNAP_TO_ITEM`
+- సౌలభ్య సాధనాలు → కంటి ట్ర్యాకింగ్ → కీబోర్డ్ కీల మీద జూమ్ చేయండి: `prefs:root=ACCESSIBILITY&path=OnDeviceEyeTracking#KEYBOARD_ZOOM`
+- సౌలభ్య సాధనాలు → కంటి ట్ర్యాకింగ్ → ఆటోమేటిక్‌గా దాస్తుంది: `prefs:root=ACCESSIBILITY&path=OnDeviceEyeTracking#AUTO_HIDE`
+- సౌలభ్య సాధనాలు → కంటి ట్ర్యాకింగ్ → డ్వెల్ కంట్రోల్: `prefs:root=ACCESSIBILITY&path=OnDeviceEyeTracking#DWELL_CONTROL`
+- సౌలభ్య సాధనాలు → కెమెరా కంట్రోల్: `prefs:root=ACCESSIBILITY&path=CAMERA_CONTROL`
+- సౌలభ్య సాధనాలు → కెమెరా కంట్రోల్ → కెమెరా కంట్రోల్: `prefs:root=ACCESSIBILITY&path=CAMERA_CONTROL#CAMERA_CONTROL_SWITCH`
+- సౌలభ్య సాధనాలు → కెమెరా కంట్రోల్ → తేలికగా నొక్కండి: `prefs:root=ACCESSIBILITY&path=CAMERA_CONTROL#LIGHT_PRESS`
+- సౌలభ్య సాధనాలు → కెమెరా కంట్రోల్ → స్వైప్: `prefs:root=ACCESSIBILITY&path=CAMERA_CONTROL#SWIPE`
+- సౌలభ్య సాధనాలు → కెమెరా కంట్రోల్ → తేలికగా నొక్కే ఫోర్స్: `prefs:root=ACCESSIBILITY&path=CAMERA_CONTROL#LIGHT_PRESS_FORCE`
+- సౌలభ్య సాధనాలు → కెమెరా కంట్రోల్ → వేగంగా రెండుసార్లు తేలికగా నొక్కండి: `prefs:root=ACCESSIBILITY&path=CAMERA_CONTROL#SENSITIVITY`
+- మెయిల్: `prefs:root=MAIL`
+- మెయిల్ → ఖాతాలు: `prefs:root=MAIL&path=ACCOUNTS`
+- మెయిల్ → ఖాతాలు → ఖాతాను జోడించండి: `prefs:root=MAIL&path=ACCOUNTS#ADD_ACCOUNT`
+- మెయిల్ → ఖాతాలు → కొత్త డేటా పొందండి: `prefs:root=MAIL&path=ACCOUNTS#FETCH_NEW_DATA`
+- మెయిల్ → ప్రివ్యూ: `prefs:root=MAIL&path=Preview`
+- మెయిల్ → To/Cc లేబల్‌లను చూపండి: `prefs:root=MAIL#Show%20To/Cc%20Labels`
+- మెయిల్ → స్వైప్ ఎంపికలు: `prefs:root=MAIL&path=Swipe%20Options`
+- మెయిల్ → డిలీట్ చేసే ముందు అడగాలి: `prefs:root=MAIL#Ask%20Before%20Deleting`
+- మెయిల్ → రిమోట్ ఇమేజ్‌లను లోడ్ చేయండి: `prefs:root=MAIL#Load%20Remote%20Images`
+- మెయిల్ → థ్రెడ్ వారీగా అమర్చండి: `prefs:root=MAIL#Organize%20by%20Thread`
+- మెయిల్ → చదివిన సందేశాలను కుదించండి: `prefs:root=MAIL#Collapse%20Read%20Messages`
+- మెయిల్ → అత్యంత ఇటీవలి సందేశం అన్నింటి కంటే ఎగువన: `prefs:root=MAIL#Most%20Recent%20Message%20on%20Top`
+- మెయిల్ → పూర్తి థ్రెడ్‌లు: `prefs:root=MAIL#Complete%20Threads`
+- మెయిల్ → మ్యూట్ చేయబడిన థ్రెడ్ యాక్షన్: `prefs:root=MAIL&path=Muted%20Thread%20Action`
+- మెయిల్ → బ్లాక్ చేసిన సెండర్‌లను విస్మరించండి: `prefs:root=MAIL#Ignore%20Blocked%20Senders`
+- మెయిల్ → బ్లాక్ చేయబడిన సెండర్ ఎంపికలు: `prefs:root=MAIL&path=Blocked%20Sender%20Options`
+- మెయిల్ → బ్లాక్ చేయబడింది: `prefs:root=MAIL&path=Blocked`
+- మెయిల్ → ఎల్లప్పుడూ నన్ను Bccలో ఉంచండి: `prefs:root=MAIL#Always%20Bcc%20Myself`
+- మెయిల్ → చిరునామాలను మార్క్ చేయండి: `prefs:root=MAIL&path=Mark%20Addresses`
+- మెయిల్ → కోట్ లెవల్ పెంచండి: `prefs:root=MAIL&path=Increase%20Quote%20Level`
+- మెయిల్ → రిప్లైలలో అటాచ్‌మెంట్‌లు చేర్చండి: `prefs:root=MAIL&path=Include%20Attachments%20with%20Replies`
+- మెయిల్ → సిగ్నేచర్: `prefs:root=MAIL&path=Signature`
+- వాల్‌పేపర్: `prefs:root=Wallpaper`
+- నోట్స్: `prefs:root=NOTES`
+- నోట్స్ → డిఫాల్ట్ ఖాతా: `prefs:root=NOTES&path=Default%20Account`
+- నోట్స్ → పాస్‌వర్డ్: `prefs:root=NOTES&path=Password`
+- నోట్స్ → దీని వారీగా నోట్స్ సార్ట్ చేయండి: `prefs:root=NOTES&path=Sort%20Notes%20By`
+- నోట్స్ → దీనితో కొత్త నోట్స్‌ను ప్రారంభించండి: `prefs:root=NOTES&path=New%20Notes%20Start%20With`
+- నోట్స్ → చెక్ చేసిన ఐటెమ్‌లు సార్ట్ చేయండి: `prefs:root=NOTES&path=Sort%20Checked%20Items`
+- నోట్స్ → లైన్‌లు, గ్రిడ్‌లు: `prefs:root=NOTES&path=Lines%20%26%20Grids`
+- నోట్స్ → 'ఫోటోస్'లో సేవ్ చేయండి: `prefs:root=NOTES#Save%20to%20Photos`
+- నోట్స్ → లాక్ స్క్రీన్ నుండి నోట్స్‌ను యాక్సెస్ చేయండి: `prefs:root=NOTES&path=Access%20Notes%20from%20Lock%20Screen`
+- పాస్‌కోడ్: `prefs:root=PASSCODE`
+- పాస్‌కోడ్ → పాస్‌కోడ్‌ను ఆఫ్ చేయండి: `prefs:root=PASSCODE#PASSCODE_OFF`
+- పాస్‌కోడ్ → పాస్‌కోడ్‌ను మార్చండి: `prefs:root=PASSCODE#CHANGE_PASSCODE`
+- పాస్‌కోడ్ → పాస్‌కోడ్ అవసరం: `prefs:root=PASSCODE&path=PASSCODE_REQ`
+- పాస్‌కోడ్ → వాయిస్ డయల్: `prefs:root=PASSCODE#VOICE_DIAL`
+- పాస్‌కోడ్ → లాక్‌లో ఉన్నప్పుడు యాక్సెస్‌ను అనుమతించండి: `prefs:root=PASSCODE#ALLOW_ACCESS_WHEN_LOCKED`
+- పాస్‌కోడ్ → సందేశంతో రిప్లై ఇవ్వండి: `prefs:root=PASSCODE#REPLY_WITH_MESSAGE_SWITCH`
+- పాస్‌కోడ్ → హోమ్ కంట్రోల్: `prefs:root=PASSCODE#HOME_CONTROL_SWITCH`
+- పాస్‌కోడ్ → వాలెట్: `prefs:root=PASSCODE#WALLET_SWITCH`
+- పాస్‌కోడ్ → మిస్డ్ కాల్స్‌కు తిరిగి కాల్ చేయండి: `prefs:root=PASSCODE#RETURN_MISSED_CALLS_SWITCH`
+- పాస్‌కోడ్ → డేటాను ఎరేజ్ చేయండి: `prefs:root=PASSCODE#WIPE_DEVICE`
+- పాస్‌కోడ్ → Apple Watchతో అన్‌లాక్ చేయండి: `prefs:root=PASSCODE#AUTO_UNLOCK_DEVICES_GROUP`
+- పాస్‌కోడ్ → దొంగిలించబడిన డివైజ్ రక్షణ: `prefs:root=PASSCODE#DTO_GROUP_ID`
+- క్యాలెండర్: `prefs:root=CALENDAR`
+- క్యాలెండర్ → టైమ్ జోన్ ఓవర్‌రైడ్: `prefs:root=CALENDAR&path=TimeZoneCityArray`
+- క్యాలెండర్ → ప్రత్యామ్నాయ క్యాలెండర్‌లు: `prefs:root=CALENDAR&path=Alternate%20Calendars`
+- క్యాలెండర్ → వార సంఖ్యలు: `prefs:root=CALENDAR#Week%20Numbers`
+- క్యాలెండర్ → ఆహ్వానించిన వారి తిరస్కరణలు చూపండి: `prefs:root=CALENDAR#Show%20Invitee%20Declines`
+- క్యాలెండర్ → సింక్: `prefs:root=CALENDAR&path=Sync`
+- క్యాలెండర్ → డిఫాల్ట్ అలర్ట్ సమయాలు: `prefs:root=CALENDAR&path=Default%20Alert%20Times`
+- క్యాలెండర్ → ఈరోజు నుండి వారాన్ని ప్రారంభించండి: `prefs:root=CALENDAR&path=Start%20Week%20On`
+- క్యాలెండర్ → లొకేషన్ సూచనలు: `prefs:root=CALENDAR#Location%20Suggestions`
+- ఆరోగ్య సంబంధ డేటా: `prefs:root=HEALTH`
+- ఫోన్: `prefs:root=Phone`
+- ఫోన్ → నా నంబర్: `prefs:root=Phone&path=My%20Number`
+- ఫోన్ → ఇన్‌కమింగ్ కాల్స్: `prefs:root=Phone&path=INCOMING_CALL_STYLE`
+- ఫోన్ → కాల్స్‌ను అనౌన్స్ చేయండి: `prefs:root=Phone&path=ANNOUNCE_CALLS`
+- ఫోన్ → SMS/కాల్ రిపోర్టింగ్: `prefs:root=Phone&path=CLASSIFICATION_AND_REPORTING`
+- ఫోన్ → టెక్స్ట్‌తో ప్రతిస్పందించండి: `prefs:root=Phone&path=Respond%20with%20Text`
+- ఫోన్ → కాల్ ఫార్వర్డింగ్: `prefs:root=Phone&path=Call%20Forwarding`
+- ఫోన్ → కాల్ ఫార్వర్డింగ్ → కాల్ ఫార్వర్డింగ్: `prefs:root=Phone&path=Call%20Forwarding#idMasterOnOffSwitch`
+- ఫోన్ → కాల్ వెయిటింగ్: `prefs:root=Phone&path=Call%20Waiting`
+- ఫోన్ → నా కాలర్ ID చూపండి: `prefs:root=Phone&path=Show%20My%20Caller%20ID`
+- ఫోన్ → నా కాలర్ ID చూపండి → నా కాలర్ ID చూపండి: `prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary`
+- ఫోన్ → నా కాలర్ ID చూపండి → నా కాలర్ ID చూపండి → నా కాలర్ ID చూపండి: `prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary#Show%20My%20Caller%20ID`
+- ఫోన్ → తెలియని కాలర్‌లను నిశబ్దపరచు: `prefs:root=Phone#SILENCE_CALLS`
+- ఫోన్ → బ్లాక్ చేయబడిన కాంటాక్ట్‌లు: `prefs:root=Phone&path=SPECIFIER_IDENTIFIER_BLACKLIST`
+- ఫోన్ → డయల్ సహాయం: `prefs:root=Phone&path=Dial%20Assist`
+- App Store: `prefs:root=STORE`
+- App Store → ఆటోమేటిక్ డౌన్‌లోడ్‌లు: `prefs:root=STORE#Automatic%20Downloads`
+- App Store → యాప్ అప్‌డేట్‌లు: `prefs:root=STORE#App%20Updates`
+- App Store → యాప్ డౌన్‌లోడ్‌లు: `prefs:root=STORE&path=App%20Downloads`
+- App Store → వీడియో ఆటోప్లే: `prefs:root=STORE&path=Video%20Autoplay`
+- App Store → ఇన్-యాప్ రేటింగ్‌లు, రివ్యూలు: `prefs:root=STORE#In-App%20Ratings%20&%20Reviews`
+- గోప్యత, భద్రత: `prefs:root=Privacy` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity`
+- గోప్యత, భద్రత → ఆరోగ్యం: `prefs:root=Privacy&path=HEALTH` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/HEALTH`
+- గోప్యత, భద్రత → ఆరోగ్య సంబంధ డేటా: `prefs:root=Privacy&path=HEALTH_DATA` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/HEALTH_DATA`
+- గోప్యత, భద్రత → లొకేషన్: `prefs:root=Privacy&path=LOCATION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/LOCATION`
+- గోప్యత, భద్రత → లొకేషన్ → నా లొకేషన్ షేర్ చేయండి: `prefs:root=Privacy&path=LOCATION/LOCATION_SHARING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/LOCATION/LOCATION_SHARING`
+- గోప్యత, భద్రత → కాంటాక్ట్స్: `prefs:root=Privacy&path=CONTACTS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CONTACTS`
+- గోప్యత, భద్రత → క్యాలెండర్‌లు: `prefs:root=Privacy&path=CALENDARS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CALENDARS`
+- గోప్యత, భద్రత → రిమైండర్స్: `prefs:root=Privacy&path=REMINDERS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/REMINDERS`
+- గోప్యత, భద్రత → ఫోటోస్: `prefs:root=Privacy&path=PHOTOS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PHOTOS`
+- గోప్యత, భద్రత → Bluetooth షేరింగ్: `prefs:root=Privacy&path=BT_PERIPHERAL` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/BT_PERIPHERAL`
+- గోప్యత, భద్రత → మైక్రోఫోన్: `prefs:root=Privacy&path=MICROPHONE` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/MICROPHONE`
+- గోప్యత, భద్రత → స్పీచ్ రికగ్నిషన్: `prefs:root=Privacy&path=SPEECH_RECOGNITION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/SPEECH_RECOGNITION`
+- గోప్యత, భద్రత → కెమెరా: `prefs:root=Privacy&path=CAMERA` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CAMERA`
+- గోప్యత, భద్రత → HomeKit: `prefs:root=Privacy&path=WILLOW` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/WILLOW`
+- గోప్యత, భద్రత → మీడియా & Apple Music: `prefs:root=Privacy&path=MEDIALIBRARY` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/MEDIALIBRARY`
+- గోప్యత, భద్రత → విశ్లేషణలు: `prefs:root=Privacy&path=PROBLEM_REPORTING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PROBLEM_REPORTING`
+- గోప్యత, భద్రత → ప్రకటన: `prefs:root=Privacy&path=ADVERTISING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/ADVERTISING`
+- గోప్యత, భద్రత → ఫైల్‌లు మరియు ఫోల్డర్‌లు: `prefs:root=Privacy&path=FILEACCESS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/FILEACCESS`
+- గోప్యత, భద్రత → ట్ర్యాకింగ్: `prefs:root=Privacy&path=USER_TRACKING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/USER_TRACKING`
+- గోప్యత, భద్రత → యాప్ గోప్యత రిపోర్ట్: `prefs:root=Privacy&path=PRIVACY_REPORT` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PRIVACY_REPORT`
+- గోప్యత, భద్రత → లాక్‌డౌన్ మోడ్: `prefs:root=Privacy#LOCKDOWN_MODE` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity#LOCKDOWN_MODE#LOCKDOWN_MODE`
+- గోప్యత, భద్రత → సున్నితమైన కంటెంట్: `prefs:root=Privacy#NUDITY_DETECTION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity#NUDITY_DETECTION#NUDITY_DETECTION`
+- కొలత: `prefs:root=MEASURE`
+- కొలత → కొలత యూనిట్‌లు: `prefs:root=MEASURE#MEASURE_UNITS`
+- కొలత → ఇంపీరియల్: `prefs:root=MEASURE#Imperial`
+- కొలత → మెట్రిక్: `prefs:root=MEASURE#Metric`
+- వీడియోలు: `prefs:root=TVAPP`
+- వీడియోలు → ప్లేబ్యాక్ కోసం మొబైల్ డేటాను ఉపయోగించండి: `prefs:root=TVAPP#com.apple.videos%3AVideosUseCellularDataEnabledSetting`
+- వీడియోలు → ప్లేబ్యాక్ నాణ్యత: `prefs:root=TVAPP#com.apple.videos%3APlaybackQualityGroup`
+- వీడియోలు → కొనుగోళ్లు మరియు అద్దెలు: `prefs:root=TVAPP&path=com.apple.videos%3APreferredPurchaseResolution`
+- వీడియోలు → హోమ్ షేరింగ్: `prefs:root=TVAPP#com.apple.videos%3AHomeSharingFooter`
+- Game Center: `prefs:root=GAMECENTER`
+- వాయిస్ మెమోస్: `prefs:root=VOICE_MEMOS`
+- వాయిస్ మెమోస్ → ‘డిలీట్ చేయబడినవి’ క్లియర్ చేయండి: `prefs:root=VOICE_MEMOS&path=RCVoiceMemosRecentlyDeletedWindowKey`
+- వాయిస్ మెమోస్ → ఆడియో నాణ్యత: `prefs:root=VOICE_MEMOS&path=RCVoiceMemosAudioQualityKey`
+- వాయిస్ మెమోస్ → లొకేషన్ ఆధారంగా నామకరణం: `prefs:root=VOICE_MEMOS#RCVoiceMemosUseLocationBasedNaming`
+- షార్ట్‌కట్స్: `prefs:root=SHORTCUTS`
+- షార్ట్‌కట్స్ → iCloud సింక్: `prefs:root=SHORTCUTS#WFCloudKitSyncEnabled`
+- షార్ట్‌కట్స్ → షార్ట్‌కట్‌ ఆర్డర్ సింక్ చేయండి: `prefs:root=SHORTCUTS#WFCloudKitSyncOrderEnabled`
+- షార్ట్‌కట్స్ → చట్టపరమైన నోటీసులు: `prefs:root=SHORTCUTS&path=Legal%20Notices`
+- రిమైండర్స్: `prefs:root=REMINDERS`
+- రిమైండర్స్ → డిఫాల్ట్ జాబితా: `prefs:root=REMINDERS&path=DEFAULT_LIST`
+- రిమైండర్స్ → డిఫాల్ట్ జాబితా → రిమైండర్స్: `prefs:root=REMINDERS&path=DEFAULT_LIST#preferredDefaultListID`
+- రిమైండర్స్ → ఈరోజు నోటిఫికేషన్: `prefs:root=REMINDERS#todayNotificationFireTime`
+- రిమైండర్స్ → గడువు దాటినవి చూపండి: `prefs:root=REMINDERS#showRemindersAsOverdue`
+- సంగీతం: `prefs:root=MUSIC`
+- సంగీతం → Apple Music చూపండి: `prefs:root=MUSIC#com.apple.Music%3AAppleMusicEnabled`
+- సంగీతం → ప్లేలిస్ట్ పాటలను జోడించండి: `prefs:root=MUSIC#com.apple.Music%3AAddPlaylistSongsToMyMusicSwitch`
+- సంగీతం → స్టార్ రేటింగ్‌లు చూపండి: `prefs:root=MUSIC#com.apple.Music%3AShowStarRatings`
+- సంగీతం → లైబ్రరీ సింక్ చేయండి: `prefs:root=MUSIC#com.apple.Music%3ACloudMusicLibraryEnabled`
+- సంగీతం → మొబైల్ డేటా: `prefs:root=MUSIC&path=com.apple.Music%3ACellularData`
+- సంగీతం → డౌన్‌లోడ్ చేయబడిన సంగీతం: `prefs:root=MUSIC&path=com.apple.Music%3AMusicUsageLink`
+- సంగీతం → స్టోరేజ్‌ను ఆప్టిమైజ్ చేయండి: `prefs:root=MUSIC&path=com.apple.Music%3AOptimizeStorage`
+- సంగీతం → ఆటోమేటిక్ డౌన్‌లోడ్‌లు: `prefs:root=MUSIC#com.apple.Music%3AMusicAutomaticDownload`
+- సంగీతం → EQ: `prefs:root=MUSIC&path=com.apple.Music%3AEQ`
+- సంగీతం → సౌండ్ చెక్: `prefs:root=MUSIC#com.apple.Music%3ASoundCheck`
+- సంగీతం → వినికిడి చరిత్రను ఉపయోగించండి: `prefs:root=MUSIC#com.apple.Music%3APrivateListening`
+- Siri: `prefs:root=SIRI`
+- Siri → లాక్ చేసినప్పుడు Siriని అనుమతించండి: `prefs:root=SIRI#ASSISTANT_LOCK_SCREEN_ACCESS`
+- Siri → భాష: `prefs:root=SIRI&path=LANGUAGE_ID`
+- Siri → Siri వాయిస్: `prefs:root=SIRI&path=VOICE_ID`
+- Siri → వాయిస్ ఫీడ్‌బ్యాక్: `prefs:root=SIRI&path=VOICE_FEEDBACK_ID`
+- Siri → నా సమాచారం: `prefs:root=SIRI&path=MY_INFO`
+- సౌండ్‌లు: `prefs:root=Sounds`
+- సౌండ్‌లు → హెడ్‌ఫోన్ భద్రత: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING`
+- సౌండ్‌లు → హెడ్‌ఫోన్ భద్రత → Lightning అడాప్టర్‌లు: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING/HEADPHONE_LIGHTNING_ADAPTERS`
+- సౌండ్‌లు → హెడ్‌ఫోన్ భద్రత → హెడ్‌ఫోన్ నోటిఫికేషన్‌లు: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneWeeklyNotificationsKey`
+- సౌండ్‌లు → హెడ్‌ఫోన్ భద్రత → లౌడ్ ఆడియోను తగ్గించండి: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneLevelLimitSwitchKey`
+- సౌండ్‌లు → సౌండ్ ఎఫెక్ట్‌లు: `prefs:root=Sounds&path=SOUND_EFFECTS`
+- సౌండ్‌లు → రింగర్ మరియు అలర్ట్‌లు: `prefs:root=Sounds#RINGER_AND_ALERT_GROUP`
+- సౌండ్‌లు → బటన్‌లతో మార్చండి: `prefs:root=Sounds#CHANGE_WITH_BUTTONS`
+- సౌండ్‌లు → సౌండ్‌లు మరియు వైబ్రేషన్ ప్యాటర్న్‌లు: `prefs:root=Sounds#SOUNDS_ALERT_GROUP`
+- సౌండ్‌లు → రింగ్‌టోన్: `prefs:root=Sounds&path=Ringtone`
+- సౌండ్‌లు → టెక్స్ట్ టోన్: `prefs:root=Sounds&path=Text_Messages`
+- సౌండ్‌లు → కొత్త వాయిస్‌మెయిల్: `prefs:root=Sounds&path=Voicemail`
+- సౌండ్‌లు → కొత్త మెయిల్: `prefs:root=Sounds&path=NEW_MAIL`
+- సౌండ్‌లు → పంపిన మెయిల్: `prefs:root=Sounds&path=SENT_MAIL`
+- సౌండ్‌లు → క్యాలెండర్ అలర్ట్‌లు: `prefs:root=Sounds&path=Calendar%20Alarm`
+- సౌండ్‌లు → రిమైండర్ అలర్ట్‌లు: `prefs:root=Sounds&path=Reminder%20Alerts`
+- సౌండ్‌లు → కీబోర్డ్ క్లిక్‌లు: `prefs:root=Sounds#KEYBOARD_SOUND_SWITCH`
+- సౌండ్‌లు → లాక్ సౌండ్: `prefs:root=Sounds#LOCK_SOUND_SWITCH`
+- సౌండ్‌లు → వ్యక్తిగతీకరించిన స్పేషియల్ ఆడియో: `prefs:root=Sounds&path=Personalized%20Spatial%20Audio`
+- Apple Pencil: `prefs:root=Pencil`
+- Apple Pencil → Apple Pencil: `prefs:root=Pencil#PrefersPencilDraws`
+- Apple Pencil → Apple Pencil: `prefs:root=Pencil#PencilTextInput`
+- ఎమర్జెన్సీ SOS: `prefs:root=EMERGENCY_SOS`
+- ఎమర్జెన్సీ SOS → పక్కన బటన్‌తో కాల్ చేయండి: `prefs:root=EMERGENCY_SOS#CALL_WITH_SIDE_BUTTON`
+- ఎమర్జెన్సీ SOS → ఆటో కాల్: `prefs:root=EMERGENCY_SOS#AUTO_CALL`
+- ఎమర్జెన్సీ SOS → ఎమర్జెన్సీ కాంటాక్ట్‌లు: `prefs:root=EMERGENCY_SOS#EMERGENCY_CONTACTS`
+- ఎమర్జెన్సీ SOS → కౌంట్‌డౌన్ సౌండ్: `prefs:root=EMERGENCY_SOS#ALARM_SOUND_SWITCH`
+- Wi-Fi: `prefs:root=WIFI`
+- కాంటాక్ట్స్: `prefs:root=CONTACTS`
+- కాంటాక్ట్స్ → యాక్సెస్ చేయడానికి కాంటాక్ట్స్‌ను అనుమతించండి: `prefs:root=CONTACTS#Allow%20Contacts%20To%20Access`
+- కాంటాక్ట్స్ → Siri: `prefs:root=CONTACTS&path=SIRI_AND_SEARCH`
+- కాంటాక్ట్స్ → సార్ట్ క్రమం: `prefs:root=CONTACTS&path=ContactsSortOrder`
+- కాంటాక్ట్స్ → చూపించే క్రమం: `prefs:root=CONTACTS&path=PersonNameOrder`
+- కాంటాక్ట్స్ → చిన్న పేరు: `prefs:root=CONTACTS&path=PersonShortName`
+- కాంటాక్ట్స్ → చిన్న పేరు → చిన్న పేరు: `prefs:root=CONTACTS&path=PersonShortName#Short%20Name`
+- కాంటాక్ట్స్ → చిన్న పేరు → ప్రాధాన్య ముద్దుపేర్లు: `prefs:root=CONTACTS&path=PersonShortName#Prefer%20Nicknames`
+- కాంటాక్ట్స్ → నా సమాచారం: `prefs:root=CONTACTS&path=MeCard`
+- కాంటాక్ట్స్ → SIM కాంటాక్ట్‌లు ఇంపోర్ట్ చేయండి: `prefs:root=CONTACTS#SIMImport`
+- కంట్రోల్ సెంటర్: `prefs:root=ControlCenter`
+- కంట్రోల్ సెంటర్ → యాప్‌లలో యాక్సెస్ చేయండి: `prefs:root=ControlCenter#ALLOWED_WITHIN_APPS`
+- కంట్రోల్ సెంటర్ → కంట్రోల్‌లను కస్టమైజ్ చేయండి: `prefs:root=ControlCenter&path=CUSTOMIZE_CONTROLS`
+- డెవలపర్: `prefs:root=DEVELOPER_SETTINGS`
+- డెవలపర్ → మల్టీపాత్ నెట్‌వర్కింగ్: `prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG`
+- డెవలపర్ → మల్టీపాత్ నెట్‌వర్కింగ్ → మల్టీపాత్ నెట్‌వర్కింగ్: `prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG#Multipath%20Networking`
+- డెవలపర్ → కనిపించే తీరు: `prefs:root=DEVELOPER_SETTINGS#UIAppearanceGroup`
+- డెవలపర్ → డార్క్‌గా కనిపించే తీరు: `prefs:root=DEVELOPER_SETTINGS#UIAppearanceSettings`
+- డెవలపర్ → పెయిర్ చేసిన డివైజ్‌లు: `prefs:root=DEVELOPER_SETTINGS#DTPairedDevicesGroup`
+- డెవలపర్ → విశ్వసనీయ కంప్యూటర్‌లను క్లియర్ చేయండి: `prefs:root=DEVELOPER_SETTINGS#CLEAR_TRUSTED_COMPUTERS`
+- డెవలపర్ → లాగింగ్: `prefs:root=DEVELOPER_SETTINGS&path=DTInstrumentsSettings`
+- డెవలపర్ → UI ఆటోమేషన్‌ను ఎనేబల్ చేయండి: `prefs:root=DEVELOPER_SETTINGS#UIAGroup`
+- డెవలపర్ → నెట్‌వర్కింగ్: `prefs:root=DEVELOPER_SETTINGS#NLCGroup`
+- డెవలపర్ → నెట్‌వర్క్ లింక్ కండిషనర్: `prefs:root=DEVELOPER_SETTINGS&path=NLC`
+- డెవలపర్ → అదనపు లాగింగ్: `prefs:root=DEVELOPER_SETTINGS#ADDITIONAL_LOGGING`
+- డెవలపర్ → HTTP సేవలకు అనుమతించండి: `prefs:root=DEVELOPER_SETTINGS#ALLOW_HTTP_SERVICES`
+- డెవలపర్ → రేట్ పరిమితిని డిసేబల్ చేయండి: `prefs:root=DEVELOPER_SETTINGS#DISABLE_RATE_LIMITING`
+- డెవలపర్ → NFC పాస్ కీ ఐచ్ఛికం: `prefs:root=DEVELOPER_SETTINGS#NFC_PASS_KEY_OPTIONAL`
+- డెవలపర్ → మీడియా సర్వీస్‌ల టెస్టింగ్: `prefs:root=DEVELOPER_SETTINGS#MEDIA_SERVICES_TESTING`
+- డెవలపర్ → మీడియా సర్వీస్‌లను రీసెట్ చేయండి: `prefs:root=DEVELOPER_SETTINGS#RESET_MEDIA_SERVICES`
+- డెవలపర్ → News టెస్టింగ్: `prefs:root=DEVELOPER_SETTINGS#NEWS_TESTING`
+- డెవలపర్ → మీ తదుపరి లాంచ్‌లో లోకల్ డేటాను రీసెట్ చేయండి: `prefs:root=DEVELOPER_SETTINGS#RESET_LOCAL_DATA_ON_NEXT_LAUNCH`
+- డెవలపర్ → మీడియా ప్లేయర్ ఫ్రేమ్‌వర్క్ టెస్టింగ్: `prefs:root=DEVELOPER_SETTINGS#RoutineSettingsGroup`
+- డెవలపర్ → ప్లే చేయదగిన API కంటెంట్: `prefs:root=DEVELOPER_SETTINGS&path=RoutineSettings`
+- డెవలపర్ → TV ప్రొవైడర్: `prefs:root=DEVELOPER_SETTINGS&path=VideoSubscriberAccountSettings`
+- డెవలపర్ → ClassKit API: `prefs:root=DEVELOPER_SETTINGS&path=ClassKitSettings`
+- డెవలపర్ → CoreSpotlight టెస్టింగ్: `prefs:root=DEVELOPER_SETTINGS#CORESPOTLIGHT_TESTING`
+- డెవలపర్ → అన్ని ఐటెమ్‌లను మళ్ళీ ఇండెక్స్ చేయండి: `prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS`
+- డెవలపర్ → అన్ని ఐటెమ్‌లను ఐడెంటిఫైయర్‌లతో ఇండెక్స్ చేయండి: `prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS_WITH_IDENTIFIERS`
+- డెవలపర్ → షార్ట్‌కట్‌ల టెస్టింగ్: `prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_TESTING`
+- డెవలపర్ → ఇటీవలి షార్ట్‌కట్‌లను చూపండి: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_SPOTLIGHT`
+- డెవలపర్ → రాబోయే మీడియాను చూపండి: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_UPCOMING_MEDIA`
+- డెవలపర్ → లాక్ స్క్రీన్‌పై విరాళాలను చూపండి: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_LOCKSCREEN`
+- డెవలపర్ → Watchలోని షార్ట్‌కట్‌లను నిర్బంధంగా సింక్ చేయండి: `prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_SYNC_WATCHOS`
+- డెవలపర్ → MIDI-CI టెస్టింగ్: `prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA`
+- డెవలపర్ → MIDI-CI ఎనేబల్ చేయండి: `prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA_ENABLE`
+- డెవలపర్ → హ్యాంగ్ గుర్తింపు: `prefs:root=DEVELOPER_SETTINGS#HANGTRACER_EXTERNAL_CONFIGURE`
+- Bluetooth: `prefs:root=Bluetooth`
+- స్టాక్స్: `prefs:root=STOCKS`
+- స్టాక్స్ → గోప్యత: `prefs:root=STOCKS#Privacy`
+- స్టాక్స్ → ఐడెంటిఫైయర్‌ను రీసెట్ చేయండి: `prefs:root=STOCKS#reset_identifier`
+- అనువదించండి: `prefs:root=TRANSLATE`
+- అనువదించండి → ఆన్-డివైజ్ మోడ్: `prefs:root=TRANSLATE#OnDeviceOnly`
+- News: `prefs:root=NEWS`
+- News → స్టోరీ ప్రివ్యూలను చూపండి: `prefs:root=NEWS#show_excerpt_mode`
+- News → ఈరోజులో స్టోరీలను నియంత్రించండి: `prefs:root=NEWS#showStoriesFromFavoritesSpecifierID`
+- News → గోప్యత: `prefs:root=NEWS#Privacy`
+- News → ఐడెంటిఫైయర్‌ను రీసెట్ చేయండి: `prefs:root=NEWS#reset_identifier`
+- News → అంగీకారాలు: `prefs:root=NEWS&path=Acknowledgements`
+- సందేశాలు: `prefs:root=MESSAGES`
+- FaceTime: `prefs:root=FACETIME`
+- ఫోటోస్: `prefs:root=Photos`
+- ఫోటోస్ → iCloud ఫోటోలు: `prefs:root=Photos#iCloudPhotosSwitch`
+- ఫోటోస్ → స్టోరేజ్‌ను ఆప్టిమైజ్ చేయండి: `prefs:root=Photos#iCloudOptimizeStorageOption`
+- ఫోటోస్ → ఒరిజినల్స్‌ని డౌన్‌లోడ్ చేసి సేవ్ చేయండి: `prefs:root=Photos#iCloudKeepOriginalsOption`
+- ఫోటోస్ → షేర్ చేసిన ఆల్బమ్‌లు: `prefs:root=Photos#SharedStreamsSwitch`
+- ఫోటోస్ → మొబైల్ డేటా: `prefs:root=Photos&path=CellularDataLinkList`
+- ఫోటోస్ → వీడియోలను ఆటోప్లే చేయండి: `prefs:root=Photos#VideoAutoplaySwitch`
+- ఫోటోస్ → పూర్తి HDR చూడండి: `prefs:root=Photos#ImageModulationSwitch`
+- ఫోటోస్ → హాలిడే ఇవెంట్‌లు చూపండి: `prefs:root=Photos#MEMORIES_HOLIDAY_CALENDAR_EVENTS_SWITCH`
+- ఫోటోస్ → Mac లేదా PCకి ట్రాన్స్‌ఫర్ చేయండి: `prefs:root=Photos#TransferGroup`
+- ఎక్స్‌పోజర్ నోటిఫికేషన్‌లు: `prefs:root=EXPOSURE_NOTIFICATION`
+- కెమెరా: `prefs:root=CAMERA`
+- కెమెరా → ఫార్మాట్‌లు: `prefs:root=CAMERA&path=CameraFormatsSettingsList`
+- కెమెరా → ఫార్మాట్‌లు → Apple ProRaw: `prefs:root=CAMERA&path=CameraFormatsSettingsList#CAMUserPreferenceEnableLinearDNGControl`
+- కెమెరా → Record Video: `prefs:root=CAMERA&path=Record%20Video`
+- కెమెరా → Record Video → HDR వీడియో: `prefs:root=CAMERA&path=Record%20Video#HDR%20Video`
+- కెమెరా → సెట్టింగ్‌లను భద్రపరచు: `prefs:root=CAMERA&path=CameraPreserveSettingsSwitch`
+- కెమెరా → సెట్టింగ్‌లను భద్రపరచు → కెమెరా మోడ్: `prefs:root=CAMERA&path=CameraPreserveSettingsSwitch#CAMUserPreferencePreserveCaptureMode`
+- కెమెరా → గ్రిడ్: `prefs:root=CAMERA#CameraGridSwitch`
+- కెమెరా → QR కోడ్‌లను స్కాన్ చేయండి: `prefs:root=CAMERA#CameraQRBannerSwitch`
+- మొబైల్ సర్వీస్: `prefs:root=MOBILE_DATA_SETTINGS_ID`
+- మొబైల్ సర్వీస్ → మొబైల్ డేటా ఎంపికలు: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS`
+- మొబైల్ సర్వీస్ → మొబైల్ డేటా ఎంపికలు → తక్కువ డేటా మోడ్: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS#Low%20Data%20Mode`
+- మొబైల్ సర్వీస్ → మొబైల్ డేటా: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=SHOW_ALL`
+- పాడ్‌కాస్ట్స్: `prefs:root=PODCASTS`
+- కంపాస్: `prefs:root=COMPASS`
+- కంపాస్ → అసలైన ఉత్తర దిశను ఉపయోగించండి: `prefs:root=COMPASS#USE_TRUE_NORTH`
+- పుస్తకాలు: `prefs:root=IBOOKS`
+- పుస్తకాలు → ఆన్‌లైన్ కంటెంట్: `prefs:root=IBOOKS#BKAllowOnlineContent`
+- పుస్తకాలు → సింక్ అవుతోంది: `prefs:root=IBOOKS#SYNCING`
+- పుస్తకాలు → ఇప్పుడు చదువుతోంది: `prefs:root=IBOOKS#BKLibrary.ReadingNow`
+- పుస్తకాలు → iCloud Drive: `prefs:root=IBOOKS#BCSyncICloudDrive`
+- పుస్తకాలు → పఠనం: `prefs:root=IBOOKS#READING`
+- పుస్తకాలు → పూర్తి సర్దుబాటు: `prefs:root=IBOOKS#BKFullJustification`
+- పుస్తకాలు → ఆటో హైఫనేషన్: `prefs:root=IBOOKS#BKAutoHyphenation`
+- పుస్తకాలు → రెండు మార్జిన్‌లు ముందుకు: `prefs:root=IBOOKS#BKLeftTapTurnToNext`
+- పుస్తకాలు → పఠన లక్ష్యాలు: `prefs:root=IBOOKS#READING_GOALS`
+- పుస్తకాలు → పఠన లక్ష్యాల డేటాను క్లియర్ చూపండి: `prefs:root=IBOOKS#BKReadingGoalsShouldClearDataKey`
+- పుస్తకాలు → వెతుకుతోంది: `prefs:root=IBOOKS#SEARCHING`
+- పుస్తకాలు → బుక్ స్టోర్: `prefs:root=IBOOKS#BKIncludeBookStoreResultsInSearch`
+- పుస్తకాలు → ఆడియో‌బుక్‌లు: `prefs:root=IBOOKS#AUDIOBOOKS`
+- పుస్తకాలు → ముందుకు దాటవేయండి: `prefs:root=IBOOKS&path=BKAudioBookSkipForward`
+- పుస్తకాలు → వెనుకకు దాటవేయండి: `prefs:root=IBOOKS&path=BKAudioBookSkipBackward`
+- పుస్తకాలు → బాహ్య కంట్రోల్‌లు: `prefs:root=IBOOKS#BKRemoteSkipInsteadOfNextTrackDefaultKey`
+- పుస్తకాలు → తదుపరి/మునుపటి: `prefs:root=IBOOKS#Next/Previous`
+- పుస్తకాలు → ముందుకు/వెనుకకు దాటవేయండి: `prefs:root=IBOOKS#Skip%20Forward/Back`
+- పుస్తకాలు → గోప్యత: `prefs:root=IBOOKS#PRIVACY`
+- పుస్తకాలు → ఐడెంటిఫైయర్ రీసెట్ చేయండి: `prefs:root=IBOOKS#BAResetAnalyticsUserID`
+- పుస్తకాలు → అంగీకారాలు: `prefs:root=IBOOKS&path=Acknowledgements`
+- ఎయిర్‌ప్లేన్ మోడ్: `prefs:root=ROOT#AIRPLANE_MODE`

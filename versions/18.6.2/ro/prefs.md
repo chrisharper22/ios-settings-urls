@@ -1,0 +1,1186 @@
+- Baterie: `prefs:root=BATTERY_USAGE`
+- Baterie → Mod Consum redus: `prefs:root=BATTERY_USAGE#BATTERY_SAVER_MODE`
+- Baterie → Stare sănătate baterie: `prefs:root=BATTERY_USAGE#BATTERY_HEALTH_ID`
+- Butonul Acțiune: `prefs:root=ACTION_BUTTON`
+- Notificări: `prefs:root=NOTIFICATIONS_ID`
+- Notificări → Rezumat programat: `prefs:root=NOTIFICATIONS_ID&path=SCHEDULED_DELIVERY_ID`
+- General: `prefs:root=General`
+- General → VPN și gestionare dispozitive: `prefs:root=General&path=ManagedConfigurationList`
+- General → AppleCare și garanție: `prefs:root=General&path=COVERAGE/`
+- General → Auto‑completare și parole: `prefs:root=General&path=AUTOFILL`
+- General → Auto‑completare și parole → Auto‑completare parole: `prefs:root=General&path=AUTOFILL#AUTOFILL`
+- General → Auto‑completare și parole → Organizați codurile de verificare: `prefs:root=General&path=AUTOFILL#CLEAN_UP_VERIFICATION_CODES`
+- General → Auto‑completare și parole → Configurează codurile de verificare: `prefs:root=General&path=AUTOFILL#SET_UP_VERIFICATION_CODES`
+- General → Stocare: `prefs:root=General&path=STORAGE_MGMT`
+- General → Stocare → Stocare: `prefs:root=General&path=STORAGE_MGMT#MANAGE`
+- General → Stocare → Dezinstalare aplicații: `prefs:root=General&path=STORAGE_MGMT#OFFLOAD`
+- General → Actualizare software: `prefs:root=General&path=SOFTWARE_UPDATE_LINK`
+- General → Actualizare software → Actualizări automate: `prefs:root=General&path=SOFTWARE_UPDATE_LINK/SUAutomaticUpdateButton`
+- General → Tastatură: `prefs:root=General&path=Keyboard`
+- General → Tastatură → Tastaturi: `prefs:root=General&path=Keyboard/KEYBOARDS`
+- General → Tastatură → Înlocuire text: `prefs:root=General&path=Keyboard/USER_DICTIONARY`
+- General → Tastatură → Auto-majuscule: `prefs:root=General&path=Keyboard#KeyboardAutocapitalization`
+- General → Tastatură → Auto-corectare: `prefs:root=General&path=Keyboard#KeyboardAutocorrection`
+- General → Tastatură → Verificare ortografie: `prefs:root=General&path=Keyboard#KeyboardCheckSpelling`
+- General → Tastatură → Blocare majuscule: `prefs:root=General&path=Keyboard#KeyboardCapsLock`
+- General → Tastatură → Scurtături: `prefs:root=General&path=Keyboard#KeyboardAssistant`
+- General → Tastatură → Predictivă: `prefs:root=General&path=Keyboard#KeyboardPrediction`
+- General → Tastatură → Punctuație inteligentă: `prefs:root=General&path=Keyboard#SmartTyping`
+- General → Tastatură → Divizare tastatură: `prefs:root=General&path=Keyboard#RivenKeyboard`
+- General → Tastatură → Glisare în jos peste taste: `prefs:root=General&path=Keyboard#GesturesEnabled`
+- General → Tastatură → Previzualizare caracter: `prefs:root=General&path=Keyboard#KeyboardAllowPaddle`
+- General → Tastatură → Scurtătură „.”: `prefs:root=General&path=Keyboard#KeyboardPeriodShortcut`
+- General → Tastatură → Glisare pentru tastare: `prefs:root=General&path=Keyboard#KeyboardContinuousPathEnabled`
+- General → Tastatură → Activare dictare: `prefs:root=General&path=Keyboard#Dictation`
+- General → Tastatură → Punctuație automată: `prefs:root=General&path=Keyboard#AutoPunctuationSetting`
+- General → Limbă și regiune: `prefs:root=General&path=INTERNATIONAL`
+- General → Limbă și regiune → Alte limbi…: `prefs:root=General&path=INTERNATIONAL#NEW_PREFERRED_LANGUAGE`
+- General → Limbă și regiune → Ordinea preferată a limbilor: `prefs:root=General&path=INTERNATIONAL#PREFERRED_LANGUAGE_GROUP`
+- General → Limbă și regiune → Adăugați o limbă…: `prefs:root=General&path=INTERNATIONAL#ADD_PREFERRED_LANGUAGE`
+- General → Limbă și regiune → Regiune: `prefs:root=General&path=INTERNATIONAL/LOCALE`
+- General → Limbă și regiune → Numere: `prefs:root=General&path=INTERNATIONAL/NUMBERING_SYSTEM`
+- General → Limbă și regiune → Calendar: `prefs:root=General&path=INTERNATIONAL/CALENDAR`
+- General → Limbă și regiune → Unitate de temperatură: `prefs:root=General&path=INTERNATIONAL/TEMPERATURE_UNIT`
+- General → Dicționar: `prefs:root=General&path=DICTIONARY`
+- General → Imagine în imagine: `prefs:root=General&path=PiP_SPEC`
+- General → Trackpad: `prefs:root=General&path=POINTERS`
+- General → NFC: `prefs:root=General&path=NFC_LINK`
+- General → VPN: `prefs:root=General&path=VPN`
+- General → CarPlay: `prefs:root=General&path=CARPLAY`
+- General → Informații: `prefs:root=General&path=About`
+- General → Informații → Certificate de încredere: `prefs:root=General&path=About/CERT_TRUST_SETTINGS`
+- General → Informații → Număr serial: `prefs:root=General&path=About#SerialNumber`
+- General → Informații → Număr model: `prefs:root=General&path=About#ProductModel`
+- General → Informații → Nume model: `prefs:root=General&path=About#ProductModelName`
+- General → Informații → Versiune iOS: `prefs:root=General&path=About/SW_VERSION_SPECIFIER`
+- General → Mențiuni legale și reglementări: `prefs:root=General&path=LEGAL_AND_REGULATORY`
+- General → Mențiuni legale și reglementări → Garanție: `prefs:root=General&path=LEGAL_AND_REGULATORY#Warranty`
+- General → AirDrop: `prefs:root=General&path=AIRDROP_LINK`
+- General → AirDrop → Apropiind dispozitivele: `prefs:root=General&path=AIRDROP_LINK#AIRDROP_NFC_ID`
+- General → Buton principal: `prefs:root=General&path=HOME_BUTTON`
+- General → Comutator lateral: `prefs:root=General#Rotation_Switch_Action_Group`
+- General → Reîmprospătare în fundal: `prefs:root=General&path=AUTO_CONTENT_DOWNLOAD`
+- General → Data și ora: `prefs:root=General&path=DATE_AND_TIME`
+- General → Ieșire TV: `prefs:root=General&path=TV_OUT`
+- General → Resetare: `prefs:root=General&path=Reset`
+- General → Resetare → Resetați toate configurările: `prefs:root=General&path=Reset#settingsErase`
+- General → Resetare → Ștergeți conținutul și configurările: `prefs:root=General&path=Reset#fullErase`
+- General → Resetare → Resetați configurări rețea: `prefs:root=General&path=Reset#RESET_NETWORK_LABEL`
+- General → Resetare → Eliminați toate planurile de date celulare: `prefs:root=General&path=Reset#cellularErase`
+- General → Resetare → Servicii abonați: `prefs:root=General&path=Reset#SUBSCRIBER_SERVICES_ID`
+- General → Resetare → Resetați dicționar tastatură: `prefs:root=General&path=Reset#RESET_KEYBOARD_DICTIONARY_LABEL`
+- General → Resetare → Resetați ecranul principal: `prefs:root=General&path=Reset#RESET_ICONS_LABEL`
+- General → Resetare → Resetați localizare și intimitate: `prefs:root=General&path=Reset#RESET_PRIVACY_LABEL`
+- General → Opriți: `prefs:root=General#SHUTDOWN_LABEL`
+- General → AirPlay și Continuitate: `prefs:root=General&path=CONTINUITY_SPEC`
+- General → AirPlay și Continuitate → Handoff: `prefs:root=General&path=CONTINUITY_SPEC#CONTINUITY`
+- General → AirPlay și Continuitate → Transferați pe HomePod: `prefs:root=General&path=CONTINUITY_SPEC#TRANSFER_TO_HOMEPOD`
+- General → AirPlay și Continuitate → AirPlay automat: `prefs:root=General&path=CONTINUITY_SPEC#AUTOMATICALLY_AIRPLAY`
+- General → AirPlay și Continuitate → Cameră Continuitate: `prefs:root=General&path=CONTINUITY_SPEC#WOMBAT_CAMERA`
+- Portofel și Apple Pay: `prefs:root=PASSBOOK`
+- Portofel și Apple Pay → Apple Cash: `prefs:root=PASSBOOK#Apple%C2%A0Cash`
+- Portofel și Apple Pay → Carduri de plată: `prefs:root=PASSBOOK#SETTINGS_PAYMENT_CARDS_GROUP`
+- Portofel și Apple Pay → Adăugați un card: `prefs:root=PASSBOOK#Add%20Card`
+- Portofel și Apple Pay → Dublu clic buton lateral: `prefs:root=PASSBOOK#Double-Click%20Side%20Button`
+- Portofel și Apple Pay → Urmărire comandă: `prefs:root=PASSBOOK#ORDER_TRACKING`
+- Jurnal: `prefs:root=JOURNAL`
+- În repaus: `prefs:root=AMBIENT`
+- Vremea: `prefs:root=WEATHER`
+- Cont Apple: `prefs:root=APPLE_ACCOUNT` or `settings-navigation://com.apple.Settings.AppleAccount`
+- Cont Apple → iCloud: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE` or `prefs:root=CASTLE`
+- Cont Apple → iCloud → Stocare iCloud: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/STORAGE_AND_BACKUP` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/STORAGE_AND_BACKUP` or `prefs:root=CASTLE&path=STORAGE_AND_BACKUP`
+- Cont Apple → iCloud → iCloud Drive: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity` or `prefs:root=CASTLE&path=com.apple.Dataclass.Ubiquity`
+- Cont Apple → iCloud → Poze: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.MediaStream` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.MediaStream` or `prefs:root=CASTLE&path=com.apple.Dataclass.MediaStream`
+- Cont Apple → iCloud → Mail: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Mail` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail` or `prefs:root=CASTLE&path=com.apple.Dataclass.Mail`
+- Cont Apple → iCloud → Mail → Domeniu de e‑mail personalizat: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Mail/BYOD_SETTING_SPECIFIER_ID` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/BYOD_SETTING_SPECIFIER_ID` or `prefs:root=CASTLE&path=com.apple.Dataclass.Mail/BYOD_SETTING_SPECIFIER_ID`
+- Cont Apple → iCloud → Contacte: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Contacts` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Contacts` or `prefs:root=CASTLE&path=com.apple.Dataclass.Contacts`
+- Cont Apple → iCloud → Calendar: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Calendars` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Calendars` or `prefs:root=CASTLE&path=com.apple.Dataclass.Calendars`
+- Cont Apple → iCloud → Mementouri: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Reminders` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Reminders` or `prefs:root=CASTLE&path=com.apple.Dataclass.Reminders`
+- Cont Apple → iCloud → Safari: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks` or `prefs:root=CASTLE&path=com.apple.Dataclass.Bookmarks`
+- Cont Apple → iCloud → Notițe: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Notes` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Notes` or `prefs:root=CASTLE&path=com.apple.Dataclass.Notes`
+- Cont Apple → iCloud → News: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.News` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.News` or `prefs:root=CASTLE&path=com.apple.Dataclass.News`
+- Cont Apple → iCloud → Backup: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/BACKUP` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/BACKUP` or `prefs:root=CASTLE&path=BACKUP`
+- Cont Apple → iCloud → Sănătate: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Health` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Health` or `prefs:root=CASTLE&path=com.apple.Dataclass.Health`
+- Cont Apple → iCloud → Parole și portchei: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync` or `prefs:root=CASTLE&path=com.apple.Dataclass.KeychainSync`
+- Cont Apple → iCloud → Mascare e-mail: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE` or `prefs:root=CASTLE&path=PRIVATE_EMAIL_MANAGE`
+- Cont Apple → Partajare localizare: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING` or `settings-navigation://com.apple.Settings.AppleAccount/LOCATION_SHARING`
+- Cont Apple → Partajare localizare → Găsire: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING/FindMyDevice-Settings` or `settings-navigation://com.apple.Settings.AppleAccount/LOCATION_SHARING/FindMyDevice-Settings`
+- Cont Apple → Nume, numere de telefon, e‑mail: `prefs:root=APPLE_ACCOUNT&path=APPLE_ACCOUNT_CONTACT` or `settings-navigation://com.apple.Settings.AppleAccount/APPLE_ACCOUNT_CONTACT`
+- Cont Apple → Parolă și securitate: `prefs:root=APPLE_ACCOUNT&path=PASSWORD_AND_SECURITY` or `settings-navigation://com.apple.Settings.AppleAccount/PASSWORD_AND_SECURITY`
+- Cont Apple → Plată și expediere: `prefs:root=APPLE_ACCOUNT&path=PAYMENT_AND_SHIPPING` or `settings-navigation://com.apple.Settings.AppleAccount/PAYMENT_AND_SHIPPING`
+- Cont Apple → Abonamente: `prefs:root=APPLE_ACCOUNT&path=SUBSCRIPTIONS` or `settings-navigation://com.apple.Settings.AppleAccount/SUBSCRIPTIONS`
+- Cont Apple → Familie: `prefs:root=APPLE_ACCOUNT&path=Family` or `settings-navigation://com.apple.Settings.AppleAccount/Family`
+- Cont Apple → Verificarea cheilor contactelor: `prefs:root=APPLE_ACCOUNT&path=TRANSPARENCY` or `settings-navigation://com.apple.Settings.AppleAccount/TRANSPARENCY`
+- Hărți: `prefs:root=MAPS`
+- Hărți → Indice calitate aer: `prefs:root=MAPS#AirQualityPreferenceID`
+- Hărți → Întotdeauna în română: `prefs:root=MAPS#LabelLanguageAlwaysUIPreferenceID`
+- Hărți → Bicicletă: `prefs:root=MAPS&path=CyclingLinkPreferenceID`
+- Hărți → Tip preferat de deplasare: `prefs:root=MAPS#TransportTypePreferenceGroupID`
+- Hărți → Condus: `prefs:root=MAPS&path=DrivingLinkPreferenceID`
+- Hărți → Indicații enunțate: `prefs:root=MAPS&path=NavigationGuidanceLinkPreferenceID`
+- Hărți → Afișare loc parcare: `prefs:root=MAPS#ParkedCarPreferenceID`
+- Hărți → Partajare oră de sosire: `prefs:root=MAPS#ShareETAPreferenceID`
+- Hărți → Transport: `prefs:root=MAPS&path=TransitLinkPreferenceID`
+- Hărți → Mers: `prefs:root=MAPS&path=WalkingLinkPreferenceID`
+- Hărți → Condiții meteo: `prefs:root=MAPS#WeatherConditionsPreferenceID`
+- Timp de utilizare: `prefs:root=SCREEN_TIME`
+- Timp de utilizare → See All App & Website Activity: `prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY`
+- Timp de utilizare → See All App & Website Activity → Astăzi: `prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY#DAY`
+- Timp de utilizare → See All App & Website Activity → Săptămână: `prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY#WEEK`
+- Timp de utilizare → Perioadă de repaus: `prefs:root=SCREEN_TIME&path=DOWNTIME`
+- Timp de utilizare → Limitare aplicații: `prefs:root=SCREEN_TIME&path=APP_LIMITS`
+- Timp de utilizare → Limitări comunicare: `prefs:root=SCREEN_TIME&path=COMMUNICATION_LIMITS`
+- Timp de utilizare → Siguranța comunicării: `prefs:root=SCREEN_TIME&path=COMMUNICATION_SAFETY`
+- Timp de utilizare → Permise întotdeauna: `prefs:root=SCREEN_TIME&path=ALWAYS_ALLOWED`
+- Timp de utilizare → Restricții conținut și intimitate: `prefs:root=SCREEN_TIME&path=CONTENT_PRIVACY`
+- Timp de utilizare → Controale parentale: `prefs:root=SCREEN_TIME#FAMILY`
+- Timp de utilizare → Distanța față de ecran: `prefs:root=SCREEN_TIME&path=EYE_DISTANCE`
+- Freeform: `prefs:root=FREEFORM`
+- Concentrare: `prefs:root=DO_NOT_DISTURB`
+- Concentrare → Status concentrare: `prefs:root=DO_NOT_DISTURB&path=status`
+- Aspect: `prefs:root=DISPLAY`
+- Aspect → Aspect: `prefs:root=DISPLAY#DEVICE_APPEARANCE`
+- Aspect → True Tone: `prefs:root=DISPLAY#WHITE_BALANCE`
+- Aspect → Night Shift: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION`
+- Aspect → Night Shift → Programat: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#SCHEDULED`
+- Aspect → Night Shift → Activați manual până mâine: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#MANUAL`
+- Aspect → Night Shift → Temperatura de culoare: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#COLOR_TEMPERATURE`
+- Aspect → Auto‑blocare: `prefs:root=DISPLAY&path=AUTOLOCK`
+- Aspect → Trezire afișaj la ridicare: `prefs:root=DISPLAY#RAISE_TO_WAKE`
+- Aspect → Blocare / Deblocare: `prefs:root=DISPLAY#SMART_CASE_LOCK_SPEC`
+- Aspect → Dimensiune text: `prefs:root=DISPLAY&path=TEXT_SIZE`
+- Aspect → Text aldin: `prefs:root=DISPLAY#BOLD_TEXT`
+- Aspect → Luminozitate: `prefs:root=DISPLAY#BRIGHTNESS`
+- Aspect → Zoom afișaj: `prefs:root=DISPLAY#DISPLAY_ZOOM_GROUP`
+- Aspect → Aspect: `prefs:root=DISPLAY&path=APPEARANCE`
+- Aspect → Aspect → Zoom în fereastră: `prefs:root=DISPLAY&path=APPEARANCE#WINDOW_ZOOM`
+- Aspect → Aspect → Zoom în fereastră cu două mâini: `prefs:root=DISPLAY&path=APPEARANCE#TWO_HANDED_WINDOW_ZOOM`
+- Aspect → Vizualizare: `prefs:root=DISPLAY&path=MAGNIFY`
+- Aspect → Ecran mereu activat: `prefs:root=DISPLAY&path=ALWAYS_ON`
+- Aspect → Ecran mereu activat → Ecran mereu activat: `prefs:root=DISPLAY&path=ALWAYS_ON#ALWAYS_ON`
+- Aspect → Aplicații compatibile: `prefs:root=DISPLAY&path=COMPATIBLE_APPEARANCE`
+- Aspect → Aplicații compatibile → Întunecat, Luminos: `prefs:root=DISPLAY&path=COMPATIBLE_APPEARANCE#COMPATIBLE_APPEARANCE_CHOICES`
+- Ecran principal: `prefs:root=HOME_SCREEN`
+- Ecran principal → Aplicații nou‑descărcate: `prefs:root=HOME_SCREEN&path=APP_DOWNLOADS_GO_TO`
+- Ecran principal → Insigne de notificare: `prefs:root=HOME_SCREEN#BADGES_IN_APP_LIBRARY`
+- Ecran principal și bibliotecă de aplicații: `prefs:root=HOME_SCREEN_DOCK`
+- Ecran principal și bibliotecă de aplicații → Aplicații nou‑descărcate: `prefs:root=HOME_SCREEN_DOCK&path=APP_DOWNLOADS_GO_TO`
+- Ecran principal și bibliotecă de aplicații → Dock: `prefs:root=HOME_SCREEN_DOCK&path=MULTITASKING_DOCK`
+- Ecran principal și bibliotecă de aplicații → Dock → Afișare bibliotecă de aplicații în Dock: `prefs:root=HOME_SCREEN_DOCK&path=MULTITASKING_DOCK#SHOW_APP_LIBRARY`
+- Ecran principal și bibliotecă de aplicații → Afișare aplicații sugerate și recente în Dock: `prefs:root=HOME_SCREEN_DOCK#ALLOW_RECENTS`
+- Ecran principal și bibliotecă de aplicații → Manager de scenă: `prefs:root=HOME_SCREEN_DOCK&path=CONTINUOUS-EXPOSE`
+- Multitasking & Gestures: `prefs:root=com.apple.MultitaskingAndGesturesSettings`
+- Multitasking & Gestures → Multitasking: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Multitasking`
+- Multitasking & Gestures → Multitasking → Permitere aplicații multiple: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Multitasking#MultipleApps`
+- Multitasking & Gestures → Multitasking → Split View și Slide Over: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Multitasking#SplitViewSlideOver`
+- Multitasking & Gestures → Multitasking → Oglindire ecran: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Multitasking#ScreenMirroring`
+- Multitasking & Gestures → Multitasking → Manager de scenă: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Multitasking#StageManager`
+- Multitasking & Gestures → Multitasking → Afișare aplicații recente în Manager de scenă: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Multitasking#StageManagerRecentApps`
+- Multitasking & Gestures → Multitasking → Afișare Dock în Manager de scenă: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Multitasking#StageManagerDock`
+- Multitasking & Gestures → Imagine în imagine: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=PictureInPicture`
+- Multitasking & Gestures → Gesturi de productivitate: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Productivity`
+- Multitasking & Gestures → Gesturi de productivitate → Gesturi: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Productivity#Gestures`
+- Multitasking & Gestures → Gesturi de productivitate → Gesturi de productivitate: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Productivity#ProductivityGestures`
+- Multitasking & Gestures → Gesturi cu patru sau cinci degete: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=FourAndFiveFingers`
+- Multitasking & Gestures → Agitare pentru infirmare: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=ShakeToUndo`
+- Multitasking & Gestures → Gesturi pentru colțuri: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=CornerGestures`
+- Accesibilitate: `prefs:root=ACCESSIBILITY`
+- Accesibilitate → VoiceOver: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE`
+- Accesibilitate → VoiceOver → Tutorial VoiceOver: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#VoiceOverTouchTutorialEnabled`
+- Accesibilitate → VoiceOver → Viteză enunțare: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#SpeakingRateSlider`
+- Accesibilitate → VoiceOver → Enunțare: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Voices`
+- Accesibilitate → VoiceOver → Enunțare → Pronunțări: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Voices/PRONUNCIATION_DICTIONARY`
+- Accesibilitate → VoiceOver → Enunțare → Pronunțări → Pronunțări: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Voices/PRONUNCIATION_DICTIONARY#PRONUNCIATION_DICTIONARY`
+- Accesibilitate → VoiceOver → Enunțare → Variație tonalitate: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Voices#PITCH_CHANGES_TITLE`
+- Accesibilitate → VoiceOver → Enunțare → Adăugare voce rotor…: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Voices#ADD_NEW_VOICE`
+- Accesibilitate → VoiceOver → Enunțare → Detectare limbi: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Voices#LANGUAGE_DETECTION`
+- Accesibilitate → VoiceOver → Enunțare → Spațializare vorbire: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Voices#SPATIALIZE_SPEECH`
+- Accesibilitate → VoiceOver → Detaliere: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity`
+- Accesibilitate → VoiceOver → Detaliere → Detaliere: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#Verbosity`
+- Accesibilitate → VoiceOver → Detaliere → Punctuație: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup`
+- Accesibilitate → VoiceOver → Detaliere → Punctuație → Punctuație: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup#voiceOverPunctuationGroup`
+- Accesibilitate → VoiceOver → Detaliere → Punctuație → Grup de punctuație activ: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup#voiceOverActivePunctuationGroup`
+- Accesibilitate → VoiceOver → Detaliere → Punctuație → Tot: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup#all`
+- Accesibilitate → VoiceOver → Detaliere → Punctuație → Parțial: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup#AXSSVoiceOverPunctuationGroupSome`
+- Accesibilitate → VoiceOver → Detaliere → Punctuație → Nimic: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup#PunctuationGroupNone`
+- Accesibilitate → VoiceOver → Detaliere → Punctuație → Adăugați un grup de punctuație: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup/NewPunctuation`
+- Accesibilitate → VoiceOver → Detaliere → Punctuație → Adăugați un grup de punctuație → Adăugați un grup de punctuație: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup/NewPunctuation#NewPunctuation`
+- Accesibilitate → VoiceOver → Detaliere → Punctuație → Importați: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup/ImportPunctuation`
+- Accesibilitate → VoiceOver → Detaliere → Punctuație → Importați → Importați: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup/ImportPunctuation#ImportPunctuation`
+- Accesibilitate → VoiceOver → Detaliere → Enunțare indicii: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#HINTS_TITLE`
+- Accesibilitate → VoiceOver → Detaliere → Notificări de sistem: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/SystemNotifications`
+- Accesibilitate → VoiceOver → Detaliere → Notificări de sistem → Notificări de sistem: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/SystemNotifications#SystemNotifications`
+- Accesibilitate → VoiceOver → Detaliere → Notificări de sistem → Notificări la blocare: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/SystemNotifications#LockScreenNotifications`
+- Accesibilitate → VoiceOver → Detaliere → Notificări de sistem → Bannere de notificare: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/SystemNotifications#BannerNotifications`
+- Accesibilitate → VoiceOver → Detaliere → Notificări de sistem → Utilizare mod Silențios: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/SystemNotifications#NOTIFICATION_USE_RINGER_SWITCH`
+- Accesibilitate → VoiceOver → Detaliere → Anunțuri Navigare rapidă: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverQuickNavAnnouncementFeedback`
+- Accesibilitate → VoiceOver → Detaliere → Anunțuri Navigare rapidă → Anunțuri Navigare rapidă: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverQuickNavAnnouncementFeedback#voiceOverQuickNavAnnouncementFeedback`
+- Accesibilitate → VoiceOver → Detaliere → Notificări lanternă: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverFlashlightNotificationsEnabled`
+- Accesibilitate → VoiceOver → Detaliere → Notificări lanternă → Notificări lanternă: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverFlashlightNotificationsEnabled#voiceOverFlashlightNotificationsEnabled`
+- Accesibilitate → VoiceOver → Detaliere → Litere majuscule: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverCapitalLetterFeedback`
+- Accesibilitate → VoiceOver → Detaliere → Litere majuscule → Litere majuscule: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverCapitalLetterFeedback#voiceOverCapitalLetterFeedback`
+- Accesibilitate → VoiceOver → Detaliere → Ștergere text: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverDeletionFeedback`
+- Accesibilitate → VoiceOver → Detaliere → Ștergere text → Ștergere text: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverDeletionFeedback#voiceOverDeletionFeedback`
+- Accesibilitate → VoiceOver → Detaliere → Linkuri: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverLinkFeedback`
+- Accesibilitate → VoiceOver → Detaliere → Linkuri → Linkuri: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverLinkFeedback#voiceOverLinkFeedback`
+- Accesibilitate → VoiceOver → Detaliere → Acțiuni: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverActionsFeedback`
+- Accesibilitate → VoiceOver → Detaliere → Acțiuni → Acțiuni: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverActionsFeedback#voiceOverActionsFeedback`
+- Accesibilitate → VoiceOver → Detaliere → Mai mult conținut: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMoreContentOutputFeedback`
+- Accesibilitate → VoiceOver → Detaliere → Mai mult conținut → Mai mult conținut: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMoreContentOutputFeedback#voiceOverMoreContentOutputFeedback`
+- Accesibilitate → VoiceOver → Detaliere → Descrieri container: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverContainerOutputFeedback`
+- Accesibilitate → VoiceOver → Detaliere → Descrieri container → Descrieri container: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverContainerOutputFeedback#voiceOverContainerOutputFeedback`
+- Accesibilitate → VoiceOver → Detaliere → Numere: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverNumberFeedback`
+- Accesibilitate → VoiceOver → Detaliere → Numere → Numere: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverNumberFeedback#voiceOverNumberFeedback`
+- Accesibilitate → VoiceOver → Detaliere → Feedback text predictiv: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/PREDICTIVE_TEXT_FEEDBACK`
+- Accesibilitate → VoiceOver → Detaliere → Feedback text predictiv → Feedback text predictiv: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/PREDICTIVE_TEXT_FEEDBACK#PREDICTIVE_TEXT_FEEDBACK`
+- Accesibilitate → VoiceOver → Detaliere → Feedback text predictiv → La apariția textului predictiv: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/PREDICTIVE_TEXT_FEEDBACK/InlineTextCompletionAppearanceFeedback`
+- Accesibilitate → VoiceOver → Detaliere → Feedback text predictiv → La apariția textului predictiv → La apariția textului predictiv: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/PREDICTIVE_TEXT_FEEDBACK/InlineTextCompletionAppearanceFeedback#InlineTextCompletionAppearanceFeedback`
+- Accesibilitate → VoiceOver → Detaliere → Feedback text predictiv → La introducerea feedbackului pentru text predictiv: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/PREDICTIVE_TEXT_FEEDBACK/InlineTextCompletionInsertionFeedback`
+- Accesibilitate → VoiceOver → Detaliere → Feedback text predictiv → La introducerea feedbackului pentru text predictiv → La introducerea feedbackului pentru text predictiv: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/PREDICTIVE_TEXT_FEEDBACK/InlineTextCompletionInsertionFeedback#InlineTextCompletionInsertionFeedback`
+- Accesibilitate → VoiceOver → Detaliere → Anteturi tabel: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#speakTableHeader`
+- Accesibilitate → VoiceOver → Detaliere → Numere coloane și rânduri: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#SPEAK_TABLE_ROW_COLUMN`
+- Accesibilitate → VoiceOver → Detaliere → Enunțare confirmare: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#ACTION_CONFIRMATION`
+- Accesibilitate → VoiceOver → Detaliere → Rezumat rotor web: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverRotorSummaryFeedback`
+- Accesibilitate → VoiceOver → Detaliere → Rezumat rotor web → Rezumat rotor web: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverRotorSummaryFeedback#voiceOverRotorSummaryFeedback`
+- Accesibilitate → VoiceOver → Detaliere → Emoji: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverEmojiFeedback`
+- Accesibilitate → VoiceOver → Detaliere → Emoji → Emoji: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverEmojiFeedback#voiceOverEmojiFeedback`
+- Accesibilitate → VoiceOver → Detaliere → Sufix emoji: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#EMOJI_SUFFIX`
+- Accesibilitate → VoiceOver → Detaliere → Descrieri multimedia: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions`
+- Accesibilitate → VoiceOver → Detaliere → Descrieri multimedia → Descrieri multimedia: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#voiceOverMediaDescriptions`
+- Accesibilitate → VoiceOver → Detaliere → Feedback la introducere: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#voiceOverInputFeedback`
+- Accesibilitate → VoiceOver → Detaliere → Feedback Survolare aplicație: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#voiceOverAppHoverFeedback`
+- Accesibilitate → VoiceOver → Braille: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille`
+- Accesibilitate → VoiceOver → Braille → Braille: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#Braille`
+- Accesibilitate → VoiceOver → Braille → Ieșire: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput`
+- Accesibilitate → VoiceOver → Braille → Ieșire → Ieșire: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#BrailleDisplayOutput`
+- Accesibilitate → VoiceOver → Braille → Intrare: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput`
+- Accesibilitate → VoiceOver → Braille → Intrare → Intrare: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#BrailleDisplayInput`
+- Accesibilitate → VoiceOver → Braille → Corelare tabele de intrare și ieșire: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BRAILLE_SYNC_TABLES`
+- Accesibilitate → VoiceOver → Braille → Intrare și ieșire: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleDisplayOutput`
+- Accesibilitate → VoiceOver → Braille → Traducere automată: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#GRADE2_AUTO_TRANSLATE`
+- Accesibilitate → VoiceOver → Braille → Intrare ecran Braille: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput`
+- Accesibilitate → VoiceOver → Braille → Intrare ecran Braille → Intrare ecran Braille: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#BrailleGesturesInput`
+- Accesibilitate → VoiceOver → Braille → Intrare ecran Braille → Pornire automată la editarea textului: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#AUTO_ACTIVATE_ON_TEXT_FIELDS`
+- Accesibilitate → VoiceOver → Braille → Intrare ecran Braille → Inversare poziții puncte: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#SHOULD_REVERSE_DOTS`
+- Accesibilitate → VoiceOver → Braille → Intrare ecran Braille → Păstrați activ până la închidere: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#CONTROL_DEVICE_USING_BRAILLE_GESTURE`
+- Accesibilitate → VoiceOver → Braille → Intrare ecran Braille → Feedback vizual text: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#DISPLAY_ENTERED_TEXT`
+- Accesibilitate → VoiceOver → Braille → Intrare ecran Braille → Feedback la scriere: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#TYPING_FEEDBACK`
+- Accesibilitate → VoiceOver → Braille → Intrare ecran Braille → Sunet: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#USE_TYPING_SOUND_FEEDBACK`
+- Accesibilitate → VoiceOver → Braille → Intrare ecran Braille → Sunet: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#USE_HAPTIC_FEEDBACK`
+- Accesibilitate → VoiceOver → Braille → Intrare ecran Braille → Anunțuri de mod: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#SOUND_OPTION`
+- Accesibilitate → VoiceOver → Braille → Intrare ecran Braille → Alegeți un tabel Braille: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#BSI_TABLES`
+- Accesibilitate → VoiceOver → Braille → Tabele Braille: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier`
+- Accesibilitate → VoiceOver → Braille → Tabele Braille → Tabele Braille: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier#tableIdentifier`
+- Accesibilitate → VoiceOver → Braille → Tabele Braille → Adăugați un tabel Braille…: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier/ADD_NEW_BRAILLE_LANGUAGE`
+- Accesibilitate → VoiceOver → Braille → Tabele Braille → Adăugați un tabel Braille… → Adăugați un tabel Braille…: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier/ADD_NEW_BRAILLE_LANGUAGE#ADD_NEW_BRAILLE_LANGUAGE`
+- Accesibilitate → VoiceOver → Braille → Celule de stare: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL`
+- Accesibilitate → VoiceOver → Braille → Celule de stare → Celule de stare: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL`
+- Accesibilitate → VoiceOver → Braille → Celule de stare → Poziție celule de stare: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_POSITION`
+- Accesibilitate → VoiceOver → Braille → Celule de stare → Afișare stare generală: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#StatusCellGeneral`
+- Accesibilitate → VoiceOver → Braille → Celule de stare → Afișare stare text: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#StatusCellTextStyle`
+- Accesibilitate → VoiceOver → Braille → Cod Nemeth pentru ecuații: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#ALWAYS_USE_NEMETH`
+- Accesibilitate → VoiceOver → Braille → Afișare tastatură pe ecran: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#SHOW_SW_KEYBOARD`
+- Accesibilitate → VoiceOver → Braille → Întoarcere pagini la deplasare: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#AUTO_TURN_PAGES`
+- Accesibilitate → VoiceOver → Braille → Încadrare cuvinte: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#WORD_WRAP`
+- Accesibilitate → VoiceOver → Braille → Formatare text: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BRAILLE_FORMATTING`
+- Accesibilitate → VoiceOver → Braille → Mesaje de alertă Braille: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleAlertDisplayDuration`
+- Accesibilitate → VoiceOver → Braille → Mesaje de alertă Braille → Mesaje de alertă Braille: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleAlertDisplayDuration#voiceOverBrailleAlertDisplayDuration`
+- Accesibilitate → VoiceOver → Braille → Mesaje de alertă Braille → Mesaje de alertă Braille: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleAlertDisplayDuration#NumericalPreferenceSwitcherIdentifier`
+- Accesibilitate → VoiceOver → Braille → Mesaje de alertă Braille → Afișare până la închidere: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleAlertDisplayDuration#NumericalPreferenceInfiniteTimeDurationIdentifier`
+- Accesibilitate → VoiceOver → Braille → Ignorare durată acorduri: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleDebounceTimeout`
+- Accesibilitate → VoiceOver → Braille → Ignorare durată acorduri → Ignorare durată acorduri: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleDebounceTimeout/voiceOverBrailleDebounceTimeout`
+- Accesibilitate → VoiceOver → Braille → Durată avansare automată: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleAutoAdvance`
+- Accesibilitate → VoiceOver → Braille → Durată avansare automată → Durată avansare automată: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleAutoAdvance#voiceOverBrailleAutoAdvance`
+- Accesibilitate → VoiceOver → Braille → Cortină sunet: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#SOUND_CURTAIN`
+- Accesibilitate → VoiceOver → Braille → Activare Bluetooth la pornire: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverAlwaysTurnOnBluetooth`
+- Accesibilitate → VoiceOver → Braille → Alegeți un afișaj Braille: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#DEVICES`
+- Accesibilitate → VoiceOver → Audio: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio`
+- Accesibilitate → VoiceOver → Audio → Audio: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#Audio`
+- Accesibilitate → VoiceOver → Audio → Sunete VoiceOver: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds`
+- Accesibilitate → VoiceOver → Audio → Sunete VoiceOver → Sunete VoiceOver: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSounds`
+- Accesibilitate → VoiceOver → Audio → Sunete VoiceOver → Sunete: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSSettingsItem.Sounds`
+- Accesibilitate → VoiceOver → Audio → Sunete VoiceOver → Interacțiune: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSOutputEventCategory.Interaction`
+- Accesibilitate → VoiceOver → Audio → Sunete VoiceOver → Feedback VoiceOver: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSOutputEventCategory.VoiceOverFeedback`
+- Accesibilitate → VoiceOver → Audio → Sunete VoiceOver → Feedback aplicație: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSOutputEventCategory.AppFeedback`
+- Accesibilitate → VoiceOver → Audio → Sunete VoiceOver → Braille: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSOutputEventCategory.Braille`
+- Accesibilitate → VoiceOver → Audio → Sunete VoiceOver → Editare text: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSOutputEventCategory.TextEditing`
+- Accesibilitate → VoiceOver → Audio → Sunete VoiceOver → Sistem: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSOutputEventCategory.System`
+- Accesibilitate → VoiceOver → Audio → Atenuare audio: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#AUDIO_DUCKING`
+- Accesibilitate → VoiceOver → Audio → Autoselectare difuzor în apel: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#ROUTE_TO_SPEAKER`
+- Accesibilitate → VoiceOver → Audio → Trimiteți la HDMI: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#ROUTE_TO_HDMI`
+- Accesibilitate → VoiceOver → Comenzi: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands`
+- Accesibilitate → VoiceOver → Comenzi → Comenzi: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands#CustomizeCommands`
+- Accesibilitate → VoiceOver → Comenzi → Toate comenzile: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/AllCommands`
+- Accesibilitate → VoiceOver → Comenzi → Toate comenzile → Toate comenzile: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/AllCommands#AllCommands`
+- Accesibilitate → VoiceOver → Comenzi → Intrare tastatură Braille: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/BrailleKeyboardInput`
+- Accesibilitate → VoiceOver → Comenzi → Intrare tastatură Braille → Intrare tastatură Braille: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/BrailleKeyboardInput#BrailleKeyboardInput`
+- Accesibilitate → VoiceOver → Comenzi → Gesturi tactile: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/TouchGestures`
+- Accesibilitate → VoiceOver → Comenzi → Gesturi tactile → Gesturi tactile: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/TouchGestures#TouchGestures`
+- Accesibilitate → VoiceOver → Comenzi → Scurtături din tastatură: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/KeyboardShortcuts`
+- Accesibilitate → VoiceOver → Comenzi → Scurtături din tastatură → Scurtături din tastatură: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/KeyboardShortcuts#KeyboardShortcuts`
+- Accesibilitate → VoiceOver → Comenzi → Scriere de mână: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/Handwriting`
+- Accesibilitate → VoiceOver → Comenzi → Scriere de mână → Scriere de mână: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/Handwriting#Handwriting`
+- Accesibilitate → VoiceOver → Comenzi → Intrare ecran Braille: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/BrailleScreenInput`
+- Accesibilitate → VoiceOver → Comenzi → Intrare ecran Braille → Intrare ecran Braille: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/BrailleScreenInput#BrailleScreenInput`
+- Accesibilitate → VoiceOver → Comenzi → Resetați comenzile VoiceOver: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands#ResetVoiceOverCommands`
+- Accesibilitate → VoiceOver → Comenzi → Comutare mână dominantă gesturi: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands#SWITCH_GESTURE_HANDEDNESS`
+- Accesibilitate → VoiceOver → Activități: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/activities`
+- Accesibilitate → VoiceOver → Activități → Activități: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/activities#activities`
+- Accesibilitate → VoiceOver → Activități → Programare: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/activities/Programming`
+- Accesibilitate → VoiceOver → Activități → Programare → Programare: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/activities/Programming#Programming`
+- Accesibilitate → VoiceOver → Activități → Adăugați o activitate…: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/activities/New`
+- Accesibilitate → VoiceOver → Activități → Adăugați o activitate… → Adăugați o activitate…: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/activities/New#New`
+- Accesibilitate → VoiceOver → Rotor: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions`
+- Accesibilitate → VoiceOver → Rotor → Rotor: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#RotorActions`
+- Accesibilitate → VoiceOver → Rotor → Articole rotor: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions/WebRotor`
+- Accesibilitate → VoiceOver → Rotor → Articole rotor → Articole rotor: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions/WebRotor#WebRotor`
+- Accesibilitate → VoiceOver → Rotor → Modificare rotor cu articol: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#STICKY_ROTOR_TITLE`
+- Accesibilitate → VoiceOver → Rotor → Editare aplicații ecran principal: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#editApps`
+- Accesibilitate → VoiceOver → Rotor → Atingere directă pentru aplicații: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions/apps`
+- Accesibilitate → VoiceOver → Rotor → Atingere directă pentru aplicații → Atingere directă pentru aplicații: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions/apps#apps`
+- Accesibilitate → VoiceOver → Scriere: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions`
+- Accesibilitate → VoiceOver → Scriere → Scriere: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#TypingOptions`
+- Accesibilitate → VoiceOver → Scriere → Stil de scriere: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_MODE_TITLE`
+- Accesibilitate → VoiceOver → Scriere → Stil de scriere → Stil de scriere: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_MODE_TITLE#TYPING_MODE_TITLE`
+- Accesibilitate → VoiceOver → Scriere → Feedback fonetic: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE`
+- Accesibilitate → VoiceOver → Scriere → Feedback fonetic → Feedback fonetic: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_TITLE`
+- Accesibilitate → VoiceOver → Scriere → Feedback la scriere: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_FEEDBACK`
+- Accesibilitate → VoiceOver → Scriere → Feedback la scriere → Feedback la scriere: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_FEEDBACK#TYPING_FEEDBACK`
+- Accesibilitate → VoiceOver → Scriere → Taste modificator: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS`
+- Accesibilitate → VoiceOver → Scriere → Taste modificator → Taste modificator: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS#MODIFIER_KEYS`
+- Accesibilitate → VoiceOver → Scriere → Durată interacțiune tastatură: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/KEYBOARD_TIMING_TIMEOUT`
+- Accesibilitate → VoiceOver → Scriere → Durată interacțiune tastatură → Durată interacțiune tastatură: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/KEYBOARD_TIMING_TIMEOUT#KEYBOARD_TIMING_TIMEOUT`
+- Accesibilitate → VoiceOver → Navigare imagini: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages`
+- Accesibilitate → VoiceOver → Navigare imagini → Navigare imagini: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#IncludeUnlabeledImages`
+- Accesibilitate → VoiceOver → Cursor mare: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CursorStyle`
+- Accesibilitate → VoiceOver → Panou subtitrare: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CaptionPanel`
+- Accesibilitate → VoiceOver → Așteptare apăsare dublă: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/DOUBLE_TAP_INTERVAL_TITLE`
+- Accesibilitate → VoiceOver → Așteptare apăsare dublă → Așteptare apăsare dublă: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/DOUBLE_TAP_INTERVAL_TITLE#NumericalPreferencePickerGroupIdentifier`
+- Accesibilitate → VoiceOver → Stil de navigare: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NavigationStyle`
+- Accesibilitate → VoiceOver → Stil de navigare → Stil de navigare: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NavigationStyle#NavigationStyle`
+- Accesibilitate → VoiceOver → Configurări rapide: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings`
+- Accesibilitate → VoiceOver → Configurări rapide → Configurări rapide: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#QuickSettings`
+- Accesibilitate → VoiceOver → Recunoaștere VoiceOver: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver`
+- Accesibilitate → VoiceOver → Recunoaștere VoiceOver → Recunoaștere VoiceOver: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver#NeuralVoiceOver`
+- Accesibilitate → VoiceOver → Recunoaștere VoiceOver → Descriere imagini: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_IMAGE_DESCRIPTIONS`
+- Accesibilitate → VoiceOver → Recunoaștere VoiceOver → Descriere imagini → Descriere imagini: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_IMAGE_DESCRIPTIONS#VO_IMAGE_DESCRIPTIONS`
+- Accesibilitate → VoiceOver → Recunoaștere VoiceOver → Descriere imagini → Reproducere conținut sensibil: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_IMAGE_DESCRIPTIONS#SensitiveContentGroup`
+- Accesibilitate → VoiceOver → Recunoaștere VoiceOver → Descriere imagini → Limbi suplimentare: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_IMAGE_DESCRIPTIONS/AdditionalLanguages`
+- Accesibilitate → VoiceOver → Recunoaștere VoiceOver → Descriere imagini → Limbi suplimentare → Limbi suplimentare: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_IMAGE_DESCRIPTIONS/AdditionalLanguages#AdditionalLanguages`
+- Accesibilitate → VoiceOver → Recunoaștere VoiceOver → Descriere imagini → Utilizare în aplicații: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_IMAGE_DESCRIPTIONS/apps`
+- Accesibilitate → VoiceOver → Recunoaștere VoiceOver → Descriere imagini → Utilizare în aplicații → Utilizare în aplicații: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_IMAGE_DESCRIPTIONS/apps#apps`
+- Accesibilitate → VoiceOver → Recunoaștere VoiceOver → Recunoaștere ecran: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_SCREEN_RECOGNITION`
+- Accesibilitate → VoiceOver → Recunoaștere VoiceOver → Recunoaștere ecran → Recunoaștere ecran: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_SCREEN_RECOGNITION#VO_SCREEN_RECOGNITION`
+- Accesibilitate → VoiceOver → Recunoaștere VoiceOver → Recunoaștere ecran → Utilizare în aplicații: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_SCREEN_RECOGNITION/apps`
+- Accesibilitate → VoiceOver → Recunoaștere VoiceOver → Recunoaștere ecran → Utilizare în aplicații → Utilizare în aplicații: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_SCREEN_RECOGNITION/apps#apps`
+- Accesibilitate → VoiceOver → Recunoaștere VoiceOver → Recunoaștere text: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver#VO_OCR`
+- Accesibilitate → VoiceOver → Recunoaștere VoiceOver → Stil feedback: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_FEEDBACK`
+- Accesibilitate → VoiceOver → Recunoaștere VoiceOver → Stil feedback → Stil feedback: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_FEEDBACK#VO_FEEDBACK`
+- Accesibilitate → VoiceOver → Recunoaștere VoiceOver → Recunoaștere live: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_REAL_WORLD_DETECTION`
+- Accesibilitate → VoiceOver → Întârziere înainte de selectare: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#VoiceOverDelayUntilSpeak`
+- Accesibilitate → VoiceOver → Așteptare atingere dublă degete: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#DOUBLE_TAP_INTERVAL`
+- Accesibilitate → Zoom: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE`
+- Accesibilitate → Zoom → Urmărire focalizare: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomShouldFollowFocus`
+- Accesibilitate → Zoom → Tastare inteligentă: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomAlwaysUseWindowZoomForTyping`
+- Accesibilitate → Zoom → Scurtături din tastatură: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts`
+- Accesibilitate → Zoom → Scurtături din tastatură → Scurtături din tastatură: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomEnableKeyboardShortcuts`
+- Accesibilitate → Zoom → Scurtături din tastatură → Ajustare nivel zoom: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutAdjustZoomLevel`
+- Accesibilitate → Zoom → Scurtături din tastatură → Comutare zoom: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutToggleZoom`
+- Accesibilitate → Zoom → Scurtături din tastatură → Mutare fereastră zoom: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutPanZoom`
+- Accesibilitate → Zoom → Scurtături din tastatură → Ajustare fereastră zoom: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutResizeZoomWindow`
+- Accesibilitate → Zoom → Scurtături din tastatură → Comutare regiune zoom: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutSwitchZoomMode`
+- Accesibilitate → Zoom → Scurtături din tastatură → Comutare temporară zoom: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutTempToggleZoom`
+- Accesibilitate → Zoom → Scurtături din tastatură → Zoom cu rotița de derulare: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutScrollWheel`
+- Accesibilitate → Zoom → Utilizează gesturi pe trackpad pentru zoom: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomWithTrackpad`
+- Accesibilitate → Zoom → Controller zoom: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug`
+- Accesibilitate → Zoom → Controller zoom → Controller zoom: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug#ZoomSlug`
+- Accesibilitate → Zoom → Controller zoom → Afișare panou de comenzi: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug#ZOOM_DETACH_CONTROLS`
+- Accesibilitate → Zoom → Controller zoom → Apăsare simplă: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_CONTROLLER_ACTION_SINGLE_TAP`
+- Accesibilitate → Zoom → Controller zoom → Apăsare simplă → Apăsare simplă: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_CONTROLLER_ACTION_SINGLE_TAP#ZOOM_CONTROLLER_ACTION_SINGLE_TAP`
+- Accesibilitate → Zoom → Controller zoom → Apăsare dublă: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_CONTROLLER_ACTION_DOUBLE_TAP`
+- Accesibilitate → Zoom → Controller zoom → Apăsare dublă → Apăsare dublă: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_CONTROLLER_ACTION_DOUBLE_TAP#ZOOM_CONTROLLER_ACTION_DOUBLE_TAP`
+- Accesibilitate → Zoom → Controller zoom → Apăsare triplă: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_CONTROLLER_ACTION_TRIPLE_TAP`
+- Accesibilitate → Zoom → Controller zoom → Apăsare triplă → Apăsare triplă: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_CONTROLLER_ACTION_TRIPLE_TAP#ZOOM_CONTROLLER_ACTION_TRIPLE_TAP`
+- Accesibilitate → Zoom → Controller zoom → Ajustare nivel zoom: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug#ZOOM_TAP_AND_SLIDE_TO_ADJUST_ZOOM_LEVEL`
+- Accesibilitate → Zoom → Controller zoom → Culoare: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/CONTROLLER_COLOR`
+- Accesibilitate → Zoom → Controller zoom → Culoare → Culoare: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/CONTROLLER_COLOR#CONTROLLER_COLOR`
+- Accesibilitate → Zoom → Controller zoom → Opacitate în repaus: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_IDLE_SLUG_OPACITY`
+- Accesibilitate → Zoom → Controller zoom → Opacitate în repaus → Opacitate în repaus: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_IDLE_SLUG_OPACITY#ZOOM_IDLE_SLUG_OPACITY`
+- Accesibilitate → Zoom → Regiune zoom: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode`
+- Accesibilitate → Zoom → Regiune zoom → Regiune zoom: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode#ZoomLensMode`
+- Accesibilitate → Zoom → Nivel zoom maxim: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomPreferredMaxZoomLevel`
+- Accesibilitate → Zoom → Filtru zoom: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomFilter`
+- Accesibilitate → Zoom → Filtru zoom → Filtru zoom: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomFilter#ZoomFilter`
+- Accesibilitate → Zoom → Afișați la oglindire: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomShowWhileMirroring`
+- Accesibilitate → Zoom → Definire Zoom ca focalizare implicită: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomAsDefaultDial`
+- Accesibilitate → Zoom → Utilizare Digital Crown pentru zoom: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomStealsCrownTurns`
+- Accesibilitate → Zoom → Culoare bordură: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#MagnifyingGlassBorderColor`
+- Accesibilitate → Text survolat: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE`
+- Accesibilitate → Text survolat → Mod afișare: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextDisplayMode`
+- Accesibilitate → Text survolat → Mod afișare → Mod afișare: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextDisplayMode#HoverTextDisplayMode`
+- Accesibilitate → Text survolat → Viteză derulare: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextScrollSpeed`
+- Accesibilitate → Text survolat → Viteză derulare → Viteză derulare: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextScrollSpeed#HoverTextScrollSpeed`
+- Accesibilitate → Text survolat → Font: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextStyle`
+- Accesibilitate → Text survolat → Font → Font: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextStyle#HoverTextStyle`
+- Accesibilitate → Text survolat → Dimensiune: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextSize`
+- Accesibilitate → Text survolat → Dimensiune → Dimensiune: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextSize#HoverTextSize`
+- Accesibilitate → Text survolat → Culori: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE#HOVER_TEXT_COLOR_OPTIONS`
+- Accesibilitate → Text survolat → Modificator activare: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextActivationModifier`
+- Accesibilitate → Text survolat → Modificator activare → Modificator activare: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextActivationModifier#HoverTextActivationModifier`
+- Accesibilitate → Text survolat → Blocare activare: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE#HOVER_TEXT_ACTIVATION_LOCK`
+- Accesibilitate → Tastaturi și tastare: `prefs:root=ACCESSIBILITY&path=KEYBOARDS`
+- Accesibilitate → Tastaturi și tastare → Tastare survolată: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING`
+- Accesibilitate → Tastaturi și tastare → Tastare survolată → Mod afișare: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING/HoverTextTypingDisplayMode`
+- Accesibilitate → Tastaturi și tastare → Tastare survolată → Mod afișare → Mod afișare: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING/HoverTextTypingDisplayMode#HoverTextTypingDisplayMode`
+- Accesibilitate → Tastaturi și tastare → Tastare survolată → Font: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING/HoverTypingStyle`
+- Accesibilitate → Tastaturi și tastare → Tastare survolată → Font → Font: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING/HoverTypingStyle#HoverTypingStyle`
+- Accesibilitate → Tastaturi și tastare → Tastare survolată → Dimensiune: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING/HoverTextSize`
+- Accesibilitate → Tastaturi și tastare → Tastare survolată → Dimensiune → Dimensiune: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING/HoverTextSize#HoverTextSize`
+- Accesibilitate → Tastaturi și tastare → Tastare survolată → Culori de scriere: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TYPING_COLOR_OPTIONS`
+- Accesibilitate → Tastaturi și tastare → Tastare survolată → Culori de afișare: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TYPING_DISPLAY_COLOR_OPTIONS`
+- Accesibilitate → Tastaturi și tastare → Tastare survolată → Culoare text: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TEXT_TEXT_COLOR`
+- Accesibilitate → Tastaturi și tastare → Tastare survolată → Culoare punct de inserare: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TEXT_INSERTION_POINT_COLOR`
+- Accesibilitate → Tastaturi și tastare → Tastare survolată → Culoare de fundal: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TEXT_BACKGROUND_COLOR`
+- Accesibilitate → Tastaturi și tastare → Tastare survolată → Culoare bordură: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TEXT_BORDER_COLOR`
+- Accesibilitate → Tastaturi și tastare → Tastare survolată → Culoare cuvânt corectat automat: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TYPING_AUTOCORRECTED_WORD_COLOR`
+- Accesibilitate → Tastaturi și tastare → Tastare survolată → Culoare cuvânt ortografiat greșit: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TYPING_MISSPELLED_WORD`
+- Accesibilitate → Tastaturi și tastare → Tastare survolată → Resetați la valorile implicite: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TYPING_RESET_BUTTON`
+- Accesibilitate → Tastaturi și tastare → Acces complet din tastatură: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS`
+- Accesibilitate → Tastaturi și tastare → Acces complet din tastatură → Acces complet din tastatură: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAEnabledSwitch`
+- Accesibilitate → Tastaturi și tastare → Acces complet din tastatură → Comenzi: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKACommands`
+- Accesibilitate → Tastaturi și tastare → Acces complet din tastatură → Comenzi → Comenzi: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKACommands#FKACommands`
+- Accesibilitate → Tastaturi și tastare → Acces complet din tastatură → Ascundere automată: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKAFocusRingTimeout`
+- Accesibilitate → Tastaturi și tastare → Acces complet din tastatură → Ascundere automată → Ascundere automată: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKAFocusRingTimeout#FKAFocusRingTimeout`
+- Accesibilitate → Tastaturi și tastare → Acces complet din tastatură → Măriți dimensiunea: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKALargeFocusRingEnabled`
+- Accesibilitate → Tastaturi și tastare → Acces complet din tastatură → Contrast ridicat: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKAFocusRingHighContrastEnabled`
+- Accesibilitate → Tastaturi și tastare → Acces complet din tastatură → Culoare: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKAFocusRingColor`
+- Accesibilitate → Tastaturi și tastare → Acces complet din tastatură → Culoare → Culoare: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKAFocusRingColor#FKAFocusRingColor`
+- Accesibilitate → Tastaturi și tastare → Repetare tastă: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT`
+- Accesibilitate → Tastaturi și tastare → Repetare tastă → Repetare tastă: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatEnabled`
+- Accesibilitate → Tastaturi și tastare → Repetare tastă → Interval repetare tastă: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatInterval`
+- Accesibilitate → Tastaturi și tastare → Repetare tastă → Întârziere până la repetare: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatDelay`
+- Accesibilitate → Tastaturi și tastare → Taste persistente: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS`
+- Accesibilitate → Tastaturi și tastare → Taste persistente → Taste persistente: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysEnabled`
+- Accesibilitate → Tastaturi și tastare → Taste persistente → Comutare cu tasta Shift: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysShiftToggle`
+- Accesibilitate → Tastaturi și tastare → Taste persistente → Sunet: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysSound`
+- Accesibilitate → Tastaturi și tastare → Taste lente: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/SLOW_KEYS`
+- Accesibilitate → Tastaturi și tastare → Taste lente → Taste lente: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/SLOW_KEYS#NumericalPreferenceSwitcherIdentifier`
+- Accesibilitate → Tastaturi și tastare → Tastaturi software: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#SOFTWARE_KEYBOARDS`
+- Accesibilitate → Tastaturi și tastare → Afișare litere minuscule: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#LOWERCASE_KEYBOARD`
+- Accesibilitate → Afișaj și mărime text: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT`
+- Accesibilitate → Afișaj și mărime text → Text aldin: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#ENHANCE_TEXT_LEGIBILITY`
+- Accesibilitate → Afișaj și mărime text → Text mai mare: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/LARGER_TEXT`
+- Accesibilitate → Afișaj și mărime text → Text mai mare → Text mai mare: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/LARGER_TEXT#LARGER_TEXT`
+- Accesibilitate → Afișaj și mărime text → Text mai mare → Dimensiuni mai mari: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/LARGER_TEXT#LARGER_DYNAMIC_TYPE_SWITCH`
+- Accesibilitate → Afișaj și mărime text → Forme butoane: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#BUTTON_SHAPES`
+- Accesibilitate → Afișaj și mărime text → Etichete activare/dezactivare: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#OnOffLabels`
+- Accesibilitate → Afișaj și mărime text → Reducere transparență: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#REDUCE_TRANSPARENCY`
+- Accesibilitate → Afișaj și mărime text → Sporire contrast: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#TEXT_COLORS_DARKEN`
+- Accesibilitate → Afișaj și mărime text → Diferențiere fără culoare: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#DIFFERENTIATE_WITHOUT_COLOR`
+- Accesibilitate → Afișaj și mărime text → Preferință pentru text orizontal: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#PREFER_HORIZONTAL_TEXT`
+- Accesibilitate → Afișaj și mărime text → Inversare inteligentă: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#SMART_INVERT`
+- Accesibilitate → Afișaj și mărime text → Inversare clasică: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#CLASSIC_INVERT`
+- Accesibilitate → Afișaj și mărime text → Filtre de culoare: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR`
+- Accesibilitate → Afișaj și mărime text → Filtre de culoare → Filtre de culoare: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR#DISPLAY_FILTER_COLOR`
+- Accesibilitate → Afișaj și mărime text → Filtre de culoare → Aplicare la traversare video: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR#VIDEO_PASSTHROUGH`
+- Accesibilitate → Afișaj și mărime text → Reducere punct de alb: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#WHITE_POINT`
+- Accesibilitate → Afișaj și mărime text → Luminozitate automată: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#AUTO_BRIGHTNESS`
+- Accesibilitate → Afișaj și mărime text → Ignorare mișcări ochi pentru stabilizare: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#STATIC_FOVEATION_TEXT`
+- Accesibilitate → Afișaj și mărime text → Aliniere automată afișaje: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#AUTO_IPD_TEXT`
+- Accesibilitate → Afișaj și mărime text → Sporire stare focalizare: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#INCREASE_FOCUS_STATE_TEXT`
+- Accesibilitate → Mișcare: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE`
+- Accesibilitate → Mișcare → Reducere mișcare: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION`
+- Accesibilitate → Mișcare → Auto‑redare efecte mesaje: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#ReduceMotionAutoplayMessagesEffects`
+- Accesibilitate → Mișcare → Auto‑redare imagini animate: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION_AUTOPLAY_ANIMATED_IMAGES`
+- Accesibilitate → Mișcare → Auto-previzualizări video: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION_AUTOPLAY_VIDEO_PREVIEWS`
+- Accesibilitate → Mișcare → Cursor care nu clipește: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#PREFER_NONBLINKING_CURSOR`
+- Accesibilitate → Mișcare → Limitare frecvență cadre: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REFRESH_RATE`
+- Accesibilitate → Mișcare → Estompare lumini intermitente: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#PHOTOSENSITIVE_MITIGATION`
+- Accesibilitate → Mișcare → Afișați repere de mișcare în vehicul: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#MotionCues`
+- Accesibilitate → Conținut enunțat: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE`
+- Accesibilitate → Conținut enunțat → Enunțare selecție: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QUICK_SPEAK_TITLE`
+- Accesibilitate → Conținut enunțat → Enunțare ecran: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpeakThisEnabled`
+- Accesibilitate → Conținut enunțat → Controller enunțare: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController`
+- Accesibilitate → Conținut enunțat → Controller enunțare → Controller enunțare: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController#SpeechController`
+- Accesibilitate → Conținut enunțat → Controller enunțare → Apăsare lungă: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController/SpeechControllerLongPressAction`
+- Accesibilitate → Conținut enunțat → Controller enunțare → Apăsare lungă → Apăsare lungă: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController/SpeechControllerLongPressAction#SpeechControllerLongPressAction`
+- Accesibilitate → Conținut enunțat → Controller enunțare → Apăsare dublă: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController/SpeechControllerDoubleTapAction`
+- Accesibilitate → Conținut enunțat → Controller enunțare → Apăsare dublă → Apăsare dublă: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController/SpeechControllerDoubleTapAction#SpeechControllerDoubleTapAction`
+- Accesibilitate → Conținut enunțat → Controller enunțare → Opacitate în repaus: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController/SpeechControllerIdleOpacity`
+- Accesibilitate → Conținut enunțat → Controller enunțare → Opacitate în repaus → Opacitate în repaus: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController/SpeechControllerIdleOpacity#SpeechControllerIdleOpacity`
+- Accesibilitate → Conținut enunțat → Controller enunțare → Personalizați butoanele mausului: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController#CustomizeMouseButtons`
+- Accesibilitate → Conținut enunțat → Evidențiere conținut: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/QuickSpeakHighlight`
+- Accesibilitate → Conținut enunțat → Evidențiere conținut → Evidențiere conținut: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/QuickSpeakHighlight#QuickSpeakHighlight`
+- Accesibilitate → Conținut enunțat → Evidențiere conținut → Stil evidențiere propoziție: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/QuickSpeakHighlight#SENTENCE_HIGHLIGHT_STYLE`
+- Accesibilitate → Conținut enunțat → Evidențiere conținut → Culori evidențiere: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/QuickSpeakHighlight#COLOR_CHOICE`
+- Accesibilitate → Conținut enunțat → Feedback la scriere: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback`
+- Accesibilitate → Conținut enunțat → Feedback la scriere → Feedback la scriere: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#TypingFeedback`
+- Accesibilitate → Conținut enunțat → Feedback la scriere → Caractere: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#LETTER`
+- Accesibilitate → Conținut enunțat → Feedback la scriere → Indicii caractere: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#PhoneticFeedback`
+- Accesibilitate → Conținut enunțat → Feedback la scriere → Enunțare cuvinte: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#WORD_FEEDBACK`
+- Accesibilitate → Conținut enunțat → Feedback la scriere → Enunțare auto-text: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#SPEAK_AUTOCORRECTIONS`
+- Accesibilitate → Conținut enunțat → Feedback la scriere → Enunțare predicții la ținere: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#QUICKTYPE_WORD_FEEDBACK`
+- Accesibilitate → Conținut enunțat → Voci: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/QuickSpeakAccents`
+- Accesibilitate → Conținut enunțat → Voci → Voci: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/QuickSpeakAccents#QuickSpeakAccents`
+- Accesibilitate → Conținut enunțat → Limbaj implicit: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpokenContentDefaultLanguage`
+- Accesibilitate → Conținut enunțat → Limbaj implicit → Limbaj implicit: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpokenContentDefaultLanguage#SpokenContentDefaultLanguage`
+- Accesibilitate → Conținut enunțat → Detectare limbi: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#LANGUAGE_DETECTION`
+- Accesibilitate → Conținut enunțat → Viteză enunțare: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakRate`
+- Accesibilitate → Conținut enunțat → Pronunțări: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/VoiceOverSettings`
+- Accesibilitate → Conținut enunțat → Pronunțări → Pronunțări: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/VoiceOverSettings#VoiceOverSettings`
+- Accesibilitate → Conținut enunțat → Spațializare vorbire: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SPATIALIZE_SPEECH`
+- Accesibilitate → Descrieri audio: `prefs:root=ACCESSIBILITY&path=DESCRIPTIVE_VIDEO`
+- Accesibilitate → Interacțiune: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE`
+- Accesibilitate → Interacțiune → AssistiveTouch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE`
+- Accesibilitate → Interacțiune → AssistiveTouch → AssistiveTouch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#EnableAssistiveTouchSpecifier`
+- Accesibilitate → Interacțiune → AssistiveTouch → Personalizați meniul superior: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize`
+- Accesibilitate → Interacțiune → AssistiveTouch → Personalizați meniul superior → Personalizați meniul superior: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize#AssistiveTouchCustomize`
+- Accesibilitate → Interacțiune → AssistiveTouch → Personalizați meniul superior → Apăsați o pictogramă pentru modificare:: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize#ASTStepperCell`
+- Accesibilitate → Interacțiune → AssistiveTouch → Apăsare simplă: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/TapSpecifier`
+- Accesibilitate → Interacțiune → AssistiveTouch → Apăsare simplă → Apăsare simplă: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/TapSpecifier#TapSpecifier`
+- Accesibilitate → Interacțiune → AssistiveTouch → Apăsare dublă: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier`
+- Accesibilitate → Interacțiune → AssistiveTouch → Apăsare dublă → Apăsare dublă: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier#DoubleTapSpecifier`
+- Accesibilitate → Interacțiune → AssistiveTouch → Apăsare dublă → Așteptare apăsare dublă: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier/ASTDoubleTapTimeoutSpecifier`
+- Accesibilitate → Interacțiune → AssistiveTouch → Apăsare dublă → Așteptare apăsare dublă → Așteptare apăsare dublă: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier/ASTDoubleTapTimeoutSpecifier#ASTDoubleTapTimeoutSpecifier`
+- Accesibilitate → Interacțiune → AssistiveTouch → Apăsare lungă: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier`
+- Accesibilitate → Interacțiune → AssistiveTouch → Apăsare lungă → Apăsare lungă: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier#LongPressSpecifier`
+- Accesibilitate → Interacțiune → AssistiveTouch → Apăsare lungă → Durata apăsării lungi: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier/ASTLongPressDurationSpecifier`
+- Accesibilitate → Interacțiune → AssistiveTouch → Apăsare lungă → Durata apăsării lungi → Durata apăsării lungi: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier/ASTLongPressDurationSpecifier#ASTLongPressDurationSpecifier`
+- Accesibilitate → Interacțiune → AssistiveTouch → 3D Touch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#ForceTouchSpecifier`
+- Accesibilitate → Interacțiune → AssistiveTouch → Creați un gest nou…: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/CreateCustomGesture`
+- Accesibilitate → Interacțiune → AssistiveTouch → Creați un gest nou… → Creați un gest nou…: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/CreateCustomGesture#CreateCustomGesture`
+- Accesibilitate → Interacțiune → AssistiveTouch → Opacitate în repaus: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/IdleOpacity`
+- Accesibilitate → Interacțiune → AssistiveTouch → Opacitate în repaus → Opacitate în repaus: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/IdleOpacity#IdleOpacity`
+- Accesibilitate → Interacțiune → AssistiveTouch → Trackpad virtual: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID`
+- Accesibilitate → Interacțiune → AssistiveTouch → Trackpad virtual → Viteză urmărire: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID#TRACKING_SPEED_SLIDER`
+- Accesibilitate → Interacțiune → AssistiveTouch → Trackpad virtual → Derulare naturală: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID#NATURAL_SCROLLING`
+- Accesibilitate → Interacțiune → AssistiveTouch → Trackpad virtual → Viteză derulare: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID#SCROLL_SPEED_SLIDER`
+- Accesibilitate → Interacțiune → AssistiveTouch → Trackpad virtual → Bordură: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID#BORDER`
+- Accesibilitate → Interacțiune → AssistiveTouch → Trackpad virtual → Bordură: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID/BORDER`
+- Accesibilitate → Interacțiune → AssistiveTouch → Trackpad virtual → Bordură → Culoare: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID/BORDER#COLOR`
+- Accesibilitate → Interacțiune → AssistiveTouch → Trackpad virtual → Bordură → Opacitate: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID/BORDER#OPACITY`
+- Accesibilitate → Interacțiune → AssistiveTouch → Trackpad virtual → Bordură → Lățime bordură: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID/BORDER#BORDER_WIDTH`
+- Accesibilitate → Interacțiune → AssistiveTouch → Trackpad virtual → Trackpad: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID#TRACKPAD`
+- Accesibilitate → Interacțiune → AssistiveTouch → Trackpad virtual → Trackpad: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID/TRACKPAD`
+- Accesibilitate → Interacțiune → AssistiveTouch → Trackpad virtual → Trackpad → Culoare: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID/TRACKPAD#COLOR`
+- Accesibilitate → Interacțiune → AssistiveTouch → Trackpad virtual → Trackpad → Opacitate: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID/TRACKPAD#OPACITY`
+- Accesibilitate → Interacțiune → AssistiveTouch → Dispozitive: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices`
+- Accesibilitate → Interacțiune → AssistiveTouch → Dispozitive → Dispozitive: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices#AssistiveTouchMouseDevices`
+- Accesibilitate → Interacțiune → AssistiveTouch → Dispozitive → Dispozitive Bluetooth…: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices/BluetoothDevicesScanning`
+- Accesibilitate → Interacțiune → AssistiveTouch → Dispozitive → Dispozitive Bluetooth… → Dispozitive Bluetooth…: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices/BluetoothDevicesScanning#BluetoothDevicesScanning`
+- Accesibilitate → Interacțiune → AssistiveTouch → Taste maus: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseKeys`
+- Accesibilitate → Interacțiune → AssistiveTouch → Taste maus → Taste maus: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseKeys#AssistiveTouchMouseKeys`
+- Accesibilitate → Interacțiune → AssistiveTouch → Taste maus → Comutare tastă Opțiune: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseKeys#OptionKeyToggle`
+- Accesibilitate → Interacțiune → AssistiveTouch → Taste maus → Utilizare tastatură principală: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseKeys#UsePrimaryKeyboard`
+- Accesibilitate → Interacțiune → AssistiveTouch → Taste maus → Întârziere inițială: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseKeys#InitialDelay`
+- Accesibilitate → Interacțiune → AssistiveTouch → Taste maus → Viteză maximă: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseKeys#MaximumSpeed`
+- Accesibilitate → Interacțiune → AssistiveTouch → Afișare tastatură pe ecran: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AlwaysShowSoftwareKeyboard`
+- Accesibilitate → Interacțiune → AssistiveTouch → Meniu afișat permanent: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AlwaysShowMenu`
+- Accesibilitate → Interacțiune → AssistiveTouch → Sunet la clic: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#MouseClickSounds`
+- Accesibilitate → Interacțiune → AssistiveTouch → Control temporizator: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellEnabledSpecifier`
+- Accesibilitate → Interacțiune → AssistiveTouch → Toleranță mișcare: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellToleranceSpecifier`
+- Accesibilitate → Interacțiune → AssistiveTouch → Toleranță mișcare → Toleranță mișcare: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellToleranceSpecifier#DwellToleranceSpecifier`
+- Accesibilitate → Interacțiune → AssistiveTouch → Sensibilitate urmărire: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#TouchSpeed`
+- Accesibilitate → Interacțiune → AssistiveTouch → Revenire la acțiune: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellAutorevertSpecifier`
+- Accesibilitate → Interacțiune → AssistiveTouch → Revenire la acțiune → Revenire la acțiune: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellAutorevertSpecifier#DwellAutorevertSpecifier`
+- Accesibilitate → Interacțiune → AssistiveTouch → Colțuri active: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellCornersSpecifier`
+- Accesibilitate → Interacțiune → AssistiveTouch → Colțuri active → Colțuri active: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellCornersSpecifier#DwellCornersSpecifier`
+- Accesibilitate → Interacțiune → AssistiveTouch → Colțuri active → Stânga sus: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellCornersSpecifier#TopLeft`
+- Accesibilitate → Interacțiune → AssistiveTouch → Colțuri active → Dreapta sus: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellCornersSpecifier#TopRight`
+- Accesibilitate → Interacțiune → AssistiveTouch → Colțuri active → Stânga jos: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellCornersSpecifier#BottomLeft`
+- Accesibilitate → Interacțiune → AssistiveTouch → Colțuri active → Dreapta jos: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellCornersSpecifier#BottomRight`
+- Accesibilitate → Interacțiune → AssistiveTouch → Predicții extinse: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellExtendedPredictionsSpecifier`
+- Accesibilitate → Interacțiune → AssistiveTouch → Așteptare Control temporizator: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellTimeoutSpecifier`
+- Accesibilitate → Interacțiune → AssistiveTouch → Confirmați cu AssistiveTouch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#APPLE_PAY_SWITCH`
+- Accesibilitate → Interacțiune → AssistiveTouch → Efectuare gesturi tactile: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#MouseBehavesLikeFinger`
+- Accesibilitate → Interacțiune → AssistiveTouch → Utilizare controller jocuri: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#EnableAssistiveTouchGameControllerSpecifier`
+- Accesibilitate → Interacțiune → AssistiveTouch → Acțiuni cu sunete: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/SOUND_ACTIONS`
+- Accesibilitate → Interacțiune → AssistiveTouch → Acțiuni cu sunete: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#SOUND_ACTIONS`
+- Accesibilitate → Interacțiune → Control temporizator: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL`
+- Accesibilitate → Interacțiune → Control temporizator → Control temporizator: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL#DWELL_CONTROL_TITLE`
+- Accesibilitate → Interacțiune → Control temporizator → Țintă: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL/DWELL_CONTROL_TARGET`
+- Accesibilitate → Interacțiune → Control temporizator → Toleranță mișcare: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL/DWELL_MOVEMENT_TOLERANCE`
+- Accesibilitate → Interacțiune → Control temporizator → Evidențiere control: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL#DWELL_HIGHLIGHT_CONTROL_TITLE`
+- Accesibilitate → Interacțiune → Control temporizator → Pauză în timpul redării multimedia: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL#DWELL_PAUSE_FOR_MEDIA_PLAYBACK_TITLE`
+- Accesibilitate → Interacțiune → Control temporizator → Afișare comenzi derulare: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL#AXDwellQuickScrollSpecifierID`
+- Accesibilitate → Interacțiune → Control temporizator → Urmărire meniu: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL#AXDwellFollowSpecifierID`
+- Accesibilitate → Interacțiune → Control temporizator: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/#DwellEnabledSpecifier`
+- Accesibilitate → Interacțiune → Accesare ușoară: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#REACHABILITY`
+- Accesibilitate → Interacțiune → Atingere haptică: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch`
+- Accesibilitate → Interacțiune → Atingere haptică → Atingere haptică: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#ForceTouch`
+- Accesibilitate → Interacțiune → Atingere haptică → 3D Touch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#ForceTouchAccessibilityMainSwitch`
+- Accesibilitate → Interacțiune → Atingere haptică → Sensibilitate 3D Touch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#FourceTouchSensitivityGroupIdentifier`
+- Accesibilitate → Interacțiune → Atingere haptică → Durată atingere: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#timingGroup`
+- Accesibilitate → Interacțiune → Atingere haptică → Test durată atingere: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#FourceTouchSensitivityTestGroupIdentifier`
+- Accesibilitate → Interacțiune → Adaptări tactile: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS`
+- Accesibilitate → Interacțiune → Adaptări tactile → Adaptări tactile: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#TOUCH_ACCOMMODATIONS_SWITCHER`
+- Accesibilitate → Interacțiune → Adaptări tactile → Durată menținere: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#HoldDuration`
+- Accesibilitate → Interacțiune → Adaptări tactile → Ignorare repetare: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#IgnoreRepeat`
+- Accesibilitate → Interacțiune → Adaptări tactile → Asistență apăsare: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#Tap%20Assistance`
+- Accesibilitate → Interacțiune → Apăsare pentru trezire: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TAP_TO_WAKE_TITLE`
+- Accesibilitate → Interacțiune → Apăsare sau glisare pentru trezire: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TAP_TOUCH_TO_WAKE_TITLE`
+- Accesibilitate → Interacțiune → Agitare pentru infirmare: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#SHAKE_TO_UNDO`
+- Accesibilitate → Interacțiune → Vibrație: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#VIBRATION`
+- Accesibilitate → Interacțiune → Blocarea dispozitivului nu încheie apelul: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#LockButtonIgnore`
+- Accesibilitate → Interacțiune → Dirijare sunet apeluri: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING`
+- Accesibilitate → Interacțiune → Dirijare sunet apeluri → Dirijare sunet apeluri: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING`
+- Accesibilitate → Interacțiune → Dirijare sunet apeluri → Preluare automată apeluri: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING/callAudioRoutingAutoAnswer`
+- Accesibilitate → Interacțiune → Dirijare sunet apeluri → Preluare automată apeluri → Preluare automată apeluri: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING/callAudioRoutingAutoAnswer#callAudioRoutingAutoAnswer`
+- Accesibilitate → Interacțiune → Apăsare spate: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/BackTap`
+- Accesibilitate → Interacțiune → Apăsare spate → Apăsare spate: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/BackTap#BackTap`
+- Accesibilitate → Interacțiune → Apăsare spate → Apăsare dublă: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/BackTap/DoubleTap`
+- Accesibilitate → Interacțiune → Apăsare spate → Apăsare dublă → Apăsare dublă: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/BackTap/DoubleTap#DoubleTap`
+- Accesibilitate → Interacțiune → Apăsare spate → Apăsare triplă: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/BackTap/TripleTap`
+- Accesibilitate → Interacțiune → Apăsare spate → Apăsare triplă → Apăsare triplă: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/BackTap/TripleTap#TripleTap`
+- Accesibilitate → Interacțiune → Control cursor: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer`
+- Accesibilitate → Interacțiune → Control cursor → Sporire contrast: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#PointerIncreaseContrastSpecifier`
+- Accesibilitate → Interacțiune → Control cursor → Ascundere automată cursor: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#PointerAutoHideSpecifier`
+- Accesibilitate → Interacțiune → Control cursor → Culoare: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#PointerColorSpecifier`
+- Accesibilitate → Interacțiune → Control cursor → Dimensiune cursor: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#PointerSizeSpecifier`
+- Accesibilitate → Interacțiune → Control cursor → Control cursor: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#PointerControlEnablingCell`
+- Accesibilitate → Interacțiune → Control cursor → Control: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer/POINTER_CONTROL_CONTROL`
+- Accesibilitate → Interacțiune → Control cursor → Culoare: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer/PointerColorSpecifier`
+- Accesibilitate → Interacțiune → Control cursor → Culoare → Lățime bordură: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer/PointerColorSpecifier#PointerStrokeWidth`
+- Accesibilitate → Interacțiune → Control cursor → Ignorare trackpad: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#IgnoreTrackpad`
+- Accesibilitate → Interacțiune → Control cursor → Inerție trackpad: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#PointerInertia`
+- Accesibilitate → Interacțiune → Control cursor → Animații cursor: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#PointerCustomShapes`
+- Accesibilitate → Interacțiune → Control cursor → Viteză derulare: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#DeviceScrollSpeed`
+- Accesibilitate → Interacțiune → Privire în sus pentru centrul de control: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/UPWARDS_HUD`
+- Accesibilitate → Interacțiune → Privire în sus pentru centrul de control → Poziția verticală a centrului de control: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/UPWARDS_HUD#UpwardsHUDPositionSpecifier`
+- Accesibilitate → Interacțiune → Privire în sus pentru centrul de control → Privire în sus pentru centrul de control: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/UPWARDS_HUD#UpwardsHUDToggleSpecifier`
+- Accesibilitate → Interacțiune → Acțiuni cu sunete: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/SOUND_ACTIONS`
+- Accesibilitate → Interacțiune → Preferință pentru controale nelegate de mișcarea capului: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#CAMERA_ANCHOR_ALTERNATIVE_Preference`
+- Accesibilitate → Face ID și atenția privirii: `prefs:root=ACCESSIBILITY&path=FACE_ID`
+- Accesibilitate → Face ID și atenția privirii → Atenția privirii pentru Face ID: `prefs:root=ACCESSIBILITY&path=FACE_ID#PearlUnlockAttention`
+- Accesibilitate → Face ID și atenția privirii → Detectarea atenției privirii: `prefs:root=ACCESSIBILITY&path=FACE_ID#AttentionAware`
+- Accesibilitate → Face ID și atenția privirii → Răspuns haptic la autentificare: `prefs:root=ACCESSIBILITY&path=FACE_ID#PearlSuccessHaptic`
+- Accesibilitate → Control comutator: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle`
+- Accesibilitate → Control comutator → Comutatoare: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier`
+- Accesibilitate → Control comutator → Comutatoare → Comutatoare: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier#SwitchesIdentifier`
+- Accesibilitate → Control comutator → Comutatoare → Adăugați un comutator nou…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier/AddSwitchIdentifier`
+- Accesibilitate → Control comutator → Comutatoare → Adăugați un comutator nou… → Adăugați un comutator nou…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier/AddSwitchIdentifier#AddSwitchIdentifier`
+- Accesibilitate → Control comutator → Comutatoare → Dispozitive Bluetooth…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier/BluetoothDevicesIdentifier`
+- Accesibilitate → Control comutator → Comutatoare → Dispozitive Bluetooth… → Dispozitive Bluetooth…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier/BluetoothDevicesIdentifier/BluetoothDevicesIdentifier`
+- Accesibilitate → Control comutator → Comutatoare → Ignorare configurare nevalidă comutator: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier#UpwardsHUDToggleSpecifier`
+- Accesibilitate → Control comutator → Rețete: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/RecipesIdentifier`
+- Accesibilitate → Control comutator → Rețete → Rețete: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/RecipesIdentifier#RecipesIdentifier`
+- Accesibilitate → Control comutator → Rețete → Creați o rețetă nouă…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/RecipesIdentifier/CreateNewRecipe`
+- Accesibilitate → Control comutator → Rețete → Creați o rețetă nouă… → Creați o rețetă nouă…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/RecipesIdentifier/CreateNewRecipe#CreateNewRecipe`
+- Accesibilitate → Control comutator → Rețete → Lansare rețetă: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/RecipesIdentifier/LaunchRecipe`
+- Accesibilitate → Control comutator → Rețete → Lansare rețetă → Lansare rețetă: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/RecipesIdentifier/LaunchRecipe#LaunchRecipe`
+- Accesibilitate → Control comutator → Stil de scanare: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier`
+- Accesibilitate → Control comutator → Stil de scanare → Stil de scanare: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#ScanningStyleIdentifier`
+- Accesibilitate → Control comutator → Mod Control comutator: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/FirstLaunchScanningModeIdentifier`
+- Accesibilitate → Control comutator → Mod Control comutator → Mod Control comutator: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/FirstLaunchScanningModeIdentifier#FirstLaunchScanningModeIdentifier`
+- Accesibilitate → Control comutator → Timp scanare automată: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningSpeedIdentifier`
+- Accesibilitate → Control comutator → Timp scanare automată → Timp scanare automată: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningSpeedIdentifier#NumericalPreferencePickerGroupIdentifier`
+- Accesibilitate → Control comutator → Pauză la primul articol: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/DelayAfterInputIdentifier`
+- Accesibilitate → Control comutator → Pauză la primul articol → Pauză la primul articol: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/DelayAfterInputIdentifier#NumericalPreferenceSwitcherIdentifier`
+- Accesibilitate → Control comutator → Bucle: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanCyclesIdentifier`
+- Accesibilitate → Control comutator → Bucle → Bucle: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanCyclesIdentifier#ScanCyclesIdentifier`
+- Accesibilitate → Control comutator → Repetare trecere: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ActionRepeatIdentifier`
+- Accesibilitate → Control comutator → Repetare trecere → Repetare trecere: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ActionRepeatIdentifier#NumericalPreferenceSwitcherIdentifier`
+- Accesibilitate → Control comutator → Mod Control comutator: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSelectionGroupIdentifier`
+- Accesibilitate → Control comutator → Mod Control comutator → Cursor glisant: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSelectionGroupIdentifier#POINTER_PICKER_ENABLED`
+- Accesibilitate → Control comutator → Apăsare lungă: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/LongPressIdentifier`
+- Accesibilitate → Control comutator → Apăsare lungă → Apăsare lungă: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/LongPressIdentifier#NumericalPreferenceSwitcherIdentifier`
+- Accesibilitate → Control comutator → Comportament apăsare: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier`
+- Accesibilitate → Control comutator → Comportament apăsare → Comportament apăsare: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#TapBehaviorIdentifier`
+- Accesibilitate → Control comutator → Focalizare după apăsare: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanLocationIdentifier`
+- Accesibilitate → Control comutator → Focalizare după apăsare → Focalizare după apăsare: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanLocationIdentifier#ScanLocationIdentifier`
+- Accesibilitate → Control comutator → Rescanare tastă după apăsare: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#RestartScanAtCurrentIdentifier`
+- Accesibilitate → Control comutator → Apăsare imediată taste: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AlwaysTapKeyboardIdentifier`
+- Accesibilitate → Control comutator → Predicții extinse: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#UseExtendedKeyboardPredictionsIdentifier`
+- Accesibilitate → Control comutator → Durată menținere: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/HoldDurationIdentifier`
+- Accesibilitate → Control comutator → Durată menținere → Durată menținere: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/HoldDurationIdentifier#NumericalPreferenceSwitcherIdentifier`
+- Accesibilitate → Control comutator → Ignorare repetare: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/IgnoreRepeatIdentifier`
+- Accesibilitate → Control comutator → Ignorare repetare → Ignorare repetare: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/IgnoreRepeatIdentifier#NumericalPreferenceSwitcherIdentifier`
+- Accesibilitate → Control comutator → Cursor glisant: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier`
+- Accesibilitate → Control comutator → Cursor glisant → Cursor glisant: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#AxisSweepIdentifier`
+- Accesibilitate → Control comutator → Cursor glisant → Mod selecție: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleGroup`
+- Accesibilitate → Control comutator → Cursor glisant → Viteză cursor glisant: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#AxisSweepSpeed`
+- Accesibilitate → Control comutator → Urmărire cap: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CameraPointPickerSwitch`
+- Accesibilitate → Control comutator → Urmărire cap → Urmărire cap: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CameraPointPickerSwitch#CameraPointPickerSwitcher`
+- Accesibilitate → Control comutator → Efecte sonore: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SoundIdentifier`
+- Accesibilitate → Control comutator → Enunțare: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier`
+- Accesibilitate → Control comutator → Enunțare → Voci: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#VoicesIdentifier`
+- Accesibilitate → Control comutator → Enunțare → Enunțare atribute articole: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#SPEECH_SPEAKS_TRAITS_LABEL`
+- Accesibilitate → Control comutator → Enunțare → Suspendare în timpul enunțării: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#SPEECH_PAUSES_SCANNING_LABEL`
+- Accesibilitate → Control comutator → Articole meniu: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier`
+- Accesibilitate → Control comutator → Articole meniu → Articole meniu: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier#CustomizeMenuIdentifier`
+- Accesibilitate → Control comutator → Articole meniu → Nivelul superior: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/TopLevel`
+- Accesibilitate → Control comutator → Articole meniu → Nivelul superior → Nivelul superior: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/TopLevel#TopLevel`
+- Accesibilitate → Control comutator → Articole meniu → Gesturi: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Gestures`
+- Accesibilitate → Control comutator → Articole meniu → Gesturi → Gesturi: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Gestures#Gestures`
+- Accesibilitate → Control comutator → Articole meniu → Dispozitiv: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Device`
+- Accesibilitate → Control comutator → Articole meniu → Dispozitiv → Dispozitiv: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Device#Device`
+- Accesibilitate → Control comutator → Articole meniu → Configurări: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Settings`
+- Accesibilitate → Control comutator → Articole meniu → Configurări → Configurări: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Settings#Settings`
+- Accesibilitate → Control comutator → Articole meniu → Comenzi multimedia: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/MediaControls`
+- Accesibilitate → Control comutator → Articole meniu → Comenzi multimedia → Comenzi multimedia: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/MediaControls#MediaControls`
+- Accesibilitate → Control comutator → Grupare articole: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ItemGroupingIdentifier`
+- Accesibilitate → Control comutator → Cursor mare: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CursorVisibilityIdentifier`
+- Accesibilitate → Control comutator → Gesturi salvate: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomGesturesIdentifier`
+- Accesibilitate → Control comutator → Gesturi salvate → Gesturi salvate: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomGesturesIdentifier#CustomGesturesIdentifier`
+- Accesibilitate → Control comutator → Gesturi salvate → Creați un gest nou…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomGesturesIdentifier/CreateCustomGesture`
+- Accesibilitate → Control comutator → Gesturi salvate → Creați un gest nou… → Creați un gest nou…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomGesturesIdentifier/CreateCustomGesture#CreateCustomGesture`
+- Accesibilitate → Control comutator → Confirmare cu Control comutator: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#APPLE_PAY_SWITCH`
+- Accesibilitate → Control comutator → Culoare cursor: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CursorColorIdentifier`
+- Accesibilitate → Control comutator → Culoare cursor → Culoare cursor: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CursorColorIdentifier#CursorColorIdentifier`
+- Accesibilitate → Comenzi vocale: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle`
+- Accesibilitate → Comenzi vocale → Configurați Comenzi vocale: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#SETUP_COMMAND_AND_CONTROL`
+- Accesibilitate → Comenzi vocale → Deschideți tutorialul pentru Comenzi vocale: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#COMMAND_AND_CONTROL_LAUNCH_ONBOARDING`
+- Accesibilitate → Comenzi vocale → Limbă: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_LANGUAGE`
+- Accesibilitate → Comenzi vocale → Limbă → Limbă: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_LANGUAGE#COMMAND_AND_CONTROL_LANGUAGE`
+- Accesibilitate → Comenzi vocale → Comenzi: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS`
+- Accesibilitate → Comenzi vocale → Comenzi → Comenzi: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS#COMMAND_AND_CONTROL_COMMANDS`
+- Accesibilitate → Comenzi vocale → Comenzi → Creați o comandă nouă: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/CreateNewCommand`
+- Accesibilitate → Comenzi vocale → Comenzi → Creați o comandă nouă → Creați o comandă nouă: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/CreateNewCommand#CreateNewCommand`
+- Accesibilitate → Comenzi vocale → Comenzi → Navigare simplă: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/System`
+- Accesibilitate → Comenzi vocale → Comenzi → Suprapuneri: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/Overlays`
+- Accesibilitate → Comenzi vocale → Comenzi → Gesturi elementare: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/Gestures`
+- Accesibilitate → Comenzi vocale → Comenzi → Gesturi avansate: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/DragDropGestures`
+- Accesibilitate → Comenzi vocale → Comenzi → Dictare: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/TextDictation`
+- Accesibilitate → Comenzi vocale → Comenzi → Navigare text: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/Movement`
+- Accesibilitate → Comenzi vocale → Comenzi → Selectare text: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/Selection`
+- Accesibilitate → Comenzi vocale → Comenzi → Editare text: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/Editing`
+- Accesibilitate → Comenzi vocale → Comenzi → Ștergere text: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/AdvancedDeletion`
+- Accesibilitate → Comenzi vocale → Comenzi → Dispozitiv: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/Hardware`
+- Accesibilitate → Comenzi vocale → Comenzi → Accesibilitate: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/Accessibility`
+- Accesibilitate → Comenzi vocale → Comenzi → Importați comenzi personalizate: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/ImportCustomCommands`
+- Accesibilitate → Comenzi vocale → Comenzi → Importați comenzi personalizate → Importați comenzi personalizate: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/ImportCustomCommands#ImportCustomCommands`
+- Accesibilitate → Comenzi vocale → Vocabular: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_VOCABULARY`
+- Accesibilitate → Comenzi vocale → Vocabular → Vocabular: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_VOCABULARY/VOCABULARY`
+- Accesibilitate → Comenzi vocale → Vocabular → Vocabular → Vocabular: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_VOCABULARY/VOCABULARY#VOCABULARY`
+- Accesibilitate → Comenzi vocale → Vocabular → Importați un vocabular: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_VOCABULARY#IMPORT_VOCABULARY`
+- Accesibilitate → Comenzi vocale → Vocabular → Exportați vocabularul: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_VOCABULARY#EXPORT_VOCABULARY`
+- Accesibilitate → Comenzi vocale → Vocabular → Ștergeți tot vocabularul: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_VOCABULARY#DELETE_ALL_VOCABULARY`
+- Accesibilitate → Comenzi vocale → Afișare confirmare: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#SHOW_TEXT_RESPONSE_TITLE`
+- Accesibilitate → Comenzi vocale → Redare sunet: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#PLAY_SOUND_RESPONSE_TITLE`
+- Accesibilitate → Comenzi vocale → Afișare indicii: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#USER_HINTS_SHOW_HINTS_TITLE`
+- Accesibilitate → Comenzi vocale → Suprapunere: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY`
+- Accesibilitate → Comenzi vocale → Suprapunere → Suprapunere: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#ALWAYS_SHOW_OVERLAY`
+- Accesibilitate → Comenzi vocale → Sensibilitate la atenție: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ATTENTION_AWARE_ACTION`
+- Accesibilitate → Butonul de sus/Touch ID: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE`
+- Accesibilitate → Butonul de sus/Touch ID → Viteză clic: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_SPEED_HEADER`
+- Accesibilitate → Butonul de sus/Touch ID → Țineți apăsat pentru a vorbi: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantTitle`
+- Accesibilitate → Butonul de sus/Touch ID → Buton principal: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE/HomeButtonAssistantTitle`
+- Accesibilitate → Butonul de sus/Touch ID → Buton principal → Deschidere la așezare deget: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE/HomeButtonAssistantTitle#RestingUnlockSetting`
+- Accesibilitate → Butonul de sus/Touch ID → Activați confirmarea cu Control comutator: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#APPLE_PAY_CONFIRM_WITH_SC`
+- Accesibilitate → Butonul de sus/Touch ID → Activați confirmarea cu AssistiveTouch: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#APPLE_PAY_CONFIRM_WITH_AST`
+- Accesibilitate → Apple TV Remote: `prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE`
+- Accesibilitate → Apple TV Remote → Butoane direcționale: `prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE#AppleTVSimpleGestures`
+- Accesibilitate → Apple TV Remote → Butoane TV live: `prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE#AppleTVLiveTVButtons`
+- Accesibilitate → Oglindire Apple Watch: `prefs:root=ACCESSIBILITY&path=APPLE_WATCH_REMOTE_SCREEN`
+- Accesibilitate → Dispozitive auditive: `prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE`
+- Accesibilitate → Dispozitive auditive → Dispozitive auditive MFi: `prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#AvailableAidsHeading`
+- Accesibilitate → Dispozitive auditive → Compatibilitate audioproteze: `prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#HEARING_AID_COMPLIANCE`
+- Accesibilitate → Centru de control auz: `prefs:root=ACCESSIBILITY&path=HEARING_CONTROL_CENTER`
+- Accesibilitate → Centru de control auz → Comenzi incluse: `prefs:root=ACCESSIBILITY&path=HEARING_CONTROL_CENTER#INCLUDED_MODULES_SECTION_TITLE`
+- Accesibilitate → Centru de control auz → Mai multe comenzi: `prefs:root=ACCESSIBILITY&path=HEARING_CONTROL_CENTER#MORE_MODULES_SECTION_TITLE`
+- Accesibilitate → Recunoaștere sunete: `prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE`
+- Accesibilitate → Recunoaștere sunete → Sunete: `prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE/Sounds`
+- Accesibilitate → Recunoaștere sunete → Sunete → Sunete: `prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE/Sounds#Sounds`
+- Accesibilitate → RTT/TTY: `prefs:root=ACCESSIBILITY&path=RTT`
+- Accesibilitate → RTT/TTY → RTT/TTY software: `prefs:root=ACCESSIBILITY&path=RTT#SW_TTY`
+- Accesibilitate → RTT/TTY → TTY hardware: `prefs:root=ACCESSIBILITY&path=RTT#HW_TTY`
+- Accesibilitate → Audio și vizual: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE`
+- Accesibilitate → Audio și vizual → Adaptări căști audio: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID`
+- Accesibilitate → Audio și vizual → Adaptări căști audio → Adaptări căști audio: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID#AXPAEnableSpecID`
+- Accesibilitate → Audio și vizual → Adaptări căști audio → Configurare audio personalizată: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID#AXPAPersonalAudioSetupSpecID`
+- Accesibilitate → Audio și vizual → Sunete de fundal: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID`
+- Accesibilitate → Audio și vizual → Sunete de fundal → Sunete de fundal: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID#CSFeatureToggleSpecID`
+- Accesibilitate → Audio și vizual → Sunete de fundal → Sunet: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID/ComfortSoundSoundLabel`
+- Accesibilitate → Audio și vizual → Sunete de fundal → Sunet → Sunet: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID/ComfortSoundSoundLabel#ComfortSoundSoundLabel`
+- Accesibilitate → Audio și vizual → Sunete de fundal → Volumul sunetelor de fundal: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID#ComfortSoundsVolume`
+- Accesibilitate → Audio și vizual → Sunete de fundal → Utilizare în timpul redării multimedia: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID#ComfortSoundsMixingName`
+- Accesibilitate → Audio și vizual → Sunete de fundal → Volum în timpul redării conținutului: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID#ComfortSoundsMixingVolume`
+- Accesibilitate → Audio și vizual → Sunete de fundal → Oprire sunete la blocare: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID#ComfortSoundsPlayWhenLockedName`
+- Accesibilitate → Audio și vizual → Audio mono: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAMonoSpecID`
+- Accesibilitate → Audio și vizual → Afișare permanentă comenzi volum: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAAlwaysShowVolumeControlSpecID`
+- Accesibilitate → Audio și vizual → Eliminare zgomot telefon: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPANoiseSpecID`
+- Accesibilitate → Audio și vizual → Bliț LED pentru alerte: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH`
+- Accesibilitate → Audio și vizual → Bliț LED pentru alerte → Bliț LED pentru alerte: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_FLASH`
+- Accesibilitate → Audio și vizual → Bliț LED pentru alerte → Bliț în timp ce este deblocat: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_FLASH_WHILE_UNLOCKED`
+- Accesibilitate → Audio și vizual → Bliț LED pentru alerte → Bliț în modul Silențios: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_RINGER_SWITCH_CONTROL`
+- Accesibilitate → Audio și vizual → Balans stereo stânga-dreapta: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#LeftRightBalance`
+- Accesibilitate → Audio și vizual → Sunet la pornire și oprire: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#StartupSound`
+- Accesibilitate → Audio și vizual → Notificări căști audio: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXHeadphoneNotificationsSpecID`
+- Accesibilitate → Audio și vizual → Adăugare izolare voce: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#ExtendedVoiceIsolationSpecID`
+- Accesibilitate → Audio și vizual → Efecte sonore: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#SOUND_EFFECTS_PREFERENCE`
+- Accesibilitate → Audio și vizual → Adăugare audio în apeluri: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/MIX_TO_UPLINK`
+- Accesibilitate → Audio și vizual → Adăugare audio în apeluri → Aplicațiile pot adăuga audio în apeluri: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/MIX_TO_UPLINK#MIX_TO_UPLINK`
+- Accesibilitate → Subtitrări și subtitrări complexe: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING`
+- Accesibilitate → Subtitrări și subtitrări complexe → Stil: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING/currentTheme`
+- Accesibilitate → Subtitrări și subtitrări complexe → Stil → Stil: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING/currentTheme#currentTheme`
+- Accesibilitate → Subtitrări și subtitrări complexe → Subtitrări complexe + SDH: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#PREFER_SDH`
+- Accesibilitate → Subtitrări și subtitrări complexe → Afișare transcrieri audio: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#SHOW_AUDIO_TRANSCRIPTIONS`
+- Accesibilitate → Subtitrări și subtitrări complexe → Afișează la tăierea sunetului: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#SHOW_WHEN_MUTED`
+- Accesibilitate → Subtitrări și subtitrări complexe → Afișare la salt înapoi: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#SHOW_ON_SKIP_BACK`
+- Accesibilitate → Subtitrări live: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION`
+- Accesibilitate → Subtitrări live → Subtitrări live: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION#LIVE_TRANSCRIPTION_TITLE`
+- Accesibilitate → Subtitrări live → Aspect: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE`
+- Accesibilitate → Subtitrări live → Aspect → Aspect: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE#LIVE_TRANSCRIPTION_APPEARANCE`
+- Accesibilitate → Subtitrări live → Aspect → Text aldin: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE/ENHANCE_TEXT_LEGIBILITY`
+- Accesibilitate → Subtitrări live → Aspect → Text aldin → Text aldin: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE/ENHANCE_TEXT_LEGIBILITY#ENHANCE_TEXT_LEGIBILITY`
+- Accesibilitate → Subtitrări live → Aspect → Mărime text: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE/LARGER_TEXT`
+- Accesibilitate → Subtitrări live → Aspect → Mărime text → Mărime text: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE/LARGER_TEXT#LARGER_TEXT`
+- Accesibilitate → Subtitrări live → Aspect → Opțiuni de culoare: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE#LIVE_TRANSCRIPTION_COLOR_OPTIONS`
+- Accesibilitate → Subtitrări live → Aspect → Culoare text: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE#LIVE_TRANSCRIPTION_TEXT_COLOR`
+- Accesibilitate → Subtitrări live → Aspect → Culoare de fundal: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE#LIVE_TRANSCRIPTION_BACKGROUND_COLOR`
+- Accesibilitate → Subtitrări live → Aspect → Resetați culorile: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE#LIVE_TRANSCRIPTION_RESET_COLORS`
+- Accesibilitate → Subtitrări live → Aspect → Opacitate în repaus: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE#LIVE_CAPTIONS_IDLE_OPACITY_TITLE`
+- Accesibilitate → Subtitrări live → Subtitrări live în FaceTime: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION#FACE_TIME_CAPTIONS`
+- Accesibilitate → Acces ghidat: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE`
+- Accesibilitate → Acces ghidat → Configurări cod de acces: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessSecurityLinkList`
+- Accesibilitate → Acces ghidat → Configurări cod de acces → Configurări cod de acces: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessSecurityLinkList#GuidedAccessSecurityLinkList`
+- Accesibilitate → Acces ghidat → Configurări cod de acces → Fixați un cod pentru acces ghidat: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessSecurityLinkList#GAXPinButton`
+- Accesibilitate → Acces ghidat → Configurări cod de acces → Touch ID: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessSecurityLinkList#GAXSpecIDTouchIDSwitch`
+- Accesibilitate → Acces ghidat → Limite temporale: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList`
+- Accesibilitate → Acces ghidat → Limite temporale → Limite temporale: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GuidedAccessTimeRestrictionsLinkList`
+- Accesibilitate → Acces ghidat → Limite temporale → Sunet: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList/GUIDED_ACCESS_TIME_RESTRICTIONS_SOUND_TITLE`
+- Accesibilitate → Acces ghidat → Limite temporale → Sunet → Sunet: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList/GUIDED_ACCESS_TIME_RESTRICTIONS_SOUND_TITLE#GUIDED_ACCESS_TIME_RESTRICTIONS_SOUND_TITLE`
+- Accesibilitate → Acces ghidat → Limite temporale → Enunțare: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_SPEAK_TITLE`
+- Accesibilitate → Acces ghidat → Scurtătură accesibilitate: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessEnableAXFeatures`
+- Accesibilitate → Acces ghidat → Auto‑blocare afișaj: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessAutoLockTime`
+- Accesibilitate → Acces ghidat → Auto‑blocare afișaj → Auto‑blocare afișaj: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessAutoLockTime#GuidedAccessAutoLockTime`
+- Accesibilitate → Acces asistiv: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE`
+- Accesibilitate → Acces asistiv → Configurați modul Acces asistiv: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#SetUpClarityUISpecifier`
+- Accesibilitate → Acces asistiv → Porniți modul Acces asistiv: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#ClarityUIStart`
+- Accesibilitate → Acces asistiv → Aplicații: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#Applications`
+- Accesibilitate → Acces asistiv → Opțiuni: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#Options`
+- Accesibilitate → Acces asistiv → Fundal: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE/Wallpaper`
+- Accesibilitate → Acces asistiv → Fundal → Fundal: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE/Wallpaper#Wallpaper`
+- Accesibilitate → Acces asistiv → Permitere butoane de volum: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#VolumeButtons`
+- Accesibilitate → Acces asistiv → Afișare oră pe ecranul de blocare: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#ShowTime`
+- Accesibilitate → Acces asistiv → Afișare nivel baterie pe ecranul principal: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#ShowBattery`
+- Accesibilitate → Acces asistiv → Afișare insigne de notificare: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#ShowNotification`
+- Accesibilitate → Acces asistiv → Permitere Siri: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#AllowSiri`
+- Accesibilitate → Acces asistiv → Configurări cod de acces: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE/PasscodeSettings`
+- Accesibilitate → Acces asistiv → Configurări cod de acces → Configurări cod de acces: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE/PasscodeSettings#PasscodeSettings`
+- Accesibilitate → Siri: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE`
+- Accesibilitate → Siri → Tastați pentru Siri: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_SETTINGS_TYPE_TO_SIRI`
+- Accesibilitate → Siri → Durată suspendare Siri: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#ENDPOINTER`
+- Accesibilitate → Siri → Viteză enunțare Siri: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SPEECH_RATE`
+- Accesibilitate → Siri → Răspunsuri enunțate: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK`
+- Accesibilitate → Siri → Ascultare permanentă „Siri”: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_SETTINGS_VOICE_ACTIVATION_ALWAYS_ALLOW`
+- Accesibilitate → Siri → Afișare aplicații din spatele Siri: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRL_SHOW_APPS`
+- Accesibilitate → Siri → Anunțare notificări prin difuzor: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#ANNOUNCE_NOTIFICATIONS_BUILT_IN_SPEAKER_ID`
+- Accesibilitate → Siri → Încheiere apel: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE/SIRI_CALL_HANGUP_ID`
+- Accesibilitate → Siri → Încheiere apel → Încheiere apel: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE/SIRI_CALL_HANGUP_ID#SIRI_CALL_HANGUP_ID`
+- Accesibilitate → Siri → Ascultare vorbire atipică: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_ATYPICAL_SPEECH`
+- Accesibilitate → Siri → Întreruperile necesită „Siri”: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_BARGE`
+- Accesibilitate → Scurtătură accesibilitate: `prefs:root=ACCESSIBILITY&path=TRIPLE_CLICK_TITLE`
+- Accesibilitate → Configurări per aplicație: `prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE`
+- Accesibilitate → Configurări per aplicație → Afișare aplicații ascunse: `prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE#PROTECTED_APPS_SHOW_HIDDEN_TITLE`
+- Accesibilitate → Configurări per aplicație → Adăugați o aplicație: `prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE#AX_ADD_BUTTON_IDENTIFIER`
+- Accesibilitate → Control dispozitive din apropiere: `prefs:root=ACCESSIBILITY&path=CONTROL_NEARBY_DEVICES`
+- Accesibilitate → Control dispozitive din apropiere → Control dispozitive din apropiere: `prefs:root=ACCESSIBILITY&path=CONTROL_NEARBY_DEVICES#CONTROL_NEARBY_DEVICES`
+- Accesibilitate → Comandă ochi: `prefs:root=ACCESSIBILITY&path=DOMINANT_EYE`
+- Accesibilitate → Enunțare live: `prefs:root=ACCESSIBILITY&path=LIVE_SPEECH_TITLE`
+- Accesibilitate → Enunțare live → Expresii: `prefs:root=ACCESSIBILITY&path=LIVE_SPEECH_TITLE/LiveSpeechCategoryManagement`
+- Accesibilitate → Enunțare live → Voci: `prefs:root=ACCESSIBILITY&path=LIVE_SPEECH_TITLE#LIVE_SPEECH_VOICES`
+- Accesibilitate → Voce personală: `prefs:root=ACCESSIBILITY&path=PERSONAL_VOICE_TITLE`
+- Accesibilitate → Voce personală → Creați o voce personală: `prefs:root=ACCESSIBILITY&path=PERSONAL_VOICE_TITLE#VB_CREATE_PERSONAL_VOICE`
+- Accesibilitate → Voce personală → Partajare între dispozitive: `prefs:root=ACCESSIBILITY&path=PERSONAL_VOICE_TITLE#VB_USE_ICLOUD_TITLE`
+- Accesibilitate → Voce personală → Aplicațiile pot solicita utilizarea: `prefs:root=ACCESSIBILITY&path=PERSONAL_VOICE_TITLE#VB_ALLOW_WITH_APPS`
+- Accesibilitate → AirPods: `prefs:root=ACCESSIBILITY&path=AIRPODS`
+- Accesibilitate → AirPods → Viteză de apăsare: `prefs:root=ACCESSIBILITY&path=AIRPODS#TapGroup`
+- Accesibilitate → AirPods → Durată apăsare și menținere: `prefs:root=ACCESSIBILITY&path=AIRPODS#HoldGroup`
+- Accesibilitate → AirPods → Configurările Audio și vizual de pe iPhone: `prefs:root=ACCESSIBILITY&path=AIRPODS#PERSONAL_AUDIO_AIRPODS_BUTTON`
+- Accesibilitate → AirPods → Sunetul urmează iPhone‑ul: `prefs:root=ACCESSIBILITY&path=AIRPODS#SPATIAL_AUDIO_SWITCH`
+- Accesibilitate → AirPods → Volum ton: `prefs:root=ACCESSIBILITY&path=AIRPODS#TONE_VOLUME`
+- Accesibilitate → Scurtături vocale: `prefs:root=ACCESSIBILITY&path=ADAPTIVE_VOICE_SHORTCUTS_TITLE`
+- Accesibilitate → Scurtături vocale → Configurați scurtături vocale: `prefs:root=ACCESSIBILITY&path=ADAPTIVE_VOICE_SHORTCUTS_TITLE#AVS_SET_UP_BUTTON_TITLE`
+- Accesibilitate → Răspuns haptic muzică: `prefs:root=ACCESSIBILITY&path=HAPTIC_MUSIC`
+- Accesibilitate → Urmărirea privirii: `prefs:root=ACCESSIBILITY&path=OnDeviceEyeTracking`
+- Accesibilitate → Urmărirea privirii → Urmărirea privirii: `prefs:root=ACCESSIBILITY&path=OnDeviceEyeTracking#OnDeviceEyeTrackingEnabledSpecifier`
+- Accesibilitate → Urmărirea privirii → Uniformizare: `prefs:root=ACCESSIBILITY&path=OnDeviceEyeTracking#SMOOTHING`
+- Accesibilitate → Urmărirea privirii → Aliniere automată la articol: `prefs:root=ACCESSIBILITY&path=OnDeviceEyeTracking#SNAP_TO_ITEM`
+- Accesibilitate → Urmărirea privirii → Zoom pe taste tastatură: `prefs:root=ACCESSIBILITY&path=OnDeviceEyeTracking#KEYBOARD_ZOOM`
+- Accesibilitate → Urmărirea privirii → Ascundere automată: `prefs:root=ACCESSIBILITY&path=OnDeviceEyeTracking#AUTO_HIDE`
+- Accesibilitate → Urmărirea privirii → Control temporizator: `prefs:root=ACCESSIBILITY&path=OnDeviceEyeTracking#DWELL_CONTROL`
+- Accesibilitate → Comenzi cameră: `prefs:root=ACCESSIBILITY&path=CAMERA_CONTROL`
+- Accesibilitate → Comenzi cameră → Comenzi cameră: `prefs:root=ACCESSIBILITY&path=CAMERA_CONTROL#CAMERA_CONTROL_SWITCH`
+- Accesibilitate → Comenzi cameră → Apăsare ușoară: `prefs:root=ACCESSIBILITY&path=CAMERA_CONTROL#LIGHT_PRESS`
+- Accesibilitate → Comenzi cameră → Glisare: `prefs:root=ACCESSIBILITY&path=CAMERA_CONTROL#SWIPE`
+- Accesibilitate → Comenzi cameră → Forță de apăsare ușoară: `prefs:root=ACCESSIBILITY&path=CAMERA_CONTROL#LIGHT_PRESS_FORCE`
+- Accesibilitate → Comenzi cameră → Viteză apăsare ușoară dublă: `prefs:root=ACCESSIBILITY&path=CAMERA_CONTROL#SENSITIVITY`
+- Mail: `prefs:root=MAIL`
+- Mail → Conturi: `prefs:root=MAIL&path=ACCOUNTS`
+- Mail → Conturi → Adăugați un cont: `prefs:root=MAIL&path=ACCOUNTS#ADD_ACCOUNT`
+- Mail → Conturi → Preluare date noi: `prefs:root=MAIL&path=ACCOUNTS#FETCH_NEW_DATA`
+- Mail → Previzualizare: `prefs:root=MAIL&path=Preview`
+- Mail → Etichetă Către/Cc: `prefs:root=MAIL#Show%20To/Cc%20Labels`
+- Mail → Opțiuni glisare: `prefs:root=MAIL&path=Swipe%20Options`
+- Mail → Confirmare ștergere: `prefs:root=MAIL#Ask%20Before%20Deleting`
+- Mail → Încărcare imagini externe: `prefs:root=MAIL#Load%20Remote%20Images`
+- Mail → Organizare în conversații: `prefs:root=MAIL#Organize%20by%20Thread`
+- Mail → Restrângere mesaje citite: `prefs:root=MAIL#Collapse%20Read%20Messages`
+- Mail → Mesajul mai recent deasupra: `prefs:root=MAIL#Most%20Recent%20Message%20on%20Top`
+- Mail → Completare conversații: `prefs:root=MAIL#Complete%20Threads`
+- Mail → Acțiune conversație ignorată: `prefs:root=MAIL&path=Muted%20Thread%20Action`
+- Mail → Ignorare expeditori blocați: `prefs:root=MAIL#Ignore%20Blocked%20Senders`
+- Mail → Opțiuni expeditori blocați: `prefs:root=MAIL&path=Blocked%20Sender%20Options`
+- Mail → Blocate: `prefs:root=MAIL&path=Blocked`
+- Mail → Fiți mereu în Bcc: `prefs:root=MAIL#Always%20Bcc%20Myself`
+- Mail → Marcare adrese: `prefs:root=MAIL&path=Mark%20Addresses`
+- Mail → Mărire nivel citare: `prefs:root=MAIL&path=Increase%20Quote%20Level`
+- Mail → Fișiere atașate în răspunsuri: `prefs:root=MAIL&path=Include%20Attachments%20with%20Replies`
+- Mail → Semnătură: `prefs:root=MAIL&path=Signature`
+- Fundal: `prefs:root=Wallpaper`
+- Notițe: `prefs:root=NOTES`
+- Notițe → Cont implicit: `prefs:root=NOTES&path=Default%20Account`
+- Notițe → Parolă: `prefs:root=NOTES&path=Password`
+- Notițe → Sortare notițe după: `prefs:root=NOTES&path=Sort%20Notes%20By`
+- Notițe → Notițele noi încep cu: `prefs:root=NOTES&path=New%20Notes%20Start%20With`
+- Notițe → Sortare articole bifate: `prefs:root=NOTES&path=Sort%20Checked%20Items`
+- Notițe → Linii și caroiaje: `prefs:root=NOTES&path=Lines%20%26%20Grids`
+- Notițe → Salvați în Poze: `prefs:root=NOTES#Save%20to%20Photos`
+- Notițe → Acces notițe din ecranul de blocare: `prefs:root=NOTES&path=Access%20Notes%20from%20Lock%20Screen`
+- Cod de acces: `prefs:root=PASSCODE`
+- Cod de acces → Dezactivați codul de acces: `prefs:root=PASSCODE#PASSCODE_OFF`
+- Cod de acces → Schimbați codul: `prefs:root=PASSCODE#CHANGE_PASSCODE`
+- Cod de acces → Solicitare cod acces: `prefs:root=PASSCODE&path=PASSCODE_REQ`
+- Cod de acces → Apelare vocală: `prefs:root=PASSCODE#VOICE_DIAL`
+- Cod de acces → Acces în ecranul de blocare: `prefs:root=PASSCODE#ALLOW_ACCESS_WHEN_LOCKED`
+- Cod de acces → Răspuns cu mesaj: `prefs:root=PASSCODE#REPLY_WITH_MESSAGE_SWITCH`
+- Cod de acces → Control Locuință: `prefs:root=PASSCODE#HOME_CONTROL_SWITCH`
+- Cod de acces → Portofel: `prefs:root=PASSCODE#WALLET_SWITCH`
+- Cod de acces → Returnare apeluri ratate: `prefs:root=PASSCODE#RETURN_MISSED_CALLS_SWITCH`
+- Cod de acces → Ștergere date: `prefs:root=PASSCODE#WIPE_DEVICE`
+- Cod de acces → Deblocare cu Apple Watch‑ul: `prefs:root=PASSCODE#AUTO_UNLOCK_DEVICES_GROUP`
+- Cod de acces → Protecție dispozitiv furat: `prefs:root=PASSCODE#DTO_GROUP_ID`
+- Calendar: `prefs:root=CALENDAR`
+- Calendar → Suprareglaj fus orar: `prefs:root=CALENDAR&path=TimeZoneCityArray`
+- Calendar → Calendare alternative: `prefs:root=CALENDAR&path=Alternate%20Calendars`
+- Calendar → Numerotare săptămâni: `prefs:root=CALENDAR#Week%20Numbers`
+- Calendar → Afișare refuzuri invitați: `prefs:root=CALENDAR#Show%20Invitee%20Declines`
+- Calendar → Sincronizare: `prefs:root=CALENDAR&path=Sync`
+- Calendar → Plan implicit alertare: `prefs:root=CALENDAR&path=Default%20Alert%20Times`
+- Calendar → Săptămâna începe: `prefs:root=CALENDAR&path=Start%20Week%20On`
+- Calendar → Sugestii pentru locuri: `prefs:root=CALENDAR#Location%20Suggestions`
+- Date Sănătate: `prefs:root=HEALTH`
+- Telefon: `prefs:root=Phone`
+- Telefon → Numărul dvs.: `prefs:root=Phone&path=My%20Number`
+- Telefon → Apeluri recepționate: `prefs:root=Phone&path=INCOMING_CALL_STYLE`
+- Telefon → Anunțare apeluri: `prefs:root=Phone&path=ANNOUNCE_CALLS`
+- Telefon → Raportare SMS/Apel: `prefs:root=Phone&path=CLASSIFICATION_AND_REPORTING`
+- Telefon → Răspuns prin mesaj: `prefs:root=Phone&path=Respond%20with%20Text`
+- Telefon → Redirecționare apel: `prefs:root=Phone&path=Call%20Forwarding`
+- Telefon → Redirecționare apel → Redirecționare apel: `prefs:root=Phone&path=Call%20Forwarding#idMasterOnOffSwitch`
+- Telefon → Apel în așteptare: `prefs:root=Phone&path=Call%20Waiting`
+- Telefon → Afișare nr. propriu: `prefs:root=Phone&path=Show%20My%20Caller%20ID`
+- Telefon → Afișare nr. propriu → Afișare nr. propriu: `prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary`
+- Telefon → Afișare nr. propriu → Afișare nr. propriu → Afișare nr. propriu: `prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary#Show%20My%20Caller%20ID`
+- Telefon → Ignorare apeluri necunoscuți: `prefs:root=Phone#SILENCE_CALLS`
+- Telefon → Contacte blocate: `prefs:root=Phone&path=SPECIFIER_IDENTIFIER_BLACKLIST`
+- Telefon → Asistență apelare: `prefs:root=Phone&path=Dial%20Assist`
+- App Store: `prefs:root=STORE`
+- App Store → Descărcări automate: `prefs:root=STORE#Automatic%20Downloads`
+- App Store → Actualizări aplicații: `prefs:root=STORE#App%20Updates`
+- App Store → Descărcări aplicații: `prefs:root=STORE&path=App%20Downloads`
+- App Store → Redare video automată: `prefs:root=STORE&path=Video%20Autoplay`
+- App Store → Evaluări și recenzii în aplicație: `prefs:root=STORE#In-App%20Ratings%20&%20Reviews`
+- Intimitate și securitate: `prefs:root=Privacy` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity`
+- Intimitate și securitate → Sănătate: `prefs:root=Privacy&path=HEALTH` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/HEALTH`
+- Intimitate și securitate → Date Sănătate: `prefs:root=Privacy&path=HEALTH_DATA` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/HEALTH_DATA`
+- Intimitate și securitate → Localizare: `prefs:root=Privacy&path=LOCATION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/LOCATION`
+- Intimitate și securitate → Localizare → Partajați localizarea: `prefs:root=Privacy&path=LOCATION/LOCATION_SHARING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/LOCATION/LOCATION_SHARING`
+- Intimitate și securitate → Contacte: `prefs:root=Privacy&path=CONTACTS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CONTACTS`
+- Intimitate și securitate → Calendare: `prefs:root=Privacy&path=CALENDARS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CALENDARS`
+- Intimitate și securitate → Mementouri: `prefs:root=Privacy&path=REMINDERS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/REMINDERS`
+- Intimitate și securitate → Poze: `prefs:root=Privacy&path=PHOTOS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PHOTOS`
+- Intimitate și securitate → Partajare Bluetooth: `prefs:root=Privacy&path=BT_PERIPHERAL` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/BT_PERIPHERAL`
+- Intimitate și securitate → Microfon: `prefs:root=Privacy&path=MICROPHONE` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/MICROPHONE`
+- Intimitate și securitate → Recunoaștere vocală: `prefs:root=Privacy&path=SPEECH_RECOGNITION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/SPEECH_RECOGNITION`
+- Intimitate și securitate → Cameră: `prefs:root=Privacy&path=CAMERA` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CAMERA`
+- Intimitate și securitate → HomeKit: `prefs:root=Privacy&path=WILLOW` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/WILLOW`
+- Intimitate și securitate → Multimedia și Apple Music: `prefs:root=Privacy&path=MEDIALIBRARY` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/MEDIALIBRARY`
+- Intimitate și securitate → Analiză: `prefs:root=Privacy&path=PROBLEM_REPORTING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PROBLEM_REPORTING`
+- Intimitate și securitate → Publicitate: `prefs:root=Privacy&path=ADVERTISING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/ADVERTISING`
+- Intimitate și securitate → Fișiere și dosare: `prefs:root=Privacy&path=FILEACCESS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/FILEACCESS`
+- Intimitate și securitate → Urmărire: `prefs:root=Privacy&path=USER_TRACKING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/USER_TRACKING`
+- Intimitate și securitate → Raport de confidențialitate a aplicațiilor: `prefs:root=Privacy&path=PRIVACY_REPORT` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PRIVACY_REPORT`
+- Intimitate și securitate → Mod Izolare: `prefs:root=Privacy#LOCKDOWN_MODE` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity#LOCKDOWN_MODE#LOCKDOWN_MODE`
+- Intimitate și securitate → Conținut sensibil: `prefs:root=Privacy#NUDITY_DETECTION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity#NUDITY_DETECTION#NUDITY_DETECTION`
+- Măsurare: `prefs:root=MEASURE`
+- Măsurare → Unități de măsură: `prefs:root=MEASURE#MEASURE_UNITS`
+- Măsurare → Sistem imperial: `prefs:root=MEASURE#Imperial`
+- Măsurare → Sistem metric: `prefs:root=MEASURE#Metric`
+- Videoclipuri: `prefs:root=TVAPP`
+- Videoclipuri → Utilizare date celulare pentru redare: `prefs:root=TVAPP#com.apple.videos%3AVideosUseCellularDataEnabledSetting`
+- Videoclipuri → Calitate redare: `prefs:root=TVAPP#com.apple.videos%3APlaybackQualityGroup`
+- Videoclipuri → Achiziții și închirieri: `prefs:root=TVAPP&path=com.apple.videos%3APreferredPurchaseResolution`
+- Videoclipuri → Partajare casnică: `prefs:root=TVAPP#com.apple.videos%3AHomeSharingFooter`
+- Game Center: `prefs:root=GAMECENTER`
+- Reportofon: `prefs:root=VOICE_MEMOS`
+- Reportofon → Degajați articolele șterse: `prefs:root=VOICE_MEMOS&path=RCVoiceMemosRecentlyDeletedWindowKey`
+- Reportofon → Calitate audio: `prefs:root=VOICE_MEMOS&path=RCVoiceMemosAudioQualityKey`
+- Reportofon → Denumire bazată pe localizare: `prefs:root=VOICE_MEMOS#RCVoiceMemosUseLocationBasedNaming`
+- Scurtături: `prefs:root=SHORTCUTS`
+- Scurtături → Sincronizare iCloud: `prefs:root=SHORTCUTS#WFCloudKitSyncEnabled`
+- Scurtături → Sincronizare ordine scurtături: `prefs:root=SHORTCUTS#WFCloudKitSyncOrderEnabled`
+- Scurtături → Mențiuni legale: `prefs:root=SHORTCUTS&path=Legal%20Notices`
+- Mementouri: `prefs:root=REMINDERS`
+- Mementouri → Listă implicită: `prefs:root=REMINDERS&path=DEFAULT_LIST`
+- Mementouri → Listă implicită → Mementouri: `prefs:root=REMINDERS&path=DEFAULT_LIST#preferredDefaultListID`
+- Mementouri → Notificarea zilei: `prefs:root=REMINDERS#todayNotificationFireTime`
+- Mementouri → Afișare drept depășiri: `prefs:root=REMINDERS#showRemindersAsOverdue`
+- Muzică: `prefs:root=MUSIC`
+- Muzică → Afișare Apple Music: `prefs:root=MUSIC#com.apple.Music%3AAppleMusicEnabled`
+- Muzică → Adăugare melodii din liste de redare: `prefs:root=MUSIC#com.apple.Music%3AAddPlaylistSongsToMyMusicSwitch`
+- Muzică → Afișare evaluări cu stele: `prefs:root=MUSIC#com.apple.Music%3AShowStarRatings`
+- Muzică → Sincronizare bibliotecă: `prefs:root=MUSIC#com.apple.Music%3ACloudMusicLibraryEnabled`
+- Muzică → Date celulare: `prefs:root=MUSIC&path=com.apple.Music%3ACellularData`
+- Muzică → Muzică descărcată: `prefs:root=MUSIC&path=com.apple.Music%3AMusicUsageLink`
+- Muzică → Optimizare stocare: `prefs:root=MUSIC&path=com.apple.Music%3AOptimizeStorage`
+- Muzică → Descărcări automate: `prefs:root=MUSIC#com.apple.Music%3AMusicAutomaticDownload`
+- Muzică → Egalizor: `prefs:root=MUSIC&path=com.apple.Music%3AEQ`
+- Muzică → Ajustare volum: `prefs:root=MUSIC#com.apple.Music%3ASoundCheck`
+- Muzică → Utilizare istoric de ascultare: `prefs:root=MUSIC#com.apple.Music%3APrivateListening`
+- Siri: `prefs:root=SIRI`
+- Siri → Acces Siri în timpul blocării: `prefs:root=SIRI#ASSISTANT_LOCK_SCREEN_ACCESS`
+- Siri → Limbă: `prefs:root=SIRI&path=LANGUAGE_ID`
+- Siri → Voce Siri: `prefs:root=SIRI&path=VOICE_ID`
+- Siri → Feedback vocal: `prefs:root=SIRI&path=VOICE_FEEDBACK_ID`
+- Siri → Informațiile dvs.: `prefs:root=SIRI&path=MY_INFO`
+- Sunete: `prefs:root=Sounds`
+- Sunete → Siguranța căștilor audio: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING`
+- Sunete → Siguranța căștilor audio → Adaptoare Lightning: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING/HEADPHONE_LIGHTNING_ADAPTERS`
+- Sunete → Siguranța căștilor audio → Notificări căști audio: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneWeeklyNotificationsKey`
+- Sunete → Siguranța căștilor audio → Reducere sunet puternic: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneLevelLimitSwitchKey`
+- Sunete → Efecte sonore: `prefs:root=Sounds&path=SOUND_EFFECTS`
+- Sunete → Sonerie și alerte: `prefs:root=Sounds#RINGER_AND_ALERT_GROUP`
+- Sunete → Ajustare din butoane: `prefs:root=Sounds#CHANGE_WITH_BUTTONS`
+- Sunete → Sunete și modele de vibrație: `prefs:root=Sounds#SOUNDS_ALERT_GROUP`
+- Sunete → Sonerie: `prefs:root=Sounds&path=Ringtone`
+- Sunete → Ton mesaj: `prefs:root=Sounds&path=Text_Messages`
+- Sunete → Mesaj vocal nou: `prefs:root=Sounds&path=Voicemail`
+- Sunete → E‑mail primit: `prefs:root=Sounds&path=NEW_MAIL`
+- Sunete → E‑mail trimis: `prefs:root=Sounds&path=SENT_MAIL`
+- Sunete → Alarme calendar: `prefs:root=Sounds&path=Calendar%20Alarm`
+- Sunete → Alerte mementouri: `prefs:root=Sounds&path=Reminder%20Alerts`
+- Sunete → Clicuri taste: `prefs:root=Sounds#KEYBOARD_SOUND_SWITCH`
+- Sunete → Sunet blocare: `prefs:root=Sounds#LOCK_SOUND_SWITCH`
+- Sunete → Audio spațial personalizat: `prefs:root=Sounds&path=Personalized%20Spatial%20Audio`
+- Apple Pencil: `prefs:root=Pencil`
+- Apple Pencil → Apple Pencil: `prefs:root=Pencil#PrefersPencilDraws`
+- Apple Pencil → Apple Pencil: `prefs:root=Pencil#PencilTextInput`
+- S.O.S. urgențe: `prefs:root=EMERGENCY_SOS`
+- S.O.S. urgențe → Apelare cu butonul lateral: `prefs:root=EMERGENCY_SOS#CALL_WITH_SIDE_BUTTON`
+- S.O.S. urgențe → Apelare automată: `prefs:root=EMERGENCY_SOS#AUTO_CALL`
+- S.O.S. urgențe → Contacte pentru urgențe: `prefs:root=EMERGENCY_SOS#EMERGENCY_CONTACTS`
+- S.O.S. urgențe → Sunet numărătoare inversă: `prefs:root=EMERGENCY_SOS#ALARM_SOUND_SWITCH`
+- Wi‑Fi: `prefs:root=WIFI`
+- Contacte: `prefs:root=CONTACTS`
+- Contacte → Permiteți accesul aplicației Contacte: `prefs:root=CONTACTS#Allow%20Contacts%20To%20Access`
+- Contacte → Siri: `prefs:root=CONTACTS&path=SIRI_AND_SEARCH`
+- Contacte → Ordine sortare: `prefs:root=CONTACTS&path=ContactsSortOrder`
+- Contacte → Ordine afișare: `prefs:root=CONTACTS&path=PersonNameOrder`
+- Contacte → Nume scurt: `prefs:root=CONTACTS&path=PersonShortName`
+- Contacte → Nume scurt → Nume scurt: `prefs:root=CONTACTS&path=PersonShortName#Short%20Name`
+- Contacte → Nume scurt → Preferați pseudonimele: `prefs:root=CONTACTS&path=PersonShortName#Prefer%20Nicknames`
+- Contacte → Informațiile dvs.: `prefs:root=CONTACTS&path=MeCard`
+- Contacte → Importați contacte SIM: `prefs:root=CONTACTS#SIMImport`
+- Centru de control: `prefs:root=ControlCenter`
+- Centru de control → Acces din aplicații: `prefs:root=ControlCenter#ALLOWED_WITHIN_APPS`
+- Centru de control → Personalizare comenzi: `prefs:root=ControlCenter&path=CUSTOMIZE_CONTROLS`
+- Dezvoltator: `prefs:root=DEVELOPER_SETTINGS`
+- Dezvoltator → Rețea multicale: `prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG`
+- Dezvoltator → Rețea multicale → Rețea multicale: `prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG#Multipath%20Networking`
+- Dezvoltator → Aspect: `prefs:root=DEVELOPER_SETTINGS#UIAppearanceGroup`
+- Dezvoltator → Aspect întunecat: `prefs:root=DEVELOPER_SETTINGS#UIAppearanceSettings`
+- Dezvoltator → Dispozitive asociate: `prefs:root=DEVELOPER_SETTINGS#DTPairedDevicesGroup`
+- Dezvoltator → Degajați computerele autorizate: `prefs:root=DEVELOPER_SETTINGS#CLEAR_TRUSTED_COMPUTERS`
+- Dezvoltator → Jurnale: `prefs:root=DEVELOPER_SETTINGS&path=DTInstrumentsSettings`
+- Dezvoltator → Activare automatizare IU: `prefs:root=DEVELOPER_SETTINGS#UIAGroup`
+- Dezvoltator → Rețea: `prefs:root=DEVELOPER_SETTINGS#NLCGroup`
+- Dezvoltator → Network Link Conditioner: `prefs:root=DEVELOPER_SETTINGS&path=NLC`
+- Dezvoltator → Înregistrări suplimentare în jurnal: `prefs:root=DEVELOPER_SETTINGS#ADDITIONAL_LOGGING`
+- Dezvoltator → Servicii HTTP permise: `prefs:root=DEVELOPER_SETTINGS#ALLOW_HTTP_SERVICES`
+- Dezvoltator → Dezactivare limitare rată: `prefs:root=DEVELOPER_SETTINGS#DISABLE_RATE_LIMITING`
+- Dezvoltator → Cheie acces NFC opțională: `prefs:root=DEVELOPER_SETTINGS#NFC_PASS_KEY_OPTIONAL`
+- Dezvoltator → Testare servicii multimedia: `prefs:root=DEVELOPER_SETTINGS#MEDIA_SERVICES_TESTING`
+- Dezvoltator → Resetați serviciile multimedia: `prefs:root=DEVELOPER_SETTINGS#RESET_MEDIA_SERVICES`
+- Dezvoltator → Testare News: `prefs:root=DEVELOPER_SETTINGS#NEWS_TESTING`
+- Dezvoltator → Resetare date locale la lansare: `prefs:root=DEVELOPER_SETTINGS#RESET_LOCAL_DATA_ON_NEXT_LAUNCH`
+- Dezvoltator → Testare cadru de lucru player multimedia: `prefs:root=DEVELOPER_SETTINGS#RoutineSettingsGroup`
+- Dezvoltator → API conținut redabil: `prefs:root=DEVELOPER_SETTINGS&path=RoutineSettings`
+- Dezvoltator → Furnizor TV: `prefs:root=DEVELOPER_SETTINGS&path=VideoSubscriberAccountSettings`
+- Dezvoltator → API ClassKit: `prefs:root=DEVELOPER_SETTINGS&path=ClassKitSettings`
+- Dezvoltator → Testare CoreSpotlight: `prefs:root=DEVELOPER_SETTINGS#CORESPOTLIGHT_TESTING`
+- Dezvoltator → Reindexați toate articolele: `prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS`
+- Dezvoltator → Reindexați toate articolele cu identificatori: `prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS_WITH_IDENTIFIERS`
+- Dezvoltator → Testare Scurtături: `prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_TESTING`
+- Dezvoltator → Afișare scurtături recente: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_SPOTLIGHT`
+- Dezvoltator → Afișare conținut următor: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_UPCOMING_MEDIA`
+- Dezvoltator → Afișare donații pe ecranul de blocare: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_LOCKSCREEN`
+- Dezvoltator → Forțare sincronizare scurtături pe Watch: `prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_SYNC_WATCHOS`
+- Dezvoltator → Testare MIDI-CI: `prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA`
+- Dezvoltator → Activare MIDI-CI: `prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA_ENABLE`
+- Dezvoltator → Detectare blocaje: `prefs:root=DEVELOPER_SETTINGS#HANGTRACER_EXTERNAL_CONFIGURE`
+- Bluetooth: `prefs:root=Bluetooth`
+- Bursa: `prefs:root=STOCKS`
+- Bursa → Intimitate: `prefs:root=STOCKS#Privacy`
+- Bursa → Resetați identificatorul: `prefs:root=STOCKS#reset_identifier`
+- Traducere: `prefs:root=TRANSLATE`
+- Traducere → Mod Pe dispozitiv: `prefs:root=TRANSLATE#OnDeviceOnly`
+- News: `prefs:root=NEWS`
+- News → Afișare previzualizări articole: `prefs:root=NEWS#show_excerpt_mode`
+- News → Restricționare articole în Informațiile zilei: `prefs:root=NEWS#showStoriesFromFavoritesSpecifierID`
+- News → Intimitate: `prefs:root=NEWS#Privacy`
+- News → Resetați identificatorul: `prefs:root=NEWS#reset_identifier`
+- News → Recunoașteri: `prefs:root=NEWS&path=Acknowledgements`
+- Mesaje: `prefs:root=MESSAGES`
+- FaceTime: `prefs:root=FACETIME`
+- Poze: `prefs:root=Photos`
+- Poze → Poze iCloud: `prefs:root=Photos#iCloudPhotosSwitch`
+- Poze → Optimizare stocare: `prefs:root=Photos#iCloudOptimizeStorageOption`
+- Poze → Descărcare și păstrare originale: `prefs:root=Photos#iCloudKeepOriginalsOption`
+- Poze → Albume partajate: `prefs:root=Photos#SharedStreamsSwitch`
+- Poze → Date celulare: `prefs:root=Photos&path=CellularDataLinkList`
+- Poze → Redare automată clipuri video: `prefs:root=Photos#VideoAutoplaySwitch`
+- Poze → Afișare HDR completă: `prefs:root=Photos#ImageModulationSwitch`
+- Poze → Afișare sărbători: `prefs:root=Photos#MEMORIES_HOLIDAY_CALENDAR_EVENTS_SWITCH`
+- Poze → Transfer pe Mac sau PC: `prefs:root=Photos#TransferGroup`
+- Notificări de expunere: `prefs:root=EXPOSURE_NOTIFICATION`
+- Cameră: `prefs:root=CAMERA`
+- Cameră → Formate: `prefs:root=CAMERA&path=CameraFormatsSettingsList`
+- Cameră → Formate → Apple ProRaw: `prefs:root=CAMERA&path=CameraFormatsSettingsList#CAMUserPreferenceEnableLinearDNGControl`
+- Cameră → Record Video: `prefs:root=CAMERA&path=Record%20Video`
+- Cameră → Record Video → Video HDR: `prefs:root=CAMERA&path=Record%20Video#HDR%20Video`
+- Cameră → Menținere configurări: `prefs:root=CAMERA&path=CameraPreserveSettingsSwitch`
+- Cameră → Menținere configurări → Mod cameră: `prefs:root=CAMERA&path=CameraPreserveSettingsSwitch#CAMUserPreferencePreserveCaptureMode`
+- Cameră → Grilă: `prefs:root=CAMERA#CameraGridSwitch`
+- Cameră → Scanați coduri QR: `prefs:root=CAMERA#CameraQRBannerSwitch`
+- Conexiune celulară: `prefs:root=MOBILE_DATA_SETTINGS_ID`
+- Conexiune celulară → Opțiuni date: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS`
+- Conexiune celulară → Opțiuni date → Mod Trafic date redus: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS#Low%20Data%20Mode`
+- Conexiune celulară → Date celulare: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=SHOW_ALL`
+- Podcasturi: `prefs:root=PODCASTS`
+- Busolă: `prefs:root=COMPASS`
+- Busolă → Utilizare nord geografic: `prefs:root=COMPASS#USE_TRUE_NORTH`
+- Cărți: `prefs:root=IBOOKS`
+- Cărți → Conținut online: `prefs:root=IBOOKS#BKAllowOnlineContent`
+- Cărți → SINCRONIZARE: `prefs:root=IBOOKS#SYNCING`
+- Cărți → Citite acum: `prefs:root=IBOOKS#BKLibrary.ReadingNow`
+- Cărți → iCloud Drive: `prefs:root=IBOOKS#BCSyncICloudDrive`
+- Cărți → CITIRE: `prefs:root=IBOOKS#READING`
+- Cărți → Aliniere stânga-dreapta: `prefs:root=IBOOKS#BKFullJustification`
+- Cărți → Auto-silabisire: `prefs:root=IBOOKS#BKAutoHyphenation`
+- Cărți → Avansare cu ambele margini: `prefs:root=IBOOKS#BKLeftTapTurnToNext`
+- Cărți → Obiective de lectură: `prefs:root=IBOOKS#READING_GOALS`
+- Cărți → Degajați datele obiectivelor de lectură: `prefs:root=IBOOKS#BKReadingGoalsShouldClearDataKey`
+- Cărți → CĂUTARE: `prefs:root=IBOOKS#SEARCHING`
+- Cărți → Book Store: `prefs:root=IBOOKS#BKIncludeBookStoreResultsInSearch`
+- Cărți → CĂRȚI AUDIO: `prefs:root=IBOOKS#AUDIOBOOKS`
+- Cărți → Salt înainte: `prefs:root=IBOOKS&path=BKAudioBookSkipForward`
+- Cărți → Salt înapoi: `prefs:root=IBOOKS&path=BKAudioBookSkipBackward`
+- Cărți → COMENZI EXTERNE: `prefs:root=IBOOKS#BKRemoteSkipInsteadOfNextTrackDefaultKey`
+- Cărți → Următor/anterior: `prefs:root=IBOOKS#Next/Previous`
+- Cărți → Salt înainte/înapoi: `prefs:root=IBOOKS#Skip%20Forward/Back`
+- Cărți → INTIMITATE: `prefs:root=IBOOKS#PRIVACY`
+- Cărți → Resetați identificatorul: `prefs:root=IBOOKS#BAResetAnalyticsUserID`
+- Cărți → Recunoașteri: `prefs:root=IBOOKS&path=Acknowledgements`
+- Mod Avion: `prefs:root=ROOT#AIRPLANE_MODE`

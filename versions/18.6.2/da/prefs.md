@@ -1,0 +1,1186 @@
+- Batteri: `prefs:root=BATTERY_USAGE`
+- Batteri → Energibesparende funktion: `prefs:root=BATTERY_USAGE#BATTERY_SAVER_MODE`
+- Batteri → Batteritilstand: `prefs:root=BATTERY_USAGE#BATTERY_HEALTH_ID`
+- Knappen Handling: `prefs:root=ACTION_BUTTON`
+- Notifikationer: `prefs:root=NOTIFICATIONS_ID`
+- Notifikationer → Planlagt resume: `prefs:root=NOTIFICATIONS_ID&path=SCHEDULED_DELIVERY_ID`
+- Generelt: `prefs:root=General`
+- Generelt → VPN og Administration af enhed: `prefs:root=General&path=ManagedConfigurationList`
+- Generelt → AppleCare & garanti: `prefs:root=General&path=COVERAGE/`
+- Generelt → Autoudfyld & adgangskoder: `prefs:root=General&path=AUTOFILL`
+- Generelt → Autoudfyld & adgangskoder → Autoudfyld adgangskoder: `prefs:root=General&path=AUTOFILL#AUTOFILL`
+- Generelt → Autoudfyld & adgangskoder → Ryd op i bekræftelseskoder: `prefs:root=General&path=AUTOFILL#CLEAN_UP_VERIFICATION_CODES`
+- Generelt → Autoudfyld & adgangskoder → Indstil bekræftelseskoder: `prefs:root=General&path=AUTOFILL#SET_UP_VERIFICATION_CODES`
+- Generelt → Lagringsplads: `prefs:root=General&path=STORAGE_MGMT`
+- Generelt → Lagringsplads → Lagringsplads: `prefs:root=General&path=STORAGE_MGMT#MANAGE`
+- Generelt → Lagringsplads → Fjern ubrugte apps: `prefs:root=General&path=STORAGE_MGMT#OFFLOAD`
+- Generelt → Softwareopdatering: `prefs:root=General&path=SOFTWARE_UPDATE_LINK`
+- Generelt → Softwareopdatering → Automatiske opdateringer: `prefs:root=General&path=SOFTWARE_UPDATE_LINK/SUAutomaticUpdateButton`
+- Generelt → Tastatur: `prefs:root=General&path=Keyboard`
+- Generelt → Tastatur → Tastaturer: `prefs:root=General&path=Keyboard/KEYBOARDS`
+- Generelt → Tastatur → Erstat tekst: `prefs:root=General&path=Keyboard/USER_DICTIONARY`
+- Generelt → Tastatur → Automatisk store bogstaver: `prefs:root=General&path=Keyboard#KeyboardAutocapitalization`
+- Generelt → Tastatur → Automatisk rettelse: `prefs:root=General&path=Keyboard#KeyboardAutocorrection`
+- Generelt → Tastatur → Udfør stavekontrol: `prefs:root=General&path=Keyboard#KeyboardCheckSpelling`
+- Generelt → Tastatur → Slå Skiftelås til: `prefs:root=General&path=Keyboard#KeyboardCapsLock`
+- Generelt → Tastatur → Genveje: `prefs:root=General&path=Keyboard#KeyboardAssistant`
+- Generelt → Tastatur → Forslag: `prefs:root=General&path=Keyboard#KeyboardPrediction`
+- Generelt → Tastatur → Smart tegnsætning: `prefs:root=General&path=Keyboard#SmartTyping`
+- Generelt → Tastatur → Opdel tastatur: `prefs:root=General&path=Keyboard#RivenKeyboard`
+- Generelt → Tastatur → Slå tastsvirp til: `prefs:root=General&path=Keyboard#GesturesEnabled`
+- Generelt → Tastatur → Eksempel på tegn: `prefs:root=General&path=Keyboard#KeyboardAllowPaddle`
+- Generelt → Tastatur → “.”-genvej: `prefs:root=General&path=Keyboard#KeyboardPeriodShortcut`
+- Generelt → Tastatur → Skub for at skrive: `prefs:root=General&path=Keyboard#KeyboardContinuousPathEnabled`
+- Generelt → Tastatur → Slå Diktering til: `prefs:root=General&path=Keyboard#Dictation`
+- Generelt → Tastatur → Automatisk tegnsætning: `prefs:root=General&path=Keyboard#AutoPunctuationSetting`
+- Generelt → Sprog & område: `prefs:root=General&path=INTERNATIONAL`
+- Generelt → Sprog & område → Andre sprog…: `prefs:root=General&path=INTERNATIONAL#NEW_PREFERRED_LANGUAGE`
+- Generelt → Sprog & område → Foretrukken sprogrækkefølge: `prefs:root=General&path=INTERNATIONAL#PREFERRED_LANGUAGE_GROUP`
+- Generelt → Sprog & område → Tilføj sprog…: `prefs:root=General&path=INTERNATIONAL#ADD_PREFERRED_LANGUAGE`
+- Generelt → Sprog & område → Område: `prefs:root=General&path=INTERNATIONAL/LOCALE`
+- Generelt → Sprog & område → Tal: `prefs:root=General&path=INTERNATIONAL/NUMBERING_SYSTEM`
+- Generelt → Sprog & område → Kalender: `prefs:root=General&path=INTERNATIONAL/CALENDAR`
+- Generelt → Sprog & område → Temperatur: `prefs:root=General&path=INTERNATIONAL/TEMPERATURE_UNIT`
+- Generelt → Ordbog: `prefs:root=General&path=DICTIONARY`
+- Generelt → Billede i billede: `prefs:root=General&path=PiP_SPEC`
+- Generelt → Pegefelt: `prefs:root=General&path=POINTERS`
+- Generelt → NFC: `prefs:root=General&path=NFC_LINK`
+- Generelt → VPN: `prefs:root=General&path=VPN`
+- Generelt → CarPlay: `prefs:root=General&path=CARPLAY`
+- Generelt → Om: `prefs:root=General&path=About`
+- Generelt → Om → Godkendte certifikater: `prefs:root=General&path=About/CERT_TRUST_SETTINGS`
+- Generelt → Om → Serienummer: `prefs:root=General&path=About#SerialNumber`
+- Generelt → Om → Modelnummer: `prefs:root=General&path=About#ProductModel`
+- Generelt → Om → Modelnavn: `prefs:root=General&path=About#ProductModelName`
+- Generelt → Om → iOS-version: `prefs:root=General&path=About/SW_VERSION_SPECIFIER`
+- Generelt → Juridisk og regulativer: `prefs:root=General&path=LEGAL_AND_REGULATORY`
+- Generelt → Juridisk og regulativer → Garanti: `prefs:root=General&path=LEGAL_AND_REGULATORY#Warranty`
+- Generelt → AirDrop: `prefs:root=General&path=AIRDROP_LINK`
+- Generelt → AirDrop → Holde enhederne mod hinanden: `prefs:root=General&path=AIRDROP_LINK#AIRDROP_NFC_ID`
+- Generelt → Knappen Hjem: `prefs:root=General&path=HOME_BUTTON`
+- Generelt → Sideknap: `prefs:root=General#Rotation_Switch_Action_Group`
+- Generelt → Opdater i baggrunden: `prefs:root=General&path=AUTO_CONTENT_DOWNLOAD`
+- Generelt → Dato & tid: `prefs:root=General&path=DATE_AND_TIME`
+- Generelt → Tv-udgang: `prefs:root=General&path=TV_OUT`
+- Generelt → Nulstil: `prefs:root=General&path=Reset`
+- Generelt → Nulstil → Nulstil alle indstillinger: `prefs:root=General&path=Reset#settingsErase`
+- Generelt → Nulstil → Slet alt indhold og alle indstillinger: `prefs:root=General&path=Reset#fullErase`
+- Generelt → Nulstil → Nulstil netværksindstillinger: `prefs:root=General&path=Reset#RESET_NETWORK_LABEL`
+- Generelt → Nulstil → Fjern alle mobildatabonnementer: `prefs:root=General&path=Reset#cellularErase`
+- Generelt → Nulstil → Abonnementstjenester: `prefs:root=General&path=Reset#SUBSCRIBER_SERVICES_ID`
+- Generelt → Nulstil → Nulstil tastaturordbog: `prefs:root=General&path=Reset#RESET_KEYBOARD_DICTIONARY_LABEL`
+- Generelt → Nulstil → Nulstil hjemmeskærmens layout: `prefs:root=General&path=Reset#RESET_ICONS_LABEL`
+- Generelt → Nulstil → Nulstil lokalitet & anonymitet: `prefs:root=General&path=Reset#RESET_PRIVACY_LABEL`
+- Generelt → Luk ned: `prefs:root=General#SHUTDOWN_LABEL`
+- Generelt → AirPlay & kontinuitet: `prefs:root=General&path=CONTINUITY_SPEC`
+- Generelt → AirPlay & kontinuitet → Handoff: `prefs:root=General&path=CONTINUITY_SPEC#CONTINUITY`
+- Generelt → AirPlay & kontinuitet → Overfør til HomePod: `prefs:root=General&path=CONTINUITY_SPEC#TRANSFER_TO_HOMEPOD`
+- Generelt → AirPlay & kontinuitet → Brug automatisk AirPlay: `prefs:root=General&path=CONTINUITY_SPEC#AUTOMATICALLY_AIRPLAY`
+- Generelt → AirPlay & kontinuitet → Kontinuitetskamera: `prefs:root=General&path=CONTINUITY_SPEC#WOMBAT_CAMERA`
+- Wallet & Apple Pay: `prefs:root=PASSBOOK`
+- Wallet & Apple Pay → Apple Cash: `prefs:root=PASSBOOK#Apple%C2%A0Cash`
+- Wallet & Apple Pay → Betalingskort: `prefs:root=PASSBOOK#SETTINGS_PAYMENT_CARDS_GROUP`
+- Wallet & Apple Pay → Tilføj kort: `prefs:root=PASSBOOK#Add%20Card`
+- Wallet & Apple Pay → Dobbeltklik på sideknappen: `prefs:root=PASSBOOK#Double-Click%20Side%20Button`
+- Wallet & Apple Pay → Sporing af ordrer: `prefs:root=PASSBOOK#ORDER_TRACKING`
+- Dagbog: `prefs:root=JOURNAL`
+- StandBy: `prefs:root=AMBIENT`
+- Vejr: `prefs:root=WEATHER`
+- Apple-konto: `prefs:root=APPLE_ACCOUNT` or `settings-navigation://com.apple.Settings.AppleAccount`
+- Apple-konto → iCloud: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE` or `prefs:root=CASTLE`
+- Apple-konto → iCloud → iCloud-lagring: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/STORAGE_AND_BACKUP` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/STORAGE_AND_BACKUP` or `prefs:root=CASTLE&path=STORAGE_AND_BACKUP`
+- Apple-konto → iCloud → iCloud Drive: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity` or `prefs:root=CASTLE&path=com.apple.Dataclass.Ubiquity`
+- Apple-konto → iCloud → Fotos: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.MediaStream` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.MediaStream` or `prefs:root=CASTLE&path=com.apple.Dataclass.MediaStream`
+- Apple-konto → iCloud → Mail: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Mail` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail` or `prefs:root=CASTLE&path=com.apple.Dataclass.Mail`
+- Apple-konto → iCloud → Mail → Tilpasset e-maildomæne: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Mail/BYOD_SETTING_SPECIFIER_ID` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/BYOD_SETTING_SPECIFIER_ID` or `prefs:root=CASTLE&path=com.apple.Dataclass.Mail/BYOD_SETTING_SPECIFIER_ID`
+- Apple-konto → iCloud → Kontakter: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Contacts` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Contacts` or `prefs:root=CASTLE&path=com.apple.Dataclass.Contacts`
+- Apple-konto → iCloud → Kalender: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Calendars` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Calendars` or `prefs:root=CASTLE&path=com.apple.Dataclass.Calendars`
+- Apple-konto → iCloud → Påmindelser: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Reminders` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Reminders` or `prefs:root=CASTLE&path=com.apple.Dataclass.Reminders`
+- Apple-konto → iCloud → Safari: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks` or `prefs:root=CASTLE&path=com.apple.Dataclass.Bookmarks`
+- Apple-konto → iCloud → Noter: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Notes` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Notes` or `prefs:root=CASTLE&path=com.apple.Dataclass.Notes`
+- Apple-konto → iCloud → News: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.News` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.News` or `prefs:root=CASTLE&path=com.apple.Dataclass.News`
+- Apple-konto → iCloud → Sikkerhedskopi: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/BACKUP` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/BACKUP` or `prefs:root=CASTLE&path=BACKUP`
+- Apple-konto → iCloud → Sundhed: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Health` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Health` or `prefs:root=CASTLE&path=com.apple.Dataclass.Health`
+- Apple-konto → iCloud → Adgangskoder og nøglering: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync` or `prefs:root=CASTLE&path=com.apple.Dataclass.KeychainSync`
+- Apple-konto → iCloud → Skjul min e-mailadresse: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE` or `prefs:root=CASTLE&path=PRIVATE_EMAIL_MANAGE`
+- Apple-konto → Del min lokalitet: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING` or `settings-navigation://com.apple.Settings.AppleAccount/LOCATION_SHARING`
+- Apple-konto → Del min lokalitet → Find: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING/FindMyDevice-Settings` or `settings-navigation://com.apple.Settings.AppleAccount/LOCATION_SHARING/FindMyDevice-Settings`
+- Apple-konto → Navn, telefonnumre, e-mail: `prefs:root=APPLE_ACCOUNT&path=APPLE_ACCOUNT_CONTACT` or `settings-navigation://com.apple.Settings.AppleAccount/APPLE_ACCOUNT_CONTACT`
+- Apple-konto → Adgangskode og sikkerhed: `prefs:root=APPLE_ACCOUNT&path=PASSWORD_AND_SECURITY` or `settings-navigation://com.apple.Settings.AppleAccount/PASSWORD_AND_SECURITY`
+- Apple-konto → Betaling og levering: `prefs:root=APPLE_ACCOUNT&path=PAYMENT_AND_SHIPPING` or `settings-navigation://com.apple.Settings.AppleAccount/PAYMENT_AND_SHIPPING`
+- Apple-konto → Abonnementer: `prefs:root=APPLE_ACCOUNT&path=SUBSCRIPTIONS` or `settings-navigation://com.apple.Settings.AppleAccount/SUBSCRIPTIONS`
+- Apple-konto → Familie: `prefs:root=APPLE_ACCOUNT&path=Family` or `settings-navigation://com.apple.Settings.AppleAccount/Family`
+- Apple-konto → Bekræftelse af kontaktnøgle: `prefs:root=APPLE_ACCOUNT&path=TRANSPARENCY` or `settings-navigation://com.apple.Settings.AppleAccount/TRANSPARENCY`
+- Kort: `prefs:root=MAPS`
+- Kort → Luftkvalitetsindeks: `prefs:root=MAPS#AirQualityPreferenceID`
+- Kort → Altid på dansk: `prefs:root=MAPS#LabelLanguageAlwaysUIPreferenceID`
+- Kort → På cykel: `prefs:root=MAPS&path=CyclingLinkPreferenceID`
+- Kort → Foretrukken transporttype: `prefs:root=MAPS#TransportTypePreferenceGroupID`
+- Kort → I bil: `prefs:root=MAPS&path=DrivingLinkPreferenceID`
+- Kort → Oplæst vejvisning: `prefs:root=MAPS&path=NavigationGuidanceLinkPreferenceID`
+- Kort → Vis parkeret bil: `prefs:root=MAPS#ParkedCarPreferenceID`
+- Kort → Del ankomst: `prefs:root=MAPS#ShareETAPreferenceID`
+- Kort → Offentlig transport: `prefs:root=MAPS&path=TransitLinkPreferenceID`
+- Kort → Til fods: `prefs:root=MAPS&path=WalkingLinkPreferenceID`
+- Kort → Vejrforhold: `prefs:root=MAPS#WeatherConditionsPreferenceID`
+- Skærmtid: `prefs:root=SCREEN_TIME`
+- Skærmtid → See All App & Website Activity: `prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY`
+- Skærmtid → See All App & Website Activity → I dag: `prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY#DAY`
+- Skærmtid → See All App & Website Activity → Uge: `prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY#WEEK`
+- Skærmtid → Skærmfri tid: `prefs:root=SCREEN_TIME&path=DOWNTIME`
+- Skærmtid → Apptidsgrænser: `prefs:root=SCREEN_TIME&path=APP_LIMITS`
+- Skærmtid → Kommunikationsgrænser: `prefs:root=SCREEN_TIME&path=COMMUNICATION_LIMITS`
+- Skærmtid → Sikker kommunikation: `prefs:root=SCREEN_TIME&path=COMMUNICATION_SAFETY`
+- Skærmtid → Tillad altid: `prefs:root=SCREEN_TIME&path=ALWAYS_ALLOWED`
+- Skærmtid → Indhold og anonymitet: `prefs:root=SCREEN_TIME&path=CONTENT_PRIVACY`
+- Skærmtid → Børnesikring: `prefs:root=SCREEN_TIME#FAMILY`
+- Skærmtid → Skærmafstand: `prefs:root=SCREEN_TIME&path=EYE_DISTANCE`
+- Freeform: `prefs:root=FREEFORM`
+- Fokus: `prefs:root=DO_NOT_DISTURB`
+- Fokus → Status for fokusfunktion: `prefs:root=DO_NOT_DISTURB&path=status`
+- Udseende: `prefs:root=DISPLAY`
+- Udseende → Udseende: `prefs:root=DISPLAY#DEVICE_APPEARANCE`
+- Udseende → True Tone: `prefs:root=DISPLAY#WHITE_BALANCE`
+- Udseende → Night Shift: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION`
+- Udseende → Night Shift → Planlagt: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#SCHEDULED`
+- Udseende → Night Shift → Slå manuelt til indtil i morgen: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#MANUAL`
+- Udseende → Night Shift → Farvetemperatur: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#COLOR_TEMPERATURE`
+- Udseende → Automatisk lås: `prefs:root=DISPLAY&path=AUTOLOCK`
+- Udseende → Løft for at afbryde vågeblus: `prefs:root=DISPLAY#RAISE_TO_WAKE`
+- Udseende → Lås/lås op: `prefs:root=DISPLAY#SMART_CASE_LOCK_SPEC`
+- Udseende → Tekststørrelse: `prefs:root=DISPLAY&path=TEXT_SIZE`
+- Udseende → Fed tekst: `prefs:root=DISPLAY#BOLD_TEXT`
+- Udseende → Lysstyrke: `prefs:root=DISPLAY#BRIGHTNESS`
+- Udseende → Skærmzoom: `prefs:root=DISPLAY#DISPLAY_ZOOM_GROUP`
+- Udseende → Udseende: `prefs:root=DISPLAY&path=APPEARANCE`
+- Udseende → Udseende → Vinduezoom: `prefs:root=DISPLAY&path=APPEARANCE#WINDOW_ZOOM`
+- Udseende → Udseende → Vinduezoom med to hænder: `prefs:root=DISPLAY&path=APPEARANCE#TWO_HANDED_WINDOW_ZOOM`
+- Udseende → Vis: `prefs:root=DISPLAY&path=MAGNIFY`
+- Udseende → Skærm altid til: `prefs:root=DISPLAY&path=ALWAYS_ON`
+- Udseende → Skærm altid til → Skærm altid til: `prefs:root=DISPLAY&path=ALWAYS_ON#ALWAYS_ON`
+- Udseende → Kompatible apps: `prefs:root=DISPLAY&path=COMPATIBLE_APPEARANCE`
+- Udseende → Kompatible apps → Mørk, Lys: `prefs:root=DISPLAY&path=COMPATIBLE_APPEARANCE#COMPATIBLE_APPEARANCE_CHOICES`
+- Hjemmeskærm: `prefs:root=HOME_SCREEN`
+- Hjemmeskærm → Apps, der er hentet for nylig: `prefs:root=HOME_SCREEN&path=APP_DOWNLOADS_GO_TO`
+- Hjemmeskærm → Notifikationsetiketter: `prefs:root=HOME_SCREEN#BADGES_IN_APP_LIBRARY`
+- Hjemmeskærm & appbibliotek: `prefs:root=HOME_SCREEN_DOCK`
+- Hjemmeskærm & appbibliotek → Apps, der er hentet for nylig: `prefs:root=HOME_SCREEN_DOCK&path=APP_DOWNLOADS_GO_TO`
+- Hjemmeskærm & appbibliotek → Dock: `prefs:root=HOME_SCREEN_DOCK&path=MULTITASKING_DOCK`
+- Hjemmeskærm & appbibliotek → Dock → Vis appbibliotek i Dock: `prefs:root=HOME_SCREEN_DOCK&path=MULTITASKING_DOCK#SHOW_APP_LIBRARY`
+- Hjemmeskærm & appbibliotek → Vis foreslåede og seneste apps i Dock: `prefs:root=HOME_SCREEN_DOCK#ALLOW_RECENTS`
+- Hjemmeskærm & appbibliotek → Organisator: `prefs:root=HOME_SCREEN_DOCK&path=CONTINUOUS-EXPOSE`
+- Multitasking & Gestures: `prefs:root=com.apple.MultitaskingAndGesturesSettings`
+- Multitasking & Gestures → Multitasking: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Multitasking`
+- Multitasking & Gestures → Multitasking → Tillad flere apps: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Multitasking#MultipleApps`
+- Multitasking & Gestures → Multitasking → Split View og Slide Over: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Multitasking#SplitViewSlideOver`
+- Multitasking & Gestures → Multitasking → Dubler skærm: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Multitasking#ScreenMirroring`
+- Multitasking & Gestures → Multitasking → Organisator: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Multitasking#StageManager`
+- Multitasking & Gestures → Multitasking → Vis seneste apps i Organisator: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Multitasking#StageManagerRecentApps`
+- Multitasking & Gestures → Multitasking → Vis Dock i Organisator: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Multitasking#StageManagerDock`
+- Multitasking & Gestures → Billede i billede: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=PictureInPicture`
+- Multitasking & Gestures → Produktivitetsbevægelser: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Productivity`
+- Multitasking & Gestures → Produktivitetsbevægelser → Bevægelser: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Productivity#Gestures`
+- Multitasking & Gestures → Produktivitetsbevægelser → Produktivitetsbevægelser: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Productivity#ProductivityGestures`
+- Multitasking & Gestures → Bevægelser med fire og fem fingre: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=FourAndFiveFingers`
+- Multitasking & Gestures → Ryst for at fortryde: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=ShakeToUndo`
+- Multitasking & Gestures → Hjørnebevægelser: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=CornerGestures`
+- Tilgængelighed: `prefs:root=ACCESSIBILITY`
+- Tilgængelighed → VoiceOver: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE`
+- Tilgængelighed → VoiceOver → Øvelse til VoiceOver: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#VoiceOverTouchTutorialEnabled`
+- Tilgængelighed → VoiceOver → Talehastighed: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#SpeakingRateSlider`
+- Tilgængelighed → VoiceOver → Tale: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Voices`
+- Tilgængelighed → VoiceOver → Tale → Udtale: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Voices/PRONUNCIATION_DICTIONARY`
+- Tilgængelighed → VoiceOver → Tale → Udtale → Udtale: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Voices/PRONUNCIATION_DICTIONARY#PRONUNCIATION_DICTIONARY`
+- Tilgængelighed → VoiceOver → Tale → Skiftende tonehøjde: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Voices#PITCH_CHANGES_TITLE`
+- Tilgængelighed → VoiceOver → Tale → Tilføj rotorstemme…: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Voices#ADD_NEW_VOICE`
+- Tilgængelighed → VoiceOver → Tale → Registrer sprog: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Voices#LANGUAGE_DETECTION`
+- Tilgængelighed → VoiceOver → Tale → Tilpas tale til rummet: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Voices#SPATIALIZE_SPEECH`
+- Tilgængelighed → VoiceOver → Regler: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity`
+- Tilgængelighed → VoiceOver → Regler → Regler: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#Verbosity`
+- Tilgængelighed → VoiceOver → Regler → Skilletegn: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup`
+- Tilgængelighed → VoiceOver → Regler → Skilletegn → Skilletegn: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup#voiceOverPunctuationGroup`
+- Tilgængelighed → VoiceOver → Regler → Skilletegn → Aktiv skilletegnsgruppe: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup#voiceOverActivePunctuationGroup`
+- Tilgængelighed → VoiceOver → Regler → Skilletegn → Alle: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup#all`
+- Tilgængelighed → VoiceOver → Regler → Skilletegn → Nogle: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup#AXSSVoiceOverPunctuationGroupSome`
+- Tilgængelighed → VoiceOver → Regler → Skilletegn → Ingen: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup#PunctuationGroupNone`
+- Tilgængelighed → VoiceOver → Regler → Skilletegn → Tilføj gruppe til skilletegn: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup/NewPunctuation`
+- Tilgængelighed → VoiceOver → Regler → Skilletegn → Tilføj gruppe til skilletegn → Tilføj gruppe til skilletegn: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup/NewPunctuation#NewPunctuation`
+- Tilgængelighed → VoiceOver → Regler → Skilletegn → Importer: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup/ImportPunctuation`
+- Tilgængelighed → VoiceOver → Regler → Skilletegn → Importer → Importer: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup/ImportPunctuation#ImportPunctuation`
+- Tilgængelighed → VoiceOver → Regler → Læs info op: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#HINTS_TITLE`
+- Tilgængelighed → VoiceOver → Regler → Systemnotifikationer: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/SystemNotifications`
+- Tilgængelighed → VoiceOver → Regler → Systemnotifikationer → Systemnotifikationer: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/SystemNotifications#SystemNotifications`
+- Tilgængelighed → VoiceOver → Regler → Systemnotifikationer → Notifikationer når enheden er låst: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/SystemNotifications#LockScreenNotifications`
+- Tilgængelighed → VoiceOver → Regler → Systemnotifikationer → Bannernotifikationer: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/SystemNotifications#BannerNotifications`
+- Tilgængelighed → VoiceOver → Regler → Systemnotifikationer → Brug Lydløs: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/SystemNotifications#NOTIFICATION_USE_RINGER_SWITCH`
+- Tilgængelighed → VoiceOver → Regler → QuickNav-meddelelser: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverQuickNavAnnouncementFeedback`
+- Tilgængelighed → VoiceOver → Regler → QuickNav-meddelelser → QuickNav-meddelelser: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverQuickNavAnnouncementFeedback#voiceOverQuickNavAnnouncementFeedback`
+- Tilgængelighed → VoiceOver → Regler → Notifikationer om lommelygte: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverFlashlightNotificationsEnabled`
+- Tilgængelighed → VoiceOver → Regler → Notifikationer om lommelygte → Notifikationer om lommelygte: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverFlashlightNotificationsEnabled#voiceOverFlashlightNotificationsEnabled`
+- Tilgængelighed → VoiceOver → Regler → Store bogstaver: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverCapitalLetterFeedback`
+- Tilgængelighed → VoiceOver → Regler → Store bogstaver → Store bogstaver: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverCapitalLetterFeedback#voiceOverCapitalLetterFeedback`
+- Tilgængelighed → VoiceOver → Regler → Sletning af tekst: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverDeletionFeedback`
+- Tilgængelighed → VoiceOver → Regler → Sletning af tekst → Sletning af tekst: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverDeletionFeedback#voiceOverDeletionFeedback`
+- Tilgængelighed → VoiceOver → Regler → Links: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverLinkFeedback`
+- Tilgængelighed → VoiceOver → Regler → Links → Links: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverLinkFeedback#voiceOverLinkFeedback`
+- Tilgængelighed → VoiceOver → Regler → Handlinger: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverActionsFeedback`
+- Tilgængelighed → VoiceOver → Regler → Handlinger → Handlinger: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverActionsFeedback#voiceOverActionsFeedback`
+- Tilgængelighed → VoiceOver → Regler → Mere indhold: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMoreContentOutputFeedback`
+- Tilgængelighed → VoiceOver → Regler → Mere indhold → Mere indhold: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMoreContentOutputFeedback#voiceOverMoreContentOutputFeedback`
+- Tilgængelighed → VoiceOver → Regler → Beholderbeskrivelser: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverContainerOutputFeedback`
+- Tilgængelighed → VoiceOver → Regler → Beholderbeskrivelser → Beholderbeskrivelser: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverContainerOutputFeedback#voiceOverContainerOutputFeedback`
+- Tilgængelighed → VoiceOver → Regler → Tal: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverNumberFeedback`
+- Tilgængelighed → VoiceOver → Regler → Tal → Tal: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverNumberFeedback#voiceOverNumberFeedback`
+- Tilgængelighed → VoiceOver → Regler → Læs forslag til tekst op: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/PREDICTIVE_TEXT_FEEDBACK`
+- Tilgængelighed → VoiceOver → Regler → Læs forslag til tekst op → Læs forslag til tekst op: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/PREDICTIVE_TEXT_FEEDBACK#PREDICTIVE_TEXT_FEEDBACK`
+- Tilgængelighed → VoiceOver → Regler → Læs forslag til tekst op → Når forslag til tekst vises: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/PREDICTIVE_TEXT_FEEDBACK/InlineTextCompletionAppearanceFeedback`
+- Tilgængelighed → VoiceOver → Regler → Læs forslag til tekst op → Når forslag til tekst vises → Når forslag til tekst vises: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/PREDICTIVE_TEXT_FEEDBACK/InlineTextCompletionAppearanceFeedback#InlineTextCompletionAppearanceFeedback`
+- Tilgængelighed → VoiceOver → Regler → Læs forslag til tekst op → Når forslag til tekst indsættes: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/PREDICTIVE_TEXT_FEEDBACK/InlineTextCompletionInsertionFeedback`
+- Tilgængelighed → VoiceOver → Regler → Læs forslag til tekst op → Når forslag til tekst indsættes → Når forslag til tekst indsættes: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/PREDICTIVE_TEXT_FEEDBACK/InlineTextCompletionInsertionFeedback#InlineTextCompletionInsertionFeedback`
+- Tilgængelighed → VoiceOver → Regler → Tabeloverskrifter: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#speakTableHeader`
+- Tilgængelighed → VoiceOver → Regler → Række- og kolonnenumre: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#SPEAK_TABLE_ROW_COLUMN`
+- Tilgængelighed → VoiceOver → Regler → Bekræft med stemmen: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#ACTION_CONFIRMATION`
+- Tilgængelighed → VoiceOver → Regler → Webrotoropsummering: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverRotorSummaryFeedback`
+- Tilgængelighed → VoiceOver → Regler → Webrotoropsummering → Webrotoropsummering: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverRotorSummaryFeedback#voiceOverRotorSummaryFeedback`
+- Tilgængelighed → VoiceOver → Regler → Emoji: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverEmojiFeedback`
+- Tilgængelighed → VoiceOver → Regler → Emoji → Emoji: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverEmojiFeedback#voiceOverEmojiFeedback`
+- Tilgængelighed → VoiceOver → Regler → Emojisuffiks: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#EMOJI_SUFFIX`
+- Tilgængelighed → VoiceOver → Regler → Mediebeskrivelser: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions`
+- Tilgængelighed → VoiceOver → Regler → Mediebeskrivelser → Mediebeskrivelser: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#voiceOverMediaDescriptions`
+- Tilgængelighed → VoiceOver → Regler → Inputfeedback: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#voiceOverInputFeedback`
+- Tilgængelighed → VoiceOver → Regler → Feedback, når der holdes på apps: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#voiceOverAppHoverFeedback`
+- Tilgængelighed → VoiceOver → Punktskrift: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille`
+- Tilgængelighed → VoiceOver → Punktskrift → Punktskrift: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#Braille`
+- Tilgængelighed → VoiceOver → Punktskrift → Output: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput`
+- Tilgængelighed → VoiceOver → Punktskrift → Output → Output: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#BrailleDisplayOutput`
+- Tilgængelighed → VoiceOver → Punktskrift → Indgang: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput`
+- Tilgængelighed → VoiceOver → Punktskrift → Indgang → Indgang: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#BrailleDisplayInput`
+- Tilgængelighed → VoiceOver → Punktskrift → Match input- og outputtabeller: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BRAILLE_SYNC_TABLES`
+- Tilgængelighed → VoiceOver → Punktskrift → Input og output: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleDisplayOutput`
+- Tilgængelighed → VoiceOver → Punktskrift → Automatisk oversættelse: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#GRADE2_AUTO_TRANSLATE`
+- Tilgængelighed → VoiceOver → Punktskrift → Punktdisplay på skærm: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput`
+- Tilgængelighed → VoiceOver → Punktskrift → Punktdisplay på skærm → Punktdisplay på skærm: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#BrailleGesturesInput`
+- Tilgængelighed → VoiceOver → Punktskrift → Punktdisplay på skærm → Start automatisk, når du redigerer tekst: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#AUTO_ACTIVATE_ON_TEXT_FIELDS`
+- Tilgængelighed → VoiceOver → Punktskrift → Punktdisplay på skærm → Vend punktplaceringer om: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#SHOULD_REVERSE_DOTS`
+- Tilgængelighed → VoiceOver → Punktskrift → Punktdisplay på skærm → Hold aktiv indtil afvist: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#CONTROL_DEVICE_USING_BRAILLE_GESTURE`
+- Tilgængelighed → VoiceOver → Punktskrift → Punktdisplay på skærm → Vis tekst på skærm: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#DISPLAY_ENTERED_TEXT`
+- Tilgængelighed → VoiceOver → Punktskrift → Punktdisplay på skærm → Oplæs indtastning: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#TYPING_FEEDBACK`
+- Tilgængelighed → VoiceOver → Punktskrift → Punktdisplay på skærm → Lyd: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#USE_TYPING_SOUND_FEEDBACK`
+- Tilgængelighed → VoiceOver → Punktskrift → Punktdisplay på skærm → Lyd: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#USE_HAPTIC_FEEDBACK`
+- Tilgængelighed → VoiceOver → Punktskrift → Punktdisplay på skærm → Meddelelsestilstand: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#SOUND_OPTION`
+- Tilgængelighed → VoiceOver → Punktskrift → Punktdisplay på skærm → Vælg en punkskrifttabel: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#BSI_TABLES`
+- Tilgængelighed → VoiceOver → Punktskrift → Punktskrifttabeller: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier`
+- Tilgængelighed → VoiceOver → Punktskrift → Punktskrifttabeller → Punktskrifttabeller: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier#tableIdentifier`
+- Tilgængelighed → VoiceOver → Punktskrift → Punktskrifttabeller → Tilføj punktskrifttabel…: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier/ADD_NEW_BRAILLE_LANGUAGE`
+- Tilgængelighed → VoiceOver → Punktskrift → Punktskrifttabeller → Tilføj punktskrifttabel… → Tilføj punktskrifttabel…: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier/ADD_NEW_BRAILLE_LANGUAGE#ADD_NEW_BRAILLE_LANGUAGE`
+- Tilgængelighed → VoiceOver → Punktskrift → Statusceller: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL`
+- Tilgængelighed → VoiceOver → Punktskrift → Statusceller → Statusceller: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL`
+- Tilgængelighed → VoiceOver → Punktskrift → Statusceller → Statuscelleplacering: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_POSITION`
+- Tilgængelighed → VoiceOver → Punktskrift → Statusceller → Vis generel status: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#StatusCellGeneral`
+- Tilgængelighed → VoiceOver → Punktskrift → Statusceller → Vis tekststatus: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#StatusCellTextStyle`
+- Tilgængelighed → VoiceOver → Punktskrift → Nemeth-kode til ligninger: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#ALWAYS_USE_NEMETH`
+- Tilgængelighed → VoiceOver → Punktskrift → Vis tastatur på skærmen: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#SHOW_SW_KEYBOARD`
+- Tilgængelighed → VoiceOver → Punktskrift → Vend sider ved panorering: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#AUTO_TURN_PAGES`
+- Tilgængelighed → VoiceOver → Punktskrift → Ordbrydning: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#WORD_WRAP`
+- Tilgængelighed → VoiceOver → Punktskrift → Tekstformatering: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BRAILLE_FORMATTING`
+- Tilgængelighed → VoiceOver → Punktskrift → Punktskriftadvarsler: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleAlertDisplayDuration`
+- Tilgængelighed → VoiceOver → Punktskrift → Punktskriftadvarsler → Punktskriftadvarsler: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleAlertDisplayDuration#voiceOverBrailleAlertDisplayDuration`
+- Tilgængelighed → VoiceOver → Punktskrift → Punktskriftadvarsler → Punktskriftadvarsler: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleAlertDisplayDuration#NumericalPreferenceSwitcherIdentifier`
+- Tilgængelighed → VoiceOver → Punktskrift → Punktskriftadvarsler → Vis indtil afvist: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleAlertDisplayDuration#NumericalPreferenceInfiniteTimeDurationIdentifier`
+- Tilgængelighed → VoiceOver → Punktskrift → Ignorer varighed af akkorder: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleDebounceTimeout`
+- Tilgængelighed → VoiceOver → Punktskrift → Ignorer varighed af akkorder → Ignorer varighed af akkorder: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleDebounceTimeout/voiceOverBrailleDebounceTimeout`
+- Tilgængelighed → VoiceOver → Punktskrift → Varighed af automatisk fremrykning: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleAutoAdvance`
+- Tilgængelighed → VoiceOver → Punktskrift → Varighed af automatisk fremrykning → Varighed af automatisk fremrykning: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleAutoAdvance#voiceOverBrailleAutoAdvance`
+- Tilgængelighed → VoiceOver → Punktskrift → Lydisolering: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#SOUND_CURTAIN`
+- Tilgængelighed → VoiceOver → Punktskrift → Slå Bluetooth til ved start: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverAlwaysTurnOnBluetooth`
+- Tilgængelighed → VoiceOver → Punktskrift → Vælg et punktdisplay: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#DEVICES`
+- Tilgængelighed → VoiceOver → Lyd: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio`
+- Tilgængelighed → VoiceOver → Lyd → Lyd: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#Audio`
+- Tilgængelighed → VoiceOver → Lyd → Lyde til VoiceOver: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds`
+- Tilgængelighed → VoiceOver → Lyd → Lyde til VoiceOver → Lyde til VoiceOver: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSounds`
+- Tilgængelighed → VoiceOver → Lyd → Lyde til VoiceOver → Lyde: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSSettingsItem.Sounds`
+- Tilgængelighed → VoiceOver → Lyd → Lyde til VoiceOver → Interaktion: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSOutputEventCategory.Interaction`
+- Tilgængelighed → VoiceOver → Lyd → Lyde til VoiceOver → VoiceOver-feedback: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSOutputEventCategory.VoiceOverFeedback`
+- Tilgængelighed → VoiceOver → Lyd → Lyde til VoiceOver → App-feedback: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSOutputEventCategory.AppFeedback`
+- Tilgængelighed → VoiceOver → Lyd → Lyde til VoiceOver → Punktskrift: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSOutputEventCategory.Braille`
+- Tilgængelighed → VoiceOver → Lyd → Lyde til VoiceOver → Tekstredigering: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSOutputEventCategory.TextEditing`
+- Tilgængelighed → VoiceOver → Lyd → Lyde til VoiceOver → System: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSOutputEventCategory.System`
+- Tilgængelighed → VoiceOver → Lyd → Lyddæmper: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#AUDIO_DUCKING`
+- Tilgængelighed → VoiceOver → Lyd → Brug højttaler ved opkald: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#ROUTE_TO_SPEAKER`
+- Tilgængelighed → VoiceOver → Lyd → Send til HDMI: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#ROUTE_TO_HDMI`
+- Tilgængelighed → VoiceOver → Kommandoer: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands`
+- Tilgængelighed → VoiceOver → Kommandoer → Kommandoer: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands#CustomizeCommands`
+- Tilgængelighed → VoiceOver → Kommandoer → Alle kommandoer: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/AllCommands`
+- Tilgængelighed → VoiceOver → Kommandoer → Alle kommandoer → Alle kommandoer: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/AllCommands#AllCommands`
+- Tilgængelighed → VoiceOver → Kommandoer → Indtastning på punktskrifttastatur: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/BrailleKeyboardInput`
+- Tilgængelighed → VoiceOver → Kommandoer → Indtastning på punktskrifttastatur → Indtastning på punktskrifttastatur: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/BrailleKeyboardInput#BrailleKeyboardInput`
+- Tilgængelighed → VoiceOver → Kommandoer → Berøringsbevægelser: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/TouchGestures`
+- Tilgængelighed → VoiceOver → Kommandoer → Berøringsbevægelser → Berøringsbevægelser: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/TouchGestures#TouchGestures`
+- Tilgængelighed → VoiceOver → Kommandoer → Tastaturgenveje: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/KeyboardShortcuts`
+- Tilgængelighed → VoiceOver → Kommandoer → Tastaturgenveje → Tastaturgenveje: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/KeyboardShortcuts#KeyboardShortcuts`
+- Tilgængelighed → VoiceOver → Kommandoer → Håndskrift: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/Handwriting`
+- Tilgængelighed → VoiceOver → Kommandoer → Håndskrift → Håndskrift: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/Handwriting#Handwriting`
+- Tilgængelighed → VoiceOver → Kommandoer → Punktdisplay på skærm: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/BrailleScreenInput`
+- Tilgængelighed → VoiceOver → Kommandoer → Punktdisplay på skærm → Punktdisplay på skærm: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/BrailleScreenInput#BrailleScreenInput`
+- Tilgængelighed → VoiceOver → Kommandoer → Nulstil kommandoer til VoiceOver: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands#ResetVoiceOverCommands`
+- Tilgængelighed → VoiceOver → Kommandoer → Byt om på bevægelser til højre og venstre hånd: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands#SWITCH_GESTURE_HANDEDNESS`
+- Tilgængelighed → VoiceOver → Aktiviteter: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/activities`
+- Tilgængelighed → VoiceOver → Aktiviteter → Aktiviteter: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/activities#activities`
+- Tilgængelighed → VoiceOver → Aktiviteter → Programmering: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/activities/Programming`
+- Tilgængelighed → VoiceOver → Aktiviteter → Programmering → Programmering: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/activities/Programming#Programming`
+- Tilgængelighed → VoiceOver → Aktiviteter → Tilføj aktivitet…: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/activities/New`
+- Tilgængelighed → VoiceOver → Aktiviteter → Tilføj aktivitet… → Tilføj aktivitet…: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/activities/New#New`
+- Tilgængelighed → VoiceOver → Rotor: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions`
+- Tilgængelighed → VoiceOver → Rotor → Rotor: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#RotorActions`
+- Tilgængelighed → VoiceOver → Rotor → Rotoremner: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions/WebRotor`
+- Tilgængelighed → VoiceOver → Rotor → Rotoremner → Rotoremner: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions/WebRotor#WebRotor`
+- Tilgængelighed → VoiceOver → Rotor → Skift rotor med emne: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#STICKY_ROTOR_TITLE`
+- Tilgængelighed → VoiceOver → Rotor → Rediger apps på hjemmeskærm: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#editApps`
+- Tilgængelighed → VoiceOver → Rotor → Apps til Direkte berøring: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions/apps`
+- Tilgængelighed → VoiceOver → Rotor → Apps til Direkte berøring → Apps til Direkte berøring: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions/apps#apps`
+- Tilgængelighed → VoiceOver → Indtastning: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions`
+- Tilgængelighed → VoiceOver → Indtastning → Indtastning: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#TypingOptions`
+- Tilgængelighed → VoiceOver → Indtastning → Indtastningsformat: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_MODE_TITLE`
+- Tilgængelighed → VoiceOver → Indtastning → Indtastningsformat → Indtastningsformat: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_MODE_TITLE#TYPING_MODE_TITLE`
+- Tilgængelighed → VoiceOver → Indtastning → Fonetisk kommentar: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE`
+- Tilgængelighed → VoiceOver → Indtastning → Fonetisk kommentar → Fonetisk kommentar: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_TITLE`
+- Tilgængelighed → VoiceOver → Indtastning → Oplæs indtastning: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_FEEDBACK`
+- Tilgængelighed → VoiceOver → Indtastning → Oplæs indtastning → Oplæs indtastning: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_FEEDBACK#TYPING_FEEDBACK`
+- Tilgængelighed → VoiceOver → Indtastning → Kombitaster: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS`
+- Tilgængelighed → VoiceOver → Indtastning → Kombitaster → Kombitaster: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS#MODIFIER_KEYS`
+- Tilgængelighed → VoiceOver → Indtastning → Tid for tastaturinteraktion: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/KEYBOARD_TIMING_TIMEOUT`
+- Tilgængelighed → VoiceOver → Indtastning → Tid for tastaturinteraktion → Tid for tastaturinteraktion: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/KEYBOARD_TIMING_TIMEOUT#KEYBOARD_TIMING_TIMEOUT`
+- Tilgængelighed → VoiceOver → Naviger i billeder: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages`
+- Tilgængelighed → VoiceOver → Naviger i billeder → Naviger i billeder: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#IncludeUnlabeledImages`
+- Tilgængelighed → VoiceOver → Stor markør: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CursorStyle`
+- Tilgængelighed → VoiceOver → Tekstboks: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CaptionPanel`
+- Tilgængelighed → VoiceOver → Interval for tryk to gange: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/DOUBLE_TAP_INTERVAL_TITLE`
+- Tilgængelighed → VoiceOver → Interval for tryk to gange → Interval for tryk to gange: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/DOUBLE_TAP_INTERVAL_TITLE#NumericalPreferencePickerGroupIdentifier`
+- Tilgængelighed → VoiceOver → Navigationsstil: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NavigationStyle`
+- Tilgængelighed → VoiceOver → Navigationsstil → Navigationsstil: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NavigationStyle#NavigationStyle`
+- Tilgængelighed → VoiceOver → Hurtige indstillinger: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings`
+- Tilgængelighed → VoiceOver → Hurtige indstillinger → Hurtige indstillinger: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#QuickSettings`
+- Tilgængelighed → VoiceOver → VoiceOver-genkendelse: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver`
+- Tilgængelighed → VoiceOver → VoiceOver-genkendelse → VoiceOver-genkendelse: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver#NeuralVoiceOver`
+- Tilgængelighed → VoiceOver → VoiceOver-genkendelse → Billedbeskrivelser: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_IMAGE_DESCRIPTIONS`
+- Tilgængelighed → VoiceOver → VoiceOver-genkendelse → Billedbeskrivelser → Billedbeskrivelser: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_IMAGE_DESCRIPTIONS#VO_IMAGE_DESCRIPTIONS`
+- Tilgængelighed → VoiceOver → VoiceOver-genkendelse → Billedbeskrivelser → Indikation om følsomt indhold: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_IMAGE_DESCRIPTIONS#SensitiveContentGroup`
+- Tilgængelighed → VoiceOver → VoiceOver-genkendelse → Billedbeskrivelser → Yderligere sprog: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_IMAGE_DESCRIPTIONS/AdditionalLanguages`
+- Tilgængelighed → VoiceOver → VoiceOver-genkendelse → Billedbeskrivelser → Yderligere sprog → Yderligere sprog: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_IMAGE_DESCRIPTIONS/AdditionalLanguages#AdditionalLanguages`
+- Tilgængelighed → VoiceOver → VoiceOver-genkendelse → Billedbeskrivelser → Anvend på apps: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_IMAGE_DESCRIPTIONS/apps`
+- Tilgængelighed → VoiceOver → VoiceOver-genkendelse → Billedbeskrivelser → Anvend på apps → Anvend på apps: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_IMAGE_DESCRIPTIONS/apps#apps`
+- Tilgængelighed → VoiceOver → VoiceOver-genkendelse → Skærmgenkendelse: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_SCREEN_RECOGNITION`
+- Tilgængelighed → VoiceOver → VoiceOver-genkendelse → Skærmgenkendelse → Skærmgenkendelse: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_SCREEN_RECOGNITION#VO_SCREEN_RECOGNITION`
+- Tilgængelighed → VoiceOver → VoiceOver-genkendelse → Skærmgenkendelse → Anvend på apps: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_SCREEN_RECOGNITION/apps`
+- Tilgængelighed → VoiceOver → VoiceOver-genkendelse → Skærmgenkendelse → Anvend på apps → Anvend på apps: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_SCREEN_RECOGNITION/apps#apps`
+- Tilgængelighed → VoiceOver → VoiceOver-genkendelse → Tekstgenkendelse: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver#VO_OCR`
+- Tilgængelighed → VoiceOver → VoiceOver-genkendelse → Feedbackformat: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_FEEDBACK`
+- Tilgængelighed → VoiceOver → VoiceOver-genkendelse → Feedbackformat → Feedbackformat: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_FEEDBACK#VO_FEEDBACK`
+- Tilgængelighed → VoiceOver → VoiceOver-genkendelse → Genkendelse i realtid: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_REAL_WORLD_DETECTION`
+- Tilgængelighed → VoiceOver → Forsinkelse før valg: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#VoiceOverDelayUntilSpeak`
+- Tilgængelighed → VoiceOver → Timeout for Knib to gange: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#DOUBLE_TAP_INTERVAL`
+- Tilgængelighed → Zoom: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE`
+- Tilgængelighed → Zoom → Følg fokus: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomShouldFollowFocus`
+- Tilgængelighed → Zoom → Smart indtastning: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomAlwaysUseWindowZoomForTyping`
+- Tilgængelighed → Zoom → Tastaturgenveje: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts`
+- Tilgængelighed → Zoom → Tastaturgenveje → Tastaturgenveje: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomEnableKeyboardShortcuts`
+- Tilgængelighed → Zoom → Tastaturgenveje → Juster zoomniveau: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutAdjustZoomLevel`
+- Tilgængelighed → Zoom → Tastaturgenveje → Zoom til/fra: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutToggleZoom`
+- Tilgængelighed → Zoom → Tastaturgenveje → Flyt zoomvindue: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutPanZoom`
+- Tilgængelighed → Zoom → Tastaturgenveje → Størrelse på zoomvindue: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutResizeZoomWindow`
+- Tilgængelighed → Zoom → Tastaturgenveje → Skift zoomområde: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutSwitchZoomMode`
+- Tilgængelighed → Zoom → Tastaturgenveje → Slå zoom til/fra midlertidigt: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutTempToggleZoom`
+- Tilgængelighed → Zoom → Tastaturgenveje → Zoom med rullehjulet: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutScrollWheel`
+- Tilgængelighed → Zoom → Brug bevægelser på pegefeltet til at zoome: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomWithTrackpad`
+- Tilgængelighed → Zoom → Zoomcontroller: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug`
+- Tilgængelighed → Zoom → Zoomcontroller → Zoomcontroller: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug#ZoomSlug`
+- Tilgængelighed → Zoom → Zoomcontroller → Vis controller: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug#ZOOM_DETACH_CONTROLS`
+- Tilgængelighed → Zoom → Zoomcontroller → Enkelttryk: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_CONTROLLER_ACTION_SINGLE_TAP`
+- Tilgængelighed → Zoom → Zoomcontroller → Enkelttryk → Enkelttryk: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_CONTROLLER_ACTION_SINGLE_TAP#ZOOM_CONTROLLER_ACTION_SINGLE_TAP`
+- Tilgængelighed → Zoom → Zoomcontroller → Tryk to gange: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_CONTROLLER_ACTION_DOUBLE_TAP`
+- Tilgængelighed → Zoom → Zoomcontroller → Tryk to gange → Tryk to gange: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_CONTROLLER_ACTION_DOUBLE_TAP#ZOOM_CONTROLLER_ACTION_DOUBLE_TAP`
+- Tilgængelighed → Zoom → Zoomcontroller → Tryk tre gange: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_CONTROLLER_ACTION_TRIPLE_TAP`
+- Tilgængelighed → Zoom → Zoomcontroller → Tryk tre gange → Tryk tre gange: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_CONTROLLER_ACTION_TRIPLE_TAP#ZOOM_CONTROLLER_ACTION_TRIPLE_TAP`
+- Tilgængelighed → Zoom → Zoomcontroller → Juster zoomniveau: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug#ZOOM_TAP_AND_SLIDE_TO_ADJUST_ZOOM_LEVEL`
+- Tilgængelighed → Zoom → Zoomcontroller → Farve: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/CONTROLLER_COLOR`
+- Tilgængelighed → Zoom → Zoomcontroller → Farve → Farve: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/CONTROLLER_COLOR#CONTROLLER_COLOR`
+- Tilgængelighed → Zoom → Zoomcontroller → Opacitet ved passiv: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_IDLE_SLUG_OPACITY`
+- Tilgængelighed → Zoom → Zoomcontroller → Opacitet ved passiv → Opacitet ved passiv: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_IDLE_SLUG_OPACITY#ZOOM_IDLE_SLUG_OPACITY`
+- Tilgængelighed → Zoom → Zoomområde: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode`
+- Tilgængelighed → Zoom → Zoomområde → Zoomområde: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode#ZoomLensMode`
+- Tilgængelighed → Zoom → Maksimalt zoomniveau: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomPreferredMaxZoomLevel`
+- Tilgængelighed → Zoom → Zoomfilter: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomFilter`
+- Tilgængelighed → Zoom → Zoomfilter → Zoomfilter: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomFilter#ZoomFilter`
+- Tilgængelighed → Zoom → Vis under skærmdublering: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomShowWhileMirroring`
+- Tilgængelighed → Zoom → Indstil zoom som standardfokus: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomAsDefaultDial`
+- Tilgængelighed → Zoom → Brug Digital Crown til at zoome: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomStealsCrownTurns`
+- Tilgængelighed → Zoom → Rammefarve: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#MagnifyingGlassBorderColor`
+- Tilgængelighed → Fremhævet tekst: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE`
+- Tilgængelighed → Fremhævet tekst → Visning: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextDisplayMode`
+- Tilgængelighed → Fremhævet tekst → Visning → Visning: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextDisplayMode#HoverTextDisplayMode`
+- Tilgængelighed → Fremhævet tekst → Rullehastighed: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextScrollSpeed`
+- Tilgængelighed → Fremhævet tekst → Rullehastighed → Rullehastighed: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextScrollSpeed#HoverTextScrollSpeed`
+- Tilgængelighed → Fremhævet tekst → Skrift: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextStyle`
+- Tilgængelighed → Fremhævet tekst → Skrift → Skrift: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextStyle#HoverTextStyle`
+- Tilgængelighed → Fremhævet tekst → Størrelse: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextSize`
+- Tilgængelighed → Fremhævet tekst → Størrelse → Størrelse: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextSize#HoverTextSize`
+- Tilgængelighed → Fremhævet tekst → Farver: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE#HOVER_TEXT_COLOR_OPTIONS`
+- Tilgængelighed → Fremhævet tekst → Kombitast til aktivering: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextActivationModifier`
+- Tilgængelighed → Fremhævet tekst → Kombitast til aktivering → Kombitast til aktivering: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextActivationModifier#HoverTextActivationModifier`
+- Tilgængelighed → Fremhævet tekst → Aktiveringslås: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE#HOVER_TEXT_ACTIVATION_LOCK`
+- Tilgængelighed → Tastaturer & indtastning: `prefs:root=ACCESSIBILITY&path=KEYBOARDS`
+- Tilgængelighed → Tastaturer & indtastning → Fremhævet indtastning: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING`
+- Tilgængelighed → Tastaturer & indtastning → Fremhævet indtastning → Visning: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING/HoverTextTypingDisplayMode`
+- Tilgængelighed → Tastaturer & indtastning → Fremhævet indtastning → Visning → Visning: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING/HoverTextTypingDisplayMode#HoverTextTypingDisplayMode`
+- Tilgængelighed → Tastaturer & indtastning → Fremhævet indtastning → Skrift: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING/HoverTypingStyle`
+- Tilgængelighed → Tastaturer & indtastning → Fremhævet indtastning → Skrift → Skrift: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING/HoverTypingStyle#HoverTypingStyle`
+- Tilgængelighed → Tastaturer & indtastning → Fremhævet indtastning → Størrelse: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING/HoverTextSize`
+- Tilgængelighed → Tastaturer & indtastning → Fremhævet indtastning → Størrelse → Størrelse: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING/HoverTextSize#HoverTextSize`
+- Tilgængelighed → Tastaturer & indtastning → Fremhævet indtastning → Indtastningsfarver: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TYPING_COLOR_OPTIONS`
+- Tilgængelighed → Tastaturer & indtastning → Fremhævet indtastning → Visningsfarver: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TYPING_DISPLAY_COLOR_OPTIONS`
+- Tilgængelighed → Tastaturer & indtastning → Fremhævet indtastning → Tekstfarve: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TEXT_TEXT_COLOR`
+- Tilgængelighed → Tastaturer & indtastning → Fremhævet indtastning → Farve på indsætningsmærke: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TEXT_INSERTION_POINT_COLOR`
+- Tilgængelighed → Tastaturer & indtastning → Fremhævet indtastning → Baggrundsfarve: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TEXT_BACKGROUND_COLOR`
+- Tilgængelighed → Tastaturer & indtastning → Fremhævet indtastning → Rammefarve: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TEXT_BORDER_COLOR`
+- Tilgængelighed → Tastaturer & indtastning → Fremhævet indtastning → Ordfarve for automatisk rettet: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TYPING_AUTOCORRECTED_WORD_COLOR`
+- Tilgængelighed → Tastaturer & indtastning → Fremhævet indtastning → Ordfarve for forkert stavede ord: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TYPING_MISSPELLED_WORD`
+- Tilgængelighed → Tastaturer & indtastning → Fremhævet indtastning → Nulstil til standard: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TYPING_RESET_BUTTON`
+- Tilgængelighed → Tastaturer & indtastning → Fuld tastaturadgang: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS`
+- Tilgængelighed → Tastaturer & indtastning → Fuld tastaturadgang → Fuld tastaturadgang: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAEnabledSwitch`
+- Tilgængelighed → Tastaturer & indtastning → Fuld tastaturadgang → Kommandoer: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKACommands`
+- Tilgængelighed → Tastaturer & indtastning → Fuld tastaturadgang → Kommandoer → Kommandoer: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKACommands#FKACommands`
+- Tilgængelighed → Tastaturer & indtastning → Fuld tastaturadgang → Skjul automatisk: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKAFocusRingTimeout`
+- Tilgængelighed → Tastaturer & indtastning → Fuld tastaturadgang → Skjul automatisk → Skjul automatisk: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKAFocusRingTimeout#FKAFocusRingTimeout`
+- Tilgængelighed → Tastaturer & indtastning → Fuld tastaturadgang → Forøg størrelse: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKALargeFocusRingEnabled`
+- Tilgængelighed → Tastaturer & indtastning → Fuld tastaturadgang → Høj kontrast: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKAFocusRingHighContrastEnabled`
+- Tilgængelighed → Tastaturer & indtastning → Fuld tastaturadgang → Farve: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKAFocusRingColor`
+- Tilgængelighed → Tastaturer & indtastning → Fuld tastaturadgang → Farve → Farve: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKAFocusRingColor#FKAFocusRingColor`
+- Tilgængelighed → Tastaturer & indtastning → Tast repeterer: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT`
+- Tilgængelighed → Tastaturer & indtastning → Tast repeterer → Tast repeterer: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatEnabled`
+- Tilgængelighed → Tastaturer & indtastning → Tast repeterer → Interval for tast repeterer: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatInterval`
+- Tilgængelighed → Tastaturer & indtastning → Tast repeterer → Tid før repetition: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatDelay`
+- Tilgængelighed → Tastaturer & indtastning → Klæbetaster: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS`
+- Tilgængelighed → Tastaturer & indtastning → Klæbetaster → Klæbetaster: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysEnabled`
+- Tilgængelighed → Tastaturer & indtastning → Klæbetaster → Slå Skiftetast til/fra: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysShiftToggle`
+- Tilgængelighed → Tastaturer & indtastning → Klæbetaster → Lyd: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysSound`
+- Tilgængelighed → Tastaturer & indtastning → Langsomme taster: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/SLOW_KEYS`
+- Tilgængelighed → Tastaturer & indtastning → Langsomme taster → Langsomme taster: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/SLOW_KEYS#NumericalPreferenceSwitcherIdentifier`
+- Tilgængelighed → Tastaturer & indtastning → Softwaretastaturer: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#SOFTWARE_KEYBOARDS`
+- Tilgængelighed → Tastaturer & indtastning → Vis taster med små bogstaver: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#LOWERCASE_KEYBOARD`
+- Tilgængelighed → Skærm & tekststørrelse: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT`
+- Tilgængelighed → Skærm & tekststørrelse → Fed tekst: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#ENHANCE_TEXT_LEGIBILITY`
+- Tilgængelighed → Skærm & tekststørrelse → Større tekst: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/LARGER_TEXT`
+- Tilgængelighed → Skærm & tekststørrelse → Større tekst → Større tekst: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/LARGER_TEXT#LARGER_TEXT`
+- Tilgængelighed → Skærm & tekststørrelse → Større tekst → Større tekststørrelser: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/LARGER_TEXT#LARGER_DYNAMIC_TYPE_SWITCH`
+- Tilgængelighed → Skærm & tekststørrelse → Knapfacon: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#BUTTON_SHAPES`
+- Tilgængelighed → Skærm & tekststørrelse → Til/fra-mærker: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#OnOffLabels`
+- Tilgængelighed → Skærm & tekststørrelse → Reducer gennemsigtighed: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#REDUCE_TRANSPARENCY`
+- Tilgængelighed → Skærm & tekststørrelse → Forøg kontrast: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#TEXT_COLORS_DARKEN`
+- Tilgængelighed → Skærm & tekststørrelse → Differentier uden farve: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#DIFFERENTIATE_WITHOUT_COLOR`
+- Tilgængelighed → Skærm & tekststørrelse → Foretræk vandret tekst: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#PREFER_HORIZONTAL_TEXT`
+- Tilgængelighed → Skærm & tekststørrelse → Smart inverter: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#SMART_INVERT`
+- Tilgængelighed → Skærm & tekststørrelse → Klassisk inverter: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#CLASSIC_INVERT`
+- Tilgængelighed → Skærm & tekststørrelse → Farvefiltre: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR`
+- Tilgængelighed → Skærm & tekststørrelse → Farvefiltre → Farvefiltre: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR#DISPLAY_FILTER_COLOR`
+- Tilgængelighed → Skærm & tekststørrelse → Farvefiltre → Anvend på omgivelser: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR#VIDEO_PASSTHROUGH`
+- Tilgængelighed → Skærm & tekststørrelse → Reducer hvidpunkt: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#WHITE_POINT`
+- Tilgængelighed → Skærm & tekststørrelse → Automatisk lysstyrke: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#AUTO_BRIGHTNESS`
+- Tilgængelighed → Skærm & tekststørrelse → Ignorer øjenbevægelser for at stabilisere: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#STATIC_FOVEATION_TEXT`
+- Tilgængelighed → Skærm & tekststørrelse → Juster skærmfelter automatisk: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#AUTO_IPD_TEXT`
+- Tilgængelighed → Skærm & tekststørrelse → Forøg fokus: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#INCREASE_FOCUS_STATE_TEXT`
+- Tilgængelighed → Bevægelse: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE`
+- Tilgængelighed → Bevægelse → Reducer bevægelse: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION`
+- Tilgængelighed → Bevægelse → Autoafspil beskedeffekter: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#ReduceMotionAutoplayMessagesEffects`
+- Tilgængelighed → Bevægelse → Autoafspil animerede billeder: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION_AUTOPLAY_ANIMATED_IMAGES`
+- Tilgængelighed → Bevægelse → Autoafspil videoeksempler: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION_AUTOPLAY_VIDEO_PREVIEWS`
+- Tilgængelighed → Bevægelse → Foretræk markør, der ikke blinker: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#PREFER_NONBLINKING_CURSOR`
+- Tilgængelighed → Bevægelse → Begræns billedfrekvens: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REFRESH_RATE`
+- Tilgængelighed → Bevægelse → Dæmp blinkende lys: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#PHOTOSENSITIVE_MITIGATION`
+- Tilgængelighed → Bevægelse → Vis bevægelsessimulering til køretøj: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#MotionCues`
+- Tilgængelighed → Oplæst indhold: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE`
+- Tilgængelighed → Oplæst indhold → Læs det valgte op: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QUICK_SPEAK_TITLE`
+- Tilgængelighed → Oplæst indhold → Læs skærm op: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpeakThisEnabled`
+- Tilgængelighed → Oplæst indhold → Talecontroller: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController`
+- Tilgængelighed → Oplæst indhold → Talecontroller → Talecontroller: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController#SpeechController`
+- Tilgængelighed → Oplæst indhold → Talecontroller → Langt tryk: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController/SpeechControllerLongPressAction`
+- Tilgængelighed → Oplæst indhold → Talecontroller → Langt tryk → Langt tryk: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController/SpeechControllerLongPressAction#SpeechControllerLongPressAction`
+- Tilgængelighed → Oplæst indhold → Talecontroller → Tryk to gange: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController/SpeechControllerDoubleTapAction`
+- Tilgængelighed → Oplæst indhold → Talecontroller → Tryk to gange → Tryk to gange: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController/SpeechControllerDoubleTapAction#SpeechControllerDoubleTapAction`
+- Tilgængelighed → Oplæst indhold → Talecontroller → Opacitet ved passiv: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController/SpeechControllerIdleOpacity`
+- Tilgængelighed → Oplæst indhold → Talecontroller → Opacitet ved passiv → Opacitet ved passiv: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController/SpeechControllerIdleOpacity#SpeechControllerIdleOpacity`
+- Tilgængelighed → Oplæst indhold → Talecontroller → Tilpas museknapper: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController#CustomizeMouseButtons`
+- Tilgængelighed → Oplæst indhold → Fremhæv indhold: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/QuickSpeakHighlight`
+- Tilgængelighed → Oplæst indhold → Fremhæv indhold → Fremhæv indhold: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/QuickSpeakHighlight#QuickSpeakHighlight`
+- Tilgængelighed → Oplæst indhold → Fremhæv indhold → Markeringsformat for sætning: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/QuickSpeakHighlight#SENTENCE_HIGHLIGHT_STYLE`
+- Tilgængelighed → Oplæst indhold → Fremhæv indhold → Fremhæv farver: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/QuickSpeakHighlight#COLOR_CHOICE`
+- Tilgængelighed → Oplæst indhold → Oplæs indtastning: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback`
+- Tilgængelighed → Oplæst indhold → Oplæs indtastning → Oplæs indtastning: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#TypingFeedback`
+- Tilgængelighed → Oplæst indhold → Oplæs indtastning → Tegn: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#LETTER`
+- Tilgængelighed → Oplæst indhold → Oplæs indtastning → Info om tegn: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#PhoneticFeedback`
+- Tilgængelighed → Oplæst indhold → Oplæs indtastning → Læs ord op: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#WORD_FEEDBACK`
+- Tilgængelighed → Oplæst indhold → Oplæs indtastning → Læs autotekst op: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#SPEAK_AUTOCORRECTIONS`
+- Tilgængelighed → Oplæst indhold → Oplæs indtastning → Læs forudsigelser op: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#QUICKTYPE_WORD_FEEDBACK`
+- Tilgængelighed → Oplæst indhold → Stemmer: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/QuickSpeakAccents`
+- Tilgængelighed → Oplæst indhold → Stemmer → Stemmer: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/QuickSpeakAccents#QuickSpeakAccents`
+- Tilgængelighed → Oplæst indhold → Standardsprog: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpokenContentDefaultLanguage`
+- Tilgængelighed → Oplæst indhold → Standardsprog → Standardsprog: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpokenContentDefaultLanguage#SpokenContentDefaultLanguage`
+- Tilgængelighed → Oplæst indhold → Registrer sprog: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#LANGUAGE_DETECTION`
+- Tilgængelighed → Oplæst indhold → Talehastighed: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakRate`
+- Tilgængelighed → Oplæst indhold → Udtale: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/VoiceOverSettings`
+- Tilgængelighed → Oplæst indhold → Udtale → Udtale: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/VoiceOverSettings#VoiceOverSettings`
+- Tilgængelighed → Oplæst indhold → Tilpas tale til rummet: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SPATIALIZE_SPEECH`
+- Tilgængelighed → Lydbeskrivelser: `prefs:root=ACCESSIBILITY&path=DESCRIPTIVE_VIDEO`
+- Tilgængelighed → Interaktion: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE`
+- Tilgængelighed → Interaktion → AssistiveTouch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE`
+- Tilgængelighed → Interaktion → AssistiveTouch → AssistiveTouch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#EnableAssistiveTouchSpecifier`
+- Tilgængelighed → Interaktion → AssistiveTouch → Tilpas menu på øverste niveau: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize`
+- Tilgængelighed → Interaktion → AssistiveTouch → Tilpas menu på øverste niveau → Tilpas menu på øverste niveau: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize#AssistiveTouchCustomize`
+- Tilgængelighed → Interaktion → AssistiveTouch → Tilpas menu på øverste niveau → Tryk på et symbol for at ændre:: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize#ASTStepperCell`
+- Tilgængelighed → Interaktion → AssistiveTouch → Enkelttryk: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/TapSpecifier`
+- Tilgængelighed → Interaktion → AssistiveTouch → Enkelttryk → Enkelttryk: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/TapSpecifier#TapSpecifier`
+- Tilgængelighed → Interaktion → AssistiveTouch → Tryk to gange: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier`
+- Tilgængelighed → Interaktion → AssistiveTouch → Tryk to gange → Tryk to gange: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier#DoubleTapSpecifier`
+- Tilgængelighed → Interaktion → AssistiveTouch → Tryk to gange → Interval for tryk to gange: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier/ASTDoubleTapTimeoutSpecifier`
+- Tilgængelighed → Interaktion → AssistiveTouch → Tryk to gange → Interval for tryk to gange → Interval for tryk to gange: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier/ASTDoubleTapTimeoutSpecifier#ASTDoubleTapTimeoutSpecifier`
+- Tilgængelighed → Interaktion → AssistiveTouch → Langt tryk: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier`
+- Tilgængelighed → Interaktion → AssistiveTouch → Langt tryk → Langt tryk: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier#LongPressSpecifier`
+- Tilgængelighed → Interaktion → AssistiveTouch → Langt tryk → Varighed for langt tryk: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier/ASTLongPressDurationSpecifier`
+- Tilgængelighed → Interaktion → AssistiveTouch → Langt tryk → Varighed for langt tryk → Varighed for langt tryk: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier/ASTLongPressDurationSpecifier#ASTLongPressDurationSpecifier`
+- Tilgængelighed → Interaktion → AssistiveTouch → 3D Touch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#ForceTouchSpecifier`
+- Tilgængelighed → Interaktion → AssistiveTouch → Opret ny bevægelse…: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/CreateCustomGesture`
+- Tilgængelighed → Interaktion → AssistiveTouch → Opret ny bevægelse… → Opret ny bevægelse…: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/CreateCustomGesture#CreateCustomGesture`
+- Tilgængelighed → Interaktion → AssistiveTouch → Opacitet ved passiv: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/IdleOpacity`
+- Tilgængelighed → Interaktion → AssistiveTouch → Opacitet ved passiv → Opacitet ved passiv: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/IdleOpacity#IdleOpacity`
+- Tilgængelighed → Interaktion → AssistiveTouch → Virtuelt pegefelt: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID`
+- Tilgængelighed → Interaktion → AssistiveTouch → Virtuelt pegefelt → Markørens hastighed: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID#TRACKING_SPEED_SLIDER`
+- Tilgængelighed → Interaktion → AssistiveTouch → Virtuelt pegefelt → Naturlig rulning: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID#NATURAL_SCROLLING`
+- Tilgængelighed → Interaktion → AssistiveTouch → Virtuelt pegefelt → Rullehastighed: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID#SCROLL_SPEED_SLIDER`
+- Tilgængelighed → Interaktion → AssistiveTouch → Virtuelt pegefelt → Ramme: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID#BORDER`
+- Tilgængelighed → Interaktion → AssistiveTouch → Virtuelt pegefelt → Ramme: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID/BORDER`
+- Tilgængelighed → Interaktion → AssistiveTouch → Virtuelt pegefelt → Ramme → Farve: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID/BORDER#COLOR`
+- Tilgængelighed → Interaktion → AssistiveTouch → Virtuelt pegefelt → Ramme → Opacitet: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID/BORDER#OPACITY`
+- Tilgængelighed → Interaktion → AssistiveTouch → Virtuelt pegefelt → Ramme → Bredde på ramme: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID/BORDER#BORDER_WIDTH`
+- Tilgængelighed → Interaktion → AssistiveTouch → Virtuelt pegefelt → Pegefelt: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID#TRACKPAD`
+- Tilgængelighed → Interaktion → AssistiveTouch → Virtuelt pegefelt → Pegefelt: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID/TRACKPAD`
+- Tilgængelighed → Interaktion → AssistiveTouch → Virtuelt pegefelt → Pegefelt → Farve: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID/TRACKPAD#COLOR`
+- Tilgængelighed → Interaktion → AssistiveTouch → Virtuelt pegefelt → Pegefelt → Opacitet: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID/TRACKPAD#OPACITY`
+- Tilgængelighed → Interaktion → AssistiveTouch → Enheder: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices`
+- Tilgængelighed → Interaktion → AssistiveTouch → Enheder → Enheder: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices#AssistiveTouchMouseDevices`
+- Tilgængelighed → Interaktion → AssistiveTouch → Enheder → Bluetooth-enheder…: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices/BluetoothDevicesScanning`
+- Tilgængelighed → Interaktion → AssistiveTouch → Enheder → Bluetooth-enheder… → Bluetooth-enheder…: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices/BluetoothDevicesScanning#BluetoothDevicesScanning`
+- Tilgængelighed → Interaktion → AssistiveTouch → Musetaster: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseKeys`
+- Tilgængelighed → Interaktion → AssistiveTouch → Musetaster → Musetaster: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseKeys#AssistiveTouchMouseKeys`
+- Tilgængelighed → Interaktion → AssistiveTouch → Musetaster → Slå Alternativtast til/fra: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseKeys#OptionKeyToggle`
+- Tilgængelighed → Interaktion → AssistiveTouch → Musetaster → Brug primært tastatur: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseKeys#UsePrimaryKeyboard`
+- Tilgængelighed → Interaktion → AssistiveTouch → Musetaster → Startinterval: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseKeys#InitialDelay`
+- Tilgængelighed → Interaktion → AssistiveTouch → Musetaster → Maks. hastighed: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseKeys#MaximumSpeed`
+- Tilgængelighed → Interaktion → AssistiveTouch → Vis tastatur på skærmen: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AlwaysShowSoftwareKeyboard`
+- Tilgængelighed → Interaktion → AssistiveTouch → Vis altid menu: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AlwaysShowMenu`
+- Tilgængelighed → Interaktion → AssistiveTouch → Lyd ved klik: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#MouseClickSounds`
+- Tilgængelighed → Interaktion → AssistiveTouch → Pausebetjening: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellEnabledSpecifier`
+- Tilgængelighed → Interaktion → AssistiveTouch → Bevægelsestolerance: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellToleranceSpecifier`
+- Tilgængelighed → Interaktion → AssistiveTouch → Bevægelsestolerance → Bevægelsestolerance: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellToleranceSpecifier#DwellToleranceSpecifier`
+- Tilgængelighed → Interaktion → AssistiveTouch → Følsomhed for registrering: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#TouchSpeed`
+- Tilgængelighed → Interaktion → AssistiveTouch → Tilbagefaldshandling: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellAutorevertSpecifier`
+- Tilgængelighed → Interaktion → AssistiveTouch → Tilbagefaldshandling → Tilbagefaldshandling: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellAutorevertSpecifier#DwellAutorevertSpecifier`
+- Tilgængelighed → Interaktion → AssistiveTouch → Aktive hjørner: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellCornersSpecifier`
+- Tilgængelighed → Interaktion → AssistiveTouch → Aktive hjørner → Aktive hjørner: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellCornersSpecifier#DwellCornersSpecifier`
+- Tilgængelighed → Interaktion → AssistiveTouch → Aktive hjørner → Øverst til venstre: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellCornersSpecifier#TopLeft`
+- Tilgængelighed → Interaktion → AssistiveTouch → Aktive hjørner → Øverst til højre: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellCornersSpecifier#TopRight`
+- Tilgængelighed → Interaktion → AssistiveTouch → Aktive hjørner → Nederst til venstre: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellCornersSpecifier#BottomLeft`
+- Tilgængelighed → Interaktion → AssistiveTouch → Aktive hjørner → Nederst til højre: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellCornersSpecifier#BottomRight`
+- Tilgængelighed → Interaktion → AssistiveTouch → Udvidede forudsigelser: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellExtendedPredictionsSpecifier`
+- Tilgængelighed → Interaktion → AssistiveTouch → Pausebetjening fik timeout: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellTimeoutSpecifier`
+- Tilgængelighed → Interaktion → AssistiveTouch → Bekræft med AssistiveTouch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#APPLE_PAY_SWITCH`
+- Tilgængelighed → Interaktion → AssistiveTouch → Udfør berøringsbevægelser: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#MouseBehavesLikeFinger`
+- Tilgængelighed → Interaktion → AssistiveTouch → Brug controller: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#EnableAssistiveTouchGameControllerSpecifier`
+- Tilgængelighed → Interaktion → AssistiveTouch → Lydhandlinger: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/SOUND_ACTIONS`
+- Tilgængelighed → Interaktion → AssistiveTouch → Lydhandlinger: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#SOUND_ACTIONS`
+- Tilgængelighed → Interaktion → Pausebetjening: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL`
+- Tilgængelighed → Interaktion → Pausebetjening → Pausebetjening: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL#DWELL_CONTROL_TITLE`
+- Tilgængelighed → Interaktion → Pausebetjening → Mål: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL/DWELL_CONTROL_TARGET`
+- Tilgængelighed → Interaktion → Pausebetjening → Bevægelsestolerance: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL/DWELL_MOVEMENT_TOLERANCE`
+- Tilgængelighed → Interaktion → Pausebetjening → Fremhæv betjeningsmulighed: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL#DWELL_HIGHLIGHT_CONTROL_TITLE`
+- Tilgængelighed → Interaktion → Pausebetjening → Sæt på pause under medieafspilning: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL#DWELL_PAUSE_FOR_MEDIA_PLAYBACK_TITLE`
+- Tilgængelighed → Interaktion → Pausebetjening → Vis rullepanel: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL#AXDwellQuickScrollSpecifierID`
+- Tilgængelighed → Interaktion → Pausebetjening → Menuen Følg: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL#AXDwellFollowSpecifierID`
+- Tilgængelighed → Interaktion → Pausebetjening: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/#DwellEnabledSpecifier`
+- Tilgængelighed → Interaktion → Inden for rækkevidde: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#REACHABILITY`
+- Tilgængelighed → Interaktion → Haptisk tryk: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch`
+- Tilgængelighed → Interaktion → Haptisk tryk → Haptisk tryk: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#ForceTouch`
+- Tilgængelighed → Interaktion → Haptisk tryk → 3D Touch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#ForceTouchAccessibilityMainSwitch`
+- Tilgængelighed → Interaktion → Haptisk tryk → Følsomhed for 3D Touch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#FourceTouchSensitivityGroupIdentifier`
+- Tilgængelighed → Interaktion → Haptisk tryk → Varighed af tryk: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#timingGroup`
+- Tilgængelighed → Interaktion → Haptisk tryk → Test af varighed af tryk: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#FourceTouchSensitivityTestGroupIdentifier`
+- Tilgængelighed → Interaktion → Tilpasning af berøring: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS`
+- Tilgængelighed → Interaktion → Tilpasning af berøring → Tilpasning af berøring: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#TOUCH_ACCOMMODATIONS_SWITCHER`
+- Tilgængelighed → Interaktion → Tilpasning af berøring → Varighed af tryk: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#HoldDuration`
+- Tilgængelighed → Interaktion → Tilpasning af berøring → Ignorer gentagelse: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#IgnoreRepeat`
+- Tilgængelighed → Interaktion → Tilpasning af berøring → Hjælp til tryk: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#Tap%20Assistance`
+- Tilgængelighed → Interaktion → Tryk for at afbryde vågeblus: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TAP_TO_WAKE_TITLE`
+- Tilgængelighed → Interaktion → Tryk eller skub for at afbryde vågeblus: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TAP_TOUCH_TO_WAKE_TITLE`
+- Tilgængelighed → Interaktion → Ryst for at fortryde: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#SHAKE_TO_UNDO`
+- Tilgængelighed → Interaktion → Vibration: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#VIBRATION`
+- Tilgængelighed → Interaktion → Undgå, at låsning afslutter opkald: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#LockButtonIgnore`
+- Tilgængelighed → Interaktion → Viderestilling af opkald: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING`
+- Tilgængelighed → Interaktion → Viderestilling af opkald → Viderestilling af opkald: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING`
+- Tilgængelighed → Interaktion → Viderestilling af opkald → Autobesvar opkald: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING/callAudioRoutingAutoAnswer`
+- Tilgængelighed → Interaktion → Viderestilling af opkald → Autobesvar opkald → Autobesvar opkald: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING/callAudioRoutingAutoAnswer#callAudioRoutingAutoAnswer`
+- Tilgængelighed → Interaktion → Tryk på bagsiden: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/BackTap`
+- Tilgængelighed → Interaktion → Tryk på bagsiden → Tryk på bagsiden: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/BackTap#BackTap`
+- Tilgængelighed → Interaktion → Tryk på bagsiden → Tryk to gange: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/BackTap/DoubleTap`
+- Tilgængelighed → Interaktion → Tryk på bagsiden → Tryk to gange → Tryk to gange: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/BackTap/DoubleTap#DoubleTap`
+- Tilgængelighed → Interaktion → Tryk på bagsiden → Tryk tre gange: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/BackTap/TripleTap`
+- Tilgængelighed → Interaktion → Tryk på bagsiden → Tryk tre gange → Tryk tre gange: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/BackTap/TripleTap#TripleTap`
+- Tilgængelighed → Interaktion → Markørstyring: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer`
+- Tilgængelighed → Interaktion → Markørstyring → Forøg kontrast: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#PointerIncreaseContrastSpecifier`
+- Tilgængelighed → Interaktion → Markørstyring → Skjul markør automatisk: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#PointerAutoHideSpecifier`
+- Tilgængelighed → Interaktion → Markørstyring → Farve: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#PointerColorSpecifier`
+- Tilgængelighed → Interaktion → Markørstyring → Markørstørrelse: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#PointerSizeSpecifier`
+- Tilgængelighed → Interaktion → Markørstyring → Markørstyring: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#PointerControlEnablingCell`
+- Tilgængelighed → Interaktion → Markørstyring → Styring: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer/POINTER_CONTROL_CONTROL`
+- Tilgængelighed → Interaktion → Markørstyring → Farve: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer/PointerColorSpecifier`
+- Tilgængelighed → Interaktion → Markørstyring → Farve → Bredde på ramme: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer/PointerColorSpecifier#PointerStrokeWidth`
+- Tilgængelighed → Interaktion → Markørstyring → Ignorer pegefelt: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#IgnoreTrackpad`
+- Tilgængelighed → Interaktion → Markørstyring → Pegefelt-momentum: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#PointerInertia`
+- Tilgængelighed → Interaktion → Markørstyring → Markøranimationer: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#PointerCustomShapes`
+- Tilgængelighed → Interaktion → Markørstyring → Rullehastighed: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#DeviceScrollSpeed`
+- Tilgængelighed → Interaktion → Se op for at åbne Kontrolcenter: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/UPWARDS_HUD`
+- Tilgængelighed → Interaktion → Se op for at åbne Kontrolcenter → Lodret placering af Kontrolcenter: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/UPWARDS_HUD#UpwardsHUDPositionSpecifier`
+- Tilgængelighed → Interaktion → Se op for at åbne Kontrolcenter → Se op for at åbne Kontrolcenter: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/UPWARDS_HUD#UpwardsHUDToggleSpecifier`
+- Tilgængelighed → Interaktion → Lydhandlinger: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/SOUND_ACTIONS`
+- Tilgængelighed → Interaktion → Foretræk betjening, der ikke er låst til hovedet: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#CAMERA_ANCHOR_ALTERNATIVE_Preference`
+- Tilgængelighed → Face ID & opmærksomhed: `prefs:root=ACCESSIBILITY&path=FACE_ID`
+- Tilgængelighed → Face ID & opmærksomhed → Opmærksomhed ved Face ID: `prefs:root=ACCESSIBILITY&path=FACE_ID#PearlUnlockAttention`
+- Tilgængelighed → Face ID & opmærksomhed → Opmærksomhedsfunktioner: `prefs:root=ACCESSIBILITY&path=FACE_ID#AttentionAware`
+- Tilgængelighed → Face ID & opmærksomhed → Haptisk feedback ved godkendelse: `prefs:root=ACCESSIBILITY&path=FACE_ID#PearlSuccessHaptic`
+- Tilgængelighed → Knapbetjening: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle`
+- Tilgængelighed → Knapbetjening → Knapper: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier`
+- Tilgængelighed → Knapbetjening → Knapper → Knapper: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier#SwitchesIdentifier`
+- Tilgængelighed → Knapbetjening → Knapper → Tilføj ny knap…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier/AddSwitchIdentifier`
+- Tilgængelighed → Knapbetjening → Knapper → Tilføj ny knap… → Tilføj ny knap…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier/AddSwitchIdentifier#AddSwitchIdentifier`
+- Tilgængelighed → Knapbetjening → Knapper → Bluetooth-enheder…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier/BluetoothDevicesIdentifier`
+- Tilgængelighed → Knapbetjening → Knapper → Bluetooth-enheder… → Bluetooth-enheder…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier/BluetoothDevicesIdentifier/BluetoothDevicesIdentifier`
+- Tilgængelighed → Knapbetjening → Knapper → Ignorer ugyldig indstilling af knap: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier#UpwardsHUDToggleSpecifier`
+- Tilgængelighed → Knapbetjening → Sekvenser: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/RecipesIdentifier`
+- Tilgængelighed → Knapbetjening → Sekvenser → Sekvenser: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/RecipesIdentifier#RecipesIdentifier`
+- Tilgængelighed → Knapbetjening → Sekvenser → Opret ny sekvens…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/RecipesIdentifier/CreateNewRecipe`
+- Tilgængelighed → Knapbetjening → Sekvenser → Opret ny sekvens… → Opret ny sekvens…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/RecipesIdentifier/CreateNewRecipe#CreateNewRecipe`
+- Tilgængelighed → Knapbetjening → Sekvenser → Start sekvens: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/RecipesIdentifier/LaunchRecipe`
+- Tilgængelighed → Knapbetjening → Sekvenser → Start sekvens → Start sekvens: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/RecipesIdentifier/LaunchRecipe#LaunchRecipe`
+- Tilgængelighed → Knapbetjening → Scanningsformat: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier`
+- Tilgængelighed → Knapbetjening → Scanningsformat → Scanningsformat: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#ScanningStyleIdentifier`
+- Tilgængelighed → Knapbetjening → Skift kontrolfunktion: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/FirstLaunchScanningModeIdentifier`
+- Tilgængelighed → Knapbetjening → Skift kontrolfunktion → Skift kontrolfunktion: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/FirstLaunchScanningModeIdentifier#FirstLaunchScanningModeIdentifier`
+- Tilgængelighed → Knapbetjening → Autoscanningsperiode: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningSpeedIdentifier`
+- Tilgængelighed → Knapbetjening → Autoscanningsperiode → Autoscanningsperiode: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningSpeedIdentifier#NumericalPreferencePickerGroupIdentifier`
+- Tilgængelighed → Knapbetjening → Pause ved første emne: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/DelayAfterInputIdentifier`
+- Tilgængelighed → Knapbetjening → Pause ved første emne → Pause ved første emne: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/DelayAfterInputIdentifier#NumericalPreferenceSwitcherIdentifier`
+- Tilgængelighed → Knapbetjening → Sløjfer: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanCyclesIdentifier`
+- Tilgængelighed → Knapbetjening → Sløjfer → Sløjfer: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanCyclesIdentifier#ScanCyclesIdentifier`
+- Tilgængelighed → Knapbetjening → Gentagelse af flyt: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ActionRepeatIdentifier`
+- Tilgængelighed → Knapbetjening → Gentagelse af flyt → Gentagelse af flyt: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ActionRepeatIdentifier#NumericalPreferenceSwitcherIdentifier`
+- Tilgængelighed → Knapbetjening → Skift kontrolfunktion: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSelectionGroupIdentifier`
+- Tilgængelighed → Knapbetjening → Skift kontrolfunktion → Glidende markør: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSelectionGroupIdentifier#POINTER_PICKER_ENABLED`
+- Tilgængelighed → Knapbetjening → Langt tryk: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/LongPressIdentifier`
+- Tilgængelighed → Knapbetjening → Langt tryk → Langt tryk: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/LongPressIdentifier#NumericalPreferenceSwitcherIdentifier`
+- Tilgængelighed → Knapbetjening → Virkemåde ved tryk: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier`
+- Tilgængelighed → Knapbetjening → Virkemåde ved tryk → Virkemåde ved tryk: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#TapBehaviorIdentifier`
+- Tilgængelighed → Knapbetjening → Fokuseret emne efter tryk: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanLocationIdentifier`
+- Tilgængelighed → Knapbetjening → Fokuseret emne efter tryk → Fokuseret emne efter tryk: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanLocationIdentifier#ScanLocationIdentifier`
+- Tilgængelighed → Knapbetjening → Scan samme tast efter tryk: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#RestartScanAtCurrentIdentifier`
+- Tilgængelighed → Knapbetjening → Tryk altid på taster på tastatur: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AlwaysTapKeyboardIdentifier`
+- Tilgængelighed → Knapbetjening → Udvidede forudsigelser: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#UseExtendedKeyboardPredictionsIdentifier`
+- Tilgængelighed → Knapbetjening → Varighed af tryk: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/HoldDurationIdentifier`
+- Tilgængelighed → Knapbetjening → Varighed af tryk → Varighed af tryk: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/HoldDurationIdentifier#NumericalPreferenceSwitcherIdentifier`
+- Tilgængelighed → Knapbetjening → Ignorer gentagelse: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/IgnoreRepeatIdentifier`
+- Tilgængelighed → Knapbetjening → Ignorer gentagelse → Ignorer gentagelse: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/IgnoreRepeatIdentifier#NumericalPreferenceSwitcherIdentifier`
+- Tilgængelighed → Knapbetjening → Glidende markør: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier`
+- Tilgængelighed → Knapbetjening → Glidende markør → Glidende markør: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#AxisSweepIdentifier`
+- Tilgængelighed → Knapbetjening → Glidende markør → Markeringsfunktion: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleGroup`
+- Tilgængelighed → Knapbetjening → Glidende markør → Hastighed for glidende markør: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#AxisSweepSpeed`
+- Tilgængelighed → Knapbetjening → Reg. af hovedbevægelse: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CameraPointPickerSwitch`
+- Tilgængelighed → Knapbetjening → Reg. af hovedbevægelse → Reg. af hovedbevægelse: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CameraPointPickerSwitch#CameraPointPickerSwitcher`
+- Tilgængelighed → Knapbetjening → Lydeffekter: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SoundIdentifier`
+- Tilgængelighed → Knapbetjening → Tale: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier`
+- Tilgængelighed → Knapbetjening → Tale → Stemmer: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#VoicesIdentifier`
+- Tilgængelighed → Knapbetjening → Tale → Læs emneattributter op: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#SPEECH_SPEAKS_TRAITS_LABEL`
+- Tilgængelighed → Knapbetjening → Tale → Sæt på pause ved tale: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#SPEECH_PAUSES_SCANNING_LABEL`
+- Tilgængelighed → Knapbetjening → Menuemner: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier`
+- Tilgængelighed → Knapbetjening → Menuemner → Menuemner: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier#CustomizeMenuIdentifier`
+- Tilgængelighed → Knapbetjening → Menuemner → Øverste niveau: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/TopLevel`
+- Tilgængelighed → Knapbetjening → Menuemner → Øverste niveau → Øverste niveau: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/TopLevel#TopLevel`
+- Tilgængelighed → Knapbetjening → Menuemner → Bevægelser: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Gestures`
+- Tilgængelighed → Knapbetjening → Menuemner → Bevægelser → Bevægelser: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Gestures#Gestures`
+- Tilgængelighed → Knapbetjening → Menuemner → Enhed: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Device`
+- Tilgængelighed → Knapbetjening → Menuemner → Enhed → Enhed: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Device#Device`
+- Tilgængelighed → Knapbetjening → Menuemner → Indstillinger: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Settings`
+- Tilgængelighed → Knapbetjening → Menuemner → Indstillinger → Indstillinger: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Settings#Settings`
+- Tilgængelighed → Knapbetjening → Menuemner → Mediebetjening: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/MediaControls`
+- Tilgængelighed → Knapbetjening → Menuemner → Mediebetjening → Mediebetjening: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/MediaControls#MediaControls`
+- Tilgængelighed → Knapbetjening → Grupper emner: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ItemGroupingIdentifier`
+- Tilgængelighed → Knapbetjening → Stor markør: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CursorVisibilityIdentifier`
+- Tilgængelighed → Knapbetjening → Gemte bevægelser: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomGesturesIdentifier`
+- Tilgængelighed → Knapbetjening → Gemte bevægelser → Gemte bevægelser: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomGesturesIdentifier#CustomGesturesIdentifier`
+- Tilgængelighed → Knapbetjening → Gemte bevægelser → Opret ny bevægelse…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomGesturesIdentifier/CreateCustomGesture`
+- Tilgængelighed → Knapbetjening → Gemte bevægelser → Opret ny bevægelse… → Opret ny bevægelse…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomGesturesIdentifier/CreateCustomGesture#CreateCustomGesture`
+- Tilgængelighed → Knapbetjening → Bekræft med Knapbetjening: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#APPLE_PAY_SWITCH`
+- Tilgængelighed → Knapbetjening → Markørfarve: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CursorColorIdentifier`
+- Tilgængelighed → Knapbetjening → Markørfarve → Markørfarve: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CursorColorIdentifier#CursorColorIdentifier`
+- Tilgængelighed → Stemmekontrol: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle`
+- Tilgængelighed → Stemmekontrol → Indstil Stemmekontrol: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#SETUP_COMMAND_AND_CONTROL`
+- Tilgængelighed → Stemmekontrol → Åbn øvelse til Stemmekontrol: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#COMMAND_AND_CONTROL_LAUNCH_ONBOARDING`
+- Tilgængelighed → Stemmekontrol → Sprog: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_LANGUAGE`
+- Tilgængelighed → Stemmekontrol → Sprog → Sprog: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_LANGUAGE#COMMAND_AND_CONTROL_LANGUAGE`
+- Tilgængelighed → Stemmekontrol → Kommandoer: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS`
+- Tilgængelighed → Stemmekontrol → Kommandoer → Kommandoer: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS#COMMAND_AND_CONTROL_COMMANDS`
+- Tilgængelighed → Stemmekontrol → Kommandoer → Opret ny kommando: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/CreateNewCommand`
+- Tilgængelighed → Stemmekontrol → Kommandoer → Opret ny kommando → Opret ny kommando: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/CreateNewCommand#CreateNewCommand`
+- Tilgængelighed → Stemmekontrol → Kommandoer → Almindelig navigation: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/System`
+- Tilgængelighed → Stemmekontrol → Kommandoer → Overliggere: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/Overlays`
+- Tilgængelighed → Stemmekontrol → Kommandoer → Almindelige bevægelser: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/Gestures`
+- Tilgængelighed → Stemmekontrol → Kommandoer → Avancerede bevægelser: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/DragDropGestures`
+- Tilgængelighed → Stemmekontrol → Kommandoer → Diktering: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/TextDictation`
+- Tilgængelighed → Stemmekontrol → Kommandoer → Tekstnavigation: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/Movement`
+- Tilgængelighed → Stemmekontrol → Kommandoer → Tekstvalg: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/Selection`
+- Tilgængelighed → Stemmekontrol → Kommandoer → Tekstredigering: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/Editing`
+- Tilgængelighed → Stemmekontrol → Kommandoer → Tekstsletning: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/AdvancedDeletion`
+- Tilgængelighed → Stemmekontrol → Kommandoer → Enhed: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/Hardware`
+- Tilgængelighed → Stemmekontrol → Kommandoer → Tilgængelighed: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/Accessibility`
+- Tilgængelighed → Stemmekontrol → Kommandoer → Importer specielle kommandoer: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/ImportCustomCommands`
+- Tilgængelighed → Stemmekontrol → Kommandoer → Importer specielle kommandoer → Importer specielle kommandoer: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/ImportCustomCommands#ImportCustomCommands`
+- Tilgængelighed → Stemmekontrol → Ordforråd: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_VOCABULARY`
+- Tilgængelighed → Stemmekontrol → Ordforråd → Ordforråd: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_VOCABULARY/VOCABULARY`
+- Tilgængelighed → Stemmekontrol → Ordforråd → Ordforråd → Ordforråd: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_VOCABULARY/VOCABULARY#VOCABULARY`
+- Tilgængelighed → Stemmekontrol → Ordforråd → Importer ordforråd: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_VOCABULARY#IMPORT_VOCABULARY`
+- Tilgængelighed → Stemmekontrol → Ordforråd → Eksporter ordforråd: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_VOCABULARY#EXPORT_VOCABULARY`
+- Tilgængelighed → Stemmekontrol → Ordforråd → Slet hele ordforrådet: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_VOCABULARY#DELETE_ALL_VOCABULARY`
+- Tilgængelighed → Stemmekontrol → Vis bekræftelse: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#SHOW_TEXT_RESPONSE_TITLE`
+- Tilgængelighed → Stemmekontrol → Afspil lyd: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#PLAY_SOUND_RESPONSE_TITLE`
+- Tilgængelighed → Stemmekontrol → Vis stikord: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#USER_HINTS_SHOW_HINTS_TITLE`
+- Tilgængelighed → Stemmekontrol → Overligger: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY`
+- Tilgængelighed → Stemmekontrol → Overligger → Overligger: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#ALWAYS_SHOW_OVERLAY`
+- Tilgængelighed → Stemmekontrol → Opmærksomhed: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ATTENTION_AWARE_ACTION`
+- Tilgængelighed → Den øverste knap/Touch ID: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE`
+- Tilgængelighed → Den øverste knap/Touch ID → Trykhastighed: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_SPEED_HEADER`
+- Tilgængelighed → Den øverste knap/Touch ID → Tryk og hold nede for at tale: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantTitle`
+- Tilgængelighed → Den øverste knap/Touch ID → Knappen Hjem: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE/HomeButtonAssistantTitle`
+- Tilgængelighed → Den øverste knap/Touch ID → Knappen Hjem → Hvil fingeren for at åbne: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE/HomeButtonAssistantTitle#RestingUnlockSetting`
+- Tilgængelighed → Den øverste knap/Touch ID → Bekræft med Knapbetjening: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#APPLE_PAY_CONFIRM_WITH_SC`
+- Tilgængelighed → Den øverste knap/Touch ID → Slå Bekræft med AssistiveTouch til: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#APPLE_PAY_CONFIRM_WITH_AST`
+- Tilgængelighed → Apple TV Remote: `prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE`
+- Tilgængelighed → Apple TV Remote → Retningsknapper: `prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE#AppleTVSimpleGestures`
+- Tilgængelighed → Apple TV Remote → Live tv-knapper: `prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE#AppleTVLiveTVButtons`
+- Tilgængelighed → Apple Watch-skærmdublering: `prefs:root=ACCESSIBILITY&path=APPLE_WATCH_REMOTE_SCREEN`
+- Tilgængelighed → Høreapparater: `prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE`
+- Tilgængelighed → Høreapparater → MFi-høreapparater: `prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#AvailableAidsHeading`
+- Tilgængelighed → Høreapparater → Kompatibilitet m. høreapparat: `prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#HEARING_AID_COMPLIANCE`
+- Tilgængelighed → Kontrolcenter til hørelse: `prefs:root=ACCESSIBILITY&path=HEARING_CONTROL_CENTER`
+- Tilgængelighed → Kontrolcenter til hørelse → Inkluderede betjeninger: `prefs:root=ACCESSIBILITY&path=HEARING_CONTROL_CENTER#INCLUDED_MODULES_SECTION_TITLE`
+- Tilgængelighed → Kontrolcenter til hørelse → Flere betjeningsmuligheder: `prefs:root=ACCESSIBILITY&path=HEARING_CONTROL_CENTER#MORE_MODULES_SECTION_TITLE`
+- Tilgængelighed → Lydgenkendelse: `prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE`
+- Tilgængelighed → Lydgenkendelse → Lyde: `prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE/Sounds`
+- Tilgængelighed → Lydgenkendelse → Lyde → Lyde: `prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE/Sounds#Sounds`
+- Tilgængelighed → RTT/TTY: `prefs:root=ACCESSIBILITY&path=RTT`
+- Tilgængelighed → RTT/TTY → Software-RTT/-TTY: `prefs:root=ACCESSIBILITY&path=RTT#SW_TTY`
+- Tilgængelighed → RTT/TTY → Hardware-TTY: `prefs:root=ACCESSIBILITY&path=RTT#HW_TTY`
+- Tilgængelighed → Lyd & visuel: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE`
+- Tilgængelighed → Lyd & visuel → Tilpasning af hovedtelefoner: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID`
+- Tilgængelighed → Lyd & visuel → Tilpasning af hovedtelefoner → Tilpasning af hovedtelefoner: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID#AXPAEnableSpecID`
+- Tilgængelighed → Lyd & visuel → Tilpasning af hovedtelefoner → Speciel lydindstilling: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID#AXPAPersonalAudioSetupSpecID`
+- Tilgængelighed → Lyd & visuel → Baggrundslyde: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID`
+- Tilgængelighed → Lyd & visuel → Baggrundslyde → Baggrundslyde: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID#CSFeatureToggleSpecID`
+- Tilgængelighed → Lyd & visuel → Baggrundslyde → Lyd: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID/ComfortSoundSoundLabel`
+- Tilgængelighed → Lyd & visuel → Baggrundslyde → Lyd → Lyd: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID/ComfortSoundSoundLabel#ComfortSoundSoundLabel`
+- Tilgængelighed → Lyd & visuel → Baggrundslyde → Lydstyrken på baggrundslyde: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID#ComfortSoundsVolume`
+- Tilgængelighed → Lyd & visuel → Baggrundslyde → Brug, når medier afspilles: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID#ComfortSoundsMixingName`
+- Tilgængelighed → Lyd & visuel → Baggrundslyde → Lydstyrke med medier: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID#ComfortSoundsMixingVolume`
+- Tilgængelighed → Lyd & visuel → Baggrundslyde → Stop lyde, når enheden er låst: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID#ComfortSoundsPlayWhenLockedName`
+- Tilgængelighed → Lyd & visuel → Monolyd: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAMonoSpecID`
+- Tilgængelighed → Lyd & visuel → Vis altid lydstyrkejustering: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAAlwaysShowVolumeControlSpecID`
+- Tilgængelighed → Lyd & visuel → Støjreduktion ved telefonopkald: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPANoiseSpecID`
+- Tilgængelighed → Lyd & visuel → LED-blink til advarsler: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH`
+- Tilgængelighed → Lyd & visuel → LED-blink til advarsler → LED-blink til advarsler: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_FLASH`
+- Tilgængelighed → Lyd & visuel → LED-blink til advarsler → Blink, når enheden er låst op: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_FLASH_WHILE_UNLOCKED`
+- Tilgængelighed → Lyd & visuel → LED-blink til advarsler → Blink ved lydløs funktion: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_RINGER_SWITCH_CONTROL`
+- Tilgængelighed → Lyd & visuel → Venstre-højre stereo balance: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#LeftRightBalance`
+- Tilgængelighed → Lyd & visuel → Tænd/sluk-lyde: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#StartupSound`
+- Tilgængelighed → Lyd & visuel → Notifikationer om hoved­telefoner: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXHeadphoneNotificationsSpecID`
+- Tilgængelighed → Lyd & visuel → Tilføj stemmeisolering: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#ExtendedVoiceIsolationSpecID`
+- Tilgængelighed → Lyd & visuel → Lydeffekter: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#SOUND_EFFECTS_PREFERENCE`
+- Tilgængelighed → Lyd & visuel → Tilføj lyd i opkald: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/MIX_TO_UPLINK`
+- Tilgængelighed → Lyd & visuel → Tilføj lyd i opkald → Apps må tilføje lyd i opkald: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/MIX_TO_UPLINK#MIX_TO_UPLINK`
+- Tilgængelighed → Undertekster & billedtekster: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING`
+- Tilgængelighed → Undertekster & billedtekster → Format: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING/currentTheme`
+- Tilgængelighed → Undertekster & billedtekster → Format → Format: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING/currentTheme#currentTheme`
+- Tilgængelighed → Undertekster & billedtekster → Closed Captions + TH: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#PREFER_SDH`
+- Tilgængelighed → Undertekster & billedtekster → Vis lydtransskriptioner: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#SHOW_AUDIO_TRANSCRIPTIONS`
+- Tilgængelighed → Undertekster & billedtekster → Vis, når lyd er slået fra: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#SHOW_WHEN_MUTED`
+- Tilgængelighed → Undertekster & billedtekster → Vis ved tilbagespoling: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#SHOW_ON_SKIP_BACK`
+- Tilgængelighed → Liveundertekster: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION`
+- Tilgængelighed → Liveundertekster → Liveundertekster: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION#LIVE_TRANSCRIPTION_TITLE`
+- Tilgængelighed → Liveundertekster → Udseende: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE`
+- Tilgængelighed → Liveundertekster → Udseende → Udseende: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE#LIVE_TRANSCRIPTION_APPEARANCE`
+- Tilgængelighed → Liveundertekster → Udseende → Fed tekst: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE/ENHANCE_TEXT_LEGIBILITY`
+- Tilgængelighed → Liveundertekster → Udseende → Fed tekst → Fed tekst: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE/ENHANCE_TEXT_LEGIBILITY#ENHANCE_TEXT_LEGIBILITY`
+- Tilgængelighed → Liveundertekster → Udseende → Tekststørrelse: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE/LARGER_TEXT`
+- Tilgængelighed → Liveundertekster → Udseende → Tekststørrelse → Tekststørrelse: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE/LARGER_TEXT#LARGER_TEXT`
+- Tilgængelighed → Liveundertekster → Udseende → Farveindstillinger: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE#LIVE_TRANSCRIPTION_COLOR_OPTIONS`
+- Tilgængelighed → Liveundertekster → Udseende → Tekstfarve: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE#LIVE_TRANSCRIPTION_TEXT_COLOR`
+- Tilgængelighed → Liveundertekster → Udseende → Baggrundsfarve: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE#LIVE_TRANSCRIPTION_BACKGROUND_COLOR`
+- Tilgængelighed → Liveundertekster → Udseende → Nulstil farver: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE#LIVE_TRANSCRIPTION_RESET_COLORS`
+- Tilgængelighed → Liveundertekster → Udseende → Opacitet ved passiv: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE#LIVE_CAPTIONS_IDLE_OPACITY_TITLE`
+- Tilgængelighed → Liveundertekster → Liveundertekster i FaceTime: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION#FACE_TIME_CAPTIONS`
+- Tilgængelighed → Forenklet adgang: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE`
+- Tilgængelighed → Forenklet adgang → Indstillinger til kode: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessSecurityLinkList`
+- Tilgængelighed → Forenklet adgang → Indstillinger til kode → Indstillinger til kode: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessSecurityLinkList#GuidedAccessSecurityLinkList`
+- Tilgængelighed → Forenklet adgang → Indstillinger til kode → Kode til Forenklet adgang: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessSecurityLinkList#GAXPinButton`
+- Tilgængelighed → Forenklet adgang → Indstillinger til kode → Touch ID: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessSecurityLinkList#GAXSpecIDTouchIDSwitch`
+- Tilgængelighed → Forenklet adgang → Tidsgrænser: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList`
+- Tilgængelighed → Forenklet adgang → Tidsgrænser → Tidsgrænser: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GuidedAccessTimeRestrictionsLinkList`
+- Tilgængelighed → Forenklet adgang → Tidsgrænser → Lyd: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList/GUIDED_ACCESS_TIME_RESTRICTIONS_SOUND_TITLE`
+- Tilgængelighed → Forenklet adgang → Tidsgrænser → Lyd → Lyd: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList/GUIDED_ACCESS_TIME_RESTRICTIONS_SOUND_TITLE#GUIDED_ACCESS_TIME_RESTRICTIONS_SOUND_TITLE`
+- Tilgængelighed → Forenklet adgang → Tidsgrænser → Læs op: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_SPEAK_TITLE`
+- Tilgængelighed → Forenklet adgang → Tilgængeligheds­genvej: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessEnableAXFeatures`
+- Tilgængelighed → Forenklet adgang → Lås skærm automatisk: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessAutoLockTime`
+- Tilgængelighed → Forenklet adgang → Lås skærm automatisk → Lås skærm automatisk: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessAutoLockTime#GuidedAccessAutoLockTime`
+- Tilgængelighed → Let tilgængelighed: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE`
+- Tilgængelighed → Let tilgængelighed → Indstil Let tilgængelighed: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#SetUpClarityUISpecifier`
+- Tilgængelighed → Let tilgængelighed → Start Let tilgængelighed: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#ClarityUIStart`
+- Tilgængelighed → Let tilgængelighed → Apps: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#Applications`
+- Tilgængelighed → Let tilgængelighed → Indstillinger: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#Options`
+- Tilgængelighed → Let tilgængelighed → Baggrund: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE/Wallpaper`
+- Tilgængelighed → Let tilgængelighed → Baggrund → Baggrund: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE/Wallpaper#Wallpaper`
+- Tilgængelighed → Let tilgængelighed → Tillad lydstyrkeknapper: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#VolumeButtons`
+- Tilgængelighed → Let tilgængelighed → Vis klokkeslæt på låst skærm: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#ShowTime`
+- Tilgængelighed → Let tilgængelighed → Vis batteriniveau på hjemmeskærm: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#ShowBattery`
+- Tilgængelighed → Let tilgængelighed → Vis notifikationsetiketter: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#ShowNotification`
+- Tilgængelighed → Let tilgængelighed → Tillad Siri: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#AllowSiri`
+- Tilgængelighed → Let tilgængelighed → Indstillinger til kode: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE/PasscodeSettings`
+- Tilgængelighed → Let tilgængelighed → Indstillinger til kode → Indstillinger til kode: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE/PasscodeSettings#PasscodeSettings`
+- Tilgængelighed → Siri: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE`
+- Tilgængelighed → Siri → Skriv til Siri: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_SETTINGS_TYPE_TO_SIRI`
+- Tilgængelighed → Siri → Pausetid for Siri: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#ENDPOINTER`
+- Tilgængelighed → Siri → Talehastighed for Siri: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SPEECH_RATE`
+- Tilgængelighed → Siri → Talte svar: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK`
+- Tilgængelighed → Siri → Lyt altid efter “Siri”: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_SETTINGS_VOICE_ACTIVATION_ALWAYS_ALLOW`
+- Tilgængelighed → Siri → Vis apps bag Siri: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRL_SHOW_APPS`
+- Tilgængelighed → Siri → Meddel notifikationer på højttaler: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#ANNOUNCE_NOTIFICATIONS_BUILT_IN_SPEAKER_ID`
+- Tilgængelighed → Siri → Afslut opkald: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE/SIRI_CALL_HANGUP_ID`
+- Tilgængelighed → Siri → Afslut opkald → Afslut opkald: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE/SIRI_CALL_HANGUP_ID#SIRI_CALL_HANGUP_ID`
+- Tilgængelighed → Siri → Lyt efter atypisk tale: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_ATYPICAL_SPEECH`
+- Tilgængelighed → Siri → Kræv “Siri” for at afbryde: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_BARGE`
+- Tilgængelighed → Tilgængeligheds­genvej: `prefs:root=ACCESSIBILITY&path=TRIPLE_CLICK_TITLE`
+- Tilgængelighed → Indstillinger pr. app: `prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE`
+- Tilgængelighed → Indstillinger pr. app → Vis skjulte apps: `prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE#PROTECTED_APPS_SHOW_HIDDEN_TITLE`
+- Tilgængelighed → Indstillinger pr. app → Tilføj app: `prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE#AX_ADD_BUTTON_IDENTIFIER`
+- Tilgængelighed → Betjen enheder i nærheden: `prefs:root=ACCESSIBILITY&path=CONTROL_NEARBY_DEVICES`
+- Tilgængelighed → Betjen enheder i nærheden → Betjen enheder i nærheden: `prefs:root=ACCESSIBILITY&path=CONTROL_NEARBY_DEVICES#CONTROL_NEARBY_DEVICES`
+- Tilgængelighed → Øjenstyring: `prefs:root=ACCESSIBILITY&path=DOMINANT_EYE`
+- Tilgængelighed → Livetale: `prefs:root=ACCESSIBILITY&path=LIVE_SPEECH_TITLE`
+- Tilgængelighed → Livetale → Udtryk: `prefs:root=ACCESSIBILITY&path=LIVE_SPEECH_TITLE/LiveSpeechCategoryManagement`
+- Tilgængelighed → Livetale → Stemmer: `prefs:root=ACCESSIBILITY&path=LIVE_SPEECH_TITLE#LIVE_SPEECH_VOICES`
+- Tilgængelighed → Personlig stemme: `prefs:root=ACCESSIBILITY&path=PERSONAL_VOICE_TITLE`
+- Tilgængelighed → Personlig stemme → Opret en personlig stemme: `prefs:root=ACCESSIBILITY&path=PERSONAL_VOICE_TITLE#VB_CREATE_PERSONAL_VOICE`
+- Tilgængelighed → Personlig stemme → Del på tværs af enheder: `prefs:root=ACCESSIBILITY&path=PERSONAL_VOICE_TITLE#VB_USE_ICLOUD_TITLE`
+- Tilgængelighed → Personlig stemme → Apps må anmode om at bruge: `prefs:root=ACCESSIBILITY&path=PERSONAL_VOICE_TITLE#VB_ALLOW_WITH_APPS`
+- Tilgængelighed → AirPods: `prefs:root=ACCESSIBILITY&path=AIRPODS`
+- Tilgængelighed → AirPods → Trykhastighed: `prefs:root=ACCESSIBILITY&path=AIRPODS#TapGroup`
+- Tilgængelighed → AirPods → Varighed af tryk og hold: `prefs:root=ACCESSIBILITY&path=AIRPODS#HoldGroup`
+- Tilgængelighed → AirPods → Indstillinger til Lyd & visuel på iPhone: `prefs:root=ACCESSIBILITY&path=AIRPODS#PERSONAL_AUDIO_AIRPODS_BUTTON`
+- Tilgængelighed → AirPods → Følg iPhone: `prefs:root=ACCESSIBILITY&path=AIRPODS#SPATIAL_AUDIO_SWITCH`
+- Tilgængelighed → AirPods → Tonens lydstyrke: `prefs:root=ACCESSIBILITY&path=AIRPODS#TONE_VOLUME`
+- Tilgængelighed → Stemmegenveje: `prefs:root=ACCESSIBILITY&path=ADAPTIVE_VOICE_SHORTCUTS_TITLE`
+- Tilgængelighed → Stemmegenveje → Indstil Stemmegenveje: `prefs:root=ACCESSIBILITY&path=ADAPTIVE_VOICE_SHORTCUTS_TITLE#AVS_SET_UP_BUTTON_TITLE`
+- Tilgængelighed → Haptisk feedback til musik: `prefs:root=ACCESSIBILITY&path=HAPTIC_MUSIC`
+- Tilgængelighed → Øjensporing: `prefs:root=ACCESSIBILITY&path=OnDeviceEyeTracking`
+- Tilgængelighed → Øjensporing → Øjensporing: `prefs:root=ACCESSIBILITY&path=OnDeviceEyeTracking#OnDeviceEyeTrackingEnabledSpecifier`
+- Tilgængelighed → Øjensporing → Glidende: `prefs:root=ACCESSIBILITY&path=OnDeviceEyeTracking#SMOOTHING`
+- Tilgængelighed → Øjensporing → Ret ind til emne: `prefs:root=ACCESSIBILITY&path=OnDeviceEyeTracking#SNAP_TO_ITEM`
+- Tilgængelighed → Øjensporing → Zoom ind på taster på tastaturet: `prefs:root=ACCESSIBILITY&path=OnDeviceEyeTracking#KEYBOARD_ZOOM`
+- Tilgængelighed → Øjensporing → Skjul automatisk: `prefs:root=ACCESSIBILITY&path=OnDeviceEyeTracking#AUTO_HIDE`
+- Tilgængelighed → Øjensporing → Pausebetjening: `prefs:root=ACCESSIBILITY&path=OnDeviceEyeTracking#DWELL_CONTROL`
+- Tilgængelighed → Kamerabetjening: `prefs:root=ACCESSIBILITY&path=CAMERA_CONTROL`
+- Tilgængelighed → Kamerabetjening → Kamerabetjening: `prefs:root=ACCESSIBILITY&path=CAMERA_CONTROL#CAMERA_CONTROL_SWITCH`
+- Tilgængelighed → Kamerabetjening → Let tryk: `prefs:root=ACCESSIBILITY&path=CAMERA_CONTROL#LIGHT_PRESS`
+- Tilgængelighed → Kamerabetjening → Stryg: `prefs:root=ACCESSIBILITY&path=CAMERA_CONTROL#SWIPE`
+- Tilgængelighed → Kamerabetjening → Trykkraft for let tryk: `prefs:root=ACCESSIBILITY&path=CAMERA_CONTROL#LIGHT_PRESS_FORCE`
+- Tilgængelighed → Kamerabetjening → Hastighed for let dobbelttryk: `prefs:root=ACCESSIBILITY&path=CAMERA_CONTROL#SENSITIVITY`
+- Mail: `prefs:root=MAIL`
+- Mail → Konti: `prefs:root=MAIL&path=ACCOUNTS`
+- Mail → Konti → Tilføj konto: `prefs:root=MAIL&path=ACCOUNTS#ADD_ACCOUNT`
+- Mail → Konti → Hent nye data: `prefs:root=MAIL&path=ACCOUNTS#FETCH_NEW_DATA`
+- Mail → Eksempel: `prefs:root=MAIL&path=Preview`
+- Mail → Vis Til/Cc: `prefs:root=MAIL#Show%20To/Cc%20Labels`
+- Mail → Indstillinger til skub: `prefs:root=MAIL&path=Swipe%20Options`
+- Mail → Spørg før sletning: `prefs:root=MAIL#Ask%20Before%20Deleting`
+- Mail → Indlæs eksterne billeder: `prefs:root=MAIL#Load%20Remote%20Images`
+- Mail → Organiser efter tråd: `prefs:root=MAIL#Organize%20by%20Thread`
+- Mail → Skjul læste beskeder: `prefs:root=MAIL#Collapse%20Read%20Messages`
+- Mail → Seneste besked øverst: `prefs:root=MAIL#Most%20Recent%20Message%20on%20Top`
+- Mail → Hele tråde: `prefs:root=MAIL#Complete%20Threads`
+- Mail → Handling ved ignoreret tråd: `prefs:root=MAIL&path=Muted%20Thread%20Action`
+- Mail → Ignorer blokerede afsendere: `prefs:root=MAIL#Ignore%20Blocked%20Senders`
+- Mail → Blokerede afsendere: `prefs:root=MAIL&path=Blocked%20Sender%20Options`
+- Mail → Ukendt: `prefs:root=MAIL&path=Blocked`
+- Mail → Altid Bcc mig selv: `prefs:root=MAIL#Always%20Bcc%20Myself`
+- Mail → Marker adresser: `prefs:root=MAIL&path=Mark%20Addresses`
+- Mail → Ryk citatniveau ind: `prefs:root=MAIL&path=Increase%20Quote%20Level`
+- Mail → Inkluder bilag i svar: `prefs:root=MAIL&path=Include%20Attachments%20with%20Replies`
+- Mail → Signatur: `prefs:root=MAIL&path=Signature`
+- Baggrund: `prefs:root=Wallpaper`
+- Noter: `prefs:root=NOTES`
+- Noter → Standardkonto: `prefs:root=NOTES&path=Default%20Account`
+- Noter → Adgangskode: `prefs:root=NOTES&path=Password`
+- Noter → Sorter noter efter: `prefs:root=NOTES&path=Sort%20Notes%20By`
+- Noter → Nye noter starter med: `prefs:root=NOTES&path=New%20Notes%20Start%20With`
+- Noter → Sorter valgte emner: `prefs:root=NOTES&path=Sort%20Checked%20Items`
+- Noter → Linjer og net: `prefs:root=NOTES&path=Lines%20%26%20Grids`
+- Noter → Gem i Fotos: `prefs:root=NOTES#Save%20to%20Photos`
+- Noter → Få adgang til Noter fra låseskærmen: `prefs:root=NOTES&path=Access%20Notes%20from%20Lock%20Screen`
+- Kode: `prefs:root=PASSCODE`
+- Kode → Slå kode fra: `prefs:root=PASSCODE#PASSCODE_OFF`
+- Kode → Skift kode: `prefs:root=PASSCODE#CHANGE_PASSCODE`
+- Kode → Kræv kode: `prefs:root=PASSCODE&path=PASSCODE_REQ`
+- Kode → Stemmeopkald: `prefs:root=PASSCODE#VOICE_DIAL`
+- Kode → Tillad adgang, når enheden er låst: `prefs:root=PASSCODE#ALLOW_ACCESS_WHEN_LOCKED`
+- Kode → Svar med besked: `prefs:root=PASSCODE#REPLY_WITH_MESSAGE_SWITCH`
+- Kode → Hjemkontrol: `prefs:root=PASSCODE#HOME_CONTROL_SWITCH`
+- Kode → Wallet: `prefs:root=PASSCODE#WALLET_SWITCH`
+- Kode → Ring til ubesvaret opkald: `prefs:root=PASSCODE#RETURN_MISSED_CALLS_SWITCH`
+- Kode → Slet data: `prefs:root=PASSCODE#WIPE_DEVICE`
+- Kode → Lås op vha. Apple Watch: `prefs:root=PASSCODE#AUTO_UNLOCK_DEVICES_GROUP`
+- Kode → Beskyttelse af stjålet enhed: `prefs:root=PASSCODE#DTO_GROUP_ID`
+- Kalender: `prefs:root=CALENDAR`
+- Kalender → Tilsidesættelse af tidszone: `prefs:root=CALENDAR&path=TimeZoneCityArray`
+- Kalender → Alternative kalendere: `prefs:root=CALENDAR&path=Alternate%20Calendars`
+- Kalender → Ugenumre: `prefs:root=CALENDAR#Week%20Numbers`
+- Kalender → Vis afslag på invitationer: `prefs:root=CALENDAR#Show%20Invitee%20Declines`
+- Kalender → Synkroniser: `prefs:root=CALENDAR&path=Sync`
+- Kalender → Tidspunkt for standardadvarsel: `prefs:root=CALENDAR&path=Default%20Alert%20Times`
+- Kalender → Start uge med: `prefs:root=CALENDAR&path=Start%20Week%20On`
+- Kalender → Lokalitetsforslag: `prefs:root=CALENDAR#Location%20Suggestions`
+- Sundhedsdata: `prefs:root=HEALTH`
+- Telefon: `prefs:root=Phone`
+- Telefon → Mit nummer: `prefs:root=Phone&path=My%20Number`
+- Telefon → Indgående opkald: `prefs:root=Phone&path=INCOMING_CALL_STYLE`
+- Telefon → Meddel om opkald: `prefs:root=Phone&path=ANNOUNCE_CALLS`
+- Telefon → Sms‑/opkaldsrapportering: `prefs:root=Phone&path=CLASSIFICATION_AND_REPORTING`
+- Telefon → Svar med besked: `prefs:root=Phone&path=Respond%20with%20Text`
+- Telefon → Viderestil opkald: `prefs:root=Phone&path=Call%20Forwarding`
+- Telefon → Viderestil opkald → Viderestil opkald: `prefs:root=Phone&path=Call%20Forwarding#idMasterOnOffSwitch`
+- Telefon → Opkald venter: `prefs:root=Phone&path=Call%20Waiting`
+- Telefon → Vis mit nummer: `prefs:root=Phone&path=Show%20My%20Caller%20ID`
+- Telefon → Vis mit nummer → Vis mit nummer: `prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary`
+- Telefon → Vis mit nummer → Vis mit nummer → Vis mit nummer: `prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary#Show%20My%20Caller%20ID`
+- Telefon → Ignorer opkald fra ukendte: `prefs:root=Phone#SILENCE_CALLS`
+- Telefon → Blokerede kontakter: `prefs:root=Phone&path=SPECIFIER_IDENTIFIER_BLACKLIST`
+- Telefon → Hjælp til opkald: `prefs:root=Phone&path=Dial%20Assist`
+- App Store: `prefs:root=STORE`
+- App Store → Automatiske overførsler: `prefs:root=STORE#Automatic%20Downloads`
+- App Store → Appopdateringer: `prefs:root=STORE#App%20Updates`
+- App Store → Overførsler af apps: `prefs:root=STORE&path=App%20Downloads`
+- App Store → Autoafspilning af video: `prefs:root=STORE&path=Video%20Autoplay`
+- App Store → Anm. og vurderinger i app: `prefs:root=STORE#In-App%20Ratings%20&%20Reviews`
+- Anonymitet & sikkerhed: `prefs:root=Privacy` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity`
+- Anonymitet & sikkerhed → Sundhed: `prefs:root=Privacy&path=HEALTH` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/HEALTH`
+- Anonymitet & sikkerhed → Sundhedsdata: `prefs:root=Privacy&path=HEALTH_DATA` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/HEALTH_DATA`
+- Anonymitet & sikkerhed → Lokalitet: `prefs:root=Privacy&path=LOCATION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/LOCATION`
+- Anonymitet & sikkerhed → Lokalitet → Del min lokalitet: `prefs:root=Privacy&path=LOCATION/LOCATION_SHARING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/LOCATION/LOCATION_SHARING`
+- Anonymitet & sikkerhed → Kontakter: `prefs:root=Privacy&path=CONTACTS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CONTACTS`
+- Anonymitet & sikkerhed → Kalendere: `prefs:root=Privacy&path=CALENDARS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CALENDARS`
+- Anonymitet & sikkerhed → Påmindelser: `prefs:root=Privacy&path=REMINDERS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/REMINDERS`
+- Anonymitet & sikkerhed → Fotos: `prefs:root=Privacy&path=PHOTOS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PHOTOS`
+- Anonymitet & sikkerhed → Bluetooth-deling: `prefs:root=Privacy&path=BT_PERIPHERAL` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/BT_PERIPHERAL`
+- Anonymitet & sikkerhed → Mikrofon: `prefs:root=Privacy&path=MICROPHONE` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/MICROPHONE`
+- Anonymitet & sikkerhed → Talegenkendelse: `prefs:root=Privacy&path=SPEECH_RECOGNITION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/SPEECH_RECOGNITION`
+- Anonymitet & sikkerhed → Kamera: `prefs:root=Privacy&path=CAMERA` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CAMERA`
+- Anonymitet & sikkerhed → HomeKit: `prefs:root=Privacy&path=WILLOW` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/WILLOW`
+- Anonymitet & sikkerhed → Medier & Apple Music: `prefs:root=Privacy&path=MEDIALIBRARY` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/MEDIALIBRARY`
+- Anonymitet & sikkerhed → Analyse: `prefs:root=Privacy&path=PROBLEM_REPORTING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PROBLEM_REPORTING`
+- Anonymitet & sikkerhed → Reklamer: `prefs:root=Privacy&path=ADVERTISING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/ADVERTISING`
+- Anonymitet & sikkerhed → Arkiver & mapper: `prefs:root=Privacy&path=FILEACCESS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/FILEACCESS`
+- Anonymitet & sikkerhed → Sporing: `prefs:root=Privacy&path=USER_TRACKING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/USER_TRACKING`
+- Anonymitet & sikkerhed → Rapport om app-anonymitet: `prefs:root=Privacy&path=PRIVACY_REPORT` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PRIVACY_REPORT`
+- Anonymitet & sikkerhed → Nedlukningstilstand: `prefs:root=Privacy#LOCKDOWN_MODE` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity#LOCKDOWN_MODE#LOCKDOWN_MODE`
+- Anonymitet & sikkerhed → Følsomt indhold: `prefs:root=Privacy#NUDITY_DETECTION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity#NUDITY_DETECTION#NUDITY_DETECTION`
+- Måling: `prefs:root=MEASURE`
+- Måling → Måleenheder: `prefs:root=MEASURE#MEASURE_UNITS`
+- Måling → Imperial standard: `prefs:root=MEASURE#Imperial`
+- Måling → Metrisk: `prefs:root=MEASURE#Metric`
+- Videoer: `prefs:root=TVAPP`
+- Videoer → Brug mobildata til afspilning: `prefs:root=TVAPP#com.apple.videos%3AVideosUseCellularDataEnabledSetting`
+- Videoer → Afspilningskvalitet: `prefs:root=TVAPP#com.apple.videos%3APlaybackQualityGroup`
+- Videoer → Købte og lejede emner: `prefs:root=TVAPP&path=com.apple.videos%3APreferredPurchaseResolution`
+- Videoer → Deling i hjemmet: `prefs:root=TVAPP#com.apple.videos%3AHomeSharingFooter`
+- Game Center: `prefs:root=GAMECENTER`
+- Memoer: `prefs:root=VOICE_MEMOS`
+- Memoer → Ryd slettede: `prefs:root=VOICE_MEMOS&path=RCVoiceMemosRecentlyDeletedWindowKey`
+- Memoer → Lydkvalitet: `prefs:root=VOICE_MEMOS&path=RCVoiceMemosAudioQualityKey`
+- Memoer → Lokalitetsbaseret navngivning: `prefs:root=VOICE_MEMOS#RCVoiceMemosUseLocationBasedNaming`
+- Genveje: `prefs:root=SHORTCUTS`
+- Genveje → iCloud-synkronisering: `prefs:root=SHORTCUTS#WFCloudKitSyncEnabled`
+- Genveje → Synk. genvejsrækkefølge: `prefs:root=SHORTCUTS#WFCloudKitSyncOrderEnabled`
+- Genveje → Juridiske noter: `prefs:root=SHORTCUTS&path=Legal%20Notices`
+- Påmindelser: `prefs:root=REMINDERS`
+- Påmindelser → Standardliste: `prefs:root=REMINDERS&path=DEFAULT_LIST`
+- Påmindelser → Standardliste → Påmindelser: `prefs:root=REMINDERS&path=DEFAULT_LIST#preferredDefaultListID`
+- Påmindelser → Notifikation på dagen: `prefs:root=REMINDERS#todayNotificationFireTime`
+- Påmindelser → Vis som forfaldne: `prefs:root=REMINDERS#showRemindersAsOverdue`
+- Musik: `prefs:root=MUSIC`
+- Musik → Vis Apple Music: `prefs:root=MUSIC#com.apple.Music%3AAppleMusicEnabled`
+- Musik → Tilføj sange fra playliste: `prefs:root=MUSIC#com.apple.Music%3AAddPlaylistSongsToMyMusicSwitch`
+- Musik → Vis stjernevurderinger: `prefs:root=MUSIC#com.apple.Music%3AShowStarRatings`
+- Musik → Synkroniser bibliotek: `prefs:root=MUSIC#com.apple.Music%3ACloudMusicLibraryEnabled`
+- Musik → Mobildata: `prefs:root=MUSIC&path=com.apple.Music%3ACellularData`
+- Musik → Overført musik: `prefs:root=MUSIC&path=com.apple.Music%3AMusicUsageLink`
+- Musik → Optimer lagring: `prefs:root=MUSIC&path=com.apple.Music%3AOptimizeStorage`
+- Musik → Automatiske overførsler: `prefs:root=MUSIC#com.apple.Music%3AMusicAutomaticDownload`
+- Musik → EQ: `prefs:root=MUSIC&path=com.apple.Music%3AEQ`
+- Musik → Lydkontrol: `prefs:root=MUSIC#com.apple.Music%3ASoundCheck`
+- Musik → Brug lyttehistorik: `prefs:root=MUSIC#com.apple.Music%3APrivateListening`
+- Siri: `prefs:root=SIRI`
+- Siri → Tillad Siri, når enheden er låst: `prefs:root=SIRI#ASSISTANT_LOCK_SCREEN_ACCESS`
+- Siri → Sprog: `prefs:root=SIRI&path=LANGUAGE_ID`
+- Siri → Siri-stemme: `prefs:root=SIRI&path=VOICE_ID`
+- Siri → Stemmefeedback: `prefs:root=SIRI&path=VOICE_FEEDBACK_ID`
+- Siri → Mine oplysninger: `prefs:root=SIRI&path=MY_INFO`
+- Lyde: `prefs:root=Sounds`
+- Lyde → Sikker brug af hovedtelefoner: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING`
+- Lyde → Sikker brug af hovedtelefoner → Lightning-mellemstik: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING/HEADPHONE_LIGHTNING_ADAPTERS`
+- Lyde → Sikker brug af hovedtelefoner → Notifikationer om hovedtelefoner: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneWeeklyNotificationsKey`
+- Lyde → Sikker brug af hovedtelefoner → Formindsk høj lyd: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneLevelLimitSwitchKey`
+- Lyde → Lydeffekter: `prefs:root=Sounds&path=SOUND_EFFECTS`
+- Lyde → Ringetoner og advarsler: `prefs:root=Sounds#RINGER_AND_ALERT_GROUP`
+- Lyde → Skift med knapper: `prefs:root=Sounds#CHANGE_WITH_BUTTONS`
+- Lyde → Lyde og vibrationsmønstre: `prefs:root=Sounds#SOUNDS_ALERT_GROUP`
+- Lyde → Ringetone: `prefs:root=Sounds&path=Ringtone`
+- Lyde → Sms-tone: `prefs:root=Sounds&path=Text_Messages`
+- Lyde → Ny telefonbesked: `prefs:root=Sounds&path=Voicemail`
+- Lyde → Ny e-mail: `prefs:root=Sounds&path=NEW_MAIL`
+- Lyde → Sendt e-mail: `prefs:root=Sounds&path=SENT_MAIL`
+- Lyde → Kalenderadvarsler: `prefs:root=Sounds&path=Calendar%20Alarm`
+- Lyde → Påmindelsesadvarsler: `prefs:root=Sounds&path=Reminder%20Alerts`
+- Lyde → Tastaturklik: `prefs:root=Sounds#KEYBOARD_SOUND_SWITCH`
+- Lyde → Låselyd: `prefs:root=Sounds#LOCK_SOUND_SWITCH`
+- Lyde → Tilpasset rumlig lyd: `prefs:root=Sounds&path=Personalized%20Spatial%20Audio`
+- Apple Pencil: `prefs:root=Pencil`
+- Apple Pencil → Apple Pencil: `prefs:root=Pencil#PrefersPencilDraws`
+- Apple Pencil → Apple Pencil: `prefs:root=Pencil#PencilTextInput`
+- Nød‑SOS: `prefs:root=EMERGENCY_SOS`
+- Nød‑SOS → Ring med sideknappen: `prefs:root=EMERGENCY_SOS#CALL_WITH_SIDE_BUTTON`
+- Nød‑SOS → Autoopkald: `prefs:root=EMERGENCY_SOS#AUTO_CALL`
+- Nød‑SOS → Nødkontakter: `prefs:root=EMERGENCY_SOS#EMERGENCY_CONTACTS`
+- Nød‑SOS → Nedtællingslyd: `prefs:root=EMERGENCY_SOS#ALARM_SOUND_SWITCH`
+- Wi-Fi: `prefs:root=WIFI`
+- Kontakter: `prefs:root=CONTACTS`
+- Kontakter → Kontakter må få adgang til: `prefs:root=CONTACTS#Allow%20Contacts%20To%20Access`
+- Kontakter → Siri: `prefs:root=CONTACTS&path=SIRI_AND_SEARCH`
+- Kontakter → Sorter efter: `prefs:root=CONTACTS&path=ContactsSortOrder`
+- Kontakter → Vis som: `prefs:root=CONTACTS&path=PersonNameOrder`
+- Kontakter → Kort navn: `prefs:root=CONTACTS&path=PersonShortName`
+- Kontakter → Kort navn → Kort navn: `prefs:root=CONTACTS&path=PersonShortName#Short%20Name`
+- Kontakter → Kort navn → Foretræk kaldenavne: `prefs:root=CONTACTS&path=PersonShortName#Prefer%20Nicknames`
+- Kontakter → Min info: `prefs:root=CONTACTS&path=MeCard`
+- Kontakter → Importer SIM-kontakter: `prefs:root=CONTACTS#SIMImport`
+- Kontrolcenter: `prefs:root=ControlCenter`
+- Kontrolcenter → Adgang fra apps: `prefs:root=ControlCenter#ALLOWED_WITHIN_APPS`
+- Kontrolcenter → Tilpas betjeningspanel: `prefs:root=ControlCenter&path=CUSTOMIZE_CONTROLS`
+- Udvikler: `prefs:root=DEVELOPER_SETTINGS`
+- Udvikler → Multipath-netværk: `prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG`
+- Udvikler → Multipath-netværk → Multipath-netværk: `prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG#Multipath%20Networking`
+- Udvikler → Udseende: `prefs:root=DEVELOPER_SETTINGS#UIAppearanceGroup`
+- Udvikler → Mørkt udseende: `prefs:root=DEVELOPER_SETTINGS#UIAppearanceSettings`
+- Udvikler → Parrede enheder: `prefs:root=DEVELOPER_SETTINGS#DTPairedDevicesGroup`
+- Udvikler → Ryd godkendte computere: `prefs:root=DEVELOPER_SETTINGS#CLEAR_TRUSTED_COMPUTERS`
+- Udvikler → Logning: `prefs:root=DEVELOPER_SETTINGS&path=DTInstrumentsSettings`
+- Udvikler → Slå automatisering af brugergrænseflade til: `prefs:root=DEVELOPER_SETTINGS#UIAGroup`
+- Udvikler → Netværk: `prefs:root=DEVELOPER_SETTINGS#NLCGroup`
+- Udvikler → Network Link Conditioner: `prefs:root=DEVELOPER_SETTINGS&path=NLC`
+- Udvikler → Yderligere logning: `prefs:root=DEVELOPER_SETTINGS#ADDITIONAL_LOGGING`
+- Udvikler → Tillad HTTP-tjenester: `prefs:root=DEVELOPER_SETTINGS#ALLOW_HTTP_SERVICES`
+- Udvikler → Slå Hastighedsbegrænsning fra: `prefs:root=DEVELOPER_SETTINGS#DISABLE_RATE_LIMITING`
+- Udvikler → NFC-nøgle (valgfri): `prefs:root=DEVELOPER_SETTINGS#NFC_PASS_KEY_OPTIONAL`
+- Udvikler → Test af medietjenester: `prefs:root=DEVELOPER_SETTINGS#MEDIA_SERVICES_TESTING`
+- Udvikler → Nulstil medietjenester: `prefs:root=DEVELOPER_SETTINGS#RESET_MEDIA_SERVICES`
+- Udvikler → News-test: `prefs:root=DEVELOPER_SETTINGS#NEWS_TESTING`
+- Udvikler → Nulstil lokale data ved næste start: `prefs:root=DEVELOPER_SETTINGS#RESET_LOCAL_DATA_ON_NEXT_LAUNCH`
+- Udvikler → Test af Media Player Framework: `prefs:root=DEVELOPER_SETTINGS#RoutineSettingsGroup`
+- Udvikler → API til indhold, der kan afspilles: `prefs:root=DEVELOPER_SETTINGS&path=RoutineSettings`
+- Udvikler → Tv-udbyder: `prefs:root=DEVELOPER_SETTINGS&path=VideoSubscriberAccountSettings`
+- Udvikler → ClassKit API: `prefs:root=DEVELOPER_SETTINGS&path=ClassKitSettings`
+- Udvikler → CoreSpotlight-test: `prefs:root=DEVELOPER_SETTINGS#CORESPOTLIGHT_TESTING`
+- Udvikler → Indekser alle emner igen: `prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS`
+- Udvikler → Indekser alle emner med id’er igen: `prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS_WITH_IDENTIFIERS`
+- Udvikler → Test af Genveje: `prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_TESTING`
+- Udvikler → Vis seneste genveje: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_SPOTLIGHT`
+- Udvikler → Vis kommende medier: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_UPCOMING_MEDIA`
+- Udvikler → Vis donationer på låseskærmen: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_LOCKSCREEN`
+- Udvikler → Gennemtving synkronisering af Genveje til ur: `prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_SYNC_WATCHOS`
+- Udvikler → MIDI-CI-test: `prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA`
+- Udvikler → Slå MIDI-CI til: `prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA_ENABLE`
+- Udvikler → Svarer ikke-registrering: `prefs:root=DEVELOPER_SETTINGS#HANGTRACER_EXTERNAL_CONFIGURE`
+- Bluetooth: `prefs:root=Bluetooth`
+- Værdipapirer: `prefs:root=STOCKS`
+- Værdipapirer → Anonymitet: `prefs:root=STOCKS#Privacy`
+- Værdipapirer → Nulstil id: `prefs:root=STOCKS#reset_identifier`
+- Oversæt: `prefs:root=TRANSLATE`
+- Oversæt → Lokalt på enheden: `prefs:root=TRANSLATE#OnDeviceOnly`
+- News: `prefs:root=NEWS`
+- News → Vis artikeleksempler: `prefs:root=NEWS#show_excerpt_mode`
+- News → Begræns artikler i oversigten I dag: `prefs:root=NEWS#showStoriesFromFavoritesSpecifierID`
+- News → Anonymitet: `prefs:root=NEWS#Privacy`
+- News → Nulstil id: `prefs:root=NEWS#reset_identifier`
+- News → Tak til: `prefs:root=NEWS&path=Acknowledgements`
+- Beskeder: `prefs:root=MESSAGES`
+- FaceTime: `prefs:root=FACETIME`
+- Fotos: `prefs:root=Photos`
+- Fotos → iCloud-fotos: `prefs:root=Photos#iCloudPhotosSwitch`
+- Fotos → Optimer lagring: `prefs:root=Photos#iCloudOptimizeStorageOption`
+- Fotos → Hent og behold originaler: `prefs:root=Photos#iCloudKeepOriginalsOption`
+- Fotos → Delte album: `prefs:root=Photos#SharedStreamsSwitch`
+- Fotos → Mobildata: `prefs:root=Photos&path=CellularDataLinkList`
+- Fotos → Afspil automatisk videoer: `prefs:root=Photos#VideoAutoplaySwitch`
+- Fotos → Vis fuld HDR: `prefs:root=Photos#ImageModulationSwitch`
+- Fotos → Vis helligdagsbegivenheder: `prefs:root=Photos#MEMORIES_HOLIDAY_CALENDAR_EVENTS_SWITCH`
+- Fotos → Overfør til Mac eller pc: `prefs:root=Photos#TransferGroup`
+- Notifikationer om eksponering: `prefs:root=EXPOSURE_NOTIFICATION`
+- Kamera: `prefs:root=CAMERA`
+- Kamera → Formater: `prefs:root=CAMERA&path=CameraFormatsSettingsList`
+- Kamera → Formater → Apple ProRaw: `prefs:root=CAMERA&path=CameraFormatsSettingsList#CAMUserPreferenceEnableLinearDNGControl`
+- Kamera → Record Video: `prefs:root=CAMERA&path=Record%20Video`
+- Kamera → Record Video → HDR-video: `prefs:root=CAMERA&path=Record%20Video#HDR%20Video`
+- Kamera → Husk indstillinger: `prefs:root=CAMERA&path=CameraPreserveSettingsSwitch`
+- Kamera → Husk indstillinger → Kamerafunktion: `prefs:root=CAMERA&path=CameraPreserveSettingsSwitch#CAMUserPreferencePreserveCaptureMode`
+- Kamera → Net: `prefs:root=CAMERA#CameraGridSwitch`
+- Kamera → Scan QR-koder: `prefs:root=CAMERA#CameraQRBannerSwitch`
+- Mobilnetværk: `prefs:root=MOBILE_DATA_SETTINGS_ID`
+- Mobilnetværk → Indstillinger til data: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS`
+- Mobilnetværk → Indstillinger til data → Lav datafunktion: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS#Low%20Data%20Mode`
+- Mobilnetværk → Mobildata: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=SHOW_ALL`
+- Podcasts: `prefs:root=PODCASTS`
+- Kompas: `prefs:root=COMPASS`
+- Kompas → Brug sand nord: `prefs:root=COMPASS#USE_TRUE_NORTH`
+- Bøger: `prefs:root=IBOOKS`
+- Bøger → Online indhold: `prefs:root=IBOOKS#BKAllowOnlineContent`
+- Bøger → SYNKRONISERING: `prefs:root=IBOOKS#SYNCING`
+- Bøger → Læser nu: `prefs:root=IBOOKS#BKLibrary.ReadingNow`
+- Bøger → iCloud Drive: `prefs:root=IBOOKS#BCSyncICloudDrive`
+- Bøger → LÆSNING: `prefs:root=IBOOKS#READING`
+- Bøger → Justeret til fuld skærm: `prefs:root=IBOOKS#BKFullJustification`
+- Bøger → Automatisk orddeling: `prefs:root=IBOOKS#BKAutoHyphenation`
+- Bøger → Frem med begge margener: `prefs:root=IBOOKS#BKLeftTapTurnToNext`
+- Bøger → Læsemål: `prefs:root=IBOOKS#READING_GOALS`
+- Bøger → Ryd data om læsemål: `prefs:root=IBOOKS#BKReadingGoalsShouldClearDataKey`
+- Bøger → SØGER: `prefs:root=IBOOKS#SEARCHING`
+- Bøger → Boghandel: `prefs:root=IBOOKS#BKIncludeBookStoreResultsInSearch`
+- Bøger → LYDBØGER: `prefs:root=IBOOKS#AUDIOBOOKS`
+- Bøger → Hop frem: `prefs:root=IBOOKS&path=BKAudioBookSkipForward`
+- Bøger → Hop tilbage: `prefs:root=IBOOKS&path=BKAudioBookSkipBackward`
+- Bøger → EKSTERN BETJENING: `prefs:root=IBOOKS#BKRemoteSkipInsteadOfNextTrackDefaultKey`
+- Bøger → Næste/forrige: `prefs:root=IBOOKS#Next/Previous`
+- Bøger → Hop frem/tilbage: `prefs:root=IBOOKS#Skip%20Forward/Back`
+- Bøger → ANONYMITET: `prefs:root=IBOOKS#PRIVACY`
+- Bøger → Nulstil id: `prefs:root=IBOOKS#BAResetAnalyticsUserID`
+- Bøger → Tak til: `prefs:root=IBOOKS&path=Acknowledgements`
+- Flyfunktion: `prefs:root=ROOT#AIRPLANE_MODE`

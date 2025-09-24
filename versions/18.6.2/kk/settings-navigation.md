@@ -1,0 +1,29 @@
+- Apple аккаунты: `settings-navigation://com.apple.Settings.AppleAccount`
+- Apple аккаунты → iCloud: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE`
+- Apple аккаунты → iCloud → Күнтізбе: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Calendars`
+- Apple аккаунты → iCloud → Күнтізбе → Жіберу және алу: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Calendars/CALENDAR_SEND_RECEIVE`
+- Apple аккаунты → iCloud → Күнтізбе → Эл. поштаға жаңартулар алу: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Calendars/CALENDAR_SHARED_CALENDAR_UPDATE`
+- Apple аккаунты → iCloud → Пошта: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail`
+- Apple аккаунты → iCloud → Пошта → Әдепкі эл. пошта: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/DEFAULT_EMAIL`
+- Apple аккаунты → iCloud → Пошта → Мекенжайлар: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/ALIASES`
+- Apple аккаунты → iCloud → Пошта → Авто жауап: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/AUTO_REPLY`
+- Apple аккаунты → iCloud → Пошта → iCloud поштасының ережелері: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/SERVER_SIDE_RULES`
+- Apple аккаунты → iCloud → Пошта → Поштаны қайта бағыттау: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/MAIL_FORWARDING`
+- Apple аккаунты → iCloud → Пошта → Пошта жәшігінің әрекеттері: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/MAILBOX_BEHAVIORS`
+- Apple аккаунты → iCloud → Пошта → Қол қою және шифрлау: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/S_MIME`
+- Apple аккаунты → iCloud → Пошта → Хабарларды импорттау: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/MAIL_IMPORT`
+- Apps: `settings-navigation://com.apple.Settings.Apps`
+- Apps → Fitness: `settings-navigation://com.apple.Settings.Apps/com.apple.Fitness`
+- Apps → Safari: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/`
+- Apps → Safari → Кеңейтімдер: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/WEB_EXTENSIONS`
+- Apps → Safari → Қалқымалы терезелерді блоктау: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari#BLOCK_POPUPS`
+- Apps → Safari → Сайт аралық қадағалауға жол бермеу: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari#TRACKER_PROTECTION`
+- Apps → Safari → Авто толтыру: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/AUTO_FILL`
+- Apps → Safari → Жүктеп алулар: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/DOWNLOADS`
+- Apps → Құпиясөздер: `settings-navigation://com.apple.Settings.Apps/com.apple.Passwords`
+- Apps → Құпиясөздер → Қауіпсіздік ұсыныстары: `settings-navigation://com.apple.Settings.Apps/com.apple.Passwords#SECURITY_RECOMMENDATIONS`
+- Құпиялылық және қауіпсіздік: `settings-navigation://com.apple.Settings.PrivacyAndSecurity`
+- Құпиялылық және қауіпсіздік → Қауіпсіздікті тексеру: `settings-navigation://com.apple.Settings.PrivacyAndSecurity/SAFETY_CHECK`
+- Үй: `settings-navigation://com.apple.Settings.HomeKit`
+- Search: `settings-navigation://com.apple.Settings.Search`
+- Теледидар провайдері: `settings-navigation://com.apple.Settings.TVProvider`

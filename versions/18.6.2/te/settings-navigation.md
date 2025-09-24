@@ -1,0 +1,29 @@
+- Apple ఖాతా: `settings-navigation://com.apple.Settings.AppleAccount`
+- Apple ఖాతా → iCloud: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE`
+- Apple ఖాతా → iCloud → క్యాలెండర్: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Calendars`
+- Apple ఖాతా → iCloud → క్యాలెండర్ → పంపండి, అందుకోండి: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Calendars/CALENDAR_SEND_RECEIVE`
+- Apple ఖాతా → iCloud → క్యాలెండర్ → ఇమెయిల్ అప్‌డేట్‌లను అందుకోండి: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Calendars/CALENDAR_SHARED_CALENDAR_UPDATE`
+- Apple ఖాతా → iCloud → మెయిల్: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail`
+- Apple ఖాతా → iCloud → మెయిల్ → డిఫాల్ట్ ఇమెయిల్: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/DEFAULT_EMAIL`
+- Apple ఖాతా → iCloud → మెయిల్ → అడ్రెస్‌లు: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/ALIASES`
+- Apple ఖాతా → iCloud → మెయిల్ → ఆటోమేటిక్-రిప్లై: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/AUTO_REPLY`
+- Apple ఖాతా → iCloud → మెయిల్ → iCloud మెయిల్ నియమాలు: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/SERVER_SIDE_RULES`
+- Apple ఖాతా → iCloud → మెయిల్ → మెయిల్ ఫార్వర్డింగ్: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/MAIL_FORWARDING`
+- Apple ఖాతా → iCloud → మెయిల్ → మెయిల్‌బాక్స్ పనితీరులు: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/MAILBOX_BEHAVIORS`
+- Apple ఖాతా → iCloud → మెయిల్ → సైన్ చేయడం మరియు ఎన్‌క్రిప్షన్: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/S_MIME`
+- Apple ఖాతా → iCloud → మెయిల్ → సందేశాలను ఇంపోర్ట్ చేయండి: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/MAIL_IMPORT`
+- Apps: `settings-navigation://com.apple.Settings.Apps`
+- Apps → Fitness: `settings-navigation://com.apple.Settings.Apps/com.apple.Fitness`
+- Apps → Safari: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/`
+- Apps → Safari → ఎక్స్‌టెన్షన్‌లు: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/WEB_EXTENSIONS`
+- Apps → Safari → పాప్-అప్‌లను బ్లాక్ చేయండి: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari#BLOCK_POPUPS`
+- Apps → Safari → క్రాస్-సైట్ ట్ర్యాకింగ్‌ను నిరోధించండి: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari#TRACKER_PROTECTION`
+- Apps → Safari → ఆటోఫిల్: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/AUTO_FILL`
+- Apps → Safari → డౌన్‌లోడ్‌లు: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/DOWNLOADS`
+- Apps → పాస్‌వర్డ్స్: `settings-navigation://com.apple.Settings.Apps/com.apple.Passwords`
+- Apps → పాస్‌వర్డ్స్ → భద్రతా సిఫార్సులు: `settings-navigation://com.apple.Settings.Apps/com.apple.Passwords#SECURITY_RECOMMENDATIONS`
+- గోప్యత, భద్రత: `settings-navigation://com.apple.Settings.PrivacyAndSecurity`
+- గోప్యత, భద్రత → సేఫ్టీ చెక్: `settings-navigation://com.apple.Settings.PrivacyAndSecurity/SAFETY_CHECK`
+- హోమ్: `settings-navigation://com.apple.Settings.HomeKit`
+- Search: `settings-navigation://com.apple.Settings.Search`
+- TV ప్రొవైడర్: `settings-navigation://com.apple.Settings.TVProvider`

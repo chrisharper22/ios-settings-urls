@@ -1,0 +1,29 @@
+- „Apple“ paskyra: `settings-navigation://com.apple.Settings.AppleAccount`
+- „Apple“ paskyra → iCloud: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE`
+- „Apple“ paskyra → iCloud → Kalendorius: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Calendars`
+- „Apple“ paskyra → iCloud → Kalendorius → Siųsti ir gauti: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Calendars/CALENDAR_SEND_RECEIVE`
+- „Apple“ paskyra → iCloud → Kalendorius → Gauti el. pašto pranešimus: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Calendars/CALENDAR_SHARED_CALENDAR_UPDATE`
+- „Apple“ paskyra → iCloud → Mail: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail`
+- „Apple“ paskyra → iCloud → Mail → Numatytasis el. pašto adresas: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/DEFAULT_EMAIL`
+- „Apple“ paskyra → iCloud → Mail → Adresai: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/ALIASES`
+- „Apple“ paskyra → iCloud → Mail → Automatinis atsakymas: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/AUTO_REPLY`
+- „Apple“ paskyra → iCloud → Mail → „iCloud Mail“ taisyklės: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/SERVER_SIDE_RULES`
+- „Apple“ paskyra → iCloud → Mail → Laiškų persiuntimas: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/MAIL_FORWARDING`
+- „Apple“ paskyra → iCloud → Mail → Pašto dėžutės veikimas: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/MAILBOX_BEHAVIORS`
+- „Apple“ paskyra → iCloud → Mail → Pasirašymas ir šifravimas: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/S_MIME`
+- „Apple“ paskyra → iCloud → Mail → Importuoti laiškus: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/MAIL_IMPORT`
+- Apps: `settings-navigation://com.apple.Settings.Apps`
+- Apps → Fitness: `settings-navigation://com.apple.Settings.Apps/com.apple.Fitness`
+- Apps → Safari: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/`
+- Apps → Safari → Plėtiniai: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/WEB_EXTENSIONS`
+- Apps → Safari → Blokuoti iškylančiuosius langus: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari#BLOCK_POPUPS`
+- Apps → Safari → Draudimas sekti tarp svetainių: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari#TRACKER_PROTECTION`
+- Apps → Safari → Automatinis užpildymas: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/AUTO_FILL`
+- Apps → Safari → Atsisiuntimai: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/DOWNLOADS`
+- Apps → Slaptažodžiai: `settings-navigation://com.apple.Settings.Apps/com.apple.Passwords`
+- Apps → Slaptažodžiai → Saugos rekomendacijos: `settings-navigation://com.apple.Settings.Apps/com.apple.Passwords#SECURITY_RECOMMENDATIONS`
+- Privatumas ir sauga: `settings-navigation://com.apple.Settings.PrivacyAndSecurity`
+- Privatumas ir sauga → Saugumo patikra: `settings-navigation://com.apple.Settings.PrivacyAndSecurity/SAFETY_CHECK`
+- Namai: `settings-navigation://com.apple.Settings.HomeKit`
+- Search: `settings-navigation://com.apple.Settings.Search`
+- Televizijos paslaugų teikėjas: `settings-navigation://com.apple.Settings.TVProvider`

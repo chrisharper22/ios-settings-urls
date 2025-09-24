@@ -1,0 +1,1186 @@
+- Аккумулятор: `prefs:root=BATTERY_USAGE`
+- Аккумулятор → Режим энергосбережения: `prefs:root=BATTERY_USAGE#BATTERY_SAVER_MODE`
+- Аккумулятор → Состояние аккумулятора: `prefs:root=BATTERY_USAGE#BATTERY_HEALTH_ID`
+- Кнопка действия: `prefs:root=ACTION_BUTTON`
+- Уведомления: `prefs:root=NOTIFICATIONS_ID`
+- Уведомления → Сводка по расписанию: `prefs:root=NOTIFICATIONS_ID&path=SCHEDULED_DELIVERY_ID`
+- Основные: `prefs:root=General`
+- Основные → VPN и управление устройством: `prefs:root=General&path=ManagedConfigurationList`
+- Основные → AppleCare и гарантия: `prefs:root=General&path=COVERAGE/`
+- Основные → Автозаполнение и пароли: `prefs:root=General&path=AUTOFILL`
+- Основные → Автозаполнение и пароли → Автозаполнение паролей: `prefs:root=General&path=AUTOFILL#AUTOFILL`
+- Основные → Автозаполнение и пароли → Удалить ненужные коды проверки: `prefs:root=General&path=AUTOFILL#CLEAN_UP_VERIFICATION_CODES`
+- Основные → Автозаполнение и пароли → Настроить коды проверки: `prefs:root=General&path=AUTOFILL#SET_UP_VERIFICATION_CODES`
+- Основные → Хранилище: `prefs:root=General&path=STORAGE_MGMT`
+- Основные → Хранилище → Хранилище: `prefs:root=General&path=STORAGE_MGMT#MANAGE`
+- Основные → Хранилище → Сгружать неиспользуемые: `prefs:root=General&path=STORAGE_MGMT#OFFLOAD`
+- Основные → Обновление ПО: `prefs:root=General&path=SOFTWARE_UPDATE_LINK`
+- Основные → Обновление ПО → Автообновление: `prefs:root=General&path=SOFTWARE_UPDATE_LINK/SUAutomaticUpdateButton`
+- Основные → Клавиатура: `prefs:root=General&path=Keyboard`
+- Основные → Клавиатура → Клавиатуры: `prefs:root=General&path=Keyboard/KEYBOARDS`
+- Основные → Клавиатура → Замена текста: `prefs:root=General&path=Keyboard/USER_DICTIONARY`
+- Основные → Клавиатура → Автопрописные: `prefs:root=General&path=Keyboard#KeyboardAutocapitalization`
+- Основные → Клавиатура → Автокоррекция: `prefs:root=General&path=Keyboard#KeyboardAutocorrection`
+- Основные → Клавиатура → Проверять правописание: `prefs:root=General&path=Keyboard#KeyboardCheckSpelling`
+- Основные → Клавиатура → Использование Caps Lock: `prefs:root=General&path=Keyboard#KeyboardCapsLock`
+- Основные → Клавиатура → Быстрые команды: `prefs:root=General&path=Keyboard#KeyboardAssistant`
+- Основные → Клавиатура → Предиктивный набор: `prefs:root=General&path=Keyboard#KeyboardPrediction`
+- Основные → Клавиатура → Смарт-пунктуация: `prefs:root=General&path=Keyboard#SmartTyping`
+- Основные → Клавиатура → Разделенная клавиатура: `prefs:root=General&path=Keyboard#RivenKeyboard`
+- Основные → Клавиатура → Включить чиркание клавиш: `prefs:root=General&path=Keyboard#GesturesEnabled`
+- Основные → Клавиатура → Просмотр символов: `prefs:root=General&path=Keyboard#KeyboardAllowPaddle`
+- Основные → Клавиатура → Быстрая клавиша «.»: `prefs:root=General&path=Keyboard#KeyboardPeriodShortcut`
+- Основные → Клавиатура → Проведение для набора: `prefs:root=General&path=Keyboard#KeyboardContinuousPathEnabled`
+- Основные → Клавиатура → Включить Диктовку: `prefs:root=General&path=Keyboard#Dictation`
+- Основные → Клавиатура → Автопунктуация: `prefs:root=General&path=Keyboard#AutoPunctuationSetting`
+- Основные → Язык и регион: `prefs:root=General&path=INTERNATIONAL`
+- Основные → Язык и регион → Другие языки…: `prefs:root=General&path=INTERNATIONAL#NEW_PREFERRED_LANGUAGE`
+- Основные → Язык и регион → Предпочитаемый порядок языков: `prefs:root=General&path=INTERNATIONAL#PREFERRED_LANGUAGE_GROUP`
+- Основные → Язык и регион → Добавить язык…: `prefs:root=General&path=INTERNATIONAL#ADD_PREFERRED_LANGUAGE`
+- Основные → Язык и регион → Регион: `prefs:root=General&path=INTERNATIONAL/LOCALE`
+- Основные → Язык и регион → Цифры: `prefs:root=General&path=INTERNATIONAL/NUMBERING_SYSTEM`
+- Основные → Язык и регион → Календарь: `prefs:root=General&path=INTERNATIONAL/CALENDAR`
+- Основные → Язык и регион → Единицы температуры: `prefs:root=General&path=INTERNATIONAL/TEMPERATURE_UNIT`
+- Основные → Словарь: `prefs:root=General&path=DICTIONARY`
+- Основные → Картинка в картинке: `prefs:root=General&path=PiP_SPEC`
+- Основные → Трекпад: `prefs:root=General&path=POINTERS`
+- Основные → NFC: `prefs:root=General&path=NFC_LINK`
+- Основные → VPN: `prefs:root=General&path=VPN`
+- Основные → CarPlay: `prefs:root=General&path=CARPLAY`
+- Основные → Об этом устройстве: `prefs:root=General&path=About`
+- Основные → Об этом устройстве → Сертификаты достоверны, Надежные сертификаты, Достоверные сертификаты, Trusted Certificates, Доверие сертификатам: `prefs:root=General&path=About/CERT_TRUST_SETTINGS`
+- Основные → Об этом устройстве → Серийный номер: `prefs:root=General&path=About#SerialNumber`
+- Основные → Об этом устройстве → Номер модели: `prefs:root=General&path=About#ProductModel`
+- Основные → Об этом устройстве → Название модели: `prefs:root=General&path=About#ProductModelName`
+- Основные → Об этом устройстве → Версия iOS: `prefs:root=General&path=About/SW_VERSION_SPECIFIER`
+- Основные → Правовая информация: `prefs:root=General&path=LEGAL_AND_REGULATORY`
+- Основные → Правовая информация → Гарантия: `prefs:root=General&path=LEGAL_AND_REGULATORY#Warranty`
+- Основные → AirDrop: `prefs:root=General&path=AIRDROP_LINK`
+- Основные → AirDrop → Устройства рядом друг с другом: `prefs:root=General&path=AIRDROP_LINK#AIRDROP_NFC_ID`
+- Основные → Кнопка «Домой»: `prefs:root=General&path=HOME_BUTTON`
+- Основные → Боковой переключатель: `prefs:root=General#Rotation_Switch_Action_Group`
+- Основные → Обновление контента: `prefs:root=General&path=AUTO_CONTENT_DOWNLOAD`
+- Основные → Дата и время: `prefs:root=General&path=DATE_AND_TIME`
+- Основные → ТВ-выход: `prefs:root=General&path=TV_OUT`
+- Основные → Сброс: `prefs:root=General&path=Reset`
+- Основные → Сброс → Сбросить все настройки: `prefs:root=General&path=Reset#settingsErase`
+- Основные → Сброс → Стереть контент и настройки: `prefs:root=General&path=Reset#fullErase`
+- Основные → Сброс → Сбросить настройки сети: `prefs:root=General&path=Reset#RESET_NETWORK_LABEL`
+- Основные → Сброс → Удалить все тарифы сотовых данных: `prefs:root=General&path=Reset#cellularErase`
+- Основные → Сброс → Службы абонента: `prefs:root=General&path=Reset#SUBSCRIBER_SERVICES_ID`
+- Основные → Сброс → Сбросить словарь клавиатуры: `prefs:root=General&path=Reset#RESET_KEYBOARD_DICTIONARY_LABEL`
+- Основные → Сброс → Сбросить настройки «Домой»: `prefs:root=General&path=Reset#RESET_ICONS_LABEL`
+- Основные → Сброс → Сбросить геонастройки: `prefs:root=General&path=Reset#RESET_PRIVACY_LABEL`
+- Основные → Выключить: `prefs:root=General#SHUTDOWN_LABEL`
+- Основные → AirPlay и Непрерывность: `prefs:root=General&path=CONTINUITY_SPEC`
+- Основные → AirPlay и Непрерывность → Handoff: `prefs:root=General&path=CONTINUITY_SPEC#CONTINUITY`
+- Основные → AirPlay и Непрерывность → Перенос на HomePod: `prefs:root=General&path=CONTINUITY_SPEC#TRANSFER_TO_HOMEPOD`
+- Основные → AirPlay и Непрерывность → Авто‑AirPlay: `prefs:root=General&path=CONTINUITY_SPEC#AUTOMATICALLY_AIRPLAY`
+- Основные → AirPlay и Непрерывность → Непрерывная камера: `prefs:root=General&path=CONTINUITY_SPEC#WOMBAT_CAMERA`
+- Wallet и Apple Pay: `prefs:root=PASSBOOK`
+- Wallet и Apple Pay → Apple Cash: `prefs:root=PASSBOOK#Apple%C2%A0Cash`
+- Wallet и Apple Pay → Платежные карты: `prefs:root=PASSBOOK#SETTINGS_PAYMENT_CARDS_GROUP`
+- Wallet и Apple Pay → Добавить карту: `prefs:root=PASSBOOK#Add%20Card`
+- Wallet и Apple Pay → Двойное нажатие боковой кнопки: `prefs:root=PASSBOOK#Double-Click%20Side%20Button`
+- Wallet и Apple Pay → Отслеживание заказа: `prefs:root=PASSBOOK#ORDER_TRACKING`
+- Дневник: `prefs:root=JOURNAL`
+- Ожидание: `prefs:root=AMBIENT`
+- Погода: `prefs:root=WEATHER`
+- Аккаунт Apple: `prefs:root=APPLE_ACCOUNT` or `settings-navigation://com.apple.Settings.AppleAccount`
+- Аккаунт Apple → iCloud: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE` or `prefs:root=CASTLE`
+- Аккаунт Apple → iCloud → Хранилище iCloud: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/STORAGE_AND_BACKUP` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/STORAGE_AND_BACKUP` or `prefs:root=CASTLE&path=STORAGE_AND_BACKUP`
+- Аккаунт Apple → iCloud → iCloud Drive: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity` or `prefs:root=CASTLE&path=com.apple.Dataclass.Ubiquity`
+- Аккаунт Apple → iCloud → Фото: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.MediaStream` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.MediaStream` or `prefs:root=CASTLE&path=com.apple.Dataclass.MediaStream`
+- Аккаунт Apple → iCloud → Почта: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Mail` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail` or `prefs:root=CASTLE&path=com.apple.Dataclass.Mail`
+- Аккаунт Apple → iCloud → Почта → Пользовательский домен электронной почты: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Mail/BYOD_SETTING_SPECIFIER_ID` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/BYOD_SETTING_SPECIFIER_ID` or `prefs:root=CASTLE&path=com.apple.Dataclass.Mail/BYOD_SETTING_SPECIFIER_ID`
+- Аккаунт Apple → iCloud → Контакты: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Contacts` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Contacts` or `prefs:root=CASTLE&path=com.apple.Dataclass.Contacts`
+- Аккаунт Apple → iCloud → Календарь: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Calendars` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Calendars` or `prefs:root=CASTLE&path=com.apple.Dataclass.Calendars`
+- Аккаунт Apple → iCloud → Напоминания: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Reminders` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Reminders` or `prefs:root=CASTLE&path=com.apple.Dataclass.Reminders`
+- Аккаунт Apple → iCloud → Safari: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks` or `prefs:root=CASTLE&path=com.apple.Dataclass.Bookmarks`
+- Аккаунт Apple → iCloud → Заметки: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Notes` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Notes` or `prefs:root=CASTLE&path=com.apple.Dataclass.Notes`
+- Аккаунт Apple → iCloud → Новости: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.News` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.News` or `prefs:root=CASTLE&path=com.apple.Dataclass.News`
+- Аккаунт Apple → iCloud → Резервная копия: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/BACKUP` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/BACKUP` or `prefs:root=CASTLE&path=BACKUP`
+- Аккаунт Apple → iCloud → Здоровье: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Health` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Health` or `prefs:root=CASTLE&path=com.apple.Dataclass.Health`
+- Аккаунт Apple → iCloud → Пароли и связка ключей: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync` or `prefs:root=CASTLE&path=com.apple.Dataclass.KeychainSync`
+- Аккаунт Apple → iCloud → Скрыть e‑mail: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE` or `prefs:root=CASTLE&path=PRIVATE_EMAIL_MANAGE`
+- Аккаунт Apple → Поделиться геопозицией: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING` or `settings-navigation://com.apple.Settings.AppleAccount/LOCATION_SHARING`
+- Аккаунт Apple → Поделиться геопозицией → Локатор: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING/FindMyDevice-Settings` or `settings-navigation://com.apple.Settings.AppleAccount/LOCATION_SHARING/FindMyDevice-Settings`
+- Аккаунт Apple → Имя, номера телефонов, e-mail: `prefs:root=APPLE_ACCOUNT&path=APPLE_ACCOUNT_CONTACT` or `settings-navigation://com.apple.Settings.AppleAccount/APPLE_ACCOUNT_CONTACT`
+- Аккаунт Apple → Пароль и безопасность: `prefs:root=APPLE_ACCOUNT&path=PASSWORD_AND_SECURITY` or `settings-navigation://com.apple.Settings.AppleAccount/PASSWORD_AND_SECURITY`
+- Аккаунт Apple → Оплата и доставка: `prefs:root=APPLE_ACCOUNT&path=PAYMENT_AND_SHIPPING` or `settings-navigation://com.apple.Settings.AppleAccount/PAYMENT_AND_SHIPPING`
+- Аккаунт Apple → Подписки: `prefs:root=APPLE_ACCOUNT&path=SUBSCRIPTIONS` or `settings-navigation://com.apple.Settings.AppleAccount/SUBSCRIPTIONS`
+- Аккаунт Apple → Семья: `prefs:root=APPLE_ACCOUNT&path=Family` or `settings-navigation://com.apple.Settings.AppleAccount/Family`
+- Аккаунт Apple → Проверка ключа контакта: `prefs:root=APPLE_ACCOUNT&path=TRANSPARENCY` or `settings-navigation://com.apple.Settings.AppleAccount/TRANSPARENCY`
+- Карты: `prefs:root=MAPS`
+- Карты → Индекс качества воздуха: `prefs:root=MAPS#AirQualityPreferenceID`
+- Карты → Всегда на русском: `prefs:root=MAPS#LabelLanguageAlwaysUIPreferenceID`
+- Карты → Велосипед: `prefs:root=MAPS&path=CyclingLinkPreferenceID`
+- Карты → Предпочитаемый вид передвижения: `prefs:root=MAPS#TransportTypePreferenceGroupID`
+- Карты → Автомобиль: `prefs:root=MAPS&path=DrivingLinkPreferenceID`
+- Карты → Голосовые инструкции: `prefs:root=MAPS&path=NavigationGuidanceLinkPreferenceID`
+- Карты → Показ места парковки: `prefs:root=MAPS#ParkedCarPreferenceID`
+- Карты → Сообщить о прибытии: `prefs:root=MAPS#ShareETAPreferenceID`
+- Карты → Общественный транспорт: `prefs:root=MAPS&path=TransitLinkPreferenceID`
+- Карты → Пешком: `prefs:root=MAPS&path=WalkingLinkPreferenceID`
+- Карты → Погодные условия: `prefs:root=MAPS#WeatherConditionsPreferenceID`
+- Экранное время: `prefs:root=SCREEN_TIME`
+- Экранное время → See All App & Website Activity: `prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY`
+- Экранное время → See All App & Website Activity → Сегодня: `prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY#DAY`
+- Экранное время → See All App & Website Activity → Неделя: `prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY#WEEK`
+- Экранное время → В покое: `prefs:root=SCREEN_TIME&path=DOWNTIME`
+- Экранное время → Лимиты приложений: `prefs:root=SCREEN_TIME&path=APP_LIMITS`
+- Экранное время → Ограничения общения: `prefs:root=SCREEN_TIME&path=COMMUNICATION_LIMITS`
+- Экранное время → Безопасность общения: `prefs:root=SCREEN_TIME&path=COMMUNICATION_SAFETY`
+- Экранное время → Разрешенные всегда: `prefs:root=SCREEN_TIME&path=ALWAYS_ALLOWED`
+- Экранное время → Контент и конфиденциальность: `prefs:root=SCREEN_TIME&path=CONTENT_PRIVACY`
+- Экранное время → Родительский контроль: `prefs:root=SCREEN_TIME#FAMILY`
+- Экранное время → Расстояние до экрана: `prefs:root=SCREEN_TIME&path=EYE_DISTANCE`
+- Freeform: `prefs:root=FREEFORM`
+- Фокусирование: `prefs:root=DO_NOT_DISTURB`
+- Фокусирование → Статус фокусирования: `prefs:root=DO_NOT_DISTURB&path=status`
+- Оформление: `prefs:root=DISPLAY`
+- Оформление → Оформление: `prefs:root=DISPLAY#DEVICE_APPEARANCE`
+- Оформление → True Tone: `prefs:root=DISPLAY#WHITE_BALANCE`
+- Оформление → Night Shift: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION`
+- Оформление → Night Shift → Запланировано: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#SCHEDULED`
+- Оформление → Night Shift → Включить вручную до завтра: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#MANUAL`
+- Оформление → Night Shift → Температура цвета: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#COLOR_TEMPERATURE`
+- Оформление → Автоблокировка: `prefs:root=DISPLAY&path=AUTOLOCK`
+- Оформление → Поднятие для активации: `prefs:root=DISPLAY#RAISE_TO_WAKE`
+- Оформление → Блокировка и разблокировка: `prefs:root=DISPLAY#SMART_CASE_LOCK_SPEC`
+- Оформление → Размер текста: `prefs:root=DISPLAY&path=TEXT_SIZE`
+- Оформление → Жирный шрифт: `prefs:root=DISPLAY#BOLD_TEXT`
+- Оформление → Яркость: `prefs:root=DISPLAY#BRIGHTNESS`
+- Оформление → Масштаб: `prefs:root=DISPLAY#DISPLAY_ZOOM_GROUP`
+- Оформление → Оформление: `prefs:root=DISPLAY&path=APPEARANCE`
+- Оформление → Оформление → Окно: `prefs:root=DISPLAY&path=APPEARANCE#WINDOW_ZOOM`
+- Оформление → Оформление → Увеличение окна двумя руками: `prefs:root=DISPLAY&path=APPEARANCE#TWO_HANDED_WINDOW_ZOOM`
+- Оформление → Вид: `prefs:root=DISPLAY&path=MAGNIFY`
+- Оформление → Экран всегда включен: `prefs:root=DISPLAY&path=ALWAYS_ON`
+- Оформление → Экран всегда включен → Экран всегда включен: `prefs:root=DISPLAY&path=ALWAYS_ON#ALWAYS_ON`
+- Оформление → Совместимые приложения: `prefs:root=DISPLAY&path=COMPATIBLE_APPEARANCE`
+- Оформление → Совместимые приложения → Темное, светлое: `prefs:root=DISPLAY&path=COMPATIBLE_APPEARANCE#COMPATIBLE_APPEARANCE_CHOICES`
+- Экран «Домой»: `prefs:root=HOME_SCREEN`
+- Экран «Домой» → Недавно загруженные приложения: `prefs:root=HOME_SCREEN&path=APP_DOWNLOADS_GO_TO`
+- Экран «Домой» → Значки уведомлений: `prefs:root=HOME_SCREEN#BADGES_IN_APP_LIBRARY`
+- Экран «Домой» и библиотека приложений: `prefs:root=HOME_SCREEN_DOCK`
+- Экран «Домой» и библиотека приложений → Недавно загруженные приложения: `prefs:root=HOME_SCREEN_DOCK&path=APP_DOWNLOADS_GO_TO`
+- Экран «Домой» и библиотека приложений → Dock: `prefs:root=HOME_SCREEN_DOCK&path=MULTITASKING_DOCK`
+- Экран «Домой» и библиотека приложений → Dock → Показ библиотеки приложений в Dock: `prefs:root=HOME_SCREEN_DOCK&path=MULTITASKING_DOCK#SHOW_APP_LIBRARY`
+- Экран «Домой» и библиотека приложений → Недавние и предложенные приложения в Dock: `prefs:root=HOME_SCREEN_DOCK#ALLOW_RECENTS`
+- Экран «Домой» и библиотека приложений → Постановщик: `prefs:root=HOME_SCREEN_DOCK&path=CONTINUOUS-EXPOSE`
+- Multitasking & Gestures: `prefs:root=com.apple.MultitaskingAndGesturesSettings`
+- Multitasking & Gestures → Многозадачность: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Multitasking`
+- Multitasking & Gestures → Многозадачность → Допуск нескольких приложений: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Multitasking#MultipleApps`
+- Multitasking & Gestures → Многозадачность → Режимы Split View и Slide Over: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Multitasking#SplitViewSlideOver`
+- Multitasking & Gestures → Многозадачность → Повтор экрана: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Multitasking#ScreenMirroring`
+- Multitasking & Gestures → Многозадачность → Постановщик: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Multitasking#StageManager`
+- Multitasking & Gestures → Многозадачность → Показывать недавние приложения в Постановщике: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Multitasking#StageManagerRecentApps`
+- Multitasking & Gestures → Многозадачность → Показывать Dock в Постановщике: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Multitasking#StageManagerDock`
+- Multitasking & Gestures → Картинка в картинке: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=PictureInPicture`
+- Multitasking & Gestures → Удобные жесты: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Productivity`
+- Multitasking & Gestures → Удобные жесты → Жесты: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Productivity#Gestures`
+- Multitasking & Gestures → Удобные жесты → Удобные жесты: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Productivity#ProductivityGestures`
+- Multitasking & Gestures → Жесты четырьмя и пятью пальцами: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=FourAndFiveFingers`
+- Multitasking & Gestures → Встряхивание для отмены: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=ShakeToUndo`
+- Multitasking & Gestures → Жесты, начинаемые из угла: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=CornerGestures`
+- Универсальный доступ: `prefs:root=ACCESSIBILITY`
+- Универсальный доступ → VoiceOver: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE`
+- Универсальный доступ → VoiceOver → Руководство по VoiceOver: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#VoiceOverTouchTutorialEnabled`
+- Универсальный доступ → VoiceOver → Скорость речи: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#SpeakingRateSlider`
+- Универсальный доступ → VoiceOver → Речь: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Voices`
+- Универсальный доступ → VoiceOver → Речь → Произношение: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Voices/PRONUNCIATION_DICTIONARY`
+- Универсальный доступ → VoiceOver → Речь → Произношение → Произношение: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Voices/PRONUNCIATION_DICTIONARY#PRONUNCIATION_DICTIONARY`
+- Универсальный доступ → VoiceOver → Речь → Изменение высоты тона: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Voices#PITCH_CHANGES_TITLE`
+- Универсальный доступ → VoiceOver → Речь → Добавить голос в ротор…: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Voices#ADD_NEW_VOICE`
+- Универсальный доступ → VoiceOver → Речь → Обнаружение языка: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Voices#LANGUAGE_DETECTION`
+- Универсальный доступ → VoiceOver → Речь → Пространственная речь: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Voices#SPATIALIZE_SPEECH`
+- Универсальный доступ → VoiceOver → Детализация: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity`
+- Универсальный доступ → VoiceOver → Детализация → Детализация: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#Verbosity`
+- Универсальный доступ → VoiceOver → Детализация → Пунктуация: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup`
+- Универсальный доступ → VoiceOver → Детализация → Пунктуация → Пунктуация: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup#voiceOverPunctuationGroup`
+- Универсальный доступ → VoiceOver → Детализация → Пунктуация → Активная группа пунктуации: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup#voiceOverActivePunctuationGroup`
+- Универсальный доступ → VoiceOver → Детализация → Пунктуация → Все: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup#all`
+- Универсальный доступ → VoiceOver → Детализация → Пунктуация → Некоторые: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup#AXSSVoiceOverPunctuationGroupSome`
+- Универсальный доступ → VoiceOver → Детализация → Пунктуация → Не выбрано: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup#PunctuationGroupNone`
+- Универсальный доступ → VoiceOver → Детализация → Пунктуация → Добавить группу пунктуации: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup/NewPunctuation`
+- Универсальный доступ → VoiceOver → Детализация → Пунктуация → Добавить группу пунктуации → Добавить группу пунктуации: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup/NewPunctuation#NewPunctuation`
+- Универсальный доступ → VoiceOver → Детализация → Пунктуация → Импортировать: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup/ImportPunctuation`
+- Универсальный доступ → VoiceOver → Детализация → Пунктуация → Импортировать → Импортировать: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup/ImportPunctuation#ImportPunctuation`
+- Универсальный доступ → VoiceOver → Детализация → Подсказки: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#HINTS_TITLE`
+- Универсальный доступ → VoiceOver → Детализация → Системные уведомления: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/SystemNotifications`
+- Универсальный доступ → VoiceOver → Детализация → Системные уведомления → Системные уведомления: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/SystemNotifications#SystemNotifications`
+- Универсальный доступ → VoiceOver → Детализация → Системные уведомления → Уведомления при заблокированном экране: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/SystemNotifications#LockScreenNotifications`
+- Универсальный доступ → VoiceOver → Детализация → Системные уведомления → Баннеры уведомлений: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/SystemNotifications#BannerNotifications`
+- Универсальный доступ → VoiceOver → Детализация → Системные уведомления → Использование Бесшумного режима: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/SystemNotifications#NOTIFICATION_USE_RINGER_SWITCH`
+- Универсальный доступ → VoiceOver → Детализация → Объявления QuickNav: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverQuickNavAnnouncementFeedback`
+- Универсальный доступ → VoiceOver → Детализация → Объявления QuickNav → Объявления QuickNav: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverQuickNavAnnouncementFeedback#voiceOverQuickNavAnnouncementFeedback`
+- Универсальный доступ → VoiceOver → Детализация → Уведомления о фонарике: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverFlashlightNotificationsEnabled`
+- Универсальный доступ → VoiceOver → Детализация → Уведомления о фонарике → Уведомления о фонарике: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverFlashlightNotificationsEnabled#voiceOverFlashlightNotificationsEnabled`
+- Универсальный доступ → VoiceOver → Детализация → Прописные буквы: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverCapitalLetterFeedback`
+- Универсальный доступ → VoiceOver → Детализация → Прописные буквы → Прописные буквы: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverCapitalLetterFeedback#voiceOverCapitalLetterFeedback`
+- Универсальный доступ → VoiceOver → Детализация → Удаление текста: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverDeletionFeedback`
+- Универсальный доступ → VoiceOver → Детализация → Удаление текста → Удаление текста: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverDeletionFeedback#voiceOverDeletionFeedback`
+- Универсальный доступ → VoiceOver → Детализация → Ссылки: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverLinkFeedback`
+- Универсальный доступ → VoiceOver → Детализация → Ссылки → Ссылки: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverLinkFeedback#voiceOverLinkFeedback`
+- Универсальный доступ → VoiceOver → Детализация → Действия: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverActionsFeedback`
+- Универсальный доступ → VoiceOver → Детализация → Действия → Действия: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverActionsFeedback#voiceOverActionsFeedback`
+- Универсальный доступ → VoiceOver → Детализация → Больше содержимого: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMoreContentOutputFeedback`
+- Универсальный доступ → VoiceOver → Детализация → Больше содержимого → Больше содержимого: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMoreContentOutputFeedback#voiceOverMoreContentOutputFeedback`
+- Универсальный доступ → VoiceOver → Детализация → Описания контейнеров: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverContainerOutputFeedback`
+- Универсальный доступ → VoiceOver → Детализация → Описания контейнеров → Описания контейнеров: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverContainerOutputFeedback#voiceOverContainerOutputFeedback`
+- Универсальный доступ → VoiceOver → Детализация → Числа: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverNumberFeedback`
+- Универсальный доступ → VoiceOver → Детализация → Числа → Числа: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverNumberFeedback#voiceOverNumberFeedback`
+- Универсальный доступ → VoiceOver → Детализация → Отклик на предиктивный текст: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/PREDICTIVE_TEXT_FEEDBACK`
+- Универсальный доступ → VoiceOver → Детализация → Отклик на предиктивный текст → Отклик на предиктивный текст: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/PREDICTIVE_TEXT_FEEDBACK#PREDICTIVE_TEXT_FEEDBACK`
+- Универсальный доступ → VoiceOver → Детализация → Отклик на предиктивный текст → При появлении предиктивного текста: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/PREDICTIVE_TEXT_FEEDBACK/InlineTextCompletionAppearanceFeedback`
+- Универсальный доступ → VoiceOver → Детализация → Отклик на предиктивный текст → При появлении предиктивного текста → При появлении предиктивного текста: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/PREDICTIVE_TEXT_FEEDBACK/InlineTextCompletionAppearanceFeedback#InlineTextCompletionAppearanceFeedback`
+- Универсальный доступ → VoiceOver → Детализация → Отклик на предиктивный текст → При вводе отклика на предиктивный текст: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/PREDICTIVE_TEXT_FEEDBACK/InlineTextCompletionInsertionFeedback`
+- Универсальный доступ → VoiceOver → Детализация → Отклик на предиктивный текст → При вводе отклика на предиктивный текст → При вводе отклика на предиктивный текст: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/PREDICTIVE_TEXT_FEEDBACK/InlineTextCompletionInsertionFeedback#InlineTextCompletionInsertionFeedback`
+- Универсальный доступ → VoiceOver → Детализация → Заголовки таблиц: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#speakTableHeader`
+- Универсальный доступ → VoiceOver → Детализация → Номера столбцов и строк: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#SPEAK_TABLE_ROW_COLUMN`
+- Универсальный доступ → VoiceOver → Детализация → Подтверждение вслух: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#ACTION_CONFIRMATION`
+- Универсальный доступ → VoiceOver → Детализация → Сводка веб‑ротора: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverRotorSummaryFeedback`
+- Универсальный доступ → VoiceOver → Детализация → Сводка веб‑ротора → Сводка веб‑ротора: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverRotorSummaryFeedback#voiceOverRotorSummaryFeedback`
+- Универсальный доступ → VoiceOver → Детализация → Эмодзи: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverEmojiFeedback`
+- Универсальный доступ → VoiceOver → Детализация → Эмодзи → Эмодзи: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverEmojiFeedback#voiceOverEmojiFeedback`
+- Универсальный доступ → VoiceOver → Детализация → Суффикс эмодзи: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#EMOJI_SUFFIX`
+- Универсальный доступ → VoiceOver → Детализация → Описания медиаматериалов: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions`
+- Универсальный доступ → VoiceOver → Детализация → Описания медиаматериалов → Описания медиаматериалов: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#voiceOverMediaDescriptions`
+- Универсальный доступ → VoiceOver → Детализация → Озвучивание для жестов: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#voiceOverInputFeedback`
+- Универсальный доступ → VoiceOver → Детализация → Отклик приложения при наведении: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#voiceOverAppHoverFeedback`
+- Универсальный доступ → VoiceOver → Брайль: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille`
+- Универсальный доступ → VoiceOver → Брайль → Брайль: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#Braille`
+- Универсальный доступ → VoiceOver → Брайль → Вывод: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput`
+- Универсальный доступ → VoiceOver → Брайль → Вывод → Вывод: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#BrailleDisplayOutput`
+- Универсальный доступ → VoiceOver → Брайль → Ввод: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput`
+- Универсальный доступ → VoiceOver → Брайль → Ввод → Ввод: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#BrailleDisplayInput`
+- Универсальный доступ → VoiceOver → Брайль → Сопоставление таблиц ввода и вывода: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BRAILLE_SYNC_TABLES`
+- Универсальный доступ → VoiceOver → Брайль → Ввод и вывод: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleDisplayOutput`
+- Универсальный доступ → VoiceOver → Брайль → Автоматический перевод: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#GRADE2_AUTO_TRANSLATE`
+- Универсальный доступ → VoiceOver → Брайль → Шрифт экрана Брайля: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput`
+- Универсальный доступ → VoiceOver → Брайль → Шрифт экрана Брайля → Шрифт экрана Брайля: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#BrailleGesturesInput`
+- Универсальный доступ → VoiceOver → Брайль → Шрифт экрана Брайля → Включать автоматически при редактировании текста: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#AUTO_ACTIVATE_ON_TEXT_FIELDS`
+- Универсальный доступ → VoiceOver → Брайль → Шрифт экрана Брайля → Обратное направление точек: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#SHOULD_REVERSE_DOTS`
+- Универсальный доступ → VoiceOver → Брайль → Шрифт экрана Брайля → Активно до закрытия пользователем: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#CONTROL_DEVICE_USING_BRAILLE_GESTURE`
+- Универсальный доступ → VoiceOver → Брайль → Шрифт экрана Брайля → Визуальный текстовый отклик: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#DISPLAY_ENTERED_TEXT`
+- Универсальный доступ → VoiceOver → Брайль → Шрифт экрана Брайля → Озвучивание при вводе: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#TYPING_FEEDBACK`
+- Универсальный доступ → VoiceOver → Брайль → Шрифт экрана Брайля → Звук: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#USE_TYPING_SOUND_FEEDBACK`
+- Универсальный доступ → VoiceOver → Брайль → Шрифт экрана Брайля → Звук: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#USE_HAPTIC_FEEDBACK`
+- Универсальный доступ → VoiceOver → Брайль → Шрифт экрана Брайля → Тип уведомлений: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#SOUND_OPTION`
+- Универсальный доступ → VoiceOver → Брайль → Шрифт экрана Брайля → Выберите таблицу Брайля: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#BSI_TABLES`
+- Универсальный доступ → VoiceOver → Брайль → Таблицы Брайля: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier`
+- Универсальный доступ → VoiceOver → Брайль → Таблицы Брайля → Таблицы Брайля: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier#tableIdentifier`
+- Универсальный доступ → VoiceOver → Брайль → Таблицы Брайля → Добавить таблицу Брайля…: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier/ADD_NEW_BRAILLE_LANGUAGE`
+- Универсальный доступ → VoiceOver → Брайль → Таблицы Брайля → Добавить таблицу Брайля… → Добавить таблицу Брайля…: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier/ADD_NEW_BRAILLE_LANGUAGE#ADD_NEW_BRAILLE_LANGUAGE`
+- Универсальный доступ → VoiceOver → Брайль → Ячейки состояния: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL`
+- Универсальный доступ → VoiceOver → Брайль → Ячейки состояния → Ячейки состояния: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL`
+- Универсальный доступ → VoiceOver → Брайль → Ячейки состояния → Положение ячеек состояния: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_POSITION`
+- Универсальный доступ → VoiceOver → Брайль → Ячейки состояния → Показать общий статус: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#StatusCellGeneral`
+- Универсальный доступ → VoiceOver → Брайль → Ячейки состояния → Показать статус текста: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#StatusCellTextStyle`
+- Универсальный доступ → VoiceOver → Брайль → Код Немета для уравнений: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#ALWAYS_USE_NEMETH`
+- Универсальный доступ → VoiceOver → Брайль → Показ экранной клавиатуры: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#SHOW_SW_KEYBOARD`
+- Универсальный доступ → VoiceOver → Брайль → Листание при прокрутке: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#AUTO_TURN_PAGES`
+- Универсальный доступ → VoiceOver → Брайль → Перенос слов: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#WORD_WRAP`
+- Универсальный доступ → VoiceOver → Брайль → Форматирование текста: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BRAILLE_FORMATTING`
+- Универсальный доступ → VoiceOver → Брайль → Показ предупреждений: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleAlertDisplayDuration`
+- Универсальный доступ → VoiceOver → Брайль → Показ предупреждений → Показ предупреждений: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleAlertDisplayDuration#voiceOverBrailleAlertDisplayDuration`
+- Универсальный доступ → VoiceOver → Брайль → Показ предупреждений → Показ предупреждений: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleAlertDisplayDuration#NumericalPreferenceSwitcherIdentifier`
+- Универсальный доступ → VoiceOver → Брайль → Показ предупреждений → Показывать до закрытия пользователем: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleAlertDisplayDuration#NumericalPreferenceInfiniteTimeDurationIdentifier`
+- Универсальный доступ → VoiceOver → Брайль → Без учета длительности аккорда: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleDebounceTimeout`
+- Универсальный доступ → VoiceOver → Брайль → Без учета длительности аккорда → Без учета длительности аккорда: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleDebounceTimeout/voiceOverBrailleDebounceTimeout`
+- Универсальный доступ → VoiceOver → Брайль → Длительность автопродвижения: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleAutoAdvance`
+- Универсальный доступ → VoiceOver → Брайль → Длительность автопродвижения → Длительность автопродвижения: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleAutoAdvance#voiceOverBrailleAutoAdvance`
+- Универсальный доступ → VoiceOver → Брайль → Экранирование звука: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#SOUND_CURTAIN`
+- Универсальный доступ → VoiceOver → Брайль → Bluetooth при запуске: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverAlwaysTurnOnBluetooth`
+- Универсальный доступ → VoiceOver → Брайль → Выбор дисплея Брайля: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#DEVICES`
+- Универсальный доступ → VoiceOver → Аудио: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio`
+- Универсальный доступ → VoiceOver → Аудио → Аудио: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#Audio`
+- Универсальный доступ → VoiceOver → Аудио → Звуки VoiceOver: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds`
+- Универсальный доступ → VoiceOver → Аудио → Звуки VoiceOver → Звуки VoiceOver: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSounds`
+- Универсальный доступ → VoiceOver → Аудио → Звуки VoiceOver → Звуки: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSSettingsItem.Sounds`
+- Универсальный доступ → VoiceOver → Аудио → Звуки VoiceOver → Взаимодействие: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSOutputEventCategory.Interaction`
+- Универсальный доступ → VoiceOver → Аудио → Звуки VoiceOver → Отзыв VoiceOver: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSOutputEventCategory.VoiceOverFeedback`
+- Универсальный доступ → VoiceOver → Аудио → Звуки VoiceOver → Отзыв о приложении: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSOutputEventCategory.AppFeedback`
+- Универсальный доступ → VoiceOver → Аудио → Звуки VoiceOver → Брайль: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSOutputEventCategory.Braille`
+- Универсальный доступ → VoiceOver → Аудио → Звуки VoiceOver → Правка текста: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSOutputEventCategory.TextEditing`
+- Универсальный доступ → VoiceOver → Аудио → Звуки VoiceOver → Система: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSOutputEventCategory.System`
+- Универсальный доступ → VoiceOver → Аудио → Приглушение аудио: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#AUDIO_DUCKING`
+- Универсальный доступ → VoiceOver → Аудио → Автовыбор динамика: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#ROUTE_TO_SPEAKER`
+- Универсальный доступ → VoiceOver → Аудио → Отправка на HDMI: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#ROUTE_TO_HDMI`
+- Универсальный доступ → VoiceOver → Команды: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands`
+- Универсальный доступ → VoiceOver → Команды → Команды: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands#CustomizeCommands`
+- Универсальный доступ → VoiceOver → Команды → Все команды: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/AllCommands`
+- Универсальный доступ → VoiceOver → Команды → Все команды → Все команды: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/AllCommands#AllCommands`
+- Универсальный доступ → VoiceOver → Команды → Ввод Брайля с клавиатуры: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/BrailleKeyboardInput`
+- Универсальный доступ → VoiceOver → Команды → Ввод Брайля с клавиатуры → Ввод Брайля с клавиатуры: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/BrailleKeyboardInput#BrailleKeyboardInput`
+- Универсальный доступ → VoiceOver → Команды → Жесты касанием: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/TouchGestures`
+- Универсальный доступ → VoiceOver → Команды → Жесты касанием → Жесты касанием: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/TouchGestures#TouchGestures`
+- Универсальный доступ → VoiceOver → Команды → Сочетания клавиш: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/KeyboardShortcuts`
+- Универсальный доступ → VoiceOver → Команды → Сочетания клавиш → Сочетания клавиш: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/KeyboardShortcuts#KeyboardShortcuts`
+- Универсальный доступ → VoiceOver → Команды → Рукописный ввод: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/Handwriting`
+- Универсальный доступ → VoiceOver → Команды → Рукописный ввод → Рукописный ввод: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/Handwriting#Handwriting`
+- Универсальный доступ → VoiceOver → Команды → Шрифт экрана Брайля: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/BrailleScreenInput`
+- Универсальный доступ → VoiceOver → Команды → Шрифт экрана Брайля → Шрифт экрана Брайля: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/BrailleScreenInput#BrailleScreenInput`
+- Универсальный доступ → VoiceOver → Команды → Сбросить команды VoiceOver: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands#ResetVoiceOverCommands`
+- Универсальный доступ → VoiceOver → Команды → Сменить руку для жестов: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands#SWITCH_GESTURE_HANDEDNESS`
+- Универсальный доступ → VoiceOver → Действия: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/activities`
+- Универсальный доступ → VoiceOver → Действия → Действия: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/activities#activities`
+- Универсальный доступ → VoiceOver → Действия → Программирование: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/activities/Programming`
+- Универсальный доступ → VoiceOver → Действия → Программирование → Программирование: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/activities/Programming#Programming`
+- Универсальный доступ → VoiceOver → Действия → Добавить действие…: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/activities/New`
+- Универсальный доступ → VoiceOver → Действия → Добавить действие… → Добавить действие…: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/activities/New#New`
+- Универсальный доступ → VoiceOver → Ротор: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions`
+- Универсальный доступ → VoiceOver → Ротор → Ротор: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#RotorActions`
+- Универсальный доступ → VoiceOver → Ротор → Объекты ротора: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions/WebRotor`
+- Универсальный доступ → VoiceOver → Ротор → Объекты ротора → Объекты ротора: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions/WebRotor#WebRotor`
+- Универсальный доступ → VoiceOver → Ротор → Изменение ротора с объектом: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#STICKY_ROTOR_TITLE`
+- Универсальный доступ → VoiceOver → Ротор → ПО на экране «Домой»: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#editApps`
+- Универсальный доступ → VoiceOver → Ротор → Прямое касание в приложениях: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions/apps`
+- Универсальный доступ → VoiceOver → Ротор → Прямое касание в приложениях → Прямое касание в приложениях: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions/apps#apps`
+- Универсальный доступ → VoiceOver → Ввод текста: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions`
+- Универсальный доступ → VoiceOver → Ввод текста → Ввод текста: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#TypingOptions`
+- Универсальный доступ → VoiceOver → Ввод текста → Стиль ввода: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_MODE_TITLE`
+- Универсальный доступ → VoiceOver → Ввод текста → Стиль ввода → Стиль ввода: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_MODE_TITLE#TYPING_MODE_TITLE`
+- Универсальный доступ → VoiceOver → Ввод текста → Проговаривание: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE`
+- Универсальный доступ → VoiceOver → Ввод текста → Проговаривание → Проговаривание: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_TITLE`
+- Универсальный доступ → VoiceOver → Ввод текста → Озвучивание при вводе: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_FEEDBACK`
+- Универсальный доступ → VoiceOver → Ввод текста → Озвучивание при вводе → Озвучивание при вводе: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_FEEDBACK#TYPING_FEEDBACK`
+- Универсальный доступ → VoiceOver → Ввод текста → Клавиши модификации: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS`
+- Универсальный доступ → VoiceOver → Ввод текста → Клавиши модификации → Клавиши модификации: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS#MODIFIER_KEYS`
+- Универсальный доступ → VoiceOver → Ввод текста → Время до использования клавиатуры: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/KEYBOARD_TIMING_TIMEOUT`
+- Универсальный доступ → VoiceOver → Ввод текста → Время до использования клавиатуры → Время до использования клавиатуры: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/KEYBOARD_TIMING_TIMEOUT#KEYBOARD_TIMING_TIMEOUT`
+- Универсальный доступ → VoiceOver → Навигация по фото: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages`
+- Универсальный доступ → VoiceOver → Навигация по фото → Навигация по фото: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#IncludeUnlabeledImages`
+- Универсальный доступ → VoiceOver → Крупный курсор: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CursorStyle`
+- Универсальный доступ → VoiceOver → Панель субтитров: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CaptionPanel`
+- Универсальный доступ → VoiceOver → Ожидание 2‑го касания: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/DOUBLE_TAP_INTERVAL_TITLE`
+- Универсальный доступ → VoiceOver → Ожидание 2‑го касания → Ожидание 2‑го касания: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/DOUBLE_TAP_INTERVAL_TITLE#NumericalPreferencePickerGroupIdentifier`
+- Универсальный доступ → VoiceOver → Стиль навигации: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NavigationStyle`
+- Универсальный доступ → VoiceOver → Стиль навигации → Стиль навигации: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NavigationStyle#NavigationStyle`
+- Универсальный доступ → VoiceOver → Быстрые настройки: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings`
+- Универсальный доступ → VoiceOver → Быстрые настройки → Быстрые настройки: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#QuickSettings`
+- Универсальный доступ → VoiceOver → Распознавание VoiceOver: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver`
+- Универсальный доступ → VoiceOver → Распознавание VoiceOver → Распознавание VoiceOver: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver#NeuralVoiceOver`
+- Универсальный доступ → VoiceOver → Распознавание VoiceOver → Описания изображений: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_IMAGE_DESCRIPTIONS`
+- Универсальный доступ → VoiceOver → Распознавание VoiceOver → Описания изображений → Описания изображений: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_IMAGE_DESCRIPTIONS#VO_IMAGE_DESCRIPTIONS`
+- Универсальный доступ → VoiceOver → Распознавание VoiceOver → Описания изображений → Обнаружен откровенный контент: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_IMAGE_DESCRIPTIONS#SensitiveContentGroup`
+- Универсальный доступ → VoiceOver → Распознавание VoiceOver → Описания изображений → Дополнительные языки: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_IMAGE_DESCRIPTIONS/AdditionalLanguages`
+- Универсальный доступ → VoiceOver → Распознавание VoiceOver → Описания изображений → Дополнительные языки → Дополнительные языки: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_IMAGE_DESCRIPTIONS/AdditionalLanguages#AdditionalLanguages`
+- Универсальный доступ → VoiceOver → Распознавание VoiceOver → Описания изображений → Применить к ПО: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_IMAGE_DESCRIPTIONS/apps`
+- Универсальный доступ → VoiceOver → Распознавание VoiceOver → Описания изображений → Применить к ПО → Применить к ПО: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_IMAGE_DESCRIPTIONS/apps#apps`
+- Универсальный доступ → VoiceOver → Распознавание VoiceOver → Распознавание экрана: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_SCREEN_RECOGNITION`
+- Универсальный доступ → VoiceOver → Распознавание VoiceOver → Распознавание экрана → Распознавание экрана: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_SCREEN_RECOGNITION#VO_SCREEN_RECOGNITION`
+- Универсальный доступ → VoiceOver → Распознавание VoiceOver → Распознавание экрана → Применить к ПО: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_SCREEN_RECOGNITION/apps`
+- Универсальный доступ → VoiceOver → Распознавание VoiceOver → Распознавание экрана → Применить к ПО → Применить к ПО: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_SCREEN_RECOGNITION/apps#apps`
+- Универсальный доступ → VoiceOver → Распознавание VoiceOver → Распознавание текста: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver#VO_OCR`
+- Универсальный доступ → VoiceOver → Распознавание VoiceOver → Реакция: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_FEEDBACK`
+- Универсальный доступ → VoiceOver → Распознавание VoiceOver → Реакция → Реакция: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_FEEDBACK#VO_FEEDBACK`
+- Универсальный доступ → VoiceOver → Распознавание VoiceOver → Распознавание окружения: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_REAL_WORLD_DETECTION`
+- Универсальный доступ → VoiceOver → Задержка перед выбором: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#VoiceOverDelayUntilSpeak`
+- Универсальный доступ → VoiceOver → Ожидание 2‑го сведения: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#DOUBLE_TAP_INTERVAL`
+- Универсальный доступ → Увеличение: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE`
+- Универсальный доступ → Увеличение → Следование за фокусом: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomShouldFollowFocus`
+- Универсальный доступ → Увеличение → Смарт-ввод: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomAlwaysUseWindowZoomForTyping`
+- Универсальный доступ → Увеличение → Сочетания клавиш: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts`
+- Универсальный доступ → Увеличение → Сочетания клавиш → Сочетания клавиш: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomEnableKeyboardShortcuts`
+- Универсальный доступ → Увеличение → Сочетания клавиш → Настройка увеличения: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutAdjustZoomLevel`
+- Универсальный доступ → Увеличение → Сочетания клавиш → Включение или выключение увеличения: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutToggleZoom`
+- Универсальный доступ → Увеличение → Сочетания клавиш → Перенос окна увеличения: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutPanZoom`
+- Универсальный доступ → Увеличение → Сочетания клавиш → Изменение окна увеличения: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutResizeZoomWindow`
+- Универсальный доступ → Увеличение → Сочетания клавиш → Включение или выключение области увеличения: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutSwitchZoomMode`
+- Универсальный доступ → Увеличение → Сочетания клавиш → Временное включение или выключение увеличения: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutTempToggleZoom`
+- Универсальный доступ → Увеличение → Сочетания клавиш → Увеличение колесом прокрутки: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutScrollWheel`
+- Универсальный доступ → Увеличение → Использовать жест трекпада для увеличения: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomWithTrackpad`
+- Универсальный доступ → Увеличение → Контроллер увеличения: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug`
+- Универсальный доступ → Увеличение → Контроллер увеличения → Контроллер увеличения: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug#ZoomSlug`
+- Универсальный доступ → Увеличение → Контроллер увеличения → Показ контроллера: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug#ZOOM_DETACH_CONTROLS`
+- Универсальный доступ → Увеличение → Контроллер увеличения → Одно касание: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_CONTROLLER_ACTION_SINGLE_TAP`
+- Универсальный доступ → Увеличение → Контроллер увеличения → Одно касание → Одно касание: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_CONTROLLER_ACTION_SINGLE_TAP#ZOOM_CONTROLLER_ACTION_SINGLE_TAP`
+- Универсальный доступ → Увеличение → Контроллер увеличения → Двойное касание: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_CONTROLLER_ACTION_DOUBLE_TAP`
+- Универсальный доступ → Увеличение → Контроллер увеличения → Двойное касание → Двойное касание: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_CONTROLLER_ACTION_DOUBLE_TAP#ZOOM_CONTROLLER_ACTION_DOUBLE_TAP`
+- Универсальный доступ → Увеличение → Контроллер увеличения → Тройное касание: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_CONTROLLER_ACTION_TRIPLE_TAP`
+- Универсальный доступ → Увеличение → Контроллер увеличения → Тройное касание → Тройное касание: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_CONTROLLER_ACTION_TRIPLE_TAP#ZOOM_CONTROLLER_ACTION_TRIPLE_TAP`
+- Универсальный доступ → Увеличение → Контроллер увеличения → Настройка увеличения: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug#ZOOM_TAP_AND_SLIDE_TO_ADJUST_ZOOM_LEVEL`
+- Универсальный доступ → Увеличение → Контроллер увеличения → Цвет: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/CONTROLLER_COLOR`
+- Универсальный доступ → Увеличение → Контроллер увеличения → Цвет → Цвет: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/CONTROLLER_COLOR#CONTROLLER_COLOR`
+- Универсальный доступ → Увеличение → Контроллер увеличения → Непрозрачность в покое: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_IDLE_SLUG_OPACITY`
+- Универсальный доступ → Увеличение → Контроллер увеличения → Непрозрачность в покое → Непрозрачность в покое: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_IDLE_SLUG_OPACITY#ZOOM_IDLE_SLUG_OPACITY`
+- Универсальный доступ → Увеличение → Область увеличения: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode`
+- Универсальный доступ → Увеличение → Область увеличения → Область увеличения: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode#ZoomLensMode`
+- Универсальный доступ → Увеличение → Максимальное увеличение: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomPreferredMaxZoomLevel`
+- Универсальный доступ → Увеличение → Фильтр: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomFilter`
+- Универсальный доступ → Увеличение → Фильтр → Фильтр: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomFilter#ZoomFilter`
+- Универсальный доступ → Увеличение → Показ при видеоповторе: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomShowWhileMirroring`
+- Универсальный доступ → Увеличение → Обычно открывать увеличение: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomAsDefaultDial`
+- Универсальный доступ → Увеличение → Использование Digital Crown для увеличения: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomStealsCrownTurns`
+- Универсальный доступ → Увеличение → Цвет границы: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#MagnifyingGlassBorderColor`
+- Универсальный доступ → Увеличение текста под указателем: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE`
+- Универсальный доступ → Увеличение текста под указателем → Режим отображения: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextDisplayMode`
+- Универсальный доступ → Увеличение текста под указателем → Режим отображения → Режим отображения: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextDisplayMode#HoverTextDisplayMode`
+- Универсальный доступ → Увеличение текста под указателем → Скорость прокрутки: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextScrollSpeed`
+- Универсальный доступ → Увеличение текста под указателем → Скорость прокрутки → Скорость прокрутки: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextScrollSpeed#HoverTextScrollSpeed`
+- Универсальный доступ → Увеличение текста под указателем → Шрифт: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextStyle`
+- Универсальный доступ → Увеличение текста под указателем → Шрифт → Шрифт: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextStyle#HoverTextStyle`
+- Универсальный доступ → Увеличение текста под указателем → Размер: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextSize`
+- Универсальный доступ → Увеличение текста под указателем → Размер → Размер: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextSize#HoverTextSize`
+- Универсальный доступ → Увеличение текста под указателем → Цвета: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE#HOVER_TEXT_COLOR_OPTIONS`
+- Универсальный доступ → Увеличение текста под указателем → Модификатор активации: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextActivationModifier`
+- Универсальный доступ → Увеличение текста под указателем → Модификатор активации → Модификатор активации: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextActivationModifier#HoverTextActivationModifier`
+- Универсальный доступ → Увеличение текста под указателем → Блокировка активации: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE#HOVER_TEXT_ACTIVATION_LOCK`
+- Универсальный доступ → Клавиатуры и ввод текста: `prefs:root=ACCESSIBILITY&path=KEYBOARDS`
+- Универсальный доступ → Клавиатуры и ввод текста → Увеличение при вводе текста: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING`
+- Универсальный доступ → Клавиатуры и ввод текста → Увеличение при вводе текста → Режим отображения: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING/HoverTextTypingDisplayMode`
+- Универсальный доступ → Клавиатуры и ввод текста → Увеличение при вводе текста → Режим отображения → Режим отображения: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING/HoverTextTypingDisplayMode#HoverTextTypingDisplayMode`
+- Универсальный доступ → Клавиатуры и ввод текста → Увеличение при вводе текста → Шрифт: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING/HoverTypingStyle`
+- Универсальный доступ → Клавиатуры и ввод текста → Увеличение при вводе текста → Шрифт → Шрифт: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING/HoverTypingStyle#HoverTypingStyle`
+- Универсальный доступ → Клавиатуры и ввод текста → Увеличение при вводе текста → Размер: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING/HoverTextSize`
+- Универсальный доступ → Клавиатуры и ввод текста → Увеличение при вводе текста → Размер → Размер: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING/HoverTextSize#HoverTextSize`
+- Универсальный доступ → Клавиатуры и ввод текста → Увеличение при вводе текста → Цвета при вводе: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TYPING_COLOR_OPTIONS`
+- Универсальный доступ → Клавиатуры и ввод текста → Увеличение при вводе текста → Цвета экрана: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TYPING_DISPLAY_COLOR_OPTIONS`
+- Универсальный доступ → Клавиатуры и ввод текста → Увеличение при вводе текста → Цвет текста: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TEXT_TEXT_COLOR`
+- Универсальный доступ → Клавиатуры и ввод текста → Увеличение при вводе текста → Цвет точки вставки: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TEXT_INSERTION_POINT_COLOR`
+- Универсальный доступ → Клавиатуры и ввод текста → Увеличение при вводе текста → Цвет фона: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TEXT_BACKGROUND_COLOR`
+- Универсальный доступ → Клавиатуры и ввод текста → Увеличение при вводе текста → Цвет границы: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TEXT_BORDER_COLOR`
+- Универсальный доступ → Клавиатуры и ввод текста → Увеличение при вводе текста → Цвет автоматически исправленных слов: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TYPING_AUTOCORRECTED_WORD_COLOR`
+- Универсальный доступ → Клавиатуры и ввод текста → Увеличение при вводе текста → Цвет слов с ошибками: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TYPING_MISSPELLED_WORD`
+- Универсальный доступ → Клавиатуры и ввод текста → Увеличение при вводе текста → Восстановить значения по умолчанию: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TYPING_RESET_BUTTON`
+- Универсальный доступ → Клавиатуры и ввод текста → Полный клавиатурный доступ: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS`
+- Универсальный доступ → Клавиатуры и ввод текста → Полный клавиатурный доступ → Полный клавиатурный доступ: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAEnabledSwitch`
+- Универсальный доступ → Клавиатуры и ввод текста → Полный клавиатурный доступ → Команды: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKACommands`
+- Универсальный доступ → Клавиатуры и ввод текста → Полный клавиатурный доступ → Команды → Команды: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKACommands#FKACommands`
+- Универсальный доступ → Клавиатуры и ввод текста → Полный клавиатурный доступ → Автоматическое скрытие: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKAFocusRingTimeout`
+- Универсальный доступ → Клавиатуры и ввод текста → Полный клавиатурный доступ → Автоматическое скрытие → Автоматическое скрытие: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKAFocusRingTimeout#FKAFocusRingTimeout`
+- Универсальный доступ → Клавиатуры и ввод текста → Полный клавиатурный доступ → Увеличение размера: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKALargeFocusRingEnabled`
+- Универсальный доступ → Клавиатуры и ввод текста → Полный клавиатурный доступ → Высокая контрастность: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKAFocusRingHighContrastEnabled`
+- Универсальный доступ → Клавиатуры и ввод текста → Полный клавиатурный доступ → Цвет: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKAFocusRingColor`
+- Универсальный доступ → Клавиатуры и ввод текста → Полный клавиатурный доступ → Цвет → Цвет: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKAFocusRingColor#FKAFocusRingColor`
+- Универсальный доступ → Клавиатуры и ввод текста → Автоповтор клавиши: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT`
+- Универсальный доступ → Клавиатуры и ввод текста → Автоповтор клавиши → Автоповтор клавиши: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatEnabled`
+- Универсальный доступ → Клавиатуры и ввод текста → Автоповтор клавиши → Интервал автоповтора клавиши: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatInterval`
+- Универсальный доступ → Клавиатуры и ввод текста → Автоповтор клавиши → Задержка до повторного нажатия: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatDelay`
+- Универсальный доступ → Клавиатуры и ввод текста → Залипание клавиш: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS`
+- Универсальный доступ → Клавиатуры и ввод текста → Залипание клавиш → Залипание клавиш: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysEnabled`
+- Универсальный доступ → Клавиатуры и ввод текста → Залипание клавиш → Переключение — Shift: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysShiftToggle`
+- Универсальный доступ → Клавиатуры и ввод текста → Залипание клавиш → Звук: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysSound`
+- Универсальный доступ → Клавиатуры и ввод текста → Медленные клавиши: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/SLOW_KEYS`
+- Универсальный доступ → Клавиатуры и ввод текста → Медленные клавиши → Медленные клавиши: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/SLOW_KEYS#NumericalPreferenceSwitcherIdentifier`
+- Универсальный доступ → Клавиатуры и ввод текста → Виртуальные клавиатуры: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#SOFTWARE_KEYBOARDS`
+- Универсальный доступ → Клавиатуры и ввод текста → Строчные буквы: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#LOWERCASE_KEYBOARD`
+- Универсальный доступ → Дисплей и размер текста: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT`
+- Универсальный доступ → Дисплей и размер текста → Жирный шрифт: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#ENHANCE_TEXT_LEGIBILITY`
+- Универсальный доступ → Дисплей и размер текста → Увеличенный текст: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/LARGER_TEXT`
+- Универсальный доступ → Дисплей и размер текста → Увеличенный текст → Увеличенный текст: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/LARGER_TEXT#LARGER_TEXT`
+- Универсальный доступ → Дисплей и размер текста → Увеличенный текст → Увеличенные размеры: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/LARGER_TEXT#LARGER_DYNAMIC_TYPE_SWITCH`
+- Универсальный доступ → Дисплей и размер текста → Формы кнопок: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#BUTTON_SHAPES`
+- Универсальный доступ → Дисплей и размер текста → Этикетки Вкл./Выкл.: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#OnOffLabels`
+- Универсальный доступ → Дисплей и размер текста → Понижение прозрачности: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#REDUCE_TRANSPARENCY`
+- Универсальный доступ → Дисплей и размер текста → Увеличение контраста: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#TEXT_COLORS_DARKEN`
+- Универсальный доступ → Дисплей и размер текста → Дифференциация без цвета: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#DIFFERENTIATE_WITHOUT_COLOR`
+- Универсальный доступ → Дисплей и размер текста → Предпочтение горизонтальному тексту: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#PREFER_HORIZONTAL_TEXT`
+- Универсальный доступ → Дисплей и размер текста → Смарт-инверсия: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#SMART_INVERT`
+- Универсальный доступ → Дисплей и размер текста → Классическая инверсия: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#CLASSIC_INVERT`
+- Универсальный доступ → Дисплей и размер текста → Светофильтры: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR`
+- Универсальный доступ → Дисплей и размер текста → Светофильтры → Светофильтры: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR#DISPLAY_FILTER_COLOR`
+- Универсальный доступ → Дисплей и размер текста → Светофильтры → Применение к видеоокружению: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR#VIDEO_PASSTHROUGH`
+- Универсальный доступ → Дисплей и размер текста → Понижение точки белого: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#WHITE_POINT`
+- Универсальный доступ → Дисплей и размер текста → Автояркость: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#AUTO_BRIGHTNESS`
+- Универсальный доступ → Дисплей и размер текста → Игнорирование движений глаз для стабилизации: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#STATIC_FOVEATION_TEXT`
+- Универсальный доступ → Дисплей и размер текста → Автовыравнивание дисплеев: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#AUTO_IPD_TEXT`
+- Универсальный доступ → Дисплей и размер текста → Увеличить статус фокусирования: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#INCREASE_FOCUS_STATE_TEXT`
+- Универсальный доступ → Движение: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE`
+- Универсальный доступ → Движение → Уменьшение движения: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION`
+- Универсальный доступ → Движение → Эффекты сообщений: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#ReduceMotionAutoplayMessagesEffects`
+- Универсальный доступ → Движение → Автовоспроизведение анимированных изображений: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION_AUTOPLAY_ANIMATED_IMAGES`
+- Универсальный доступ → Движение → Автовоспроизведение видео для предпросмотра: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION_AUTOPLAY_VIDEO_PREVIEWS`
+- Универсальный доступ → Движение → Предпочитать курсор без мигания: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#PREFER_NONBLINKING_CURSOR`
+- Универсальный доступ → Движение → Ограничение частоты кадров: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REFRESH_RATE`
+- Универсальный доступ → Движение → Затемнение мигающих вспышек: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#PHOTOSENSITIVE_MITIGATION`
+- Универсальный доступ → Движение → Отображение меток движения транспортного средства: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#MotionCues`
+- Универсальный доступ → Устный контент: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE`
+- Универсальный доступ → Устный контент → Проговаривание: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QUICK_SPEAK_TITLE`
+- Универсальный доступ → Устный контент → Экран вслух: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpeakThisEnabled`
+- Универсальный доступ → Устный контент → Речевой контроллер: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController`
+- Универсальный доступ → Устный контент → Речевой контроллер → Речевой контроллер: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController#SpeechController`
+- Универсальный доступ → Устный контент → Речевой контроллер → Долгое нажатие: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController/SpeechControllerLongPressAction`
+- Универсальный доступ → Устный контент → Речевой контроллер → Долгое нажатие → Долгое нажатие: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController/SpeechControllerLongPressAction#SpeechControllerLongPressAction`
+- Универсальный доступ → Устный контент → Речевой контроллер → Двойное касание: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController/SpeechControllerDoubleTapAction`
+- Универсальный доступ → Устный контент → Речевой контроллер → Двойное касание → Двойное касание: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController/SpeechControllerDoubleTapAction#SpeechControllerDoubleTapAction`
+- Универсальный доступ → Устный контент → Речевой контроллер → Непрозрачность в покое: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController/SpeechControllerIdleOpacity`
+- Универсальный доступ → Устный контент → Речевой контроллер → Непрозрачность в покое → Непрозрачность в покое: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController/SpeechControllerIdleOpacity#SpeechControllerIdleOpacity`
+- Универсальный доступ → Устный контент → Речевой контроллер → Настроить кнопки мыши: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController#CustomizeMouseButtons`
+- Универсальный доступ → Устный контент → Выделение содержимого: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/QuickSpeakHighlight`
+- Универсальный доступ → Устный контент → Выделение содержимого → Выделение содержимого: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/QuickSpeakHighlight#QuickSpeakHighlight`
+- Универсальный доступ → Устный контент → Выделение содержимого → Стиль выделения предложения: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/QuickSpeakHighlight#SENTENCE_HIGHLIGHT_STYLE`
+- Универсальный доступ → Устный контент → Выделение содержимого → Цвета выделения: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/QuickSpeakHighlight#COLOR_CHOICE`
+- Универсальный доступ → Устный контент → Озвучивание при вводе: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback`
+- Универсальный доступ → Устный контент → Озвучивание при вводе → Озвучивание при вводе: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#TypingFeedback`
+- Универсальный доступ → Устный контент → Озвучивание при вводе → Символы: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#LETTER`
+- Универсальный доступ → Устный контент → Озвучивание при вводе → Подсказки символов: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#PhoneticFeedback`
+- Универсальный доступ → Устный контент → Озвучивание при вводе → Проговаривание слов: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#WORD_FEEDBACK`
+- Универсальный доступ → Устный контент → Озвучивание при вводе → Автопроговаривание: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#SPEAK_AUTOCORRECTIONS`
+- Универсальный доступ → Устный контент → Озвучивание при вводе → Проговаривание, удерживая: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#QUICKTYPE_WORD_FEEDBACK`
+- Универсальный доступ → Устный контент → Голоса: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/QuickSpeakAccents`
+- Универсальный доступ → Устный контент → Голоса → Голоса: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/QuickSpeakAccents#QuickSpeakAccents`
+- Универсальный доступ → Устный контент → Язык по умолчанию: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpokenContentDefaultLanguage`
+- Универсальный доступ → Устный контент → Язык по умолчанию → Язык по умолчанию: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpokenContentDefaultLanguage#SpokenContentDefaultLanguage`
+- Универсальный доступ → Устный контент → Обнаружение языка: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#LANGUAGE_DETECTION`
+- Универсальный доступ → Устный контент → Скорость речи: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakRate`
+- Универсальный доступ → Устный контент → Произношение: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/VoiceOverSettings`
+- Универсальный доступ → Устный контент → Произношение → Произношение: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/VoiceOverSettings#VoiceOverSettings`
+- Универсальный доступ → Устный контент → Пространственная речь: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SPATIALIZE_SPEECH`
+- Универсальный доступ → Аудиодескрипция: `prefs:root=ACCESSIBILITY&path=DESCRIPTIVE_VIDEO`
+- Универсальный доступ → Взаимодействие: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE`
+- Универсальный доступ → Взаимодействие → AssistiveTouch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE`
+- Универсальный доступ → Взаимодействие → AssistiveTouch → AssistiveTouch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#EnableAssistiveTouchSpecifier`
+- Универсальный доступ → Взаимодействие → AssistiveTouch → Меню верхнего уровня: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize`
+- Универсальный доступ → Взаимодействие → AssistiveTouch → Меню верхнего уровня → Меню верхнего уровня: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize#AssistiveTouchCustomize`
+- Универсальный доступ → Взаимодействие → AssistiveTouch → Меню верхнего уровня → Коснитесь значка, чтобы изменить:: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize#ASTStepperCell`
+- Универсальный доступ → Взаимодействие → AssistiveTouch → Одно касание: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/TapSpecifier`
+- Универсальный доступ → Взаимодействие → AssistiveTouch → Одно касание → Одно касание: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/TapSpecifier#TapSpecifier`
+- Универсальный доступ → Взаимодействие → AssistiveTouch → Двойное касание: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier`
+- Универсальный доступ → Взаимодействие → AssistiveTouch → Двойное касание → Двойное касание: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier#DoubleTapSpecifier`
+- Универсальный доступ → Взаимодействие → AssistiveTouch → Двойное касание → Ожидание 2‑го касания: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier/ASTDoubleTapTimeoutSpecifier`
+- Универсальный доступ → Взаимодействие → AssistiveTouch → Двойное касание → Ожидание 2‑го касания → Ожидание 2‑го касания: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier/ASTDoubleTapTimeoutSpecifier#ASTDoubleTapTimeoutSpecifier`
+- Универсальный доступ → Взаимодействие → AssistiveTouch → Долгое нажатие: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier`
+- Универсальный доступ → Взаимодействие → AssistiveTouch → Долгое нажатие → Долгое нажатие: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier#LongPressSpecifier`
+- Универсальный доступ → Взаимодействие → AssistiveTouch → Долгое нажатие → Длительность долгого нажатия: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier/ASTLongPressDurationSpecifier`
+- Универсальный доступ → Взаимодействие → AssistiveTouch → Долгое нажатие → Длительность долгого нажатия → Длительность долгого нажатия: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier/ASTLongPressDurationSpecifier#ASTLongPressDurationSpecifier`
+- Универсальный доступ → Взаимодействие → AssistiveTouch → 3D Touch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#ForceTouchSpecifier`
+- Универсальный доступ → Взаимодействие → AssistiveTouch → Создать новый жест…: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/CreateCustomGesture`
+- Универсальный доступ → Взаимодействие → AssistiveTouch → Создать новый жест… → Создать новый жест…: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/CreateCustomGesture#CreateCustomGesture`
+- Универсальный доступ → Взаимодействие → AssistiveTouch → Непрозрачность в покое: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/IdleOpacity`
+- Универсальный доступ → Взаимодействие → AssistiveTouch → Непрозрачность в покое → Непрозрачность в покое: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/IdleOpacity#IdleOpacity`
+- Универсальный доступ → Взаимодействие → AssistiveTouch → Виртуальный трекпад: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID`
+- Универсальный доступ → Взаимодействие → AssistiveTouch → Виртуальный трекпад → Скорость перемещения: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID#TRACKING_SPEED_SLIDER`
+- Универсальный доступ → Взаимодействие → AssistiveTouch → Виртуальный трекпад → Естественная прокрутка: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID#NATURAL_SCROLLING`
+- Универсальный доступ → Взаимодействие → AssistiveTouch → Виртуальный трекпад → Автопрокрутка: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID#SCROLL_SPEED_SLIDER`
+- Универсальный доступ → Взаимодействие → AssistiveTouch → Виртуальный трекпад → Рамка: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID#BORDER`
+- Универсальный доступ → Взаимодействие → AssistiveTouch → Виртуальный трекпад → Рамка: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID/BORDER`
+- Универсальный доступ → Взаимодействие → AssistiveTouch → Виртуальный трекпад → Рамка → Цвет: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID/BORDER#COLOR`
+- Универсальный доступ → Взаимодействие → AssistiveTouch → Виртуальный трекпад → Рамка → Непрозрачность: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID/BORDER#OPACITY`
+- Универсальный доступ → Взаимодействие → AssistiveTouch → Виртуальный трекпад → Рамка → Ширина границы: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID/BORDER#BORDER_WIDTH`
+- Универсальный доступ → Взаимодействие → AssistiveTouch → Виртуальный трекпад → Трекпад: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID#TRACKPAD`
+- Универсальный доступ → Взаимодействие → AssistiveTouch → Виртуальный трекпад → Трекпад: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID/TRACKPAD`
+- Универсальный доступ → Взаимодействие → AssistiveTouch → Виртуальный трекпад → Трекпад → Цвет: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID/TRACKPAD#COLOR`
+- Универсальный доступ → Взаимодействие → AssistiveTouch → Виртуальный трекпад → Трекпад → Непрозрачность: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID/TRACKPAD#OPACITY`
+- Универсальный доступ → Взаимодействие → AssistiveTouch → Устройства: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices`
+- Универсальный доступ → Взаимодействие → AssistiveTouch → Устройства → Устройства: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices#AssistiveTouchMouseDevices`
+- Универсальный доступ → Взаимодействие → AssistiveTouch → Устройства → Устройства Bluetooth…: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices/BluetoothDevicesScanning`
+- Универсальный доступ → Взаимодействие → AssistiveTouch → Устройства → Устройства Bluetooth… → Устройства Bluetooth…: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices/BluetoothDevicesScanning#BluetoothDevicesScanning`
+- Универсальный доступ → Взаимодействие → AssistiveTouch → Кнопки мыши: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseKeys`
+- Универсальный доступ → Взаимодействие → AssistiveTouch → Кнопки мыши → Кнопки мыши: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseKeys#AssistiveTouchMouseKeys`
+- Универсальный доступ → Взаимодействие → AssistiveTouch → Кнопки мыши → Переключение с Option: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseKeys#OptionKeyToggle`
+- Универсальный доступ → Взаимодействие → AssistiveTouch → Кнопки мыши → Основная клавиатура: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseKeys#UsePrimaryKeyboard`
+- Универсальный доступ → Взаимодействие → AssistiveTouch → Кнопки мыши → Начальная задержка: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseKeys#InitialDelay`
+- Универсальный доступ → Взаимодействие → AssistiveTouch → Кнопки мыши → Максимальная скорость: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseKeys#MaximumSpeed`
+- Универсальный доступ → Взаимодействие → AssistiveTouch → Показ экранной клавиатуры: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AlwaysShowSoftwareKeyboard`
+- Универсальный доступ → Взаимодействие → AssistiveTouch → Показывать меню всегда: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AlwaysShowMenu`
+- Универсальный доступ → Взаимодействие → AssistiveTouch → Звук по нажатию: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#MouseClickSounds`
+- Универсальный доступ → Взаимодействие → AssistiveTouch → Управление с автонажатием: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellEnabledSpecifier`
+- Универсальный доступ → Взаимодействие → AssistiveTouch → Допустимое перемещение: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellToleranceSpecifier`
+- Универсальный доступ → Взаимодействие → AssistiveTouch → Допустимое перемещение → Допустимое перемещение: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellToleranceSpecifier#DwellToleranceSpecifier`
+- Универсальный доступ → Взаимодействие → AssistiveTouch → Чувствительность перемещения: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#TouchSpeed`
+- Универсальный доступ → Взаимодействие → AssistiveTouch → Действие при возврате: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellAutorevertSpecifier`
+- Универсальный доступ → Взаимодействие → AssistiveTouch → Действие при возврате → Действие при возврате: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellAutorevertSpecifier#DwellAutorevertSpecifier`
+- Универсальный доступ → Взаимодействие → AssistiveTouch → Активные углы: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellCornersSpecifier`
+- Универсальный доступ → Взаимодействие → AssistiveTouch → Активные углы → Активные углы: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellCornersSpecifier#DwellCornersSpecifier`
+- Универсальный доступ → Взаимодействие → AssistiveTouch → Активные углы → Верхний левый: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellCornersSpecifier#TopLeft`
+- Универсальный доступ → Взаимодействие → AssistiveTouch → Активные углы → Верхний правый: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellCornersSpecifier#TopRight`
+- Универсальный доступ → Взаимодействие → AssistiveTouch → Активные углы → Нижний левый: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellCornersSpecifier#BottomLeft`
+- Универсальный доступ → Взаимодействие → AssistiveTouch → Активные углы → Нижний правый: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellCornersSpecifier#BottomRight`
+- Универсальный доступ → Взаимодействие → AssistiveTouch → Расширенные варианты: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellExtendedPredictionsSpecifier`
+- Универсальный доступ → Взаимодействие → AssistiveTouch → Ожидание для управления с автонажатием: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellTimeoutSpecifier`
+- Универсальный доступ → Взаимодействие → AssistiveTouch → Подтверждение с AssistiveTouch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#APPLE_PAY_SWITCH`
+- Универсальный доступ → Взаимодействие → AssistiveTouch → Выполнять жесты касанием: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#MouseBehavesLikeFinger`
+- Универсальный доступ → Взаимодействие → AssistiveTouch → Использование игрового контроллера: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#EnableAssistiveTouchGameControllerSpecifier`
+- Универсальный доступ → Взаимодействие → AssistiveTouch → Действия со звуком: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/SOUND_ACTIONS`
+- Универсальный доступ → Взаимодействие → AssistiveTouch → Действия со звуком: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#SOUND_ACTIONS`
+- Универсальный доступ → Взаимодействие → Управление с автонажатием: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL`
+- Универсальный доступ → Взаимодействие → Управление с автонажатием → Управление с автонажатием: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL#DWELL_CONTROL_TITLE`
+- Универсальный доступ → Взаимодействие → Управление с автонажатием → Цель: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL/DWELL_CONTROL_TARGET`
+- Универсальный доступ → Взаимодействие → Управление с автонажатием → Допустимое перемещение: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL/DWELL_MOVEMENT_TOLERANCE`
+- Универсальный доступ → Взаимодействие → Управление с автонажатием → Выделять элемент: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL#DWELL_HIGHLIGHT_CONTROL_TITLE`
+- Универсальный доступ → Взаимодействие → Управление с автонажатием → Приостанавливать при воспроизведении медиаконтента: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL#DWELL_PAUSE_FOR_MEDIA_PLAYBACK_TITLE`
+- Универсальный доступ → Взаимодействие → Управление с автонажатием → Элементы управления прокруткой: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL#AXDwellQuickScrollSpecifierID`
+- Универсальный доступ → Взаимодействие → Управление с автонажатием → Меню следует за взглядом: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL#AXDwellFollowSpecifierID`
+- Универсальный доступ → Взаимодействие → Управление с автонажатием: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/#DwellEnabledSpecifier`
+- Универсальный доступ → Взаимодействие → Удобный доступ: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#REACHABILITY`
+- Универсальный доступ → Взаимодействие → Тактильное касание: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch`
+- Универсальный доступ → Взаимодействие → Тактильное касание → Тактильное касание: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#ForceTouch`
+- Универсальный доступ → Взаимодействие → Тактильное касание → 3D Touch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#ForceTouchAccessibilityMainSwitch`
+- Универсальный доступ → Взаимодействие → Тактильное касание → Чувствительность 3D Touch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#FourceTouchSensitivityGroupIdentifier`
+- Универсальный доступ → Взаимодействие → Тактильное касание → Длительность касания: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#timingGroup`
+- Универсальный доступ → Взаимодействие → Тактильное касание → Тестирование длительности касания: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#FourceTouchSensitivityTestGroupIdentifier`
+- Универсальный доступ → Взаимодействие → Адаптация касания: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS`
+- Универсальный доступ → Взаимодействие → Адаптация касания → Адаптация касания: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#TOUCH_ACCOMMODATIONS_SWITCHER`
+- Универсальный доступ → Взаимодействие → Адаптация касания → Длительность удержания: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#HoldDuration`
+- Универсальный доступ → Взаимодействие → Адаптация касания → Пропуск повтора: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#IgnoreRepeat`
+- Универсальный доступ → Взаимодействие → Адаптация касания → Помощь при касании: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#Tap%20Assistance`
+- Универсальный доступ → Взаимодействие → Выведение из сна касанием: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TAP_TO_WAKE_TITLE`
+- Универсальный доступ → Взаимодействие → Выведение из сна касанием или смахиванием: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TAP_TOUCH_TO_WAKE_TITLE`
+- Универсальный доступ → Взаимодействие → Встряхивание для отмены: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#SHAKE_TO_UNDO`
+- Универсальный доступ → Взаимодействие → Вибрация: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#VIBRATION`
+- Универсальный доступ → Взаимодействие → Запрет завершения вызова кнопкой: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#LockButtonIgnore`
+- Универсальный доступ → Взаимодействие → Источник звука: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING`
+- Универсальный доступ → Взаимодействие → Источник звука → Источник звука: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING`
+- Универсальный доступ → Взаимодействие → Источник звука → Автоответ на вызовы: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING/callAudioRoutingAutoAnswer`
+- Универсальный доступ → Взаимодействие → Источник звука → Автоответ на вызовы → Автоответ на вызовы: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING/callAudioRoutingAutoAnswer#callAudioRoutingAutoAnswer`
+- Универсальный доступ → Взаимодействие → Касание задней панели: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/BackTap`
+- Универсальный доступ → Взаимодействие → Касание задней панели → Касание задней панели: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/BackTap#BackTap`
+- Универсальный доступ → Взаимодействие → Касание задней панели → Двойное касание: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/BackTap/DoubleTap`
+- Универсальный доступ → Взаимодействие → Касание задней панели → Двойное касание → Двойное касание: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/BackTap/DoubleTap#DoubleTap`
+- Универсальный доступ → Взаимодействие → Касание задней панели → Тройное касание: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/BackTap/TripleTap`
+- Универсальный доступ → Взаимодействие → Касание задней панели → Тройное касание → Тройное касание: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/BackTap/TripleTap#TripleTap`
+- Универсальный доступ → Взаимодействие → Управление указателем: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer`
+- Универсальный доступ → Взаимодействие → Управление указателем → Увеличение контраста: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#PointerIncreaseContrastSpecifier`
+- Универсальный доступ → Взаимодействие → Управление указателем → Автоскрытие указателя: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#PointerAutoHideSpecifier`
+- Универсальный доступ → Взаимодействие → Управление указателем → Цвет: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#PointerColorSpecifier`
+- Универсальный доступ → Взаимодействие → Управление указателем → Размер указателя: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#PointerSizeSpecifier`
+- Универсальный доступ → Взаимодействие → Управление указателем → Управление указателем: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#PointerControlEnablingCell`
+- Универсальный доступ → Взаимодействие → Управление указателем → Управление: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer/POINTER_CONTROL_CONTROL`
+- Универсальный доступ → Взаимодействие → Управление указателем → Цвет: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer/PointerColorSpecifier`
+- Универсальный доступ → Взаимодействие → Управление указателем → Цвет → Ширина границы: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer/PointerColorSpecifier#PointerStrokeWidth`
+- Универсальный доступ → Взаимодействие → Управление указателем → Игнорирование трекпада: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#IgnoreTrackpad`
+- Универсальный доступ → Взаимодействие → Управление указателем → Инерция трекпада: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#PointerInertia`
+- Универсальный доступ → Взаимодействие → Управление указателем → Анимации указателя: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#PointerCustomShapes`
+- Универсальный доступ → Взаимодействие → Управление указателем → Скорость прокрутки: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#DeviceScrollSpeed`
+- Универсальный доступ → Взаимодействие → Открывать Пункт управления взглядом вверх: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/UPWARDS_HUD`
+- Универсальный доступ → Взаимодействие → Открывать Пункт управления взглядом вверх → Расположение Пункта управления по вертикали: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/UPWARDS_HUD#UpwardsHUDPositionSpecifier`
+- Универсальный доступ → Взаимодействие → Открывать Пункт управления взглядом вверх → Открывать Пункт управления взглядом вверх: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/UPWARDS_HUD#UpwardsHUDToggleSpecifier`
+- Универсальный доступ → Взаимодействие → Действия со звуком: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/SOUND_ACTIONS`
+- Универсальный доступ → Взаимодействие → Предпочитать управление без движений головы: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#CAMERA_ANCHOR_ALTERNATIVE_Preference`
+- Универсальный доступ → Face ID и внимание: `prefs:root=ACCESSIBILITY&path=FACE_ID`
+- Универсальный доступ → Face ID и внимание → Требование внимания для Face ID: `prefs:root=ACCESSIBILITY&path=FACE_ID#PearlUnlockAttention`
+- Универсальный доступ → Face ID и внимание → Распознавание внимания: `prefs:root=ACCESSIBILITY&path=FACE_ID#AttentionAware`
+- Универсальный доступ → Face ID и внимание → При удачной аутентификации: `prefs:root=ACCESSIBILITY&path=FACE_ID#PearlSuccessHaptic`
+- Универсальный доступ → Виртуальный контроллер: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle`
+- Универсальный доступ → Виртуальный контроллер → Переключатели: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier`
+- Универсальный доступ → Виртуальный контроллер → Переключатели → Переключатели: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier#SwitchesIdentifier`
+- Универсальный доступ → Виртуальный контроллер → Переключатели → Добавить новый…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier/AddSwitchIdentifier`
+- Универсальный доступ → Виртуальный контроллер → Переключатели → Добавить новый… → Добавить новый…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier/AddSwitchIdentifier#AddSwitchIdentifier`
+- Универсальный доступ → Виртуальный контроллер → Переключатели → Устройства Bluetooth…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier/BluetoothDevicesIdentifier`
+- Универсальный доступ → Виртуальный контроллер → Переключатели → Устройства Bluetooth… → Устройства Bluetooth…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier/BluetoothDevicesIdentifier/BluetoothDevicesIdentifier`
+- Универсальный доступ → Виртуальный контроллер → Переключатели → Игнорирование недействительной конфигурации переключателей: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier#UpwardsHUDToggleSpecifier`
+- Универсальный доступ → Виртуальный контроллер → Наборы правил: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/RecipesIdentifier`
+- Универсальный доступ → Виртуальный контроллер → Наборы правил → Наборы правил: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/RecipesIdentifier#RecipesIdentifier`
+- Универсальный доступ → Виртуальный контроллер → Наборы правил → Создать новый набор правил…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/RecipesIdentifier/CreateNewRecipe`
+- Универсальный доступ → Виртуальный контроллер → Наборы правил → Создать новый набор правил… → Создать новый набор правил…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/RecipesIdentifier/CreateNewRecipe#CreateNewRecipe`
+- Универсальный доступ → Виртуальный контроллер → Наборы правил → Запуск набора правил: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/RecipesIdentifier/LaunchRecipe`
+- Универсальный доступ → Виртуальный контроллер → Наборы правил → Запуск набора правил → Запуск набора правил: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/RecipesIdentifier/LaunchRecipe#LaunchRecipe`
+- Универсальный доступ → Виртуальный контроллер → Метод сканирования: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier`
+- Универсальный доступ → Виртуальный контроллер → Метод сканирования → Метод сканирования: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#ScanningStyleIdentifier`
+- Универсальный доступ → Виртуальный контроллер → Режим «Виртуальный контроллер»: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/FirstLaunchScanningModeIdentifier`
+- Универсальный доступ → Виртуальный контроллер → Режим «Виртуальный контроллер» → Режим «Виртуальный контроллер»: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/FirstLaunchScanningModeIdentifier#FirstLaunchScanningModeIdentifier`
+- Универсальный доступ → Виртуальный контроллер → Скорость сканирования: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningSpeedIdentifier`
+- Универсальный доступ → Виртуальный контроллер → Скорость сканирования → Скорость сканирования: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningSpeedIdentifier#NumericalPreferencePickerGroupIdentifier`
+- Универсальный доступ → Виртуальный контроллер → Пауза на 1‑м объекте: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/DelayAfterInputIdentifier`
+- Универсальный доступ → Виртуальный контроллер → Пауза на 1‑м объекте → Пауза на 1‑м объекте: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/DelayAfterInputIdentifier#NumericalPreferenceSwitcherIdentifier`
+- Универсальный доступ → Виртуальный контроллер → Циклы: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanCyclesIdentifier`
+- Универсальный доступ → Виртуальный контроллер → Циклы → Циклы: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanCyclesIdentifier#ScanCyclesIdentifier`
+- Универсальный доступ → Виртуальный контроллер → Повтор движения: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ActionRepeatIdentifier`
+- Универсальный доступ → Виртуальный контроллер → Повтор движения → Повтор движения: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ActionRepeatIdentifier#NumericalPreferenceSwitcherIdentifier`
+- Универсальный доступ → Виртуальный контроллер → Режим «Виртуальный контроллер»: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSelectionGroupIdentifier`
+- Универсальный доступ → Виртуальный контроллер → Режим «Виртуальный контроллер» → Скользящий курсор: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSelectionGroupIdentifier#POINTER_PICKER_ENABLED`
+- Универсальный доступ → Виртуальный контроллер → Долгое нажатие: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/LongPressIdentifier`
+- Универсальный доступ → Виртуальный контроллер → Долгое нажатие → Долгое нажатие: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/LongPressIdentifier#NumericalPreferenceSwitcherIdentifier`
+- Универсальный доступ → Виртуальный контроллер → Поведение при касании: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier`
+- Универсальный доступ → Виртуальный контроллер → Поведение при касании → Поведение при касании: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#TapBehaviorIdentifier`
+- Универсальный доступ → Виртуальный контроллер → В фокусе после касания: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanLocationIdentifier`
+- Универсальный доступ → Виртуальный контроллер → В фокусе после касания → В фокусе после касания: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanLocationIdentifier#ScanLocationIdentifier`
+- Универсальный доступ → Виртуальный контроллер → Сканировать ту же клавишу: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#RestartScanAtCurrentIdentifier`
+- Универсальный доступ → Виртуальный контроллер → Только касание клавиш: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AlwaysTapKeyboardIdentifier`
+- Универсальный доступ → Виртуальный контроллер → Расширенные варианты: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#UseExtendedKeyboardPredictionsIdentifier`
+- Универсальный доступ → Виртуальный контроллер → Длительность удержания: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/HoldDurationIdentifier`
+- Универсальный доступ → Виртуальный контроллер → Длительность удержания → Длительность удержания: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/HoldDurationIdentifier#NumericalPreferenceSwitcherIdentifier`
+- Универсальный доступ → Виртуальный контроллер → Пропуск повтора: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/IgnoreRepeatIdentifier`
+- Универсальный доступ → Виртуальный контроллер → Пропуск повтора → Пропуск повтора: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/IgnoreRepeatIdentifier#NumericalPreferenceSwitcherIdentifier`
+- Универсальный доступ → Виртуальный контроллер → Скользящий курсор: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier`
+- Универсальный доступ → Виртуальный контроллер → Скользящий курсор → Скользящий курсор: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#AxisSweepIdentifier`
+- Универсальный доступ → Виртуальный контроллер → Скользящий курсор → Режим выбора: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleGroup`
+- Универсальный доступ → Виртуальный контроллер → Скользящий курсор → Скорость скользящего курсора: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#AxisSweepSpeed`
+- Универсальный доступ → Виртуальный контроллер → Отслеживание движения головы: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CameraPointPickerSwitch`
+- Универсальный доступ → Виртуальный контроллер → Отслеживание движения головы → Отслеживание движения головы: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CameraPointPickerSwitch#CameraPointPickerSwitcher`
+- Универсальный доступ → Виртуальный контроллер → Звуковые эффекты: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SoundIdentifier`
+- Универсальный доступ → Виртуальный контроллер → Речь: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier`
+- Универсальный доступ → Виртуальный контроллер → Речь → Голоса: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#VoicesIdentifier`
+- Универсальный доступ → Виртуальный контроллер → Речь → Чтение атрибутов объекта: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#SPEECH_SPEAKS_TRAITS_LABEL`
+- Универсальный доступ → Виртуальный контроллер → Речь → Приостановка во время речи: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#SPEECH_PAUSES_SCANNING_LABEL`
+- Универсальный доступ → Виртуальный контроллер → Пункты меню: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier`
+- Универсальный доступ → Виртуальный контроллер → Пункты меню → Пункты меню: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier#CustomizeMenuIdentifier`
+- Универсальный доступ → Виртуальный контроллер → Пункты меню → Верхний уровень: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/TopLevel`
+- Универсальный доступ → Виртуальный контроллер → Пункты меню → Верхний уровень → Верхний уровень: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/TopLevel#TopLevel`
+- Универсальный доступ → Виртуальный контроллер → Пункты меню → Жесты: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Gestures`
+- Универсальный доступ → Виртуальный контроллер → Пункты меню → Жесты → Жесты: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Gestures#Gestures`
+- Универсальный доступ → Виртуальный контроллер → Пункты меню → Устройство: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Device`
+- Универсальный доступ → Виртуальный контроллер → Пункты меню → Устройство → Устройство: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Device#Device`
+- Универсальный доступ → Виртуальный контроллер → Пункты меню → Настройки: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Settings`
+- Универсальный доступ → Виртуальный контроллер → Пункты меню → Настройки → Настройки: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Settings#Settings`
+- Универсальный доступ → Виртуальный контроллер → Пункты меню → Управление мультимедиа: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/MediaControls`
+- Универсальный доступ → Виртуальный контроллер → Пункты меню → Управление мультимедиа → Управление мультимедиа: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/MediaControls#MediaControls`
+- Универсальный доступ → Виртуальный контроллер → Объекты в группу: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ItemGroupingIdentifier`
+- Универсальный доступ → Виртуальный контроллер → Крупный курсор: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CursorVisibilityIdentifier`
+- Универсальный доступ → Виртуальный контроллер → Сохраненные жесты: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomGesturesIdentifier`
+- Универсальный доступ → Виртуальный контроллер → Сохраненные жесты → Сохраненные жесты: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomGesturesIdentifier#CustomGesturesIdentifier`
+- Универсальный доступ → Виртуальный контроллер → Сохраненные жесты → Создать новый жест…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomGesturesIdentifier/CreateCustomGesture`
+- Универсальный доступ → Виртуальный контроллер → Сохраненные жесты → Создать новый жест… → Создать новый жест…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomGesturesIdentifier/CreateCustomGesture#CreateCustomGesture`
+- Универсальный доступ → Виртуальный контроллер → Подтверждение с Виртуальным контроллером: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#APPLE_PAY_SWITCH`
+- Универсальный доступ → Виртуальный контроллер → Цвет курсора: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CursorColorIdentifier`
+- Универсальный доступ → Виртуальный контроллер → Цвет курсора → Цвет курсора: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CursorColorIdentifier#CursorColorIdentifier`
+- Универсальный доступ → Управление голосом: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle`
+- Универсальный доступ → Управление голосом → Настроить Управление голосом: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#SETUP_COMMAND_AND_CONTROL`
+- Универсальный доступ → Управление голосом → Открыть руководство по управлению голосом: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#COMMAND_AND_CONTROL_LAUNCH_ONBOARDING`
+- Универсальный доступ → Управление голосом → Язык: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_LANGUAGE`
+- Универсальный доступ → Управление голосом → Язык → Язык: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_LANGUAGE#COMMAND_AND_CONTROL_LANGUAGE`
+- Универсальный доступ → Управление голосом → Команды: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS`
+- Универсальный доступ → Управление голосом → Команды → Команды: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS#COMMAND_AND_CONTROL_COMMANDS`
+- Универсальный доступ → Управление голосом → Команды → Создать новую команду: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/CreateNewCommand`
+- Универсальный доступ → Управление голосом → Команды → Создать новую команду → Создать новую команду: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/CreateNewCommand#CreateNewCommand`
+- Универсальный доступ → Управление голосом → Команды → Обычная навигация: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/System`
+- Универсальный доступ → Управление голосом → Команды → Наложения: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/Overlays`
+- Универсальный доступ → Управление голосом → Команды → Основные жесты: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/Gestures`
+- Универсальный доступ → Управление голосом → Команды → Расширенные жесты: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/DragDropGestures`
+- Универсальный доступ → Управление голосом → Команды → Диктовка: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/TextDictation`
+- Универсальный доступ → Управление голосом → Команды → Навигация по тексту: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/Movement`
+- Универсальный доступ → Управление голосом → Команды → Выбор текста: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/Selection`
+- Универсальный доступ → Управление голосом → Команды → Правка текста: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/Editing`
+- Универсальный доступ → Управление голосом → Команды → Удаление текста: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/AdvancedDeletion`
+- Универсальный доступ → Управление голосом → Команды → Устройство: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/Hardware`
+- Универсальный доступ → Управление голосом → Команды → Универсальный доступ: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/Accessibility`
+- Универсальный доступ → Управление голосом → Команды → Импортировать пользовательские команды: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/ImportCustomCommands`
+- Универсальный доступ → Управление голосом → Команды → Импортировать пользовательские команды → Импортировать пользовательские команды: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/ImportCustomCommands#ImportCustomCommands`
+- Универсальный доступ → Управление голосом → Лексикон: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_VOCABULARY`
+- Универсальный доступ → Управление голосом → Лексикон → Лексикон: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_VOCABULARY/VOCABULARY`
+- Универсальный доступ → Управление голосом → Лексикон → Лексикон → Лексикон: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_VOCABULARY/VOCABULARY#VOCABULARY`
+- Универсальный доступ → Управление голосом → Лексикон → Импортировать лексикон: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_VOCABULARY#IMPORT_VOCABULARY`
+- Универсальный доступ → Управление голосом → Лексикон → Экспортировать лексикон: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_VOCABULARY#EXPORT_VOCABULARY`
+- Универсальный доступ → Управление голосом → Лексикон → Удалить весь лексикон: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_VOCABULARY#DELETE_ALL_VOCABULARY`
+- Универсальный доступ → Управление голосом → Показывать подтверждение: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#SHOW_TEXT_RESPONSE_TITLE`
+- Универсальный доступ → Управление голосом → Воспроизводить звук: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#PLAY_SOUND_RESPONSE_TITLE`
+- Универсальный доступ → Управление голосом → Подсказки: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#USER_HINTS_SHOW_HINTS_TITLE`
+- Универсальный доступ → Управление голосом → Наложение: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY`
+- Универсальный доступ → Управление голосом → Наложение → Наложение: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#ALWAYS_SHOW_OVERLAY`
+- Универсальный доступ → Управление голосом → Распознавание внимания: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ATTENTION_AWARE_ACTION`
+- Универсальный доступ → Верхняя кнопка или Touch ID: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE`
+- Универсальный доступ → Верхняя кнопка или Touch ID → Скорость нажатия: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_SPEED_HEADER`
+- Универсальный доступ → Верхняя кнопка или Touch ID → Нажатие и удерживание для произнесения: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantTitle`
+- Универсальный доступ → Верхняя кнопка или Touch ID → Кнопка «Домой»: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE/HomeButtonAssistantTitle`
+- Универсальный доступ → Верхняя кнопка или Touch ID → Кнопка «Домой» → Разблокировка прикладыванием пальца: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE/HomeButtonAssistantTitle#RestingUnlockSetting`
+- Универсальный доступ → Верхняя кнопка или Touch ID → Вкл. «Подтверждение с Виртуальным контроллером»: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#APPLE_PAY_CONFIRM_WITH_SC`
+- Универсальный доступ → Верхняя кнопка или Touch ID → Вкл. «Подтверждение с AssistiveTouch»: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#APPLE_PAY_CONFIRM_WITH_AST`
+- Универсальный доступ → Пульт Apple TV: `prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE`
+- Универсальный доступ → Пульт Apple TV → Кнопки направления: `prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE#AppleTVSimpleGestures`
+- Универсальный доступ → Пульт Apple TV → Кнопки телетрансляции: `prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE#AppleTVLiveTVButtons`
+- Универсальный доступ → Видеоповтор Apple Watch: `prefs:root=ACCESSIBILITY&path=APPLE_WATCH_REMOTE_SCREEN`
+- Универсальный доступ → Слуховые устройства: `prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE`
+- Универсальный доступ → Слуховые устройства → Слуховые устройства MFi: `prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#AvailableAidsHeading`
+- Универсальный доступ → Слуховые устройства → Совместимость аппаратов: `prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#HEARING_AID_COMPLIANCE`
+- Универсальный доступ → Пункт управления слухом: `prefs:root=ACCESSIBILITY&path=HEARING_CONTROL_CENTER`
+- Универсальный доступ → Пункт управления слухом → Используемые элементы управления: `prefs:root=ACCESSIBILITY&path=HEARING_CONTROL_CENTER#INCLUDED_MODULES_SECTION_TITLE`
+- Универсальный доступ → Пункт управления слухом → Еще элементы управления: `prefs:root=ACCESSIBILITY&path=HEARING_CONTROL_CENTER#MORE_MODULES_SECTION_TITLE`
+- Универсальный доступ → Распознавание звуков: `prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE`
+- Универсальный доступ → Распознавание звуков → Звуки: `prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE/Sounds`
+- Универсальный доступ → Распознавание звуков → Звуки → Звуки: `prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE/Sounds#Sounds`
+- Универсальный доступ → RTT/TTY: `prefs:root=ACCESSIBILITY&path=RTT`
+- Универсальный доступ → RTT/TTY → Виртуальный RTT/TTY: `prefs:root=ACCESSIBILITY&path=RTT#SW_TTY`
+- Универсальный доступ → RTT/TTY → Аппаратный TTY: `prefs:root=ACCESSIBILITY&path=RTT#HW_TTY`
+- Универсальный доступ → Аудиовизуализация: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE`
+- Универсальный доступ → Аудиовизуализация → Адаптация наушников: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID`
+- Универсальный доступ → Аудиовизуализация → Адаптация наушников → Адаптация наушников: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID#AXPAEnableSpecID`
+- Универсальный доступ → Аудиовизуализация → Адаптация наушников → Пользовательская аудионастройка: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID#AXPAPersonalAudioSetupSpecID`
+- Универсальный доступ → Аудиовизуализация → Фоновые звуки: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID`
+- Универсальный доступ → Аудиовизуализация → Фоновые звуки → Фоновые звуки: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID#CSFeatureToggleSpecID`
+- Универсальный доступ → Аудиовизуализация → Фоновые звуки → Звук: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID/ComfortSoundSoundLabel`
+- Универсальный доступ → Аудиовизуализация → Фоновые звуки → Звук → Звук: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID/ComfortSoundSoundLabel#ComfortSoundSoundLabel`
+- Универсальный доступ → Аудиовизуализация → Фоновые звуки → Громкость фоновых звуков: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID#ComfortSoundsVolume`
+- Универсальный доступ → Аудиовизуализация → Фоновые звуки → Использование при воспроизведении контента: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID#ComfortSoundsMixingName`
+- Универсальный доступ → Аудиовизуализация → Фоновые звуки → Громкость с контентом: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID#ComfortSoundsMixingVolume`
+- Универсальный доступ → Аудиовизуализация → Фоновые звуки → Приостановка при блокировке: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID#ComfortSoundsPlayWhenLockedName`
+- Универсальный доступ → Аудиовизуализация → Моно-аудио: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAMonoSpecID`
+- Универсальный доступ → Аудиовизуализация → Регулятор громкости всегда на экране: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAAlwaysShowVolumeControlSpecID`
+- Универсальный доступ → Аудиовизуализация → Шумоподавление телефона: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPANoiseSpecID`
+- Универсальный доступ → Аудиовизуализация → Вспышка для предупреждений: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH`
+- Универсальный доступ → Аудиовизуализация → Вспышка для предупреждений → Вспышка для предупреждений: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_FLASH`
+- Универсальный доступ → Аудиовизуализация → Вспышка для предупреждений → Вспышка без блокировки: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_FLASH_WHILE_UNLOCKED`
+- Универсальный доступ → Аудиовизуализация → Вспышка для предупреждений → Вспышка в бесшумном режиме: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_RINGER_SWITCH_CONTROL`
+- Универсальный доступ → Аудиовизуализация → Стереобаланс слева-справа: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#LeftRightBalance`
+- Универсальный доступ → Аудиовизуализация → Звуки при включении и выключении: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#StartupSound`
+- Универсальный доступ → Аудиовизуализация → Уведомления от наушников: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXHeadphoneNotificationsSpecID`
+- Универсальный доступ → Аудиовизуализация → Добавить изоляцию голоса: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#ExtendedVoiceIsolationSpecID`
+- Универсальный доступ → Аудиовизуализация → Звуковые эффекты: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#SOUND_EFFECTS_PREFERENCE`
+- Универсальный доступ → Аудиовизуализация → Добавление аудио в вызовах: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/MIX_TO_UPLINK`
+- Универсальный доступ → Аудиовизуализация → Добавление аудио в вызовах → Аудио от приложений в вызовах: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/MIX_TO_UPLINK#MIX_TO_UPLINK`
+- Универсальный доступ → Скрытые субтитры: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING`
+- Универсальный доступ → Скрытые субтитры → Стиль: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING/currentTheme`
+- Универсальный доступ → Скрытые субтитры → Стиль → Стиль: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING/currentTheme#currentTheme`
+- Универсальный доступ → Скрытые субтитры → Скрытые субтитры + SDH: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#PREFER_SDH`
+- Универсальный доступ → Скрытые субтитры → Аудиотранскрипции: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#SHOW_AUDIO_TRANSCRIPTIONS`
+- Универсальный доступ → Скрытые субтитры → Показ при выключенном звуке: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#SHOW_WHEN_MUTED`
+- Универсальный доступ → Скрытые субтитры → Показ при перемотке назад: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#SHOW_ON_SKIP_BACK`
+- Универсальный доступ → Субтитры: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION`
+- Универсальный доступ → Субтитры → Субтитры: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION#LIVE_TRANSCRIPTION_TITLE`
+- Универсальный доступ → Субтитры → Оформление: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE`
+- Универсальный доступ → Субтитры → Оформление → Оформление: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE#LIVE_TRANSCRIPTION_APPEARANCE`
+- Универсальный доступ → Субтитры → Оформление → Жирный шрифт: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE/ENHANCE_TEXT_LEGIBILITY`
+- Универсальный доступ → Субтитры → Оформление → Жирный шрифт → Жирный шрифт: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE/ENHANCE_TEXT_LEGIBILITY#ENHANCE_TEXT_LEGIBILITY`
+- Универсальный доступ → Субтитры → Оформление → Размер текста: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE/LARGER_TEXT`
+- Универсальный доступ → Субтитры → Оформление → Размер текста → Размер текста: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE/LARGER_TEXT#LARGER_TEXT`
+- Универсальный доступ → Субтитры → Оформление → Параметры цвета: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE#LIVE_TRANSCRIPTION_COLOR_OPTIONS`
+- Универсальный доступ → Субтитры → Оформление → Цвет текста: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE#LIVE_TRANSCRIPTION_TEXT_COLOR`
+- Универсальный доступ → Субтитры → Оформление → Цвет фона: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE#LIVE_TRANSCRIPTION_BACKGROUND_COLOR`
+- Универсальный доступ → Субтитры → Оформление → Сбросить цвета: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE#LIVE_TRANSCRIPTION_RESET_COLORS`
+- Универсальный доступ → Субтитры → Оформление → Непрозрачность в покое: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE#LIVE_CAPTIONS_IDLE_OPACITY_TITLE`
+- Универсальный доступ → Субтитры → Субтитры в FaceTime: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION#FACE_TIME_CAPTIONS`
+- Универсальный доступ → Гид-доступ: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE`
+- Универсальный доступ → Гид-доступ → Настройки код‑пароля: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessSecurityLinkList`
+- Универсальный доступ → Гид-доступ → Настройки код‑пароля → Настройки код‑пароля: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessSecurityLinkList#GuidedAccessSecurityLinkList`
+- Универсальный доступ → Гид-доступ → Настройки код‑пароля → Задать код‑пароль гид‑доступа: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessSecurityLinkList#GAXPinButton`
+- Универсальный доступ → Гид-доступ → Настройки код‑пароля → Touch ID: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessSecurityLinkList#GAXSpecIDTouchIDSwitch`
+- Универсальный доступ → Гид-доступ → Время: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList`
+- Универсальный доступ → Гид-доступ → Время → Время: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GuidedAccessTimeRestrictionsLinkList`
+- Универсальный доступ → Гид-доступ → Время → Звук: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList/GUIDED_ACCESS_TIME_RESTRICTIONS_SOUND_TITLE`
+- Универсальный доступ → Гид-доступ → Время → Звук → Звук: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList/GUIDED_ACCESS_TIME_RESTRICTIONS_SOUND_TITLE#GUIDED_ACCESS_TIME_RESTRICTIONS_SOUND_TITLE`
+- Универсальный доступ → Гид-доступ → Время → Произносить: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_SPEAK_TITLE`
+- Универсальный доступ → Гид-доступ → Быстрая команда: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessEnableAXFeatures`
+- Универсальный доступ → Гид-доступ → Автоблокировка дисплея: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessAutoLockTime`
+- Универсальный доступ → Гид-доступ → Автоблокировка дисплея → Автоблокировка дисплея: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessAutoLockTime#GuidedAccessAutoLockTime`
+- Универсальный доступ → Упрощенный доступ: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE`
+- Универсальный доступ → Упрощенный доступ → Настроить Упрощенный доступ: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#SetUpClarityUISpecifier`
+- Универсальный доступ → Упрощенный доступ → Включить Упрощенный доступ: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#ClarityUIStart`
+- Универсальный доступ → Упрощенный доступ → Приложения: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#Applications`
+- Универсальный доступ → Упрощенный доступ → Параметры: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#Options`
+- Универсальный доступ → Упрощенный доступ → Обои: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE/Wallpaper`
+- Универсальный доступ → Упрощенный доступ → Обои → Обои: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE/Wallpaper#Wallpaper`
+- Универсальный доступ → Упрощенный доступ → Разрешение кнопок громкости: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#VolumeButtons`
+- Универсальный доступ → Упрощенный доступ → Время на экране блокировки: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#ShowTime`
+- Универсальный доступ → Упрощенный доступ → Уровень заряда на экране «Домой»: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#ShowBattery`
+- Универсальный доступ → Упрощенный доступ → Показ значков уведомлений: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#ShowNotification`
+- Универсальный доступ → Упрощенный доступ → Разрешить Siri: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#AllowSiri`
+- Универсальный доступ → Упрощенный доступ → Настройки код‑пароля: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE/PasscodeSettings`
+- Универсальный доступ → Упрощенный доступ → Настройки код‑пароля → Настройки код‑пароля: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE/PasscodeSettings#PasscodeSettings`
+- Универсальный доступ → Siri: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE`
+- Универсальный доступ → Siri → Ввод текста для Siri: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_SETTINGS_TYPE_TO_SIRI`
+- Универсальный доступ → Siri → Время приостановки Siri: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#ENDPOINTER`
+- Универсальный доступ → Siri → Скорость произношения Siri: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SPEECH_RATE`
+- Универсальный доступ → Siri → Ответы вслух: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK`
+- Универсальный доступ → Siri → Всегда реагировать на «Siri»: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_SETTINGS_VOICE_ACTIVATION_ALWAYS_ALLOW`
+- Универсальный доступ → Siri → Приложения на фоне за Siri: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRL_SHOW_APPS`
+- Универсальный доступ → Siri → Объявление уведомлений через динамик: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#ANNOUNCE_NOTIFICATIONS_BUILT_IN_SPEAKER_ID`
+- Универсальный доступ → Siri → Завершение вызовов: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE/SIRI_CALL_HANGUP_ID`
+- Универсальный доступ → Siri → Завершение вызовов → Завершение вызовов: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE/SIRI_CALL_HANGUP_ID#SIRI_CALL_HANGUP_ID`
+- Универсальный доступ → Siri → Атипичная речь: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_ATYPICAL_SPEECH`
+- Универсальный доступ → Siri → Требовать слово Siri для прерывания: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_BARGE`
+- Универсальный доступ → Быстрая команда: `prefs:root=ACCESSIBILITY&path=TRIPLE_CLICK_TITLE`
+- Универсальный доступ → Настройки по приложениям: `prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE`
+- Универсальный доступ → Настройки по приложениям → Показ скрытых приложений: `prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE#PROTECTED_APPS_SHOW_HIDDEN_TITLE`
+- Универсальный доступ → Настройки по приложениям → Добавить приложение: `prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE#AX_ADD_BUTTON_IDENTIFIER`
+- Универсальный доступ → Управление устройствами рядом: `prefs:root=ACCESSIBILITY&path=CONTROL_NEARBY_DEVICES`
+- Универсальный доступ → Управление устройствами рядом → Управление устройствами рядом: `prefs:root=ACCESSIBILITY&path=CONTROL_NEARBY_DEVICES#CONTROL_NEARBY_DEVICES`
+- Универсальный доступ → Считывание движений глаз: `prefs:root=ACCESSIBILITY&path=DOMINANT_EYE`
+- Универсальный доступ → Прямая речь: `prefs:root=ACCESSIBILITY&path=LIVE_SPEECH_TITLE`
+- Универсальный доступ → Прямая речь → Фразы: `prefs:root=ACCESSIBILITY&path=LIVE_SPEECH_TITLE/LiveSpeechCategoryManagement`
+- Универсальный доступ → Прямая речь → Голоса: `prefs:root=ACCESSIBILITY&path=LIVE_SPEECH_TITLE#LIVE_SPEECH_VOICES`
+- Универсальный доступ → Личный голос: `prefs:root=ACCESSIBILITY&path=PERSONAL_VOICE_TITLE`
+- Универсальный доступ → Личный голос → Создать личный голос: `prefs:root=ACCESSIBILITY&path=PERSONAL_VOICE_TITLE#VB_CREATE_PERSONAL_VOICE`
+- Универсальный доступ → Личный голос → Учет на всех устройствах: `prefs:root=ACCESSIBILITY&path=PERSONAL_VOICE_TITLE#VB_USE_ICLOUD_TITLE`
+- Универсальный доступ → Личный голос → Запрос приложений на использование: `prefs:root=ACCESSIBILITY&path=PERSONAL_VOICE_TITLE#VB_ALLOW_WITH_APPS`
+- Универсальный доступ → AirPods: `prefs:root=ACCESSIBILITY&path=AIRPODS`
+- Универсальный доступ → AirPods → Нажатие: `prefs:root=ACCESSIBILITY&path=AIRPODS#TapGroup`
+- Универсальный доступ → AirPods → Нажатие и удерживание: `prefs:root=ACCESSIBILITY&path=AIRPODS#HoldGroup`
+- Универсальный доступ → AirPods → Настройки аудиовизуализации iPhone: `prefs:root=ACCESSIBILITY&path=AIRPODS#PERSONAL_AUDIO_AIRPODS_BUTTON`
+- Универсальный доступ → AirPods → Как на iPhone: `prefs:root=ACCESSIBILITY&path=AIRPODS#SPATIAL_AUDIO_SWITCH`
+- Универсальный доступ → AirPods → Громкость тона: `prefs:root=ACCESSIBILITY&path=AIRPODS#TONE_VOLUME`
+- Универсальный доступ → Голосовые команды: `prefs:root=ACCESSIBILITY&path=ADAPTIVE_VOICE_SHORTCUTS_TITLE`
+- Универсальный доступ → Голосовые команды → Настроить голосовые команды: `prefs:root=ACCESSIBILITY&path=ADAPTIVE_VOICE_SHORTCUTS_TITLE#AVS_SET_UP_BUTTON_TITLE`
+- Универсальный доступ → Музыкальные тактильные сигналы: `prefs:root=ACCESSIBILITY&path=HAPTIC_MUSIC`
+- Универсальный доступ → Отслеживание движения глаз: `prefs:root=ACCESSIBILITY&path=OnDeviceEyeTracking`
+- Универсальный доступ → Отслеживание движения глаз → Отслеживание движения глаз: `prefs:root=ACCESSIBILITY&path=OnDeviceEyeTracking#OnDeviceEyeTrackingEnabledSpecifier`
+- Универсальный доступ → Отслеживание движения глаз → Сглаживание: `prefs:root=ACCESSIBILITY&path=OnDeviceEyeTracking#SMOOTHING`
+- Универсальный доступ → Отслеживание движения глаз → Привязка к объекту: `prefs:root=ACCESSIBILITY&path=OnDeviceEyeTracking#SNAP_TO_ITEM`
+- Универсальный доступ → Отслеживание движения глаз → Увеличение клавиш на клавиатуре: `prefs:root=ACCESSIBILITY&path=OnDeviceEyeTracking#KEYBOARD_ZOOM`
+- Универсальный доступ → Отслеживание движения глаз → Автоматическое скрытие: `prefs:root=ACCESSIBILITY&path=OnDeviceEyeTracking#AUTO_HIDE`
+- Универсальный доступ → Отслеживание движения глаз → Управление с автонажатием: `prefs:root=ACCESSIBILITY&path=OnDeviceEyeTracking#DWELL_CONTROL`
+- Универсальный доступ → Контроллер камеры: `prefs:root=ACCESSIBILITY&path=CAMERA_CONTROL`
+- Универсальный доступ → Контроллер камеры → Контроллер камеры: `prefs:root=ACCESSIBILITY&path=CAMERA_CONTROL#CAMERA_CONTROL_SWITCH`
+- Универсальный доступ → Контроллер камеры → Легкое нажатие: `prefs:root=ACCESSIBILITY&path=CAMERA_CONTROL#LIGHT_PRESS`
+- Универсальный доступ → Контроллер камеры → Смахивание: `prefs:root=ACCESSIBILITY&path=CAMERA_CONTROL#SWIPE`
+- Универсальный доступ → Контроллер камеры → Сила легкого нажатия: `prefs:root=ACCESSIBILITY&path=CAMERA_CONTROL#LIGHT_PRESS_FORCE`
+- Универсальный доступ → Контроллер камеры → Скорость двойного легкого нажатия: `prefs:root=ACCESSIBILITY&path=CAMERA_CONTROL#SENSITIVITY`
+- Почта: `prefs:root=MAIL`
+- Почта → Учетные записи: `prefs:root=MAIL&path=ACCOUNTS`
+- Почта → Учетные записи → Новая учетная запись: `prefs:root=MAIL&path=ACCOUNTS#ADD_ACCOUNT`
+- Почта → Учетные записи → Новые данные: `prefs:root=MAIL&path=ACCOUNTS#FETCH_NEW_DATA`
+- Почта → Просмотр: `prefs:root=MAIL&path=Preview`
+- Почта → Этикетки Мне/Копия: `prefs:root=MAIL#Show%20To/Cc%20Labels`
+- Почта → Параметры смахивания: `prefs:root=MAIL&path=Swipe%20Options`
+- Почта → Подтверждение удаления: `prefs:root=MAIL#Ask%20Before%20Deleting`
+- Почта → Загрузка изображений: `prefs:root=MAIL#Load%20Remote%20Images`
+- Почта → Упорядочение по темам: `prefs:root=MAIL#Organize%20by%20Thread`
+- Почта → Сворачивание прочитанных: `prefs:root=MAIL#Collapse%20Read%20Messages`
+- Почта → Последнее письмо сверху: `prefs:root=MAIL#Most%20Recent%20Message%20on%20Top`
+- Почта → Показ тем целиком: `prefs:root=MAIL#Complete%20Threads`
+- Почта → С выкл. уведомлен.: `prefs:root=MAIL&path=Muted%20Thread%20Action`
+- Почта → Игнорирование заблокированных: `prefs:root=MAIL#Ignore%20Blocked%20Senders`
+- Почта → От заблокированных: `prefs:root=MAIL&path=Blocked%20Sender%20Options`
+- Почта → Заблокированные: `prefs:root=MAIL&path=Blocked`
+- Почта → Всегда копию себе: `prefs:root=MAIL#Always%20Bcc%20Myself`
+- Почта → Отметка адресов: `prefs:root=MAIL&path=Mark%20Addresses`
+- Почта → Уровень цитаты: `prefs:root=MAIL&path=Increase%20Quote%20Level`
+- Почта → Вкл. вложений в ответ: `prefs:root=MAIL&path=Include%20Attachments%20with%20Replies`
+- Почта → Подпись: `prefs:root=MAIL&path=Signature`
+- Обои: `prefs:root=Wallpaper`
+- Заметки: `prefs:root=NOTES`
+- Заметки → По умолчанию: `prefs:root=NOTES&path=Default%20Account`
+- Заметки → Пароль: `prefs:root=NOTES&path=Password`
+- Заметки → Сортировка: `prefs:root=NOTES&path=Sort%20Notes%20By`
+- Заметки → Первая строка заметки: `prefs:root=NOTES&path=New%20Notes%20Start%20With`
+- Заметки → Отмеченные элементы: `prefs:root=NOTES&path=Sort%20Checked%20Items`
+- Заметки → Линии и клетки: `prefs:root=NOTES&path=Lines%20%26%20Grids`
+- Заметки → Сохранить в Фото: `prefs:root=NOTES#Save%20to%20Photos`
+- Заметки → Заметки на заблок. экране: `prefs:root=NOTES&path=Access%20Notes%20from%20Lock%20Screen`
+- Код‑пароль: `prefs:root=PASSCODE`
+- Код‑пароль → Выключить код‑пароль: `prefs:root=PASSCODE#PASSCODE_OFF`
+- Код‑пароль → Сменить код‑пароль: `prefs:root=PASSCODE#CHANGE_PASSCODE`
+- Код‑пароль → Запрос код‑пароля: `prefs:root=PASSCODE&path=PASSCODE_REQ`
+- Код‑пароль → Голосовой набор: `prefs:root=PASSCODE#VOICE_DIAL`
+- Код‑пароль → Доступ с блокировкой экрана: `prefs:root=PASSCODE#ALLOW_ACCESS_WHEN_LOCKED`
+- Код‑пароль → Ответ сообщением: `prefs:root=PASSCODE#REPLY_WITH_MESSAGE_SWITCH`
+- Код‑пароль → Управление домом: `prefs:root=PASSCODE#HOME_CONTROL_SWITCH`
+- Код‑пароль → Wallet: `prefs:root=PASSCODE#WALLET_SWITCH`
+- Код‑пароль → Набор пропущенных: `prefs:root=PASSCODE#RETURN_MISSED_CALLS_SWITCH`
+- Код‑пароль → Стирание данных: `prefs:root=PASSCODE#WIPE_DEVICE`
+- Код‑пароль → Разблокировка с Apple Watch: `prefs:root=PASSCODE#AUTO_UNLOCK_DEVICES_GROUP`
+- Код‑пароль → Защита украденного устройства: `prefs:root=PASSCODE#DTO_GROUP_ID`
+- Календарь: `prefs:root=CALENDAR`
+- Календарь → Фиксация часового пояса: `prefs:root=CALENDAR&path=TimeZoneCityArray`
+- Календарь → Другие календари: `prefs:root=CALENDAR&path=Alternate%20Calendars`
+- Календарь → Номера недель: `prefs:root=CALENDAR#Week%20Numbers`
+- Календарь → Показать отказы участника: `prefs:root=CALENDAR#Show%20Invitee%20Declines`
+- Календарь → Синхронизация: `prefs:root=CALENDAR&path=Sync`
+- Календарь → Напоминания по умолчанию: `prefs:root=CALENDAR&path=Default%20Alert%20Times`
+- Календарь → Начало недели: `prefs:root=CALENDAR&path=Start%20Week%20On`
+- Календарь → Предложения мест: `prefs:root=CALENDAR#Location%20Suggestions`
+- Медданные: `prefs:root=HEALTH`
+- Телефон: `prefs:root=Phone`
+- Телефон → Мой номер: `prefs:root=Phone&path=My%20Number`
+- Телефон → Входящие вызовы: `prefs:root=Phone&path=INCOMING_CALL_STYLE`
+- Телефон → Объявлять вызовы: `prefs:root=Phone&path=ANNOUNCE_CALLS`
+- Телефон → Сообщения о спаме (SMS/вызовы): `prefs:root=Phone&path=CLASSIFICATION_AND_REPORTING`
+- Телефон → Ответ сообщением: `prefs:root=Phone&path=Respond%20with%20Text`
+- Телефон → Переадресация: `prefs:root=Phone&path=Call%20Forwarding`
+- Телефон → Переадресация → Переадресация: `prefs:root=Phone&path=Call%20Forwarding#idMasterOnOffSwitch`
+- Телефон → Ожидание вызова: `prefs:root=Phone&path=Call%20Waiting`
+- Телефон → Показ номера: `prefs:root=Phone&path=Show%20My%20Caller%20ID`
+- Телефон → Показ номера → Показ номера: `prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary`
+- Телефон → Показ номера → Показ номера → Показ номера: `prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary#Show%20My%20Caller%20ID`
+- Телефон → Заглушение неизвестных: `prefs:root=Phone#SILENCE_CALLS`
+- Телефон → Заблокированные контакты: `prefs:root=Phone&path=SPECIFIER_IDENTIFIER_BLACKLIST`
+- Телефон → Помощь в наборе: `prefs:root=Phone&path=Dial%20Assist`
+- App Store: `prefs:root=STORE`
+- App Store → Автоматические загрузки: `prefs:root=STORE#Automatic%20Downloads`
+- App Store → Обновления ПО: `prefs:root=STORE#App%20Updates`
+- App Store → Загрузки приложений: `prefs:root=STORE&path=App%20Downloads`
+- App Store → Автовоспр. видео: `prefs:root=STORE&path=Video%20Autoplay`
+- App Store → Оценки и отзывы: `prefs:root=STORE#In-App%20Ratings%20&%20Reviews`
+- Конфиденциальность и безопасность: `prefs:root=Privacy` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity`
+- Конфиденциальность и безопасность → Здоровье: `prefs:root=Privacy&path=HEALTH` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/HEALTH`
+- Конфиденциальность и безопасность → Медданные: `prefs:root=Privacy&path=HEALTH_DATA` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/HEALTH_DATA`
+- Конфиденциальность и безопасность → Геопозиция: `prefs:root=Privacy&path=LOCATION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/LOCATION`
+- Конфиденциальность и безопасность → Геопозиция → Делиться геопозицией: `prefs:root=Privacy&path=LOCATION/LOCATION_SHARING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/LOCATION/LOCATION_SHARING`
+- Конфиденциальность и безопасность → Контакты: `prefs:root=Privacy&path=CONTACTS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CONTACTS`
+- Конфиденциальность и безопасность → Календари: `prefs:root=Privacy&path=CALENDARS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CALENDARS`
+- Конфиденциальность и безопасность → Напоминания: `prefs:root=Privacy&path=REMINDERS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/REMINDERS`
+- Конфиденциальность и безопасность → Фото: `prefs:root=Privacy&path=PHOTOS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PHOTOS`
+- Конфиденциальность и безопасность → Общий доступ к Bluetooth: `prefs:root=Privacy&path=BT_PERIPHERAL` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/BT_PERIPHERAL`
+- Конфиденциальность и безопасность → Микрофон: `prefs:root=Privacy&path=MICROPHONE` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/MICROPHONE`
+- Конфиденциальность и безопасность → Распознавание речи: `prefs:root=Privacy&path=SPEECH_RECOGNITION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/SPEECH_RECOGNITION`
+- Конфиденциальность и безопасность → Камера: `prefs:root=Privacy&path=CAMERA` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CAMERA`
+- Конфиденциальность и безопасность → HomeKit: `prefs:root=Privacy&path=WILLOW` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/WILLOW`
+- Конфиденциальность и безопасность → Медиа и Apple Music: `prefs:root=Privacy&path=MEDIALIBRARY` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/MEDIALIBRARY`
+- Конфиденциальность и безопасность → Аналитика: `prefs:root=Privacy&path=PROBLEM_REPORTING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PROBLEM_REPORTING`
+- Конфиденциальность и безопасность → Реклама: `prefs:root=Privacy&path=ADVERTISING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/ADVERTISING`
+- Конфиденциальность и безопасность → Файлы и папки: `prefs:root=Privacy&path=FILEACCESS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/FILEACCESS`
+- Конфиденциальность и безопасность → Отслеживание: `prefs:root=Privacy&path=USER_TRACKING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/USER_TRACKING`
+- Конфиденциальность и безопасность → Отчет о конфиденциальности приложений: `prefs:root=Privacy&path=PRIVACY_REPORT` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PRIVACY_REPORT`
+- Конфиденциальность и безопасность → Режим блокировки: `prefs:root=Privacy#LOCKDOWN_MODE` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity#LOCKDOWN_MODE#LOCKDOWN_MODE`
+- Конфиденциальность и безопасность → Откровенный контент: `prefs:root=Privacy#NUDITY_DETECTION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity#NUDITY_DETECTION#NUDITY_DETECTION`
+- Рулетка: `prefs:root=MEASURE`
+- Рулетка → Единицы измерения, Measure Units: `prefs:root=MEASURE#MEASURE_UNITS`
+- Рулетка → Английские: `prefs:root=MEASURE#Imperial`
+- Рулетка → Метрические: `prefs:root=MEASURE#Metric`
+- Видео: `prefs:root=TVAPP`
+- Видео → Сотовые данные для воспр.: `prefs:root=TVAPP#com.apple.videos%3AVideosUseCellularDataEnabledSetting`
+- Видео → Качество воспроизведения: `prefs:root=TVAPP#com.apple.videos%3APlaybackQualityGroup`
+- Видео → Покупки и прокат: `prefs:root=TVAPP&path=com.apple.videos%3APreferredPurchaseResolution`
+- Видео → Домашняя коллекция: `prefs:root=TVAPP#com.apple.videos%3AHomeSharingFooter`
+- Game Center: `prefs:root=GAMECENTER`
+- Диктофон: `prefs:root=VOICE_MEMOS`
+- Диктофон → Очистка удаленных: `prefs:root=VOICE_MEMOS&path=RCVoiceMemosRecentlyDeletedWindowKey`
+- Диктофон → Качество звука: `prefs:root=VOICE_MEMOS&path=RCVoiceMemosAudioQualityKey`
+- Диктофон → Геоконтекстные названия: `prefs:root=VOICE_MEMOS#RCVoiceMemosUseLocationBasedNaming`
+- Быстрые команды: `prefs:root=SHORTCUTS`
+- Быстрые команды → Синхронизация iCloud: `prefs:root=SHORTCUTS#WFCloudKitSyncEnabled`
+- Быстрые команды → Синхронизация порядка: `prefs:root=SHORTCUTS#WFCloudKitSyncOrderEnabled`
+- Быстрые команды → Правовые уведомления: `prefs:root=SHORTCUTS&path=Legal%20Notices`
+- Напоминания: `prefs:root=REMINDERS`
+- Напоминания → Список по умолчанию: `prefs:root=REMINDERS&path=DEFAULT_LIST`
+- Напоминания → Список по умолчанию → Напоминания: `prefs:root=REMINDERS&path=DEFAULT_LIST#preferredDefaultListID`
+- Напоминания → Уведомление на сегодня: `prefs:root=REMINDERS#todayNotificationFireTime`
+- Напоминания → Статус просроченного: `prefs:root=REMINDERS#showRemindersAsOverdue`
+- Музыка: `prefs:root=MUSIC`
+- Музыка → Показ Apple Music: `prefs:root=MUSIC#com.apple.Music%3AAppleMusicEnabled`
+- Музыка → Добавление из плейлиста: `prefs:root=MUSIC#com.apple.Music%3AAddPlaylistSongsToMyMusicSwitch`
+- Музыка → Показ рейтинга звездами: `prefs:root=MUSIC#com.apple.Music%3AShowStarRatings`
+- Музыка → Синхронизация Медиатеки: `prefs:root=MUSIC#com.apple.Music%3ACloudMusicLibraryEnabled`
+- Музыка → Сотовые данные: `prefs:root=MUSIC&path=com.apple.Music%3ACellularData`
+- Музыка → Загруженная музыка: `prefs:root=MUSIC&path=com.apple.Music%3AMusicUsageLink`
+- Музыка → Оптимизация хранилища: `prefs:root=MUSIC&path=com.apple.Music%3AOptimizeStorage`
+- Музыка → Автоматические загрузки: `prefs:root=MUSIC#com.apple.Music%3AMusicAutomaticDownload`
+- Музыка → Эквалайзер: `prefs:root=MUSIC&path=com.apple.Music%3AEQ`
+- Музыка → Коррекция громкости: `prefs:root=MUSIC#com.apple.Music%3ASoundCheck`
+- Музыка → Использование истории: `prefs:root=MUSIC#com.apple.Music%3APrivateListening`
+- Siri: `prefs:root=SIRI`
+- Siri → Siri с блокировкой экрана: `prefs:root=SIRI#ASSISTANT_LOCK_SCREEN_ACCESS`
+- Siri → Язык: `prefs:root=SIRI&path=LANGUAGE_ID`
+- Siri → Голос Siri: `prefs:root=SIRI&path=VOICE_ID`
+- Siri → Аудиоотзыв: `prefs:root=SIRI&path=VOICE_FEEDBACK_ID`
+- Siri → Моя информация: `prefs:root=SIRI&path=MY_INFO`
+- Звуки: `prefs:root=Sounds`
+- Звуки → Безопасность наушников: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING`
+- Звуки → Безопасность наушников → Адаптеры Lightning: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING/HEADPHONE_LIGHTNING_ADAPTERS`
+- Звуки → Безопасность наушников → Уведомления от наушников: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneWeeklyNotificationsKey`
+- Звуки → Безопасность наушников → Громкое аудио тише: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneLevelLimitSwitchKey`
+- Звуки → Звуковые эффекты: `prefs:root=Sounds&path=SOUND_EFFECTS`
+- Звуки → Звонок и предупреждения: `prefs:root=Sounds#RINGER_AND_ALERT_GROUP`
+- Звуки → Изменение кнопками: `prefs:root=Sounds#CHANGE_WITH_BUTTONS`
+- Звуки → Звуки и рисунки вибраций: `prefs:root=Sounds#SOUNDS_ALERT_GROUP`
+- Звуки → Рингтон: `prefs:root=Sounds&path=Ringtone`
+- Звуки → Звук сообщения: `prefs:root=Sounds&path=Text_Messages`
+- Звуки → Автоответчик: `prefs:root=Sounds&path=Voicemail`
+- Звуки → Новая почта: `prefs:root=Sounds&path=NEW_MAIL`
+- Звуки → Отправленные: `prefs:root=Sounds&path=SENT_MAIL`
+- Звуки → Уведомления в календарях: `prefs:root=Sounds&path=Calendar%20Alarm`
+- Звуки → Уведомления: `prefs:root=Sounds&path=Reminder%20Alerts`
+- Звуки → Щелчки клавиатуры: `prefs:root=Sounds#KEYBOARD_SOUND_SWITCH`
+- Звуки → Звук блокировки: `prefs:root=Sounds#LOCK_SOUND_SWITCH`
+- Звуки → Персональное пространственное аудио: `prefs:root=Sounds&path=Personalized%20Spatial%20Audio`
+- Apple Pencil: `prefs:root=Pencil`
+- Apple Pencil → Apple Pencil: `prefs:root=Pencil#PrefersPencilDraws`
+- Apple Pencil → Apple Pencil: `prefs:root=Pencil#PencilTextInput`
+- Экстренный вызов — SOS: `prefs:root=EMERGENCY_SOS`
+- Экстренный вызов — SOS → Вызов боковой кнопкой: `prefs:root=EMERGENCY_SOS#CALL_WITH_SIDE_BUTTON`
+- Экстренный вызов — SOS → Автовызов: `prefs:root=EMERGENCY_SOS#AUTO_CALL`
+- Экстренный вызов — SOS → Контакты на случай ЧП: `prefs:root=EMERGENCY_SOS#EMERGENCY_CONTACTS`
+- Экстренный вызов — SOS → Звук обратного отсчета: `prefs:root=EMERGENCY_SOS#ALARM_SOUND_SWITCH`
+- Wi‑Fi: `prefs:root=WIFI`
+- Контакты: `prefs:root=CONTACTS`
+- Контакты → Разрешить доступ приложению «Контакты»: `prefs:root=CONTACTS#Allow%20Contacts%20To%20Access`
+- Контакты → Siri: `prefs:root=CONTACTS&path=SIRI_AND_SEARCH`
+- Контакты → Сортировка: `prefs:root=CONTACTS&path=ContactsSortOrder`
+- Контакты → Отображение: `prefs:root=CONTACTS&path=PersonNameOrder`
+- Контакты → Краткое имя: `prefs:root=CONTACTS&path=PersonShortName`
+- Контакты → Краткое имя → Краткое имя: `prefs:root=CONTACTS&path=PersonShortName#Short%20Name`
+- Контакты → Краткое имя → Предпочитать псевдонимы: `prefs:root=CONTACTS&path=PersonShortName#Prefer%20Nicknames`
+- Контакты → Мои данные: `prefs:root=CONTACTS&path=MeCard`
+- Контакты → Импортировать контакты SIM: `prefs:root=CONTACTS#SIMImport`
+- Пункт управления: `prefs:root=ControlCenter`
+- Пункт управления → Доступ в приложениях: `prefs:root=ControlCenter#ALLOWED_WITHIN_APPS`
+- Пункт управления → Настроить элем. управления: `prefs:root=ControlCenter&path=CUSTOMIZE_CONTROLS`
+- Разработчик: `prefs:root=DEVELOPER_SETTINGS`
+- Разработчик → Многоканальная сеть: `prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG`
+- Разработчик → Многоканальная сеть → Многоканальная сеть: `prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG#Multipath%20Networking`
+- Разработчик → Оформление: `prefs:root=DEVELOPER_SETTINGS#UIAppearanceGroup`
+- Разработчик → Темное оформление: `prefs:root=DEVELOPER_SETTINGS#UIAppearanceSettings`
+- Разработчик → Устройства в паре: `prefs:root=DEVELOPER_SETTINGS#DTPairedDevicesGroup`
+- Разработчик → Очистить доверенные компьютеры: `prefs:root=DEVELOPER_SETTINGS#CLEAR_TRUSTED_COMPUTERS`
+- Разработчик → Журнал: `prefs:root=DEVELOPER_SETTINGS&path=DTInstrumentsSettings`
+- Разработчик → Автоматизация интерфейса: `prefs:root=DEVELOPER_SETTINGS#UIAGroup`
+- Разработчик → Сети: `prefs:root=DEVELOPER_SETTINGS#NLCGroup`
+- Разработчик → Network Link Conditioner: `prefs:root=DEVELOPER_SETTINGS&path=NLC`
+- Разработчик → Дополнительные журналы: `prefs:root=DEVELOPER_SETTINGS#ADDITIONAL_LOGGING`
+- Разработчик → Разрешить HTTP‑службы: `prefs:root=DEVELOPER_SETTINGS#ALLOW_HTTP_SERVICES`
+- Разработчик → Выключить ограничение скорости: `prefs:root=DEVELOPER_SETTINGS#DISABLE_RATE_LIMITING`
+- Разработчик → Ключ доступа NFC (необязательно): `prefs:root=DEVELOPER_SETTINGS#NFC_PASS_KEY_OPTIONAL`
+- Разработчик → Тестирование мультимедийных служб: `prefs:root=DEVELOPER_SETTINGS#MEDIA_SERVICES_TESTING`
+- Разработчик → Сбросить мультимедийные службы: `prefs:root=DEVELOPER_SETTINGS#RESET_MEDIA_SERVICES`
+- Разработчик → Тестирование News: `prefs:root=DEVELOPER_SETTINGS#NEWS_TESTING`
+- Разработчик → Сброс локальных данных при след. запуске: `prefs:root=DEVELOPER_SETTINGS#RESET_LOCAL_DATA_ON_NEXT_LAUNCH`
+- Разработчик → Тестирование программной среды медиаплеера: `prefs:root=DEVELOPER_SETTINGS#RoutineSettingsGroup`
+- Разработчик → API воспроизводимого контента: `prefs:root=DEVELOPER_SETTINGS&path=RoutineSettings`
+- Разработчик → Телепровайдер: `prefs:root=DEVELOPER_SETTINGS&path=VideoSubscriberAccountSettings`
+- Разработчик → ClassKit API: `prefs:root=DEVELOPER_SETTINGS&path=ClassKitSettings`
+- Разработчик → Тестирование CoreSpotlight: `prefs:root=DEVELOPER_SETTINGS#CORESPOTLIGHT_TESTING`
+- Разработчик → Переиндексировать все объекты: `prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS`
+- Разработчик → Переиндексировать все объекты с идентификаторами: `prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS_WITH_IDENTIFIERS`
+- Разработчик → Тестирование Быстрых команд: `prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_TESTING`
+- Разработчик → Недавние Быстрые команды: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_SPOTLIGHT`
+- Разработчик → Показ предстоящих медиаданных: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_UPCOMING_MEDIA`
+- Разработчик → Донорство на заблокированном экране: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_LOCKSCREEN`
+- Разработчик → Принудительная синхронизация Быстрых команд на часы: `prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_SYNC_WATCHOS`
+- Разработчик → Тестирование MIDI-CI: `prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA`
+- Разработчик → Включить MIDI-CI: `prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA_ENABLE`
+- Разработчик → Обнаружение зависаний: `prefs:root=DEVELOPER_SETTINGS#HANGTRACER_EXTERNAL_CONFIGURE`
+- Bluetooth: `prefs:root=Bluetooth`
+- Акции: `prefs:root=STOCKS`
+- Акции → Конфиденциальность: `prefs:root=STOCKS#Privacy`
+- Акции → Сброс идентификатора: `prefs:root=STOCKS#reset_identifier`
+- Перевод: `prefs:root=TRANSLATE`
+- Перевод → Режим локального перевода: `prefs:root=TRANSLATE#OnDeviceOnly`
+- News: `prefs:root=NEWS`
+- News → Показ предпросмотра статей, Показ предпросмотра историй, Show Story Previews: `prefs:root=NEWS#show_excerpt_mode`
+- News → Ограничить статьи в виде «Сегодня», Ограничить истории в виде «Сегодня», Restrict Stories in Today: `prefs:root=NEWS#showStoriesFromFavoritesSpecifierID`
+- News → Конфиденциальность: `prefs:root=NEWS#Privacy`
+- News → Сброс идентификатора: `prefs:root=NEWS#reset_identifier`
+- News → Подтверждения: `prefs:root=NEWS&path=Acknowledgements`
+- Сообщения: `prefs:root=MESSAGES`
+- FaceTime: `prefs:root=FACETIME`
+- Фото: `prefs:root=Photos`
+- Фото → Фото iCloud: `prefs:root=Photos#iCloudPhotosSwitch`
+- Фото → Оптимизация хранилища: `prefs:root=Photos#iCloudOptimizeStorageOption`
+- Фото → Сохранение оригиналов: `prefs:root=Photos#iCloudKeepOriginalsOption`
+- Фото → Общие альбомы: `prefs:root=Photos#SharedStreamsSwitch`
+- Фото → Сотовые данные: `prefs:root=Photos&path=CellularDataLinkList`
+- Фото → Автовоспроизведение видео: `prefs:root=Photos#VideoAutoplaySwitch`
+- Фото → Просмотр полного HDR: `prefs:root=Photos#ImageModulationSwitch`
+- Фото → Праздничные события: `prefs:root=Photos#MEMORIES_HOLIDAY_CALENDAR_EVENTS_SWITCH`
+- Фото → Перенос на Mac или ПК: `prefs:root=Photos#TransferGroup`
+- Уведомление о контакте: `prefs:root=EXPOSURE_NOTIFICATION`
+- Камера: `prefs:root=CAMERA`
+- Камера → Форматы: `prefs:root=CAMERA&path=CameraFormatsSettingsList`
+- Камера → Форматы → Apple ProRaw: `prefs:root=CAMERA&path=CameraFormatsSettingsList#CAMUserPreferenceEnableLinearDNGControl`
+- Камера → Record Video: `prefs:root=CAMERA&path=Record%20Video`
+- Камера → Record Video → HDR-видео: `prefs:root=CAMERA&path=Record%20Video#HDR%20Video`
+- Камера → Сохранение настроек: `prefs:root=CAMERA&path=CameraPreserveSettingsSwitch`
+- Камера → Сохранение настроек → Режим камеры: `prefs:root=CAMERA&path=CameraPreserveSettingsSwitch#CAMUserPreferencePreserveCaptureMode`
+- Камера → Сетка: `prefs:root=CAMERA#CameraGridSwitch`
+- Камера → Сканирование QR‑кодов: `prefs:root=CAMERA#CameraQRBannerSwitch`
+- Сотовая связь: `prefs:root=MOBILE_DATA_SETTINGS_ID`
+- Сотовая связь → Параметры: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS`
+- Сотовая связь → Параметры → Экономия данных: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS#Low%20Data%20Mode`
+- Сотовая связь → Сотовые данные: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=SHOW_ALL`
+- Подкасты: `prefs:root=PODCASTS`
+- Компас: `prefs:root=COMPASS`
+- Компас → Применение истинного севера: `prefs:root=COMPASS#USE_TRUE_NORTH`
+- Книги: `prefs:root=IBOOKS`
+- Книги → Онлайн‑контент: `prefs:root=IBOOKS#BKAllowOnlineContent`
+- Книги → СИНХРОНИЗАЦИЯ: `prefs:root=IBOOKS#SYNCING`
+- Книги → Читаю сейчас: `prefs:root=IBOOKS#BKLibrary.ReadingNow`
+- Книги → iCloud Drive: `prefs:root=IBOOKS#BCSyncICloudDrive`
+- Книги → ЧТЕНИЕ: `prefs:root=IBOOKS#READING`
+- Книги → Полное выравнивание: `prefs:root=IBOOKS#BKFullJustification`
+- Книги → Автоперенос слов: `prefs:root=IBOOKS#BKAutoHyphenation`
+- Книги → Листание с обоих полей: `prefs:root=IBOOKS#BKLeftTapTurnToNext`
+- Книги → Цели по чтению: `prefs:root=IBOOKS#READING_GOALS`
+- Книги → Очистить данные целей по чтению: `prefs:root=IBOOKS#BKReadingGoalsShouldClearDataKey`
+- Книги → ПОИСК: `prefs:root=IBOOKS#SEARCHING`
+- Книги → Магазин книг: `prefs:root=IBOOKS#BKIncludeBookStoreResultsInSearch`
+- Книги → АУДИОКНИГИ: `prefs:root=IBOOKS#AUDIOBOOKS`
+- Книги → Переход вперед: `prefs:root=IBOOKS&path=BKAudioBookSkipForward`
+- Книги → Переход назад: `prefs:root=IBOOKS&path=BKAudioBookSkipBackward`
+- Книги → ВНЕШНИЕ ЭЛЕМЕНТЫ УПРАВЛЕНИЯ: `prefs:root=IBOOKS#BKRemoteSkipInsteadOfNextTrackDefaultKey`
+- Книги → Следующий или предыдущий: `prefs:root=IBOOKS#Next/Previous`
+- Книги → Переход вперед или назад: `prefs:root=IBOOKS#Skip%20Forward/Back`
+- Книги → КОНФИДЕНЦИАЛЬНОСТЬ: `prefs:root=IBOOKS#PRIVACY`
+- Книги → Сброс идентификатора: `prefs:root=IBOOKS#BAResetAnalyticsUserID`
+- Книги → Подтверждения: `prefs:root=IBOOKS&path=Acknowledgements`
+- Авиарежим: `prefs:root=ROOT#AIRPLANE_MODE`

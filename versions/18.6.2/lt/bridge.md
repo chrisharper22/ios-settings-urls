@@ -1,0 +1,426 @@
+- Prieinamumas: `bridge:root=ACCESSIBILITY`
+- Prieinamumas → Rega: `bridge:root=ACCESSIBILITY#VISION`
+- Prieinamumas → VoiceOver: `bridge:root=ACCESSIBILITY&path=VOICEOVER_TITLE`
+- Prieinamumas → Mastelis: `bridge:root=ACCESSIBILITY&path=ZOOM_TITLE`
+- Prieinamumas → Paryškintas tekstas: `bridge:root=ACCESSIBILITY#BoldTextEnabled`
+- Prieinamumas → Įjungti / išjungti žymes: `bridge:root=ACCESSIBILITY#OnOffLabelsEnabled`
+- Prieinamumas → Nespalvotas: `bridge:root=ACCESSIBILITY#GrayscaleDisplay`
+- Prieinamumas → Sumažinti skaidrumą: `bridge:root=ACCESSIBILITY#REDUCE_TRANSPARENCY`
+- Prieinamumas → Sumažinti judėjimą: `bridge:root=ACCESSIBILITY&path=ReduceMotion`
+- Prieinamumas → Suskambėjimas: `bridge:root=ACCESSIBILITY&path=TapticChimesCell`
+- Prieinamumas → Suskambėjimas → Suskambėjimas: `bridge:root=ACCESSIBILITY&path=TapticChimesCell#Chimes`
+- Prieinamumas → Suskambėjimas → Grafikas: `bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule`
+- Prieinamumas → Suskambėjimas → Grafikas → Kas valandą: `bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule#Hourly`
+- Prieinamumas → Suskambėjimas → Grafikas → 30 minučių: `bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule#30%20minutes`
+- Prieinamumas → Suskambėjimas → Grafikas → 15 minučių: `bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule#15%20minutes`
+- Prieinamumas → Suskambėjimas → Garsai: `bridge:root=ACCESSIBILITY&path=TapticChimesCell/Sounds`
+- Prieinamumas → Suskambėjimas → Garsai → Varpeliai: `bridge:root=ACCESSIBILITY&path=TapticChimesCell/Sounds#Bells`
+- Prieinamumas → Suskambėjimas → Garsai → Paukščiai: `bridge:root=ACCESSIBILITY&path=TapticChimesCell/Sounds#Birds`
+- Prieinamumas → Skeleto ir raumenų sistema: `bridge:root=ACCESSIBILITY#MotorGroupCell`
+- Prieinamumas → Šoninio mygtuko spustelėjimo greitis: `bridge:root=ACCESSIBILITY&path=SideButton`
+- Prieinamumas → Šoninio mygtuko spustelėjimo greitis → Spustelėjimo greitis: `bridge:root=ACCESSIBILITY&path=SideButton#SIDE_SPEED_HEADER`
+- Prieinamumas → Šoninio mygtuko spustelėjimo greitis → Numatyta: `bridge:root=ACCESSIBILITY&path=SideButton#SIDE_CLICK_SPEED_DEFAULT`
+- Prieinamumas → Šoninio mygtuko spustelėjimo greitis → Lėtas: `bridge:root=ACCESSIBILITY&path=SideButton#SIDE_CLICK_SPEED_SLOW`
+- Prieinamumas → Šoninio mygtuko spustelėjimo greitis → Lėčiausias: `bridge:root=ACCESSIBILITY&path=SideButton#SIDE_CLICK_SPEED_SLOWEST`
+- Prieinamumas → Palietimo pritaikymas: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell`
+- Prieinamumas → Palietimo pritaikymas → Palietimo pritaikymas: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#TOUCH_ACCOMMODATIONS_SWITCHER`
+- Prieinamumas → Palietimo pritaikymas → Laikymo trukmė: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#HoldDurationGroup`
+- Prieinamumas → Palietimo pritaikymas → Laikymo trukmė: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#HoldDuration`
+- Prieinamumas → Palietimo pritaikymas → Nepaisyti pakartojimų: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#IgnoreRepeatGroup`
+- Prieinamumas → Palietimo pritaikymas → Nepaisyti pakartojimų: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#IgnoreRepeat`
+- Prieinamumas → Palietimo pritaikymas → Bakstelėjimo pagalba: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#Tap%20Assistance`
+- Prieinamumas → Palietimo pritaikymas → Išjungta: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#OFF`
+- Prieinamumas → Palietimo pritaikymas → Naudoti pirmą palietimo vietą: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#ACTIVATE_ON_TOUCH`
+- Prieinamumas → Palietimo pritaikymas → Naudoti paskutinę palietimo vietą: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#ACTIVATE_ON_RELEASE`
+- Prieinamumas → AKTYVUMAS NEĮGALIOJO VEŽIMĖLYJE: `bridge:root=ACCESSIBILITY#MOBILITY`
+- Prieinamumas → Radijo stotelė: `bridge:root=ACCESSIBILITY#WalkieTalkieTapToTalkGroup`
+- Prieinamumas → Bakstelėkite, kad kalbėtumėte: `bridge:root=ACCESSIBILITY#WalkieTalkieTapToTalk`
+- Prieinamumas → Klausa: `bridge:root=ACCESSIBILITY#HEARING`
+- Prieinamumas → RTT: `bridge:root=ACCESSIBILITY&path=RTT`
+- Prieinamumas → RTT → RTT: `bridge:root=ACCESSIBILITY&path=RTT#RTT_TITLE`
+- Prieinamumas → RTT → Perdavimo numeris: `bridge:root=ACCESSIBILITY&path=RTT/TTY_RELAY_LABEL`
+- Prieinamumas → RTT → Siųsti nedelsiant: `bridge:root=ACCESSIBILITY&path=RTT#TTY_REALTIME_LABEL`
+- Prieinamumas → RTT → Numatytieji atsakymai: `bridge:root=ACCESSIBILITY&path=RTT/RTT_CANNED_TEXT_TITLE`
+- Prieinamumas → RTT → Numatytieji atsakymai → Numatytieji atsakymai: `bridge:root=ACCESSIBILITY&path=RTT/RTT_CANNED_TEXT_TITLE#Default%20Replies`
+- Prieinamumas → RTT → Numatytieji atsakymai → Įtraukti atsakymą…: `bridge:root=ACCESSIBILITY&path=RTT/RTT_CANNED_TEXT_TITLE#Add%20reply%E2%80%A6`
+- Prieinamumas → Monofoninis garsas: `bridge:root=ACCESSIBILITY#MonoAudioEnabled`
+- Prieinamumas → Kairės ir dešinės pusės stereofoninio garso balansas: `bridge:root=ACCESSIBILITY#LEFT_RIGHT_BALANCE_SPOKEN`
+- Prieinamumas → Ausinių pranešimai: `bridge:root=ACCESSIBILITY#HeadphoneNotificationsID`
+- Prieinamumas → Klausos aparatai: `bridge:root=ACCESSIBILITY#HearingDevicesComplicationGroupID`
+- Prieinamumas → Valdiklis: `bridge:root=ACCESSIBILITY&path=HearingDevicesComplicationRowID`
+- Prieinamumas → Valdiklis → Mikrofono garsumas: `bridge:root=ACCESSIBILITY&path=HearingDevicesComplicationRowID#Mic%20Volume`
+- Prieinamumas → Valdiklis → Programa: `bridge:root=ACCESSIBILITY&path=HearingDevicesComplicationRowID#Program`
+- Prieinamumas → Bakstelėjimais pranešamo laiko greitis: `bridge:root=ACCESSIBILITY#TapticTimeSpeedAdjustmentGroup`
+- Prieinamumas → Prieinamumo sparčioji komanda: `bridge:root=ACCESSIBILITY&path=AX_SHORTCUT`
+- Išjungti prieigos kodą: `bridge:root=PASSCODE_ID`
+- Išjungti prieigos kodą → Įjungti prieigos kodą: `bridge:root=PASSCODE_ID#TOGGLE_PASSCODE_ID`
+- Išjungti prieigos kodą → Keisti prieigos kodą: `bridge:root=PASSCODE_ID#CHANGE_PASSCODE_ID`
+- Išjungti prieigos kodą → Paprastas prieigos kodas: `bridge:root=PASSCODE_ID#SIMPLE_PASSCODE_SWITCH_ID`
+- Išjungti prieigos kodą → Atrakinti naudojant „iPhone“ įrenginį: `bridge:root=PASSCODE_ID#AUTO_UNLOCK_SWITCH_ID`
+- Išjungti prieigos kodą → Trinti duomenis: `bridge:root=PASSCODE_ID#ERASE_DATA_SWITCH_ID`
+- Išjungti prieigos kodą → Riešo aptikimas: `bridge:root=PASSCODE_ID#WRIST_DETECTION_CELL_ID`
+- Adresatai: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired`
+- Adresatai → Rikiavimo tvarka: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder`
+- Adresatai → Rikiavimo tvarka → Vardas, pavardė: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder#0`
+- Adresatai → Rikiavimo tvarka → Pavardė, vardas: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder#1`
+- Adresatai → Rodymo tvarka: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder`
+- Adresatai → Rodymo tvarka → Vardas, pavardė: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder#1`
+- Adresatai → Rodymo tvarka → Pavardė, vardas: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder#2`
+- Adresatai → Trumpasis vardas: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName`
+- Adresatai → Trumpasis vardas → Trumpasis vardas: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Short%20Name`
+- Adresatai → Trumpasis vardas → Vardas ir pirmoji pavardės raidė: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Name%20&%20Last%20Initial`
+- Adresatai → Trumpasis vardas → Pirmoji vardo raidė ir pavardė: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Initial%20&%20Last%20Name`
+- Adresatai → Trumpasis vardas → Tik vardas: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Name%20Only`
+- Adresatai → Trumpasis vardas → Tik pavardė: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Last%20Name%20Only`
+- Adresatai → Trumpasis vardas → Pirmenybę teikti slapyvardžiams: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Prefer%20Nicknames`
+- Rinkos kapitalizacija: `bridge:root=com.apple.StocksBridgeSettings`
+- Rinkos kapitalizacija → Laikrodžio ciferblate rodomas valdiklis: `bridge:root=com.apple.StocksBridgeSettings#Clock%20Face%20Complication%20Shows`
+- Rinkos kapitalizacija → Dabartinė kaina: `bridge:root=com.apple.StocksBridgeSettings#Current%20Price`
+- Rinkos kapitalizacija → Keisti taškus: `bridge:root=com.apple.StocksBridgeSettings#Points%20Change`
+- Rinkos kapitalizacija → Keisti procentinę dalį: `bridge:root=com.apple.StocksBridgeSettings#Percentage%20Change`
+- Rinkos kapitalizacija → Rinkos kapitalizacija: `bridge:root=com.apple.StocksBridgeSettings#Market%20Cap`
+- Rinkos kapitalizacija → „Siri“ laikrodžio ciferblate rodomas užrašas: `bridge:root=com.apple.StocksBridgeSettings#Siri%20Face%20Shows%20Quote%20For`
+- Rinkos kapitalizacija → Pasirinkta akcija: `bridge:root=com.apple.StocksBridgeSettings&path=Selected%20Stock`
+- Rinkos kapitalizacija → Pasirinkta akcija → Pasirinkta akcija: `bridge:root=com.apple.StocksBridgeSettings&path=Selected%20Stock#Selected%20Stock`
+- Radijo stotelė: `bridge:root=com.apple.tincan.settings`
+- Radijo stotelė → Leisti pranešimus: `bridge:root=com.apple.tincan.settings#ALLOW_NOTIFICATIONS_ID`
+- Radijo stotelė → Siųsti į pranešimų centrą: `bridge:root=com.apple.tincan.settings#SEND_TO_NOTIFICATION_CENTER_ID`
+- Radijo stotelė → Išjungti pranešimus: `bridge:root=com.apple.tincan.settings#NOTIFICATIONS_OFF_ID`
+- Radijo stotelė → Pranešimų grupavimas: `bridge:root=com.apple.tincan.settings&path=NOTIFICATION_COALESCING_ID`
+- Radijo stotelė → Draugai: `bridge:root=com.apple.tincan.settings#Friends`
+- „Apple Watch“ lokatorius: `bridge:root=ActiveWatch`
+- „Apple Watch“ lokatorius → Susieti naują laikrodį: `bridge:root=ActiveWatch&path=Pair%20New%20Watch`
+- Meditavimas: `bridge:root=com.apple.MindSettings`
+- Meditavimas → Leisti pranešimus: `bridge:root=com.apple.MindSettings#ALLOW_NOTIFICATIONS_ID`
+- Meditavimas → Siųsti į pranešimų centrą: `bridge:root=com.apple.MindSettings#SEND_TO_NOTIFICATION_CENTER_ID`
+- Meditavimas → Išjungti pranešimus: `bridge:root=com.apple.MindSettings#NOTIFICATIONS_OFF_ID`
+- Meditavimas → „Meditavimo“ priminimai: `bridge:root=com.apple.MindSettings#MIND_GROUP_ID`
+- Meditavimas → Dienos pradžia: `bridge:root=com.apple.MindSettings#MIND_START_OF_DAY_REMINDER`
+- Meditavimas → Dienos pabaiga: `bridge:root=com.apple.MindSettings#MIND_END_OF_DAY_REMINDER`
+- Meditavimas → Įtraukti priminimą…: `bridge:root=com.apple.MindSettings#Add%20Reminder%E2%80%A6`
+- Meditavimas → Savaitės suvestinė: `bridge:root=com.apple.MindSettings#MIND_WEEKLY_SUMMARY_ID`
+- Meditavimas → Nutildyti šiandienai: `bridge:root=com.apple.MindSettings#MIND_MUTE_FOR_TODAY_ID`
+- Meditavimas → Kvėpavimo dažnis: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID`
+- Meditavimas → Kvėpavimo dažnis → 4 įkvėpimai per minutę: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_4`
+- Meditavimas → Kvėpavimo dažnis → 5 įkvėpimai per minutę: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_5`
+- Meditavimas → Kvėpavimo dažnis → 6 įkvėpimai per minutę: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_6`
+- Meditavimas → Kvėpavimo dažnis → 7 įkvėpimai per minutę: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_7`
+- Meditavimas → Kvėpavimo dažnis → 8 įkvėpimai per minutę: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_8`
+- Meditavimas → Kvėpavimo dažnis → 9 įkvėpimai per minutę: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_9`
+- Meditavimas → Kvėpavimo dažnis → 10 įkvėpimų per minutę: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_10`
+- Meditavimas → Haptika: `bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID`
+- Meditavimas → Haptika → Nėra: `bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#NONE_ID`
+- Meditavimas → Haptika → Mažiausias: `bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#MINIMAL_ID`
+- Meditavimas → Haptika → Aiškus: `bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#PROMINENT_ID`
+- Siri: `bridge:root=SIRI_WATCH_SETTINGS_ID`
+- Siri → „Siri“ užklausos: `bridge:root=SIRI_WATCH_SETTINGS_ID#ASK_SIRI_GROUP_ID`
+- Siri → Siri: `bridge:root=SIRI_WATCH_SETTINGS_ID#HEY_SIRI_SWITCH_ID`
+- Siri → Kalbėjimas pakėlus: `bridge:root=SIRI_WATCH_SETTINGS_ID#RAISE_TO_SPEAK_SWITCH_ID`
+- Siri → Paspaudus „Digital Crown“: `bridge:root=SIRI_WATCH_SETTINGS_ID#DIGITAL_CROWN_SWITCH_ID`
+- Siri → Garsinis atsakas: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID`
+- Siri → Garsinis atsakas → Visada įjungta: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_ALWAYS_ON_ID`
+- Siri → Garsinis atsakas → Valdymas tyliuoju režimu: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_CONTROL_WITH_SILENT_MODE_ID`
+- Siri → Garsinis atsakas → Tik ausinės: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_HEADPHONES_ONLY_ID`
+- Siri → Balso garsumas: `bridge:root=SIRI_WATCH_SETTINGS_ID#VOICE_VOLUME_GROUP_ID`
+- Siri → „Siri“ pasiūlymai: `bridge:root=SIRI_WATCH_SETTINGS_ID#ASSISTANT_SUGGESTIONS_GROUP_ID`
+- Programos rodinys: `bridge:root=APP_VIEW_ID`
+- Bendrieji: `bridge:root=GENERAL_LINK`
+- Bendrieji → Apie: `bridge:root=GENERAL_LINK&path=ABOUT`
+- Bendrieji → Apie → Pavadinimas: `bridge:root=GENERAL_LINK&path=ABOUT/NAME_CELL_ID`
+- Bendrieji → Apie → Ribotoji garantija: `bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION`
+- Bendrieji → Apie → Ribotoji garantija → Ribotoji garantija: `bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#Limited%20Warranty`
+- Bendrieji → Apie → Ribotoji garantija → DRAUDIMO INFORMACIJA: `bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#COVERAGE%20DETAILS`
+- Bendrieji → Apie → Ribotoji garantija → Aparatinės įrangos aprėptis: `bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#Hardware%20Coverage`
+- Bendrieji → Apie → Ribotoji garantija → Pokalbių ir telefono palaikymas: `bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#Chat%20&%20Phone%20Support`
+- Bendrieji → Apie → Dainos: `bridge:root=GENERAL_LINK&path=ABOUT#SONGS_CELL_ID`
+- Bendrieji → Apie → Nuotraukos: `bridge:root=GENERAL_LINK&path=ABOUT#PHOTOS_CELL_ID`
+- Bendrieji → Apie → Programos: `bridge:root=GENERAL_LINK&path=ABOUT#APPLICATIONS_CELL_ID`
+- Bendrieji → Apie → Talpa: `bridge:root=GENERAL_LINK&path=ABOUT#STORAGE_CAPACITY_CELL_ID`
+- Bendrieji → Apie → Prieinama: `bridge:root=GENERAL_LINK&path=ABOUT#STORAGE_AVAILABLE_CELL_ID`
+- Bendrieji → Apie → Versija: `bridge:root=GENERAL_LINK&path=ABOUT#OS_VERSION_CELL_ID`
+- Bendrieji → Apie → Operatorius: `bridge:root=GENERAL_LINK&path=ABOUT#CARRIER_CELL_ID`
+- Bendrieji → Apie → Modelis: `bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_MODEL_CELL_ID`
+- Bendrieji → Apie → Serijos numeris: `bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_SERIAL_NUMBER_CELL_ID`
+- Bendrieji → Apie → Bluetooth: `bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_BLUETOOTH_ADDRESS_CELL_ID`
+- Bendrieji → Apie → IMEI: `bridge:root=GENERAL_LINK&path=ABOUT#IMEI_CELL_ID`
+- Bendrieji → Apie → ICCID: `bridge:root=GENERAL_LINK&path=ABOUT#ICCID_CELL_ID`
+- Bendrieji → Apie → EID: `bridge:root=GENERAL_LINK&path=ABOUT/EID_CELL_ID`
+- Bendrieji → Apie → SEID: `bridge:root=GENERAL_LINK&path=ABOUT/DEVICE_SEID_CELL_ID`
+- Bendrieji → Apie → Teisinė informacija: `bridge:root=GENERAL_LINK&path=ABOUT/LEGAL`
+- Bendrieji → Apie → Peržiūrėti „Apple Watch“ naudotojo vadovą : `bridge:root=GENERAL_LINK&path=ABOUT#MANUAL`
+- Bendrieji → Programinės įrangos atnaujinimas: `bridge:root=GENERAL_LINK&path=SOFTWARE_UPDATE_LINK`
+- Bendrieji → Automatinis programų diegimas: `bridge:root=GENERAL_LINK#AUTO_APP_INSTALL_SWITCH_ID`
+- Bendrieji → Skrydžio režimas: `bridge:root=GENERAL_LINK&path=AIRPLANE_MODE_ID`
+- Bendrieji → Susitelkimas: `bridge:root=GENERAL_LINK&path=FOCUS_ID`
+- Bendrieji → Susitelkimas → Dubliuoti mano „iPhone“: `bridge:root=GENERAL_LINK&path=FOCUS_ID#Mirror%20my%20iPhone`
+- Bendrieji → Laikrodžio padėtis: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION`
+- Bendrieji → Laikrodžio padėtis → Laikrodžio „Apple Watch“ nešiojimas: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#WRIST_CHOICE_ID`
+- Bendrieji → Laikrodžio padėtis → Kairysis riešas: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#LEFT_HAND_ID`
+- Bendrieji → Laikrodžio padėtis → Dešinysis riešas: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#RIGHT_HAND_ID`
+- Bendrieji → Laikrodžio padėtis → „Digital Crown“ kairėje pusėje: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#LISA_ON_LEFT_ID`
+- Bendrieji → Laikrodžio padėtis → „Digital Crown“ dešinėje pusėje: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#LISA_ON_RIGHT_ID`
+- Bendrieji → „Apple“ paskyra: `bridge:root=GENERAL_LINK&path=LINK_WITH_ICLOUD_LINK`
+- Bendrieji → Įjungti diktavimą: `bridge:root=GENERAL_LINK#DICTATION_CELL_ID`
+- Bendrieji → Įjungti „Handoff“: `bridge:root=GENERAL_LINK#CONTINUITY`
+- Bendrieji → Naktinis režimas: `bridge:root=GENERAL_LINK#NIGHTSTAND_CELL_ID`
+- Bendrieji → Įjungti ekrano kopijas: `bridge:root=GENERAL_LINK#BUTTON_CHORD_CELL_ID`
+- Bendrieji → Energijos rezervas: `bridge:root=GENERAL_LINK&path=USAGE_LINK`
+- Bendrieji → Diagnostikos žurnalai: `bridge:root=GENERAL_LINK&path=DIAGNOSTIC_LOG_BROWSER`
+- Bendrieji → Kopijuoti „Laikrodžio analizę“: `bridge:root=GENERAL_LINK#LOGS_CELL_ID`
+- Bendrieji → Nustatyti iš naujo: `bridge:root=GENERAL_LINK&path=RESET`
+- Bendrieji → Automatinis paleidimas panardinus po vandeniu: `bridge:root=GENERAL_LINK&path=AUTO_LAUNCH`
+- Bendrieji → Automatinis paleidimas panardinus po vandeniu → Automatiškai paleisti garso įrašų programas: `bridge:root=GENERAL_LINK&path=AUTO_LAUNCH#AUTO_LAUNCH_MEDIA`
+- Bendrieji → GRĮŽTI Į LAIKRODĮ: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK`
+- Bendrieji → GRĮŽTI Į LAIKRODĮ → GRĮŽTI Į LAIKRODĮ: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#CSLPRFReturnToClockGroupID`
+- Bendrieji → GRĮŽTI Į LAIKRODĮ → Visada: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#RETURN_TO_CLOCK_ALWAYS`
+- Bendrieji → GRĮŽTI Į LAIKRODĮ → Po 2 minučių: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#RETURN_TO_CLOCK_AFTER_2_MINUTES`
+- Bendrieji → GRĮŽTI Į LAIKRODĮ → Po 1 valandos: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#RETURN_TO_CLOCK_AFTER_1_HOUR`
+- Bendrieji → GRĮŽTI Į LAIKRODĮ → PROGRAMOS: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#APP_GROUP_ID`
+- Bendrieji → Kalba ir regionas: `bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION`
+- Bendrieji → Kalba ir regionas → Dubliuoti mano „iPhone“: `bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION#MIRROR_MY_COMPANION_ID`
+- Bendrieji → Kalba ir regionas → Pasirinkti: `bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION#CUSTOM_ID`
+- Bendrieji → Wake Screen: `bridge:root=GENERAL_LINK&path=WAKE_SCREEN`
+- Bendrieji → Wake Screen → Dabar leidžiama: `bridge:root=GENERAL_LINK&path=WAKE_SCREEN#AUTO_LAUNCH_MEDIA`
+- Ekranas ir šviesumas: `bridge:root=DISPLAY_AND_BRIGHTNESS`
+- Ekranas ir šviesumas → Šviesumas: `bridge:root=DISPLAY_AND_BRIGHTNESS#BRIGHTNESS_LABEL`
+- Ekranas ir šviesumas → Visada įjungta: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID`
+- Ekranas ir šviesumas → Visada įjungta → Visada įjungta: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID#TRITIUM_ID`
+- Ekranas ir šviesumas → Visada įjungta → NULEISTAS RIEŠAS: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID#TRITIUM_PRIVACY_GROUP_ID`
+- Ekranas ir šviesumas → Visada įjungta → Rodyti pranešimus: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Notifications`
+- Ekranas ir šviesumas → Visada įjungta → Rodyti pranešimus → Rodyti pranešimus: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Notifications#APP_BACKLIGHT_PRIVACY_GLOBAL_APP`
+- Ekranas ir šviesumas → Visada įjungta → Rodyti pranešimus → „APPLE WATCH“ PROGRAMOS: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Notifications#APP_GROUP_ID`
+- Ekranas ir šviesumas → Visada įjungta → Rodyti programas: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Apps`
+- Ekranas ir šviesumas → Visada įjungta → Rodyti programas → Rodyti programas: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Apps#APP_BACKLIGHT_PRIVACY_GLOBAL_APP`
+- Ekranas ir šviesumas → Visada įjungta → Rodyti programas → PROGRAMOS: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Apps#APP_GROUP_ID`
+- Ekranas ir šviesumas → Teksto dydis: `bridge:root=DISPLAY_AND_BRIGHTNESS#TEXT_SIZE`
+- Ekranas ir šviesumas → Paryškintas tekstas: `bridge:root=DISPLAY_AND_BRIGHTNESS#BOLD_TEXT`
+- Ekranas ir šviesumas → AKTYVINIMAS: `bridge:root=DISPLAY_AND_BRIGHTNESS#WAKE`
+- Ekranas ir šviesumas → Aktyvinti pakėlus riešą: `bridge:root=DISPLAY_AND_BRIGHTNESS#WAKE_SCREEN_ON_WRIST_RAISE_SWITCH_ID`
+- Ekranas ir šviesumas → Aktyvinti sukant ratuką: `bridge:root=DISPLAY_AND_BRIGHTNESS#WAKE_SCREEN_ON_CROWN_UP_SWITCH_ID`
+- Ekranas ir šviesumas → Aktyvinimo trukmė: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration`
+- Ekranas ir šviesumas → Aktyvinimo trukmė → BAKSTELĖJUS: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration#ON_TAP_GROUP_ID`
+- Ekranas ir šviesumas → Aktyvinimo trukmė → Aktyvinti 15 sekundžių: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration#SHORT_WAKE_ID`
+- Ekranas ir šviesumas → Aktyvinimo trukmė → Aktyvinti 70 sekundžių: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration#LONG_WAKE_ID`
+- Išmanusis dėklas: `bridge:root=SMARTSTACK_LINK`
+- Garsai ir haptika: `bridge:root=SOUNDS_ID`
+- Garsai ir haptika → Įspėjamojo signalo garsumas: `bridge:root=SOUNDS_ID#AUDIO_SLIDER`
+- Garsai ir haptika → Tylusis režimas: `bridge:root=SOUNDS_ID#audio_mute_switch`
+- Garsai ir haptika → Ausinių garsas: `bridge:root=SOUNDS_ID#HEADPHONE_AUDIO_GROUP`
+- Garsai ir haptika → Ausinių sauga: `bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING`
+- Garsai ir haptika → Ausinių sauga → Ausinių pranešimai: `bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING#COSHeadphoneNotificationsSwitchKey`
+- Garsai ir haptika → Ausinių sauga → Pritildyti didelį garsą: `bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING#COSHeadphoneLevelLimitSwitchKey`
+- Garsai ir haptika → Haptika: `bridge:root=SOUNDS_ID#Haptics`
+- Garsai ir haptika → Haptiniai įspėjimai: `bridge:root=SOUNDS_ID#Haptic%20Alerts`
+- Garsai ir haptika → „Crown“ haptika: `bridge:root=SOUNDS_ID#JACKRABBIT_ID`
+- Garsai ir haptika → Sistemos haptika: `bridge:root=SOUNDS_ID#SYSTEM_HAPTICS_ID`
+- Garsai ir haptika → Uždenkite, kad nutildytumėte: `bridge:root=SOUNDS_ID#COVER_TO_MUTE`
+- SOS signalas: `bridge:root=SOS_MODE_ID`
+- Privatumas: `bridge:root=PRIVACY_ID`
+- Privatumas → Širdies ritmas: `bridge:root=PRIVACY_ID#HEART_RATE_ENABLED_LABEL`
+- Privatumas → Kvėpavimo dažnis: `bridge:root=PRIVACY_ID#RESPIRATORY_RATE_LABEL`
+- Privatumas → „Fitness“ sekimas: `bridge:root=PRIVACY_ID#FITNESS_TRACKING_ENABLED_LABEL`
+- Privatumas → Iš naujo nustatyti programos „Fitness“ kalibravimo duomenis: `bridge:root=PRIVACY_ID#RESET_MOTION_CALIBRATION_LABEL`
+- Privatumas → Aplinkos garsų matavimai: `bridge:root=PRIVACY_ID#ENVIRONMENTAL_AUDIO_ENABLED_SWITCH_ID`
+- Privatumas → Ausinių garso matavimai: `bridge:root=PRIVACY_ID&path=HeadphoneAudio`
+- Privatumas → Ausinių garso matavimai → Išsaugoti programoje „Sveikata“: `bridge:root=PRIVACY_ID&path=HeadphoneAudio#SAVE_IN_HEALTH_GROUP`
+- Privatumas → Ausinių garso matavimai → 8 dienas: `bridge:root=PRIVACY_ID&path=HeadphoneAudio#FOR_EIGHT_DAYS_CELL`
+- Privatumas → Ausinių garso matavimai → Tol, kol ištrinsiu: `bridge:root=PRIVACY_ID&path=HeadphoneAudio#UNTIL_I_DELETE_CELL`
+- Privatumas → Deguonies kiekio kraujyje matavimai: `bridge:root=PRIVACY_ID#OXYGEN_SATURATION_ENABLED_SWITCH_ID`
+- Privatumas → Riešo temperatūra: `bridge:root=PRIVACY_ID#WRIST_TEMPERATURE_SWITCH_ID`
+- Ekrano laikas: `bridge:root=SCREEN_TIME_ID`
+- Nike Run Club: `bridge:root=VICTORY_ROW_ID`
+- Mail: `bridge:root=com.apple.NanoMailBridgeSettings`
+- Mail → Dubliuoti mano „iPhone“: `bridge:root=com.apple.NanoMailBridgeSettings#MIRROR_MY_COMPANION_ID`
+- Mail → Pasirinkti: `bridge:root=com.apple.NanoMailBridgeSettings#CUSTOM_ID`
+- Mail → „Mail“ nustatymai: `bridge:root=com.apple.NanoMailBridgeSettings#Mail%20Settings`
+- Mail → Paskyros: `bridge:root=com.apple.NanoMailBridgeSettings&path=Accounts`
+- Mail → Įtraukti laišką: `bridge:root=com.apple.NanoMailBridgeSettings&path=Include%20Mail`
+- Mail → Laiško peržiūra: `bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview`
+- Mail → Laiško peržiūra → Nėra: `bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#0`
+- Mail → Laiško peržiūra → 1 eilutė: `bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#1`
+- Mail → Laiško peržiūra → 2 eilutės: `bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#2`
+- Mail → Numatytieji atsakymai: `bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies`
+- Mail → Numatytieji atsakymai → Numatytieji atsakymai: `bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies#Default%20Replies`
+- Mail → Numatytieji atsakymai → Įtraukti atsakymą…: `bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies#Add%20reply%E2%80%A6`
+- Mail → Parašas: `bridge:root=com.apple.NanoMailBridgeSettings&path=Signature`
+- Saugyklos limitas: `bridge:root=com.apple.NanoMusicBridgeSettings`
+- Saugyklos limitas → GROJARAŠČIAI IR ALBUMAI: `bridge:root=com.apple.NanoMusicBridgeSettings#PLAYLISTS%20&%20ALBUMS`
+- Saugyklos limitas → Įtraukti muzikos…: `bridge:root=com.apple.NanoMusicBridgeSettings#Add%20Music%E2%80%A6`
+- Žinutės: `bridge:root=com.apple.MessagesBridgeSettings`
+- Žinutės → Dubliuoti mano „iPhone“: `bridge:root=com.apple.MessagesBridgeSettings#MIRROR_MY_COMPANION_ID`
+- Žinutės → Pasirinkti: `bridge:root=com.apple.MessagesBridgeSettings#CUSTOM_ID`
+- Žinutės → Numatytieji atsakymai: `bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES`
+- Žinutės → Numatytieji atsakymai → Numatytieji atsakymai: `bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Default%20Replies`
+- Žinutės → Numatytieji atsakymai → Išmanieji atsakymai: `bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Smart%20Replies`
+- Žinutės → Numatytieji atsakymai → Įtraukti atsakymą…: `bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Add%20reply%E2%80%A6`
+- Žinutės → Kartoti įspėjimus: `bridge:root=com.apple.MessagesBridgeSettings&path=PLAY_ALERT_TONE`
+- Žinutės → Garso žinutės: `bridge:root=com.apple.MessagesBridgeSettings&path=AudioMessagesMode`
+- Orai: `bridge:root=com.apple.weatherbridgesettings`
+- Orai → Numatytasis miestas: `bridge:root=com.apple.weatherbridgesettings&path=Default%20City`
+- Orai → Numatytasis miestas → Numatytasis miestas: `bridge:root=com.apple.weatherbridgesettings&path=Default%20City#Default%20City`
+- Orai → Numatytasis miestas → Dabartinė vieta: `bridge:root=com.apple.weatherbridgesettings&path=Default%20City#Current%20Location`
+- Kalendorius: `bridge:root=com.apple.NanoCalendarBridgeSettings`
+- Kalendorius → PRANEŠIMAI: `bridge:root=com.apple.NanoCalendarBridgeSettings#MIRROR_RADIO_GROUP_ID`
+- Kalendorius → Dubliuoti mano „iPhone“: `bridge:root=com.apple.NanoCalendarBridgeSettings#MIRROR_MY_COMPANION_ID`
+- Kalendorius → Pasirinktinis…: `bridge:root=com.apple.NanoCalendarBridgeSettings#CUSTOM_ID`
+- Kalendorius → KALENDORIAI: `bridge:root=com.apple.NanoCalendarBridgeSettings#CALENDARS_MIRROR_RADIO_GROUP_ID`
+- Kalendorius → Dubliuoti mano „iPhone“: `bridge:root=com.apple.NanoCalendarBridgeSettings#CALENDARS_MIRROR_MY_COMPANION_ID`
+- Kalendorius → Pasirinktinis…: `bridge:root=com.apple.NanoCalendarBridgeSettings&path=CALENDARS_CUSTOM_ID`
+- Kalendorius → Artėjantys įvykiai: `bridge:root=com.apple.NanoCalendarBridgeSettings&path=Upcoming%20Events`
+- Kalendorius → Kvietimai: `bridge:root=com.apple.NanoCalendarBridgeSettings&path=Invitations`
+- Kalendorius → Pakviestųjų atsakymai: `bridge:root=com.apple.NanoCalendarBridgeSettings&path=Invitee%20Responses`
+- Kalendorius → Bendrinamo kalendoriaus keitimai: `bridge:root=com.apple.NanoCalendarBridgeSettings&path=Shared%20Calendar%20Alerts`
+- Gylis: `bridge:root=com.apple.DepthCompanionSettings`
+- Veiksmo mygtukas: `bridge:root=STING_TITLE`
+- Triukšmas: `bridge:root=com.apple.Noise.settings`
+- Triukšmas → Aplinkos garsų matavimai: `bridge:root=com.apple.Noise.settings#ENABLE_MEASUREMENTS_ID`
+- Triukšmas → Triukšmo pranešimai: `bridge:root=com.apple.Noise.settings#LOUD_NOTIFICATION_GROUP_ID`
+- Triukšmas → Triukšmo ribinė reikšmė: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID`
+- Triukšmas → Triukšmo ribinė reikšmė → Išjungta: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#OFF`
+- Triukšmas → Triukšmo ribinė reikšmė → 80 decibelų: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_80`
+- Triukšmas → Triukšmo ribinė reikšmė → 85 decibelai: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_85`
+- Triukšmas → Triukšmo ribinė reikšmė → 90 decibelų: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_90`
+- Triukšmas → Triukšmo ribinė reikšmė → 95 decibelai: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_95`
+- Triukšmas → Triukšmo ribinė reikšmė → 100 decibelų: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_100`
+- Triukšmas → Pranešimų grupavimas: `bridge:root=com.apple.Noise.settings&path=NOTIFICATION_COALESCING_ID`
+- Nuotraukos: `bridge:root=com.apple.NanoPhotosBridgeSettings`
+- Nuotraukos → Nuotraukų sinchronizavimas: `bridge:root=com.apple.NanoPhotosBridgeSettings#Photo%20Syncing`
+- Nuotraukos → Prisiminimai: `bridge:root=com.apple.NanoPhotosBridgeSettings#Memories`
+- Nuotraukos → Sinchronizuoti prisiminimus: `bridge:root=com.apple.NanoPhotosBridgeSettings#Sync%20Memories`
+- Nuotraukos → Rekomenduojamos nuotraukos: `bridge:root=com.apple.NanoPhotosBridgeSettings#Featured%20Photos`
+- Nuotraukos → Sinchronizuoti rodytas nuotraukas: `bridge:root=com.apple.NanoPhotosBridgeSettings#Sync%20Featured%20Photos`
+- Nuotraukos → Albumas: `bridge:root=com.apple.NanoPhotosBridgeSettings#Album`
+- Nuotraukos → Sinchronizuoti albumą: `bridge:root=com.apple.NanoPhotosBridgeSettings&path=Sync%20Album`
+- Nuotraukos → Nuotraukų skaičiaus limitas: `bridge:root=com.apple.NanoPhotosBridgeSettings&path=Photos%20Limit`
+- Nuotraukos → Pranešimų nustatymai: `bridge:root=com.apple.NanoPhotosBridgeSettings#MIRROR_RADIO_GROUP_ID`
+- Nuotraukos → Dubliuoti mano „iPhone“: `bridge:root=com.apple.NanoPhotosBridgeSettings#MIRROR_MY_COMPANION_ID`
+- Nuotraukos → Pasirinkti: `bridge:root=com.apple.NanoPhotosBridgeSettings#CUSTOM_ID`
+- Tinklalaidės: `bridge:root=com.apple.private.PodcastsBridgeSettings`
+- Rankų plovimas: `bridge:root=com.apple.BrookBridgeSettings`
+- Rankų plovimas → Leisti pranešimus: `bridge:root=com.apple.BrookBridgeSettings#ALLOW_NOTIFICATIONS_ID`
+- Rankų plovimas → Siųsti į pranešimų centrą: `bridge:root=com.apple.BrookBridgeSettings#SEND_TO_NOTIFICATION_CENTER_ID`
+- Rankų plovimas → Išjungti pranešimus: `bridge:root=com.apple.BrookBridgeSettings#NOTIFICATIONS_OFF_ID`
+- Rankų plovimas → Pranešimų grupavimas: `bridge:root=com.apple.BrookBridgeSettings&path=NOTIFICATION_COALESCING_ID`
+- Rankų plovimas → Rankų plovimo laikmatis: `bridge:root=com.apple.BrookBridgeSettings#HANDWASHING_TIMER_ID`
+- Širdis: `bridge:root=com.apple.HeartRateSettings`
+- Širdis → Širdis: `bridge:root=com.apple.HeartRateSettings#1`
+- Širdis → Širdies ritmo pranešimai: `bridge:root=com.apple.HeartRateSettings#2`
+- Širdis → Aukštas širdies ritmas: `bridge:root=com.apple.HeartRateSettings#3`
+- Širdis → Žemas širdies ritmas: `bridge:root=com.apple.HeartRateSettings#4`
+- Širdis → Širdies ritmo sutrikimas: `bridge:root=com.apple.HeartRateSettings#5`
+- Širdis → Įrašytų EKG peržiūra programoje „Sveikata“: `bridge:root=com.apple.HeartRateSettings#6`
+- Širdis → EKG: `bridge:root=com.apple.HeartRateSettings#7`
+- Miegas: `bridge:root=com.apple.NanoBedtimeBridgeSettings`
+- Miegas → Funkcijos „Miegas“ nustatymas programoje „Sveikata“: `bridge:root=com.apple.NanoBedtimeBridgeSettings#SET_UP_SLEEP_CELL_ID`
+- Treniruotė: `bridge:root=com.apple.SessionTrackerAppSettings`
+- Treniruotė → Energijos taupymo režimas: `bridge:root=com.apple.SessionTrackerAppSettings#LOW_POWER_MODE`
+- Treniruotė → Rodyti tikslo metriką: `bridge:root=com.apple.SessionTrackerAppSettings#PRO_SETTING_ENABLED_LABEL`
+- Treniruotė → Treniruočių peržiūra: `bridge:root=com.apple.SessionTrackerAppSettings&path=METRIC_VIEW_ID`
+- Treniruotė → Automatinė pertrauka: `bridge:root=com.apple.SessionTrackerAppSettings&path=AUTO_PAUSE_ID`
+- Treniruotė → Automatinė pertrauka → Automatinė pertrauka: `bridge:root=com.apple.SessionTrackerAppSettings&path=AUTO_PAUSE_ID#WorkoutAutoPauseSwitch`
+- Treniruotė → Treniruotės pradžios priminimas: `bridge:root=com.apple.SessionTrackerAppSettings#AUTO_START_WORKOUT_NOTIFICATIONS_ENABLED_LABEL`
+- Treniruotė → Treniruotės pabaigos priminimas: `bridge:root=com.apple.SessionTrackerAppSettings#END_REMINDERS_ENABLED_LABEL`
+- Treniruotė → Pristabdymas paspaudžiant: `bridge:root=com.apple.SessionTrackerAppSettings#CHORD_PRESS_PAUSE_WORKOUT_ENABLED_LABEL`
+- Treniruotė → Sporto įrangos aptikimas: `bridge:root=com.apple.SessionTrackerAppSettings#NFC_ENABLED_LABEL_ID`
+- Treniruotė → Tempo / greičio peržiūra: `bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL`
+- Treniruotė → Tempo / greičio peržiūra → Dabartinė: `bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL#CURRENT_PACE_ID`
+- Treniruotė → Tempo / greičio peržiūra → Vidurkis: `bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL#AVERAGE_PACE_ID`
+- Treniruotė → Treniruotės grojaraštis: `bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID`
+- Treniruotė → Treniruotės grojaraštis → Nėra: `bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID#NONE_AUTOSTART_ID`
+- Treniruotė → Treniruotės grojaraštis → Grojaraščiai: `bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID#MUSIC_PLAYLIST_GROUP_ID`
+- Treniruotė → Leisti nuo pradžių: `bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_MUSIC_PLAY_FROM_BEGINNING_SETTING_ID`
+- Treniruotė → Maišyti: `bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_MUSIC_SHUFFLE_SETTING_ID`
+- Treniruotė → Mato vienetai: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID`
+- Treniruotė → Mato vienetai → Kalorijos: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_CALORIES_ID`
+- Treniruotė → Mato vienetai → Kilokalorijos: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_KILOCALORIES_ID`
+- Treniruotė → Mato vienetai → Kilodžauliai: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_KILOJOULES_ID`
+- Treniruotė → Mato vienetai → Jardai: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#POOL_LENGTH_YARDS_ID`
+- Treniruotė → Mato vienetai → Metrai: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#POOL_LENGTH_METERS_ID`
+- Treniruotė → Mato vienetai → Mylios: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#CYCLING_WORKOUTS_MILES_ID`
+- Treniruotė → Mato vienetai → Kilometrai: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#CYCLING_WORKOUTS_KILOMETERS_ID`
+- Treniruotė → Mato vienetai → Mylios: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#WALKING_AND_RUNNING_WORKOUTS_MILES_ID`
+- Treniruotė → Mato vienetai → Kilometrai: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#WALKING_AND_RUNNING_WORKOUTS_KILOMETERS_ID`
+- Treniruotė → Garsinis atsakas: `bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_VOICE_FEEDBACK_LABEL`
+- Treniruotė → Metas eiti: `bridge:root=com.apple.SessionTrackerAppSettings#GUIDED_WORKOUT_PREFETCH_FOOTER_ID`
+- Treniruotė → Įtraukti naujų treniruočių į „Apple Watch“: `bridge:root=com.apple.SessionTrackerAppSettings#GUIDED_WORKOUT_PREFETCH_LABEL_ID`
+- Telefonas: `bridge:root=com.apple.PhoneBridgeSettings`
+- Telefonas → Skambučiai: `bridge:root=com.apple.PhoneBridgeSettings#carrier_direct_calling_group_id`
+- Telefonas → Skambučio melodija: `bridge:root=com.apple.PhoneBridgeSettings#RINGTONE`
+- Telefonas → Garsas: `bridge:root=com.apple.PhoneBridgeSettings#INCOMING_CALL_SOUND`
+- Telefonas → Haptika: `bridge:root=com.apple.PhoneBridgeSettings#INCOMING_CALL_HAPTIC`
+- App Store: `bridge:root=com.apple.BridgeAppStoreDaemonSettings`
+- App Store → Automatiniai atsisiuntimai: `bridge:root=com.apple.BridgeAppStoreDaemonSettings#automaticDownloadSpecifier`
+- App Store → Automatiniai atnaujinimai: `bridge:root=com.apple.BridgeAppStoreDaemonSettings#Automatic%20Updates`
+- Audioknygos: `bridge:root=com.apple.NanoBooks.BridgeSettings`
+- Audioknygos → Prisijungti: `bridge:root=com.apple.NanoBooks.BridgeSettings#Sign%20In`
+- Įjungti įspėjimus: `bridge:root=com.apple.NanoMapsBridgeSettings`
+- Įjungti įspėjimus → Įjungti įspėjimus: `bridge:root=com.apple.NanoMapsBridgeSettings#Turn%20Alerts`
+- Įjungti įspėjimus → Vairavimas: `bridge:root=com.apple.NanoMapsBridgeSettings#Driving`
+- Įjungti įspėjimus → Vairavimas naudojant „CarPlay": `bridge:root=com.apple.NanoMapsBridgeSettings#Driving%20with%20CarPlay`
+- Įjungti įspėjimus → Ėjimas pėsčiomis: `bridge:root=com.apple.NanoMapsBridgeSettings#Walking`
+- Įjungti įspėjimus → Važiavimas dviračiu: `bridge:root=com.apple.NanoMapsBridgeSettings#Cycling`
+- Įjungti įspėjimus → Rodyti navigaciją: `bridge:root=com.apple.NanoMapsBridgeSettings#Show%20Navigation`
+- Įjungti įspėjimus → Viešasis transportas: `bridge:root=com.apple.NanoMapsBridgeSettings#Transit`
+- Įjungti įspėjimus → Sukūrimo informacija:: `bridge:root=com.apple.NanoMapsBridgeSettings#Build%20Info%3A`
+- Dokas: `bridge:root=DOCK`
+- Dokas → „Dock“ eilės tvarka: `bridge:root=DOCK#OrderingOptionGroup`
+- Dokas → Naujausi: `bridge:root=DOCK#Recents`
+- Dokas → Mėgstama: `bridge:root=DOCK#Favorites`
+- Dokas: `bridge:root=DOCK.0`
+- Dokas → „Dock“ eilės tvarka: `bridge:root=DOCK.0#OrderingOptionGroup`
+- Dokas → Naujausi: `bridge:root=DOCK.0#Recents`
+- Dokas → Mėgstama: `bridge:root=DOCK.0#Favorites`
+- Deguonies kiekis kraujyje: `bridge:root=com.apple.OxygenSaturationSettings`
+- Laikrodis: `bridge:root=com.apple.NanoClockBridgeSettings`
+- Laikrodis → 24 valandų laikas: `bridge:root=com.apple.NanoClockBridgeSettings#24-Hour%20Time`
+- Laikrodis → Suskambėjimas: `bridge:root=com.apple.NanoClockBridgeSettings#Chimes`
+- Laikrodis → Garsai: `bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds`
+- Laikrodis → Garsai → Varpeliai: `bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds#Bells`
+- Laikrodis → Garsai → Paukščiai: `bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds#Birds`
+- Laikrodis → Garsu pranešamas laikas: `bridge:root=com.apple.NanoClockBridgeSettings#Speak%20Time`
+- Laikrodis → Valdymas tyliuoju režimu: `bridge:root=com.apple.NanoClockBridgeSettings#Control%20With%20Silent%20Mode`
+- Laikrodis → Visada perskaityti: `bridge:root=com.apple.NanoClockBridgeSettings#Always%20Speak`
+- Laikrodis → Bakstelėjimais pranešamas laikas: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time`
+- Laikrodis → Bakstelėjimais pranešamas laikas → Bakstelėjimais pranešamas laikas: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Taptic%20Time`
+- Laikrodis → Bakstelėjimais pranešamas laikas → Skaitmenys: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Digits`
+- Laikrodis → Bakstelėjimais pranešamas laikas → Glaustas: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Terse`
+- Laikrodis → Bakstelėjimais pranešamas laikas → Morzės abėcėlė: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Morse%20Code`
+- Laikrodis → „Push“ įspėjimai iš „iPhone“: `bridge:root=com.apple.NanoClockBridgeSettings#Push%20Alerts%20from%20iPhone`
+- Laikrodis → Pranešimų indikatorius: `bridge:root=com.apple.NanoClockBridgeSettings#Notifications%20Indicator`
+- Laikrodis → Monograma: `bridge:root=com.apple.NanoClockBridgeSettings&path=MONOGRAM_ID`
+- Laikrodis → Laikrodžio ciferblato pranešimai: `bridge:root=com.apple.NanoClockBridgeSettings#Watch%20Face%20Notifications`
+- Laikrodis → Miestų santrumpos: `bridge:root=com.apple.NanoClockBridgeSettings&path=City%20Abbreviations`
+- Laikrodis → „Siri“ laikrodžio ciferblato duomenų šaltiniai: `bridge:root=com.apple.NanoClockBridgeSettings&path=Siri%20Face%20Data%20Sources`
+- Sveikata: `bridge:root=com.apple.BridgeHealthSettings`
+- Valdikliai: `bridge:root=COMPLICATIONS`
+- Operatoriaus nustatymai: `bridge:root=CARRIER_SETTINGS`
+- Aktyvumas: `bridge:root=com.apple.HealthAppsSettings`
+- Aktyvumas → Eigos naujiniai: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL`
+- Aktyvumas → Eigos naujiniai → Nėra: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#ZERO_HOURS_ID`
+- Aktyvumas → Eigos naujiniai → Kas 2 valandas: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#TWO_HOURS_ID`
+- Aktyvumas → Eigos naujiniai → Kas 4 valandas: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#FOUR_HOURS_ID`
+- Aktyvumas → Eigos naujiniai → Kas 6 valandas: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#SIX_HOURS_ID`
+- Aktyvumas → Eigos naujiniai → Kas 8 valandas: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#EIGHT_HOURS_ID`
+- Aktyvumas → Pasiekimai: `bridge:root=com.apple.HealthAppsSettings#ACHIEVEMENTS_ENABLED_LABEL`
+- Aktyvumas → Savaitės suvestinė: `bridge:root=com.apple.HealthAppsSettings#WEEKLY_SUMMARY_ENABLED_LABEL`
+- Aktyvumas → Kasdienis instruktavimas: `bridge:root=com.apple.HealthAppsSettings#DAILY_PROGRESS_ENABLED_LABEL`
+- Aktyvumas → Pasiekti tikslai: `bridge:root=com.apple.HealthAppsSettings#GOAL_COMPLETIONS_ENABLED_LABEL`
+- Aktyvumas → Specialūs iššūkiai: `bridge:root=com.apple.HealthAppsSettings#REMOTE_ACHIEVEMENTS_ENABLED_LABEL`
+- Aktyvumas → Veiklos bendrinimo pranešimai: `bridge:root=com.apple.HealthAppsSettings#ACTIVITY_SHARING_NOTIFICATIONS_ENABLED`
+- „Piniginė“ ir „Apple Pay“: `bridge:root=com.apple.NanoPassbookBridgeSettings`
+- „Piniginė“ ir „Apple Pay“ → Apple Cash: `bridge:root=com.apple.NanoPassbookBridgeSettings#Apple%C2%A0Cash`
+- „Piniginė“ ir „Apple Pay“ → Įtraukti kortelę: `bridge:root=com.apple.NanoPassbookBridgeSettings#Add%20Card`
+- „Piniginė“ ir „Apple Pay“ → Pranešimai: `bridge:root=com.apple.NanoPassbookBridgeSettings#MIRROR_RADIO_GROUP_ID`
+- „Piniginė“ ir „Apple Pay“ → Dubliuoti mano „iPhone“: `bridge:root=com.apple.NanoPassbookBridgeSettings#MIRROR_MY_COMPANION_ID`
+- „Piniginė“ ir „Apple Pay“ → Pasirinkti: `bridge:root=com.apple.NanoPassbookBridgeSettings#CUSTOM_ID`
+- Mobilusis ryšys: `bridge:root=CELLULAR_ID`
+- „Mail“ ir kalendorius: `bridge:root=com.apple.BridgeRemoteAccounts`
+- „Mail“ ir kalendorius → Paskyros: `bridge:root=com.apple.BridgeRemoteAccounts#Accounts`
+- „Mail“ ir kalendorius → Įtraukti „Google“ paskyrą…: `bridge:root=com.apple.BridgeRemoteAccounts#ADD_GOOGLE_ACCOUNT`
+- „Mail“ ir kalendorius → Gauti: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch`
+- „Mail“ ir kalendorius → Gauti → Išjungta: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#Off`
+- „Mail“ ir kalendorius → Gauti → Kas valandą: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#Hourly`
+- „Mail“ ir kalendorius → Gauti → 30 min.: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#30%20min`
+- „Mail“ ir kalendorius → Gauti → 15 min.: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#15%20min`
+- Pranešti, kad perskaičiau: `bridge:root=com.apple.MessagesBridgeSettings%23READ_RECEIPTS`
+- Nuotraukų skaičiaus limitas: `bridge:root=com.apple.mobileslideshow`

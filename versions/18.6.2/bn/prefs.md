@@ -1,0 +1,1186 @@
+- ব্যাটারি: `prefs:root=BATTERY_USAGE`
+- ব্যাটারি → লো পাওয়ার মোড: `prefs:root=BATTERY_USAGE#BATTERY_SAVER_MODE`
+- ব্যাটারি → ব্যাটারি হেলথ: `prefs:root=BATTERY_USAGE#BATTERY_HEALTH_ID`
+- অ্যাকশন বাটন: `prefs:root=ACTION_BUTTON`
+- নোটিফিকেশন: `prefs:root=NOTIFICATIONS_ID`
+- নোটিফিকেশন → নির্ধারিত সারসংক্ষেপ: `prefs:root=NOTIFICATIONS_ID&path=SCHEDULED_DELIVERY_ID`
+- জেনারেল: `prefs:root=General`
+- জেনারেল → VPN এবং ডিভাইস ম্যানেজমেন্ট: `prefs:root=General&path=ManagedConfigurationList`
+- জেনারেল → AppleCare এবং ওয়্যারান্টি: `prefs:root=General&path=COVERAGE/`
+- জেনারেল → অটোফিল ও পাসওয়ার্ড: `prefs:root=General&path=AUTOFILL`
+- জেনারেল → অটোফিল ও পাসওয়ার্ড → পাসওয়ার্ড অটোফিল করুন: `prefs:root=General&path=AUTOFILL#AUTOFILL`
+- জেনারেল → অটোফিল ও পাসওয়ার্ড → ভেরিফিকেশন কোড মুছে ফেলুন: `prefs:root=General&path=AUTOFILL#CLEAN_UP_VERIFICATION_CODES`
+- জেনারেল → অটোফিল ও পাসওয়ার্ড → ভেরিফিকেশন কোড সেট আপ করুন: `prefs:root=General&path=AUTOFILL#SET_UP_VERIFICATION_CODES`
+- জেনারেল → স্টোরেজ: `prefs:root=General&path=STORAGE_MGMT`
+- জেনারেল → স্টোরেজ → স্টোরেজ: `prefs:root=General&path=STORAGE_MGMT#MANAGE`
+- জেনারেল → স্টোরেজ → অব্যবহৃত অ্যাপগুলি অফলোড করুন: `prefs:root=General&path=STORAGE_MGMT#OFFLOAD`
+- জেনারেল → সফ্টওয়্যার আপডেট: `prefs:root=General&path=SOFTWARE_UPDATE_LINK`
+- জেনারেল → সফ্টওয়্যার আপডেট → স্বয়ংক্রিয় আপডেট: `prefs:root=General&path=SOFTWARE_UPDATE_LINK/SUAutomaticUpdateButton`
+- জেনারেল → কীবোর্ড: `prefs:root=General&path=Keyboard`
+- জেনারেল → কীবোর্ড → কীবোর্ড: `prefs:root=General&path=Keyboard/KEYBOARDS`
+- জেনারেল → কীবোর্ড → টেক্সট বদলান: `prefs:root=General&path=Keyboard/USER_DICTIONARY`
+- জেনারেল → কীবোর্ড → স্বয়ংক্রিয়ভাবে ক্যাপিটালাইজ করুন: `prefs:root=General&path=Keyboard#KeyboardAutocapitalization`
+- জেনারেল → কীবোর্ড → স্বয়ংক্রিয়ভাবে সংশোধন করুন: `prefs:root=General&path=Keyboard#KeyboardAutocorrection`
+- জেনারেল → কীবোর্ড → বানান চেক করুন: `prefs:root=General&path=Keyboard#KeyboardCheckSpelling`
+- জেনারেল → কীবোর্ড → ক্যাপস লক সক্রিয় করুন: `prefs:root=General&path=Keyboard#KeyboardCapsLock`
+- জেনারেল → কীবোর্ড → শর্টকাট: `prefs:root=General&path=Keyboard#KeyboardAssistant`
+- জেনারেল → কীবোর্ড → আগাম উপদেশ: `prefs:root=General&path=Keyboard#KeyboardPrediction`
+- জেনারেল → কীবোর্ড → স্মার্ট যতিচিহ্ন: `prefs:root=General&path=Keyboard#SmartTyping`
+- জেনারেল → কীবোর্ড → স্প্লিট কীবোর্ড: `prefs:root=General&path=Keyboard#RivenKeyboard`
+- জেনারেল → কীবোর্ড → কী ফ্লিক সক্রিয় করুন: `prefs:root=General&path=Keyboard#GesturesEnabled`
+- জেনারেল → কীবোর্ড → অক্ষরের প্রিভিউ: `prefs:root=General&path=Keyboard#KeyboardAllowPaddle`
+- জেনারেল → কীবোর্ড → “।” শর্টকাট: `prefs:root=General&path=Keyboard#KeyboardPeriodShortcut`
+- জেনারেল → কীবোর্ড → টাইপ করার জন্য স্লাইড করুন: `prefs:root=General&path=Keyboard#KeyboardContinuousPathEnabled`
+- জেনারেল → কীবোর্ড → ডিক্টেশন সক্রিয় করুন: `prefs:root=General&path=Keyboard#Dictation`
+- জেনারেল → কীবোর্ড → স্বয়ংক্রিয়ভাবে যতিচিহ্ন দিন: `prefs:root=General&path=Keyboard#AutoPunctuationSetting`
+- জেনারেল → ভাষা ও অঞ্চল: `prefs:root=General&path=INTERNATIONAL`
+- জেনারেল → ভাষা ও অঞ্চল → অন্যান্য ভাষা…: `prefs:root=General&path=INTERNATIONAL#NEW_PREFERRED_LANGUAGE`
+- জেনারেল → ভাষা ও অঞ্চল → পছন্দের ভাষা ক্রম: `prefs:root=General&path=INTERNATIONAL#PREFERRED_LANGUAGE_GROUP`
+- জেনারেল → ভাষা ও অঞ্চল → ভাষা যোগ করুন…: `prefs:root=General&path=INTERNATIONAL#ADD_PREFERRED_LANGUAGE`
+- জেনারেল → ভাষা ও অঞ্চল → অঞ্চল: `prefs:root=General&path=INTERNATIONAL/LOCALE`
+- জেনারেল → ভাষা ও অঞ্চল → নম্বর: `prefs:root=General&path=INTERNATIONAL/NUMBERING_SYSTEM`
+- জেনারেল → ভাষা ও অঞ্চল → ক্যালেন্ডার: `prefs:root=General&path=INTERNATIONAL/CALENDAR`
+- জেনারেল → ভাষা ও অঞ্চল → তাপমাত্রা ইউনিট: `prefs:root=General&path=INTERNATIONAL/TEMPERATURE_UNIT`
+- জেনারেল → অভিধান: `prefs:root=General&path=DICTIONARY`
+- জেনারেল → পিকচার ইন পিকচার: `prefs:root=General&path=PiP_SPEC`
+- জেনারেল → ট্র্যাকপ্যাড: `prefs:root=General&path=POINTERS`
+- জেনারেল → NFC: `prefs:root=General&path=NFC_LINK`
+- জেনারেল → VPN: `prefs:root=General&path=VPN`
+- জেনারেল → CarPlay: `prefs:root=General&path=CARPLAY`
+- জেনারেল → ডিভাইসের বিষয়ে: `prefs:root=General&path=About`
+- জেনারেল → ডিভাইসের বিষয়ে → বিশ্বাসযোগ্য সার্টিফিকেট: `prefs:root=General&path=About/CERT_TRUST_SETTINGS`
+- জেনারেল → ডিভাইসের বিষয়ে → সিরিয়াল নম্বর: `prefs:root=General&path=About#SerialNumber`
+- জেনারেল → ডিভাইসের বিষয়ে → মডেল নম্বর: `prefs:root=General&path=About#ProductModel`
+- জেনারেল → ডিভাইসের বিষয়ে → মডেলের নাম: `prefs:root=General&path=About#ProductModelName`
+- জেনারেল → ডিভাইসের বিষয়ে → iOS ভার্সন: `prefs:root=General&path=About/SW_VERSION_SPECIFIER`
+- জেনারেল → আইন ও নিয়ামক: `prefs:root=General&path=LEGAL_AND_REGULATORY`
+- জেনারেল → আইন ও নিয়ামক → ওয়্যারান্টি: `prefs:root=General&path=LEGAL_AND_REGULATORY#Warranty`
+- জেনারেল → AirDrop: `prefs:root=General&path=AIRDROP_LINK`
+- জেনারেল → AirDrop → ডিভাইসগুলি একত্রিত করা হচ্ছে: `prefs:root=General&path=AIRDROP_LINK#AIRDROP_NFC_ID`
+- জেনারেল → হোম বাটন: `prefs:root=General&path=HOME_BUTTON`
+- জেনারেল → ধারের সুইচ: `prefs:root=General#Rotation_Switch_Action_Group`
+- জেনারেল → ব্যাকগ্রাউন্ড অ্যাপ রিফ্রেশ: `prefs:root=General&path=AUTO_CONTENT_DOWNLOAD`
+- জেনারেল → তারিখ ও সময়: `prefs:root=General&path=DATE_AND_TIME`
+- জেনারেল → টিভি আউট: `prefs:root=General&path=TV_OUT`
+- জেনারেল → রিসেট করুন: `prefs:root=General&path=Reset`
+- জেনারেল → রিসেট করুন → সমস্ত সেটিংস রিসেট করুন: `prefs:root=General&path=Reset#settingsErase`
+- জেনারেল → রিসেট করুন → সমস্ত বিষয়বস্তু ও সেটিংস মুছুন: `prefs:root=General&path=Reset#fullErase`
+- জেনারেল → রিসেট করুন → নেটওয়ার্ক সেটিংস রিসেট করুন: `prefs:root=General&path=Reset#RESET_NETWORK_LABEL`
+- জেনারেল → রিসেট করুন → সব মোবাইল ডেটা প্ল্যান অপসারণ করুন: `prefs:root=General&path=Reset#cellularErase`
+- জেনারেল → রিসেট করুন → সাবস্ক্রাইবার পরিষেবা: `prefs:root=General&path=Reset#SUBSCRIBER_SERVICES_ID`
+- জেনারেল → রিসেট করুন → কীবোর্ড অভিধান রিসেট করুন: `prefs:root=General&path=Reset#RESET_KEYBOARD_DICTIONARY_LABEL`
+- জেনারেল → রিসেট করুন → হোম স্ক্রিন লেআউট রিসেট করুন: `prefs:root=General&path=Reset#RESET_ICONS_LABEL`
+- জেনারেল → রিসেট করুন → লোকেশন এবং গোপনীয়তা রিসেট করুন: `prefs:root=General&path=Reset#RESET_PRIVACY_LABEL`
+- জেনারেল → শাটডাউন করুন: `prefs:root=General#SHUTDOWN_LABEL`
+- জেনারেল → AirPlay ও কন্টিনিউইটি: `prefs:root=General&path=CONTINUITY_SPEC`
+- জেনারেল → AirPlay ও কন্টিনিউইটি → Handoff: `prefs:root=General&path=CONTINUITY_SPEC#CONTINUITY`
+- জেনারেল → AirPlay ও কন্টিনিউইটি → HomePod-এ ট্রান্সফার করুন: `prefs:root=General&path=CONTINUITY_SPEC#TRANSFER_TO_HOMEPOD`
+- জেনারেল → AirPlay ও কন্টিনিউইটি → স্বয়ংক্রিয়ভাবে AirPlay: `prefs:root=General&path=CONTINUITY_SPEC#AUTOMATICALLY_AIRPLAY`
+- জেনারেল → AirPlay ও কন্টিনিউইটি → কন্টিনিউইটি ক্যামেরা: `prefs:root=General&path=CONTINUITY_SPEC#WOMBAT_CAMERA`
+- ওয়ালেট ও Apple Pay: `prefs:root=PASSBOOK`
+- ওয়ালেট ও Apple Pay → Apple Cash: `prefs:root=PASSBOOK#Apple%C2%A0Cash`
+- ওয়ালেট ও Apple Pay → পেমেন্ট কার্ড: `prefs:root=PASSBOOK#SETTINGS_PAYMENT_CARDS_GROUP`
+- ওয়ালেট ও Apple Pay → কার্ড যোগ করুন: `prefs:root=PASSBOOK#Add%20Card`
+- ওয়ালেট ও Apple Pay → সাইড বাটনটিতে-ডবল ক্লিক করুন: `prefs:root=PASSBOOK#Double-Click%20Side%20Button`
+- ওয়ালেট ও Apple Pay → অর্ডার ট্র্যাক করা হচ্ছে: `prefs:root=PASSBOOK#ORDER_TRACKING`
+- ডায়েরি: `prefs:root=JOURNAL`
+- স্ট্যান্ডবাই: `prefs:root=AMBIENT`
+- আবহাওয়া: `prefs:root=WEATHER`
+- Apple অ্যাকাউন্ট: `prefs:root=APPLE_ACCOUNT` or `settings-navigation://com.apple.Settings.AppleAccount`
+- Apple অ্যাকাউন্ট → iCloud: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE` or `prefs:root=CASTLE`
+- Apple অ্যাকাউন্ট → iCloud → iCloud স্টোরেজ: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/STORAGE_AND_BACKUP` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/STORAGE_AND_BACKUP` or `prefs:root=CASTLE&path=STORAGE_AND_BACKUP`
+- Apple অ্যাকাউন্ট → iCloud → iCloud Drive: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity` or `prefs:root=CASTLE&path=com.apple.Dataclass.Ubiquity`
+- Apple অ্যাকাউন্ট → iCloud → ছবি: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.MediaStream` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.MediaStream` or `prefs:root=CASTLE&path=com.apple.Dataclass.MediaStream`
+- Apple অ্যাকাউন্ট → iCloud → Mail: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Mail` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail` or `prefs:root=CASTLE&path=com.apple.Dataclass.Mail`
+- Apple অ্যাকাউন্ট → iCloud → Mail → কাস্টম ইমেল ডোমেন: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Mail/BYOD_SETTING_SPECIFIER_ID` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/BYOD_SETTING_SPECIFIER_ID` or `prefs:root=CASTLE&path=com.apple.Dataclass.Mail/BYOD_SETTING_SPECIFIER_ID`
+- Apple অ্যাকাউন্ট → iCloud → কন্ট্যাক্ট: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Contacts` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Contacts` or `prefs:root=CASTLE&path=com.apple.Dataclass.Contacts`
+- Apple অ্যাকাউন্ট → iCloud → ক্যালেন্ডার: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Calendars` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Calendars` or `prefs:root=CASTLE&path=com.apple.Dataclass.Calendars`
+- Apple অ্যাকাউন্ট → iCloud → রিমাইন্ডার: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Reminders` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Reminders` or `prefs:root=CASTLE&path=com.apple.Dataclass.Reminders`
+- Apple অ্যাকাউন্ট → iCloud → Safari: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks` or `prefs:root=CASTLE&path=com.apple.Dataclass.Bookmarks`
+- Apple অ্যাকাউন্ট → iCloud → নোট: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Notes` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Notes` or `prefs:root=CASTLE&path=com.apple.Dataclass.Notes`
+- Apple অ্যাকাউন্ট → iCloud → খবর: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.News` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.News` or `prefs:root=CASTLE&path=com.apple.Dataclass.News`
+- Apple অ্যাকাউন্ট → iCloud → ব্যাকআপ: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/BACKUP` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/BACKUP` or `prefs:root=CASTLE&path=BACKUP`
+- Apple অ্যাকাউন্ট → iCloud → স্বাস্থ্য: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Health` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Health` or `prefs:root=CASTLE&path=com.apple.Dataclass.Health`
+- Apple অ্যাকাউন্ট → iCloud → পাসওয়ার্ড ও কীচেইন: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync` or `prefs:root=CASTLE&path=com.apple.Dataclass.KeychainSync`
+- Apple অ্যাকাউন্ট → iCloud → আমার ইমেল লুকান: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE` or `prefs:root=CASTLE&path=PRIVATE_EMAIL_MANAGE`
+- Apple অ্যাকাউন্ট → নিজের লোকেশন শেয়ার করুন: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING` or `settings-navigation://com.apple.Settings.AppleAccount/LOCATION_SHARING`
+- Apple অ্যাকাউন্ট → নিজের লোকেশন শেয়ার করুন → অনুসন্ধান: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING/FindMyDevice-Settings` or `settings-navigation://com.apple.Settings.AppleAccount/LOCATION_SHARING/FindMyDevice-Settings`
+- Apple অ্যাকাউন্ট → নাম, ফোন নম্বর, ইমেল: `prefs:root=APPLE_ACCOUNT&path=APPLE_ACCOUNT_CONTACT` or `settings-navigation://com.apple.Settings.AppleAccount/APPLE_ACCOUNT_CONTACT`
+- Apple অ্যাকাউন্ট → পাসওয়ার্ড ও সুরক্ষা: `prefs:root=APPLE_ACCOUNT&path=PASSWORD_AND_SECURITY` or `settings-navigation://com.apple.Settings.AppleAccount/PASSWORD_AND_SECURITY`
+- Apple অ্যাকাউন্ট → পেমেন্ট ও শিপিং: `prefs:root=APPLE_ACCOUNT&path=PAYMENT_AND_SHIPPING` or `settings-navigation://com.apple.Settings.AppleAccount/PAYMENT_AND_SHIPPING`
+- Apple অ্যাকাউন্ট → সাবস্ক্রিপশন: `prefs:root=APPLE_ACCOUNT&path=SUBSCRIPTIONS` or `settings-navigation://com.apple.Settings.AppleAccount/SUBSCRIPTIONS`
+- Apple অ্যাকাউন্ট → পরিবার: `prefs:root=APPLE_ACCOUNT&path=Family` or `settings-navigation://com.apple.Settings.AppleAccount/Family`
+- Apple অ্যাকাউন্ট → কন্ট্যাক্ট কী ভেরিফিকেশন: `prefs:root=APPLE_ACCOUNT&path=TRANSPARENCY` or `settings-navigation://com.apple.Settings.AppleAccount/TRANSPARENCY`
+- ম্যাপ: `prefs:root=MAPS`
+- ম্যাপ → বায়ু গুণমান সূচক: `prefs:root=MAPS#AirQualityPreferenceID`
+- ম্যাপ → সবসময় বাংলায় দেখুন: `prefs:root=MAPS#LabelLanguageAlwaysUIPreferenceID`
+- ম্যাপ → সাইক্লিং: `prefs:root=MAPS&path=CyclingLinkPreferenceID`
+- ম্যাপ → পছন্দসই যাত্রার মাধ্যম: `prefs:root=MAPS#TransportTypePreferenceGroupID`
+- ম্যাপ → গাড়ি চালানো: `prefs:root=MAPS&path=DrivingLinkPreferenceID`
+- ম্যাপ → মুখে বলা পথনির্দেশ: `prefs:root=MAPS&path=NavigationGuidanceLinkPreferenceID`
+- ম্যাপ → যেখানে পার্ক করা হয়েছে, সেই লোকেশনটি দেখান: `prefs:root=MAPS#ParkedCarPreferenceID`
+- ম্যাপ → ETA শেয়ার করুন: `prefs:root=MAPS#ShareETAPreferenceID`
+- ম্যাপ → গণপরিবহন: `prefs:root=MAPS&path=TransitLinkPreferenceID`
+- ম্যাপ → হাঁটা: `prefs:root=MAPS&path=WalkingLinkPreferenceID`
+- ম্যাপ → আবহাওয়ার অবস্থা: `prefs:root=MAPS#WeatherConditionsPreferenceID`
+- স্ক্রিন টাইম: `prefs:root=SCREEN_TIME`
+- স্ক্রিন টাইম → See All App & Website Activity: `prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY`
+- স্ক্রিন টাইম → See All App & Website Activity → আজ: `prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY#DAY`
+- স্ক্রিন টাইম → See All App & Website Activity → সপ্তাহ: `prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY#WEEK`
+- স্ক্রিন টাইম → ডাউনটাইম: `prefs:root=SCREEN_TIME&path=DOWNTIME`
+- স্ক্রিন টাইম → অ্যাপ সীমা: `prefs:root=SCREEN_TIME&path=APP_LIMITS`
+- স্ক্রিন টাইম → যোগাযোগের সীমা: `prefs:root=SCREEN_TIME&path=COMMUNICATION_LIMITS`
+- স্ক্রিন টাইম → যোগাযোগ সুরক্ষা: `prefs:root=SCREEN_TIME&path=COMMUNICATION_SAFETY`
+- স্ক্রিন টাইম → সবসময় অনুমোদিত: `prefs:root=SCREEN_TIME&path=ALWAYS_ALLOWED`
+- স্ক্রিন টাইম → বিষয়বস্তু এবং গোপনীয়তা সংক্রান্ত বিধিনিষেধ: `prefs:root=SCREEN_TIME&path=CONTENT_PRIVACY`
+- স্ক্রিন টাইম → অভিভাবকীয় নিয়ন্ত্রণ: `prefs:root=SCREEN_TIME#FAMILY`
+- স্ক্রিন টাইম → স্ক্রিন থেকে দূরত্ব: `prefs:root=SCREEN_TIME&path=EYE_DISTANCE`
+- Freeform: `prefs:root=FREEFORM`
+- ফোকাস: `prefs:root=DO_NOT_DISTURB`
+- ফোকাস → ফোকাস স্টেটাস: `prefs:root=DO_NOT_DISTURB&path=status`
+- রূপ: `prefs:root=DISPLAY`
+- রূপ → রূপ: `prefs:root=DISPLAY#DEVICE_APPEARANCE`
+- রূপ → True Tone: `prefs:root=DISPLAY#WHITE_BALANCE`
+- রূপ → Night Shift: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION`
+- রূপ → Night Shift → নির্ধারিত সময়সূচি: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#SCHEDULED`
+- রূপ → Night Shift → আগামীকাল পর্যন্ত নিজে সক্রিয় করুন: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#MANUAL`
+- রূপ → Night Shift → কালার টেম্পারেচার: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#COLOR_TEMPERATURE`
+- রূপ → অটো-লক: `prefs:root=DISPLAY&path=AUTOLOCK`
+- রূপ → সক্রিয় করার জন্য ওঠান: `prefs:root=DISPLAY#RAISE_TO_WAKE`
+- রূপ → লক / আনলক: `prefs:root=DISPLAY#SMART_CASE_LOCK_SPEC`
+- রূপ → টেক্সট সাইজ: `prefs:root=DISPLAY&path=TEXT_SIZE`
+- রূপ → বোল্ড টেক্সট: `prefs:root=DISPLAY#BOLD_TEXT`
+- রূপ → উজ্জ্বলতা: `prefs:root=DISPLAY#BRIGHTNESS`
+- রূপ → ডিসপ্লে জুম: `prefs:root=DISPLAY#DISPLAY_ZOOM_GROUP`
+- রূপ → রূপ: `prefs:root=DISPLAY&path=APPEARANCE`
+- রূপ → রূপ → উইন্ডো জুম: `prefs:root=DISPLAY&path=APPEARANCE#WINDOW_ZOOM`
+- রূপ → রূপ → দুই হাত দিয়ে উইন্ডো জুম করা: `prefs:root=DISPLAY&path=APPEARANCE#TWO_HANDED_WINDOW_ZOOM`
+- রূপ → দেখুন: `prefs:root=DISPLAY&path=MAGNIFY`
+- রূপ → অলওয়েজ অন ডিসপ্লে: `prefs:root=DISPLAY&path=ALWAYS_ON`
+- রূপ → অলওয়েজ অন ডিসপ্লে → অলওয়েজ অন ডিসপ্লে: `prefs:root=DISPLAY&path=ALWAYS_ON#ALWAYS_ON`
+- রূপ → উপযুক্ত অ্যাপগুলি: `prefs:root=DISPLAY&path=COMPATIBLE_APPEARANCE`
+- রূপ → উপযুক্ত অ্যাপগুলি → ডার্ক, লাইট: `prefs:root=DISPLAY&path=COMPATIBLE_APPEARANCE#COMPATIBLE_APPEARANCE_CHOICES`
+- হোম স্ক্রিন: `prefs:root=HOME_SCREEN`
+- হোম স্ক্রিন → নতুনভাবে ডাউনলোড করা অ্যাপ: `prefs:root=HOME_SCREEN&path=APP_DOWNLOADS_GO_TO`
+- হোম স্ক্রিন → নোটিফিকেশন ব্যাজ: `prefs:root=HOME_SCREEN#BADGES_IN_APP_LIBRARY`
+- হোম স্ক্রিন ও অ্যাপ লাইব্রেরি: `prefs:root=HOME_SCREEN_DOCK`
+- হোম স্ক্রিন ও অ্যাপ লাইব্রেরি → নতুনভাবে ডাউনলোড করা অ্যাপ: `prefs:root=HOME_SCREEN_DOCK&path=APP_DOWNLOADS_GO_TO`
+- হোম স্ক্রিন ও অ্যাপ লাইব্রেরি → Dock: `prefs:root=HOME_SCREEN_DOCK&path=MULTITASKING_DOCK`
+- হোম স্ক্রিন ও অ্যাপ লাইব্রেরি → Dock → Dock-এ অ্যাপ লাইব্রেরি দেখান: `prefs:root=HOME_SCREEN_DOCK&path=MULTITASKING_DOCK#SHOW_APP_LIBRARY`
+- হোম স্ক্রিন ও অ্যাপ লাইব্রেরি → Dock-এ পরামর্শকৃত এবং সাম্প্রতিক অ্যাপগুলি দেখান: `prefs:root=HOME_SCREEN_DOCK#ALLOW_RECENTS`
+- হোম স্ক্রিন ও অ্যাপ লাইব্রেরি → স্টেজ ম্যানেজার: `prefs:root=HOME_SCREEN_DOCK&path=CONTINUOUS-EXPOSE`
+- Multitasking & Gestures: `prefs:root=com.apple.MultitaskingAndGesturesSettings`
+- Multitasking & Gestures → মাল্টিটাস্কিং: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Multitasking`
+- Multitasking & Gestures → মাল্টিটাস্কিং → একাধিক অ্যাপকে অনুমতি দিন: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Multitasking#MultipleApps`
+- Multitasking & Gestures → মাল্টিটাস্কিং → Split View এবং Slide Over: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Multitasking#SplitViewSlideOver`
+- Multitasking & Gestures → মাল্টিটাস্কিং → স্ক্রিন মিরর করুন: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Multitasking#ScreenMirroring`
+- Multitasking & Gestures → মাল্টিটাস্কিং → স্টেজ ম্যানেজার: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Multitasking#StageManager`
+- Multitasking & Gestures → মাল্টিটাস্কিং → স্টেজ ম্যানেজারে সাম্প্রতিক অ্যাপগুলি দেখান: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Multitasking#StageManagerRecentApps`
+- Multitasking & Gestures → মাল্টিটাস্কিং → স্টেজ ম্যানেজারে Dock দেখান: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Multitasking#StageManagerDock`
+- Multitasking & Gestures → পিকচার ইন পিকচার: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=PictureInPicture`
+- Multitasking & Gestures → প্রোডাক্টিভিটি জেসচার: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Productivity`
+- Multitasking & Gestures → প্রোডাক্টিভিটি জেসচার → জেসচার: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Productivity#Gestures`
+- Multitasking & Gestures → প্রোডাক্টিভিটি জেসচার → প্রোডাক্টিভিটি জেসচার: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Productivity#ProductivityGestures`
+- Multitasking & Gestures → চার এবং পাঁচ আঙুলের জেসচার: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=FourAndFiveFingers`
+- Multitasking & Gestures → পূর্বাবস্থায় ফেরাতে ঝাঁকান: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=ShakeToUndo`
+- Multitasking & Gestures → কর্নার জেসচার: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=CornerGestures`
+- সহায়ক পরিষেবা: `prefs:root=ACCESSIBILITY`
+- সহায়ক পরিষেবা → VoiceOver: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE`
+- সহায়ক পরিষেবা → VoiceOver → VoiceOver টিউটোরিয়াল: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#VoiceOverTouchTutorialEnabled`
+- সহায়ক পরিষেবা → VoiceOver → কথা বলার গতি: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#SpeakingRateSlider`
+- সহায়ক পরিষেবা → VoiceOver → স্পিচ: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Voices`
+- সহায়ক পরিষেবা → VoiceOver → স্পিচ → উচ্চারণ: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Voices/PRONUNCIATION_DICTIONARY`
+- সহায়ক পরিষেবা → VoiceOver → স্পিচ → উচ্চারণ → উচ্চারণ: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Voices/PRONUNCIATION_DICTIONARY#PRONUNCIATION_DICTIONARY`
+- সহায়ক পরিষেবা → VoiceOver → স্পিচ → পিচ পরিবর্তন: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Voices#PITCH_CHANGES_TITLE`
+- সহায়ক পরিষেবা → VoiceOver → স্পিচ → রোটর কণ্ঠ যোগ করুন…: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Voices#ADD_NEW_VOICE`
+- সহায়ক পরিষেবা → VoiceOver → স্পিচ → ভাষা শনাক্ত করুন: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Voices#LANGUAGE_DETECTION`
+- সহায়ক পরিষেবা → VoiceOver → স্পিচ → স্পেশিয়ালাইজ স্পিচ: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Voices#SPATIALIZE_SPEECH`
+- সহায়ক পরিষেবা → VoiceOver → শব্দচয়ন: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity`
+- সহায়ক পরিষেবা → VoiceOver → শব্দচয়ন → শব্দচয়ন: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#Verbosity`
+- সহায়ক পরিষেবা → VoiceOver → শব্দচয়ন → যতিচিহ্ন: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup`
+- সহায়ক পরিষেবা → VoiceOver → শব্দচয়ন → যতিচিহ্ন → যতিচিহ্ন: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup#voiceOverPunctuationGroup`
+- সহায়ক পরিষেবা → VoiceOver → শব্দচয়ন → যতিচিহ্ন → সক্রিয় যতিচিহ্ন গ্রুপ: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup#voiceOverActivePunctuationGroup`
+- সহায়ক পরিষেবা → VoiceOver → শব্দচয়ন → যতিচিহ্ন → সব: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup#all`
+- সহায়ক পরিষেবা → VoiceOver → শব্দচয়ন → যতিচিহ্ন → কিছু: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup#AXSSVoiceOverPunctuationGroupSome`
+- সহায়ক পরিষেবা → VoiceOver → শব্দচয়ন → যতিচিহ্ন → কোনোটিই নয়: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup#PunctuationGroupNone`
+- সহায়ক পরিষেবা → VoiceOver → শব্দচয়ন → যতিচিহ্ন → যতিচিহ্ন গ্রুপ যোগ করুন: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup/NewPunctuation`
+- সহায়ক পরিষেবা → VoiceOver → শব্দচয়ন → যতিচিহ্ন → যতিচিহ্ন গ্রুপ যোগ করুন → যতিচিহ্ন গ্রুপ যোগ করুন: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup/NewPunctuation#NewPunctuation`
+- সহায়ক পরিষেবা → VoiceOver → শব্দচয়ন → যতিচিহ্ন → ইম্পোর্ট করুন: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup/ImportPunctuation`
+- সহায়ক পরিষেবা → VoiceOver → শব্দচয়ন → যতিচিহ্ন → ইম্পোর্ট করুন → ইম্পোর্ট করুন: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup/ImportPunctuation#ImportPunctuation`
+- সহায়ক পরিষেবা → VoiceOver → শব্দচয়ন → কথা বলে ইঙ্গিত বোঝান: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#HINTS_TITLE`
+- সহায়ক পরিষেবা → VoiceOver → শব্দচয়ন → সিস্টেম নোটিফিকেশন: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/SystemNotifications`
+- সহায়ক পরিষেবা → VoiceOver → শব্দচয়ন → সিস্টেম নোটিফিকেশন → সিস্টেম নোটিফিকেশন: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/SystemNotifications#SystemNotifications`
+- সহায়ক পরিষেবা → VoiceOver → শব্দচয়ন → সিস্টেম নোটিফিকেশন → লক থাকাকালীন নোটিফিকেশন: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/SystemNotifications#LockScreenNotifications`
+- সহায়ক পরিষেবা → VoiceOver → শব্দচয়ন → সিস্টেম নোটিফিকেশন → ব্যানার নোটিফিকেশন: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/SystemNotifications#BannerNotifications`
+- সহায়ক পরিষেবা → VoiceOver → শব্দচয়ন → সিস্টেম নোটিফিকেশন → সাইলেন্ট মোড ব্যবহার করুন: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/SystemNotifications#NOTIFICATION_USE_RINGER_SWITCH`
+- সহায়ক পরিষেবা → VoiceOver → শব্দচয়ন → QuickNav-এর ঘোষণা: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverQuickNavAnnouncementFeedback`
+- সহায়ক পরিষেবা → VoiceOver → শব্দচয়ন → QuickNav-এর ঘোষণা → QuickNav-এর ঘোষণা: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverQuickNavAnnouncementFeedback#voiceOverQuickNavAnnouncementFeedback`
+- সহায়ক পরিষেবা → VoiceOver → শব্দচয়ন → টর্চের নোটিফিকেশন: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverFlashlightNotificationsEnabled`
+- সহায়ক পরিষেবা → VoiceOver → শব্দচয়ন → টর্চের নোটিফিকেশন → টর্চের নোটিফিকেশন: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverFlashlightNotificationsEnabled#voiceOverFlashlightNotificationsEnabled`
+- সহায়ক পরিষেবা → VoiceOver → শব্দচয়ন → বড় হাতের অক্ষর: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverCapitalLetterFeedback`
+- সহায়ক পরিষেবা → VoiceOver → শব্দচয়ন → বড় হাতের অক্ষর → বড় হাতের অক্ষর: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverCapitalLetterFeedback#voiceOverCapitalLetterFeedback`
+- সহায়ক পরিষেবা → VoiceOver → শব্দচয়ন → টেক্সট ডিলিট হচ্ছে: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverDeletionFeedback`
+- সহায়ক পরিষেবা → VoiceOver → শব্দচয়ন → টেক্সট ডিলিট হচ্ছে → টেক্সট ডিলিট হচ্ছে: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverDeletionFeedback#voiceOverDeletionFeedback`
+- সহায়ক পরিষেবা → VoiceOver → শব্দচয়ন → লিঙ্ক: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverLinkFeedback`
+- সহায়ক পরিষেবা → VoiceOver → শব্দচয়ন → লিঙ্ক → লিঙ্ক: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverLinkFeedback#voiceOverLinkFeedback`
+- সহায়ক পরিষেবা → VoiceOver → শব্দচয়ন → অ্যাকশন: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverActionsFeedback`
+- সহায়ক পরিষেবা → VoiceOver → শব্দচয়ন → অ্যাকশন → অ্যাকশন: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverActionsFeedback#voiceOverActionsFeedback`
+- সহায়ক পরিষেবা → VoiceOver → শব্দচয়ন → আরও বিষয়বস্তু: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMoreContentOutputFeedback`
+- সহায়ক পরিষেবা → VoiceOver → শব্দচয়ন → আরও বিষয়বস্তু → আরও বিষয়বস্তু: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMoreContentOutputFeedback#voiceOverMoreContentOutputFeedback`
+- সহায়ক পরিষেবা → VoiceOver → শব্দচয়ন → কন্টেনারের বিবরণ: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverContainerOutputFeedback`
+- সহায়ক পরিষেবা → VoiceOver → শব্দচয়ন → কন্টেনারের বিবরণ → কন্টেনারের বিবরণ: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverContainerOutputFeedback#voiceOverContainerOutputFeedback`
+- সহায়ক পরিষেবা → VoiceOver → শব্দচয়ন → সংখ্যা: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverNumberFeedback`
+- সহায়ক পরিষেবা → VoiceOver → শব্দচয়ন → সংখ্যা → সংখ্যা: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverNumberFeedback#voiceOverNumberFeedback`
+- সহায়ক পরিষেবা → VoiceOver → শব্দচয়ন → প্রেডিক্টিভ টেক্সট ফিডব্যাক: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/PREDICTIVE_TEXT_FEEDBACK`
+- সহায়ক পরিষেবা → VoiceOver → শব্দচয়ন → প্রেডিক্টিভ টেক্সট ফিডব্যাক → প্রেডিক্টিভ টেক্সট ফিডব্যাক: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/PREDICTIVE_TEXT_FEEDBACK#PREDICTIVE_TEXT_FEEDBACK`
+- সহায়ক পরিষেবা → VoiceOver → শব্দচয়ন → প্রেডিক্টিভ টেক্সট ফিডব্যাক → যখন প্রেডিক্টিভ টেক্সট দেখা যায়: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/PREDICTIVE_TEXT_FEEDBACK/InlineTextCompletionAppearanceFeedback`
+- সহায়ক পরিষেবা → VoiceOver → শব্দচয়ন → প্রেডিক্টিভ টেক্সট ফিডব্যাক → যখন প্রেডিক্টিভ টেক্সট দেখা যায় → যখন প্রেডিক্টিভ টেক্সট দেখা যায়: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/PREDICTIVE_TEXT_FEEDBACK/InlineTextCompletionAppearanceFeedback#InlineTextCompletionAppearanceFeedback`
+- সহায়ক পরিষেবা → VoiceOver → শব্দচয়ন → প্রেডিক্টিভ টেক্সট ফিডব্যাক → প্রেডিক্টিভ টেক্সট ফিডব্যাক লেখা হলে: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/PREDICTIVE_TEXT_FEEDBACK/InlineTextCompletionInsertionFeedback`
+- সহায়ক পরিষেবা → VoiceOver → শব্দচয়ন → প্রেডিক্টিভ টেক্সট ফিডব্যাক → প্রেডিক্টিভ টেক্সট ফিডব্যাক লেখা হলে → প্রেডিক্টিভ টেক্সট ফিডব্যাক লেখা হলে: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/PREDICTIVE_TEXT_FEEDBACK/InlineTextCompletionInsertionFeedback#InlineTextCompletionInsertionFeedback`
+- সহায়ক পরিষেবা → VoiceOver → শব্দচয়ন → টেবিল হেডার: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#speakTableHeader`
+- সহায়ক পরিষেবা → VoiceOver → শব্দচয়ন → সারি এবং কলাম নম্বর: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#SPEAK_TABLE_ROW_COLUMN`
+- সহায়ক পরিষেবা → VoiceOver → শব্দচয়ন → “পড়ে শোনানো” নিশ্চিতকরণ: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#ACTION_CONFIRMATION`
+- সহায়ক পরিষেবা → VoiceOver → শব্দচয়ন → ওয়েব রোটর সারসংক্ষেপ: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverRotorSummaryFeedback`
+- সহায়ক পরিষেবা → VoiceOver → শব্দচয়ন → ওয়েব রোটর সারসংক্ষেপ → ওয়েব রোটর সারসংক্ষেপ: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverRotorSummaryFeedback#voiceOverRotorSummaryFeedback`
+- সহায়ক পরিষেবা → VoiceOver → শব্দচয়ন → ইমোজি: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverEmojiFeedback`
+- সহায়ক পরিষেবা → VoiceOver → শব্দচয়ন → ইমোজি → ইমোজি: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverEmojiFeedback#voiceOverEmojiFeedback`
+- সহায়ক পরিষেবা → VoiceOver → শব্দচয়ন → ইমোজি সাফিক্স: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#EMOJI_SUFFIX`
+- সহায়ক পরিষেবা → VoiceOver → শব্দচয়ন → মিডিয়া বিবরণ: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions`
+- সহায়ক পরিষেবা → VoiceOver → শব্দচয়ন → মিডিয়া বিবরণ → মিডিয়া বিবরণ: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#voiceOverMediaDescriptions`
+- সহায়ক পরিষেবা → VoiceOver → শব্দচয়ন → ইনপুট ফিডব্যাক: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#voiceOverInputFeedback`
+- সহায়ক পরিষেবা → VoiceOver → শব্দচয়ন → অ্যাপ হোভার ফিডব্যাক: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#voiceOverAppHoverFeedback`
+- সহায়ক পরিষেবা → VoiceOver → ব্রেইল: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille`
+- সহায়ক পরিষেবা → VoiceOver → ব্রেইল → ব্রেইল: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#Braille`
+- সহায়ক পরিষেবা → VoiceOver → ব্রেইল → আউটপুট: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput`
+- সহায়ক পরিষেবা → VoiceOver → ব্রেইল → আউটপুট → আউটপুট: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#BrailleDisplayOutput`
+- সহায়ক পরিষেবা → VoiceOver → ব্রেইল → ইনপুট: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput`
+- সহায়ক পরিষেবা → VoiceOver → ব্রেইল → ইনপুট → ইনপুট: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#BrailleDisplayInput`
+- সহায়ক পরিষেবা → VoiceOver → ব্রেইল → ইনপুট এবং আউটপুট টেবিল মেলান: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BRAILLE_SYNC_TABLES`
+- সহায়ক পরিষেবা → VoiceOver → ব্রেইল → ইনপুট এবং আউটপুট: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleDisplayOutput`
+- সহায়ক পরিষেবা → VoiceOver → ব্রেইল → স্বয়ংক্রিয় অনুবাদ: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#GRADE2_AUTO_TRANSLATE`
+- সহায়ক পরিষেবা → VoiceOver → ব্রেইল → ব্রেইল স্ক্রিন ইনপুট: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput`
+- সহায়ক পরিষেবা → VoiceOver → ব্রেইল → ব্রেইল স্ক্রিন ইনপুট → ব্রেইল স্ক্রিন ইনপুট: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#BrailleGesturesInput`
+- সহায়ক পরিষেবা → VoiceOver → ব্রেইল → ব্রেইল স্ক্রিন ইনপুট → টেক্সট এডিট করার সময় স্বয়ংক্রিয়ভাবে শুরু করুন: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#AUTO_ACTIVATE_ON_TEXT_FIELDS`
+- সহায়ক পরিষেবা → VoiceOver → ব্রেইল → ব্রেইল স্ক্রিন ইনপুট → ডটের বিপরীত অবস্থান: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#SHOULD_REVERSE_DOTS`
+- সহায়ক পরিষেবা → VoiceOver → ব্রেইল → ব্রেইল স্ক্রিন ইনপুট → খারিজ না হওয়া পর্যন্ত সক্রিয় রাখুন: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#CONTROL_DEVICE_USING_BRAILLE_GESTURE`
+- সহায়ক পরিষেবা → VoiceOver → ব্রেইল → ব্রেইল স্ক্রিন ইনপুট → ভিজ্যুয়াল টেক্সট ফিডব্যাক: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#DISPLAY_ENTERED_TEXT`
+- সহায়ক পরিষেবা → VoiceOver → ব্রেইল → ব্রেইল স্ক্রিন ইনপুট → টাইপ করে শুনুন: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#TYPING_FEEDBACK`
+- সহায়ক পরিষেবা → VoiceOver → ব্রেইল → ব্রেইল স্ক্রিন ইনপুট → শব্দ: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#USE_TYPING_SOUND_FEEDBACK`
+- সহায়ক পরিষেবা → VoiceOver → ব্রেইল → ব্রেইল স্ক্রিন ইনপুট → শব্দ: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#USE_HAPTIC_FEEDBACK`
+- সহায়ক পরিষেবা → VoiceOver → ব্রেইল → ব্রেইল স্ক্রিন ইনপুট → মোড ঘোষণা: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#SOUND_OPTION`
+- সহায়ক পরিষেবা → VoiceOver → ব্রেইল → ব্রেইল স্ক্রিন ইনপুট → একটি ব্রেইল টেবিল নির্বাচন করুন: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#BSI_TABLES`
+- সহায়ক পরিষেবা → VoiceOver → ব্রেইল → ব্রেইল টেবিল: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier`
+- সহায়ক পরিষেবা → VoiceOver → ব্রেইল → ব্রেইল টেবিল → ব্রেইল টেবিল: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier#tableIdentifier`
+- সহায়ক পরিষেবা → VoiceOver → ব্রেইল → ব্রেইল টেবিল → ব্রেইল টেবিল যোগ করুন…: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier/ADD_NEW_BRAILLE_LANGUAGE`
+- সহায়ক পরিষেবা → VoiceOver → ব্রেইল → ব্রেইল টেবিল → ব্রেইল টেবিল যোগ করুন… → ব্রেইল টেবিল যোগ করুন…: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier/ADD_NEW_BRAILLE_LANGUAGE#ADD_NEW_BRAILLE_LANGUAGE`
+- সহায়ক পরিষেবা → VoiceOver → ব্রেইল → স্টেটাস সেল: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL`
+- সহায়ক পরিষেবা → VoiceOver → ব্রেইল → স্টেটাস সেল → স্টেটাস সেল: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL`
+- সহায়ক পরিষেবা → VoiceOver → ব্রেইল → স্টেটাস সেল → স্টেটাস সেল অবস্থান: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_POSITION`
+- সহায়ক পরিষেবা → VoiceOver → ব্রেইল → স্টেটাস সেল → জেনারেল স্টেটাস দেখান: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#StatusCellGeneral`
+- সহায়ক পরিষেবা → VoiceOver → ব্রেইল → স্টেটাস সেল → টেক্সটের স্টেটাস দেখান: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#StatusCellTextStyle`
+- সহায়ক পরিষেবা → VoiceOver → ব্রেইল → সমীকরণগুলি নেমেথ কোড ব্যবহার করে: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#ALWAYS_USE_NEMETH`
+- সহায়ক পরিষেবা → VoiceOver → ব্রেইল → অনস্ক্রিন কীবোর্ড দেখান: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#SHOW_SW_KEYBOARD`
+- সহায়ক পরিষেবা → VoiceOver → ব্রেইল → প্যান করার সময় পৃষ্ঠাগুলি পাল্টান: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#AUTO_TURN_PAGES`
+- সহায়ক পরিষেবা → VoiceOver → ব্রেইল → ওয়ার্ড র‍্যাপ: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#WORD_WRAP`
+- সহায়ক পরিষেবা → VoiceOver → ব্রেইল → টেক্সট ফরম্যাটিং: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BRAILLE_FORMATTING`
+- সহায়ক পরিষেবা → VoiceOver → ব্রেইল → ব্রেইল অ্যালার্ট মেসেজ: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleAlertDisplayDuration`
+- সহায়ক পরিষেবা → VoiceOver → ব্রেইল → ব্রেইল অ্যালার্ট মেসেজ → ব্রেইল অ্যালার্ট মেসেজ: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleAlertDisplayDuration#voiceOverBrailleAlertDisplayDuration`
+- সহায়ক পরিষেবা → VoiceOver → ব্রেইল → ব্রেইল অ্যালার্ট মেসেজ → ব্রেইল অ্যালার্ট মেসেজ: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleAlertDisplayDuration#NumericalPreferenceSwitcherIdentifier`
+- সহায়ক পরিষেবা → VoiceOver → ব্রেইল → ব্রেইল অ্যালার্ট মেসেজ → খারিজ না হওয়া পর্যন্ত দেখুন: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleAlertDisplayDuration#NumericalPreferenceInfiniteTimeDurationIdentifier`
+- সহায়ক পরিষেবা → VoiceOver → ব্রেইল → কর্ডের সময়কাল উপেক্ষা করুন: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleDebounceTimeout`
+- সহায়ক পরিষেবা → VoiceOver → ব্রেইল → কর্ডের সময়কাল উপেক্ষা করুন → কর্ডের সময়কাল উপেক্ষা করুন: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleDebounceTimeout/voiceOverBrailleDebounceTimeout`
+- সহায়ক পরিষেবা → VoiceOver → ব্রেইল → অটো অ্যাডভান্স সময়কাল: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleAutoAdvance`
+- সহায়ক পরিষেবা → VoiceOver → ব্রেইল → অটো অ্যাডভান্স সময়কাল → অটো অ্যাডভান্স সময়কাল: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleAutoAdvance#voiceOverBrailleAutoAdvance`
+- সহায়ক পরিষেবা → VoiceOver → ব্রেইল → সাউন্ড কার্টেন: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#SOUND_CURTAIN`
+- সহায়ক পরিষেবা → VoiceOver → ব্রেইল → শুরুতে Bluetooth সক্রিয় করুন: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverAlwaysTurnOnBluetooth`
+- সহায়ক পরিষেবা → VoiceOver → ব্রেইল → ব্রেইল ডিসপ্লে নির্বাচন করুন: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#DEVICES`
+- সহায়ক পরিষেবা → VoiceOver → অডিও: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio`
+- সহায়ক পরিষেবা → VoiceOver → অডিও → অডিও: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#Audio`
+- সহায়ক পরিষেবা → VoiceOver → অডিও → VoiceOver শব্দ: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds`
+- সহায়ক পরিষেবা → VoiceOver → অডিও → VoiceOver শব্দ → VoiceOver শব্দ: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSounds`
+- সহায়ক পরিষেবা → VoiceOver → অডিও → VoiceOver শব্দ → শব্দ: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSSettingsItem.Sounds`
+- সহায়ক পরিষেবা → VoiceOver → অডিও → VoiceOver শব্দ → ইন্টারঅ্যাকশন: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSOutputEventCategory.Interaction`
+- সহায়ক পরিষেবা → VoiceOver → অডিও → VoiceOver শব্দ → VoiceOver ফিডব্যাক: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSOutputEventCategory.VoiceOverFeedback`
+- সহায়ক পরিষেবা → VoiceOver → অডিও → VoiceOver শব্দ → অ্যাপ ফিডব্যাক: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSOutputEventCategory.AppFeedback`
+- সহায়ক পরিষেবা → VoiceOver → অডিও → VoiceOver শব্দ → ব্রেইল: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSOutputEventCategory.Braille`
+- সহায়ক পরিষেবা → VoiceOver → অডিও → VoiceOver শব্দ → টেক্সট এডিটিং: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSOutputEventCategory.TextEditing`
+- সহায়ক পরিষেবা → VoiceOver → অডিও → VoiceOver শব্দ → সিস্টেম: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSOutputEventCategory.System`
+- সহায়ক পরিষেবা → VoiceOver → অডিও → অডিও ডাকিং: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#AUDIO_DUCKING`
+- সহায়ক পরিষেবা → VoiceOver → অডিও → কলে স্পিকার স্বয়ংক্রিয়ভাবে নির্বাচন করুন: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#ROUTE_TO_SPEAKER`
+- সহায়ক পরিষেবা → VoiceOver → অডিও → HDMI-কে পাঠান: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#ROUTE_TO_HDMI`
+- সহায়ক পরিষেবা → VoiceOver → কমান্ড: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands`
+- সহায়ক পরিষেবা → VoiceOver → কমান্ড → কমান্ড: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands#CustomizeCommands`
+- সহায়ক পরিষেবা → VoiceOver → কমান্ড → সমস্ত কমান্ড: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/AllCommands`
+- সহায়ক পরিষেবা → VoiceOver → কমান্ড → সমস্ত কমান্ড → সমস্ত কমান্ড: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/AllCommands#AllCommands`
+- সহায়ক পরিষেবা → VoiceOver → কমান্ড → ব্রেইল কীবোর্ড ইনপুট: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/BrailleKeyboardInput`
+- সহায়ক পরিষেবা → VoiceOver → কমান্ড → ব্রেইল কীবোর্ড ইনপুট → ব্রেইল কীবোর্ড ইনপুট: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/BrailleKeyboardInput#BrailleKeyboardInput`
+- সহায়ক পরিষেবা → VoiceOver → কমান্ড → টাচ জেসচার: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/TouchGestures`
+- সহায়ক পরিষেবা → VoiceOver → কমান্ড → টাচ জেসচার → টাচ জেসচার: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/TouchGestures#TouchGestures`
+- সহায়ক পরিষেবা → VoiceOver → কমান্ড → কীবোর্ড শর্টকাট: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/KeyboardShortcuts`
+- সহায়ক পরিষেবা → VoiceOver → কমান্ড → কীবোর্ড শর্টকাট → কীবোর্ড শর্টকাট: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/KeyboardShortcuts#KeyboardShortcuts`
+- সহায়ক পরিষেবা → VoiceOver → কমান্ড → হাতের লেখা: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/Handwriting`
+- সহায়ক পরিষেবা → VoiceOver → কমান্ড → হাতের লেখা → হাতের লেখা: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/Handwriting#Handwriting`
+- সহায়ক পরিষেবা → VoiceOver → কমান্ড → ব্রেইল স্ক্রিন ইনপুট: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/BrailleScreenInput`
+- সহায়ক পরিষেবা → VoiceOver → কমান্ড → ব্রেইল স্ক্রিন ইনপুট → ব্রেইল স্ক্রিন ইনপুট: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/BrailleScreenInput#BrailleScreenInput`
+- সহায়ক পরিষেবা → VoiceOver → কমান্ড → VoiceOver কমান্ড রিসেট করুন: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands#ResetVoiceOverCommands`
+- সহায়ক পরিষেবা → VoiceOver → কমান্ড → জেসচারের ক্ষেত্রে হাতের ব্যবহার স্যুইচ করুন: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands#SWITCH_GESTURE_HANDEDNESS`
+- সহায়ক পরিষেবা → VoiceOver → অ্যাক্টিভিটি: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/activities`
+- সহায়ক পরিষেবা → VoiceOver → অ্যাক্টিভিটি → অ্যাক্টিভিটি: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/activities#activities`
+- সহায়ক পরিষেবা → VoiceOver → অ্যাক্টিভিটি → প্রোগ্রামিং: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/activities/Programming`
+- সহায়ক পরিষেবা → VoiceOver → অ্যাক্টিভিটি → প্রোগ্রামিং → প্রোগ্রামিং: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/activities/Programming#Programming`
+- সহায়ক পরিষেবা → VoiceOver → অ্যাক্টিভিটি → অ্যাক্টিভিটি যোগ করুন…: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/activities/New`
+- সহায়ক পরিষেবা → VoiceOver → অ্যাক্টিভিটি → অ্যাক্টিভিটি যোগ করুন… → অ্যাক্টিভিটি যোগ করুন…: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/activities/New#New`
+- সহায়ক পরিষেবা → VoiceOver → রোটর: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions`
+- সহায়ক পরিষেবা → VoiceOver → রোটর → রোটর: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#RotorActions`
+- সহায়ক পরিষেবা → VoiceOver → রোটর → রোটর আইটেম: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions/WebRotor`
+- সহায়ক পরিষেবা → VoiceOver → রোটর → রোটর আইটেম → রোটর আইটেম: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions/WebRotor#WebRotor`
+- সহায়ক পরিষেবা → VoiceOver → রোটর → আইটেমের সাথে রোটর পরিবর্তন করুন: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#STICKY_ROTOR_TITLE`
+- সহায়ক পরিষেবা → VoiceOver → রোটর → হোম স্ক্রিনে অ্যাপ এডিট করুন: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#editApps`
+- সহায়ক পরিষেবা → VoiceOver → রোটর → ডিরেক্ট টাচ অ্যাপ: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions/apps`
+- সহায়ক পরিষেবা → VoiceOver → রোটর → ডিরেক্ট টাচ অ্যাপ → ডিরেক্ট টাচ অ্যাপ: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions/apps#apps`
+- সহায়ক পরিষেবা → VoiceOver → টাইপ করা হচ্ছে: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions`
+- সহায়ক পরিষেবা → VoiceOver → টাইপ করা হচ্ছে → টাইপ করা হচ্ছে: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#TypingOptions`
+- সহায়ক পরিষেবা → VoiceOver → টাইপ করা হচ্ছে → টাইপ করার স্টাইল: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_MODE_TITLE`
+- সহায়ক পরিষেবা → VoiceOver → টাইপ করা হচ্ছে → টাইপ করার স্টাইল → টাইপ করার স্টাইল: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_MODE_TITLE#TYPING_MODE_TITLE`
+- সহায়ক পরিষেবা → VoiceOver → টাইপ করা হচ্ছে → ফোনেটিক ফিডব্যাক: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE`
+- সহায়ক পরিষেবা → VoiceOver → টাইপ করা হচ্ছে → ফোনেটিক ফিডব্যাক → ফোনেটিক ফিডব্যাক: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_TITLE`
+- সহায়ক পরিষেবা → VoiceOver → টাইপ করা হচ্ছে → টাইপ করে শুনুন: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_FEEDBACK`
+- সহায়ক পরিষেবা → VoiceOver → টাইপ করা হচ্ছে → টাইপ করে শুনুন → টাইপ করে শুনুন: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_FEEDBACK#TYPING_FEEDBACK`
+- সহায়ক পরিষেবা → VoiceOver → টাইপ করা হচ্ছে → মডিফায়ার কী: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS`
+- সহায়ক পরিষেবা → VoiceOver → টাইপ করা হচ্ছে → মডিফায়ার কী → মডিফায়ার কী: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS#MODIFIER_KEYS`
+- সহায়ক পরিষেবা → VoiceOver → টাইপ করা হচ্ছে → কিবোর্ড ইন্টারঅ্যাকশনের সময়: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/KEYBOARD_TIMING_TIMEOUT`
+- সহায়ক পরিষেবা → VoiceOver → টাইপ করা হচ্ছে → কিবোর্ড ইন্টারঅ্যাকশনের সময় → কিবোর্ড ইন্টারঅ্যাকশনের সময়: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/KEYBOARD_TIMING_TIMEOUT#KEYBOARD_TIMING_TIMEOUT`
+- সহায়ক পরিষেবা → VoiceOver → ছবি নেভিগেট করুন: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages`
+- সহায়ক পরিষেবা → VoiceOver → ছবি নেভিগেট করুন → ছবি নেভিগেট করুন: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#IncludeUnlabeledImages`
+- সহায়ক পরিষেবা → VoiceOver → বড় কার্সর: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CursorStyle`
+- সহায়ক পরিষেবা → VoiceOver → ক্যাপশন প্যানেল: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CaptionPanel`
+- সহায়ক পরিষেবা → VoiceOver → ডবল ট্যাপের সময়সীমা: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/DOUBLE_TAP_INTERVAL_TITLE`
+- সহায়ক পরিষেবা → VoiceOver → ডবল ট্যাপের সময়সীমা → ডবল ট্যাপের সময়সীমা: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/DOUBLE_TAP_INTERVAL_TITLE#NumericalPreferencePickerGroupIdentifier`
+- সহায়ক পরিষেবা → VoiceOver → নেভিগেশন স্টাইল: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NavigationStyle`
+- সহায়ক পরিষেবা → VoiceOver → নেভিগেশন স্টাইল → নেভিগেশন স্টাইল: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NavigationStyle#NavigationStyle`
+- সহায়ক পরিষেবা → VoiceOver → ক্যুইক সেটিংস: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings`
+- সহায়ক পরিষেবা → VoiceOver → ক্যুইক সেটিংস → ক্যুইক সেটিংস: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#QuickSettings`
+- সহায়ক পরিষেবা → VoiceOver → VoiceOver শনাক্তকরণ: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver`
+- সহায়ক পরিষেবা → VoiceOver → VoiceOver শনাক্তকরণ → VoiceOver শনাক্তকরণ: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver#NeuralVoiceOver`
+- সহায়ক পরিষেবা → VoiceOver → VoiceOver শনাক্তকরণ → ছবির বিবরণ: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_IMAGE_DESCRIPTIONS`
+- সহায়ক পরিষেবা → VoiceOver → VoiceOver শনাক্তকরণ → ছবির বিবরণ → ছবির বিবরণ: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_IMAGE_DESCRIPTIONS#VO_IMAGE_DESCRIPTIONS`
+- সহায়ক পরিষেবা → VoiceOver → VoiceOver শনাক্তকরণ → ছবির বিবরণ → সংবেদনশীল বিষয়বস্তুর আউটপুট: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_IMAGE_DESCRIPTIONS#SensitiveContentGroup`
+- সহায়ক পরিষেবা → VoiceOver → VoiceOver শনাক্তকরণ → ছবির বিবরণ → অতিরিক্ত ভাষা: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_IMAGE_DESCRIPTIONS/AdditionalLanguages`
+- সহায়ক পরিষেবা → VoiceOver → VoiceOver শনাক্তকরণ → ছবির বিবরণ → অতিরিক্ত ভাষা → অতিরিক্ত ভাষা: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_IMAGE_DESCRIPTIONS/AdditionalLanguages#AdditionalLanguages`
+- সহায়ক পরিষেবা → VoiceOver → VoiceOver শনাক্তকরণ → ছবির বিবরণ → অ্যাপে প্রয়োগ করুন: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_IMAGE_DESCRIPTIONS/apps`
+- সহায়ক পরিষেবা → VoiceOver → VoiceOver শনাক্তকরণ → ছবির বিবরণ → অ্যাপে প্রয়োগ করুন → অ্যাপে প্রয়োগ করুন: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_IMAGE_DESCRIPTIONS/apps#apps`
+- সহায়ক পরিষেবা → VoiceOver → VoiceOver শনাক্তকরণ → স্ক্রিন শনাক্তকরণ: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_SCREEN_RECOGNITION`
+- সহায়ক পরিষেবা → VoiceOver → VoiceOver শনাক্তকরণ → স্ক্রিন শনাক্তকরণ → স্ক্রিন শনাক্তকরণ: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_SCREEN_RECOGNITION#VO_SCREEN_RECOGNITION`
+- সহায়ক পরিষেবা → VoiceOver → VoiceOver শনাক্তকরণ → স্ক্রিন শনাক্তকরণ → অ্যাপে প্রয়োগ করুন: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_SCREEN_RECOGNITION/apps`
+- সহায়ক পরিষেবা → VoiceOver → VoiceOver শনাক্তকরণ → স্ক্রিন শনাক্তকরণ → অ্যাপে প্রয়োগ করুন → অ্যাপে প্রয়োগ করুন: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_SCREEN_RECOGNITION/apps#apps`
+- সহায়ক পরিষেবা → VoiceOver → VoiceOver শনাক্তকরণ → টেক্সট শনাক্তকরণ: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver#VO_OCR`
+- সহায়ক পরিষেবা → VoiceOver → VoiceOver শনাক্তকরণ → ফিডব্যাক স্টাইল: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_FEEDBACK`
+- সহায়ক পরিষেবা → VoiceOver → VoiceOver শনাক্তকরণ → ফিডব্যাক স্টাইল → ফিডব্যাক স্টাইল: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_FEEDBACK#VO_FEEDBACK`
+- সহায়ক পরিষেবা → VoiceOver → VoiceOver শনাক্তকরণ → লাইভ শনাক্তকরণ: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_REAL_WORLD_DETECTION`
+- সহায়ক পরিষেবা → VoiceOver → নির্বাচনের আগে বিলম্ব: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#VoiceOverDelayUntilSpeak`
+- সহায়ক পরিষেবা → VoiceOver → ডবল-পিঞ্চের সময় শেষ হয়ে গেছে: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#DOUBLE_TAP_INTERVAL`
+- সহায়ক পরিষেবা → জুম করুন: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE`
+- সহায়ক পরিষেবা → জুম করুন → ফলো ফোকাস: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomShouldFollowFocus`
+- সহায়ক পরিষেবা → জুম করুন → স্মার্ট টাইপিং: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomAlwaysUseWindowZoomForTyping`
+- সহায়ক পরিষেবা → জুম করুন → কীবোর্ড শর্টকাট: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts`
+- সহায়ক পরিষেবা → জুম করুন → কীবোর্ড শর্টকাট → কীবোর্ড শর্টকাট: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomEnableKeyboardShortcuts`
+- সহায়ক পরিষেবা → জুম করুন → কীবোর্ড শর্টকাট → জুম লেভেল অ্যাডজাস্ট করুন: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutAdjustZoomLevel`
+- সহায়ক পরিষেবা → জুম করুন → কীবোর্ড শর্টকাট → জুম টগল করুন: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutToggleZoom`
+- সহায়ক পরিষেবা → জুম করুন → কীবোর্ড শর্টকাট → জুম উইন্ডো সরান: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutPanZoom`
+- সহায়ক পরিষেবা → জুম করুন → কীবোর্ড শর্টকাট → জুম উইন্ডো রিসাইজ করুন: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutResizeZoomWindow`
+- সহায়ক পরিষেবা → জুম করুন → কীবোর্ড শর্টকাট → জুম রিজিয়ন স্যুইচ করুন: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutSwitchZoomMode`
+- সহায়ক পরিষেবা → জুম করুন → কীবোর্ড শর্টকাট → সাময়িকভাবে জুম টগল করুন: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutTempToggleZoom`
+- সহায়ক পরিষেবা → জুম করুন → কীবোর্ড শর্টকাট → স্ক্রল হুইল দিয়ে জুম করুন: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutScrollWheel`
+- সহায়ক পরিষেবা → জুম করুন → জুম করতে ট্র্যাকপ্যাড জেসচার ব্যবহার করুন: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomWithTrackpad`
+- সহায়ক পরিষেবা → জুম করুন → জুম কন্ট্রোলার: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug`
+- সহায়ক পরিষেবা → জুম করুন → জুম কন্ট্রোলার → জুম কন্ট্রোলার: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug#ZoomSlug`
+- সহায়ক পরিষেবা → জুম করুন → জুম কন্ট্রোলার → কন্ট্রোলার দেখুন: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug#ZOOM_DETACH_CONTROLS`
+- সহায়ক পরিষেবা → জুম করুন → জুম কন্ট্রোলার → সিঙ্গল ট্যাপ করুন: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_CONTROLLER_ACTION_SINGLE_TAP`
+- সহায়ক পরিষেবা → জুম করুন → জুম কন্ট্রোলার → সিঙ্গল ট্যাপ করুন → সিঙ্গল ট্যাপ করুন: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_CONTROLLER_ACTION_SINGLE_TAP#ZOOM_CONTROLLER_ACTION_SINGLE_TAP`
+- সহায়ক পরিষেবা → জুম করুন → জুম কন্ট্রোলার → ডবল-ট্যাপ করুন: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_CONTROLLER_ACTION_DOUBLE_TAP`
+- সহায়ক পরিষেবা → জুম করুন → জুম কন্ট্রোলার → ডবল-ট্যাপ করুন → ডবল-ট্যাপ করুন: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_CONTROLLER_ACTION_DOUBLE_TAP#ZOOM_CONTROLLER_ACTION_DOUBLE_TAP`
+- সহায়ক পরিষেবা → জুম করুন → জুম কন্ট্রোলার → ট্রিপল ট্যাপ: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_CONTROLLER_ACTION_TRIPLE_TAP`
+- সহায়ক পরিষেবা → জুম করুন → জুম কন্ট্রোলার → ট্রিপল ট্যাপ → ট্রিপল ট্যাপ: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_CONTROLLER_ACTION_TRIPLE_TAP#ZOOM_CONTROLLER_ACTION_TRIPLE_TAP`
+- সহায়ক পরিষেবা → জুম করুন → জুম কন্ট্রোলার → জুম লেভেল অ্যাডজাস্ট করুন: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug#ZOOM_TAP_AND_SLIDE_TO_ADJUST_ZOOM_LEVEL`
+- সহায়ক পরিষেবা → জুম করুন → জুম কন্ট্রোলার → রং: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/CONTROLLER_COLOR`
+- সহায়ক পরিষেবা → জুম করুন → জুম কন্ট্রোলার → রং → রং: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/CONTROLLER_COLOR#CONTROLLER_COLOR`
+- সহায়ক পরিষেবা → জুম করুন → জুম কন্ট্রোলার → নিষ্ক্রিয় অবস্থায় অস্পষ্টতা: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_IDLE_SLUG_OPACITY`
+- সহায়ক পরিষেবা → জুম করুন → জুম কন্ট্রোলার → নিষ্ক্রিয় অবস্থায় অস্পষ্টতা → নিষ্ক্রিয় অবস্থায় অস্পষ্টতা: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_IDLE_SLUG_OPACITY#ZOOM_IDLE_SLUG_OPACITY`
+- সহায়ক পরিষেবা → জুম করুন → জুম রিজিয়ন: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode`
+- সহায়ক পরিষেবা → জুম করুন → জুম রিজিয়ন → জুম রিজিয়ন: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode#ZoomLensMode`
+- সহায়ক পরিষেবা → জুম করুন → সর্বোচ্চ জুম লেভেল: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomPreferredMaxZoomLevel`
+- সহায়ক পরিষেবা → জুম করুন → জুম ফিল্টার: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomFilter`
+- সহায়ক পরিষেবা → জুম করুন → জুম ফিল্টার → জুম ফিল্টার: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomFilter#ZoomFilter`
+- সহায়ক পরিষেবা → জুম করুন → মিররিং করার সময় দেখুন: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomShowWhileMirroring`
+- সহায়ক পরিষেবা → জুম করুন → ডিফল্ট ফোকাস হিসাবে জুম সেট করুন: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomAsDefaultDial`
+- সহায়ক পরিষেবা → জুম করুন → জুম করতে Digital Crown ব্যবহার করুন: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomStealsCrownTurns`
+- সহায়ক পরিষেবা → জুম করুন → বর্ডারের রং: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#MagnifyingGlassBorderColor`
+- সহায়ক পরিষেবা → হোভার টেক্সট: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE`
+- সহায়ক পরিষেবা → হোভার টেক্সট → ডিসপ্লে মোড: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextDisplayMode`
+- সহায়ক পরিষেবা → হোভার টেক্সট → ডিসপ্লে মোড → ডিসপ্লে মোড: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextDisplayMode#HoverTextDisplayMode`
+- সহায়ক পরিষেবা → হোভার টেক্সট → স্ক্রল করার গতি: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextScrollSpeed`
+- সহায়ক পরিষেবা → হোভার টেক্সট → স্ক্রল করার গতি → স্ক্রল করার গতি: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextScrollSpeed#HoverTextScrollSpeed`
+- সহায়ক পরিষেবা → হোভার টেক্সট → ফন্ট: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextStyle`
+- সহায়ক পরিষেবা → হোভার টেক্সট → ফন্ট → ফন্ট: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextStyle#HoverTextStyle`
+- সহায়ক পরিষেবা → হোভার টেক্সট → সাইজ: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextSize`
+- সহায়ক পরিষেবা → হোভার টেক্সট → সাইজ → সাইজ: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextSize#HoverTextSize`
+- সহায়ক পরিষেবা → হোভার টেক্সট → রং: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE#HOVER_TEXT_COLOR_OPTIONS`
+- সহায়ক পরিষেবা → হোভার টেক্সট → অ্যাক্টিভেশন মডিফায়ার: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextActivationModifier`
+- সহায়ক পরিষেবা → হোভার টেক্সট → অ্যাক্টিভেশন মডিফায়ার → অ্যাক্টিভেশন মডিফায়ার: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextActivationModifier#HoverTextActivationModifier`
+- সহায়ক পরিষেবা → হোভার টেক্সট → অ্যাক্টিভেশন লক: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE#HOVER_TEXT_ACTIVATION_LOCK`
+- সহায়ক পরিষেবা → কীবোর্ড এবং টাইপিং: `prefs:root=ACCESSIBILITY&path=KEYBOARDS`
+- সহায়ক পরিষেবা → কীবোর্ড এবং টাইপিং → হোভার টাইপিং: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING`
+- সহায়ক পরিষেবা → কীবোর্ড এবং টাইপিং → হোভার টাইপিং → ডিসপ্লে মোড: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING/HoverTextTypingDisplayMode`
+- সহায়ক পরিষেবা → কীবোর্ড এবং টাইপিং → হোভার টাইপিং → ডিসপ্লে মোড → ডিসপ্লে মোড: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING/HoverTextTypingDisplayMode#HoverTextTypingDisplayMode`
+- সহায়ক পরিষেবা → কীবোর্ড এবং টাইপিং → হোভার টাইপিং → ফন্ট: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING/HoverTypingStyle`
+- সহায়ক পরিষেবা → কীবোর্ড এবং টাইপিং → হোভার টাইপিং → ফন্ট → ফন্ট: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING/HoverTypingStyle#HoverTypingStyle`
+- সহায়ক পরিষেবা → কীবোর্ড এবং টাইপিং → হোভার টাইপিং → সাইজ: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING/HoverTextSize`
+- সহায়ক পরিষেবা → কীবোর্ড এবং টাইপিং → হোভার টাইপিং → সাইজ → সাইজ: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING/HoverTextSize#HoverTextSize`
+- সহায়ক পরিষেবা → কীবোর্ড এবং টাইপিং → হোভার টাইপিং → টাইপিংয়ের রং: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TYPING_COLOR_OPTIONS`
+- সহায়ক পরিষেবা → কীবোর্ড এবং টাইপিং → হোভার টাইপিং → ডিসপ্লের রং: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TYPING_DISPLAY_COLOR_OPTIONS`
+- সহায়ক পরিষেবা → কীবোর্ড এবং টাইপিং → হোভার টাইপিং → টেক্সটের রং: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TEXT_TEXT_COLOR`
+- সহায়ক পরিষেবা → কীবোর্ড এবং টাইপিং → হোভার টাইপিং → ইনসার্ট করা পয়েন্টের রং: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TEXT_INSERTION_POINT_COLOR`
+- সহায়ক পরিষেবা → কীবোর্ড এবং টাইপিং → হোভার টাইপিং → ব্যাকগ্রাউন্ডের রং: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TEXT_BACKGROUND_COLOR`
+- সহায়ক পরিষেবা → কীবোর্ড এবং টাইপিং → হোভার টাইপিং → বর্ডারের রং: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TEXT_BORDER_COLOR`
+- সহায়ক পরিষেবা → কীবোর্ড এবং টাইপিং → হোভার টাইপিং → স্বতঃসংশোধিত শব্দের রং: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TYPING_AUTOCORRECTED_WORD_COLOR`
+- সহায়ক পরিষেবা → কীবোর্ড এবং টাইপিং → হোভার টাইপিং → ভুল বানানযুক্ত শব্দের রং: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TYPING_MISSPELLED_WORD`
+- সহায়ক পরিষেবা → কীবোর্ড এবং টাইপিং → হোভার টাইপিং → ডিফল্টে রিসেট করুন: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TYPING_RESET_BUTTON`
+- সহায়ক পরিষেবা → কীবোর্ড এবং টাইপিং → সম্পূর্ণ কীবোর্ড অ্যাক্সেস: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS`
+- সহায়ক পরিষেবা → কীবোর্ড এবং টাইপিং → সম্পূর্ণ কীবোর্ড অ্যাক্সেস → সম্পূর্ণ কীবোর্ড অ্যাক্সেস: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAEnabledSwitch`
+- সহায়ক পরিষেবা → কীবোর্ড এবং টাইপিং → সম্পূর্ণ কীবোর্ড অ্যাক্সেস → কমান্ড: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKACommands`
+- সহায়ক পরিষেবা → কীবোর্ড এবং টাইপিং → সম্পূর্ণ কীবোর্ড অ্যাক্সেস → কমান্ড → কমান্ড: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKACommands#FKACommands`
+- সহায়ক পরিষেবা → কীবোর্ড এবং টাইপিং → সম্পূর্ণ কীবোর্ড অ্যাক্সেস → স্বয়ংক্রিয়ভাবে লুকানো: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKAFocusRingTimeout`
+- সহায়ক পরিষেবা → কীবোর্ড এবং টাইপিং → সম্পূর্ণ কীবোর্ড অ্যাক্সেস → স্বয়ংক্রিয়ভাবে লুকানো → স্বয়ংক্রিয়ভাবে লুকানো: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKAFocusRingTimeout#FKAFocusRingTimeout`
+- সহায়ক পরিষেবা → কীবোর্ড এবং টাইপিং → সম্পূর্ণ কীবোর্ড অ্যাক্সেস → সাইজ বাড়ান: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKALargeFocusRingEnabled`
+- সহায়ক পরিষেবা → কীবোর্ড এবং টাইপিং → সম্পূর্ণ কীবোর্ড অ্যাক্সেস → হাই কন্ট্রাস্ট: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKAFocusRingHighContrastEnabled`
+- সহায়ক পরিষেবা → কীবোর্ড এবং টাইপিং → সম্পূর্ণ কীবোর্ড অ্যাক্সেস → রং: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKAFocusRingColor`
+- সহায়ক পরিষেবা → কীবোর্ড এবং টাইপিং → সম্পূর্ণ কীবোর্ড অ্যাক্সেস → রং → রং: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKAFocusRingColor#FKAFocusRingColor`
+- সহায়ক পরিষেবা → কীবোর্ড এবং টাইপিং → কী রিপিট: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT`
+- সহায়ক পরিষেবা → কীবোর্ড এবং টাইপিং → কী রিপিট → কী রিপিট: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatEnabled`
+- সহায়ক পরিষেবা → কীবোর্ড এবং টাইপিং → কী রিপিট → কী রিপিট-এর অন্তর্বর্তী সময়: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatInterval`
+- সহায়ক পরিষেবা → কীবোর্ড এবং টাইপিং → কী রিপিট → পুনরাবৃত্তি না করা পর্যন্ত বিলম্ব: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatDelay`
+- সহায়ক পরিষেবা → কীবোর্ড এবং টাইপিং → স্টিকি কী: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS`
+- সহায়ক পরিষেবা → কীবোর্ড এবং টাইপিং → স্টিকি কী → স্টিকি কী: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysEnabled`
+- সহায়ক পরিষেবা → কীবোর্ড এবং টাইপিং → স্টিকি কী → শিফট ‘কী’ দিয়ে টগল করুন: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysShiftToggle`
+- সহায়ক পরিষেবা → কীবোর্ড এবং টাইপিং → স্টিকি কী → শব্দ: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysSound`
+- সহায়ক পরিষেবা → কীবোর্ড এবং টাইপিং → স্লো কী: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/SLOW_KEYS`
+- সহায়ক পরিষেবা → কীবোর্ড এবং টাইপিং → স্লো কী → স্লো কী: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/SLOW_KEYS#NumericalPreferenceSwitcherIdentifier`
+- সহায়ক পরিষেবা → কীবোর্ড এবং টাইপিং → সফটওয়্যার কীবোর্ড: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#SOFTWARE_KEYBOARDS`
+- সহায়ক পরিষেবা → কীবোর্ড এবং টাইপিং → ছোট হাতের ‘কী’ দেখুন: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#LOWERCASE_KEYBOARD`
+- সহায়ক পরিষেবা → ডিসপ্লে এবং টেক্সটের সাইজ: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT`
+- সহায়ক পরিষেবা → ডিসপ্লে এবং টেক্সটের সাইজ → বোল্ড টেক্সট: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#ENHANCE_TEXT_LEGIBILITY`
+- সহায়ক পরিষেবা → ডিসপ্লে এবং টেক্সটের সাইজ → আরও বড় টেক্সট: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/LARGER_TEXT`
+- সহায়ক পরিষেবা → ডিসপ্লে এবং টেক্সটের সাইজ → আরও বড় টেক্সট → আরও বড় টেক্সট: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/LARGER_TEXT#LARGER_TEXT`
+- সহায়ক পরিষেবা → ডিসপ্লে এবং টেক্সটের সাইজ → আরও বড় টেক্সট → আরও বড় অ্যাক্সেসিবিলিটি সাইজ: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/LARGER_TEXT#LARGER_DYNAMIC_TYPE_SWITCH`
+- সহায়ক পরিষেবা → ডিসপ্লে এবং টেক্সটের সাইজ → বাটনের আকার: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#BUTTON_SHAPES`
+- সহায়ক পরিষেবা → ডিসপ্লে এবং টেক্সটের সাইজ → চালু/বন্ধ করুন: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#OnOffLabels`
+- সহায়ক পরিষেবা → ডিসপ্লে এবং টেক্সটের সাইজ → স্বচ্ছতা কমান: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#REDUCE_TRANSPARENCY`
+- সহায়ক পরিষেবা → ডিসপ্লে এবং টেক্সটের সাইজ → কনট্রাস্ট বাড়ান: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#TEXT_COLORS_DARKEN`
+- সহায়ক পরিষেবা → ডিসপ্লে এবং টেক্সটের সাইজ → রং ছাড়া পার্থক্য করুন: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#DIFFERENTIATE_WITHOUT_COLOR`
+- সহায়ক পরিষেবা → ডিসপ্লে এবং টেক্সটের সাইজ → অনুভূমিক টেক্সটের উপর প্রাধান্য দিন: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#PREFER_HORIZONTAL_TEXT`
+- সহায়ক পরিষেবা → ডিসপ্লে এবং টেক্সটের সাইজ → স্মার্ট ইনভার্ট: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#SMART_INVERT`
+- সহায়ক পরিষেবা → ডিসপ্লে এবং টেক্সটের সাইজ → ক্লাসিক ইনভার্ট: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#CLASSIC_INVERT`
+- সহায়ক পরিষেবা → ডিসপ্লে এবং টেক্সটের সাইজ → কালার ফিল্টার: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR`
+- সহায়ক পরিষেবা → ডিসপ্লে এবং টেক্সটের সাইজ → কালার ফিল্টার → কালার ফিল্টার: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR#DISPLAY_FILTER_COLOR`
+- সহায়ক পরিষেবা → ডিসপ্লে এবং টেক্সটের সাইজ → কালার ফিল্টার → ভিডিও পাসথ্রুতে প্রয়োগ করুন: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR#VIDEO_PASSTHROUGH`
+- সহায়ক পরিষেবা → ডিসপ্লে এবং টেক্সটের সাইজ → সাদা বিন্দু কমান: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#WHITE_POINT`
+- সহায়ক পরিষেবা → ডিসপ্লে এবং টেক্সটের সাইজ → স্বয়ংক্রিয় উজ্জ্বলতা: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#AUTO_BRIGHTNESS`
+- সহায়ক পরিষেবা → ডিসপ্লে এবং টেক্সটের সাইজ → স্থির করার জন্য চোখের নড়াচড়া উপেক্ষা করুন: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#STATIC_FOVEATION_TEXT`
+- সহায়ক পরিষেবা → ডিসপ্লে এবং টেক্সটের সাইজ → স্বয়ংক্রিয়ভাবে ডিসপ্লে অ্যালাইন করুন: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#AUTO_IPD_TEXT`
+- সহায়ক পরিষেবা → ডিসপ্লে এবং টেক্সটের সাইজ → ফোকাসের স্থিতি বৃদ্ধি করুন: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#INCREASE_FOCUS_STATE_TEXT`
+- সহায়ক পরিষেবা → গতিবিধি: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE`
+- সহায়ক পরিষেবা → গতিবিধি → গতি কমান: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION`
+- সহায়ক পরিষেবা → গতিবিধি → মেসেজ এফেক্ট স্বয়ংক্রিয়ভাবে চালান: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#ReduceMotionAutoplayMessagesEffects`
+- সহায়ক পরিষেবা → গতিবিধি → অ্যানিমেটেড ইমেজ স্বয়ংক্রিয়ভাবে চালান: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION_AUTOPLAY_ANIMATED_IMAGES`
+- সহায়ক পরিষেবা → গতিবিধি → ভিডিও প্রিভিউ স্বয়ংক্রিয়ভাবে চালান: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION_AUTOPLAY_VIDEO_PREVIEWS`
+- সহায়ক পরিষেবা → গতিবিধি → নন-ব্লিঙ্কিং কার্সরকে প্রাধান্য দিন: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#PREFER_NONBLINKING_CURSOR`
+- সহায়ক পরিষেবা → গতিবিধি → ফ্রেম রেট সীমিত করুন: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REFRESH_RATE`
+- সহায়ক পরিষেবা → গতিবিধি → ফ্ল্যাশ লাইটের উজ্জ্বলতা কমান: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#PHOTOSENSITIVE_MITIGATION`
+- সহায়ক পরিষেবা → গতিবিধি → গাড়ির গতিবিধি সম্পর্কে সংকেত দেখান: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#MotionCues`
+- সহায়ক পরিষেবা → পড়ে শোনানোর বিষয়বস্তু: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE`
+- সহায়ক পরিষেবা → পড়ে শোনানোর বিষয়বস্তু → নির্বাচিত বিষয় পড়ে শোনান: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QUICK_SPEAK_TITLE`
+- সহায়ক পরিষেবা → পড়ে শোনানোর বিষয়বস্তু → স্ক্রিনের বিষয়বস্তু পড়ে শোনান: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpeakThisEnabled`
+- সহায়ক পরিষেবা → পড়ে শোনানোর বিষয়বস্তু → স্পিচ কন্ট্রোলার: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController`
+- সহায়ক পরিষেবা → পড়ে শোনানোর বিষয়বস্তু → স্পিচ কন্ট্রোলার → স্পিচ কন্ট্রোলার: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController#SpeechController`
+- সহায়ক পরিষেবা → পড়ে শোনানোর বিষয়বস্তু → স্পিচ কন্ট্রোলার → দীর্ঘক্ষণ চাপুন: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController/SpeechControllerLongPressAction`
+- সহায়ক পরিষেবা → পড়ে শোনানোর বিষয়বস্তু → স্পিচ কন্ট্রোলার → দীর্ঘক্ষণ চাপুন → দীর্ঘক্ষণ চাপুন: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController/SpeechControllerLongPressAction#SpeechControllerLongPressAction`
+- সহায়ক পরিষেবা → পড়ে শোনানোর বিষয়বস্তু → স্পিচ কন্ট্রোলার → ডবল ট্যাপ করুন: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController/SpeechControllerDoubleTapAction`
+- সহায়ক পরিষেবা → পড়ে শোনানোর বিষয়বস্তু → স্পিচ কন্ট্রোলার → ডবল ট্যাপ করুন → ডবল ট্যাপ করুন: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController/SpeechControllerDoubleTapAction#SpeechControllerDoubleTapAction`
+- সহায়ক পরিষেবা → পড়ে শোনানোর বিষয়বস্তু → স্পিচ কন্ট্রোলার → নিষ্ক্রিয় অবস্থায় অস্পষ্টতা: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController/SpeechControllerIdleOpacity`
+- সহায়ক পরিষেবা → পড়ে শোনানোর বিষয়বস্তু → স্পিচ কন্ট্রোলার → নিষ্ক্রিয় অবস্থায় অস্পষ্টতা → নিষ্ক্রিয় অবস্থায় অস্পষ্টতা: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController/SpeechControllerIdleOpacity#SpeechControllerIdleOpacity`
+- সহায়ক পরিষেবা → পড়ে শোনানোর বিষয়বস্তু → স্পিচ কন্ট্রোলার → মাউস বাটন কাস্টমাইজ করুন: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController#CustomizeMouseButtons`
+- সহায়ক পরিষেবা → পড়ে শোনানোর বিষয়বস্তু → বিষয়বস্তু হাইলাইট করুন: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/QuickSpeakHighlight`
+- সহায়ক পরিষেবা → পড়ে শোনানোর বিষয়বস্তু → বিষয়বস্তু হাইলাইট করুন → বিষয়বস্তু হাইলাইট করুন: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/QuickSpeakHighlight#QuickSpeakHighlight`
+- সহায়ক পরিষেবা → পড়ে শোনানোর বিষয়বস্তু → বিষয়বস্তু হাইলাইট করুন → বাক্য হাইলাইট করার স্টাইল: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/QuickSpeakHighlight#SENTENCE_HIGHLIGHT_STYLE`
+- সহায়ক পরিষেবা → পড়ে শোনানোর বিষয়বস্তু → বিষয়বস্তু হাইলাইট করুন → রং হাইলাইট করুন: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/QuickSpeakHighlight#COLOR_CHOICE`
+- সহায়ক পরিষেবা → পড়ে শোনানোর বিষয়বস্তু → টাইপ করে শুনুন: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback`
+- সহায়ক পরিষেবা → পড়ে শোনানোর বিষয়বস্তু → টাইপ করে শুনুন → টাইপ করে শুনুন: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#TypingFeedback`
+- সহায়ক পরিষেবা → পড়ে শোনানোর বিষয়বস্তু → টাইপ করে শুনুন → অক্ষর: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#LETTER`
+- সহায়ক পরিষেবা → পড়ে শোনানোর বিষয়বস্তু → টাইপ করে শুনুন → অক্ষর সম্পর্কে ইঙ্গিত: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#PhoneticFeedback`
+- সহায়ক পরিষেবা → পড়ে শোনানোর বিষয়বস্তু → টাইপ করে শুনুন → শব্দ পড়ে শোনান: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#WORD_FEEDBACK`
+- সহায়ক পরিষেবা → পড়ে শোনানোর বিষয়বস্তু → টাইপ করে শুনুন → অটো-টেক্সট পড়ে শোনান: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#SPEAK_AUTOCORRECTIONS`
+- সহায়ক পরিষেবা → পড়ে শোনানোর বিষয়বস্তু → টাইপ করে শুনুন → পূর্বাভাস শুনতে ধরে থাকুন: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#QUICKTYPE_WORD_FEEDBACK`
+- সহায়ক পরিষেবা → পড়ে শোনানোর বিষয়বস্তু → কন্ঠস্বর: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/QuickSpeakAccents`
+- সহায়ক পরিষেবা → পড়ে শোনানোর বিষয়বস্তু → কন্ঠস্বর → কন্ঠস্বর: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/QuickSpeakAccents#QuickSpeakAccents`
+- সহায়ক পরিষেবা → পড়ে শোনানোর বিষয়বস্তু → ডিফল্ট ভাষা: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpokenContentDefaultLanguage`
+- সহায়ক পরিষেবা → পড়ে শোনানোর বিষয়বস্তু → ডিফল্ট ভাষা → ডিফল্ট ভাষা: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpokenContentDefaultLanguage#SpokenContentDefaultLanguage`
+- সহায়ক পরিষেবা → পড়ে শোনানোর বিষয়বস্তু → ভাষা শনাক্ত করুন: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#LANGUAGE_DETECTION`
+- সহায়ক পরিষেবা → পড়ে শোনানোর বিষয়বস্তু → কথা বলার গতি: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakRate`
+- সহায়ক পরিষেবা → পড়ে শোনানোর বিষয়বস্তু → উচ্চারণ: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/VoiceOverSettings`
+- সহায়ক পরিষেবা → পড়ে শোনানোর বিষয়বস্তু → উচ্চারণ → উচ্চারণ: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/VoiceOverSettings#VoiceOverSettings`
+- সহায়ক পরিষেবা → পড়ে শোনানোর বিষয়বস্তু → স্পেশিয়ালাইজ স্পিচ: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SPATIALIZE_SPEECH`
+- সহায়ক পরিষেবা → অডিও বিবরণ: `prefs:root=ACCESSIBILITY&path=DESCRIPTIVE_VIDEO`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → AssistiveTouch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → AssistiveTouch → AssistiveTouch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#EnableAssistiveTouchSpecifier`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → AssistiveTouch → সবথেকে উপরের স্তরের মেনু কাস্টমাইজ করুন: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → AssistiveTouch → সবথেকে উপরের স্তরের মেনু কাস্টমাইজ করুন → সবথেকে উপরের স্তরের মেনু কাস্টমাইজ করুন: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize#AssistiveTouchCustomize`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → AssistiveTouch → সবথেকে উপরের স্তরের মেনু কাস্টমাইজ করুন → পরিবর্তন করতে কোনো আইকন ট্যাপ করুন:: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize#ASTStepperCell`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → AssistiveTouch → সিঙ্গল ট্যাপ করুন: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/TapSpecifier`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → AssistiveTouch → সিঙ্গল ট্যাপ করুন → সিঙ্গল ট্যাপ করুন: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/TapSpecifier#TapSpecifier`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → AssistiveTouch → ডবল-ট্যাপ করুন: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → AssistiveTouch → ডবল-ট্যাপ করুন → ডবল-ট্যাপ করুন: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier#DoubleTapSpecifier`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → AssistiveTouch → ডবল-ট্যাপ করুন → ডবল ট্যাপের সময়সীমা: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier/ASTDoubleTapTimeoutSpecifier`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → AssistiveTouch → ডবল-ট্যাপ করুন → ডবল ট্যাপের সময়সীমা → ডবল ট্যাপের সময়সীমা: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier/ASTDoubleTapTimeoutSpecifier#ASTDoubleTapTimeoutSpecifier`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → AssistiveTouch → দীর্ঘক্ষণ চাপুন: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → AssistiveTouch → দীর্ঘক্ষণ চাপুন → দীর্ঘক্ষণ চাপুন: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier#LongPressSpecifier`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → AssistiveTouch → দীর্ঘক্ষণ চাপুন → দীর্ঘক্ষণ চাপার সময়কাল: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier/ASTLongPressDurationSpecifier`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → AssistiveTouch → দীর্ঘক্ষণ চাপুন → দীর্ঘক্ষণ চাপার সময়কাল → দীর্ঘক্ষণ চাপার সময়কাল: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier/ASTLongPressDurationSpecifier#ASTLongPressDurationSpecifier`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → AssistiveTouch → 3D Touch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#ForceTouchSpecifier`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → AssistiveTouch → নতুন জেসচার তৈরি করুন…: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/CreateCustomGesture`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → AssistiveTouch → নতুন জেসচার তৈরি করুন… → নতুন জেসচার তৈরি করুন…: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/CreateCustomGesture#CreateCustomGesture`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → AssistiveTouch → নিষ্ক্রিয় অবস্থায় অস্পষ্টতা: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/IdleOpacity`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → AssistiveTouch → নিষ্ক্রিয় অবস্থায় অস্পষ্টতা → নিষ্ক্রিয় অবস্থায় অস্পষ্টতা: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/IdleOpacity#IdleOpacity`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → AssistiveTouch → ভার্চুয়াল ট্র্যাকপ্যাড: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → AssistiveTouch → ভার্চুয়াল ট্র্যাকপ্যাড → ট্র্যাকিং স্পিড: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID#TRACKING_SPEED_SLIDER`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → AssistiveTouch → ভার্চুয়াল ট্র্যাকপ্যাড → স্বাভাবিক স্ক্রলিং: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID#NATURAL_SCROLLING`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → AssistiveTouch → ভার্চুয়াল ট্র্যাকপ্যাড → স্ক্রল করার গতি: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID#SCROLL_SPEED_SLIDER`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → AssistiveTouch → ভার্চুয়াল ট্র্যাকপ্যাড → বর্ডার: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID#BORDER`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → AssistiveTouch → ভার্চুয়াল ট্র্যাকপ্যাড → বর্ডার: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID/BORDER`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → AssistiveTouch → ভার্চুয়াল ট্র্যাকপ্যাড → বর্ডার → রং: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID/BORDER#COLOR`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → AssistiveTouch → ভার্চুয়াল ট্র্যাকপ্যাড → বর্ডার → অস্বচ্ছতা: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID/BORDER#OPACITY`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → AssistiveTouch → ভার্চুয়াল ট্র্যাকপ্যাড → বর্ডার → বর্ডারের প্রস্থ: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID/BORDER#BORDER_WIDTH`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → AssistiveTouch → ভার্চুয়াল ট্র্যাকপ্যাড → ট্র্যাকপ্যাড: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID#TRACKPAD`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → AssistiveTouch → ভার্চুয়াল ট্র্যাকপ্যাড → ট্র্যাকপ্যাড: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID/TRACKPAD`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → AssistiveTouch → ভার্চুয়াল ট্র্যাকপ্যাড → ট্র্যাকপ্যাড → রং: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID/TRACKPAD#COLOR`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → AssistiveTouch → ভার্চুয়াল ট্র্যাকপ্যাড → ট্র্যাকপ্যাড → অস্বচ্ছতা: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID/TRACKPAD#OPACITY`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → AssistiveTouch → ডিভাইস: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → AssistiveTouch → ডিভাইস → ডিভাইস: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices#AssistiveTouchMouseDevices`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → AssistiveTouch → ডিভাইস → Bluetooth ডিভাইস…: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices/BluetoothDevicesScanning`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → AssistiveTouch → ডিভাইস → Bluetooth ডিভাইস… → Bluetooth ডিভাইস…: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices/BluetoothDevicesScanning#BluetoothDevicesScanning`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → AssistiveTouch → মাউস কী: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseKeys`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → AssistiveTouch → মাউস কী → মাউস কী: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseKeys#AssistiveTouchMouseKeys`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → AssistiveTouch → মাউস কী → ‘অপশন কী’ টগল: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseKeys#OptionKeyToggle`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → AssistiveTouch → মাউস কী → প্রাইমারি কীবোর্ড ব্যবহার করুন: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseKeys#UsePrimaryKeyboard`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → AssistiveTouch → মাউস কী → প্রাথমিক ডিলে: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseKeys#InitialDelay`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → AssistiveTouch → মাউস কী → সর্বাধিক গতি: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseKeys#MaximumSpeed`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → AssistiveTouch → অনস্ক্রিন কীবোর্ড দেখান: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AlwaysShowSoftwareKeyboard`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → AssistiveTouch → সর্বদা মেনু দেখান: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AlwaysShowMenu`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → AssistiveTouch → ক্লিক করলে শব্দ: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#MouseClickSounds`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → AssistiveTouch → ডুয়েল কন্ট্রোল: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellEnabledSpecifier`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → AssistiveTouch → গতিবিধির সীমাবদ্ধতা: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellToleranceSpecifier`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → AssistiveTouch → গতিবিধির সীমাবদ্ধতা → গতিবিধির সীমাবদ্ধতা: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellToleranceSpecifier#DwellToleranceSpecifier`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → AssistiveTouch → ট্র্যাকিং সংবেদনশীলতা: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#TouchSpeed`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → AssistiveTouch → ফলব্যাক অ্যাকশন: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellAutorevertSpecifier`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → AssistiveTouch → ফলব্যাক অ্যাকশন → ফলব্যাক অ্যাকশন: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellAutorevertSpecifier#DwellAutorevertSpecifier`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → AssistiveTouch → হট কর্নার: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellCornersSpecifier`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → AssistiveTouch → হট কর্নার → হট কর্নার: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellCornersSpecifier#DwellCornersSpecifier`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → AssistiveTouch → হট কর্নার → উপরের বাঁদিক: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellCornersSpecifier#TopLeft`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → AssistiveTouch → হট কর্নার → উপরের ডানদিক: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellCornersSpecifier#TopRight`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → AssistiveTouch → হট কর্নার → নিচে বাঁদিকে: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellCornersSpecifier#BottomLeft`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → AssistiveTouch → হট কর্নার → নীচে ডানদিকে: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellCornersSpecifier#BottomRight`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → AssistiveTouch → বর্ধিত পূর্বাভাষ: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellExtendedPredictionsSpecifier`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → AssistiveTouch → ডুয়েল কন্ট্রোলের সময় শেষ হয়ে গেছে: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellTimeoutSpecifier`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → AssistiveTouch → AssistiveTouch-এর মাধ্যমে নিশ্চিত করুন: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#APPLE_PAY_SWITCH`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → AssistiveTouch → টাচ জেসচার সম্পন্ন করুন: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#MouseBehavesLikeFinger`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → AssistiveTouch → গেম কন্ট্রোলার ব্যবহার করুন: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#EnableAssistiveTouchGameControllerSpecifier`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → AssistiveTouch → সাউন্ড অ্যাকশন: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/SOUND_ACTIONS`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → AssistiveTouch → সাউন্ড অ্যাকশন: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#SOUND_ACTIONS`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → ডুয়েল কন্ট্রোল: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → ডুয়েল কন্ট্রোল → ডুয়েল কন্ট্রোল: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL#DWELL_CONTROL_TITLE`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → ডুয়েল কন্ট্রোল → লক্ষ্য: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL/DWELL_CONTROL_TARGET`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → ডুয়েল কন্ট্রোল → গতিবিধির সীমাবদ্ধতা: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL/DWELL_MOVEMENT_TOLERANCE`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → ডুয়েল কন্ট্রোল → কন্ট্রোল হাইলাইট করুন: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL#DWELL_HIGHLIGHT_CONTROL_TITLE`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → ডুয়েল কন্ট্রোল → মিডিয়া প্লেব্যাকের সময় পজ করুন: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL#DWELL_PAUSE_FOR_MEDIA_PLAYBACK_TITLE`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → ডুয়েল কন্ট্রোল → স্ক্রল কন্ট্রোল দেখান: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL#AXDwellQuickScrollSpecifierID`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → ডুয়েল কন্ট্রোল → মেনু ফলো করুন: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL#AXDwellFollowSpecifierID`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → ডুয়েল কন্ট্রোল: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/#DwellEnabledSpecifier`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → ওয়ান হ্যান্ড মোড: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#REACHABILITY`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → হ্যাপটিক টাচ: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → হ্যাপটিক টাচ → হ্যাপটিক টাচ: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#ForceTouch`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → হ্যাপটিক টাচ → 3D Touch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#ForceTouchAccessibilityMainSwitch`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → হ্যাপটিক টাচ → 3D Touch সংবেদনশীলতা: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#FourceTouchSensitivityGroupIdentifier`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → হ্যাপটিক টাচ → স্পর্শের সময়কাল: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#timingGroup`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → হ্যাপটিক টাচ → স্পর্শের সময়কালের পরীক্ষা: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#FourceTouchSensitivityTestGroupIdentifier`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → টাচ অ্যাডজাস্টমেন্ট: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → টাচ অ্যাডজাস্টমেন্ট → টাচ অ্যাডজাস্টমেন্ট: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#TOUCH_ACCOMMODATIONS_SWITCHER`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → টাচ অ্যাডজাস্টমেন্ট → ধরে থাকার সময়কাল: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#HoldDuration`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → টাচ অ্যাডজাস্টমেন্ট → পুনরাবৃত্তি উপেক্ষা করুন: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#IgnoreRepeat`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → টাচ অ্যাডজাস্টমেন্ট → ট্যাপ সহায়তা: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#Tap%20Assistance`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → সক্রিয় করতে ট্যাপ করুন: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TAP_TO_WAKE_TITLE`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → সক্রিয় করার জন্য ট্যাপ অথবা সোয়াইপ করুন: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TAP_TOUCH_TO_WAKE_TITLE`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → পূর্বাবস্থায় ফেরাতে ঝাঁকান: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#SHAKE_TO_UNDO`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → ভাইব্রেশন: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#VIBRATION`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → লক বাটন চাপলে কল কেটে যাবে না: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#LockButtonIgnore`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → কল অডিও রাউটিং: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → কল অডিও রাউটিং → কল অডিও রাউটিং: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → কল অডিও রাউটিং → স্বয়ংক্রিয়ভাবে কলের উত্তর দিন: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING/callAudioRoutingAutoAnswer`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → কল অডিও রাউটিং → স্বয়ংক্রিয়ভাবে কলের উত্তর দিন → স্বয়ংক্রিয়ভাবে কলের উত্তর দিন: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING/callAudioRoutingAutoAnswer#callAudioRoutingAutoAnswer`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → ব্যাক ট্যাপ: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/BackTap`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → ব্যাক ট্যাপ → ব্যাক ট্যাপ: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/BackTap#BackTap`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → ব্যাক ট্যাপ → ডবল ট্যাপ করুন: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/BackTap/DoubleTap`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → ব্যাক ট্যাপ → ডবল ট্যাপ করুন → ডবল ট্যাপ করুন: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/BackTap/DoubleTap#DoubleTap`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → ব্যাক ট্যাপ → ট্রিপল ট্যাপ: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/BackTap/TripleTap`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → ব্যাক ট্যাপ → ট্রিপল ট্যাপ → ট্রিপল ট্যাপ: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/BackTap/TripleTap#TripleTap`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → পয়েন্টার কন্ট্রোল: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → পয়েন্টার কন্ট্রোল → কনট্রাস্ট বাড়ান: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#PointerIncreaseContrastSpecifier`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → পয়েন্টার কন্ট্রোল → স্বয়ংক্রিয়ভাবে পয়েন্টার লুকান: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#PointerAutoHideSpecifier`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → পয়েন্টার কন্ট্রোল → রং: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#PointerColorSpecifier`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → পয়েন্টার কন্ট্রোল → পয়েন্টারের সাইজ: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#PointerSizeSpecifier`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → পয়েন্টার কন্ট্রোল → পয়েন্টার কন্ট্রোল: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#PointerControlEnablingCell`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → পয়েন্টার কন্ট্রোল → কন্ট্রোল: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer/POINTER_CONTROL_CONTROL`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → পয়েন্টার কন্ট্রোল → রং: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer/PointerColorSpecifier`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → পয়েন্টার কন্ট্রোল → রং → বর্ডারের প্রস্থ: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer/PointerColorSpecifier#PointerStrokeWidth`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → পয়েন্টার কন্ট্রোল → ট্র্যাকপ্যাড উপেক্ষা করুন: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#IgnoreTrackpad`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → পয়েন্টার কন্ট্রোল → ট্রাকপ্যাড ইনার্সিয়া: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#PointerInertia`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → পয়েন্টার কন্ট্রোল → পয়েন্টার অ্যানিমেশন: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#PointerCustomShapes`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → পয়েন্টার কন্ট্রোল → স্ক্রল করার গতি: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#DeviceScrollSpeed`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → কন্ট্রোল সেন্টারের জন্য উপরের দিকে তাকান: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/UPWARDS_HUD`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → কন্ট্রোল সেন্টারের জন্য উপরের দিকে তাকান → কন্ট্রোল সেন্টারের উল্লম্ব অবস্থান: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/UPWARDS_HUD#UpwardsHUDPositionSpecifier`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → কন্ট্রোল সেন্টারের জন্য উপরের দিকে তাকান → কন্ট্রোল সেন্টারের জন্য উপরের দিকে তাকান: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/UPWARDS_HUD#UpwardsHUDToggleSpecifier`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → সাউন্ড অ্যাকশন: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/SOUND_ACTIONS`
+- সহায়ক পরিষেবা → ইন্টারঅ্যাকশন → ‘নন-হেড লকড কন্ট্রোল’ পছন্দ করুন: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#CAMERA_ANCHOR_ALTERNATIVE_Preference`
+- সহায়ক পরিষেবা → Face ID এবং অ্যাটেনশন: `prefs:root=ACCESSIBILITY&path=FACE_ID`
+- সহায়ক পরিষেবা → Face ID এবং অ্যাটেনশন → Face ID-এর জন্য পুরোপুরিভাবে স্ক্রিনের দিকে তাকিয়ে থাকা প্রয়োজন: `prefs:root=ACCESSIBILITY&path=FACE_ID#PearlUnlockAttention`
+- সহায়ক পরিষেবা → Face ID এবং অ্যাটেনশন → অ্যাটেনশন অ্যাওয়ারনেস ফিচার: `prefs:root=ACCESSIBILITY&path=FACE_ID#AttentionAware`
+- সহায়ক পরিষেবা → Face ID এবং অ্যাটেনশন → সফল অথেন্টিকেশনে হ্যাপটিক: `prefs:root=ACCESSIBILITY&path=FACE_ID#PearlSuccessHaptic`
+- সহায়ক পরিষেবা → স্যুইচ কন্ট্রোল: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle`
+- সহায়ক পরিষেবা → স্যুইচ কন্ট্রোল → স্যুইচ: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier`
+- সহায়ক পরিষেবা → স্যুইচ কন্ট্রোল → স্যুইচ → স্যুইচ: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier#SwitchesIdentifier`
+- সহায়ক পরিষেবা → স্যুইচ কন্ট্রোল → স্যুইচ → নতুন স্যুইচ যোগ করুন…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier/AddSwitchIdentifier`
+- সহায়ক পরিষেবা → স্যুইচ কন্ট্রোল → স্যুইচ → নতুন স্যুইচ যোগ করুন… → নতুন স্যুইচ যোগ করুন…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier/AddSwitchIdentifier#AddSwitchIdentifier`
+- সহায়ক পরিষেবা → স্যুইচ কন্ট্রোল → স্যুইচ → Bluetooth ডিভাইস…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier/BluetoothDevicesIdentifier`
+- সহায়ক পরিষেবা → স্যুইচ কন্ট্রোল → স্যুইচ → Bluetooth ডিভাইস… → Bluetooth ডিভাইস…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier/BluetoothDevicesIdentifier/BluetoothDevicesIdentifier`
+- সহায়ক পরিষেবা → স্যুইচ কন্ট্রোল → স্যুইচ → অকার্যকর স্যুইচ সেট আপ উপেক্ষা করুন: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier#UpwardsHUDToggleSpecifier`
+- সহায়ক পরিষেবা → স্যুইচ কন্ট্রোল → রেসিপি: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/RecipesIdentifier`
+- সহায়ক পরিষেবা → স্যুইচ কন্ট্রোল → রেসিপি → রেসিপি: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/RecipesIdentifier#RecipesIdentifier`
+- সহায়ক পরিষেবা → স্যুইচ কন্ট্রোল → রেসিপি → নতুন রেসিপি তৈরি করুন…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/RecipesIdentifier/CreateNewRecipe`
+- সহায়ক পরিষেবা → স্যুইচ কন্ট্রোল → রেসিপি → নতুন রেসিপি তৈরি করুন… → নতুন রেসিপি তৈরি করুন…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/RecipesIdentifier/CreateNewRecipe#CreateNewRecipe`
+- সহায়ক পরিষেবা → স্যুইচ কন্ট্রোল → রেসিপি → রেসিপি লঞ্চ করুন: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/RecipesIdentifier/LaunchRecipe`
+- সহায়ক পরিষেবা → স্যুইচ কন্ট্রোল → রেসিপি → রেসিপি লঞ্চ করুন → রেসিপি লঞ্চ করুন: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/RecipesIdentifier/LaunchRecipe#LaunchRecipe`
+- সহায়ক পরিষেবা → স্যুইচ কন্ট্রোল → স্ক্যানিং স্টাইল: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier`
+- সহায়ক পরিষেবা → স্যুইচ কন্ট্রোল → স্ক্যানিং স্টাইল → স্ক্যানিং স্টাইল: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#ScanningStyleIdentifier`
+- সহায়ক পরিষেবা → স্যুইচ কন্ট্রোল → স্যুইচ কন্ট্রোল মোড: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/FirstLaunchScanningModeIdentifier`
+- সহায়ক পরিষেবা → স্যুইচ কন্ট্রোল → স্যুইচ কন্ট্রোল মোড → স্যুইচ কন্ট্রোল মোড: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/FirstLaunchScanningModeIdentifier#FirstLaunchScanningModeIdentifier`
+- সহায়ক পরিষেবা → স্যুইচ কন্ট্রোল → অটো স্ক্যানিংয়ের সময়: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningSpeedIdentifier`
+- সহায়ক পরিষেবা → স্যুইচ কন্ট্রোল → অটো স্ক্যানিংয়ের সময় → অটো স্ক্যানিংয়ের সময়: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningSpeedIdentifier#NumericalPreferencePickerGroupIdentifier`
+- সহায়ক পরিষেবা → স্যুইচ কন্ট্রোল → প্রথম আইটেমে পজ করুন: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/DelayAfterInputIdentifier`
+- সহায়ক পরিষেবা → স্যুইচ কন্ট্রোল → প্রথম আইটেমে পজ করুন → প্রথম আইটেমে পজ করুন: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/DelayAfterInputIdentifier#NumericalPreferenceSwitcherIdentifier`
+- সহায়ক পরিষেবা → স্যুইচ কন্ট্রোল → লুপ: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanCyclesIdentifier`
+- সহায়ক পরিষেবা → স্যুইচ কন্ট্রোল → লুপ → লুপ: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanCyclesIdentifier#ScanCyclesIdentifier`
+- সহায়ক পরিষেবা → স্যুইচ কন্ট্রোল → পুনরাবৃত্তি করুন: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ActionRepeatIdentifier`
+- সহায়ক পরিষেবা → স্যুইচ কন্ট্রোল → পুনরাবৃত্তি করুন → পুনরাবৃত্তি করুন: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ActionRepeatIdentifier#NumericalPreferenceSwitcherIdentifier`
+- সহায়ক পরিষেবা → স্যুইচ কন্ট্রোল → স্যুইচ কন্ট্রোল মোড: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSelectionGroupIdentifier`
+- সহায়ক পরিষেবা → স্যুইচ কন্ট্রোল → স্যুইচ কন্ট্রোল মোড → গ্লাইডিং কার্সর: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSelectionGroupIdentifier#POINTER_PICKER_ENABLED`
+- সহায়ক পরিষেবা → স্যুইচ কন্ট্রোল → দীর্ঘক্ষণ চাপুন: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/LongPressIdentifier`
+- সহায়ক পরিষেবা → স্যুইচ কন্ট্রোল → দীর্ঘক্ষণ চাপুন → দীর্ঘক্ষণ চাপুন: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/LongPressIdentifier#NumericalPreferenceSwitcherIdentifier`
+- সহায়ক পরিষেবা → স্যুইচ কন্ট্রোল → ট্যাপ ব্যবহার: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier`
+- সহায়ক পরিষেবা → স্যুইচ কন্ট্রোল → ট্যাপ ব্যবহার → ট্যাপ ব্যবহার: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#TapBehaviorIdentifier`
+- সহায়ক পরিষেবা → স্যুইচ কন্ট্রোল → ট্যাপ করার পর ফোকাস করা আইটেম: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanLocationIdentifier`
+- সহায়ক পরিষেবা → স্যুইচ কন্ট্রোল → ট্যাপ করার পর ফোকাস করা আইটেম → ট্যাপ করার পর ফোকাস করা আইটেম: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanLocationIdentifier#ScanLocationIdentifier`
+- সহায়ক পরিষেবা → স্যুইচ কন্ট্রোল → ট্যাপের পর সেই “কী” স্ক্যান করুন: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#RestartScanAtCurrentIdentifier`
+- সহায়ক পরিষেবা → স্যুইচ কন্ট্রোল → সর্বদা কীবোর্ড কী ট্যাপ করুন: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AlwaysTapKeyboardIdentifier`
+- সহায়ক পরিষেবা → স্যুইচ কন্ট্রোল → বর্ধিত পূর্বাভাষ: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#UseExtendedKeyboardPredictionsIdentifier`
+- সহায়ক পরিষেবা → স্যুইচ কন্ট্রোল → ধরে থাকার সময়কাল: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/HoldDurationIdentifier`
+- সহায়ক পরিষেবা → স্যুইচ কন্ট্রোল → ধরে থাকার সময়কাল → ধরে থাকার সময়কাল: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/HoldDurationIdentifier#NumericalPreferenceSwitcherIdentifier`
+- সহায়ক পরিষেবা → স্যুইচ কন্ট্রোল → পুনরাবৃত্তি উপেক্ষা করুন: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/IgnoreRepeatIdentifier`
+- সহায়ক পরিষেবা → স্যুইচ কন্ট্রোল → পুনরাবৃত্তি উপেক্ষা করুন → পুনরাবৃত্তি উপেক্ষা করুন: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/IgnoreRepeatIdentifier#NumericalPreferenceSwitcherIdentifier`
+- সহায়ক পরিষেবা → স্যুইচ কন্ট্রোল → গ্লাইডিং কার্সর: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier`
+- সহায়ক পরিষেবা → স্যুইচ কন্ট্রোল → গ্লাইডিং কার্সর → গ্লাইডিং কার্সর: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#AxisSweepIdentifier`
+- সহায়ক পরিষেবা → স্যুইচ কন্ট্রোল → গ্লাইডিং কার্সর → নির্বাচন মোড: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleGroup`
+- সহায়ক পরিষেবা → স্যুইচ কন্ট্রোল → গ্লাইডিং কার্সর → গ্লাইডিং কার্সরের গতি: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#AxisSweepSpeed`
+- সহায়ক পরিষেবা → স্যুইচ কন্ট্রোল → হেড-ট্র্যাকিং: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CameraPointPickerSwitch`
+- সহায়ক পরিষেবা → স্যুইচ কন্ট্রোল → হেড-ট্র্যাকিং → হেড-ট্র্যাকিং: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CameraPointPickerSwitch#CameraPointPickerSwitcher`
+- সহায়ক পরিষেবা → স্যুইচ কন্ট্রোল → সাউন্ড এফেক্ট: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SoundIdentifier`
+- সহায়ক পরিষেবা → স্যুইচ কন্ট্রোল → স্পিচ: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier`
+- সহায়ক পরিষেবা → স্যুইচ কন্ট্রোল → স্পিচ → কন্ঠস্বর: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#VoicesIdentifier`
+- সহায়ক পরিষেবা → স্যুইচ কন্ট্রোল → স্পিচ → আইটেমের অ্যাট্রিবিউট পড়ে শোনান: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#SPEECH_SPEAKS_TRAITS_LABEL`
+- সহায়ক পরিষেবা → স্যুইচ কন্ট্রোল → স্পিচ → কথা বলার সময় পজ করুন: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#SPEECH_PAUSES_SCANNING_LABEL`
+- সহায়ক পরিষেবা → স্যুইচ কন্ট্রোল → মেনু আইটেম: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier`
+- সহায়ক পরিষেবা → স্যুইচ কন্ট্রোল → মেনু আইটেম → মেনু আইটেম: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier#CustomizeMenuIdentifier`
+- সহায়ক পরিষেবা → স্যুইচ কন্ট্রোল → মেনু আইটেম → সবথেকে উপরের স্তর: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/TopLevel`
+- সহায়ক পরিষেবা → স্যুইচ কন্ট্রোল → মেনু আইটেম → সবথেকে উপরের স্তর → সবথেকে উপরের স্তর: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/TopLevel#TopLevel`
+- সহায়ক পরিষেবা → স্যুইচ কন্ট্রোল → মেনু আইটেম → জেসচার: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Gestures`
+- সহায়ক পরিষেবা → স্যুইচ কন্ট্রোল → মেনু আইটেম → জেসচার → জেসচার: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Gestures#Gestures`
+- সহায়ক পরিষেবা → স্যুইচ কন্ট্রোল → মেনু আইটেম → ডিভাইস: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Device`
+- সহায়ক পরিষেবা → স্যুইচ কন্ট্রোল → মেনু আইটেম → ডিভাইস → ডিভাইস: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Device#Device`
+- সহায়ক পরিষেবা → স্যুইচ কন্ট্রোল → মেনু আইটেম → সেটিংস: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Settings`
+- সহায়ক পরিষেবা → স্যুইচ কন্ট্রোল → মেনু আইটেম → সেটিংস → সেটিংস: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Settings#Settings`
+- সহায়ক পরিষেবা → স্যুইচ কন্ট্রোল → মেনু আইটেম → মিডিয়া কন্ট্রোল: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/MediaControls`
+- সহায়ক পরিষেবা → স্যুইচ কন্ট্রোল → মেনু আইটেম → মিডিয়া কন্ট্রোল → মিডিয়া কন্ট্রোল: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/MediaControls#MediaControls`
+- সহায়ক পরিষেবা → স্যুইচ কন্ট্রোল → গ্রুপ আইটেম: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ItemGroupingIdentifier`
+- সহায়ক পরিষেবা → স্যুইচ কন্ট্রোল → বড় কার্সর: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CursorVisibilityIdentifier`
+- সহায়ক পরিষেবা → স্যুইচ কন্ট্রোল → সেভ করা জেসচার: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomGesturesIdentifier`
+- সহায়ক পরিষেবা → স্যুইচ কন্ট্রোল → সেভ করা জেসচার → সেভ করা জেসচার: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomGesturesIdentifier#CustomGesturesIdentifier`
+- সহায়ক পরিষেবা → স্যুইচ কন্ট্রোল → সেভ করা জেসচার → নতুন জেসচার তৈরি করুন…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomGesturesIdentifier/CreateCustomGesture`
+- সহায়ক পরিষেবা → স্যুইচ কন্ট্রোল → সেভ করা জেসচার → নতুন জেসচার তৈরি করুন… → নতুন জেসচার তৈরি করুন…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomGesturesIdentifier/CreateCustomGesture#CreateCustomGesture`
+- সহায়ক পরিষেবা → স্যুইচ কন্ট্রোল → সুইচ কন্ট্রোল দিয়ে নিশ্চিত করুন: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#APPLE_PAY_SWITCH`
+- সহায়ক পরিষেবা → স্যুইচ কন্ট্রোল → কার্সরের রং: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CursorColorIdentifier`
+- সহায়ক পরিষেবা → স্যুইচ কন্ট্রোল → কার্সরের রং → কার্সরের রং: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CursorColorIdentifier#CursorColorIdentifier`
+- সহায়ক পরিষেবা → ভয়েস কন্ট্রোল: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle`
+- সহায়ক পরিষেবা → ভয়েস কন্ট্রোল → ভয়েস কন্ট্রোল সেট আপ করুন: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#SETUP_COMMAND_AND_CONTROL`
+- সহায়ক পরিষেবা → ভয়েস কন্ট্রোল → ভয়েস কন্ট্রোল টিউটোরিয়াল খুলুন: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#COMMAND_AND_CONTROL_LAUNCH_ONBOARDING`
+- সহায়ক পরিষেবা → ভয়েস কন্ট্রোল → ভাষা: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_LANGUAGE`
+- সহায়ক পরিষেবা → ভয়েস কন্ট্রোল → ভাষা → ভাষা: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_LANGUAGE#COMMAND_AND_CONTROL_LANGUAGE`
+- সহায়ক পরিষেবা → ভয়েস কন্ট্রোল → কমান্ড: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS`
+- সহায়ক পরিষেবা → ভয়েস কন্ট্রোল → কমান্ড → কমান্ড: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS#COMMAND_AND_CONTROL_COMMANDS`
+- সহায়ক পরিষেবা → ভয়েস কন্ট্রোল → কমান্ড → নতুন কমান্ড তৈরি করুন: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/CreateNewCommand`
+- সহায়ক পরিষেবা → ভয়েস কন্ট্রোল → কমান্ড → নতুন কমান্ড তৈরি করুন → নতুন কমান্ড তৈরি করুন: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/CreateNewCommand#CreateNewCommand`
+- সহায়ক পরিষেবা → ভয়েস কন্ট্রোল → কমান্ড → প্রাথমিক নেভিগেশন: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/System`
+- সহায়ক পরিষেবা → ভয়েস কন্ট্রোল → কমান্ড → ওভারলে: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/Overlays`
+- সহায়ক পরিষেবা → ভয়েস কন্ট্রোল → কমান্ড → প্রাথমিক জেসচার: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/Gestures`
+- সহায়ক পরিষেবা → ভয়েস কন্ট্রোল → কমান্ড → অ্যাডভান্সড জেসচার: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/DragDropGestures`
+- সহায়ক পরিষেবা → ভয়েস কন্ট্রোল → কমান্ড → ডিক্টেশন: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/TextDictation`
+- সহায়ক পরিষেবা → ভয়েস কন্ট্রোল → কমান্ড → টেক্সট নেভিগেশন: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/Movement`
+- সহায়ক পরিষেবা → ভয়েস কন্ট্রোল → কমান্ড → টেক্সট নির্বাচন: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/Selection`
+- সহায়ক পরিষেবা → ভয়েস কন্ট্রোল → কমান্ড → টেক্সট এডিটিং: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/Editing`
+- সহায়ক পরিষেবা → ভয়েস কন্ট্রোল → কমান্ড → টেক্সট ডিলিট করা: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/AdvancedDeletion`
+- সহায়ক পরিষেবা → ভয়েস কন্ট্রোল → কমান্ড → ডিভাইস: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/Hardware`
+- সহায়ক পরিষেবা → ভয়েস কন্ট্রোল → কমান্ড → সহায়ক পরিষেবা: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/Accessibility`
+- সহায়ক পরিষেবা → ভয়েস কন্ট্রোল → কমান্ড → গুরুত্বপূর্ণ কাস্টম কমান্ড: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/ImportCustomCommands`
+- সহায়ক পরিষেবা → ভয়েস কন্ট্রোল → কমান্ড → গুরুত্বপূর্ণ কাস্টম কমান্ড → গুরুত্বপূর্ণ কাস্টম কমান্ড: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/ImportCustomCommands#ImportCustomCommands`
+- সহায়ক পরিষেবা → ভয়েস কন্ট্রোল → শব্দভাণ্ডার: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_VOCABULARY`
+- সহায়ক পরিষেবা → ভয়েস কন্ট্রোল → শব্দভাণ্ডার → শব্দভাণ্ডার: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_VOCABULARY/VOCABULARY`
+- সহায়ক পরিষেবা → ভয়েস কন্ট্রোল → শব্দভাণ্ডার → শব্দভাণ্ডার → শব্দভাণ্ডার: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_VOCABULARY/VOCABULARY#VOCABULARY`
+- সহায়ক পরিষেবা → ভয়েস কন্ট্রোল → শব্দভাণ্ডার → শব্দভাণ্ডার ইম্পোর্ট করুন: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_VOCABULARY#IMPORT_VOCABULARY`
+- সহায়ক পরিষেবা → ভয়েস কন্ট্রোল → শব্দভাণ্ডার → শব্দভাণ্ডার এক্সপোর্ট করুন: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_VOCABULARY#EXPORT_VOCABULARY`
+- সহায়ক পরিষেবা → ভয়েস কন্ট্রোল → শব্দভাণ্ডার → সমস্ত শব্দভাণ্ডার ডিলিট করুন: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_VOCABULARY#DELETE_ALL_VOCABULARY`
+- সহায়ক পরিষেবা → ভয়েস কন্ট্রোল → নিশ্চিতকরণ দেখান: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#SHOW_TEXT_RESPONSE_TITLE`
+- সহায়ক পরিষেবা → ভয়েস কন্ট্রোল → শব্দ বাজান: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#PLAY_SOUND_RESPONSE_TITLE`
+- সহায়ক পরিষেবা → ভয়েস কন্ট্রোল → ইঙ্গিত দেখান: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#USER_HINTS_SHOW_HINTS_TITLE`
+- সহায়ক পরিষেবা → ভয়েস কন্ট্রোল → ওভারলে: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY`
+- সহায়ক পরিষেবা → ভয়েস কন্ট্রোল → ওভারলে → ওভারলে: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#ALWAYS_SHOW_OVERLAY`
+- সহায়ক পরিষেবা → ভয়েস কন্ট্রোল → অ্যাটেনশন অ্যাওয়ার: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ATTENTION_AWARE_ACTION`
+- সহায়ক পরিষেবা → টপ বাটন/Touch ID: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE`
+- সহায়ক পরিষেবা → টপ বাটন/Touch ID → ক্লিক করার গতি: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_SPEED_HEADER`
+- সহায়ক পরিষেবা → টপ বাটন/Touch ID → পড়ে শোনাতে চেপে ধরে থাকুন: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantTitle`
+- সহায়ক পরিষেবা → টপ বাটন/Touch ID → হোম বাটন: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE/HomeButtonAssistantTitle`
+- সহায়ক পরিষেবা → টপ বাটন/Touch ID → হোম বাটন → খুলতে আঙ্গুলটি রাখুন: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE/HomeButtonAssistantTitle#RestingUnlockSetting`
+- সহায়ক পরিষেবা → টপ বাটন/Touch ID → স্যুইচ কন্ট্রোল দিয়ে নিশ্চিতকরণ সক্রিয় করুন: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#APPLE_PAY_CONFIRM_WITH_SC`
+- সহায়ক পরিষেবা → টপ বাটন/Touch ID → AssistiveTouch-এর মাধ্যমে “নিশ্চিত করুন” সক্রিয় করুন: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#APPLE_PAY_CONFIRM_WITH_AST`
+- সহায়ক পরিষেবা → Apple TV রিমোট: `prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE`
+- সহায়ক পরিষেবা → Apple TV রিমোট → নির্দেশকমূলক বাটন: `prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE#AppleTVSimpleGestures`
+- সহায়ক পরিষেবা → Apple TV রিমোট → Live TV বাটন: `prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE#AppleTVLiveTVButtons`
+- সহায়ক পরিষেবা → Apple Watch মিরর করা হচ্ছে: `prefs:root=ACCESSIBILITY&path=APPLE_WATCH_REMOTE_SCREEN`
+- সহায়ক পরিষেবা → শ্রবণযন্ত্র: `prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE`
+- সহায়ক পরিষেবা → শ্রবণযন্ত্র → MFi শ্রবণযন্ত্র: `prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#AvailableAidsHeading`
+- সহায়ক পরিষেবা → শ্রবণযন্ত্র → শ্রবণযন্ত্রের যোগ্য: `prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#HEARING_AID_COMPLIANCE`
+- সহায়ক পরিষেবা → শ্রবণ সংক্রান্ত কন্ট্রোল সেন্টার: `prefs:root=ACCESSIBILITY&path=HEARING_CONTROL_CENTER`
+- সহায়ক পরিষেবা → শ্রবণ সংক্রান্ত কন্ট্রোল সেন্টার → যোগ করা কন্ট্রোল: `prefs:root=ACCESSIBILITY&path=HEARING_CONTROL_CENTER#INCLUDED_MODULES_SECTION_TITLE`
+- সহায়ক পরিষেবা → শ্রবণ সংক্রান্ত কন্ট্রোল সেন্টার → আরও কন্ট্রোল: `prefs:root=ACCESSIBILITY&path=HEARING_CONTROL_CENTER#MORE_MODULES_SECTION_TITLE`
+- সহায়ক পরিষেবা → শব্দ শনাক্তকরণ: `prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE`
+- সহায়ক পরিষেবা → শব্দ শনাক্তকরণ → শব্দ: `prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE/Sounds`
+- সহায়ক পরিষেবা → শব্দ শনাক্তকরণ → শব্দ → শব্দ: `prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE/Sounds#Sounds`
+- সহায়ক পরিষেবা → RTT/TTY: `prefs:root=ACCESSIBILITY&path=RTT`
+- সহায়ক পরিষেবা → RTT/TTY → সফ্টওয়্যার RTT/TTY: `prefs:root=ACCESSIBILITY&path=RTT#SW_TTY`
+- সহায়ক পরিষেবা → RTT/TTY → হার্ডওয়্যার TTY: `prefs:root=ACCESSIBILITY&path=RTT#HW_TTY`
+- সহায়ক পরিষেবা → অডিও এবং ভিজ্যুয়াল: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE`
+- সহায়ক পরিষেবা → অডিও এবং ভিজ্যুয়াল → হেডফোন অডিও অ্যাডজাস্টমেন্ট: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID`
+- সহায়ক পরিষেবা → অডিও এবং ভিজ্যুয়াল → হেডফোন অডিও অ্যাডজাস্টমেন্ট → হেডফোন অডিও অ্যাডজাস্টমেন্ট: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID#AXPAEnableSpecID`
+- সহায়ক পরিষেবা → অডিও এবং ভিজ্যুয়াল → হেডফোন অডিও অ্যাডজাস্টমেন্ট → কাস্টম অডিও সেট আপ: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID#AXPAPersonalAudioSetupSpecID`
+- সহায়ক পরিষেবা → অডিও এবং ভিজ্যুয়াল → ব্যাকগ্রাউন্ড শব্দ: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID`
+- সহায়ক পরিষেবা → অডিও এবং ভিজ্যুয়াল → ব্যাকগ্রাউন্ড শব্দ → ব্যাকগ্রাউন্ড শব্দ: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID#CSFeatureToggleSpecID`
+- সহায়ক পরিষেবা → অডিও এবং ভিজ্যুয়াল → ব্যাকগ্রাউন্ড শব্দ → শব্দ: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID/ComfortSoundSoundLabel`
+- সহায়ক পরিষেবা → অডিও এবং ভিজ্যুয়াল → ব্যাকগ্রাউন্ড শব্দ → শব্দ → শব্দ: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID/ComfortSoundSoundLabel#ComfortSoundSoundLabel`
+- সহায়ক পরিষেবা → অডিও এবং ভিজ্যুয়াল → ব্যাকগ্রাউন্ড শব্দ → ব্যাকগ্রাউন্ড শব্দের ভলিউম: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID#ComfortSoundsVolume`
+- সহায়ক পরিষেবা → অডিও এবং ভিজ্যুয়াল → ব্যাকগ্রাউন্ড শব্দ → মিডিয়া চালানো অবস্থায় ব্যবহার করুন: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID#ComfortSoundsMixingName`
+- সহায়ক পরিষেবা → অডিও এবং ভিজ্যুয়াল → ব্যাকগ্রাউন্ড শব্দ → মিডিয়াসহ ভলিউম: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID#ComfortSoundsMixingVolume`
+- সহায়ক পরিষেবা → অডিও এবং ভিজ্যুয়াল → ব্যাকগ্রাউন্ড শব্দ → লক থাকা অবস্থায় শব্দ বন্ধ করুন: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID#ComfortSoundsPlayWhenLockedName`
+- সহায়ক পরিষেবা → অডিও এবং ভিজ্যুয়াল → মনো অডিও: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAMonoSpecID`
+- সহায়ক পরিষেবা → অডিও এবং ভিজ্যুয়াল → সবসময় ভলিউম কন্ট্রোল দেখুন: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAAlwaysShowVolumeControlSpecID`
+- সহায়ক পরিষেবা → অডিও এবং ভিজ্যুয়াল → ফোন নয়েজ ক্যানসেলেশন: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPANoiseSpecID`
+- সহায়ক পরিষেবা → অডিও এবং ভিজ্যুয়াল → অ্যালার্টের জন্য LED ফ্ল্যাশ: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH`
+- সহায়ক পরিষেবা → অডিও এবং ভিজ্যুয়াল → অ্যালার্টের জন্য LED ফ্ল্যাশ → অ্যালার্টের জন্য LED ফ্ল্যাশ: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_FLASH`
+- সহায়ক পরিষেবা → অডিও এবং ভিজ্যুয়াল → অ্যালার্টের জন্য LED ফ্ল্যাশ → আনলক থাকা অবস্থায় ফ্ল্যাশ করুন: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_FLASH_WHILE_UNLOCKED`
+- সহায়ক পরিষেবা → অডিও এবং ভিজ্যুয়াল → অ্যালার্টের জন্য LED ফ্ল্যাশ → সাইলেন্ট মোডে ফ্ল্যাশ করুন: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_RINGER_SWITCH_CONTROL`
+- সহায়ক পরিষেবা → অডিও এবং ভিজ্যুয়াল → বাম-ডান স্টিরিও ব্যালেন্স: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#LeftRightBalance`
+- সহায়ক পরিষেবা → অডিও এবং ভিজ্যুয়াল → চালু এবং বন্ধের শব্দ: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#StartupSound`
+- সহায়ক পরিষেবা → অডিও এবং ভিজ্যুয়াল → হেডফোন নোটিফিকেশন: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXHeadphoneNotificationsSpecID`
+- সহায়ক পরিষেবা → অডিও এবং ভিজ্যুয়াল → কন্ঠস্বর পৃথকীকরণ যোগ করুন: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#ExtendedVoiceIsolationSpecID`
+- সহায়ক পরিষেবা → অডিও এবং ভিজ্যুয়াল → সাউন্ড এফেক্ট: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#SOUND_EFFECTS_PREFERENCE`
+- সহায়ক পরিষেবা → অডিও এবং ভিজ্যুয়াল → কলে অডিও যোগ করুন: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/MIX_TO_UPLINK`
+- সহায়ক পরিষেবা → অডিও এবং ভিজ্যুয়াল → কলে অডিও যোগ করুন → অ্যাপগুলিকে কলে অডিও যোগ করার অনুমতি দিন: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/MIX_TO_UPLINK#MIX_TO_UPLINK`
+- সহায়ক পরিষেবা → সাবটাইটেল এবং ক্যাপশনিং: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING`
+- সহায়ক পরিষেবা → সাবটাইটেল এবং ক্যাপশনিং → স্টাইল: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING/currentTheme`
+- সহায়ক পরিষেবা → সাবটাইটেল এবং ক্যাপশনিং → স্টাইল → স্টাইল: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING/currentTheme#currentTheme`
+- সহায়ক পরিষেবা → সাবটাইটেল এবং ক্যাপশনিং → ক্লোজড ক্যাপশন + SDH: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#PREFER_SDH`
+- সহায়ক পরিষেবা → সাবটাইটেল এবং ক্যাপশনিং → অডিও ট্রান্সক্রিপশন দেখান: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#SHOW_AUDIO_TRANSCRIPTIONS`
+- সহায়ক পরিষেবা → সাবটাইটেল এবং ক্যাপশনিং → মিউট করার সময় দেখান: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#SHOW_WHEN_MUTED`
+- সহায়ক পরিষেবা → সাবটাইটেল এবং ক্যাপশনিং → স্কিপ করে পিছিয়ে দেখুন: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#SHOW_ON_SKIP_BACK`
+- সহায়ক পরিষেবা → লাইভ ক্যাপশন: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION`
+- সহায়ক পরিষেবা → লাইভ ক্যাপশন → লাইভ ক্যাপশন: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION#LIVE_TRANSCRIPTION_TITLE`
+- সহায়ক পরিষেবা → লাইভ ক্যাপশন → রূপ: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE`
+- সহায়ক পরিষেবা → লাইভ ক্যাপশন → রূপ → রূপ: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE#LIVE_TRANSCRIPTION_APPEARANCE`
+- সহায়ক পরিষেবা → লাইভ ক্যাপশন → রূপ → বোল্ড টেক্সট: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE/ENHANCE_TEXT_LEGIBILITY`
+- সহায়ক পরিষেবা → লাইভ ক্যাপশন → রূপ → বোল্ড টেক্সট → বোল্ড টেক্সট: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE/ENHANCE_TEXT_LEGIBILITY#ENHANCE_TEXT_LEGIBILITY`
+- সহায়ক পরিষেবা → লাইভ ক্যাপশন → রূপ → টেক্সট সাইজ: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE/LARGER_TEXT`
+- সহায়ক পরিষেবা → লাইভ ক্যাপশন → রূপ → টেক্সট সাইজ → টেক্সট সাইজ: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE/LARGER_TEXT#LARGER_TEXT`
+- সহায়ক পরিষেবা → লাইভ ক্যাপশন → রূপ → রঙের অপশন: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE#LIVE_TRANSCRIPTION_COLOR_OPTIONS`
+- সহায়ক পরিষেবা → লাইভ ক্যাপশন → রূপ → টেক্সটের রং: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE#LIVE_TRANSCRIPTION_TEXT_COLOR`
+- সহায়ক পরিষেবা → লাইভ ক্যাপশন → রূপ → ব্যাকগ্রাউন্ডের রং: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE#LIVE_TRANSCRIPTION_BACKGROUND_COLOR`
+- সহায়ক পরিষেবা → লাইভ ক্যাপশন → রূপ → রং রিসেট করুন: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE#LIVE_TRANSCRIPTION_RESET_COLORS`
+- সহায়ক পরিষেবা → লাইভ ক্যাপশন → রূপ → নিষ্ক্রিয় অবস্থায় অস্পষ্টতা: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE#LIVE_CAPTIONS_IDLE_OPACITY_TITLE`
+- সহায়ক পরিষেবা → লাইভ ক্যাপশন → FaceTime-এ লাইভ ক্যাপশন: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION#FACE_TIME_CAPTIONS`
+- সহায়ক পরিষেবা → গাইডেড অ্যাক্সেস: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE`
+- সহায়ক পরিষেবা → গাইডেড অ্যাক্সেস → পাসকোড সেটিংস: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessSecurityLinkList`
+- সহায়ক পরিষেবা → গাইডেড অ্যাক্সেস → পাসকোড সেটিংস → পাসকোড সেটিংস: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessSecurityLinkList#GuidedAccessSecurityLinkList`
+- সহায়ক পরিষেবা → গাইডেড অ্যাক্সেস → পাসকোড সেটিংস → গাইডেড অ্যাক্সেসের পাসকোড সেট করুন: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessSecurityLinkList#GAXPinButton`
+- সহায়ক পরিষেবা → গাইডেড অ্যাক্সেস → পাসকোড সেটিংস → Touch ID: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessSecurityLinkList#GAXSpecIDTouchIDSwitch`
+- সহায়ক পরিষেবা → গাইডেড অ্যাক্সেস → সময় সীমা: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList`
+- সহায়ক পরিষেবা → গাইডেড অ্যাক্সেস → সময় সীমা → সময় সীমা: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GuidedAccessTimeRestrictionsLinkList`
+- সহায়ক পরিষেবা → গাইডেড অ্যাক্সেস → সময় সীমা → শব্দ: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList/GUIDED_ACCESS_TIME_RESTRICTIONS_SOUND_TITLE`
+- সহায়ক পরিষেবা → গাইডেড অ্যাক্সেস → সময় সীমা → শব্দ → শব্দ: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList/GUIDED_ACCESS_TIME_RESTRICTIONS_SOUND_TITLE#GUIDED_ACCESS_TIME_RESTRICTIONS_SOUND_TITLE`
+- সহায়ক পরিষেবা → গাইডেড অ্যাক্সেস → সময় সীমা → পড়ে শোনান: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_SPEAK_TITLE`
+- সহায়ক পরিষেবা → গাইডেড অ্যাক্সেস → সহায়ক পরিষেবার শর্টকাট: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessEnableAXFeatures`
+- সহায়ক পরিষেবা → গাইডেড অ্যাক্সেস → অটো-লক দেখুন: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessAutoLockTime`
+- সহায়ক পরিষেবা → গাইডেড অ্যাক্সেস → অটো-লক দেখুন → অটো-লক দেখুন: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessAutoLockTime#GuidedAccessAutoLockTime`
+- সহায়ক পরিষেবা → সহায়ক অ্যাক্সেস: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE`
+- সহায়ক পরিষেবা → সহায়ক অ্যাক্সেস → সহায়ক অ্যাক্সেস সেট আপ করুন: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#SetUpClarityUISpecifier`
+- সহায়ক পরিষেবা → সহায়ক অ্যাক্সেস → সহায়ক অ্যাক্সেস শুরু করুন: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#ClarityUIStart`
+- সহায়ক পরিষেবা → সহায়ক অ্যাক্সেস → অ্যাপ্লিকেশন: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#Applications`
+- সহায়ক পরিষেবা → সহায়ক অ্যাক্সেস → অপশন: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#Options`
+- সহায়ক পরিষেবা → সহায়ক অ্যাক্সেস → ওয়ালপেপার: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE/Wallpaper`
+- সহায়ক পরিষেবা → সহায়ক অ্যাক্সেস → ওয়ালপেপার → ওয়ালপেপার: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE/Wallpaper#Wallpaper`
+- সহায়ক পরিষেবা → সহায়ক অ্যাক্সেস → ভলিউম বাটনের অনুমতি দিন: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#VolumeButtons`
+- সহায়ক পরিষেবা → সহায়ক অ্যাক্সেস → লক স্ক্রিনে সময় দেখান: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#ShowTime`
+- সহায়ক পরিষেবা → সহায়ক অ্যাক্সেস → হোম স্ক্রিনে ব্যাটারি লেভেল দেখান: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#ShowBattery`
+- সহায়ক পরিষেবা → সহায়ক অ্যাক্সেস → নোটিফিকেশন ব্যাজ দেখান: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#ShowNotification`
+- সহায়ক পরিষেবা → সহায়ক অ্যাক্সেস → Siri-কে অনুমতি দিন: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#AllowSiri`
+- সহায়ক পরিষেবা → সহায়ক অ্যাক্সেস → পাসকোড সেটিংস: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE/PasscodeSettings`
+- সহায়ক পরিষেবা → সহায়ক অ্যাক্সেস → পাসকোড সেটিংস → পাসকোড সেটিংস: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE/PasscodeSettings#PasscodeSettings`
+- সহায়ক পরিষেবা → Siri: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE`
+- সহায়ক পরিষেবা → Siri → Siri-এর জন্য লিখুন: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_SETTINGS_TYPE_TO_SIRI`
+- সহায়ক পরিষেবা → Siri → Siri পজ থাকার সময়: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#ENDPOINTER`
+- সহায়ক পরিষেবা → Siri → Siri-এর কথা বলার গতি: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SPEECH_RATE`
+- সহায়ক পরিষেবা → Siri → মৌখিক প্রতিক্রিয়া: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK`
+- সহায়ক পরিষেবা → Siri → “Siri”-এর জন্য সর্বদা শুনুন: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_SETTINGS_VOICE_ACTIVATION_ALWAYS_ALLOW`
+- সহায়ক পরিষেবা → Siri → Siri-এর পেছনে অ্যাপগুলি দেখান: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRL_SHOW_APPS`
+- সহায়ক পরিষেবা → Siri → স্পিকারে নোটিফিকেশনের ঘোষণা শুনুন: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#ANNOUNCE_NOTIFICATIONS_BUILT_IN_SPEAKER_ID`
+- সহায়ক পরিষেবা → Siri → কল কেটে দিন: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE/SIRI_CALL_HANGUP_ID`
+- সহায়ক পরিষেবা → Siri → কল কেটে দিন → কল কেটে দিন: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE/SIRI_CALL_HANGUP_ID#SIRI_CALL_HANGUP_ID`
+- সহায়ক পরিষেবা → Siri → অ্যাটিপিকাল স্পিচের জন্য শুনুন: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_ATYPICAL_SPEECH`
+- সহায়ক পরিষেবা → Siri → বাধাদানের জন্য “Siri”-এর প্রয়োজন: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_BARGE`
+- সহায়ক পরিষেবা → সহায়ক পরিষেবার শর্টকাট: `prefs:root=ACCESSIBILITY&path=TRIPLE_CLICK_TITLE`
+- সহায়ক পরিষেবা → প্রতিটি অ্যাপের সেটিংস: `prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE`
+- সহায়ক পরিষেবা → প্রতিটি অ্যাপের সেটিংস → লুকানো অ্যাপ দেখুন: `prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE#PROTECTED_APPS_SHOW_HIDDEN_TITLE`
+- সহায়ক পরিষেবা → প্রতিটি অ্যাপের সেটিংস → অ্যাপ যোগ করুন: `prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE#AX_ADD_BUTTON_IDENTIFIER`
+- সহায়ক পরিষেবা → নিকটবর্তী ডিভাইসগুলি নিয়ন্ত্রণ করুন: `prefs:root=ACCESSIBILITY&path=CONTROL_NEARBY_DEVICES`
+- সহায়ক পরিষেবা → নিকটবর্তী ডিভাইসগুলি নিয়ন্ত্রণ করুন → নিকটবর্তী ডিভাইসগুলি নিয়ন্ত্রণ করুন: `prefs:root=ACCESSIBILITY&path=CONTROL_NEARBY_DEVICES#CONTROL_NEARBY_DEVICES`
+- সহায়ক পরিষেবা → চোখের ইনপুট: `prefs:root=ACCESSIBILITY&path=DOMINANT_EYE`
+- সহায়ক পরিষেবা → লাইভ স্পিচ: `prefs:root=ACCESSIBILITY&path=LIVE_SPEECH_TITLE`
+- সহায়ক পরিষেবা → লাইভ স্পিচ → বাক্যাংশ: `prefs:root=ACCESSIBILITY&path=LIVE_SPEECH_TITLE/LiveSpeechCategoryManagement`
+- সহায়ক পরিষেবা → লাইভ স্পিচ → কন্ঠস্বর: `prefs:root=ACCESSIBILITY&path=LIVE_SPEECH_TITLE#LIVE_SPEECH_VOICES`
+- সহায়ক পরিষেবা → নিজের কণ্ঠস্বর: `prefs:root=ACCESSIBILITY&path=PERSONAL_VOICE_TITLE`
+- সহায়ক পরিষেবা → নিজের কণ্ঠস্বর → নিজের কণ্ঠস্বর তৈরি করুন: `prefs:root=ACCESSIBILITY&path=PERSONAL_VOICE_TITLE#VB_CREATE_PERSONAL_VOICE`
+- সহায়ক পরিষেবা → নিজের কণ্ঠস্বর → সব ডিভাইসের সাথে শেয়ার করুন: `prefs:root=ACCESSIBILITY&path=PERSONAL_VOICE_TITLE#VB_USE_ICLOUD_TITLE`
+- সহায়ক পরিষেবা → নিজের কণ্ঠস্বর → অ্যাপ ব্যবহারের জন্য অনুরোধ করার অনুমতি দিন: `prefs:root=ACCESSIBILITY&path=PERSONAL_VOICE_TITLE#VB_ALLOW_WITH_APPS`
+- সহায়ক পরিষেবা → AirPods: `prefs:root=ACCESSIBILITY&path=AIRPODS`
+- সহায়ক পরিষেবা → AirPods → চেপে রাখার গতি: `prefs:root=ACCESSIBILITY&path=AIRPODS#TapGroup`
+- সহায়ক পরিষেবা → AirPods → চেপে ধরে রাখার সময়কাল: `prefs:root=ACCESSIBILITY&path=AIRPODS#HoldGroup`
+- সহায়ক পরিষেবা → AirPods → iPhone অডিও এবং ভিজ্যুয়াল সেটিংস: `prefs:root=ACCESSIBILITY&path=AIRPODS#PERSONAL_AUDIO_AIRPODS_BUTTON`
+- সহায়ক পরিষেবা → AirPods → iPhone ফলো করুন: `prefs:root=ACCESSIBILITY&path=AIRPODS#SPATIAL_AUDIO_SWITCH`
+- সহায়ক পরিষেবা → AirPods → টোন ভলিউম: `prefs:root=ACCESSIBILITY&path=AIRPODS#TONE_VOLUME`
+- সহায়ক পরিষেবা → কণ্ঠস্বরের শর্টকাট: `prefs:root=ACCESSIBILITY&path=ADAPTIVE_VOICE_SHORTCUTS_TITLE`
+- সহায়ক পরিষেবা → কণ্ঠস্বরের শর্টকাট → কণ্ঠস্বরের শর্টকাট সেট আপ করুন: `prefs:root=ACCESSIBILITY&path=ADAPTIVE_VOICE_SHORTCUTS_TITLE#AVS_SET_UP_BUTTON_TITLE`
+- সহায়ক পরিষেবা → সঙ্গীত হ্যাপটিক: `prefs:root=ACCESSIBILITY&path=HAPTIC_MUSIC`
+- সহায়ক পরিষেবা → আই-ট্র্যাকিং: `prefs:root=ACCESSIBILITY&path=OnDeviceEyeTracking`
+- সহায়ক পরিষেবা → আই-ট্র্যাকিং → আই-ট্র্যাকিং: `prefs:root=ACCESSIBILITY&path=OnDeviceEyeTracking#OnDeviceEyeTrackingEnabledSpecifier`
+- সহায়ক পরিষেবা → আই-ট্র্যাকিং → স্মুদিং: `prefs:root=ACCESSIBILITY&path=OnDeviceEyeTracking#SMOOTHING`
+- সহায়ক পরিষেবা → আই-ট্র্যাকিং → আইটেমে স্ন্যাপ করুন: `prefs:root=ACCESSIBILITY&path=OnDeviceEyeTracking#SNAP_TO_ITEM`
+- সহায়ক পরিষেবা → আই-ট্র্যাকিং → “কীবোর্ডের কী”-তে জুম করুন: `prefs:root=ACCESSIBILITY&path=OnDeviceEyeTracking#KEYBOARD_ZOOM`
+- সহায়ক পরিষেবা → আই-ট্র্যাকিং → স্বয়ংক্রিয়ভাবে লুকানো: `prefs:root=ACCESSIBILITY&path=OnDeviceEyeTracking#AUTO_HIDE`
+- সহায়ক পরিষেবা → আই-ট্র্যাকিং → ডুয়েল কন্ট্রোল: `prefs:root=ACCESSIBILITY&path=OnDeviceEyeTracking#DWELL_CONTROL`
+- সহায়ক পরিষেবা → ক্যামেরা কন্ট্রোল: `prefs:root=ACCESSIBILITY&path=CAMERA_CONTROL`
+- সহায়ক পরিষেবা → ক্যামেরা কন্ট্রোল → ক্যামেরা কন্ট্রোল: `prefs:root=ACCESSIBILITY&path=CAMERA_CONTROL#CAMERA_CONTROL_SWITCH`
+- সহায়ক পরিষেবা → ক্যামেরা কন্ট্রোল → হাল্কা চাপ: `prefs:root=ACCESSIBILITY&path=CAMERA_CONTROL#LIGHT_PRESS`
+- সহায়ক পরিষেবা → ক্যামেরা কন্ট্রোল → সোয়াইপ করুন: `prefs:root=ACCESSIBILITY&path=CAMERA_CONTROL#SWIPE`
+- সহায়ক পরিষেবা → ক্যামেরা কন্ট্রোল → হালকা চাপ প্রয়োগ: `prefs:root=ACCESSIBILITY&path=CAMERA_CONTROL#LIGHT_PRESS_FORCE`
+- সহায়ক পরিষেবা → ক্যামেরা কন্ট্রোল → দুইবার হালকাভাবে চাপার গতি: `prefs:root=ACCESSIBILITY&path=CAMERA_CONTROL#SENSITIVITY`
+- মেল: `prefs:root=MAIL`
+- মেল → অ্যাকাউন্ট: `prefs:root=MAIL&path=ACCOUNTS`
+- মেল → অ্যাকাউন্ট → অ্যাকাউন্ট যোগ করুন: `prefs:root=MAIL&path=ACCOUNTS#ADD_ACCOUNT`
+- মেল → অ্যাকাউন্ট → নতুন ডেটা ফেচ করুন: `prefs:root=MAIL&path=ACCOUNTS#FETCH_NEW_DATA`
+- মেল → প্রিভিউ দেখুন: `prefs:root=MAIL&path=Preview`
+- মেল → প্রতি/Cc লেবেলকে দেখান: `prefs:root=MAIL#Show%20To/Cc%20Labels`
+- মেল → সোয়াইপ অপশন: `prefs:root=MAIL&path=Swipe%20Options`
+- মেল → ডিলিট করার আগে নিশ্চিত করুন: `prefs:root=MAIL#Ask%20Before%20Deleting`
+- মেল → রিমোট ছবি লোড করুন: `prefs:root=MAIL#Load%20Remote%20Images`
+- মেল → থ্রেড দ্বারা সংগঠিত করুন: `prefs:root=MAIL#Organize%20by%20Thread`
+- মেল → পড়া হয়ে গেছে এমন মেসেজ ছোটো করে রাখুন: `prefs:root=MAIL#Collapse%20Read%20Messages`
+- মেল → সাম্প্রতিকতম মেসেজ সবকিছুর উপরে রয়েছে: `prefs:root=MAIL#Most%20Recent%20Message%20on%20Top`
+- মেল → থ্রেডগুলি সম্পূর্ণ করুন: `prefs:root=MAIL#Complete%20Threads`
+- মেল → মিউট করা থ্রেড অ্যাকশন: `prefs:root=MAIL&path=Muted%20Thread%20Action`
+- মেল → ব্লক করা প্রেরকদের উপেক্ষা করুন: `prefs:root=MAIL#Ignore%20Blocked%20Senders`
+- মেল → ব্লক করা প্রেরক অপশন: `prefs:root=MAIL&path=Blocked%20Sender%20Options`
+- মেল → ব্লক করা হয়েছে: `prefs:root=MAIL&path=Blocked`
+- মেল → সবসময় আমাকে Bcc-তে রাখুন: `prefs:root=MAIL#Always%20Bcc%20Myself`
+- মেল → ঠিকানা চিহ্নিত করুন: `prefs:root=MAIL&path=Mark%20Addresses`
+- মেল → কোট লেভেল বাড়ান: `prefs:root=MAIL&path=Increase%20Quote%20Level`
+- মেল → উত্তরের সাথে অ্যাটাচমেন্ট যোগ করুন: `prefs:root=MAIL&path=Include%20Attachments%20with%20Replies`
+- মেল → সই: `prefs:root=MAIL&path=Signature`
+- ওয়ালপেপার: `prefs:root=Wallpaper`
+- নোট: `prefs:root=NOTES`
+- নোট → ডিফল্ট অ্যাকাউন্ট: `prefs:root=NOTES&path=Default%20Account`
+- নোট → পাসওয়ার্ড: `prefs:root=NOTES&path=Password`
+- নোট → এর দ্বারা নোট বাছাই করুন: `prefs:root=NOTES&path=Sort%20Notes%20By`
+- নোট → এই দিয়ে শুরু হচ্ছে এমন নতুন নোট: `prefs:root=NOTES&path=New%20Notes%20Start%20With`
+- নোট → চেক করা আইটেমগুলি বাছাই করুন: `prefs:root=NOTES&path=Sort%20Checked%20Items`
+- নোট → লাইন এবং গ্রিড: `prefs:root=NOTES&path=Lines%20%26%20Grids`
+- নোট → ছবি-তে সেভ করুন: `prefs:root=NOTES#Save%20to%20Photos`
+- নোট → লক স্ক্রিন থেকে নোট অ্যাক্সেস করুন: `prefs:root=NOTES&path=Access%20Notes%20from%20Lock%20Screen`
+- পাসকোড: `prefs:root=PASSCODE`
+- পাসকোড → পাসকোড বন্ধ করুন: `prefs:root=PASSCODE#PASSCODE_OFF`
+- পাসকোড → পাসকোড বদলান: `prefs:root=PASSCODE#CHANGE_PASSCODE`
+- পাসকোড → পাসওয়ার্ড প্রয়োজন: `prefs:root=PASSCODE&path=PASSCODE_REQ`
+- পাসকোড → ভয়েস ডায়াল: `prefs:root=PASSCODE#VOICE_DIAL`
+- পাসকোড → লক থাকাকালীন অ্যাক্সেসের অনুমতি দিন: `prefs:root=PASSCODE#ALLOW_ACCESS_WHEN_LOCKED`
+- পাসকোড → মেসেজের মাধ্যমে উত্তর দিন: `prefs:root=PASSCODE#REPLY_WITH_MESSAGE_SWITCH`
+- পাসকোড → হোম কন্ট্রোল: `prefs:root=PASSCODE#HOME_CONTROL_SWITCH`
+- পাসকোড → ওয়ালেট: `prefs:root=PASSCODE#WALLET_SWITCH`
+- পাসকোড → মিসড কল ফেরত পাঠান: `prefs:root=PASSCODE#RETURN_MISSED_CALLS_SWITCH`
+- পাসকোড → ডেটা মুছুন: `prefs:root=PASSCODE#WIPE_DEVICE`
+- পাসকোড → Apple Watch দিয়ে আনলক করুন: `prefs:root=PASSCODE#AUTO_UNLOCK_DEVICES_GROUP`
+- পাসকোড → স্টোলেন ডিভাইস প্রোটেকশন: `prefs:root=PASSCODE#DTO_GROUP_ID`
+- ক্যালেন্ডার: `prefs:root=CALENDAR`
+- ক্যালেন্ডার → সময় অঞ্চল ওভাররাইড: `prefs:root=CALENDAR&path=TimeZoneCityArray`
+- ক্যালেন্ডার → বিকল্প ক্যালেন্ডার: `prefs:root=CALENDAR&path=Alternate%20Calendars`
+- ক্যালেন্ডার → সপ্তাহের নম্বর: `prefs:root=CALENDAR#Week%20Numbers`
+- ক্যালেন্ডার → প্রত্যাখ্যান করা আমন্ত্রণগুলি দেখুন: `prefs:root=CALENDAR#Show%20Invitee%20Declines`
+- ক্যালেন্ডার → সিঙ্ক করুন: `prefs:root=CALENDAR&path=Sync`
+- ক্যালেন্ডার → ডিফল্ট অ্যালার্ট টাইম: `prefs:root=CALENDAR&path=Default%20Alert%20Times`
+- ক্যালেন্ডার → সপ্তাহের প্রথম দিন: `prefs:root=CALENDAR&path=Start%20Week%20On`
+- ক্যালেন্ডার → লোকেশন পরামর্শ: `prefs:root=CALENDAR#Location%20Suggestions`
+- স্বাস্থ্য বিষয়ক তথ্য: `prefs:root=HEALTH`
+- ফোন: `prefs:root=Phone`
+- ফোন → আমার নম্বর: `prefs:root=Phone&path=My%20Number`
+- ফোন → ইনকামিং কল: `prefs:root=Phone&path=INCOMING_CALL_STYLE`
+- ফোন → কলের ঘোষণা: `prefs:root=Phone&path=ANNOUNCE_CALLS`
+- ফোন → SMS/কল রিপোর্টিং: `prefs:root=Phone&path=CLASSIFICATION_AND_REPORTING`
+- ফোন → টেক্সট-এর মাধ্যমে উওর দিন: `prefs:root=Phone&path=Respond%20with%20Text`
+- ফোন → কল ফরওয়ার্ডিং: `prefs:root=Phone&path=Call%20Forwarding`
+- ফোন → কল ফরওয়ার্ডিং → কল ফরওয়ার্ডিং: `prefs:root=Phone&path=Call%20Forwarding#idMasterOnOffSwitch`
+- ফোন → কল ওয়েটিং: `prefs:root=Phone&path=Call%20Waiting`
+- ফোন → কলার আইডি দেখান: `prefs:root=Phone&path=Show%20My%20Caller%20ID`
+- ফোন → কলার আইডি দেখান → কলার আইডি দেখান: `prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary`
+- ফোন → কলার আইডি দেখান → কলার আইডি দেখান → কলার আইডি দেখান: `prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary#Show%20My%20Caller%20ID`
+- ফোন → অপরিচিত কলারদের সাইলেন্ট করুন: `prefs:root=Phone#SILENCE_CALLS`
+- ফোন → ব্লক করা কন্ট্যাক্ট: `prefs:root=Phone&path=SPECIFIER_IDENTIFIER_BLACKLIST`
+- ফোন → ডায়াল সহায়তা: `prefs:root=Phone&path=Dial%20Assist`
+- App Store: `prefs:root=STORE`
+- App Store → স্বয়ংক্রিয় ডাউনলোড: `prefs:root=STORE#Automatic%20Downloads`
+- App Store → অ্যাপ আপডেট: `prefs:root=STORE#App%20Updates`
+- App Store → অ্যাপ ডাউনলোড: `prefs:root=STORE&path=App%20Downloads`
+- App Store → স্বয়ংক্রিয়ভাবে ভিডিও চালান: `prefs:root=STORE&path=Video%20Autoplay`
+- App Store → অ্যাপ মধ্যস্থ রেটিং এবং রিভিউ: `prefs:root=STORE#In-App%20Ratings%20&%20Reviews`
+- গোপনীয়তা ও সুরক্ষা: `prefs:root=Privacy` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity`
+- গোপনীয়তা ও সুরক্ষা → স্বাস্থ্য: `prefs:root=Privacy&path=HEALTH` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/HEALTH`
+- গোপনীয়তা ও সুরক্ষা → স্বাস্থ্য বিষয়ক তথ্য: `prefs:root=Privacy&path=HEALTH_DATA` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/HEALTH_DATA`
+- গোপনীয়তা ও সুরক্ষা → লোকেশন: `prefs:root=Privacy&path=LOCATION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/LOCATION`
+- গোপনীয়তা ও সুরক্ষা → লোকেশন → নিজের লোকেশন শেয়ার করুন: `prefs:root=Privacy&path=LOCATION/LOCATION_SHARING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/LOCATION/LOCATION_SHARING`
+- গোপনীয়তা ও সুরক্ষা → কন্ট্যাক্ট: `prefs:root=Privacy&path=CONTACTS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CONTACTS`
+- গোপনীয়তা ও সুরক্ষা → ক্যালেন্ডার: `prefs:root=Privacy&path=CALENDARS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CALENDARS`
+- গোপনীয়তা ও সুরক্ষা → রিমাইন্ডার: `prefs:root=Privacy&path=REMINDERS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/REMINDERS`
+- গোপনীয়তা ও সুরক্ষা → ছবি: `prefs:root=Privacy&path=PHOTOS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PHOTOS`
+- গোপনীয়তা ও সুরক্ষা → Bluetooth শেয়ারিং: `prefs:root=Privacy&path=BT_PERIPHERAL` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/BT_PERIPHERAL`
+- গোপনীয়তা ও সুরক্ষা → মাইক্রোফোন: `prefs:root=Privacy&path=MICROPHONE` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/MICROPHONE`
+- গোপনীয়তা ও সুরক্ষা → কণ্ঠস্বর শনাক্তকরণ: `prefs:root=Privacy&path=SPEECH_RECOGNITION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/SPEECH_RECOGNITION`
+- গোপনীয়তা ও সুরক্ষা → ক্যামেরা: `prefs:root=Privacy&path=CAMERA` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CAMERA`
+- গোপনীয়তা ও সুরক্ষা → HomeKit: `prefs:root=Privacy&path=WILLOW` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/WILLOW`
+- গোপনীয়তা ও সুরক্ষা → মিডিয়া ও Apple Music: `prefs:root=Privacy&path=MEDIALIBRARY` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/MEDIALIBRARY`
+- গোপনীয়তা ও সুরক্ষা → অ্যানালিটিক্স: `prefs:root=Privacy&path=PROBLEM_REPORTING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PROBLEM_REPORTING`
+- গোপনীয়তা ও সুরক্ষা → বিজ্ঞাপন: `prefs:root=Privacy&path=ADVERTISING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/ADVERTISING`
+- গোপনীয়তা ও সুরক্ষা → ফাইল এবং ফোল্ডার: `prefs:root=Privacy&path=FILEACCESS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/FILEACCESS`
+- গোপনীয়তা ও সুরক্ষা → ট্র্যাকিং: `prefs:root=Privacy&path=USER_TRACKING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/USER_TRACKING`
+- গোপনীয়তা ও সুরক্ষা → অ্যাপ প্রাইভেসি রিপোর্ট: `prefs:root=Privacy&path=PRIVACY_REPORT` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PRIVACY_REPORT`
+- গোপনীয়তা ও সুরক্ষা → লকডাউন মোড: `prefs:root=Privacy#LOCKDOWN_MODE` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity#LOCKDOWN_MODE#LOCKDOWN_MODE`
+- গোপনীয়তা ও সুরক্ষা → সংবেদনশীল বিষয়বস্তু: `prefs:root=Privacy#NUDITY_DETECTION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity#NUDITY_DETECTION#NUDITY_DETECTION`
+- মাপ: `prefs:root=MEASURE`
+- মাপ → মাপের একক: `prefs:root=MEASURE#MEASURE_UNITS`
+- মাপ → ইম্পেরিয়াল: `prefs:root=MEASURE#Imperial`
+- মাপ → মেট্রিক: `prefs:root=MEASURE#Metric`
+- ভিডিও: `prefs:root=TVAPP`
+- ভিডিও → প্লেব্যাকের জন্য মোবাইল ডেটা ব্যবহার করুন: `prefs:root=TVAPP#com.apple.videos%3AVideosUseCellularDataEnabledSetting`
+- ভিডিও → প্লেব্যাক গুণমান: `prefs:root=TVAPP#com.apple.videos%3APlaybackQualityGroup`
+- ভিডিও → কেনাকাটা ও ভাড়া: `prefs:root=TVAPP&path=com.apple.videos%3APreferredPurchaseResolution`
+- ভিডিও → হোম শেয়ারিং: `prefs:root=TVAPP#com.apple.videos%3AHomeSharingFooter`
+- Game Center: `prefs:root=GAMECENTER`
+- ভয়েস মেমো: `prefs:root=VOICE_MEMOS`
+- ভয়েস মেমো → যা যা ডিলিট করা হয়েছে সেগুলি মুছে ফেলুন: `prefs:root=VOICE_MEMOS&path=RCVoiceMemosRecentlyDeletedWindowKey`
+- ভয়েস মেমো → অডিওর গুণমান: `prefs:root=VOICE_MEMOS&path=RCVoiceMemosAudioQualityKey`
+- ভয়েস মেমো → লোকেশন অনুযায়ী নামকরণ: `prefs:root=VOICE_MEMOS#RCVoiceMemosUseLocationBasedNaming`
+- শর্টকাট: `prefs:root=SHORTCUTS`
+- শর্টকাট → iCloud সিঙ্ক: `prefs:root=SHORTCUTS#WFCloudKitSyncEnabled`
+- শর্টকাট → শর্টকাট অর্ডার সিঙ্ক করুন: `prefs:root=SHORTCUTS#WFCloudKitSyncOrderEnabled`
+- শর্টকাট → আইনি নোটিশ: `prefs:root=SHORTCUTS&path=Legal%20Notices`
+- রিমাইন্ডার: `prefs:root=REMINDERS`
+- রিমাইন্ডার → ডিফল্ট তালিকা: `prefs:root=REMINDERS&path=DEFAULT_LIST`
+- রিমাইন্ডার → ডিফল্ট তালিকা → রিমাইন্ডার: `prefs:root=REMINDERS&path=DEFAULT_LIST#preferredDefaultListID`
+- রিমাইন্ডার → আজকের নোটিফিকেশন: `prefs:root=REMINDERS#todayNotificationFireTime`
+- রিমাইন্ডার → বিলম্বিত হিসাবে দেখুন: `prefs:root=REMINDERS#showRemindersAsOverdue`
+- সঙ্গীত: `prefs:root=MUSIC`
+- সঙ্গীত → Apple Music দেখুন: `prefs:root=MUSIC#com.apple.Music%3AAppleMusicEnabled`
+- সঙ্গীত → প্লেলিস্টের গান যোগ করুন: `prefs:root=MUSIC#com.apple.Music%3AAddPlaylistSongsToMyMusicSwitch`
+- সঙ্গীত → স্টার রেটিং দেখান: `prefs:root=MUSIC#com.apple.Music%3AShowStarRatings`
+- সঙ্গীত → লাইব্রেরি সিঙ্ক করুন: `prefs:root=MUSIC#com.apple.Music%3ACloudMusicLibraryEnabled`
+- সঙ্গীত → মোবাইল ডেটা: `prefs:root=MUSIC&path=com.apple.Music%3ACellularData`
+- সঙ্গীত → ডাউনলোড করা সঙ্গীত: `prefs:root=MUSIC&path=com.apple.Music%3AMusicUsageLink`
+- সঙ্গীত → স্টোরেজ অপ্টিমাইজ করুন: `prefs:root=MUSIC&path=com.apple.Music%3AOptimizeStorage`
+- সঙ্গীত → স্বয়ংক্রিয় ডাউনলোড: `prefs:root=MUSIC#com.apple.Music%3AMusicAutomaticDownload`
+- সঙ্গীত → EQ: `prefs:root=MUSIC&path=com.apple.Music%3AEQ`
+- সঙ্গীত → সাউন্ড চেক: `prefs:root=MUSIC#com.apple.Music%3ASoundCheck`
+- সঙ্গীত → গান শোনার হিস্ট্রি ব্যবহার করুন: `prefs:root=MUSIC#com.apple.Music%3APrivateListening`
+- Siri: `prefs:root=SIRI`
+- Siri → লক থাকাকালীন Siri-কে অনুমতি দিন: `prefs:root=SIRI#ASSISTANT_LOCK_SCREEN_ACCESS`
+- Siri → ভাষা: `prefs:root=SIRI&path=LANGUAGE_ID`
+- Siri → Siri ভয়েস: `prefs:root=SIRI&path=VOICE_ID`
+- Siri → ভয়েস ফিডব্যাক: `prefs:root=SIRI&path=VOICE_FEEDBACK_ID`
+- Siri → আমার তথ্য: `prefs:root=SIRI&path=MY_INFO`
+- শব্দ: `prefs:root=Sounds`
+- শব্দ → হেডফোন সুরক্ষা: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING`
+- শব্দ → হেডফোন সুরক্ষা → Lightning অ্যাডাপটার: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING/HEADPHONE_LIGHTNING_ADAPTERS`
+- শব্দ → হেডফোন সুরক্ষা → হেডফোন নোটিফিকেশন: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneWeeklyNotificationsKey`
+- শব্দ → হেডফোন সুরক্ষা → অডিওর তীব্র আওয়াজ কমান: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneLevelLimitSwitchKey`
+- শব্দ → সাউন্ড এফেক্ট: `prefs:root=Sounds&path=SOUND_EFFECTS`
+- শব্দ → রিঙ্গার এবং অ্যালার্ট: `prefs:root=Sounds#RINGER_AND_ALERT_GROUP`
+- শব্দ → বাটনের মাধ্যমে পরিবর্তন করুন: `prefs:root=Sounds#CHANGE_WITH_BUTTONS`
+- শব্দ → শব্দ ও ভাইব্রেশন প্যাটার্ন: `prefs:root=Sounds#SOUNDS_ALERT_GROUP`
+- শব্দ → রিংটোন: `prefs:root=Sounds&path=Ringtone`
+- শব্দ → টেক্সট টোন: `prefs:root=Sounds&path=Text_Messages`
+- শব্দ → নতুন ভয়েসমেল: `prefs:root=Sounds&path=Voicemail`
+- শব্দ → নতুন মেল: `prefs:root=Sounds&path=NEW_MAIL`
+- শব্দ → পাঠানো মেল: `prefs:root=Sounds&path=SENT_MAIL`
+- শব্দ → ক্যালেন্ডার অ্যালার্ট: `prefs:root=Sounds&path=Calendar%20Alarm`
+- শব্দ → রিমাইন্ডার অ্যালার্ট: `prefs:root=Sounds&path=Reminder%20Alerts`
+- শব্দ → কীবোর্ড ক্লিক: `prefs:root=Sounds#KEYBOARD_SOUND_SWITCH`
+- শব্দ → সাউন্ড লক করুন: `prefs:root=Sounds#LOCK_SOUND_SWITCH`
+- শব্দ → পার্সোনালাইজড স্পেশিয়াল অডিও: `prefs:root=Sounds&path=Personalized%20Spatial%20Audio`
+- Apple Pencil: `prefs:root=Pencil`
+- Apple Pencil → Apple Pencil: `prefs:root=Pencil#PrefersPencilDraws`
+- Apple Pencil → Apple Pencil: `prefs:root=Pencil#PencilTextInput`
+- ইমার্জেন্সি SOS: `prefs:root=EMERGENCY_SOS`
+- ইমার্জেন্সি SOS → সাইড বাটন দিয়ে কল করুন: `prefs:root=EMERGENCY_SOS#CALL_WITH_SIDE_BUTTON`
+- ইমার্জেন্সি SOS → স্বয়ংক্রিয়ভাবে কল করুন: `prefs:root=EMERGENCY_SOS#AUTO_CALL`
+- ইমার্জেন্সি SOS → জরুরি কন্ট্যাক্ট: `prefs:root=EMERGENCY_SOS#EMERGENCY_CONTACTS`
+- ইমার্জেন্সি SOS → কাউন্টডাউন সাউন্ড: `prefs:root=EMERGENCY_SOS#ALARM_SOUND_SWITCH`
+- Wi-Fi: `prefs:root=WIFI`
+- কন্ট্যাক্ট: `prefs:root=CONTACTS`
+- কন্ট্যাক্ট → কন্ট্যাক্ট অ্যাক্সেস করার অনুমতি দিন: `prefs:root=CONTACTS#Allow%20Contacts%20To%20Access`
+- কন্ট্যাক্ট → Siri: `prefs:root=CONTACTS&path=SIRI_AND_SEARCH`
+- কন্ট্যাক্ট → ক্রমানুসারে সাজান: `prefs:root=CONTACTS&path=ContactsSortOrder`
+- কন্ট্যাক্ট → ডিসপ্লে ক্রম: `prefs:root=CONTACTS&path=PersonNameOrder`
+- কন্ট্যাক্ট → ছোট নাম: `prefs:root=CONTACTS&path=PersonShortName`
+- কন্ট্যাক্ট → ছোট নাম → ছোট নাম: `prefs:root=CONTACTS&path=PersonShortName#Short%20Name`
+- কন্ট্যাক্ট → ছোট নাম → ডাকনামকে প্রাধান্য দিন: `prefs:root=CONTACTS&path=PersonShortName#Prefer%20Nicknames`
+- কন্ট্যাক্ট → আমার তথ্য: `prefs:root=CONTACTS&path=MeCard`
+- কন্ট্যাক্ট → সিমের কন্ট্যাক্ট ইম্পোর্ট করুন: `prefs:root=CONTACTS#SIMImport`
+- কন্ট্রোল সেন্টার: `prefs:root=ControlCenter`
+- কন্ট্রোল সেন্টার → অ্যাপের ভিতর অ্যাক্সেস: `prefs:root=ControlCenter#ALLOWED_WITHIN_APPS`
+- কন্ট্রোল সেন্টার → কন্ট্রোল কাস্টমাইজ করুন: `prefs:root=ControlCenter&path=CUSTOMIZE_CONTROLS`
+- ডেভেলপার: `prefs:root=DEVELOPER_SETTINGS`
+- ডেভেলপার → মাল্টিপাথ নেটওয়ার্কিং: `prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG`
+- ডেভেলপার → মাল্টিপাথ নেটওয়ার্কিং → মাল্টিপাথ নেটওয়ার্কিং: `prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG#Multipath%20Networking`
+- ডেভেলপার → রূপ: `prefs:root=DEVELOPER_SETTINGS#UIAppearanceGroup`
+- ডেভেলপার → ডার্ক রূপ: `prefs:root=DEVELOPER_SETTINGS#UIAppearanceSettings`
+- ডেভেলপার → পেয়ার করা ডিভাইসগুলি: `prefs:root=DEVELOPER_SETTINGS#DTPairedDevicesGroup`
+- ডেভেলপার → বিশ্বাসযোগ্য কম্পিউটার মুছে দিন: `prefs:root=DEVELOPER_SETTINGS#CLEAR_TRUSTED_COMPUTERS`
+- ডেভেলপার → লগিং: `prefs:root=DEVELOPER_SETTINGS&path=DTInstrumentsSettings`
+- ডেভেলপার → UI অটোমেশন সক্রিয় করুন: `prefs:root=DEVELOPER_SETTINGS#UIAGroup`
+- ডেভেলপার → নেটওয়ার্কিং: `prefs:root=DEVELOPER_SETTINGS#NLCGroup`
+- ডেভেলপার → নেটওয়ার্ক লিঙ্ক কন্ডিশনার: `prefs:root=DEVELOPER_SETTINGS&path=NLC`
+- ডেভেলপার → অ্যাডিশনাল লগিং: `prefs:root=DEVELOPER_SETTINGS#ADDITIONAL_LOGGING`
+- ডেভেলপার → HTTP সার্ভিসকে অনুমতি দিন: `prefs:root=DEVELOPER_SETTINGS#ALLOW_HTTP_SERVICES`
+- ডেভেলপার → রেট লিমিটিং নিষ্ক্রিয় করুন: `prefs:root=DEVELOPER_SETTINGS#DISABLE_RATE_LIMITING`
+- ডেভেলপার → NFC পাস কী অপশনাল: `prefs:root=DEVELOPER_SETTINGS#NFC_PASS_KEY_OPTIONAL`
+- ডেভেলপার → মিডিয়া সার্ভিস টেস্টিং: `prefs:root=DEVELOPER_SETTINGS#MEDIA_SERVICES_TESTING`
+- ডেভেলপার → মিডিয়া সার্ভিস রিসেট করুন: `prefs:root=DEVELOPER_SETTINGS#RESET_MEDIA_SERVICES`
+- ডেভেলপার → News টেস্টিং: `prefs:root=DEVELOPER_SETTINGS#NEWS_TESTING`
+- ডেভেলপার → পরের লঞ্চের জন্য লোকাল ডেটা রিসেট করুন: `prefs:root=DEVELOPER_SETTINGS#RESET_LOCAL_DATA_ON_NEXT_LAUNCH`
+- ডেভেলপার → মিডিয়া প্লেয়ার ফ্রেমওয়ার্ক টেস্টিং: `prefs:root=DEVELOPER_SETTINGS#RoutineSettingsGroup`
+- ডেভেলপার → খেলার যোগ্য বিষয়বস্তু API: `prefs:root=DEVELOPER_SETTINGS&path=RoutineSettings`
+- ডেভেলপার → TV প্রোভাইডার: `prefs:root=DEVELOPER_SETTINGS&path=VideoSubscriberAccountSettings`
+- ডেভেলপার → ClassKit API: `prefs:root=DEVELOPER_SETTINGS&path=ClassKitSettings`
+- ডেভেলপার → CoreSpotlight টেস্টিং: `prefs:root=DEVELOPER_SETTINGS#CORESPOTLIGHT_TESTING`
+- ডেভেলপার → সব আইটেম আবার ইনডেক্স করুন: `prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS`
+- ডেভেলপার → আইডেন্টিফায়ারের সাথে সব আইটেম আবার ইনডেক্স করুন: `prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS_WITH_IDENTIFIERS`
+- ডেভেলপার → শর্টকাট টেস্টিং: `prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_TESTING`
+- ডেভেলপার → সাম্প্রতিক শর্টকাটগুলি দেখান: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_SPOTLIGHT`
+- ডেভেলপার → আগত মিডিয়া দেখান: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_UPCOMING_MEDIA`
+- ডেভেলপার → লক স্ক্রিনে ডোনেশন বিকল্পটি দেখান: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_LOCKSCREEN`
+- ডেভেলপার → ঘড়িতে শর্টকাট জোর করে সিঙ্ক করুন: `prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_SYNC_WATCHOS`
+- ডেভেলপার → MIDI-CI টেস্টিং: `prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA`
+- ডেভেলপার → MIDI-CI সক্রিয় করুন: `prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA_ENABLE`
+- ডেভেলপার → হ্যাং ডিটেকশন: `prefs:root=DEVELOPER_SETTINGS#HANGTRACER_EXTERNAL_CONFIGURE`
+- Bluetooth: `prefs:root=Bluetooth`
+- স্টকস: `prefs:root=STOCKS`
+- স্টকস → গোপনীয়তা: `prefs:root=STOCKS#Privacy`
+- স্টকস → আইডেন্টিফায়ার রিসেট করুন: `prefs:root=STOCKS#reset_identifier`
+- অনুবাদ করুন: `prefs:root=TRANSLATE`
+- অনুবাদ করুন → ডিভাইস মোড- অন করুন: `prefs:root=TRANSLATE#OnDeviceOnly`
+- News: `prefs:root=NEWS`
+- News → স্টোরি প্রিভিউ দেখান: `prefs:root=NEWS#show_excerpt_mode`
+- News → আজকের জন্য স্টোরি সীমাবদ্ধ করুন: `prefs:root=NEWS#showStoriesFromFavoritesSpecifierID`
+- News → গোপনীয়তা: `prefs:root=NEWS#Privacy`
+- News → আইডেন্টিফায়ার রিসেট করুন: `prefs:root=NEWS#reset_identifier`
+- News → স্বীকৃতি: `prefs:root=NEWS&path=Acknowledgements`
+- মেসেজ: `prefs:root=MESSAGES`
+- FaceTime: `prefs:root=FACETIME`
+- ছবি: `prefs:root=Photos`
+- ছবি → iCloud ছবি: `prefs:root=Photos#iCloudPhotosSwitch`
+- ছবি → স্টোরেজ অপ্টিমাইজ করুন: `prefs:root=Photos#iCloudOptimizeStorageOption`
+- ছবি → ডাউনলোড করুন এবং আসলগুলি রেখে দিন: `prefs:root=Photos#iCloudKeepOriginalsOption`
+- ছবি → শেয়ার্ড অ্যালবাম: `prefs:root=Photos#SharedStreamsSwitch`
+- ছবি → মোবাইল ডেটা: `prefs:root=Photos&path=CellularDataLinkList`
+- ছবি → স্বয়ংক্রিয়ভাবে ভিডিও চালান: `prefs:root=Photos#VideoAutoplaySwitch`
+- ছবি → পুরো HDR দেখুন: `prefs:root=Photos#ImageModulationSwitch`
+- ছবি → ছুটির দিনের ইভেন্টগুলি দেখান: `prefs:root=Photos#MEMORIES_HOLIDAY_CALENDAR_EVENTS_SWITCH`
+- ছবি → Mac অথবা PC-তে ট্রান্সফার করুন: `prefs:root=Photos#TransferGroup`
+- এক্সপোজার নোটিফিকেশন: `prefs:root=EXPOSURE_NOTIFICATION`
+- ক্যামেরা: `prefs:root=CAMERA`
+- ক্যামেরা → ফরম্যাট: `prefs:root=CAMERA&path=CameraFormatsSettingsList`
+- ক্যামেরা → ফরম্যাট → Apple ProRaw: `prefs:root=CAMERA&path=CameraFormatsSettingsList#CAMUserPreferenceEnableLinearDNGControl`
+- ক্যামেরা → Record Video: `prefs:root=CAMERA&path=Record%20Video`
+- ক্যামেরা → Record Video → HDR ভিডিও: `prefs:root=CAMERA&path=Record%20Video#HDR%20Video`
+- ক্যামেরা → সেটিংস সংরক্ষণ করুন: `prefs:root=CAMERA&path=CameraPreserveSettingsSwitch`
+- ক্যামেরা → সেটিংস সংরক্ষণ করুন → ক্যামেরা মোড: `prefs:root=CAMERA&path=CameraPreserveSettingsSwitch#CAMUserPreferencePreserveCaptureMode`
+- ক্যামেরা → গ্রিড: `prefs:root=CAMERA#CameraGridSwitch`
+- ক্যামেরা → QR কোড স্ক্যান করুন: `prefs:root=CAMERA#CameraQRBannerSwitch`
+- মোবাইল পরিষেবা: `prefs:root=MOBILE_DATA_SETTINGS_ID`
+- মোবাইল পরিষেবা → মোবাইল ডেটা অপশন: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS`
+- মোবাইল পরিষেবা → মোবাইল ডেটা অপশন → লো ডেটা মোড: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS#Low%20Data%20Mode`
+- মোবাইল পরিষেবা → মোবাইল ডেটা: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=SHOW_ALL`
+- পডকাস্ট: `prefs:root=PODCASTS`
+- কম্পাস: `prefs:root=COMPASS`
+- কম্পাস → ট্রু নর্থ বিকল্পটি ব্যবহার করুন: `prefs:root=COMPASS#USE_TRUE_NORTH`
+- বই: `prefs:root=IBOOKS`
+- বই → অনলাইন বিষয়বস্তু: `prefs:root=IBOOKS#BKAllowOnlineContent`
+- বই → সিঙ্ক করা হচ্ছে: `prefs:root=IBOOKS#SYNCING`
+- বই → এখন পড়া হচ্ছে: `prefs:root=IBOOKS#BKLibrary.ReadingNow`
+- বই → iCloud Drive: `prefs:root=IBOOKS#BCSyncICloudDrive`
+- বই → পড়া হচ্ছে: `prefs:root=IBOOKS#READING`
+- বই → সম্পূর্ণভাবে যুক্তিসঙ্গত: `prefs:root=IBOOKS#BKFullJustification`
+- বই → স্বয়ংক্রিয়ভাবে হাইফেন দিন: `prefs:root=IBOOKS#BKAutoHyphenation`
+- বই → উভয় মার্জিন ধরে: `prefs:root=IBOOKS#BKLeftTapTurnToNext`
+- বই → পড়ার জন্য নির্ধারিত লক্ষ্য: `prefs:root=IBOOKS#READING_GOALS`
+- বই → পড়ার পরিকল্পনা সংক্রান্ত ডেটা মুছে দিন: `prefs:root=IBOOKS#BKReadingGoalsShouldClearDataKey`
+- বই → সার্চ করা হচ্ছে: `prefs:root=IBOOKS#SEARCHING`
+- বই → বুক স্টোর: `prefs:root=IBOOKS#BKIncludeBookStoreResultsInSearch`
+- বই → অডিওবুক: `prefs:root=IBOOKS#AUDIOBOOKS`
+- বই → কিছুটা এগিয়ে যান: `prefs:root=IBOOKS&path=BKAudioBookSkipForward`
+- বই → কিছুটা পিছনে যান: `prefs:root=IBOOKS&path=BKAudioBookSkipBackward`
+- বই → বাইরে থেকে কন্ট্রোল: `prefs:root=IBOOKS#BKRemoteSkipInsteadOfNextTrackDefaultKey`
+- বই → পরবর্তী/পূর্ববর্তী: `prefs:root=IBOOKS#Next/Previous`
+- বই → ফরওয়ার্ড/ব্যাক করা এড়িয়ে যান: `prefs:root=IBOOKS#Skip%20Forward/Back`
+- বই → গোপনীয়তা: `prefs:root=IBOOKS#PRIVACY`
+- বই → আইডেন্টিফায়ার রিসেট করুন: `prefs:root=IBOOKS#BAResetAnalyticsUserID`
+- বই → স্বীকৃতি: `prefs:root=IBOOKS&path=Acknowledgements`
+- বিমান মোড: `prefs:root=ROOT#AIRPLANE_MODE`

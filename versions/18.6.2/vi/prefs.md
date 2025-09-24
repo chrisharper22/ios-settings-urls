@@ -1,0 +1,1186 @@
+- Pin: `prefs:root=BATTERY_USAGE`
+- Pin → Chế độ nguồn điện thấp: `prefs:root=BATTERY_USAGE#BATTERY_SAVER_MODE`
+- Pin → Tình trạng pin: `prefs:root=BATTERY_USAGE#BATTERY_HEALTH_ID`
+- Nút Tác vụ: `prefs:root=ACTION_BUTTON`
+- Thông báo: `prefs:root=NOTIFICATIONS_ID`
+- Thông báo → Tóm tắt theo lịch trình: `prefs:root=NOTIFICATIONS_ID&path=SCHEDULED_DELIVERY_ID`
+- Cài đặt chung: `prefs:root=General`
+- Cài đặt chung → Quản lý VPN & thiết bị: `prefs:root=General&path=ManagedConfigurationList`
+- Cài đặt chung → AppleCare & Bảo hành: `prefs:root=General&path=COVERAGE/`
+- Cài đặt chung → Tự động điền & Mật khẩu: `prefs:root=General&path=AUTOFILL`
+- Cài đặt chung → Tự động điền & Mật khẩu → Tự động điền mật khẩu: `prefs:root=General&path=AUTOFILL#AUTOFILL`
+- Cài đặt chung → Tự động điền & Mật khẩu → Dọn dẹp mã xác minh: `prefs:root=General&path=AUTOFILL#CLEAN_UP_VERIFICATION_CODES`
+- Cài đặt chung → Tự động điền & Mật khẩu → Thiết lập mã xác minh: `prefs:root=General&path=AUTOFILL#SET_UP_VERIFICATION_CODES`
+- Cài đặt chung → Dung lượng: `prefs:root=General&path=STORAGE_MGMT`
+- Cài đặt chung → Dung lượng → Dung lượng: `prefs:root=General&path=STORAGE_MGMT#MANAGE`
+- Cài đặt chung → Dung lượng → Gỡ bỏ ứng dụng ko dùng: `prefs:root=General&path=STORAGE_MGMT#OFFLOAD`
+- Cài đặt chung → Cập nhật phần mềm: `prefs:root=General&path=SOFTWARE_UPDATE_LINK`
+- Cài đặt chung → Cập nhật phần mềm → Tự động cập nhật: `prefs:root=General&path=SOFTWARE_UPDATE_LINK/SUAutomaticUpdateButton`
+- Cài đặt chung → Bàn phím: `prefs:root=General&path=Keyboard`
+- Cài đặt chung → Bàn phím → Bàn phím: `prefs:root=General&path=Keyboard/KEYBOARDS`
+- Cài đặt chung → Bàn phím → Thay thế văn bản: `prefs:root=General&path=Keyboard/USER_DICTIONARY`
+- Cài đặt chung → Bàn phím → Tự động viết hoa: `prefs:root=General&path=Keyboard#KeyboardAutocapitalization`
+- Cài đặt chung → Bàn phím → Tự động sửa: `prefs:root=General&path=Keyboard#KeyboardAutocorrection`
+- Cài đặt chung → Bàn phím → Kiểm tra chính tả: `prefs:root=General&path=Keyboard#KeyboardCheckSpelling`
+- Cài đặt chung → Bàn phím → Bật Caps Lock: `prefs:root=General&path=Keyboard#KeyboardCapsLock`
+- Cài đặt chung → Bàn phím → Phím tắt: `prefs:root=General&path=Keyboard#KeyboardAssistant`
+- Cài đặt chung → Bàn phím → Dự đoán: `prefs:root=General&path=Keyboard#KeyboardPrediction`
+- Cài đặt chung → Bàn phím → Dấu câu thông minh: `prefs:root=General&path=Keyboard#SmartTyping`
+- Cài đặt chung → Bàn phím → Chia bàn phím: `prefs:root=General&path=Keyboard#RivenKeyboard`
+- Cài đặt chung → Bàn phím → Bật Vuốt phím: `prefs:root=General&path=Keyboard#GesturesEnabled`
+- Cài đặt chung → Bàn phím → Xem trước ký tự: `prefs:root=General&path=Keyboard#KeyboardAllowPaddle`
+- Cài đặt chung → Bàn phím → Phím tắt “.”: `prefs:root=General&path=Keyboard#KeyboardPeriodShortcut`
+- Cài đặt chung → Bàn phím → Trượt để nhập: `prefs:root=General&path=Keyboard#KeyboardContinuousPathEnabled`
+- Cài đặt chung → Bàn phím → Bật Đọc chính tả: `prefs:root=General&path=Keyboard#Dictation`
+- Cài đặt chung → Bàn phím → Dấu câu tự động: `prefs:root=General&path=Keyboard#AutoPunctuationSetting`
+- Cài đặt chung → Ngôn ngữ & Vùng: `prefs:root=General&path=INTERNATIONAL`
+- Cài đặt chung → Ngôn ngữ & Vùng → Ngôn ngữ khác…: `prefs:root=General&path=INTERNATIONAL#NEW_PREFERRED_LANGUAGE`
+- Cài đặt chung → Ngôn ngữ & Vùng → Thứ tự ngôn ngữ ưu tiên: `prefs:root=General&path=INTERNATIONAL#PREFERRED_LANGUAGE_GROUP`
+- Cài đặt chung → Ngôn ngữ & Vùng → Thêm ngôn ngữ…: `prefs:root=General&path=INTERNATIONAL#ADD_PREFERRED_LANGUAGE`
+- Cài đặt chung → Ngôn ngữ & Vùng → Vùng: `prefs:root=General&path=INTERNATIONAL/LOCALE`
+- Cài đặt chung → Ngôn ngữ & Vùng → Số: `prefs:root=General&path=INTERNATIONAL/NUMBERING_SYSTEM`
+- Cài đặt chung → Ngôn ngữ & Vùng → Lịch: `prefs:root=General&path=INTERNATIONAL/CALENDAR`
+- Cài đặt chung → Ngôn ngữ & Vùng → Đơn vị nhiệt độ: `prefs:root=General&path=INTERNATIONAL/TEMPERATURE_UNIT`
+- Cài đặt chung → Từ điển: `prefs:root=General&path=DICTIONARY`
+- Cài đặt chung → Hình trong hình: `prefs:root=General&path=PiP_SPEC`
+- Cài đặt chung → Bàn di chuột: `prefs:root=General&path=POINTERS`
+- Cài đặt chung → NFC: `prefs:root=General&path=NFC_LINK`
+- Cài đặt chung → VPN: `prefs:root=General&path=VPN`
+- Cài đặt chung → CarPlay: `prefs:root=General&path=CARPLAY`
+- Cài đặt chung → Giới thiệu: `prefs:root=General&path=About`
+- Cài đặt chung → Giới thiệu → Chứng nhận được tin cậy: `prefs:root=General&path=About/CERT_TRUST_SETTINGS`
+- Cài đặt chung → Giới thiệu → Số sê-ri: `prefs:root=General&path=About#SerialNumber`
+- Cài đặt chung → Giới thiệu → Số máy: `prefs:root=General&path=About#ProductModel`
+- Cài đặt chung → Giới thiệu → Tên kiểu máy: `prefs:root=General&path=About#ProductModelName`
+- Cài đặt chung → Giới thiệu → Phiên bản iOS: `prefs:root=General&path=About/SW_VERSION_SPECIFIER`
+- Cài đặt chung → Pháp lý & Quy định: `prefs:root=General&path=LEGAL_AND_REGULATORY`
+- Cài đặt chung → Pháp lý & Quy định → Bảo hành: `prefs:root=General&path=LEGAL_AND_REGULATORY#Warranty`
+- Cài đặt chung → AirDrop: `prefs:root=General&path=AIRDROP_LINK`
+- Cài đặt chung → AirDrop → Đưa các thiết bị lại gần nhau: `prefs:root=General&path=AIRDROP_LINK#AIRDROP_NFC_ID`
+- Cài đặt chung → Nút Home: `prefs:root=General&path=HOME_BUTTON`
+- Cài đặt chung → Công tắc trượt: `prefs:root=General#Rotation_Switch_Action_Group`
+- Cài đặt chung → Làm mới ứng dụng trong nền: `prefs:root=General&path=AUTO_CONTENT_DOWNLOAD`
+- Cài đặt chung → Ngày & Giờ: `prefs:root=General&path=DATE_AND_TIME`
+- Cài đặt chung → Đầu ra TV: `prefs:root=General&path=TV_OUT`
+- Cài đặt chung → Đặt lại: `prefs:root=General&path=Reset`
+- Cài đặt chung → Đặt lại → Đặt lại tất cả cài đặt: `prefs:root=General&path=Reset#settingsErase`
+- Cài đặt chung → Đặt lại → Xóa tất cả nội dung và cài đặt: `prefs:root=General&path=Reset#fullErase`
+- Cài đặt chung → Đặt lại → Đặt lại cài đặt mạng: `prefs:root=General&path=Reset#RESET_NETWORK_LABEL`
+- Cài đặt chung → Đặt lại → Xóa tất cả gói cước dữ liệu di động: `prefs:root=General&path=Reset#cellularErase`
+- Cài đặt chung → Đặt lại → Dịch vụ của thuê bao: `prefs:root=General&path=Reset#SUBSCRIBER_SERVICES_ID`
+- Cài đặt chung → Đặt lại → Đặt lại từ điển bàn phím: `prefs:root=General&path=Reset#RESET_KEYBOARD_DICTIONARY_LABEL`
+- Cài đặt chung → Đặt lại → Đặt lại bố cục Màn hình chính: `prefs:root=General&path=Reset#RESET_ICONS_LABEL`
+- Cài đặt chung → Đặt lại → Đặt lại vị trí & quyền riêng tư: `prefs:root=General&path=Reset#RESET_PRIVACY_LABEL`
+- Cài đặt chung → Tắt máy: `prefs:root=General#SHUTDOWN_LABEL`
+- Cài đặt chung → AirPlay & Thông suốt: `prefs:root=General&path=CONTINUITY_SPEC`
+- Cài đặt chung → AirPlay & Thông suốt → Handoff: `prefs:root=General&path=CONTINUITY_SPEC#CONTINUITY`
+- Cài đặt chung → AirPlay & Thông suốt → Chuyển sang HomePod: `prefs:root=General&path=CONTINUITY_SPEC#TRANSFER_TO_HOMEPOD`
+- Cài đặt chung → AirPlay & Thông suốt → Tự động phát AirPlay: `prefs:root=General&path=CONTINUITY_SPEC#AUTOMATICALLY_AIRPLAY`
+- Cài đặt chung → AirPlay & Thông suốt → Camera thông suốt: `prefs:root=General&path=CONTINUITY_SPEC#WOMBAT_CAMERA`
+- Ví & Apple Pay: `prefs:root=PASSBOOK`
+- Ví & Apple Pay → Apple Cash: `prefs:root=PASSBOOK#Apple%C2%A0Cash`
+- Ví & Apple Pay → Thẻ thanh toán: `prefs:root=PASSBOOK#SETTINGS_PAYMENT_CARDS_GROUP`
+- Ví & Apple Pay → Thêm thẻ: `prefs:root=PASSBOOK#Add%20Card`
+- Ví & Apple Pay → Bấm nút sườn hai lần: `prefs:root=PASSBOOK#Double-Click%20Side%20Button`
+- Ví & Apple Pay → Theo dõi đơn hàng: `prefs:root=PASSBOOK#ORDER_TRACKING`
+- Nhật ký: `prefs:root=JOURNAL`
+- Chế độ chờ: `prefs:root=AMBIENT`
+- Thời tiết: `prefs:root=WEATHER`
+- Tài khoản Apple: `prefs:root=APPLE_ACCOUNT` or `settings-navigation://com.apple.Settings.AppleAccount`
+- Tài khoản Apple → iCloud: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE` or `prefs:root=CASTLE`
+- Tài khoản Apple → iCloud → Dung lượng iCloud: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/STORAGE_AND_BACKUP` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/STORAGE_AND_BACKUP` or `prefs:root=CASTLE&path=STORAGE_AND_BACKUP`
+- Tài khoản Apple → iCloud → iCloud Drive: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity` or `prefs:root=CASTLE&path=com.apple.Dataclass.Ubiquity`
+- Tài khoản Apple → iCloud → Ảnh: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.MediaStream` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.MediaStream` or `prefs:root=CASTLE&path=com.apple.Dataclass.MediaStream`
+- Tài khoản Apple → iCloud → Mail: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Mail` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail` or `prefs:root=CASTLE&path=com.apple.Dataclass.Mail`
+- Tài khoản Apple → iCloud → Mail → Tên miền email tùy chỉnh: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Mail/BYOD_SETTING_SPECIFIER_ID` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/BYOD_SETTING_SPECIFIER_ID` or `prefs:root=CASTLE&path=com.apple.Dataclass.Mail/BYOD_SETTING_SPECIFIER_ID`
+- Tài khoản Apple → iCloud → Danh bạ: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Contacts` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Contacts` or `prefs:root=CASTLE&path=com.apple.Dataclass.Contacts`
+- Tài khoản Apple → iCloud → Lịch: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Calendars` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Calendars` or `prefs:root=CASTLE&path=com.apple.Dataclass.Calendars`
+- Tài khoản Apple → iCloud → Lời nhắc: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Reminders` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Reminders` or `prefs:root=CASTLE&path=com.apple.Dataclass.Reminders`
+- Tài khoản Apple → iCloud → Safari: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks` or `prefs:root=CASTLE&path=com.apple.Dataclass.Bookmarks`
+- Tài khoản Apple → iCloud → Ghi chú: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Notes` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Notes` or `prefs:root=CASTLE&path=com.apple.Dataclass.Notes`
+- Tài khoản Apple → iCloud → News: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.News` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.News` or `prefs:root=CASTLE&path=com.apple.Dataclass.News`
+- Tài khoản Apple → iCloud → Sao lưu: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/BACKUP` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/BACKUP` or `prefs:root=CASTLE&path=BACKUP`
+- Tài khoản Apple → iCloud → Sức khỏe: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Health` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Health` or `prefs:root=CASTLE&path=com.apple.Dataclass.Health`
+- Tài khoản Apple → iCloud → Mật khẩu và chuỗi khóa: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync` or `prefs:root=CASTLE&path=com.apple.Dataclass.KeychainSync`
+- Tài khoản Apple → iCloud → Ẩn địa chỉ email: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE` or `prefs:root=CASTLE&path=PRIVATE_EMAIL_MANAGE`
+- Tài khoản Apple → Chia sẻ vị trí của tôi: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING` or `settings-navigation://com.apple.Settings.AppleAccount/LOCATION_SHARING`
+- Tài khoản Apple → Chia sẻ vị trí của tôi → Tìm: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING/FindMyDevice-Settings` or `settings-navigation://com.apple.Settings.AppleAccount/LOCATION_SHARING/FindMyDevice-Settings`
+- Tài khoản Apple → Tên, Số điện thoại, Email: `prefs:root=APPLE_ACCOUNT&path=APPLE_ACCOUNT_CONTACT` or `settings-navigation://com.apple.Settings.AppleAccount/APPLE_ACCOUNT_CONTACT`
+- Tài khoản Apple → Mật khẩu & Bảo mật: `prefs:root=APPLE_ACCOUNT&path=PASSWORD_AND_SECURITY` or `settings-navigation://com.apple.Settings.AppleAccount/PASSWORD_AND_SECURITY`
+- Tài khoản Apple → Thanh toán & Giao hàng: `prefs:root=APPLE_ACCOUNT&path=PAYMENT_AND_SHIPPING` or `settings-navigation://com.apple.Settings.AppleAccount/PAYMENT_AND_SHIPPING`
+- Tài khoản Apple → Đăng ký: `prefs:root=APPLE_ACCOUNT&path=SUBSCRIPTIONS` or `settings-navigation://com.apple.Settings.AppleAccount/SUBSCRIPTIONS`
+- Tài khoản Apple → Gia đình: `prefs:root=APPLE_ACCOUNT&path=Family` or `settings-navigation://com.apple.Settings.AppleAccount/Family`
+- Tài khoản Apple → Xác minh khóa liên hệ: `prefs:root=APPLE_ACCOUNT&path=TRANSPARENCY` or `settings-navigation://com.apple.Settings.AppleAccount/TRANSPARENCY`
+- Bản đồ: `prefs:root=MAPS`
+- Bản đồ → Chỉ số chất lượng không khí: `prefs:root=MAPS#AirQualityPreferenceID`
+- Bản đồ → Luôn bằng Tiếng Việt: `prefs:root=MAPS#LabelLanguageAlwaysUIPreferenceID`
+- Bản đồ → Đi xe đạp: `prefs:root=MAPS&path=CyclingLinkPreferenceID`
+- Bản đồ → Loại di chuyển ưu tiên: `prefs:root=MAPS#TransportTypePreferenceGroupID`
+- Bản đồ → Lái xe: `prefs:root=MAPS&path=DrivingLinkPreferenceID`
+- Bản đồ → Chỉ đường được đọc: `prefs:root=MAPS&path=NavigationGuidanceLinkPreferenceID`
+- Bản đồ → Hiển thị vị trí đã đỗ: `prefs:root=MAPS#ParkedCarPreferenceID`
+- Bản đồ → Chia sẻ giờ đến: `prefs:root=MAPS#ShareETAPreferenceID`
+- Bản đồ → PT công cộng: `prefs:root=MAPS&path=TransitLinkPreferenceID`
+- Bản đồ → Đi bộ: `prefs:root=MAPS&path=WalkingLinkPreferenceID`
+- Bản đồ → Điều kiện thời tiết: `prefs:root=MAPS#WeatherConditionsPreferenceID`
+- Thời gian sử dụng: `prefs:root=SCREEN_TIME`
+- Thời gian sử dụng → See All App & Website Activity: `prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY`
+- Thời gian sử dụng → See All App & Website Activity → Hôm nay: `prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY#DAY`
+- Thời gian sử dụng → See All App & Website Activity → Tuần: `prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY#WEEK`
+- Thời gian sử dụng → Giờ nghỉ: `prefs:root=SCREEN_TIME&path=DOWNTIME`
+- Thời gian sử dụng → Giới hạn ứng dụng: `prefs:root=SCREEN_TIME&path=APP_LIMITS`
+- Thời gian sử dụng → Giới hạn liên lạc: `prefs:root=SCREEN_TIME&path=COMMUNICATION_LIMITS`
+- Thời gian sử dụng → Liên lạc an toàn: `prefs:root=SCREEN_TIME&path=COMMUNICATION_SAFETY`
+- Thời gian sử dụng → Luôn cho phép: `prefs:root=SCREEN_TIME&path=ALWAYS_ALLOWED`
+- Thời gian sử dụng → Bật giới hạn: `prefs:root=SCREEN_TIME&path=CONTENT_PRIVACY`
+- Thời gian sử dụng → Kiểm soát của phụ huynh: `prefs:root=SCREEN_TIME#FAMILY`
+- Thời gian sử dụng → Khoảng cách màn hình: `prefs:root=SCREEN_TIME&path=EYE_DISTANCE`
+- Freeform: `prefs:root=FREEFORM`
+- Tập trung: `prefs:root=DO_NOT_DISTURB`
+- Tập trung → Trạng thái tập trung: `prefs:root=DO_NOT_DISTURB&path=status`
+- Giao diện: `prefs:root=DISPLAY`
+- Giao diện → Giao diện: `prefs:root=DISPLAY#DEVICE_APPEARANCE`
+- Giao diện → True Tone: `prefs:root=DISPLAY#WHITE_BALANCE`
+- Giao diện → Night Shift: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION`
+- Giao diện → Night Shift → Theo lịch trình: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#SCHEDULED`
+- Giao diện → Night Shift → Bật thủ công đến ngày mai: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#MANUAL`
+- Giao diện → Night Shift → Nhiệt độ màu: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#COLOR_TEMPERATURE`
+- Giao diện → Tự động khóa: `prefs:root=DISPLAY&path=AUTOLOCK`
+- Giao diện → Đưa lên để bật: `prefs:root=DISPLAY#RAISE_TO_WAKE`
+- Giao diện → Khóa / Mở khóa: `prefs:root=DISPLAY#SMART_CASE_LOCK_SPEC`
+- Giao diện → Cỡ chữ: `prefs:root=DISPLAY&path=TEXT_SIZE`
+- Giao diện → Chữ đậm: `prefs:root=DISPLAY#BOLD_TEXT`
+- Giao diện → Độ sáng: `prefs:root=DISPLAY#BRIGHTNESS`
+- Giao diện → Thu phóng màn hình: `prefs:root=DISPLAY#DISPLAY_ZOOM_GROUP`
+- Giao diện → Giao diện: `prefs:root=DISPLAY&path=APPEARANCE`
+- Giao diện → Giao diện → Thu phóng cửa sổ: `prefs:root=DISPLAY&path=APPEARANCE#WINDOW_ZOOM`
+- Giao diện → Giao diện → Thu phóng cửa sổ bằng hai tay: `prefs:root=DISPLAY&path=APPEARANCE#TWO_HANDED_WINDOW_ZOOM`
+- Giao diện → Xem: `prefs:root=DISPLAY&path=MAGNIFY`
+- Giao diện → Màn hình Luôn bật: `prefs:root=DISPLAY&path=ALWAYS_ON`
+- Giao diện → Màn hình Luôn bật → Màn hình Luôn bật: `prefs:root=DISPLAY&path=ALWAYS_ON#ALWAYS_ON`
+- Giao diện → Ứng dụng tương thích: `prefs:root=DISPLAY&path=COMPATIBLE_APPEARANCE`
+- Giao diện → Ứng dụng tương thích → Tối, Sáng: `prefs:root=DISPLAY&path=COMPATIBLE_APPEARANCE#COMPATIBLE_APPEARANCE_CHOICES`
+- Màn hình chính: `prefs:root=HOME_SCREEN`
+- Màn hình chính → Ứng dụng mới tải về: `prefs:root=HOME_SCREEN&path=APP_DOWNLOADS_GO_TO`
+- Màn hình chính → Biểu tượng thông báo: `prefs:root=HOME_SCREEN#BADGES_IN_APP_LIBRARY`
+- Màn hình chính & Thư viện ứng dụng: `prefs:root=HOME_SCREEN_DOCK`
+- Màn hình chính & Thư viện ứng dụng → Ứng dụng mới tải về: `prefs:root=HOME_SCREEN_DOCK&path=APP_DOWNLOADS_GO_TO`
+- Màn hình chính & Thư viện ứng dụng → Dock: `prefs:root=HOME_SCREEN_DOCK&path=MULTITASKING_DOCK`
+- Màn hình chính & Thư viện ứng dụng → Dock → Hiển thị Thư viện ứng dụng trong Dock: `prefs:root=HOME_SCREEN_DOCK&path=MULTITASKING_DOCK#SHOW_APP_LIBRARY`
+- Màn hình chính & Thư viện ứng dụng → Hiển thị ứng dụng được gợi ý và gần đây trên Dock: `prefs:root=HOME_SCREEN_DOCK#ALLOW_RECENTS`
+- Màn hình chính & Thư viện ứng dụng → Quản lý màn hình: `prefs:root=HOME_SCREEN_DOCK&path=CONTINUOUS-EXPOSE`
+- Multitasking & Gestures: `prefs:root=com.apple.MultitaskingAndGesturesSettings`
+- Multitasking & Gestures → Đa nhiệm: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Multitasking`
+- Multitasking & Gestures → Đa nhiệm → Cho phép nhiều ứng dụng: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Multitasking#MultipleApps`
+- Multitasking & Gestures → Đa nhiệm → Chia cửa sổ & Cửa sổ trượt: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Multitasking#SplitViewSlideOver`
+- Multitasking & Gestures → Đa nhiệm → Phản chiếu màn hình: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Multitasking#ScreenMirroring`
+- Multitasking & Gestures → Đa nhiệm → Quản lý màn hình: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Multitasking#StageManager`
+- Multitasking & Gestures → Đa nhiệm → Hiển thị ứng dụng gần đây trong Quản lý màn hình: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Multitasking#StageManagerRecentApps`
+- Multitasking & Gestures → Đa nhiệm → Hiển thị Dock trong Quản lý màn hình: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Multitasking#StageManagerDock`
+- Multitasking & Gestures → Hình trong hình: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=PictureInPicture`
+- Multitasking & Gestures → Cử chỉ hiệu suất: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Productivity`
+- Multitasking & Gestures → Cử chỉ hiệu suất → Cử chỉ: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Productivity#Gestures`
+- Multitasking & Gestures → Cử chỉ hiệu suất → Cử chỉ hiệu suất: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Productivity#ProductivityGestures`
+- Multitasking & Gestures → Cử chỉ bốn & năm ngón tay: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=FourAndFiveFingers`
+- Multitasking & Gestures → Lắc để hoàn tác: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=ShakeToUndo`
+- Multitasking & Gestures → Các cử chỉ ở góc: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=CornerGestures`
+- Trợ năng: `prefs:root=ACCESSIBILITY`
+- Trợ năng → VoiceOver: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE`
+- Trợ năng → VoiceOver → Hướng dẫn VoiceOver: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#VoiceOverTouchTutorialEnabled`
+- Trợ năng → VoiceOver → Tốc độ đọc: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#SpeakingRateSlider`
+- Trợ năng → VoiceOver → Đọc văn bản: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Voices`
+- Trợ năng → VoiceOver → Đọc văn bản → Phát âm: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Voices/PRONUNCIATION_DICTIONARY`
+- Trợ năng → VoiceOver → Đọc văn bản → Phát âm → Phát âm: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Voices/PRONUNCIATION_DICTIONARY#PRONUNCIATION_DICTIONARY`
+- Trợ năng → VoiceOver → Đọc văn bản → Thay đổi cao độ: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Voices#PITCH_CHANGES_TITLE`
+- Trợ năng → VoiceOver → Đọc văn bản → Thêm giọng nói vào rô-to…: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Voices#ADD_NEW_VOICE`
+- Trợ năng → VoiceOver → Đọc văn bản → Phát hiện ngôn ngữ: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Voices#LANGUAGE_DETECTION`
+- Trợ năng → VoiceOver → Đọc văn bản → Không gian hóa lời nói: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Voices#SPATIALIZE_SPEECH`
+- Trợ năng → VoiceOver → Độ chi tiết: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity`
+- Trợ năng → VoiceOver → Độ chi tiết → Độ chi tiết: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#Verbosity`
+- Trợ năng → VoiceOver → Độ chi tiết → Dấu câu: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup`
+- Trợ năng → VoiceOver → Độ chi tiết → Dấu câu → Dấu câu: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup#voiceOverPunctuationGroup`
+- Trợ năng → VoiceOver → Độ chi tiết → Dấu câu → Nhóm dấu câu hoạt động: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup#voiceOverActivePunctuationGroup`
+- Trợ năng → VoiceOver → Độ chi tiết → Dấu câu → Tất cả: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup#all`
+- Trợ năng → VoiceOver → Độ chi tiết → Dấu câu → Một số: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup#AXSSVoiceOverPunctuationGroupSome`
+- Trợ năng → VoiceOver → Độ chi tiết → Dấu câu → Không có: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup#PunctuationGroupNone`
+- Trợ năng → VoiceOver → Độ chi tiết → Dấu câu → Thêm nhóm dấu câu: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup/NewPunctuation`
+- Trợ năng → VoiceOver → Độ chi tiết → Dấu câu → Thêm nhóm dấu câu → Thêm nhóm dấu câu: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup/NewPunctuation#NewPunctuation`
+- Trợ năng → VoiceOver → Độ chi tiết → Dấu câu → Nhập: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup/ImportPunctuation`
+- Trợ năng → VoiceOver → Độ chi tiết → Dấu câu → Nhập → Nhập: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup/ImportPunctuation#ImportPunctuation`
+- Trợ năng → VoiceOver → Độ chi tiết → Đọc gợi ý: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#HINTS_TITLE`
+- Trợ năng → VoiceOver → Độ chi tiết → Thông báo hệ thống: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/SystemNotifications`
+- Trợ năng → VoiceOver → Độ chi tiết → Thông báo hệ thống → Thông báo hệ thống: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/SystemNotifications#SystemNotifications`
+- Trợ năng → VoiceOver → Độ chi tiết → Thông báo hệ thống → Thông báo khi được khóa: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/SystemNotifications#LockScreenNotifications`
+- Trợ năng → VoiceOver → Độ chi tiết → Thông báo hệ thống → Thông báo biểu ngữ: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/SystemNotifications#BannerNotifications`
+- Trợ năng → VoiceOver → Độ chi tiết → Thông báo hệ thống → Sử dụng Chế độ im lặng: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/SystemNotifications#NOTIFICATION_USE_RINGER_SWITCH`
+- Trợ năng → VoiceOver → Độ chi tiết → Thông báo Điều hướng nhanh: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverQuickNavAnnouncementFeedback`
+- Trợ năng → VoiceOver → Độ chi tiết → Thông báo Điều hướng nhanh → Thông báo Điều hướng nhanh: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverQuickNavAnnouncementFeedback#voiceOverQuickNavAnnouncementFeedback`
+- Trợ năng → VoiceOver → Độ chi tiết → Thông báo đèn pin: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverFlashlightNotificationsEnabled`
+- Trợ năng → VoiceOver → Độ chi tiết → Thông báo đèn pin → Thông báo đèn pin: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverFlashlightNotificationsEnabled#voiceOverFlashlightNotificationsEnabled`
+- Trợ năng → VoiceOver → Độ chi tiết → Chữ cái viết hoa: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverCapitalLetterFeedback`
+- Trợ năng → VoiceOver → Độ chi tiết → Chữ cái viết hoa → Chữ cái viết hoa: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverCapitalLetterFeedback#voiceOverCapitalLetterFeedback`
+- Trợ năng → VoiceOver → Độ chi tiết → Xóa văn bản: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverDeletionFeedback`
+- Trợ năng → VoiceOver → Độ chi tiết → Xóa văn bản → Xóa văn bản: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverDeletionFeedback#voiceOverDeletionFeedback`
+- Trợ năng → VoiceOver → Độ chi tiết → Liên kết: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverLinkFeedback`
+- Trợ năng → VoiceOver → Độ chi tiết → Liên kết → Liên kết: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverLinkFeedback#voiceOverLinkFeedback`
+- Trợ năng → VoiceOver → Độ chi tiết → Tác vụ: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverActionsFeedback`
+- Trợ năng → VoiceOver → Độ chi tiết → Tác vụ → Tác vụ: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverActionsFeedback#voiceOverActionsFeedback`
+- Trợ năng → VoiceOver → Độ chi tiết → Nội dung khác: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMoreContentOutputFeedback`
+- Trợ năng → VoiceOver → Độ chi tiết → Nội dung khác → Nội dung khác: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMoreContentOutputFeedback#voiceOverMoreContentOutputFeedback`
+- Trợ năng → VoiceOver → Độ chi tiết → Mô tả bộ chứa: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverContainerOutputFeedback`
+- Trợ năng → VoiceOver → Độ chi tiết → Mô tả bộ chứa → Mô tả bộ chứa: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverContainerOutputFeedback#voiceOverContainerOutputFeedback`
+- Trợ năng → VoiceOver → Độ chi tiết → Số: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverNumberFeedback`
+- Trợ năng → VoiceOver → Độ chi tiết → Số → Số: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverNumberFeedback#voiceOverNumberFeedback`
+- Trợ năng → VoiceOver → Độ chi tiết → Phản hồi văn bản dự đoán: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/PREDICTIVE_TEXT_FEEDBACK`
+- Trợ năng → VoiceOver → Độ chi tiết → Phản hồi văn bản dự đoán → Phản hồi văn bản dự đoán: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/PREDICTIVE_TEXT_FEEDBACK#PREDICTIVE_TEXT_FEEDBACK`
+- Trợ năng → VoiceOver → Độ chi tiết → Phản hồi văn bản dự đoán → Khi văn bản dự đoán xuất hiện: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/PREDICTIVE_TEXT_FEEDBACK/InlineTextCompletionAppearanceFeedback`
+- Trợ năng → VoiceOver → Độ chi tiết → Phản hồi văn bản dự đoán → Khi văn bản dự đoán xuất hiện → Khi văn bản dự đoán xuất hiện: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/PREDICTIVE_TEXT_FEEDBACK/InlineTextCompletionAppearanceFeedback#InlineTextCompletionAppearanceFeedback`
+- Trợ năng → VoiceOver → Độ chi tiết → Phản hồi văn bản dự đoán → Khi phản hồi văn bản dự đoán được nhập: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/PREDICTIVE_TEXT_FEEDBACK/InlineTextCompletionInsertionFeedback`
+- Trợ năng → VoiceOver → Độ chi tiết → Phản hồi văn bản dự đoán → Khi phản hồi văn bản dự đoán được nhập → Khi phản hồi văn bản dự đoán được nhập: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/PREDICTIVE_TEXT_FEEDBACK/InlineTextCompletionInsertionFeedback#InlineTextCompletionInsertionFeedback`
+- Trợ năng → VoiceOver → Độ chi tiết → Tiêu đề bảng: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#speakTableHeader`
+- Trợ năng → VoiceOver → Độ chi tiết → Số hàng & cột: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#SPEAK_TABLE_ROW_COLUMN`
+- Trợ năng → VoiceOver → Độ chi tiết → Nói xác nhận: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#ACTION_CONFIRMATION`
+- Trợ năng → VoiceOver → Độ chi tiết → Tóm tắt rô-to web: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverRotorSummaryFeedback`
+- Trợ năng → VoiceOver → Độ chi tiết → Tóm tắt rô-to web → Tóm tắt rô-to web: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverRotorSummaryFeedback#voiceOverRotorSummaryFeedback`
+- Trợ năng → VoiceOver → Độ chi tiết → Biểu tượng: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverEmojiFeedback`
+- Trợ năng → VoiceOver → Độ chi tiết → Biểu tượng → Biểu tượng: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverEmojiFeedback#voiceOverEmojiFeedback`
+- Trợ năng → VoiceOver → Độ chi tiết → Tiếp tố biểu tượng: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#EMOJI_SUFFIX`
+- Trợ năng → VoiceOver → Độ chi tiết → Mô tả phương tiện: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions`
+- Trợ năng → VoiceOver → Độ chi tiết → Mô tả phương tiện → Mô tả phương tiện: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#voiceOverMediaDescriptions`
+- Trợ năng → VoiceOver → Độ chi tiết → Phản hồi đầu vào: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#voiceOverInputFeedback`
+- Trợ năng → VoiceOver → Độ chi tiết → Phản hồi di con trỏ qua ứng dụng: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#voiceOverAppHoverFeedback`
+- Trợ năng → VoiceOver → Braille: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille`
+- Trợ năng → VoiceOver → Braille → Braille: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#Braille`
+- Trợ năng → VoiceOver → Braille → Đầu ra: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput`
+- Trợ năng → VoiceOver → Braille → Đầu ra → Đầu ra: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#BrailleDisplayOutput`
+- Trợ năng → VoiceOver → Braille → Đầu vào: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput`
+- Trợ năng → VoiceOver → Braille → Đầu vào → Đầu vào: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#BrailleDisplayInput`
+- Trợ năng → VoiceOver → Braille → Khớp bảng đầu vào và đầu ra: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BRAILLE_SYNC_TABLES`
+- Trợ năng → VoiceOver → Braille → Đầu vào và đầu ra: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleDisplayOutput`
+- Trợ năng → VoiceOver → Braille → Bản dịch tự động: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#GRADE2_AUTO_TRANSLATE`
+- Trợ năng → VoiceOver → Braille → Đầu vào màn Braille: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput`
+- Trợ năng → VoiceOver → Braille → Đầu vào màn Braille → Đầu vào màn Braille: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#BrailleGesturesInput`
+- Trợ năng → VoiceOver → Braille → Đầu vào màn Braille → Tự động bắt đầu khi sửa văn bản: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#AUTO_ACTIVATE_ON_TEXT_FIELDS`
+- Trợ năng → VoiceOver → Braille → Đầu vào màn Braille → Đảo ngược vị trí dấu chấm: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#SHOULD_REVERSE_DOTS`
+- Trợ năng → VoiceOver → Braille → Đầu vào màn Braille → Tiếp tục hoạt động đến khi được loại bỏ: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#CONTROL_DEVICE_USING_BRAILLE_GESTURE`
+- Trợ năng → VoiceOver → Braille → Đầu vào màn Braille → Phản hồi văn bản trực quan: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#DISPLAY_ENTERED_TEXT`
+- Trợ năng → VoiceOver → Braille → Đầu vào màn Braille → Phản hồi khi nhập: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#TYPING_FEEDBACK`
+- Trợ năng → VoiceOver → Braille → Đầu vào màn Braille → Âm thanh: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#USE_TYPING_SOUND_FEEDBACK`
+- Trợ năng → VoiceOver → Braille → Đầu vào màn Braille → Âm thanh: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#USE_HAPTIC_FEEDBACK`
+- Trợ năng → VoiceOver → Braille → Đầu vào màn Braille → Thông báo chế độ: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#SOUND_OPTION`
+- Trợ năng → VoiceOver → Braille → Đầu vào màn Braille → Chọn một bảng Braille: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#BSI_TABLES`
+- Trợ năng → VoiceOver → Braille → Bảng Braille: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier`
+- Trợ năng → VoiceOver → Braille → Bảng Braille → Bảng Braille: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier#tableIdentifier`
+- Trợ năng → VoiceOver → Braille → Bảng Braille → Thêm bảng Braille…: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier/ADD_NEW_BRAILLE_LANGUAGE`
+- Trợ năng → VoiceOver → Braille → Bảng Braille → Thêm bảng Braille… → Thêm bảng Braille…: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier/ADD_NEW_BRAILLE_LANGUAGE#ADD_NEW_BRAILLE_LANGUAGE`
+- Trợ năng → VoiceOver → Braille → Ô trạng thái: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL`
+- Trợ năng → VoiceOver → Braille → Ô trạng thái → Ô trạng thái: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL`
+- Trợ năng → VoiceOver → Braille → Ô trạng thái → Vị trí ô trạng thái: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_POSITION`
+- Trợ năng → VoiceOver → Braille → Ô trạng thái → Hiển thị trạng thái chung: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#StatusCellGeneral`
+- Trợ năng → VoiceOver → Braille → Ô trạng thái → Hiển thị trạng thái văn bản: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#StatusCellTextStyle`
+- Trợ năng → VoiceOver → Braille → P.trình sử dụng mã Nemeth: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#ALWAYS_USE_NEMETH`
+- Trợ năng → VoiceOver → Braille → Hiển thị bàn phím ảo: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#SHOW_SW_KEYBOARD`
+- Trợ năng → VoiceOver → Braille → Lật trang khi di chuyển: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#AUTO_TURN_PAGES`
+- Trợ năng → VoiceOver → Braille → Ngắt từ: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#WORD_WRAP`
+- Trợ năng → VoiceOver → Braille → Định dạng văn bản: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BRAILLE_FORMATTING`
+- Trợ năng → VoiceOver → Braille → Thông báo cảnh báo Braille: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleAlertDisplayDuration`
+- Trợ năng → VoiceOver → Braille → Thông báo cảnh báo Braille → Thông báo cảnh báo Braille: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleAlertDisplayDuration#voiceOverBrailleAlertDisplayDuration`
+- Trợ năng → VoiceOver → Braille → Thông báo cảnh báo Braille → Thông báo cảnh báo Braille: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleAlertDisplayDuration#NumericalPreferenceSwitcherIdentifier`
+- Trợ năng → VoiceOver → Braille → Thông báo cảnh báo Braille → Hiển thị đến khi được loại bỏ: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleAlertDisplayDuration#NumericalPreferenceInfiniteTimeDurationIdentifier`
+- Trợ năng → VoiceOver → Braille → Bỏ qua thời lượng chuỗi: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleDebounceTimeout`
+- Trợ năng → VoiceOver → Braille → Bỏ qua thời lượng chuỗi → Bỏ qua thời lượng chuỗi: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleDebounceTimeout/voiceOverBrailleDebounceTimeout`
+- Trợ năng → VoiceOver → Braille → Thời gian tự động chuyển: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleAutoAdvance`
+- Trợ năng → VoiceOver → Braille → Thời gian tự động chuyển → Thời gian tự động chuyển: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleAutoAdvance#voiceOverBrailleAutoAdvance`
+- Trợ năng → VoiceOver → Braille → Màn che âm thanh: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#SOUND_CURTAIN`
+- Trợ năng → VoiceOver → Braille → Bật Bluetooth khi khởi động: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverAlwaysTurnOnBluetooth`
+- Trợ năng → VoiceOver → Braille → Chọn màn hình braille: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#DEVICES`
+- Trợ năng → VoiceOver → Âm thanh: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio`
+- Trợ năng → VoiceOver → Âm thanh → Âm thanh: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#Audio`
+- Trợ năng → VoiceOver → Âm thanh → Âm thanh VoiceOver: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds`
+- Trợ năng → VoiceOver → Âm thanh → Âm thanh VoiceOver → Âm thanh VoiceOver: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSounds`
+- Trợ năng → VoiceOver → Âm thanh → Âm thanh VoiceOver → Âm thanh: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSSettingsItem.Sounds`
+- Trợ năng → VoiceOver → Âm thanh → Âm thanh VoiceOver → Tương tác: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSOutputEventCategory.Interaction`
+- Trợ năng → VoiceOver → Âm thanh → Âm thanh VoiceOver → Phản hồi VoiceOver: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSOutputEventCategory.VoiceOverFeedback`
+- Trợ năng → VoiceOver → Âm thanh → Âm thanh VoiceOver → Phản hồi ứng dụng: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSOutputEventCategory.AppFeedback`
+- Trợ năng → VoiceOver → Âm thanh → Âm thanh VoiceOver → Braille: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSOutputEventCategory.Braille`
+- Trợ năng → VoiceOver → Âm thanh → Âm thanh VoiceOver → Sửa văn bản: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSOutputEventCategory.TextEditing`
+- Trợ năng → VoiceOver → Âm thanh → Âm thanh VoiceOver → Hệ thống: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSOutputEventCategory.System`
+- Trợ năng → VoiceOver → Âm thanh → Nhúng âm thanh: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#AUDIO_DUCKING`
+- Trợ năng → VoiceOver → Âm thanh → Tự chọn loa trong cuộc gọi: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#ROUTE_TO_SPEAKER`
+- Trợ năng → VoiceOver → Âm thanh → Gửi đến HDMI: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#ROUTE_TO_HDMI`
+- Trợ năng → VoiceOver → Lệnh: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands`
+- Trợ năng → VoiceOver → Lệnh → Lệnh: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands#CustomizeCommands`
+- Trợ năng → VoiceOver → Lệnh → Tất cả các lệnh: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/AllCommands`
+- Trợ năng → VoiceOver → Lệnh → Tất cả các lệnh → Tất cả các lệnh: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/AllCommands#AllCommands`
+- Trợ năng → VoiceOver → Lệnh → Đầu vào bàn phím Braille: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/BrailleKeyboardInput`
+- Trợ năng → VoiceOver → Lệnh → Đầu vào bàn phím Braille → Đầu vào bàn phím Braille: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/BrailleKeyboardInput#BrailleKeyboardInput`
+- Trợ năng → VoiceOver → Lệnh → Cử chỉ cảm ứng: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/TouchGestures`
+- Trợ năng → VoiceOver → Lệnh → Cử chỉ cảm ứng → Cử chỉ cảm ứng: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/TouchGestures#TouchGestures`
+- Trợ năng → VoiceOver → Lệnh → Phím tắt: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/KeyboardShortcuts`
+- Trợ năng → VoiceOver → Lệnh → Phím tắt → Phím tắt: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/KeyboardShortcuts#KeyboardShortcuts`
+- Trợ năng → VoiceOver → Lệnh → Viết tay: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/Handwriting`
+- Trợ năng → VoiceOver → Lệnh → Viết tay → Viết tay: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/Handwriting#Handwriting`
+- Trợ năng → VoiceOver → Lệnh → Đầu vào màn Braille: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/BrailleScreenInput`
+- Trợ năng → VoiceOver → Lệnh → Đầu vào màn Braille → Đầu vào màn Braille: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/BrailleScreenInput#BrailleScreenInput`
+- Trợ năng → VoiceOver → Lệnh → Đặt lại các lệnh VoiceOver: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands#ResetVoiceOverCommands`
+- Trợ năng → VoiceOver → Lệnh → Chuyển đổi tay thuận cử chỉ: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands#SWITCH_GESTURE_HANDEDNESS`
+- Trợ năng → VoiceOver → Hoạt động: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/activities`
+- Trợ năng → VoiceOver → Hoạt động → Hoạt động: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/activities#activities`
+- Trợ năng → VoiceOver → Hoạt động → Lập trình: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/activities/Programming`
+- Trợ năng → VoiceOver → Hoạt động → Lập trình → Lập trình: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/activities/Programming#Programming`
+- Trợ năng → VoiceOver → Hoạt động → Thêm hoạt động…: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/activities/New`
+- Trợ năng → VoiceOver → Hoạt động → Thêm hoạt động… → Thêm hoạt động…: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/activities/New#New`
+- Trợ năng → VoiceOver → Rô-to: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions`
+- Trợ năng → VoiceOver → Rô-to → Rô-to: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#RotorActions`
+- Trợ năng → VoiceOver → Rô-to → Mục rô-to: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions/WebRotor`
+- Trợ năng → VoiceOver → Rô-to → Mục rô-to → Mục rô-to: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions/WebRotor#WebRotor`
+- Trợ năng → VoiceOver → Rô-to → Thay đổi rô-to với mục: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#STICKY_ROTOR_TITLE`
+- Trợ năng → VoiceOver → Rô-to → Sửa ứng dụng trên MH chính: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#editApps`
+- Trợ năng → VoiceOver → Rô-to → Ứng dụng Chạm trực tiếp: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions/apps`
+- Trợ năng → VoiceOver → Rô-to → Ứng dụng Chạm trực tiếp → Ứng dụng Chạm trực tiếp: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions/apps#apps`
+- Trợ năng → VoiceOver → Nhập: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions`
+- Trợ năng → VoiceOver → Nhập → Nhập: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#TypingOptions`
+- Trợ năng → VoiceOver → Nhập → Kiểu nhập: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_MODE_TITLE`
+- Trợ năng → VoiceOver → Nhập → Kiểu nhập → Kiểu nhập: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_MODE_TITLE#TYPING_MODE_TITLE`
+- Trợ năng → VoiceOver → Nhập → Phản hồi ngữ âm: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE`
+- Trợ năng → VoiceOver → Nhập → Phản hồi ngữ âm → Phản hồi ngữ âm: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_TITLE`
+- Trợ năng → VoiceOver → Nhập → Phản hồi khi nhập: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_FEEDBACK`
+- Trợ năng → VoiceOver → Nhập → Phản hồi khi nhập → Phản hồi khi nhập: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_FEEDBACK#TYPING_FEEDBACK`
+- Trợ năng → VoiceOver → Nhập → Phím bổ trợ: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS`
+- Trợ năng → VoiceOver → Nhập → Phím bổ trợ → Phím bổ trợ: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS#MODIFIER_KEYS`
+- Trợ năng → VoiceOver → Nhập → Thời gian tương tác bàn phím: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/KEYBOARD_TIMING_TIMEOUT`
+- Trợ năng → VoiceOver → Nhập → Thời gian tương tác bàn phím → Thời gian tương tác bàn phím: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/KEYBOARD_TIMING_TIMEOUT#KEYBOARD_TIMING_TIMEOUT`
+- Trợ năng → VoiceOver → Điều hướng hình ảnh: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages`
+- Trợ năng → VoiceOver → Điều hướng hình ảnh → Điều hướng hình ảnh: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#IncludeUnlabeledImages`
+- Trợ năng → VoiceOver → Con trỏ lớn: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CursorStyle`
+- Trợ năng → VoiceOver → Bảng chú thích: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CaptionPanel`
+- Trợ năng → VoiceOver → Thời gian chờ chạm hai lần: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/DOUBLE_TAP_INTERVAL_TITLE`
+- Trợ năng → VoiceOver → Thời gian chờ chạm hai lần → Thời gian chờ chạm hai lần: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/DOUBLE_TAP_INTERVAL_TITLE#NumericalPreferencePickerGroupIdentifier`
+- Trợ năng → VoiceOver → Kiểu điều hướng: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NavigationStyle`
+- Trợ năng → VoiceOver → Kiểu điều hướng → Kiểu điều hướng: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NavigationStyle#NavigationStyle`
+- Trợ năng → VoiceOver → Cài đặt nhanh: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings`
+- Trợ năng → VoiceOver → Cài đặt nhanh → Cài đặt nhanh: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#QuickSettings`
+- Trợ năng → VoiceOver → Nhận biết VoiceOver: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver`
+- Trợ năng → VoiceOver → Nhận biết VoiceOver → Nhận biết VoiceOver: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver#NeuralVoiceOver`
+- Trợ năng → VoiceOver → Nhận biết VoiceOver → Mô tả hình ảnh: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_IMAGE_DESCRIPTIONS`
+- Trợ năng → VoiceOver → Nhận biết VoiceOver → Mô tả hình ảnh → Mô tả hình ảnh: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_IMAGE_DESCRIPTIONS#VO_IMAGE_DESCRIPTIONS`
+- Trợ năng → VoiceOver → Nhận biết VoiceOver → Mô tả hình ảnh → Đầu ra nội dung nhạy cảm: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_IMAGE_DESCRIPTIONS#SensitiveContentGroup`
+- Trợ năng → VoiceOver → Nhận biết VoiceOver → Mô tả hình ảnh → Ngôn ngữ bổ sung: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_IMAGE_DESCRIPTIONS/AdditionalLanguages`
+- Trợ năng → VoiceOver → Nhận biết VoiceOver → Mô tả hình ảnh → Ngôn ngữ bổ sung → Ngôn ngữ bổ sung: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_IMAGE_DESCRIPTIONS/AdditionalLanguages#AdditionalLanguages`
+- Trợ năng → VoiceOver → Nhận biết VoiceOver → Mô tả hình ảnh → Áp dụng cho ứng dụng: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_IMAGE_DESCRIPTIONS/apps`
+- Trợ năng → VoiceOver → Nhận biết VoiceOver → Mô tả hình ảnh → Áp dụng cho ứng dụng → Áp dụng cho ứng dụng: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_IMAGE_DESCRIPTIONS/apps#apps`
+- Trợ năng → VoiceOver → Nhận biết VoiceOver → Nhận dạng màn hình: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_SCREEN_RECOGNITION`
+- Trợ năng → VoiceOver → Nhận biết VoiceOver → Nhận dạng màn hình → Nhận dạng màn hình: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_SCREEN_RECOGNITION#VO_SCREEN_RECOGNITION`
+- Trợ năng → VoiceOver → Nhận biết VoiceOver → Nhận dạng màn hình → Áp dụng cho ứng dụng: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_SCREEN_RECOGNITION/apps`
+- Trợ năng → VoiceOver → Nhận biết VoiceOver → Nhận dạng màn hình → Áp dụng cho ứng dụng → Áp dụng cho ứng dụng: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_SCREEN_RECOGNITION/apps#apps`
+- Trợ năng → VoiceOver → Nhận biết VoiceOver → Nhận dạng văn bản: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver#VO_OCR`
+- Trợ năng → VoiceOver → Nhận biết VoiceOver → Kiểu phản hồi: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_FEEDBACK`
+- Trợ năng → VoiceOver → Nhận biết VoiceOver → Kiểu phản hồi → Kiểu phản hồi: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_FEEDBACK#VO_FEEDBACK`
+- Trợ năng → VoiceOver → Nhận biết VoiceOver → Nhận biết trực tiếp: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_REAL_WORLD_DETECTION`
+- Trợ năng → VoiceOver → Trì hoãn trước khi chọn: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#VoiceOverDelayUntilSpeak`
+- Trợ năng → VoiceOver → Thời gian chờ chụm hai lần: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#DOUBLE_TAP_INTERVAL`
+- Trợ năng → Thu phóng: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE`
+- Trợ năng → Thu phóng → Đi theo tiêu điểm: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomShouldFollowFocus`
+- Trợ năng → Thu phóng → Nhập thông minh: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomAlwaysUseWindowZoomForTyping`
+- Trợ năng → Thu phóng → Phím tắt: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts`
+- Trợ năng → Thu phóng → Phím tắt → Phím tắt: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomEnableKeyboardShortcuts`
+- Trợ năng → Thu phóng → Phím tắt → Điều chỉnh mức thu phóng: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutAdjustZoomLevel`
+- Trợ năng → Thu phóng → Phím tắt → Chuyển đổi thu phóng: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutToggleZoom`
+- Trợ năng → Thu phóng → Phím tắt → Di chuyển Cửa sổ thu phóng: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutPanZoom`
+- Trợ năng → Thu phóng → Phím tắt → Định cỡ lại Cửa sổ thu phóng: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutResizeZoomWindow`
+- Trợ năng → Thu phóng → Phím tắt → Chuyển đổi vùng thu phóng: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutSwitchZoomMode`
+- Trợ năng → Thu phóng → Phím tắt → Tạm thời bật/tắt thu phóng: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutTempToggleZoom`
+- Trợ năng → Thu phóng → Phím tắt → Thu phóng với con lăn chuột: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutScrollWheel`
+- Trợ năng → Thu phóng → Sử dụng cử chỉ bàn di chuột để thu phóng: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomWithTrackpad`
+- Trợ năng → Thu phóng → Bộ điều khiển thu phóng: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug`
+- Trợ năng → Thu phóng → Bộ điều khiển thu phóng → Bộ điều khiển thu phóng: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug#ZoomSlug`
+- Trợ năng → Thu phóng → Bộ điều khiển thu phóng → Hiển thị bộ điều khiển: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug#ZOOM_DETACH_CONTROLS`
+- Trợ năng → Thu phóng → Bộ điều khiển thu phóng → Chạm một lần: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_CONTROLLER_ACTION_SINGLE_TAP`
+- Trợ năng → Thu phóng → Bộ điều khiển thu phóng → Chạm một lần → Chạm một lần: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_CONTROLLER_ACTION_SINGLE_TAP#ZOOM_CONTROLLER_ACTION_SINGLE_TAP`
+- Trợ năng → Thu phóng → Bộ điều khiển thu phóng → Chạm hai lần: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_CONTROLLER_ACTION_DOUBLE_TAP`
+- Trợ năng → Thu phóng → Bộ điều khiển thu phóng → Chạm hai lần → Chạm hai lần: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_CONTROLLER_ACTION_DOUBLE_TAP#ZOOM_CONTROLLER_ACTION_DOUBLE_TAP`
+- Trợ năng → Thu phóng → Bộ điều khiển thu phóng → Chạm ba lần: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_CONTROLLER_ACTION_TRIPLE_TAP`
+- Trợ năng → Thu phóng → Bộ điều khiển thu phóng → Chạm ba lần → Chạm ba lần: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_CONTROLLER_ACTION_TRIPLE_TAP#ZOOM_CONTROLLER_ACTION_TRIPLE_TAP`
+- Trợ năng → Thu phóng → Bộ điều khiển thu phóng → Điều chỉnh mức thu phóng: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug#ZOOM_TAP_AND_SLIDE_TO_ADJUST_ZOOM_LEVEL`
+- Trợ năng → Thu phóng → Bộ điều khiển thu phóng → Màu: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/CONTROLLER_COLOR`
+- Trợ năng → Thu phóng → Bộ điều khiển thu phóng → Màu → Màu: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/CONTROLLER_COLOR#CONTROLLER_COLOR`
+- Trợ năng → Thu phóng → Bộ điều khiển thu phóng → Độ mờ khi không dùng: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_IDLE_SLUG_OPACITY`
+- Trợ năng → Thu phóng → Bộ điều khiển thu phóng → Độ mờ khi không dùng → Độ mờ khi không dùng: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_IDLE_SLUG_OPACITY#ZOOM_IDLE_SLUG_OPACITY`
+- Trợ năng → Thu phóng → Thu phóng vùng: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode`
+- Trợ năng → Thu phóng → Thu phóng vùng → Thu phóng vùng: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode#ZoomLensMode`
+- Trợ năng → Thu phóng → Mức thu phóng tối đa: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomPreferredMaxZoomLevel`
+- Trợ năng → Thu phóng → Bộ lọc thu phóng: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomFilter`
+- Trợ năng → Thu phóng → Bộ lọc thu phóng → Bộ lọc thu phóng: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomFilter#ZoomFilter`
+- Trợ năng → Thu phóng → Hiển thị trong khi phản chiếu: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomShowWhileMirroring`
+- Trợ năng → Thu phóng → Đặt thu phóng thành tiêu điểm mặc định: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomAsDefaultDial`
+- Trợ năng → Thu phóng → Sử dụng Digital Crown để thu phóng: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomStealsCrownTurns`
+- Trợ năng → Thu phóng → Màu đường viền: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#MagnifyingGlassBorderColor`
+- Trợ năng → Phóng to văn bản: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE`
+- Trợ năng → Phóng to văn bản → Chế độ hiển thị: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextDisplayMode`
+- Trợ năng → Phóng to văn bản → Chế độ hiển thị → Chế độ hiển thị: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextDisplayMode#HoverTextDisplayMode`
+- Trợ năng → Phóng to văn bản → Tốc độ cuộn: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextScrollSpeed`
+- Trợ năng → Phóng to văn bản → Tốc độ cuộn → Tốc độ cuộn: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextScrollSpeed#HoverTextScrollSpeed`
+- Trợ năng → Phóng to văn bản → Phông chữ: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextStyle`
+- Trợ năng → Phóng to văn bản → Phông chữ → Phông chữ: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextStyle#HoverTextStyle`
+- Trợ năng → Phóng to văn bản → Kích cỡ: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextSize`
+- Trợ năng → Phóng to văn bản → Kích cỡ → Kích cỡ: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextSize#HoverTextSize`
+- Trợ năng → Phóng to văn bản → Màu: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE#HOVER_TEXT_COLOR_OPTIONS`
+- Trợ năng → Phóng to văn bản → Phím bổ trợ kích hoạt: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextActivationModifier`
+- Trợ năng → Phóng to văn bản → Phím bổ trợ kích hoạt → Phím bổ trợ kích hoạt: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextActivationModifier#HoverTextActivationModifier`
+- Trợ năng → Phóng to văn bản → Khóa Kích hoạt: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE#HOVER_TEXT_ACTIVATION_LOCK`
+- Trợ năng → Bàn phím & Nhập liệu: `prefs:root=ACCESSIBILITY&path=KEYBOARDS`
+- Trợ năng → Bàn phím & Nhập liệu → Phóng to khi nhập: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING`
+- Trợ năng → Bàn phím & Nhập liệu → Phóng to khi nhập → Chế độ hiển thị: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING/HoverTextTypingDisplayMode`
+- Trợ năng → Bàn phím & Nhập liệu → Phóng to khi nhập → Chế độ hiển thị → Chế độ hiển thị: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING/HoverTextTypingDisplayMode#HoverTextTypingDisplayMode`
+- Trợ năng → Bàn phím & Nhập liệu → Phóng to khi nhập → Phông chữ: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING/HoverTypingStyle`
+- Trợ năng → Bàn phím & Nhập liệu → Phóng to khi nhập → Phông chữ → Phông chữ: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING/HoverTypingStyle#HoverTypingStyle`
+- Trợ năng → Bàn phím & Nhập liệu → Phóng to khi nhập → Kích cỡ: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING/HoverTextSize`
+- Trợ năng → Bàn phím & Nhập liệu → Phóng to khi nhập → Kích cỡ → Kích cỡ: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING/HoverTextSize#HoverTextSize`
+- Trợ năng → Bàn phím & Nhập liệu → Phóng to khi nhập → Nhập các màu: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TYPING_COLOR_OPTIONS`
+- Trợ năng → Bàn phím & Nhập liệu → Phóng to khi nhập → Màu hiển thị: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TYPING_DISPLAY_COLOR_OPTIONS`
+- Trợ năng → Bàn phím & Nhập liệu → Phóng to khi nhập → Màu văn bản: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TEXT_TEXT_COLOR`
+- Trợ năng → Bàn phím & Nhập liệu → Phóng to khi nhập → Màu dấu chèn: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TEXT_INSERTION_POINT_COLOR`
+- Trợ năng → Bàn phím & Nhập liệu → Phóng to khi nhập → Màu nền: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TEXT_BACKGROUND_COLOR`
+- Trợ năng → Bàn phím & Nhập liệu → Phóng to khi nhập → Màu đường viền: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TEXT_BORDER_COLOR`
+- Trợ năng → Bàn phím & Nhập liệu → Phóng to khi nhập → Màu từ được tự động sửa: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TYPING_AUTOCORRECTED_WORD_COLOR`
+- Trợ năng → Bàn phím & Nhập liệu → Phóng to khi nhập → Màu từ sai chính tả: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TYPING_MISSPELLED_WORD`
+- Trợ năng → Bàn phím & Nhập liệu → Phóng to khi nhập → Đặt lại về Mặc định: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TYPING_RESET_BUTTON`
+- Trợ năng → Bàn phím & Nhập liệu → Truy cập bàn phím đầy đủ: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS`
+- Trợ năng → Bàn phím & Nhập liệu → Truy cập bàn phím đầy đủ → Truy cập bàn phím đầy đủ: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAEnabledSwitch`
+- Trợ năng → Bàn phím & Nhập liệu → Truy cập bàn phím đầy đủ → Lệnh: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKACommands`
+- Trợ năng → Bàn phím & Nhập liệu → Truy cập bàn phím đầy đủ → Lệnh → Lệnh: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKACommands#FKACommands`
+- Trợ năng → Bàn phím & Nhập liệu → Truy cập bàn phím đầy đủ → Tự động ẩn: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKAFocusRingTimeout`
+- Trợ năng → Bàn phím & Nhập liệu → Truy cập bàn phím đầy đủ → Tự động ẩn → Tự động ẩn: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKAFocusRingTimeout#FKAFocusRingTimeout`
+- Trợ năng → Bàn phím & Nhập liệu → Truy cập bàn phím đầy đủ → Tăng kích cỡ: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKALargeFocusRingEnabled`
+- Trợ năng → Bàn phím & Nhập liệu → Truy cập bàn phím đầy đủ → Tương phản cao: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKAFocusRingHighContrastEnabled`
+- Trợ năng → Bàn phím & Nhập liệu → Truy cập bàn phím đầy đủ → Màu: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKAFocusRingColor`
+- Trợ năng → Bàn phím & Nhập liệu → Truy cập bàn phím đầy đủ → Màu → Màu: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKAFocusRingColor#FKAFocusRingColor`
+- Trợ năng → Bàn phím & Nhập liệu → Lặp lại phím: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT`
+- Trợ năng → Bàn phím & Nhập liệu → Lặp lại phím → Lặp lại phím: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatEnabled`
+- Trợ năng → Bàn phím & Nhập liệu → Lặp lại phím → Khoảng thời gian lặp lại phím: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatInterval`
+- Trợ năng → Bàn phím & Nhập liệu → Lặp lại phím → Khoảng trễ đến khi lặp lại: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatDelay`
+- Trợ năng → Bàn phím & Nhập liệu → Phím bấm liên tiếp: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS`
+- Trợ năng → Bàn phím & Nhập liệu → Phím bấm liên tiếp → Phím bấm liên tiếp: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysEnabled`
+- Trợ năng → Bàn phím & Nhập liệu → Phím bấm liên tiếp → Chuyển đổi với phím Shift: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysShiftToggle`
+- Trợ năng → Bàn phím & Nhập liệu → Phím bấm liên tiếp → Âm thanh: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysSound`
+- Trợ năng → Bàn phím & Nhập liệu → Phím bấm chậm: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/SLOW_KEYS`
+- Trợ năng → Bàn phím & Nhập liệu → Phím bấm chậm → Phím bấm chậm: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/SLOW_KEYS#NumericalPreferenceSwitcherIdentifier`
+- Trợ năng → Bàn phím & Nhập liệu → Bàn phím ảo: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#SOFTWARE_KEYBOARDS`
+- Trợ năng → Bàn phím & Nhập liệu → Hiển thị phím chữ thường: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#LOWERCASE_KEYBOARD`
+- Trợ năng → Màn hình & Cỡ chữ: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT`
+- Trợ năng → Màn hình & Cỡ chữ → Chữ đậm: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#ENHANCE_TEXT_LEGIBILITY`
+- Trợ năng → Màn hình & Cỡ chữ → Chữ lớn hơn: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/LARGER_TEXT`
+- Trợ năng → Màn hình & Cỡ chữ → Chữ lớn hơn → Chữ lớn hơn: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/LARGER_TEXT#LARGER_TEXT`
+- Trợ năng → Màn hình & Cỡ chữ → Chữ lớn hơn → Kích cỡ Trợ năng Lớn hơn: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/LARGER_TEXT#LARGER_DYNAMIC_TYPE_SWITCH`
+- Trợ năng → Màn hình & Cỡ chữ → Hình dạng nút: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#BUTTON_SHAPES`
+- Trợ năng → Màn hình & Cỡ chữ → Nhãn Bật/Tắt: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#OnOffLabels`
+- Trợ năng → Màn hình & Cỡ chữ → Giảm độ trong suốt: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#REDUCE_TRANSPARENCY`
+- Trợ năng → Màn hình & Cỡ chữ → Tăng độ tương phản: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#TEXT_COLORS_DARKEN`
+- Trợ năng → Màn hình & Cỡ chữ → Phân biệt không cần màu: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#DIFFERENTIATE_WITHOUT_COLOR`
+- Trợ năng → Màn hình & Cỡ chữ → Ưu tiên văn bản ngang: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#PREFER_HORIZONTAL_TEXT`
+- Trợ năng → Màn hình & Cỡ chữ → Đảo ngược thông minh: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#SMART_INVERT`
+- Trợ năng → Màn hình & Cỡ chữ → Đảo ngược cổ điển: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#CLASSIC_INVERT`
+- Trợ năng → Màn hình & Cỡ chữ → Bộ lọc màu: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR`
+- Trợ năng → Màn hình & Cỡ chữ → Bộ lọc màu → Bộ lọc màu: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR#DISPLAY_FILTER_COLOR`
+- Trợ năng → Màn hình & Cỡ chữ → Bộ lọc màu → Áp dụng cho Thông qua video: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR#VIDEO_PASSTHROUGH`
+- Trợ năng → Màn hình & Cỡ chữ → Giảm điểm trắng: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#WHITE_POINT`
+- Trợ năng → Màn hình & Cỡ chữ → Độ sáng tự động: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#AUTO_BRIGHTNESS`
+- Trợ năng → Màn hình & Cỡ chữ → Bỏ qua chuyển động mắt để ổn định: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#STATIC_FOVEATION_TEXT`
+- Trợ năng → Màn hình & Cỡ chữ → Tự động căn chỉnh màn hình: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#AUTO_IPD_TEXT`
+- Trợ năng → Màn hình & Cỡ chữ → Tăng trạng thái lấy nét: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#INCREASE_FOCUS_STATE_TEXT`
+- Trợ năng → Chuyển động: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE`
+- Trợ năng → Chuyển động → Giảm chuyển động: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION`
+- Trợ năng → Chuyển động → Tự động phát hiệu ứng tin nhắn: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#ReduceMotionAutoplayMessagesEffects`
+- Trợ năng → Chuyển động → Tự động phát hình ảnh động: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION_AUTOPLAY_ANIMATED_IMAGES`
+- Trợ năng → Chuyển động → Tự động phát video xem trước: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION_AUTOPLAY_VIDEO_PREVIEWS`
+- Trợ năng → Chuyển động → Ưu tiên con trỏ không nhấp nháy: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#PREFER_NONBLINKING_CURSOR`
+- Trợ năng → Chuyển động → Giới hạn tốc độ khung hình: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REFRESH_RATE`
+- Trợ năng → Chuyển động → Làm mờ ánh sáng nhấp nháy: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#PHOTOSENSITIVE_MITIGATION`
+- Trợ năng → Chuyển động → Hiển thị Chỉ báo chuyển động của xe: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#MotionCues`
+- Trợ năng → Nội dung được đọc: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE`
+- Trợ năng → Nội dung được đọc → Đọc lựa chọn: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QUICK_SPEAK_TITLE`
+- Trợ năng → Nội dung được đọc → Đọc màn hình: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpeakThisEnabled`
+- Trợ năng → Nội dung được đọc → Bộ điều khiển lời nói: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController`
+- Trợ năng → Nội dung được đọc → Bộ điều khiển lời nói → Bộ điều khiển lời nói: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController#SpeechController`
+- Trợ năng → Nội dung được đọc → Bộ điều khiển lời nói → Nhấn giữ: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController/SpeechControllerLongPressAction`
+- Trợ năng → Nội dung được đọc → Bộ điều khiển lời nói → Nhấn giữ → Nhấn giữ: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController/SpeechControllerLongPressAction#SpeechControllerLongPressAction`
+- Trợ năng → Nội dung được đọc → Bộ điều khiển lời nói → Chạm hai lần: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController/SpeechControllerDoubleTapAction`
+- Trợ năng → Nội dung được đọc → Bộ điều khiển lời nói → Chạm hai lần → Chạm hai lần: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController/SpeechControllerDoubleTapAction#SpeechControllerDoubleTapAction`
+- Trợ năng → Nội dung được đọc → Bộ điều khiển lời nói → Độ mờ khi không dùng: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController/SpeechControllerIdleOpacity`
+- Trợ năng → Nội dung được đọc → Bộ điều khiển lời nói → Độ mờ khi không dùng → Độ mờ khi không dùng: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController/SpeechControllerIdleOpacity#SpeechControllerIdleOpacity`
+- Trợ năng → Nội dung được đọc → Bộ điều khiển lời nói → Tùy chỉnh các nút chuột: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController#CustomizeMouseButtons`
+- Trợ năng → Nội dung được đọc → Tô sáng nội dung: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/QuickSpeakHighlight`
+- Trợ năng → Nội dung được đọc → Tô sáng nội dung → Tô sáng nội dung: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/QuickSpeakHighlight#QuickSpeakHighlight`
+- Trợ năng → Nội dung được đọc → Tô sáng nội dung → Kiểu tô sáng câu: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/QuickSpeakHighlight#SENTENCE_HIGHLIGHT_STYLE`
+- Trợ năng → Nội dung được đọc → Tô sáng nội dung → Màu tô sáng: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/QuickSpeakHighlight#COLOR_CHOICE`
+- Trợ năng → Nội dung được đọc → Phản hồi khi nhập: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback`
+- Trợ năng → Nội dung được đọc → Phản hồi khi nhập → Phản hồi khi nhập: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#TypingFeedback`
+- Trợ năng → Nội dung được đọc → Phản hồi khi nhập → Ký tự: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#LETTER`
+- Trợ năng → Nội dung được đọc → Phản hồi khi nhập → Gợi ý ký tự: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#PhoneticFeedback`
+- Trợ năng → Nội dung được đọc → Phản hồi khi nhập → Đọc từ: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#WORD_FEEDBACK`
+- Trợ năng → Nội dung được đọc → Phản hồi khi nhập → Đọc văn bản tự động: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#SPEAK_AUTOCORRECTIONS`
+- Trợ năng → Nội dung được đọc → Phản hồi khi nhập → Giữ để đọc dự đoán: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#QUICKTYPE_WORD_FEEDBACK`
+- Trợ năng → Nội dung được đọc → Giọng nói: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/QuickSpeakAccents`
+- Trợ năng → Nội dung được đọc → Giọng nói → Giọng nói: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/QuickSpeakAccents#QuickSpeakAccents`
+- Trợ năng → Nội dung được đọc → Ngôn ngữ mặc định: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpokenContentDefaultLanguage`
+- Trợ năng → Nội dung được đọc → Ngôn ngữ mặc định → Ngôn ngữ mặc định: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpokenContentDefaultLanguage#SpokenContentDefaultLanguage`
+- Trợ năng → Nội dung được đọc → Phát hiện ngôn ngữ: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#LANGUAGE_DETECTION`
+- Trợ năng → Nội dung được đọc → Tốc độ đọc: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakRate`
+- Trợ năng → Nội dung được đọc → Phát âm: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/VoiceOverSettings`
+- Trợ năng → Nội dung được đọc → Phát âm → Phát âm: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/VoiceOverSettings#VoiceOverSettings`
+- Trợ năng → Nội dung được đọc → Không gian hóa lời nói: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SPATIALIZE_SPEECH`
+- Trợ năng → Mô tả âm thanh: `prefs:root=ACCESSIBILITY&path=DESCRIPTIVE_VIDEO`
+- Trợ năng → Tương tác: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE`
+- Trợ năng → Tương tác → AssistiveTouch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE`
+- Trợ năng → Tương tác → AssistiveTouch → AssistiveTouch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#EnableAssistiveTouchSpecifier`
+- Trợ năng → Tương tác → AssistiveTouch → Tùy chỉnh menu điều khiển: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize`
+- Trợ năng → Tương tác → AssistiveTouch → Tùy chỉnh menu điều khiển → Tùy chỉnh menu điều khiển: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize#AssistiveTouchCustomize`
+- Trợ năng → Tương tác → AssistiveTouch → Tùy chỉnh menu điều khiển → Chạm vào biểu tượng để thay đổi:: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize#ASTStepperCell`
+- Trợ năng → Tương tác → AssistiveTouch → Chạm một lần: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/TapSpecifier`
+- Trợ năng → Tương tác → AssistiveTouch → Chạm một lần → Chạm một lần: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/TapSpecifier#TapSpecifier`
+- Trợ năng → Tương tác → AssistiveTouch → Chạm hai lần: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier`
+- Trợ năng → Tương tác → AssistiveTouch → Chạm hai lần → Chạm hai lần: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier#DoubleTapSpecifier`
+- Trợ năng → Tương tác → AssistiveTouch → Chạm hai lần → Thời gian chờ chạm hai lần: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier/ASTDoubleTapTimeoutSpecifier`
+- Trợ năng → Tương tác → AssistiveTouch → Chạm hai lần → Thời gian chờ chạm hai lần → Thời gian chờ chạm hai lần: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier/ASTDoubleTapTimeoutSpecifier#ASTDoubleTapTimeoutSpecifier`
+- Trợ năng → Tương tác → AssistiveTouch → Nhấn giữ: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier`
+- Trợ năng → Tương tác → AssistiveTouch → Nhấn giữ → Nhấn giữ: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier#LongPressSpecifier`
+- Trợ năng → Tương tác → AssistiveTouch → Nhấn giữ → Khoảng thời gian nhấn giữ: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier/ASTLongPressDurationSpecifier`
+- Trợ năng → Tương tác → AssistiveTouch → Nhấn giữ → Khoảng thời gian nhấn giữ → Khoảng thời gian nhấn giữ: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier/ASTLongPressDurationSpecifier#ASTLongPressDurationSpecifier`
+- Trợ năng → Tương tác → AssistiveTouch → 3D Touch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#ForceTouchSpecifier`
+- Trợ năng → Tương tác → AssistiveTouch → Tạo cử chỉ mới…: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/CreateCustomGesture`
+- Trợ năng → Tương tác → AssistiveTouch → Tạo cử chỉ mới… → Tạo cử chỉ mới…: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/CreateCustomGesture#CreateCustomGesture`
+- Trợ năng → Tương tác → AssistiveTouch → Độ mờ khi không dùng: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/IdleOpacity`
+- Trợ năng → Tương tác → AssistiveTouch → Độ mờ khi không dùng → Độ mờ khi không dùng: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/IdleOpacity#IdleOpacity`
+- Trợ năng → Tương tác → AssistiveTouch → Bàn di chuột ảo: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID`
+- Trợ năng → Tương tác → AssistiveTouch → Bàn di chuột ảo → Tốc độ di chuyển: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID#TRACKING_SPEED_SLIDER`
+- Trợ năng → Tương tác → AssistiveTouch → Bàn di chuột ảo → Cuộn tự nhiên: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID#NATURAL_SCROLLING`
+- Trợ năng → Tương tác → AssistiveTouch → Bàn di chuột ảo → Tốc độ cuộn: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID#SCROLL_SPEED_SLIDER`
+- Trợ năng → Tương tác → AssistiveTouch → Bàn di chuột ảo → Đường viền: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID#BORDER`
+- Trợ năng → Tương tác → AssistiveTouch → Bàn di chuột ảo → Đường viền: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID/BORDER`
+- Trợ năng → Tương tác → AssistiveTouch → Bàn di chuột ảo → Đường viền → Màu: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID/BORDER#COLOR`
+- Trợ năng → Tương tác → AssistiveTouch → Bàn di chuột ảo → Đường viền → Độ mờ: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID/BORDER#OPACITY`
+- Trợ năng → Tương tác → AssistiveTouch → Bàn di chuột ảo → Đường viền → Chiều rộng đường viền: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID/BORDER#BORDER_WIDTH`
+- Trợ năng → Tương tác → AssistiveTouch → Bàn di chuột ảo → Bàn di chuột: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID#TRACKPAD`
+- Trợ năng → Tương tác → AssistiveTouch → Bàn di chuột ảo → Bàn di chuột: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID/TRACKPAD`
+- Trợ năng → Tương tác → AssistiveTouch → Bàn di chuột ảo → Bàn di chuột → Màu: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID/TRACKPAD#COLOR`
+- Trợ năng → Tương tác → AssistiveTouch → Bàn di chuột ảo → Bàn di chuột → Độ mờ: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID/TRACKPAD#OPACITY`
+- Trợ năng → Tương tác → AssistiveTouch → Thiết bị: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices`
+- Trợ năng → Tương tác → AssistiveTouch → Thiết bị → Thiết bị: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices#AssistiveTouchMouseDevices`
+- Trợ năng → Tương tác → AssistiveTouch → Thiết bị → Thiết bị Bluetooth…: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices/BluetoothDevicesScanning`
+- Trợ năng → Tương tác → AssistiveTouch → Thiết bị → Thiết bị Bluetooth… → Thiết bị Bluetooth…: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices/BluetoothDevicesScanning#BluetoothDevicesScanning`
+- Trợ năng → Tương tác → AssistiveTouch → Phím chuột: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseKeys`
+- Trợ năng → Tương tác → AssistiveTouch → Phím chuột → Phím chuột: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseKeys#AssistiveTouchMouseKeys`
+- Trợ năng → Tương tác → AssistiveTouch → Phím chuột → Bật/Tắt phím Option: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseKeys#OptionKeyToggle`
+- Trợ năng → Tương tác → AssistiveTouch → Phím chuột → Sử dụng bàn phím chính: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseKeys#UsePrimaryKeyboard`
+- Trợ năng → Tương tác → AssistiveTouch → Phím chuột → Khoảng trễ ban đầu: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseKeys#InitialDelay`
+- Trợ năng → Tương tác → AssistiveTouch → Phím chuột → Tốc độ tối đa: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseKeys#MaximumSpeed`
+- Trợ năng → Tương tác → AssistiveTouch → Hiển thị bàn phím ảo: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AlwaysShowSoftwareKeyboard`
+- Trợ năng → Tương tác → AssistiveTouch → Luôn hiển thị menu: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AlwaysShowMenu`
+- Trợ năng → Tương tác → AssistiveTouch → Âm thanh khi bấm: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#MouseClickSounds`
+- Trợ năng → Tương tác → AssistiveTouch → Điều khiển giữ lâu: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellEnabledSpecifier`
+- Trợ năng → Tương tác → AssistiveTouch → Dung sai di chuyển: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellToleranceSpecifier`
+- Trợ năng → Tương tác → AssistiveTouch → Dung sai di chuyển → Dung sai di chuyển: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellToleranceSpecifier#DwellToleranceSpecifier`
+- Trợ năng → Tương tác → AssistiveTouch → Độ nhạy di chuyển: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#TouchSpeed`
+- Trợ năng → Tương tác → AssistiveTouch → Phục hồi tác vụ: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellAutorevertSpecifier`
+- Trợ năng → Tương tác → AssistiveTouch → Phục hồi tác vụ → Phục hồi tác vụ: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellAutorevertSpecifier#DwellAutorevertSpecifier`
+- Trợ năng → Tương tác → AssistiveTouch → Góc nóng: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellCornersSpecifier`
+- Trợ năng → Tương tác → AssistiveTouch → Góc nóng → Góc nóng: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellCornersSpecifier#DwellCornersSpecifier`
+- Trợ năng → Tương tác → AssistiveTouch → Góc nóng → Trên cùng bên trái: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellCornersSpecifier#TopLeft`
+- Trợ năng → Tương tác → AssistiveTouch → Góc nóng → Trên cùng bên phải: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellCornersSpecifier#TopRight`
+- Trợ năng → Tương tác → AssistiveTouch → Góc nóng → Dưới cùng bên trái: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellCornersSpecifier#BottomLeft`
+- Trợ năng → Tương tác → AssistiveTouch → Góc nóng → Dưới cùng bên phải: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellCornersSpecifier#BottomRight`
+- Trợ năng → Tương tác → AssistiveTouch → Dự đoán mở rộng: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellExtendedPredictionsSpecifier`
+- Trợ năng → Tương tác → AssistiveTouch → Hết thời gian Điều khiển giữ lâu: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellTimeoutSpecifier`
+- Trợ năng → Tương tác → AssistiveTouch → Xác nhận bằng AssistiveTouch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#APPLE_PAY_SWITCH`
+- Trợ năng → Tương tác → AssistiveTouch → Thực hiện cử chỉ cảm ứng: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#MouseBehavesLikeFinger`
+- Trợ năng → Tương tác → AssistiveTouch → Sử dụng bộ điều khiển trò chơi: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#EnableAssistiveTouchGameControllerSpecifier`
+- Trợ năng → Tương tác → AssistiveTouch → Tác vụ âm thanh: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/SOUND_ACTIONS`
+- Trợ năng → Tương tác → AssistiveTouch → Tác vụ âm thanh: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#SOUND_ACTIONS`
+- Trợ năng → Tương tác → Điều khiển giữ lâu: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL`
+- Trợ năng → Tương tác → Điều khiển giữ lâu → Điều khiển giữ lâu: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL#DWELL_CONTROL_TITLE`
+- Trợ năng → Tương tác → Điều khiển giữ lâu → Đích: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL/DWELL_CONTROL_TARGET`
+- Trợ năng → Tương tác → Điều khiển giữ lâu → Dung sai di chuyển: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL/DWELL_MOVEMENT_TOLERANCE`
+- Trợ năng → Tương tác → Điều khiển giữ lâu → Tô sáng điều khiển: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL#DWELL_HIGHLIGHT_CONTROL_TITLE`
+- Trợ năng → Tương tác → Điều khiển giữ lâu → Tạm dừng trong khi phát lại phương tiện: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL#DWELL_PAUSE_FOR_MEDIA_PLAYBACK_TITLE`
+- Trợ năng → Tương tác → Điều khiển giữ lâu → Hiển thị điều khiển Cuộn: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL#AXDwellQuickScrollSpecifierID`
+- Trợ năng → Tương tác → Điều khiển giữ lâu → Theo dõi menu: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL#AXDwellFollowSpecifierID`
+- Trợ năng → Tương tác → Điều khiển giữ lâu: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/#DwellEnabledSpecifier`
+- Trợ năng → Tương tác → Tầm với: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#REACHABILITY`
+- Trợ năng → Tương tác → Haptic Touch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch`
+- Trợ năng → Tương tác → Haptic Touch → Haptic Touch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#ForceTouch`
+- Trợ năng → Tương tác → Haptic Touch → 3D Touch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#ForceTouchAccessibilityMainSwitch`
+- Trợ năng → Tương tác → Haptic Touch → Độ nhạy 3D Touch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#FourceTouchSensitivityGroupIdentifier`
+- Trợ năng → Tương tác → Haptic Touch → Khoảng thời gian chạm: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#timingGroup`
+- Trợ năng → Tương tác → Haptic Touch → Kiểm tra khoảng thời gian chạm: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#FourceTouchSensitivityTestGroupIdentifier`
+- Trợ năng → Tương tác → Thích nghi cảm ứng: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS`
+- Trợ năng → Tương tác → Thích nghi cảm ứng → Thích nghi cảm ứng: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#TOUCH_ACCOMMODATIONS_SWITCHER`
+- Trợ năng → Tương tác → Thích nghi cảm ứng → Thời gian giữ: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#HoldDuration`
+- Trợ năng → Tương tác → Thích nghi cảm ứng → Bỏ qua lặp lại: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#IgnoreRepeat`
+- Trợ năng → Tương tác → Thích nghi cảm ứng → Hỗ trợ chạm: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#Tap%20Assistance`
+- Trợ năng → Tương tác → Chạm để bật màn hình: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TAP_TO_WAKE_TITLE`
+- Trợ năng → Tương tác → Chạm hoặc vuốt để bật màn hình: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TAP_TOUCH_TO_WAKE_TITLE`
+- Trợ năng → Tương tác → Lắc để hoàn tác: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#SHAKE_TO_UNDO`
+- Trợ năng → Tương tác → Rung: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#VIBRATION`
+- Trợ năng → Tương tác → Ngăn chặn Khóa để kết thúc cuộc gọi: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#LockButtonIgnore`
+- Trợ năng → Tương tác → Định tuyến âm thanh cuộc gọi: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING`
+- Trợ năng → Tương tác → Định tuyến âm thanh cuộc gọi → Định tuyến âm thanh cuộc gọi: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING`
+- Trợ năng → Tương tác → Định tuyến âm thanh cuộc gọi → Tự động trả lời cuộc gọi: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING/callAudioRoutingAutoAnswer`
+- Trợ năng → Tương tác → Định tuyến âm thanh cuộc gọi → Tự động trả lời cuộc gọi → Tự động trả lời cuộc gọi: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING/callAudioRoutingAutoAnswer#callAudioRoutingAutoAnswer`
+- Trợ năng → Tương tác → Chạm vào mặt sau: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/BackTap`
+- Trợ năng → Tương tác → Chạm vào mặt sau → Chạm vào mặt sau: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/BackTap#BackTap`
+- Trợ năng → Tương tác → Chạm vào mặt sau → Chạm hai lần: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/BackTap/DoubleTap`
+- Trợ năng → Tương tác → Chạm vào mặt sau → Chạm hai lần → Chạm hai lần: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/BackTap/DoubleTap#DoubleTap`
+- Trợ năng → Tương tác → Chạm vào mặt sau → Chạm ba lần: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/BackTap/TripleTap`
+- Trợ năng → Tương tác → Chạm vào mặt sau → Chạm ba lần → Chạm ba lần: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/BackTap/TripleTap#TripleTap`
+- Trợ năng → Tương tác → Điều khiển con trỏ: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer`
+- Trợ năng → Tương tác → Điều khiển con trỏ → Tăng độ tương phản: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#PointerIncreaseContrastSpecifier`
+- Trợ năng → Tương tác → Điều khiển con trỏ → Tự động ẩn con trỏ: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#PointerAutoHideSpecifier`
+- Trợ năng → Tương tác → Điều khiển con trỏ → Màu: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#PointerColorSpecifier`
+- Trợ năng → Tương tác → Điều khiển con trỏ → Kích cỡ con trỏ: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#PointerSizeSpecifier`
+- Trợ năng → Tương tác → Điều khiển con trỏ → Điều khiển con trỏ: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#PointerControlEnablingCell`
+- Trợ năng → Tương tác → Điều khiển con trỏ → Điều khiển: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer/POINTER_CONTROL_CONTROL`
+- Trợ năng → Tương tác → Điều khiển con trỏ → Màu: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer/PointerColorSpecifier`
+- Trợ năng → Tương tác → Điều khiển con trỏ → Màu → Chiều rộng đường viền: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer/PointerColorSpecifier#PointerStrokeWidth`
+- Trợ năng → Tương tác → Điều khiển con trỏ → Bỏ qua bàn di chuột: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#IgnoreTrackpad`
+- Trợ năng → Tương tác → Điều khiển con trỏ → Quán tính bàn di chuột: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#PointerInertia`
+- Trợ năng → Tương tác → Điều khiển con trỏ → Hiệu ứng con trỏ: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#PointerCustomShapes`
+- Trợ năng → Tương tác → Điều khiển con trỏ → Tốc độ cuộn: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#DeviceScrollSpeed`
+- Trợ năng → Tương tác → Nhìn lên trên để mở Trung tâm điều khiển: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/UPWARDS_HUD`
+- Trợ năng → Tương tác → Nhìn lên trên để mở Trung tâm điều khiển → Vị trí dọc của Trung tâm điều khiển: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/UPWARDS_HUD#UpwardsHUDPositionSpecifier`
+- Trợ năng → Tương tác → Nhìn lên trên để mở Trung tâm điều khiển → Nhìn lên trên để mở Trung tâm điều khiển: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/UPWARDS_HUD#UpwardsHUDToggleSpecifier`
+- Trợ năng → Tương tác → Tác vụ âm thanh: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/SOUND_ACTIONS`
+- Trợ năng → Tương tác → Ưu tiên các điều khiển không cố định theo đầu: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#CAMERA_ANCHOR_ALTERNATIVE_Preference`
+- Trợ năng → Face ID & Sự chú ý: `prefs:root=ACCESSIBILITY&path=FACE_ID`
+- Trợ năng → Face ID & Sự chú ý → Yêu cầu chú ý cho Face ID: `prefs:root=ACCESSIBILITY&path=FACE_ID#PearlUnlockAttention`
+- Trợ năng → Face ID & Sự chú ý → Tính năng nhận biết sự chú ý: `prefs:root=ACCESSIBILITY&path=FACE_ID#AttentionAware`
+- Trợ năng → Face ID & Sự chú ý → Cảm ứng khi xác thực thành công: `prefs:root=ACCESSIBILITY&path=FACE_ID#PearlSuccessHaptic`
+- Trợ năng → Điều khiển công tắc: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle`
+- Trợ năng → Điều khiển công tắc → Công tắc: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier`
+- Trợ năng → Điều khiển công tắc → Công tắc → Công tắc: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier#SwitchesIdentifier`
+- Trợ năng → Điều khiển công tắc → Công tắc → Thêm công tắc mới…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier/AddSwitchIdentifier`
+- Trợ năng → Điều khiển công tắc → Công tắc → Thêm công tắc mới… → Thêm công tắc mới…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier/AddSwitchIdentifier#AddSwitchIdentifier`
+- Trợ năng → Điều khiển công tắc → Công tắc → Thiết bị Bluetooth…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier/BluetoothDevicesIdentifier`
+- Trợ năng → Điều khiển công tắc → Công tắc → Thiết bị Bluetooth… → Thiết bị Bluetooth…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier/BluetoothDevicesIdentifier/BluetoothDevicesIdentifier`
+- Trợ năng → Điều khiển công tắc → Công tắc → Bỏ qua thiết lập công tắc không hợp lệ: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier#UpwardsHUDToggleSpecifier`
+- Trợ năng → Điều khiển công tắc → Công thức: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/RecipesIdentifier`
+- Trợ năng → Điều khiển công tắc → Công thức → Công thức: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/RecipesIdentifier#RecipesIdentifier`
+- Trợ năng → Điều khiển công tắc → Công thức → Tạo công thức mới…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/RecipesIdentifier/CreateNewRecipe`
+- Trợ năng → Điều khiển công tắc → Công thức → Tạo công thức mới… → Tạo công thức mới…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/RecipesIdentifier/CreateNewRecipe#CreateNewRecipe`
+- Trợ năng → Điều khiển công tắc → Công thức → Khởi chạy công thức: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/RecipesIdentifier/LaunchRecipe`
+- Trợ năng → Điều khiển công tắc → Công thức → Khởi chạy công thức → Khởi chạy công thức: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/RecipesIdentifier/LaunchRecipe#LaunchRecipe`
+- Trợ năng → Điều khiển công tắc → Kiểu quét: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier`
+- Trợ năng → Điều khiển công tắc → Kiểu quét → Kiểu quét: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#ScanningStyleIdentifier`
+- Trợ năng → Điều khiển công tắc → Chế độ Điều khiển công tắc: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/FirstLaunchScanningModeIdentifier`
+- Trợ năng → Điều khiển công tắc → Chế độ Điều khiển công tắc → Chế độ Điều khiển công tắc: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/FirstLaunchScanningModeIdentifier#FirstLaunchScanningModeIdentifier`
+- Trợ năng → Điều khiển công tắc → Thời gian quét tự động: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningSpeedIdentifier`
+- Trợ năng → Điều khiển công tắc → Thời gian quét tự động → Thời gian quét tự động: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningSpeedIdentifier#NumericalPreferencePickerGroupIdentifier`
+- Trợ năng → Điều khiển công tắc → Tạm dừng ở mục đầu tiên: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/DelayAfterInputIdentifier`
+- Trợ năng → Điều khiển công tắc → Tạm dừng ở mục đầu tiên → Tạm dừng ở mục đầu tiên: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/DelayAfterInputIdentifier#NumericalPreferenceSwitcherIdentifier`
+- Trợ năng → Điều khiển công tắc → Vòng lặp: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanCyclesIdentifier`
+- Trợ năng → Điều khiển công tắc → Vòng lặp → Vòng lặp: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanCyclesIdentifier#ScanCyclesIdentifier`
+- Trợ năng → Điều khiển công tắc → Lặp lại di chuyển: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ActionRepeatIdentifier`
+- Trợ năng → Điều khiển công tắc → Lặp lại di chuyển → Lặp lại di chuyển: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ActionRepeatIdentifier#NumericalPreferenceSwitcherIdentifier`
+- Trợ năng → Điều khiển công tắc → Chế độ Điều khiển công tắc: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSelectionGroupIdentifier`
+- Trợ năng → Điều khiển công tắc → Chế độ Điều khiển công tắc → Con trỏ trượt: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSelectionGroupIdentifier#POINTER_PICKER_ENABLED`
+- Trợ năng → Điều khiển công tắc → Nhấn giữ: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/LongPressIdentifier`
+- Trợ năng → Điều khiển công tắc → Nhấn giữ → Nhấn giữ: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/LongPressIdentifier#NumericalPreferenceSwitcherIdentifier`
+- Trợ năng → Điều khiển công tắc → Hoạt động chạm: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier`
+- Trợ năng → Điều khiển công tắc → Hoạt động chạm → Hoạt động chạm: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#TapBehaviorIdentifier`
+- Trợ năng → Điều khiển công tắc → Mục tập trung sau khi chạm: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanLocationIdentifier`
+- Trợ năng → Điều khiển công tắc → Mục tập trung sau khi chạm → Mục tập trung sau khi chạm: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanLocationIdentifier#ScanLocationIdentifier`
+- Trợ năng → Điều khiển công tắc → Quét cùng phím sau khi chạm: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#RestartScanAtCurrentIdentifier`
+- Trợ năng → Điều khiển công tắc → Luôn chạm trên bàn phím: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AlwaysTapKeyboardIdentifier`
+- Trợ năng → Điều khiển công tắc → Dự đoán mở rộng: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#UseExtendedKeyboardPredictionsIdentifier`
+- Trợ năng → Điều khiển công tắc → Thời gian giữ: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/HoldDurationIdentifier`
+- Trợ năng → Điều khiển công tắc → Thời gian giữ → Thời gian giữ: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/HoldDurationIdentifier#NumericalPreferenceSwitcherIdentifier`
+- Trợ năng → Điều khiển công tắc → Bỏ qua lặp lại: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/IgnoreRepeatIdentifier`
+- Trợ năng → Điều khiển công tắc → Bỏ qua lặp lại → Bỏ qua lặp lại: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/IgnoreRepeatIdentifier#NumericalPreferenceSwitcherIdentifier`
+- Trợ năng → Điều khiển công tắc → Con trỏ trượt: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier`
+- Trợ năng → Điều khiển công tắc → Con trỏ trượt → Con trỏ trượt: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#AxisSweepIdentifier`
+- Trợ năng → Điều khiển công tắc → Con trỏ trượt → Chế độ lựa chọn: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleGroup`
+- Trợ năng → Điều khiển công tắc → Con trỏ trượt → Tốc độ Con trỏ trượt: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#AxisSweepSpeed`
+- Trợ năng → Điều khiển công tắc → Theo dõi đầu: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CameraPointPickerSwitch`
+- Trợ năng → Điều khiển công tắc → Theo dõi đầu → Theo dõi đầu: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CameraPointPickerSwitch#CameraPointPickerSwitcher`
+- Trợ năng → Điều khiển công tắc → Hiệu ứng âm thanh: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SoundIdentifier`
+- Trợ năng → Điều khiển công tắc → Đọc văn bản: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier`
+- Trợ năng → Điều khiển công tắc → Đọc văn bản → Giọng nói: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#VoicesIdentifier`
+- Trợ năng → Điều khiển công tắc → Đọc văn bản → Đọc thuộc tính của mục: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#SPEECH_SPEAKS_TRAITS_LABEL`
+- Trợ năng → Điều khiển công tắc → Đọc văn bản → Tạm dừng trong khi nói: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#SPEECH_PAUSES_SCANNING_LABEL`
+- Trợ năng → Điều khiển công tắc → Mục menu: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier`
+- Trợ năng → Điều khiển công tắc → Mục menu → Mục menu: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier#CustomizeMenuIdentifier`
+- Trợ năng → Điều khiển công tắc → Mục menu → Mức trên cùng: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/TopLevel`
+- Trợ năng → Điều khiển công tắc → Mục menu → Mức trên cùng → Mức trên cùng: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/TopLevel#TopLevel`
+- Trợ năng → Điều khiển công tắc → Mục menu → Cử chỉ: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Gestures`
+- Trợ năng → Điều khiển công tắc → Mục menu → Cử chỉ → Cử chỉ: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Gestures#Gestures`
+- Trợ năng → Điều khiển công tắc → Mục menu → Thiết bị: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Device`
+- Trợ năng → Điều khiển công tắc → Mục menu → Thiết bị → Thiết bị: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Device#Device`
+- Trợ năng → Điều khiển công tắc → Mục menu → Cài đặt: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Settings`
+- Trợ năng → Điều khiển công tắc → Mục menu → Cài đặt → Cài đặt: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Settings#Settings`
+- Trợ năng → Điều khiển công tắc → Mục menu → Điều khiển phương tiện: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/MediaControls`
+- Trợ năng → Điều khiển công tắc → Mục menu → Điều khiển phương tiện → Điều khiển phương tiện: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/MediaControls#MediaControls`
+- Trợ năng → Điều khiển công tắc → Nhóm các mục: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ItemGroupingIdentifier`
+- Trợ năng → Điều khiển công tắc → Con trỏ lớn: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CursorVisibilityIdentifier`
+- Trợ năng → Điều khiển công tắc → Cử chỉ đã lưu: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomGesturesIdentifier`
+- Trợ năng → Điều khiển công tắc → Cử chỉ đã lưu → Cử chỉ đã lưu: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomGesturesIdentifier#CustomGesturesIdentifier`
+- Trợ năng → Điều khiển công tắc → Cử chỉ đã lưu → Tạo cử chỉ mới…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomGesturesIdentifier/CreateCustomGesture`
+- Trợ năng → Điều khiển công tắc → Cử chỉ đã lưu → Tạo cử chỉ mới… → Tạo cử chỉ mới…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomGesturesIdentifier/CreateCustomGesture#CreateCustomGesture`
+- Trợ năng → Điều khiển công tắc → Xác nhận bằng Điều khiển công tắc: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#APPLE_PAY_SWITCH`
+- Trợ năng → Điều khiển công tắc → Màu con trỏ: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CursorColorIdentifier`
+- Trợ năng → Điều khiển công tắc → Màu con trỏ → Màu con trỏ: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CursorColorIdentifier#CursorColorIdentifier`
+- Trợ năng → Khẩu lệnh: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle`
+- Trợ năng → Khẩu lệnh → Thiết lập Khẩu lệnh: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#SETUP_COMMAND_AND_CONTROL`
+- Trợ năng → Khẩu lệnh → Mở Hướng dẫn Khẩu lệnh: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#COMMAND_AND_CONTROL_LAUNCH_ONBOARDING`
+- Trợ năng → Khẩu lệnh → Ngôn ngữ: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_LANGUAGE`
+- Trợ năng → Khẩu lệnh → Ngôn ngữ → Ngôn ngữ: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_LANGUAGE#COMMAND_AND_CONTROL_LANGUAGE`
+- Trợ năng → Khẩu lệnh → Lệnh: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS`
+- Trợ năng → Khẩu lệnh → Lệnh → Lệnh: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS#COMMAND_AND_CONTROL_COMMANDS`
+- Trợ năng → Khẩu lệnh → Lệnh → Tạo lệnh mới: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/CreateNewCommand`
+- Trợ năng → Khẩu lệnh → Lệnh → Tạo lệnh mới → Tạo lệnh mới: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/CreateNewCommand#CreateNewCommand`
+- Trợ năng → Khẩu lệnh → Lệnh → Điều hướng cơ bản: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/System`
+- Trợ năng → Khẩu lệnh → Lệnh → Lớp phủ: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/Overlays`
+- Trợ năng → Khẩu lệnh → Lệnh → Cử chỉ cơ bản: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/Gestures`
+- Trợ năng → Khẩu lệnh → Lệnh → Cử chỉ nâng cao: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/DragDropGestures`
+- Trợ năng → Khẩu lệnh → Lệnh → Đọc chính tả: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/TextDictation`
+- Trợ năng → Khẩu lệnh → Lệnh → Điều hướng văn bản: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/Movement`
+- Trợ năng → Khẩu lệnh → Lệnh → Lựa chọn Văn bản: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/Selection`
+- Trợ năng → Khẩu lệnh → Lệnh → Sửa văn bản: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/Editing`
+- Trợ năng → Khẩu lệnh → Lệnh → Xóa văn bản: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/AdvancedDeletion`
+- Trợ năng → Khẩu lệnh → Lệnh → Thiết bị: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/Hardware`
+- Trợ năng → Khẩu lệnh → Lệnh → Trợ năng: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/Accessibility`
+- Trợ năng → Khẩu lệnh → Lệnh → Nhập lệnh tùy chỉnh: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/ImportCustomCommands`
+- Trợ năng → Khẩu lệnh → Lệnh → Nhập lệnh tùy chỉnh → Nhập lệnh tùy chỉnh: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/ImportCustomCommands#ImportCustomCommands`
+- Trợ năng → Khẩu lệnh → Từ vựng: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_VOCABULARY`
+- Trợ năng → Khẩu lệnh → Từ vựng → Từ vựng: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_VOCABULARY/VOCABULARY`
+- Trợ năng → Khẩu lệnh → Từ vựng → Từ vựng → Từ vựng: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_VOCABULARY/VOCABULARY#VOCABULARY`
+- Trợ năng → Khẩu lệnh → Từ vựng → Nhập từ vựng: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_VOCABULARY#IMPORT_VOCABULARY`
+- Trợ năng → Khẩu lệnh → Từ vựng → Xuất từ vựng: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_VOCABULARY#EXPORT_VOCABULARY`
+- Trợ năng → Khẩu lệnh → Từ vựng → Xóa tất cả từ vựng: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_VOCABULARY#DELETE_ALL_VOCABULARY`
+- Trợ năng → Khẩu lệnh → Hiển thị xác nhận: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#SHOW_TEXT_RESPONSE_TITLE`
+- Trợ năng → Khẩu lệnh → Phát âm thanh: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#PLAY_SOUND_RESPONSE_TITLE`
+- Trợ năng → Khẩu lệnh → Hiển thị gợi ý: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#USER_HINTS_SHOW_HINTS_TITLE`
+- Trợ năng → Khẩu lệnh → Lớp phủ: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY`
+- Trợ năng → Khẩu lệnh → Lớp phủ → Lớp phủ: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#ALWAYS_SHOW_OVERLAY`
+- Trợ năng → Khẩu lệnh → Nhận biết sự chú ý: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ATTENTION_AWARE_ACTION`
+- Trợ năng → Nút nguồn/Touch ID: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE`
+- Trợ năng → Nút nguồn/Touch ID → Tốc độ bấm: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_SPEED_HEADER`
+- Trợ năng → Nút nguồn/Touch ID → Nhấn và giữ để nói: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantTitle`
+- Trợ năng → Nút nguồn/Touch ID → Nút Home: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE/HomeButtonAssistantTitle`
+- Trợ năng → Nút nguồn/Touch ID → Nút Home → Giữ ngón tay để mở: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE/HomeButtonAssistantTitle#RestingUnlockSetting`
+- Trợ năng → Nút nguồn/Touch ID → Bật Xác nhận bằng Điều khiển công tắc: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#APPLE_PAY_CONFIRM_WITH_SC`
+- Trợ năng → Nút nguồn/Touch ID → Bật Xác nhận bằng AssistiveTouch: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#APPLE_PAY_CONFIRM_WITH_AST`
+- Trợ năng → Apple TV Remote: `prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE`
+- Trợ năng → Apple TV Remote → Nút chỉ hướng: `prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE#AppleTVSimpleGestures`
+- Trợ năng → Apple TV Remote → Nút TV trực tiếp: `prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE#AppleTVLiveTVButtons`
+- Trợ năng → Phản chiếu Apple Watch: `prefs:root=ACCESSIBILITY&path=APPLE_WATCH_REMOTE_SCREEN`
+- Trợ năng → Thiết bị nghe: `prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE`
+- Trợ năng → Thiết bị nghe → Thiết bị nghe MFi: `prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#AvailableAidsHeading`
+- Trợ năng → Thiết bị nghe → Độ tương thích trợ thính: `prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#HEARING_AID_COMPLIANCE`
+- Trợ năng → Trung tâm điều khiển Nghe: `prefs:root=ACCESSIBILITY&path=HEARING_CONTROL_CENTER`
+- Trợ năng → Trung tâm điều khiển Nghe → Điều khiển được bao gồm: `prefs:root=ACCESSIBILITY&path=HEARING_CONTROL_CENTER#INCLUDED_MODULES_SECTION_TITLE`
+- Trợ năng → Trung tâm điều khiển Nghe → Điều khiển khác: `prefs:root=ACCESSIBILITY&path=HEARING_CONTROL_CENTER#MORE_MODULES_SECTION_TITLE`
+- Trợ năng → Nhận biết âm thanh: `prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE`
+- Trợ năng → Nhận biết âm thanh → Âm thanh: `prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE/Sounds`
+- Trợ năng → Nhận biết âm thanh → Âm thanh → Âm thanh: `prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE/Sounds#Sounds`
+- Trợ năng → RTT/TTY: `prefs:root=ACCESSIBILITY&path=RTT`
+- Trợ năng → RTT/TTY → RTT/TTY phần mềm: `prefs:root=ACCESSIBILITY&path=RTT#SW_TTY`
+- Trợ năng → RTT/TTY → TTY phần cứng: `prefs:root=ACCESSIBILITY&path=RTT#HW_TTY`
+- Trợ năng → Âm thanh & Hình ảnh: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE`
+- Trợ năng → Âm thanh & Hình ảnh → Thích nghi tai nghe: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID`
+- Trợ năng → Âm thanh & Hình ảnh → Thích nghi tai nghe → Thích nghi tai nghe: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID#AXPAEnableSpecID`
+- Trợ năng → Âm thanh & Hình ảnh → Thích nghi tai nghe → Thiết lập âm thanh tùy chỉnh: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID#AXPAPersonalAudioSetupSpecID`
+- Trợ năng → Âm thanh & Hình ảnh → Âm thanh trong nền: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID`
+- Trợ năng → Âm thanh & Hình ảnh → Âm thanh trong nền → Âm thanh trong nền: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID#CSFeatureToggleSpecID`
+- Trợ năng → Âm thanh & Hình ảnh → Âm thanh trong nền → Âm thanh: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID/ComfortSoundSoundLabel`
+- Trợ năng → Âm thanh & Hình ảnh → Âm thanh trong nền → Âm thanh → Âm thanh: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID/ComfortSoundSoundLabel#ComfortSoundSoundLabel`
+- Trợ năng → Âm thanh & Hình ảnh → Âm thanh trong nền → Âm lượng âm thanh trong nền: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID#ComfortSoundsVolume`
+- Trợ năng → Âm thanh & Hình ảnh → Âm thanh trong nền → Sử dụng khi phương tiện đang phát: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID#ComfortSoundsMixingName`
+- Trợ năng → Âm thanh & Hình ảnh → Âm thanh trong nền → Âm lượng với phương tiện: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID#ComfortSoundsMixingVolume`
+- Trợ năng → Âm thanh & Hình ảnh → Âm thanh trong nền → Dừng âm thanh khi được khóa: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID#ComfortSoundsPlayWhenLockedName`
+- Trợ năng → Âm thanh & Hình ảnh → Đơn âm sắc: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAMonoSpecID`
+- Trợ năng → Âm thanh & Hình ảnh → Luôn hiển thị điều khiển âm lượng: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAAlwaysShowVolumeControlSpecID`
+- Trợ năng → Âm thanh & Hình ảnh → Khử tiếng ồn điện thoại: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPANoiseSpecID`
+- Trợ năng → Âm thanh & Hình ảnh → Đèn LED để cảnh báo: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH`
+- Trợ năng → Âm thanh & Hình ảnh → Đèn LED để cảnh báo → Đèn LED để cảnh báo: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_FLASH`
+- Trợ năng → Âm thanh & Hình ảnh → Đèn LED để cảnh báo → Nháy flash khi được mở khóa: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_FLASH_WHILE_UNLOCKED`
+- Trợ năng → Âm thanh & Hình ảnh → Đèn LED để cảnh báo → Nháy flash trong Chế độ im lặng: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_RINGER_SWITCH_CONTROL`
+- Trợ năng → Âm thanh & Hình ảnh → Cân bằng stereo trái-phải: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#LeftRightBalance`
+- Trợ năng → Âm thanh & Hình ảnh → Âm thanh bật & tắt nguồn: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#StartupSound`
+- Trợ năng → Âm thanh & Hình ảnh → Thông báo tai nghe: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXHeadphoneNotificationsSpecID`
+- Trợ năng → Âm thanh & Hình ảnh → Thêm tùy chọn Tách lời nói: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#ExtendedVoiceIsolationSpecID`
+- Trợ năng → Âm thanh & Hình ảnh → Hiệu ứng âm thanh: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#SOUND_EFFECTS_PREFERENCE`
+- Trợ năng → Âm thanh & Hình ảnh → Thêm âm thanh trong cuộc gọi: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/MIX_TO_UPLINK`
+- Trợ năng → Âm thanh & Hình ảnh → Thêm âm thanh trong cuộc gọi → Cho phép ứng dụng thêm âm thanh trong cuộc gọi: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/MIX_TO_UPLINK#MIX_TO_UPLINK`
+- Trợ năng → Phụ đề & chú thích: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING`
+- Trợ năng → Phụ đề & chú thích → Kiểu: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING/currentTheme`
+- Trợ năng → Phụ đề & chú thích → Kiểu → Kiểu: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING/currentTheme#currentTheme`
+- Trợ năng → Phụ đề & chú thích → Chú thích chi tiết + SDH: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#PREFER_SDH`
+- Trợ năng → Phụ đề & chú thích → Hiển thị bản chép lại âm thanh: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#SHOW_AUDIO_TRANSCRIPTIONS`
+- Trợ năng → Phụ đề & chú thích → Hiển thị khi tắt tiếng: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#SHOW_WHEN_MUTED`
+- Trợ năng → Phụ đề & chú thích → Hiển thị khi lùi về sau: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#SHOW_ON_SKIP_BACK`
+- Trợ năng → Chú thích trực tiếp: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION`
+- Trợ năng → Chú thích trực tiếp → Chú thích trực tiếp: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION#LIVE_TRANSCRIPTION_TITLE`
+- Trợ năng → Chú thích trực tiếp → Giao diện: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE`
+- Trợ năng → Chú thích trực tiếp → Giao diện → Giao diện: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE#LIVE_TRANSCRIPTION_APPEARANCE`
+- Trợ năng → Chú thích trực tiếp → Giao diện → Chữ đậm: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE/ENHANCE_TEXT_LEGIBILITY`
+- Trợ năng → Chú thích trực tiếp → Giao diện → Chữ đậm → Chữ đậm: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE/ENHANCE_TEXT_LEGIBILITY#ENHANCE_TEXT_LEGIBILITY`
+- Trợ năng → Chú thích trực tiếp → Giao diện → Cỡ chữ: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE/LARGER_TEXT`
+- Trợ năng → Chú thích trực tiếp → Giao diện → Cỡ chữ → Cỡ chữ: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE/LARGER_TEXT#LARGER_TEXT`
+- Trợ năng → Chú thích trực tiếp → Giao diện → Tùy chọn màu: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE#LIVE_TRANSCRIPTION_COLOR_OPTIONS`
+- Trợ năng → Chú thích trực tiếp → Giao diện → Màu văn bản: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE#LIVE_TRANSCRIPTION_TEXT_COLOR`
+- Trợ năng → Chú thích trực tiếp → Giao diện → Màu nền: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE#LIVE_TRANSCRIPTION_BACKGROUND_COLOR`
+- Trợ năng → Chú thích trực tiếp → Giao diện → Đặt lại màu: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE#LIVE_TRANSCRIPTION_RESET_COLORS`
+- Trợ năng → Chú thích trực tiếp → Giao diện → Độ mờ khi không dùng: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE#LIVE_CAPTIONS_IDLE_OPACITY_TITLE`
+- Trợ năng → Chú thích trực tiếp → Chú thích trực tiếp trong FaceTime: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION#FACE_TIME_CAPTIONS`
+- Trợ năng → Truy cập được hướng dẫn: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE`
+- Trợ năng → Truy cập được hướng dẫn → Cài đặt mật mã: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessSecurityLinkList`
+- Trợ năng → Truy cập được hướng dẫn → Cài đặt mật mã → Cài đặt mật mã: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessSecurityLinkList#GuidedAccessSecurityLinkList`
+- Trợ năng → Truy cập được hướng dẫn → Cài đặt mật mã → Đặt mật mã Truy cập được HD: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessSecurityLinkList#GAXPinButton`
+- Trợ năng → Truy cập được hướng dẫn → Cài đặt mật mã → Touch ID: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessSecurityLinkList#GAXSpecIDTouchIDSwitch`
+- Trợ năng → Truy cập được hướng dẫn → Giới hạn thời gian: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList`
+- Trợ năng → Truy cập được hướng dẫn → Giới hạn thời gian → Giới hạn thời gian: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GuidedAccessTimeRestrictionsLinkList`
+- Trợ năng → Truy cập được hướng dẫn → Giới hạn thời gian → Âm thanh: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList/GUIDED_ACCESS_TIME_RESTRICTIONS_SOUND_TITLE`
+- Trợ năng → Truy cập được hướng dẫn → Giới hạn thời gian → Âm thanh → Âm thanh: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList/GUIDED_ACCESS_TIME_RESTRICTIONS_SOUND_TITLE#GUIDED_ACCESS_TIME_RESTRICTIONS_SOUND_TITLE`
+- Trợ năng → Truy cập được hướng dẫn → Giới hạn thời gian → Đọc: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_SPEAK_TITLE`
+- Trợ năng → Truy cập được hướng dẫn → Phím tắt trợ năng: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessEnableAXFeatures`
+- Trợ năng → Truy cập được hướng dẫn → Tự động khóa màn hình: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessAutoLockTime`
+- Trợ năng → Truy cập được hướng dẫn → Tự động khóa màn hình → Tự động khóa màn hình: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessAutoLockTime#GuidedAccessAutoLockTime`
+- Trợ năng → Truy cập được hỗ trợ: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE`
+- Trợ năng → Truy cập được hỗ trợ → Thiết lập Truy cập được hỗ trợ: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#SetUpClarityUISpecifier`
+- Trợ năng → Truy cập được hỗ trợ → Bắt đầu Truy cập được hỗ trợ: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#ClarityUIStart`
+- Trợ năng → Truy cập được hỗ trợ → Ứng dụng: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#Applications`
+- Trợ năng → Truy cập được hỗ trợ → Tùy chọn: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#Options`
+- Trợ năng → Truy cập được hỗ trợ → Hình nền: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE/Wallpaper`
+- Trợ năng → Truy cập được hỗ trợ → Hình nền → Hình nền: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE/Wallpaper#Wallpaper`
+- Trợ năng → Truy cập được hỗ trợ → Cho phép các nút âm lượng: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#VolumeButtons`
+- Trợ năng → Truy cập được hỗ trợ → Hiển thị thời gian trên Màn hình khóa: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#ShowTime`
+- Trợ năng → Truy cập được hỗ trợ → Hiển thị mức pin trên Màn hình chính: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#ShowBattery`
+- Trợ năng → Truy cập được hỗ trợ → Hiển thị biểu tượng thông báo: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#ShowNotification`
+- Trợ năng → Truy cập được hỗ trợ → Cho phép Siri: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#AllowSiri`
+- Trợ năng → Truy cập được hỗ trợ → Cài đặt mật mã: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE/PasscodeSettings`
+- Trợ năng → Truy cập được hỗ trợ → Cài đặt mật mã → Cài đặt mật mã: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE/PasscodeSettings#PasscodeSettings`
+- Trợ năng → Siri: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE`
+- Trợ năng → Siri → Nhập liệu vào Siri: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_SETTINGS_TYPE_TO_SIRI`
+- Trợ năng → Siri → Thời gian tạm dừng Siri: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#ENDPOINTER`
+- Trợ năng → Siri → Tốc độ đọc của Siri: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SPEECH_RATE`
+- Trợ năng → Siri → Phản hồi được đọc: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK`
+- Trợ năng → Siri → Luôn lắng nghe “Siri”: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_SETTINGS_VOICE_ACTIVATION_ALWAYS_ALLOW`
+- Trợ năng → Siri → Hiện ứng dụng phía sau Siri: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRL_SHOW_APPS`
+- Trợ năng → Siri → Đọc thông báo trên loa: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#ANNOUNCE_NOTIFICATIONS_BUILT_IN_SPEAKER_ID`
+- Trợ năng → Siri → Gác máy cuộc gọi: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE/SIRI_CALL_HANGUP_ID`
+- Trợ năng → Siri → Gác máy cuộc gọi → Gác máy cuộc gọi: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE/SIRI_CALL_HANGUP_ID#SIRI_CALL_HANGUP_ID`
+- Trợ năng → Siri → Lắng nghe Lời nói không điển hình: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_ATYPICAL_SPEECH`
+- Trợ năng → Siri → Yêu cầu “Siri” để làm gián đoạn: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_BARGE`
+- Trợ năng → Phím tắt trợ năng: `prefs:root=ACCESSIBILITY&path=TRIPLE_CLICK_TITLE`
+- Trợ năng → Cài đặt theo ứng dụng: `prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE`
+- Trợ năng → Cài đặt theo ứng dụng → Hiển thị ứng dụng bị ẩn: `prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE#PROTECTED_APPS_SHOW_HIDDEN_TITLE`
+- Trợ năng → Cài đặt theo ứng dụng → Thêm ứng dụng: `prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE#AX_ADD_BUTTON_IDENTIFIER`
+- Trợ năng → Điều khiển thiết bị ở gần: `prefs:root=ACCESSIBILITY&path=CONTROL_NEARBY_DEVICES`
+- Trợ năng → Điều khiển thiết bị ở gần → Điều khiển thiết bị ở gần: `prefs:root=ACCESSIBILITY&path=CONTROL_NEARBY_DEVICES#CONTROL_NEARBY_DEVICES`
+- Trợ năng → Nhập bằng mắt: `prefs:root=ACCESSIBILITY&path=DOMINANT_EYE`
+- Trợ năng → Lời nói trực tiếp: `prefs:root=ACCESSIBILITY&path=LIVE_SPEECH_TITLE`
+- Trợ năng → Lời nói trực tiếp → Cụm từ: `prefs:root=ACCESSIBILITY&path=LIVE_SPEECH_TITLE/LiveSpeechCategoryManagement`
+- Trợ năng → Lời nói trực tiếp → Giọng nói: `prefs:root=ACCESSIBILITY&path=LIVE_SPEECH_TITLE#LIVE_SPEECH_VOICES`
+- Trợ năng → Giọng nói cá nhân: `prefs:root=ACCESSIBILITY&path=PERSONAL_VOICE_TITLE`
+- Trợ năng → Giọng nói cá nhân → Tạo một giọng nói cá nhân: `prefs:root=ACCESSIBILITY&path=PERSONAL_VOICE_TITLE#VB_CREATE_PERSONAL_VOICE`
+- Trợ năng → Giọng nói cá nhân → Chia sẻ trên các thiết bị: `prefs:root=ACCESSIBILITY&path=PERSONAL_VOICE_TITLE#VB_USE_ICLOUD_TITLE`
+- Trợ năng → Giọng nói cá nhân → Cho phép ứng dụng yêu cầu sử dụng: `prefs:root=ACCESSIBILITY&path=PERSONAL_VOICE_TITLE#VB_ALLOW_WITH_APPS`
+- Trợ năng → AirPods: `prefs:root=ACCESSIBILITY&path=AIRPODS`
+- Trợ năng → AirPods → Tốc độ nhấn: `prefs:root=ACCESSIBILITY&path=AIRPODS#TapGroup`
+- Trợ năng → AirPods → Thời gian nhấn và giữ: `prefs:root=ACCESSIBILITY&path=AIRPODS#HoldGroup`
+- Trợ năng → AirPods → Cài đặt Âm thanh & Hình ảnh iPhone: `prefs:root=ACCESSIBILITY&path=AIRPODS#PERSONAL_AUDIO_AIRPODS_BUTTON`
+- Trợ năng → AirPods → Đi theo iPhone: `prefs:root=ACCESSIBILITY&path=AIRPODS#SPATIAL_AUDIO_SWITCH`
+- Trợ năng → AirPods → Âm lượng âm báo: `prefs:root=ACCESSIBILITY&path=AIRPODS#TONE_VOLUME`
+- Trợ năng → Phím tắt giọng nói: `prefs:root=ACCESSIBILITY&path=ADAPTIVE_VOICE_SHORTCUTS_TITLE`
+- Trợ năng → Phím tắt giọng nói → Thiết lập phím tắt giọng nói: `prefs:root=ACCESSIBILITY&path=ADAPTIVE_VOICE_SHORTCUTS_TITLE#AVS_SET_UP_BUTTON_TITLE`
+- Trợ năng → Cảm ứng nhạc: `prefs:root=ACCESSIBILITY&path=HAPTIC_MUSIC`
+- Trợ năng → Theo dõi mắt: `prefs:root=ACCESSIBILITY&path=OnDeviceEyeTracking`
+- Trợ năng → Theo dõi mắt → Theo dõi mắt: `prefs:root=ACCESSIBILITY&path=OnDeviceEyeTracking#OnDeviceEyeTrackingEnabledSpecifier`
+- Trợ năng → Theo dõi mắt → Làm mượt: `prefs:root=ACCESSIBILITY&path=OnDeviceEyeTracking#SMOOTHING`
+- Trợ năng → Theo dõi mắt → Chuyển sang mục: `prefs:root=ACCESSIBILITY&path=OnDeviceEyeTracking#SNAP_TO_ITEM`
+- Trợ năng → Theo dõi mắt → Thu phóng bằng các phím trên bàn phím: `prefs:root=ACCESSIBILITY&path=OnDeviceEyeTracking#KEYBOARD_ZOOM`
+- Trợ năng → Theo dõi mắt → Tự động ẩn: `prefs:root=ACCESSIBILITY&path=OnDeviceEyeTracking#AUTO_HIDE`
+- Trợ năng → Theo dõi mắt → Điều khiển giữ lâu: `prefs:root=ACCESSIBILITY&path=OnDeviceEyeTracking#DWELL_CONTROL`
+- Trợ năng → Điều khiển camera: `prefs:root=ACCESSIBILITY&path=CAMERA_CONTROL`
+- Trợ năng → Điều khiển camera → Điều khiển camera: `prefs:root=ACCESSIBILITY&path=CAMERA_CONTROL#CAMERA_CONTROL_SWITCH`
+- Trợ năng → Điều khiển camera → Nhấn nhẹ: `prefs:root=ACCESSIBILITY&path=CAMERA_CONTROL#LIGHT_PRESS`
+- Trợ năng → Điều khiển camera → Vuốt: `prefs:root=ACCESSIBILITY&path=CAMERA_CONTROL#SWIPE`
+- Trợ năng → Điều khiển camera → Lực nhấn nhẹ: `prefs:root=ACCESSIBILITY&path=CAMERA_CONTROL#LIGHT_PRESS_FORCE`
+- Trợ năng → Điều khiển camera → Tốc độ nhấn nhẹ hai lần: `prefs:root=ACCESSIBILITY&path=CAMERA_CONTROL#SENSITIVITY`
+- Mail: `prefs:root=MAIL`
+- Mail → Tài khoản: `prefs:root=MAIL&path=ACCOUNTS`
+- Mail → Tài khoản → Thêm tài khoản: `prefs:root=MAIL&path=ACCOUNTS#ADD_ACCOUNT`
+- Mail → Tài khoản → Tìm nạp dữ liệu mới: `prefs:root=MAIL&path=ACCOUNTS#FETCH_NEW_DATA`
+- Mail → Xem trước: `prefs:root=MAIL&path=Preview`
+- Mail → Hiển thị nhãn Đến/Cc: `prefs:root=MAIL#Show%20To/Cc%20Labels`
+- Mail → Tùy chọn vuốt: `prefs:root=MAIL&path=Swipe%20Options`
+- Mail → Hỏi trước khi xóa: `prefs:root=MAIL#Ask%20Before%20Deleting`
+- Mail → Tải hình ảnh từ xa: `prefs:root=MAIL#Load%20Remote%20Images`
+- Mail → Sắp xếp theo luồng: `prefs:root=MAIL#Organize%20by%20Thread`
+- Mail → Thu gọn các thư đã đọc: `prefs:root=MAIL#Collapse%20Read%20Messages`
+- Mail → Thư gần đây nhất trên đầu: `prefs:root=MAIL#Most%20Recent%20Message%20on%20Top`
+- Mail → Luồng hoàn chỉnh: `prefs:root=MAIL#Complete%20Threads`
+- Mail → Tác vụ luồng đã tắt thông báo: `prefs:root=MAIL&path=Muted%20Thread%20Action`
+- Mail → Bỏ qua người gửi bị chặn: `prefs:root=MAIL#Ignore%20Blocked%20Senders`
+- Mail → Tùy chọn người gửi bị chặn: `prefs:root=MAIL&path=Blocked%20Sender%20Options`
+- Mail → Bị chặn: `prefs:root=MAIL&path=Blocked`
+- Mail → Luôn Bcc cho tôi: `prefs:root=MAIL#Always%20Bcc%20Myself`
+- Mail → Đánh dấu địa chỉ: `prefs:root=MAIL&path=Mark%20Addresses`
+- Mail → Tăng mức trích dẫn: `prefs:root=MAIL&path=Increase%20Quote%20Level`
+- Mail → Giữ tệp đính kèm trong thư trả lời: `prefs:root=MAIL&path=Include%20Attachments%20with%20Replies`
+- Mail → Chữ ký: `prefs:root=MAIL&path=Signature`
+- Hình nền: `prefs:root=Wallpaper`
+- Ghi chú: `prefs:root=NOTES`
+- Ghi chú → Tài khoản mặc định: `prefs:root=NOTES&path=Default%20Account`
+- Ghi chú → Mật khẩu: `prefs:root=NOTES&path=Password`
+- Ghi chú → Sắp xếp ghi chú theo: `prefs:root=NOTES&path=Sort%20Notes%20By`
+- Ghi chú → Ghi chú mới bắt đầu bằng: `prefs:root=NOTES&path=New%20Notes%20Start%20With`
+- Ghi chú → Sắp xếp mục đã chọn: `prefs:root=NOTES&path=Sort%20Checked%20Items`
+- Ghi chú → Đường kẻ & lưới: `prefs:root=NOTES&path=Lines%20%26%20Grids`
+- Ghi chú → Lưu vào Ảnh: `prefs:root=NOTES#Save%20to%20Photos`
+- Ghi chú → Truy cập ghi chú từ Màn hình khóa: `prefs:root=NOTES&path=Access%20Notes%20from%20Lock%20Screen`
+- Mật mã: `prefs:root=PASSCODE`
+- Mật mã → Tắt mật mã: `prefs:root=PASSCODE#PASSCODE_OFF`
+- Mật mã → Thay đổi mật mã: `prefs:root=PASSCODE#CHANGE_PASSCODE`
+- Mật mã → Yêu cầu mật mã: `prefs:root=PASSCODE&path=PASSCODE_REQ`
+- Mật mã → Quay số bằng giọng nói: `prefs:root=PASSCODE#VOICE_DIAL`
+- Mật mã → Cho phép truy cập khi bị khóa: `prefs:root=PASSCODE#ALLOW_ACCESS_WHEN_LOCKED`
+- Mật mã → Trả lời bằng tin nhắn: `prefs:root=PASSCODE#REPLY_WITH_MESSAGE_SWITCH`
+- Mật mã → Điều khiển Nhà: `prefs:root=PASSCODE#HOME_CONTROL_SWITCH`
+- Mật mã → Ví: `prefs:root=PASSCODE#WALLET_SWITCH`
+- Mật mã → Gọi lại cuộc gọi nhỡ: `prefs:root=PASSCODE#RETURN_MISSED_CALLS_SWITCH`
+- Mật mã → Xóa dữ liệu: `prefs:root=PASSCODE#WIPE_DEVICE`
+- Mật mã → Mở khóa bằng Apple Watch: `prefs:root=PASSCODE#AUTO_UNLOCK_DEVICES_GROUP`
+- Mật mã → Bảo vệ thiết bị khi bị đánh cắp: `prefs:root=PASSCODE#DTO_GROUP_ID`
+- Lịch: `prefs:root=CALENDAR`
+- Lịch → Thay thế múi giờ: `prefs:root=CALENDAR&path=TimeZoneCityArray`
+- Lịch → Lịch thay thế: `prefs:root=CALENDAR&path=Alternate%20Calendars`
+- Lịch → Số tuần: `prefs:root=CALENDAR#Week%20Numbers`
+- Lịch → Hiển thị lời mời bị từ chối: `prefs:root=CALENDAR#Show%20Invitee%20Declines`
+- Lịch → Đồng bộ hóa: `prefs:root=CALENDAR&path=Sync`
+- Lịch → Giờ báo mặc định: `prefs:root=CALENDAR&path=Default%20Alert%20Times`
+- Lịch → Bắt đầu tuần vào: `prefs:root=CALENDAR&path=Start%20Week%20On`
+- Lịch → Gợi ý vị trí: `prefs:root=CALENDAR#Location%20Suggestions`
+- Dữ liệu sức khỏe: `prefs:root=HEALTH`
+- Điện thoại: `prefs:root=Phone`
+- Điện thoại → Số của tôi: `prefs:root=Phone&path=My%20Number`
+- Điện thoại → Cuộc gọi đến: `prefs:root=Phone&path=INCOMING_CALL_STYLE`
+- Điện thoại → Thông báo cuộc gọi: `prefs:root=Phone&path=ANNOUNCE_CALLS`
+- Điện thoại → Báo cáo SMS/cuộc gọi: `prefs:root=Phone&path=CLASSIFICATION_AND_REPORTING`
+- Điện thoại → Phản hồi bằng tin nhắn: `prefs:root=Phone&path=Respond%20with%20Text`
+- Điện thoại → Chuyển cuộc gọi: `prefs:root=Phone&path=Call%20Forwarding`
+- Điện thoại → Chuyển cuộc gọi → Chuyển cuộc gọi: `prefs:root=Phone&path=Call%20Forwarding#idMasterOnOffSwitch`
+- Điện thoại → Chờ cuộc gọi: `prefs:root=Phone&path=Call%20Waiting`
+- Điện thoại → Hiện ID người gọi của tôi: `prefs:root=Phone&path=Show%20My%20Caller%20ID`
+- Điện thoại → Hiện ID người gọi của tôi → Hiện ID người gọi của tôi: `prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary`
+- Điện thoại → Hiện ID người gọi của tôi → Hiện ID người gọi của tôi → Hiện ID người gọi của tôi: `prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary#Show%20My%20Caller%20ID`
+- Điện thoại → Tắt tiếng cuộc gọi lạ: `prefs:root=Phone#SILENCE_CALLS`
+- Điện thoại → Liên hệ bị chặn: `prefs:root=Phone&path=SPECIFIER_IDENTIFIER_BLACKLIST`
+- Điện thoại → Hỗ trợ quay số: `prefs:root=Phone&path=Dial%20Assist`
+- App Store: `prefs:root=STORE`
+- App Store → Tải về tự động: `prefs:root=STORE#Automatic%20Downloads`
+- App Store → Cập nhật ứng dụng: `prefs:root=STORE#App%20Updates`
+- App Store → Tải về ứng dụng: `prefs:root=STORE&path=App%20Downloads`
+- App Store → Tự động phát video: `prefs:root=STORE&path=Video%20Autoplay`
+- App Store → Xếp hạng & nhận xét in-app: `prefs:root=STORE#In-App%20Ratings%20&%20Reviews`
+- Quyền riêng tư & Bảo mật: `prefs:root=Privacy` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity`
+- Quyền riêng tư & Bảo mật → Sức khỏe: `prefs:root=Privacy&path=HEALTH` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/HEALTH`
+- Quyền riêng tư & Bảo mật → Dữ liệu sức khỏe: `prefs:root=Privacy&path=HEALTH_DATA` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/HEALTH_DATA`
+- Quyền riêng tư & Bảo mật → Địa điểm: `prefs:root=Privacy&path=LOCATION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/LOCATION`
+- Quyền riêng tư & Bảo mật → Địa điểm → Chia sẻ vị trí của tôi: `prefs:root=Privacy&path=LOCATION/LOCATION_SHARING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/LOCATION/LOCATION_SHARING`
+- Quyền riêng tư & Bảo mật → Danh bạ: `prefs:root=Privacy&path=CONTACTS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CONTACTS`
+- Quyền riêng tư & Bảo mật → Lịch: `prefs:root=Privacy&path=CALENDARS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CALENDARS`
+- Quyền riêng tư & Bảo mật → Lời nhắc: `prefs:root=Privacy&path=REMINDERS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/REMINDERS`
+- Quyền riêng tư & Bảo mật → Ảnh: `prefs:root=Privacy&path=PHOTOS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PHOTOS`
+- Quyền riêng tư & Bảo mật → Chia sẻ qua Bluetooth: `prefs:root=Privacy&path=BT_PERIPHERAL` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/BT_PERIPHERAL`
+- Quyền riêng tư & Bảo mật → Micrô: `prefs:root=Privacy&path=MICROPHONE` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/MICROPHONE`
+- Quyền riêng tư & Bảo mật → Nhận dạng lời nói: `prefs:root=Privacy&path=SPEECH_RECOGNITION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/SPEECH_RECOGNITION`
+- Quyền riêng tư & Bảo mật → Camera: `prefs:root=Privacy&path=CAMERA` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CAMERA`
+- Quyền riêng tư & Bảo mật → HomeKit: `prefs:root=Privacy&path=WILLOW` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/WILLOW`
+- Quyền riêng tư & Bảo mật → Phương tiện & Apple Music: `prefs:root=Privacy&path=MEDIALIBRARY` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/MEDIALIBRARY`
+- Quyền riêng tư & Bảo mật → Phân tích: `prefs:root=Privacy&path=PROBLEM_REPORTING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PROBLEM_REPORTING`
+- Quyền riêng tư & Bảo mật → Quảng cáo: `prefs:root=Privacy&path=ADVERTISING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/ADVERTISING`
+- Quyền riêng tư & Bảo mật → Tệp và thư mục: `prefs:root=Privacy&path=FILEACCESS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/FILEACCESS`
+- Quyền riêng tư & Bảo mật → Theo dõi: `prefs:root=Privacy&path=USER_TRACKING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/USER_TRACKING`
+- Quyền riêng tư & Bảo mật → Báo cáo bảo mật ứng dụng: `prefs:root=Privacy&path=PRIVACY_REPORT` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PRIVACY_REPORT`
+- Quyền riêng tư & Bảo mật → Chế độ phong tỏa: `prefs:root=Privacy#LOCKDOWN_MODE` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity#LOCKDOWN_MODE#LOCKDOWN_MODE`
+- Quyền riêng tư & Bảo mật → Nội dung nhạy cảm: `prefs:root=Privacy#NUDITY_DETECTION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity#NUDITY_DETECTION#NUDITY_DETECTION`
+- Đo: `prefs:root=MEASURE`
+- Đo → Các đơn vị đo: `prefs:root=MEASURE#MEASURE_UNITS`
+- Đo → Hệ Anh: `prefs:root=MEASURE#Imperial`
+- Đo → Hệ mét: `prefs:root=MEASURE#Metric`
+- Video: `prefs:root=TVAPP`
+- Video → Sử dụng dữ liệu di động cho phát lại: `prefs:root=TVAPP#com.apple.videos%3AVideosUseCellularDataEnabledSetting`
+- Video → Chất lượng phát lại: `prefs:root=TVAPP#com.apple.videos%3APlaybackQualityGroup`
+- Video → Mua và Thuê: `prefs:root=TVAPP&path=com.apple.videos%3APreferredPurchaseResolution`
+- Video → Home Sharing: `prefs:root=TVAPP#com.apple.videos%3AHomeSharingFooter`
+- Game Center: `prefs:root=GAMECENTER`
+- Ghi âm: `prefs:root=VOICE_MEMOS`
+- Ghi âm → Xóa vĩnh viễn: `prefs:root=VOICE_MEMOS&path=RCVoiceMemosRecentlyDeletedWindowKey`
+- Ghi âm → Chất lượng âm thanh: `prefs:root=VOICE_MEMOS&path=RCVoiceMemosAudioQualityKey`
+- Ghi âm → Đặt tên dựa trên vị trí: `prefs:root=VOICE_MEMOS#RCVoiceMemosUseLocationBasedNaming`
+- Phím tắt: `prefs:root=SHORTCUTS`
+- Phím tắt → Đồng bộ hóa iCloud: `prefs:root=SHORTCUTS#WFCloudKitSyncEnabled`
+- Phím tắt → Đồng bộ hóa thứ tự phím tắt: `prefs:root=SHORTCUTS#WFCloudKitSyncOrderEnabled`
+- Phím tắt → Thông báo pháp lý: `prefs:root=SHORTCUTS&path=Legal%20Notices`
+- Lời nhắc: `prefs:root=REMINDERS`
+- Lời nhắc → Danh sách Mặc định: `prefs:root=REMINDERS&path=DEFAULT_LIST`
+- Lời nhắc → Danh sách Mặc định → Lời nhắc: `prefs:root=REMINDERS&path=DEFAULT_LIST#preferredDefaultListID`
+- Lời nhắc → Thông báo hôm nay: `prefs:root=REMINDERS#todayNotificationFireTime`
+- Lời nhắc → Hiển thị là quá hạn: `prefs:root=REMINDERS#showRemindersAsOverdue`
+- Nhạc: `prefs:root=MUSIC`
+- Nhạc → Hiển thị Apple Music: `prefs:root=MUSIC#com.apple.Music%3AAppleMusicEnabled`
+- Nhạc → Thêm bài hát playlist: `prefs:root=MUSIC#com.apple.Music%3AAddPlaylistSongsToMyMusicSwitch`
+- Nhạc → Hiển thị xếp hạng sao: `prefs:root=MUSIC#com.apple.Music%3AShowStarRatings`
+- Nhạc → Đồng bộ hóa thư viện: `prefs:root=MUSIC#com.apple.Music%3ACloudMusicLibraryEnabled`
+- Nhạc → Dữ liệu di động: `prefs:root=MUSIC&path=com.apple.Music%3ACellularData`
+- Nhạc → Nhạc đã tải về: `prefs:root=MUSIC&path=com.apple.Music%3AMusicUsageLink`
+- Nhạc → Tối ưu hóa dung lượng: `prefs:root=MUSIC&path=com.apple.Music%3AOptimizeStorage`
+- Nhạc → Tải về tự động: `prefs:root=MUSIC#com.apple.Music%3AMusicAutomaticDownload`
+- Nhạc → EQ: `prefs:root=MUSIC&path=com.apple.Music%3AEQ`
+- Nhạc → Kiểm tra âm thanh: `prefs:root=MUSIC#com.apple.Music%3ASoundCheck`
+- Nhạc → Sử dụng lịch sử nghe: `prefs:root=MUSIC#com.apple.Music%3APrivateListening`
+- Siri: `prefs:root=SIRI`
+- Siri → Cho phép Siri khi bị khóa: `prefs:root=SIRI#ASSISTANT_LOCK_SCREEN_ACCESS`
+- Siri → Ngôn ngữ: `prefs:root=SIRI&path=LANGUAGE_ID`
+- Siri → Giọng nói của Siri: `prefs:root=SIRI&path=VOICE_ID`
+- Siri → Phản hồi bằng giọng nói: `prefs:root=SIRI&path=VOICE_FEEDBACK_ID`
+- Siri → Thông tin của tôi: `prefs:root=SIRI&path=MY_INFO`
+- Âm thanh: `prefs:root=Sounds`
+- Âm thanh → An toàn tai nghe: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING`
+- Âm thanh → An toàn tai nghe → Bộ tiếp hợp Lightning: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING/HEADPHONE_LIGHTNING_ADAPTERS`
+- Âm thanh → An toàn tai nghe → Thông báo tai nghe: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneWeeklyNotificationsKey`
+- Âm thanh → An toàn tai nghe → Giảm âm thanh lớn: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneLevelLimitSwitchKey`
+- Âm thanh → Hiệu ứng âm thanh: `prefs:root=Sounds&path=SOUND_EFFECTS`
+- Âm thanh → Chuông và âm báo: `prefs:root=Sounds#RINGER_AND_ALERT_GROUP`
+- Âm thanh → Thay đổi bằng nút: `prefs:root=Sounds#CHANGE_WITH_BUTTONS`
+- Âm thanh → Kiểu âm thanh và rung: `prefs:root=Sounds#SOUNDS_ALERT_GROUP`
+- Âm thanh → Nhạc chuông: `prefs:root=Sounds&path=Ringtone`
+- Âm thanh → Âm báo tin nhắn: `prefs:root=Sounds&path=Text_Messages`
+- Âm thanh → Thư thoại mới: `prefs:root=Sounds&path=Voicemail`
+- Âm thanh → Thư mới: `prefs:root=Sounds&path=NEW_MAIL`
+- Âm thanh → Thư đã gửi: `prefs:root=Sounds&path=SENT_MAIL`
+- Âm thanh → Cảnh báo lịch: `prefs:root=Sounds&path=Calendar%20Alarm`
+- Âm thanh → Cảnh báo lời nhắc: `prefs:root=Sounds&path=Reminder%20Alerts`
+- Âm thanh → Bấm bàn phím: `prefs:root=Sounds#KEYBOARD_SOUND_SWITCH`
+- Âm thanh → Âm thanh khóa: `prefs:root=Sounds#LOCK_SOUND_SWITCH`
+- Âm thanh → Âm thanh không gian cá nhân hóa: `prefs:root=Sounds&path=Personalized%20Spatial%20Audio`
+- Apple Pencil: `prefs:root=Pencil`
+- Apple Pencil → Apple Pencil: `prefs:root=Pencil#PrefersPencilDraws`
+- Apple Pencil → Apple Pencil: `prefs:root=Pencil#PencilTextInput`
+- SOS khẩn cấp: `prefs:root=EMERGENCY_SOS`
+- SOS khẩn cấp → Gọi bằng nút sườn: `prefs:root=EMERGENCY_SOS#CALL_WITH_SIDE_BUTTON`
+- SOS khẩn cấp → Tự động gọi: `prefs:root=EMERGENCY_SOS#AUTO_CALL`
+- SOS khẩn cấp → Liên hệ khẩn cấp: `prefs:root=EMERGENCY_SOS#EMERGENCY_CONTACTS`
+- SOS khẩn cấp → Âm thanh đếm ngược: `prefs:root=EMERGENCY_SOS#ALARM_SOUND_SWITCH`
+- Wi-Fi: `prefs:root=WIFI`
+- Danh bạ: `prefs:root=CONTACTS`
+- Danh bạ → Cho phép Danh bạ truy cập: `prefs:root=CONTACTS#Allow%20Contacts%20To%20Access`
+- Danh bạ → Siri: `prefs:root=CONTACTS&path=SIRI_AND_SEARCH`
+- Danh bạ → Thứ tự sắp xếp: `prefs:root=CONTACTS&path=ContactsSortOrder`
+- Danh bạ → Thứ tự hiển thị: `prefs:root=CONTACTS&path=PersonNameOrder`
+- Danh bạ → Tên viết tắt: `prefs:root=CONTACTS&path=PersonShortName`
+- Danh bạ → Tên viết tắt → Tên viết tắt: `prefs:root=CONTACTS&path=PersonShortName#Short%20Name`
+- Danh bạ → Tên viết tắt → Ưu tiên biệt danh: `prefs:root=CONTACTS&path=PersonShortName#Prefer%20Nicknames`
+- Danh bạ → Thông tin của tôi: `prefs:root=CONTACTS&path=MeCard`
+- Danh bạ → Nhập danh bạ trên SIM: `prefs:root=CONTACTS#SIMImport`
+- Trung tâm điều khiển: `prefs:root=ControlCenter`
+- Trung tâm điều khiển → Truy cập bên trong ứng dụng: `prefs:root=ControlCenter#ALLOWED_WITHIN_APPS`
+- Trung tâm điều khiển → Tùy chỉnh điều khiển: `prefs:root=ControlCenter&path=CUSTOMIZE_CONTROLS`
+- Nhà phát triển: `prefs:root=DEVELOPER_SETTINGS`
+- Nhà phát triển → Kết nối mạng nhiều đường dẫn: `prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG`
+- Nhà phát triển → Kết nối mạng nhiều đường dẫn → Kết nối mạng nhiều đường dẫn: `prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG#Multipath%20Networking`
+- Nhà phát triển → Giao diện: `prefs:root=DEVELOPER_SETTINGS#UIAppearanceGroup`
+- Nhà phát triển → Giao diện tối: `prefs:root=DEVELOPER_SETTINGS#UIAppearanceSettings`
+- Nhà phát triển → Thiết bị đã ghép đôi: `prefs:root=DEVELOPER_SETTINGS#DTPairedDevicesGroup`
+- Nhà phát triển → Xóa máy tính được tin cậy: `prefs:root=DEVELOPER_SETTINGS#CLEAR_TRUSTED_COMPUTERS`
+- Nhà phát triển → Ghi nhật ký: `prefs:root=DEVELOPER_SETTINGS&path=DTInstrumentsSettings`
+- Nhà phát triển → Bật tự động hóa UI: `prefs:root=DEVELOPER_SETTINGS#UIAGroup`
+- Nhà phát triển → Kết nối mạng: `prefs:root=DEVELOPER_SETTINGS#NLCGroup`
+- Nhà phát triển → Bộ điều tiết liên kết mạng: `prefs:root=DEVELOPER_SETTINGS&path=NLC`
+- Nhà phát triển → Ghi nhật ký bổ sung: `prefs:root=DEVELOPER_SETTINGS#ADDITIONAL_LOGGING`
+- Nhà phát triển → Cho phép dịch vụ HTTP: `prefs:root=DEVELOPER_SETTINGS#ALLOW_HTTP_SERVICES`
+- Nhà phát triển → Tắt giới hạn tốc độ: `prefs:root=DEVELOPER_SETTINGS#DISABLE_RATE_LIMITING`
+- Nhà phát triển → Khóa bảo mật NFC tùy chọn: `prefs:root=DEVELOPER_SETTINGS#NFC_PASS_KEY_OPTIONAL`
+- Nhà phát triển → Kiểm tra dịch vụ phương tiện: `prefs:root=DEVELOPER_SETTINGS#MEDIA_SERVICES_TESTING`
+- Nhà phát triển → Đặt lại dịch vụ phương tiện: `prefs:root=DEVELOPER_SETTINGS#RESET_MEDIA_SERVICES`
+- Nhà phát triển → Kiểm tra News: `prefs:root=DEVELOPER_SETTINGS#NEWS_TESTING`
+- Nhà phát triển → Đặt lại dữ liệu cục bộ trong lần khởi chạy tiếp theo: `prefs:root=DEVELOPER_SETTINGS#RESET_LOCAL_DATA_ON_NEXT_LAUNCH`
+- Nhà phát triển → Kiểm tra khung trình phát phương tiện: `prefs:root=DEVELOPER_SETTINGS#RoutineSettingsGroup`
+- Nhà phát triển → API nội dung có thể phát: `prefs:root=DEVELOPER_SETTINGS&path=RoutineSettings`
+- Nhà phát triển → Nhà cung cấp TV: `prefs:root=DEVELOPER_SETTINGS&path=VideoSubscriberAccountSettings`
+- Nhà phát triển → ClassKit API: `prefs:root=DEVELOPER_SETTINGS&path=ClassKitSettings`
+- Nhà phát triển → Kiểm tra CoreSpotlight: `prefs:root=DEVELOPER_SETTINGS#CORESPOTLIGHT_TESTING`
+- Nhà phát triển → Tạo lại chỉ mục tất cả các mục: `prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS`
+- Nhà phát triển → Tạo lại chỉ mục tất cả các mục có mã định danh: `prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS_WITH_IDENTIFIERS`
+- Nhà phát triển → Kiểm tra Phím tắt: `prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_TESTING`
+- Nhà phát triển → Hiển thị phím tắt gần đây: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_SPOTLIGHT`
+- Nhà phát triển → Hiển thị phương tiện sắp tới: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_UPCOMING_MEDIA`
+- Nhà phát triển → Hiển thị tài trợ trên Màn hình khóa: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_LOCKSCREEN`
+- Nhà phát triển → Bắt buộc đồng bộ hóa phím tắt với Watch: `prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_SYNC_WATCHOS`
+- Nhà phát triển → Kiểm tra MIDI-CI: `prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA`
+- Nhà phát triển → Bật MIDI-CI: `prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA_ENABLE`
+- Nhà phát triển → Phát hiện treo: `prefs:root=DEVELOPER_SETTINGS#HANGTRACER_EXTERNAL_CONFIGURE`
+- Bluetooth: `prefs:root=Bluetooth`
+- Chứng khoán: `prefs:root=STOCKS`
+- Chứng khoán → Quyền riêng tư: `prefs:root=STOCKS#Privacy`
+- Chứng khoán → Đặt lại mã định danh: `prefs:root=STOCKS#reset_identifier`
+- Dịch thuật: `prefs:root=TRANSLATE`
+- Dịch thuật → Chế độ trên thiết bị: `prefs:root=TRANSLATE#OnDeviceOnly`
+- News: `prefs:root=NEWS`
+- News → Hiển thị xem trước tin tức: `prefs:root=NEWS#show_excerpt_mode`
+- News → Giới hạn tin tức trong Today: `prefs:root=NEWS#showStoriesFromFavoritesSpecifierID`
+- News → Quyền riêng tư: `prefs:root=NEWS#Privacy`
+- News → Đặt lại mã định danh: `prefs:root=NEWS#reset_identifier`
+- News → Công nhận: `prefs:root=NEWS&path=Acknowledgements`
+- Tin nhắn: `prefs:root=MESSAGES`
+- FaceTime: `prefs:root=FACETIME`
+- Ảnh: `prefs:root=Photos`
+- Ảnh → Ảnh iCloud: `prefs:root=Photos#iCloudPhotosSwitch`
+- Ảnh → Tối ưu hóa dung lượng: `prefs:root=Photos#iCloudOptimizeStorageOption`
+- Ảnh → Tải về và giữ lại bản gốc: `prefs:root=Photos#iCloudKeepOriginalsOption`
+- Ảnh → Album được chia sẻ: `prefs:root=Photos#SharedStreamsSwitch`
+- Ảnh → Dữ liệu di động: `prefs:root=Photos&path=CellularDataLinkList`
+- Ảnh → Tự động phát video: `prefs:root=Photos#VideoAutoplaySwitch`
+- Ảnh → Xem HDR đầy đủ: `prefs:root=Photos#ImageModulationSwitch`
+- Ảnh → Hiển thị sự kiện Ngày lễ: `prefs:root=Photos#MEMORIES_HOLIDAY_CALENDAR_EVENTS_SWITCH`
+- Ảnh → Chuyển đến máy Mac hoặc PC: `prefs:root=Photos#TransferGroup`
+- Thông báo tiếp xúc: `prefs:root=EXPOSURE_NOTIFICATION`
+- Camera: `prefs:root=CAMERA`
+- Camera → Định dạng: `prefs:root=CAMERA&path=CameraFormatsSettingsList`
+- Camera → Định dạng → Apple ProRaw: `prefs:root=CAMERA&path=CameraFormatsSettingsList#CAMUserPreferenceEnableLinearDNGControl`
+- Camera → Record Video: `prefs:root=CAMERA&path=Record%20Video`
+- Camera → Record Video → Video HDR: `prefs:root=CAMERA&path=Record%20Video#HDR%20Video`
+- Camera → Bảo lưu cài đặt: `prefs:root=CAMERA&path=CameraPreserveSettingsSwitch`
+- Camera → Bảo lưu cài đặt → Chế độ camera: `prefs:root=CAMERA&path=CameraPreserveSettingsSwitch#CAMUserPreferencePreserveCaptureMode`
+- Camera → Lưới: `prefs:root=CAMERA#CameraGridSwitch`
+- Camera → Quét mã QR: `prefs:root=CAMERA#CameraQRBannerSwitch`
+- Di động: `prefs:root=MOBILE_DATA_SETTINGS_ID`
+- Di động → Tùy chọn dữ liệu di động: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS`
+- Di động → Tùy chọn dữ liệu di động → Chế độ dữ liệu thấp: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS#Low%20Data%20Mode`
+- Di động → Dữ liệu di động: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=SHOW_ALL`
+- Podcast: `prefs:root=PODCASTS`
+- La bàn: `prefs:root=COMPASS`
+- La bàn → Sử dụng hướng Bắc thực: `prefs:root=COMPASS#USE_TRUE_NORTH`
+- Sách: `prefs:root=IBOOKS`
+- Sách → Nội dung trực tuyến: `prefs:root=IBOOKS#BKAllowOnlineContent`
+- Sách → ĐỒNG BỘ HÓA: `prefs:root=IBOOKS#SYNCING`
+- Sách → Đang đọc: `prefs:root=IBOOKS#BKLibrary.ReadingNow`
+- Sách → iCloud Drive: `prefs:root=IBOOKS#BCSyncICloudDrive`
+- Sách → ĐỌC: `prefs:root=IBOOKS#READING`
+- Sách → Căn đều hai lề: `prefs:root=IBOOKS#BKFullJustification`
+- Sách → Tự động ngắt từ: `prefs:root=IBOOKS#BKAutoHyphenation`
+- Sách → Sang trang từ cả hai lề: `prefs:root=IBOOKS#BKLeftTapTurnToNext`
+- Sách → Mục tiêu đọc: `prefs:root=IBOOKS#READING_GOALS`
+- Sách → Xóa dữ liệu mục tiêu đọc: `prefs:root=IBOOKS#BKReadingGoalsShouldClearDataKey`
+- Sách → TÌM KIẾM: `prefs:root=IBOOKS#SEARCHING`
+- Sách → Book Store: `prefs:root=IBOOKS#BKIncludeBookStoreResultsInSearch`
+- Sách → SÁCH NÓI: `prefs:root=IBOOKS#AUDIOBOOKS`
+- Sách → Tiến về trước: `prefs:root=IBOOKS&path=BKAudioBookSkipForward`
+- Sách → Lùi về sau: `prefs:root=IBOOKS&path=BKAudioBookSkipBackward`
+- Sách → ĐIỀU KHIỂN BÊN NGOÀI: `prefs:root=IBOOKS#BKRemoteSkipInsteadOfNextTrackDefaultKey`
+- Sách → Tiếp theo/Trước đó: `prefs:root=IBOOKS#Next/Previous`
+- Sách → Tiến về trước/lùi về sau: `prefs:root=IBOOKS#Skip%20Forward/Back`
+- Sách → QUYỀN RIÊNG TƯ: `prefs:root=IBOOKS#PRIVACY`
+- Sách → Đặt lại mã định danh: `prefs:root=IBOOKS#BAResetAnalyticsUserID`
+- Sách → Công nhận: `prefs:root=IBOOKS&path=Acknowledgements`
+- Chế độ máy bay: `prefs:root=ROOT#AIRPLANE_MODE`

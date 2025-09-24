@@ -1,0 +1,29 @@
+- บัญชี Apple: `settings-navigation://com.apple.Settings.AppleAccount`
+- บัญชี Apple → iCloud: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE`
+- บัญชี Apple → iCloud → ปฏิทิน: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Calendars`
+- บัญชี Apple → iCloud → ปฏิทิน → ส่งและรับ: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Calendars/CALENDAR_SEND_RECEIVE`
+- บัญชี Apple → iCloud → ปฏิทิน → รับอีเมลการอัปเดต: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Calendars/CALENDAR_SHARED_CALENDAR_UPDATE`
+- บัญชี Apple → iCloud → เมล: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail`
+- บัญชี Apple → iCloud → เมล → อีเมลเริ่มต้น: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/DEFAULT_EMAIL`
+- บัญชี Apple → iCloud → เมล → ที่อยู่: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/ALIASES`
+- บัญชี Apple → iCloud → เมล → ตอบกลับอัตโนมัติ: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/AUTO_REPLY`
+- บัญชี Apple → iCloud → เมล → กฎเมลบน iCloud: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/SERVER_SIDE_RULES`
+- บัญชี Apple → iCloud → เมล → การส่งต่อเมล: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/MAIL_FORWARDING`
+- บัญชี Apple → iCloud → เมล → ลักษณะการทำงานของกล่องเมล: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/MAILBOX_BEHAVIORS`
+- บัญชี Apple → iCloud → เมล → การเซ็นชื่อและการเข้ารหัส: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/S_MIME`
+- บัญชี Apple → iCloud → เมล → นำเข้าข้อความ: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/MAIL_IMPORT`
+- Apps: `settings-navigation://com.apple.Settings.Apps`
+- Apps → Fitness: `settings-navigation://com.apple.Settings.Apps/com.apple.Fitness`
+- Apps → Safari: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/`
+- Apps → Safari → ส่วนขยาย: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/WEB_EXTENSIONS`
+- Apps → Safari → ปิดกั้นหน้าต่างที่แสดงขึ้น: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari#BLOCK_POPUPS`
+- Apps → Safari → ป้องกันการติดตามข้ามไซต์: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari#TRACKER_PROTECTION`
+- Apps → Safari → ป้อนอัตโนมัติ: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/AUTO_FILL`
+- Apps → Safari → รายการดาวน์โหลด: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/DOWNLOADS`
+- Apps → รหัสผ่าน: `settings-navigation://com.apple.Settings.Apps/com.apple.Passwords`
+- Apps → รหัสผ่าน → คำแนะนำเพื่อความปลอดภัย: `settings-navigation://com.apple.Settings.Apps/com.apple.Passwords#SECURITY_RECOMMENDATIONS`
+- ความเป็นส่วนตัวและความปลอดภัย: `settings-navigation://com.apple.Settings.PrivacyAndSecurity`
+- ความเป็นส่วนตัวและความปลอดภัย → การตรวจสอบด้านความปลอดภัย: `settings-navigation://com.apple.Settings.PrivacyAndSecurity/SAFETY_CHECK`
+- บ้าน: `settings-navigation://com.apple.Settings.HomeKit`
+- Search: `settings-navigation://com.apple.Settings.Search`
+- ผู้ให้บริการทีวี: `settings-navigation://com.apple.Settings.TVProvider`

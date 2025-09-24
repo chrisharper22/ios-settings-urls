@@ -1,0 +1,426 @@
+- Accessibilitat: `bridge:root=ACCESSIBILITY`
+- Accessibilitat → Visió: `bridge:root=ACCESSIBILITY#VISION`
+- Accessibilitat → VoiceOver: `bridge:root=ACCESSIBILITY&path=VOICEOVER_TITLE`
+- Accessibilitat → Zoom: `bridge:root=ACCESSIBILITY&path=ZOOM_TITLE`
+- Accessibilitat → Text en negreta: `bridge:root=ACCESSIBILITY#BoldTextEnabled`
+- Accessibilitat → Etiquetes I/O: `bridge:root=ACCESSIBILITY#OnOffLabelsEnabled`
+- Accessibilitat → Escala de grisos: `bridge:root=ACCESSIBILITY#GrayscaleDisplay`
+- Accessibilitat → Redueix la transparència: `bridge:root=ACCESSIBILITY#REDUCE_TRANSPARENCY`
+- Accessibilitat → Redueix el moviment: `bridge:root=ACCESSIBILITY&path=ReduceMotion`
+- Accessibilitat → Timbre: `bridge:root=ACCESSIBILITY&path=TapticChimesCell`
+- Accessibilitat → Timbre → Timbre: `bridge:root=ACCESSIBILITY&path=TapticChimesCell#Chimes`
+- Accessibilitat → Timbre → Programació: `bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule`
+- Accessibilitat → Timbre → Programació → Cada hora: `bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule#Hourly`
+- Accessibilitat → Timbre → Programació → 30 minuts: `bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule#30%20minutes`
+- Accessibilitat → Timbre → Programació → 15 min: `bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule#15%20minutes`
+- Accessibilitat → Timbre → Sons: `bridge:root=ACCESSIBILITY&path=TapticChimesCell/Sounds`
+- Accessibilitat → Timbre → Sons → Campanes: `bridge:root=ACCESSIBILITY&path=TapticChimesCell/Sounds#Bells`
+- Accessibilitat → Timbre → Sons → Ocells: `bridge:root=ACCESSIBILITY&path=TapticChimesCell/Sounds#Birds`
+- Accessibilitat → Motricitat: `bridge:root=ACCESSIBILITY#MotorGroupCell`
+- Accessibilitat → Velocitat premuda lateral: `bridge:root=ACCESSIBILITY&path=SideButton`
+- Accessibilitat → Velocitat premuda lateral → Velocitat de premuda: `bridge:root=ACCESSIBILITY&path=SideButton#SIDE_SPEED_HEADER`
+- Accessibilitat → Velocitat premuda lateral → Per omissió: `bridge:root=ACCESSIBILITY&path=SideButton#SIDE_CLICK_SPEED_DEFAULT`
+- Accessibilitat → Velocitat premuda lateral → Lenta: `bridge:root=ACCESSIBILITY&path=SideButton#SIDE_CLICK_SPEED_SLOW`
+- Accessibilitat → Velocitat premuda lateral → Molt lenta: `bridge:root=ACCESSIBILITY&path=SideButton#SIDE_CLICK_SPEED_SLOWEST`
+- Accessibilitat → Facilitats tàctils: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell`
+- Accessibilitat → Facilitats tàctils → Facilitats tàctils: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#TOUCH_ACCOMMODATIONS_SWITCHER`
+- Accessibilitat → Facilitats tàctils → Durada de la premuda: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#HoldDurationGroup`
+- Accessibilitat → Facilitats tàctils → Durada de la premuda: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#HoldDuration`
+- Accessibilitat → Facilitats tàctils → Ignora la repetició: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#IgnoreRepeatGroup`
+- Accessibilitat → Facilitats tàctils → Ignora la repetició: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#IgnoreRepeat`
+- Accessibilitat → Facilitats tàctils → Assistència de toc: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#Tap%20Assistance`
+- Accessibilitat → Facilitats tàctils → No: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#OFF`
+- Accessibilitat → Facilitats tàctils → Utilitza la ubicació del toc inicial: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#ACTIVATE_ON_TOUCH`
+- Accessibilitat → Facilitats tàctils → Utilitza la ubicació del toc final: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#ACTIVATE_ON_RELEASE`
+- Accessibilitat → ACTIVITAT AMB CADIRA DE RODES: `bridge:root=ACCESSIBILITY#MOBILITY`
+- Accessibilitat → Walkie-talkie: `bridge:root=ACCESSIBILITY#WalkieTalkieTapToTalkGroup`
+- Accessibilitat → Toca per parlar: `bridge:root=ACCESSIBILITY#WalkieTalkieTapToTalk`
+- Accessibilitat → Audició: `bridge:root=ACCESSIBILITY#HEARING`
+- Accessibilitat → RTT: `bridge:root=ACCESSIBILITY&path=RTT`
+- Accessibilitat → RTT → RTT: `bridge:root=ACCESSIBILITY&path=RTT#RTT_TITLE`
+- Accessibilitat → RTT → Número de retransmissió: `bridge:root=ACCESSIBILITY&path=RTT/TTY_RELAY_LABEL`
+- Accessibilitat → RTT → Envia immediatament: `bridge:root=ACCESSIBILITY&path=RTT#TTY_REALTIME_LABEL`
+- Accessibilitat → RTT → Respostes per omissió: `bridge:root=ACCESSIBILITY&path=RTT/RTT_CANNED_TEXT_TITLE`
+- Accessibilitat → RTT → Respostes per omissió → Respostes per omissió: `bridge:root=ACCESSIBILITY&path=RTT/RTT_CANNED_TEXT_TITLE#Default%20Replies`
+- Accessibilitat → RTT → Respostes per omissió → Afegeix una resposta…: `bridge:root=ACCESSIBILITY&path=RTT/RTT_CANNED_TEXT_TITLE#Add%20reply%E2%80%A6`
+- Accessibilitat → Àudio mono: `bridge:root=ACCESSIBILITY#MonoAudioEnabled`
+- Accessibilitat → Equilibri estèreo esquerra-dreta: `bridge:root=ACCESSIBILITY#LEFT_RIGHT_BALANCE_SPOKEN`
+- Accessibilitat → Notificacions dels auriculars: `bridge:root=ACCESSIBILITY#HeadphoneNotificationsID`
+- Accessibilitat → Audiòfons: `bridge:root=ACCESSIBILITY#HearingDevicesComplicationGroupID`
+- Accessibilitat → Complicació: `bridge:root=ACCESSIBILITY&path=HearingDevicesComplicationRowID`
+- Accessibilitat → Complicació → Volum del micròfon: `bridge:root=ACCESSIBILITY&path=HearingDevicesComplicationRowID#Mic%20Volume`
+- Accessibilitat → Complicació → Programa: `bridge:root=ACCESSIBILITY&path=HearingDevicesComplicationRowID#Program`
+- Accessibilitat → Velocitat de les vibracions per a l’hora: `bridge:root=ACCESSIBILITY#TapticTimeSpeedAdjustmentGroup`
+- Accessibilitat → Drecera d’accessibilitat: `bridge:root=ACCESSIBILITY&path=AX_SHORTCUT`
+- Desactiva el codi: `bridge:root=PASSCODE_ID`
+- Desactiva el codi → Activa el codi: `bridge:root=PASSCODE_ID#TOGGLE_PASSCODE_ID`
+- Desactiva el codi → Canvia el codi: `bridge:root=PASSCODE_ID#CHANGE_PASSCODE_ID`
+- Desactiva el codi → Codi senzill: `bridge:root=PASSCODE_ID#SIMPLE_PASSCODE_SWITCH_ID`
+- Desactiva el codi → Desbloqueja amb l’iPhone: `bridge:root=PASSCODE_ID#AUTO_UNLOCK_SWITCH_ID`
+- Desactiva el codi → Esborra les dades: `bridge:root=PASSCODE_ID#ERASE_DATA_SWITCH_ID`
+- Desactiva el codi → Detecció de canell: `bridge:root=PASSCODE_ID#WRIST_DETECTION_CELL_ID`
+- Contactes: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired`
+- Contactes → Ordena per: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder`
+- Contactes → Ordena per → Nom, cognoms: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder#0`
+- Contactes → Ordena per → Cognoms, nom: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder#1`
+- Contactes → Mostra com: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder`
+- Contactes → Mostra com → Nom, cognoms: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder#1`
+- Contactes → Mostra com → Cognoms, nom: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder#2`
+- Contactes → Nom curt: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName`
+- Contactes → Nom curt → Nom curt: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Short%20Name`
+- Contactes → Nom curt → Nom i inicial del cognom: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Name%20&%20Last%20Initial`
+- Contactes → Nom curt → Inicial del nom i cognom: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Initial%20&%20Last%20Name`
+- Contactes → Nom curt → Només el nom: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Name%20Only`
+- Contactes → Nom curt → Només el cognom: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Last%20Name%20Only`
+- Contactes → Nom curt → Prefereix els àlies: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Prefer%20Nicknames`
+- Cap. borsària: `bridge:root=com.apple.StocksBridgeSettings`
+- Cap. borsària → Contingut de la complicació: `bridge:root=com.apple.StocksBridgeSettings#Clock%20Face%20Complication%20Shows`
+- Cap. borsària → Preu actual: `bridge:root=com.apple.StocksBridgeSettings#Current%20Price`
+- Cap. borsària → Variació en punts: `bridge:root=com.apple.StocksBridgeSettings#Points%20Change`
+- Cap. borsària → Variació de percentatge: `bridge:root=com.apple.StocksBridgeSettings#Percentage%20Change`
+- Cap. borsària → Capitalització borsària: `bridge:root=com.apple.StocksBridgeSettings#Market%20Cap`
+- Cap. borsària → Cotització de l’esfera Siri: `bridge:root=com.apple.StocksBridgeSettings#Siri%20Face%20Shows%20Quote%20For`
+- Cap. borsària → Valor seleccionat: `bridge:root=com.apple.StocksBridgeSettings&path=Selected%20Stock`
+- Cap. borsària → Valor seleccionat → Valor seleccionat: `bridge:root=com.apple.StocksBridgeSettings&path=Selected%20Stock#Selected%20Stock`
+- Walkie-talkie: `bridge:root=com.apple.tincan.settings`
+- Walkie-talkie → Permet les notificacions: `bridge:root=com.apple.tincan.settings#ALLOW_NOTIFICATIONS_ID`
+- Walkie-talkie → Envia al centre de notificacions: `bridge:root=com.apple.tincan.settings#SEND_TO_NOTIFICATION_CENTER_ID`
+- Walkie-talkie → Notificacions desactivades: `bridge:root=com.apple.tincan.settings#NOTIFICATIONS_OFF_ID`
+- Walkie-talkie → Notificacions agrupades: `bridge:root=com.apple.tincan.settings&path=NOTIFICATION_COALESCING_ID`
+- Walkie-talkie → Amics: `bridge:root=com.apple.tincan.settings#Friends`
+- Cerca de l’Apple Watch: `bridge:root=ActiveWatch`
+- Cerca de l’Apple Watch → Enllaça un nou Apple Watch: `bridge:root=ActiveWatch&path=Pair%20New%20Watch`
+- Atenció Plena: `bridge:root=com.apple.MindSettings`
+- Atenció Plena → Permet les notificacions: `bridge:root=com.apple.MindSettings#ALLOW_NOTIFICATIONS_ID`
+- Atenció Plena → Envia al centre de notificacions: `bridge:root=com.apple.MindSettings#SEND_TO_NOTIFICATION_CENTER_ID`
+- Atenció Plena → Notificacions desactivades: `bridge:root=com.apple.MindSettings#NOTIFICATIONS_OFF_ID`
+- Atenció Plena → Recordatoris d’atenció plena: `bridge:root=com.apple.MindSettings#MIND_GROUP_ID`
+- Atenció Plena → Inici del dia: `bridge:root=com.apple.MindSettings#MIND_START_OF_DAY_REMINDER`
+- Atenció Plena → Final del dia: `bridge:root=com.apple.MindSettings#MIND_END_OF_DAY_REMINDER`
+- Atenció Plena → Afegeix un recordatori…: `bridge:root=com.apple.MindSettings#Add%20Reminder%E2%80%A6`
+- Atenció Plena → Resum setmanal: `bridge:root=com.apple.MindSettings#MIND_WEEKLY_SUMMARY_ID`
+- Atenció Plena → Silencia avui: `bridge:root=com.apple.MindSettings#MIND_MUTE_FOR_TODAY_ID`
+- Atenció Plena → Freqüència respiratòria: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID`
+- Atenció Plena → Freqüència respiratòria → 4 respiracions per minut: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_4`
+- Atenció Plena → Freqüència respiratòria → 5 respiracions per minut: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_5`
+- Atenció Plena → Freqüència respiratòria → 6 respiracions per minut: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_6`
+- Atenció Plena → Freqüència respiratòria → 7 respiracions per minut: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_7`
+- Atenció Plena → Freqüència respiratòria → 8 respiracions per minut: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_8`
+- Atenció Plena → Freqüència respiratòria → 9 respiracions per minut: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_9`
+- Atenció Plena → Freqüència respiratòria → 10 respiracions per minut: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_10`
+- Atenció Plena → Vibració: `bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID`
+- Atenció Plena → Vibració → Cap: `bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#NONE_ID`
+- Atenció Plena → Vibració → Mínima: `bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#MINIMAL_ID`
+- Atenció Plena → Vibració → Especial: `bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#PROMINENT_ID`
+- Siri: `bridge:root=SIRI_WATCH_SETTINGS_ID`
+- Siri → Demana a Siri: `bridge:root=SIRI_WATCH_SETTINGS_ID#ASK_SIRI_GROUP_ID`
+- Siri → Siri: `bridge:root=SIRI_WATCH_SETTINGS_ID#HEY_SIRI_SWITCH_ID`
+- Siri → Alça per parlar: `bridge:root=SIRI_WATCH_SETTINGS_ID#RAISE_TO_SPEAK_SWITCH_ID`
+- Siri → Prem la Digital Crown: `bridge:root=SIRI_WATCH_SETTINGS_ID#DIGITAL_CROWN_SWITCH_ID`
+- Siri → Indicacions de veu: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID`
+- Siri → Indicacions de veu → Pantalla sempre activa: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_ALWAYS_ON_ID`
+- Siri → Indicacions de veu → Controla amb el mode de silenci: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_CONTROL_WITH_SILENT_MODE_ID`
+- Siri → Indicacions de veu → Només auriculars: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_HEADPHONES_ONLY_ID`
+- Siri → Volum de la veu: `bridge:root=SIRI_WATCH_SETTINGS_ID#VOICE_VOLUME_GROUP_ID`
+- Siri → Suggeriments de Siri: `bridge:root=SIRI_WATCH_SETTINGS_ID#ASSISTANT_SUGGESTIONS_GROUP_ID`
+- Disposició d’apps: `bridge:root=APP_VIEW_ID`
+- General: `bridge:root=GENERAL_LINK`
+- General → Informació: `bridge:root=GENERAL_LINK&path=ABOUT`
+- General → Informació → Nom: `bridge:root=GENERAL_LINK&path=ABOUT/NAME_CELL_ID`
+- General → Informació → Garantia limitada: `bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION`
+- General → Informació → Garantia limitada → Garantia limitada: `bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#Limited%20Warranty`
+- General → Informació → Garantia limitada → DETALLS DE LA COBERTURA: `bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#COVERAGE%20DETAILS`
+- General → Informació → Garantia limitada → Cobertura del maquinari: `bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#Hardware%20Coverage`
+- General → Informació → Garantia limitada → Assistència per telèfon i xat: `bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#Chat%20&%20Phone%20Support`
+- General → Informació → Cançons: `bridge:root=GENERAL_LINK&path=ABOUT#SONGS_CELL_ID`
+- General → Informació → Fotos: `bridge:root=GENERAL_LINK&path=ABOUT#PHOTOS_CELL_ID`
+- General → Informació → Apps: `bridge:root=GENERAL_LINK&path=ABOUT#APPLICATIONS_CELL_ID`
+- General → Informació → Capacitat: `bridge:root=GENERAL_LINK&path=ABOUT#STORAGE_CAPACITY_CELL_ID`
+- General → Informació → Disponible: `bridge:root=GENERAL_LINK&path=ABOUT#STORAGE_AVAILABLE_CELL_ID`
+- General → Informació → Versió: `bridge:root=GENERAL_LINK&path=ABOUT#OS_VERSION_CELL_ID`
+- General → Informació → Operador: `bridge:root=GENERAL_LINK&path=ABOUT#CARRIER_CELL_ID`
+- General → Informació → Model: `bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_MODEL_CELL_ID`
+- General → Informació → Número de sèrie: `bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_SERIAL_NUMBER_CELL_ID`
+- General → Informació → Bluetooth: `bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_BLUETOOTH_ADDRESS_CELL_ID`
+- General → Informació → IMEI: `bridge:root=GENERAL_LINK&path=ABOUT#IMEI_CELL_ID`
+- General → Informació → ICCID: `bridge:root=GENERAL_LINK&path=ABOUT#ICCID_CELL_ID`
+- General → Informació → EID: `bridge:root=GENERAL_LINK&path=ABOUT/EID_CELL_ID`
+- General → Informació → SEID: `bridge:root=GENERAL_LINK&path=ABOUT/DEVICE_SEID_CELL_ID`
+- General → Informació → Avís legal: `bridge:root=GENERAL_LINK&path=ABOUT/LEGAL`
+- General → Informació → Consulta el manual d’ús de l’Apple Watch : `bridge:root=GENERAL_LINK&path=ABOUT#MANUAL`
+- General → Actualització de programari: `bridge:root=GENERAL_LINK&path=SOFTWARE_UPDATE_LINK`
+- General → Instal·lació automàtica: `bridge:root=GENERAL_LINK#AUTO_APP_INSTALL_SWITCH_ID`
+- General → Mode Avió: `bridge:root=GENERAL_LINK&path=AIRPLANE_MODE_ID`
+- General → Modes de concentració: `bridge:root=GENERAL_LINK&path=FOCUS_ID`
+- General → Modes de concentració → Duplica amb l’iPhone: `bridge:root=GENERAL_LINK&path=FOCUS_ID#Mirror%20my%20iPhone`
+- General → Orientació del rellotge: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION`
+- General → Orientació del rellotge → Portes l’Apple Watch al: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#WRIST_CHOICE_ID`
+- General → Orientació del rellotge → Canell esquerre: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#LEFT_HAND_ID`
+- General → Orientació del rellotge → Canell dret: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#RIGHT_HAND_ID`
+- General → Orientació del rellotge → Digital Crown a l’esquerra: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#LISA_ON_LEFT_ID`
+- General → Orientació del rellotge → Digital Crown a la dreta: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#LISA_ON_RIGHT_ID`
+- General → Compte d’Apple: `bridge:root=GENERAL_LINK&path=LINK_WITH_ICLOUD_LINK`
+- General → Activa el dictat: `bridge:root=GENERAL_LINK#DICTATION_CELL_ID`
+- General → Activa el Handoff: `bridge:root=GENERAL_LINK#CONTINUITY`
+- General → Mode de rellotge de taula: `bridge:root=GENERAL_LINK#NIGHTSTAND_CELL_ID`
+- General → Activa les captures de pantalla: `bridge:root=GENERAL_LINK#BUTTON_CHORD_CELL_ID`
+- General → Estalvi de bateria: `bridge:root=GENERAL_LINK&path=USAGE_LINK`
+- General → Registres de diagnòstic: `bridge:root=GENERAL_LINK&path=DIAGNOSTIC_LOG_BROWSER`
+- General → Copia l’anàlisi de l’Apple Watch: `bridge:root=GENERAL_LINK#LOGS_CELL_ID`
+- General → Restableix: `bridge:root=GENERAL_LINK&path=RESET`
+- General → Obre automàticament en submergir‑se: `bridge:root=GENERAL_LINK&path=AUTO_LAUNCH`
+- General → Obre automàticament en submergir‑se → UNKNOWN_LABEL: `bridge:root=GENERAL_LINK&path=AUTO_LAUNCH#AUTO_LAUNCH_MEDIA`
+- General → TORNA AL RELLOTGE: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK`
+- General → TORNA AL RELLOTGE → TORNA AL RELLOTGE: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#CSLPRFReturnToClockGroupID`
+- General → TORNA AL RELLOTGE → Sempre: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#RETURN_TO_CLOCK_ALWAYS`
+- General → TORNA AL RELLOTGE → 2 minuts després: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#RETURN_TO_CLOCK_AFTER_2_MINUTES`
+- General → TORNA AL RELLOTGE → 1 hora després: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#RETURN_TO_CLOCK_AFTER_1_HOUR`
+- General → TORNA AL RELLOTGE → APPS: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#APP_GROUP_ID`
+- General → Idioma i regió: `bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION`
+- General → Idioma i regió → Duplica amb l’iPhone: `bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION#MIRROR_MY_COMPANION_ID`
+- General → Idioma i regió → Personalitza: `bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION#CUSTOM_ID`
+- General → Wake Screen: `bridge:root=GENERAL_LINK&path=WAKE_SCREEN`
+- General → Wake Screen → Ara sona: `bridge:root=GENERAL_LINK&path=WAKE_SCREEN#AUTO_LAUNCH_MEDIA`
+- Pantalla i brillantor: `bridge:root=DISPLAY_AND_BRIGHTNESS`
+- Pantalla i brillantor → Brillantor: `bridge:root=DISPLAY_AND_BRIGHTNESS#BRIGHTNESS_LABEL`
+- Pantalla i brillantor → Pantalla sempre activa: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID`
+- Pantalla i brillantor → Pantalla sempre activa → Pantalla sempre activa: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID#TRITIUM_ID`
+- Pantalla i brillantor → Pantalla sempre activa → EN ABAIXAR EL CANELL: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID#TRITIUM_PRIVACY_GROUP_ID`
+- Pantalla i brillantor → Pantalla sempre activa → Mostra les notificacions: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Notifications`
+- Pantalla i brillantor → Pantalla sempre activa → Mostra les notificacions → Mostra les notificacions: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Notifications#APP_BACKLIGHT_PRIVACY_GLOBAL_APP`
+- Pantalla i brillantor → Pantalla sempre activa → Mostra les notificacions → APPS PER A L’APPLE WATCH: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Notifications#APP_GROUP_ID`
+- Pantalla i brillantor → Pantalla sempre activa → Mostra les apps: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Apps`
+- Pantalla i brillantor → Pantalla sempre activa → Mostra les apps → Mostra les apps: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Apps#APP_BACKLIGHT_PRIVACY_GLOBAL_APP`
+- Pantalla i brillantor → Pantalla sempre activa → Mostra les apps → APPS: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Apps#APP_GROUP_ID`
+- Pantalla i brillantor → Mida del text: `bridge:root=DISPLAY_AND_BRIGHTNESS#TEXT_SIZE`
+- Pantalla i brillantor → Text en negreta: `bridge:root=DISPLAY_AND_BRIGHTNESS#BOLD_TEXT`
+- Pantalla i brillantor → PANTALLA ACTIVA: `bridge:root=DISPLAY_AND_BRIGHTNESS#WAKE`
+- Pantalla i brillantor → En alçar el canell: `bridge:root=DISPLAY_AND_BRIGHTNESS#WAKE_SCREEN_ON_WRIST_RAISE_SWITCH_ID`
+- Pantalla i brillantor → Activa en girar la Digital Crown: `bridge:root=DISPLAY_AND_BRIGHTNESS#WAKE_SCREEN_ON_CROWN_UP_SWITCH_ID`
+- Pantalla i brillantor → Durada de la pantalla activa: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration`
+- Pantalla i brillantor → Durada de la pantalla activa → EN TOCAR: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration#ON_TAP_GROUP_ID`
+- Pantalla i brillantor → Durada de la pantalla activa → Activa 15 segons: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration#SHORT_WAKE_ID`
+- Pantalla i brillantor → Durada de la pantalla activa → Activa 70 segons: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration#LONG_WAKE_ID`
+- Pila intel·ligent: `bridge:root=SMARTSTACK_LINK`
+- Sons i vibracions: `bridge:root=SOUNDS_ID`
+- Sons i vibracions → Volum d’avís: `bridge:root=SOUNDS_ID#AUDIO_SLIDER`
+- Sons i vibracions → Mode de silenci: `bridge:root=SOUNDS_ID#audio_mute_switch`
+- Sons i vibracions → Àudio dels auriculars: `bridge:root=SOUNDS_ID#HEADPHONE_AUDIO_GROUP`
+- Sons i vibracions → Audició segura amb auriculars: `bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING`
+- Sons i vibracions → Audició segura amb auriculars → Notificacions dels auriculars: `bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING#COSHeadphoneNotificationsSwitchKey`
+- Sons i vibracions → Audició segura amb auriculars → Reducció de sons forts: `bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING#COSHeadphoneLevelLimitSwitchKey`
+- Sons i vibracions → Vibració: `bridge:root=SOUNDS_ID#Haptics`
+- Sons i vibracions → Alertes amb vibració: `bridge:root=SOUNDS_ID#Haptic%20Alerts`
+- Sons i vibracions → Vibració de la corona: `bridge:root=SOUNDS_ID#JACKRABBIT_ID`
+- Sons i vibracions → Vibracions del sistema: `bridge:root=SOUNDS_ID#SYSTEM_HAPTICS_ID`
+- Sons i vibracions → Tapa per silenciar: `bridge:root=SOUNDS_ID#COVER_TO_MUTE`
+- Emergència SOS: `bridge:root=SOS_MODE_ID`
+- Privacitat: `bridge:root=PRIVACY_ID`
+- Privacitat → Freqüència cardíaca: `bridge:root=PRIVACY_ID#HEART_RATE_ENABLED_LABEL`
+- Privacitat → Freqüència respiratòria: `bridge:root=PRIVACY_ID#RESPIRATORY_RATE_LABEL`
+- Privacitat → Seguiment d’exercici: `bridge:root=PRIVACY_ID#FITNESS_TRACKING_ENABLED_LABEL`
+- Privacitat → Restableix les dades de calibratge: `bridge:root=PRIVACY_ID#RESET_MOTION_CALIBRATION_LABEL`
+- Privacitat → Registre del so ambiental: `bridge:root=PRIVACY_ID#ENVIRONMENTAL_AUDIO_ENABLED_SWITCH_ID`
+- Privacitat → Registre de l’àudio dels auriculars: `bridge:root=PRIVACY_ID&path=HeadphoneAudio`
+- Privacitat → Registre de l’àudio dels auriculars → Desa a l’app Salut: `bridge:root=PRIVACY_ID&path=HeadphoneAudio#SAVE_IN_HEALTH_GROUP`
+- Privacitat → Registre de l’àudio dels auriculars → Durant vuit dies: `bridge:root=PRIVACY_ID&path=HeadphoneAudio#FOR_EIGHT_DAYS_CELL`
+- Privacitat → Registre de l’àudio dels auriculars → Fins que els elimini: `bridge:root=PRIVACY_ID&path=HeadphoneAudio#UNTIL_I_DELETE_CELL`
+- Privacitat → Mesuraments d’oxigen en sang: `bridge:root=PRIVACY_ID#OXYGEN_SATURATION_ENABLED_SWITCH_ID`
+- Privacitat → Temperatura del canell: `bridge:root=PRIVACY_ID#WRIST_TEMPERATURE_SWITCH_ID`
+- Temps d’ús: `bridge:root=SCREEN_TIME_ID`
+- Nike Run Club: `bridge:root=VICTORY_ROW_ID`
+- Mail: `bridge:root=com.apple.NanoMailBridgeSettings`
+- Mail → Duplica amb l’iPhone: `bridge:root=com.apple.NanoMailBridgeSettings#MIRROR_MY_COMPANION_ID`
+- Mail → Personalitza: `bridge:root=com.apple.NanoMailBridgeSettings#CUSTOM_ID`
+- Mail → Configuració del Mail: `bridge:root=com.apple.NanoMailBridgeSettings#Mail%20Settings`
+- Mail → Comptes: `bridge:root=com.apple.NanoMailBridgeSettings&path=Accounts`
+- Mail → Inclou el correu: `bridge:root=com.apple.NanoMailBridgeSettings&path=Include%20Mail`
+- Mail → Previsualització: `bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview`
+- Mail → Previsualització → Cap: `bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#0`
+- Mail → Previsualització → 1 línia: `bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#1`
+- Mail → Previsualització → 2 línies: `bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#2`
+- Mail → Respostes per omissió: `bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies`
+- Mail → Respostes per omissió → Respostes per omissió: `bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies#Default%20Replies`
+- Mail → Respostes per omissió → Afegeix una resposta…: `bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies#Add%20reply%E2%80%A6`
+- Mail → Signatura: `bridge:root=com.apple.NanoMailBridgeSettings&path=Signature`
+- Límit d’emmagatzematge: `bridge:root=com.apple.NanoMusicBridgeSettings`
+- Límit d’emmagatzematge → LLISTES I ÀLBUMS: `bridge:root=com.apple.NanoMusicBridgeSettings#PLAYLISTS%20&%20ALBUMS`
+- Límit d’emmagatzematge → Afegeix música…: `bridge:root=com.apple.NanoMusicBridgeSettings#Add%20Music%E2%80%A6`
+- Missatges: `bridge:root=com.apple.MessagesBridgeSettings`
+- Missatges → Duplica amb l’iPhone: `bridge:root=com.apple.MessagesBridgeSettings#MIRROR_MY_COMPANION_ID`
+- Missatges → Personalitza: `bridge:root=com.apple.MessagesBridgeSettings#CUSTOM_ID`
+- Missatges → Respostes per omissió: `bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES`
+- Missatges → Respostes per omissió → Respostes per omissió: `bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Default%20Replies`
+- Missatges → Respostes per omissió → Respostes intel·ligents: `bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Smart%20Replies`
+- Missatges → Respostes per omissió → Afegeix una resposta…: `bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Add%20reply%E2%80%A6`
+- Missatges → Repetició dels avisos: `bridge:root=com.apple.MessagesBridgeSettings&path=PLAY_ALERT_TONE`
+- Missatges → Missatges d’àudio: `bridge:root=com.apple.MessagesBridgeSettings&path=AudioMessagesMode`
+- Temps: `bridge:root=com.apple.weatherbridgesettings`
+- Temps → Ciutat per omissió: `bridge:root=com.apple.weatherbridgesettings&path=Default%20City`
+- Temps → Ciutat per omissió → Ciutat per omissió: `bridge:root=com.apple.weatherbridgesettings&path=Default%20City#Default%20City`
+- Temps → Ciutat per omissió → Ubicació actual: `bridge:root=com.apple.weatherbridgesettings&path=Default%20City#Current%20Location`
+- Calendari: `bridge:root=com.apple.NanoCalendarBridgeSettings`
+- Calendari → NOTIFICACIONS: `bridge:root=com.apple.NanoCalendarBridgeSettings#MIRROR_RADIO_GROUP_ID`
+- Calendari → Duplica amb l’iPhone: `bridge:root=com.apple.NanoCalendarBridgeSettings#MIRROR_MY_COMPANION_ID`
+- Calendari → Personalitzat…: `bridge:root=com.apple.NanoCalendarBridgeSettings#CUSTOM_ID`
+- Calendari → CALENDARIS: `bridge:root=com.apple.NanoCalendarBridgeSettings#CALENDARS_MIRROR_RADIO_GROUP_ID`
+- Calendari → Duplica amb l’iPhone: `bridge:root=com.apple.NanoCalendarBridgeSettings#CALENDARS_MIRROR_MY_COMPANION_ID`
+- Calendari → Personalitzat…: `bridge:root=com.apple.NanoCalendarBridgeSettings&path=CALENDARS_CUSTOM_ID`
+- Calendari → Esdeveniments propers: `bridge:root=com.apple.NanoCalendarBridgeSettings&path=Upcoming%20Events`
+- Calendari → Invitacions: `bridge:root=com.apple.NanoCalendarBridgeSettings&path=Invitations`
+- Calendari → Respostes dels convidats: `bridge:root=com.apple.NanoCalendarBridgeSettings&path=Invitee%20Responses`
+- Calendari → Canvis en calendaris compartits: `bridge:root=com.apple.NanoCalendarBridgeSettings&path=Shared%20Calendar%20Alerts`
+- Profunditat: `bridge:root=com.apple.DepthCompanionSettings`
+- Botó d’acció: `bridge:root=STING_TITLE`
+- Soroll: `bridge:root=com.apple.Noise.settings`
+- Soroll → Registre del so ambiental: `bridge:root=com.apple.Noise.settings#ENABLE_MEASUREMENTS_ID`
+- Soroll → Notificacions de soroll: `bridge:root=com.apple.Noise.settings#LOUD_NOTIFICATION_GROUP_ID`
+- Soroll → Llindar de soroll: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID`
+- Soroll → Llindar de soroll → No: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#OFF`
+- Soroll → Llindar de soroll → 80 decibels: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_80`
+- Soroll → Llindar de soroll → 85 decibels: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_85`
+- Soroll → Llindar de soroll → 90 decibels: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_90`
+- Soroll → Llindar de soroll → 95 decibels: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_95`
+- Soroll → Llindar de soroll → 100 decibels: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_100`
+- Soroll → Notificacions agrupades: `bridge:root=com.apple.Noise.settings&path=NOTIFICATION_COALESCING_ID`
+- Fotos: `bridge:root=com.apple.NanoPhotosBridgeSettings`
+- Fotos → Sincronitza les fotos: `bridge:root=com.apple.NanoPhotosBridgeSettings#Photo%20Syncing`
+- Fotos → Records: `bridge:root=com.apple.NanoPhotosBridgeSettings#Memories`
+- Fotos → Sincronitza els records: `bridge:root=com.apple.NanoPhotosBridgeSettings#Sync%20Memories`
+- Fotos → Fotos destacades: `bridge:root=com.apple.NanoPhotosBridgeSettings#Featured%20Photos`
+- Fotos → Sincronitza les fotos destacades: `bridge:root=com.apple.NanoPhotosBridgeSettings#Sync%20Featured%20Photos`
+- Fotos → Àlbum: `bridge:root=com.apple.NanoPhotosBridgeSettings#Album`
+- Fotos → Sincronitza l’àlbum: `bridge:root=com.apple.NanoPhotosBridgeSettings&path=Sync%20Album`
+- Fotos → Límit de fotos: `bridge:root=com.apple.NanoPhotosBridgeSettings&path=Photos%20Limit`
+- Fotos → Configuració de les notificacions: `bridge:root=com.apple.NanoPhotosBridgeSettings#MIRROR_RADIO_GROUP_ID`
+- Fotos → Duplica amb l’iPhone: `bridge:root=com.apple.NanoPhotosBridgeSettings#MIRROR_MY_COMPANION_ID`
+- Fotos → Personalitza: `bridge:root=com.apple.NanoPhotosBridgeSettings#CUSTOM_ID`
+- Pòdcasts: `bridge:root=com.apple.private.PodcastsBridgeSettings`
+- Rentat de mans: `bridge:root=com.apple.BrookBridgeSettings`
+- Rentat de mans → Permet les notificacions: `bridge:root=com.apple.BrookBridgeSettings#ALLOW_NOTIFICATIONS_ID`
+- Rentat de mans → Envia al centre de notificacions: `bridge:root=com.apple.BrookBridgeSettings#SEND_TO_NOTIFICATION_CENTER_ID`
+- Rentat de mans → Notificacions desactivades: `bridge:root=com.apple.BrookBridgeSettings#NOTIFICATIONS_OFF_ID`
+- Rentat de mans → Notificacions agrupades: `bridge:root=com.apple.BrookBridgeSettings&path=NOTIFICATION_COALESCING_ID`
+- Rentat de mans → Temporitzador del rentat de mans: `bridge:root=com.apple.BrookBridgeSettings#HANDWASHING_TIMER_ID`
+- Cor: `bridge:root=com.apple.HeartRateSettings`
+- Cor → Cor: `bridge:root=com.apple.HeartRateSettings#1`
+- Cor → Notificacions de freqüència cardíaca: `bridge:root=com.apple.HeartRateSettings#2`
+- Cor → Freqüència cardíaca alta: `bridge:root=com.apple.HeartRateSettings#3`
+- Cor → Freqüència cardíaca baixa: `bridge:root=com.apple.HeartRateSettings#4`
+- Cor → Ritme irregular: `bridge:root=com.apple.HeartRateSettings#5`
+- Cor → Mostra els ECG a l’app Salut: `bridge:root=com.apple.HeartRateSettings#6`
+- Cor → Electrocardiograma: `bridge:root=com.apple.HeartRateSettings#7`
+- Dormir: `bridge:root=com.apple.NanoBedtimeBridgeSettings`
+- Dormir → Configura el mode de dormir a l’app Salut: `bridge:root=com.apple.NanoBedtimeBridgeSettings#SET_UP_SLEEP_CELL_ID`
+- Entrenament: `bridge:root=com.apple.SessionTrackerAppSettings`
+- Entrenament → Mode de baix consum: `bridge:root=com.apple.SessionTrackerAppSettings#LOW_POWER_MODE`
+- Entrenament → Mostra els mesuraments: `bridge:root=com.apple.SessionTrackerAppSettings#PRO_SETTING_ENABLED_LABEL`
+- Entrenament → Vista de l’entrenament: `bridge:root=com.apple.SessionTrackerAppSettings&path=METRIC_VIEW_ID`
+- Entrenament → Pausa automàtica: `bridge:root=com.apple.SessionTrackerAppSettings&path=AUTO_PAUSE_ID`
+- Entrenament → Pausa automàtica → Pausa automàtica: `bridge:root=com.apple.SessionTrackerAppSettings&path=AUTO_PAUSE_ID#WorkoutAutoPauseSwitch`
+- Entrenament → Recordatori a l’inici: `bridge:root=com.apple.SessionTrackerAppSettings#AUTO_START_WORKOUT_NOTIFICATIONS_ENABLED_LABEL`
+- Entrenament → Recordatori al final: `bridge:root=com.apple.SessionTrackerAppSettings#END_REMINDERS_ENABLED_LABEL`
+- Entrenament → Prem per posar en pausa: `bridge:root=com.apple.SessionTrackerAppSettings#CHORD_PRESS_PAUSE_WORKOUT_ENABLED_LABEL`
+- Entrenament → Detecta les màquines del gimnàs: `bridge:root=com.apple.SessionTrackerAppSettings#NFC_ENABLED_LABEL_ID`
+- Entrenament → Vista de ritme/velocitat: `bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL`
+- Entrenament → Vista de ritme/velocitat → Actual: `bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL#CURRENT_PACE_ID`
+- Entrenament → Vista de ritme/velocitat → Mitjana: `bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL#AVERAGE_PACE_ID`
+- Entrenament → Llista d’entrenament: `bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID`
+- Entrenament → Llista d’entrenament → Cap: `bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID#NONE_AUTOSTART_ID`
+- Entrenament → Llista d’entrenament → Llistes: `bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID#MUSIC_PLAYLIST_GROUP_ID`
+- Entrenament → Reprodueix des del principi: `bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_MUSIC_PLAY_FROM_BEGINNING_SETTING_ID`
+- Entrenament → Aleatori: `bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_MUSIC_SHUFFLE_SETTING_ID`
+- Entrenament → Unitats de mesura: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID`
+- Entrenament → Unitats de mesura → Calories: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_CALORIES_ID`
+- Entrenament → Unitats de mesura → Quilocalories: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_KILOCALORIES_ID`
+- Entrenament → Unitats de mesura → Quilojoules: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_KILOJOULES_ID`
+- Entrenament → Unitats de mesura → Iardes: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#POOL_LENGTH_YARDS_ID`
+- Entrenament → Unitats de mesura → Metres: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#POOL_LENGTH_METERS_ID`
+- Entrenament → Unitats de mesura → Milles: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#CYCLING_WORKOUTS_MILES_ID`
+- Entrenament → Unitats de mesura → Quilòmetres: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#CYCLING_WORKOUTS_KILOMETERS_ID`
+- Entrenament → Unitats de mesura → Milles: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#WALKING_AND_RUNNING_WORKOUTS_MILES_ID`
+- Entrenament → Unitats de mesura → Quilòmetres: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#WALKING_AND_RUNNING_WORKOUTS_KILOMETERS_ID`
+- Entrenament → Indicacions de veu: `bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_VOICE_FEEDBACK_LABEL`
+- Entrenament → Hora de caminar: `bridge:root=com.apple.SessionTrackerAppSettings#GUIDED_WORKOUT_PREFETCH_FOOTER_ID`
+- Entrenament → Afegeix entrenaments nous a l’Apple Watch: `bridge:root=com.apple.SessionTrackerAppSettings#GUIDED_WORKOUT_PREFETCH_LABEL_ID`
+- Telèfon: `bridge:root=com.apple.PhoneBridgeSettings`
+- Telèfon → Trucades: `bridge:root=com.apple.PhoneBridgeSettings#carrier_direct_calling_group_id`
+- Telèfon → So de trucada: `bridge:root=com.apple.PhoneBridgeSettings#RINGTONE`
+- Telèfon → So: `bridge:root=com.apple.PhoneBridgeSettings#INCOMING_CALL_SOUND`
+- Telèfon → Vibració: `bridge:root=com.apple.PhoneBridgeSettings#INCOMING_CALL_HAPTIC`
+- App Store: `bridge:root=com.apple.BridgeAppStoreDaemonSettings`
+- App Store → Descàrregues automàtiques: `bridge:root=com.apple.BridgeAppStoreDaemonSettings#automaticDownloadSpecifier`
+- App Store → Actualitzacions automàtiques: `bridge:root=com.apple.BridgeAppStoreDaemonSettings#Automatic%20Updates`
+- Audiollibres: `bridge:root=com.apple.NanoBooks.BridgeSettings`
+- Audiollibres → Inicia sessió: `bridge:root=com.apple.NanoBooks.BridgeSettings#Sign%20In`
+- Avisos de gir: `bridge:root=com.apple.NanoMapsBridgeSettings`
+- Avisos de gir → Avisos de gir: `bridge:root=com.apple.NanoMapsBridgeSettings#Turn%20Alerts`
+- Avisos de gir → En cotxe: `bridge:root=com.apple.NanoMapsBridgeSettings#Driving`
+- Avisos de gir → En cotxe amb el CarPlay: `bridge:root=com.apple.NanoMapsBridgeSettings#Driving%20with%20CarPlay`
+- Avisos de gir → A peu: `bridge:root=com.apple.NanoMapsBridgeSettings#Walking`
+- Avisos de gir → En bici: `bridge:root=com.apple.NanoMapsBridgeSettings#Cycling`
+- Avisos de gir → Mostra la navegació: `bridge:root=com.apple.NanoMapsBridgeSettings#Show%20Navigation`
+- Avisos de gir → En transport públic: `bridge:root=com.apple.NanoMapsBridgeSettings#Transit`
+- Avisos de gir → Dades de la compilació:: `bridge:root=com.apple.NanoMapsBridgeSettings#Build%20Info%3A`
+- Dock: `bridge:root=DOCK`
+- Dock → Ordre de les apps al Dock: `bridge:root=DOCK#OrderingOptionGroup`
+- Dock → Recents: `bridge:root=DOCK#Recents`
+- Dock → Favorits: `bridge:root=DOCK#Favorites`
+- Dock: `bridge:root=DOCK.0`
+- Dock → Ordre de les apps al Dock: `bridge:root=DOCK.0#OrderingOptionGroup`
+- Dock → Recents: `bridge:root=DOCK.0#Recents`
+- Dock → Favorits: `bridge:root=DOCK.0#Favorites`
+- Oxigen en Sang: `bridge:root=com.apple.OxygenSaturationSettings`
+- Rellotge: `bridge:root=com.apple.NanoClockBridgeSettings`
+- Rellotge → Rellotge de 24 hores: `bridge:root=com.apple.NanoClockBridgeSettings#24-Hour%20Time`
+- Rellotge → Timbre: `bridge:root=com.apple.NanoClockBridgeSettings#Chimes`
+- Rellotge → Sons: `bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds`
+- Rellotge → Sons → Campanes: `bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds#Bells`
+- Rellotge → Sons → Ocells: `bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds#Birds`
+- Rellotge → Escolta l’hora: `bridge:root=com.apple.NanoClockBridgeSettings#Speak%20Time`
+- Rellotge → Controla amb el mode de silenci: `bridge:root=com.apple.NanoClockBridgeSettings#Control%20With%20Silent%20Mode`
+- Rellotge → Llegeix sempre: `bridge:root=com.apple.NanoClockBridgeSettings#Always%20Speak`
+- Rellotge → Vibracions per a l’hora: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time`
+- Rellotge → Vibracions per a l’hora → Vibracions per a l’hora: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Taptic%20Time`
+- Rellotge → Vibracions per a l’hora → Dígits: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Digits`
+- Rellotge → Vibracions per a l’hora → Concís: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Terse`
+- Rellotge → Vibracions per a l’hora → Codi Morse: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Morse%20Code`
+- Rellotge → Avisos Push des de l’iPhone: `bridge:root=com.apple.NanoClockBridgeSettings#Push%20Alerts%20from%20iPhone`
+- Rellotge → Indicador de notificacions: `bridge:root=com.apple.NanoClockBridgeSettings#Notifications%20Indicator`
+- Rellotge → Monograma: `bridge:root=com.apple.NanoClockBridgeSettings&path=MONOGRAM_ID`
+- Rellotge → Notificacions d’esferes: `bridge:root=com.apple.NanoClockBridgeSettings#Watch%20Face%20Notifications`
+- Rellotge → Abreviatures de ciutats: `bridge:root=com.apple.NanoClockBridgeSettings&path=City%20Abbreviations`
+- Rellotge → Fonts de dades de l’esfera Siri: `bridge:root=com.apple.NanoClockBridgeSettings&path=Siri%20Face%20Data%20Sources`
+- Salut: `bridge:root=com.apple.BridgeHealthSettings`
+- Complicacions: `bridge:root=COMPLICATIONS`
+- Configuració de l’operador: `bridge:root=CARRIER_SETTINGS`
+- Activitat: `bridge:root=com.apple.HealthAppsSettings`
+- Activitat → Actualitza el progrés: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL`
+- Activitat → Actualitza el progrés → Cap: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#ZERO_HOURS_ID`
+- Activitat → Actualitza el progrés → Cada 2 hores: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#TWO_HOURS_ID`
+- Activitat → Actualitza el progrés → Cada 4 hores: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#FOUR_HOURS_ID`
+- Activitat → Actualitza el progrés → Cada 6 hores: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#SIX_HOURS_ID`
+- Activitat → Actualitza el progrés → Cada 8 hores: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#EIGHT_HOURS_ID`
+- Activitat → Assoliments: `bridge:root=com.apple.HealthAppsSettings#ACHIEVEMENTS_ENABLED_LABEL`
+- Activitat → Resum setmanal: `bridge:root=com.apple.HealthAppsSettings#WEEKLY_SUMMARY_ENABLED_LABEL`
+- Activitat → Entrenament diari: `bridge:root=com.apple.HealthAppsSettings#DAILY_PROGRESS_ENABLED_LABEL`
+- Activitat → Objectius completats: `bridge:root=com.apple.HealthAppsSettings#GOAL_COMPLETIONS_ENABLED_LABEL`
+- Activitat → Reptes especials: `bridge:root=com.apple.HealthAppsSettings#REMOTE_ACHIEVEMENTS_ENABLED_LABEL`
+- Activitat → Notificacions de les amistats: `bridge:root=com.apple.HealthAppsSettings#ACTIVITY_SHARING_NOTIFICATIONS_ENABLED`
+- Cartera i Apple Pay: `bridge:root=com.apple.NanoPassbookBridgeSettings`
+- Cartera i Apple Pay → Apple Cash: `bridge:root=com.apple.NanoPassbookBridgeSettings#Apple%C2%A0Cash`
+- Cartera i Apple Pay → Afegeix una targeta: `bridge:root=com.apple.NanoPassbookBridgeSettings#Add%20Card`
+- Cartera i Apple Pay → Notificacions: `bridge:root=com.apple.NanoPassbookBridgeSettings#MIRROR_RADIO_GROUP_ID`
+- Cartera i Apple Pay → Duplica amb l’iPhone: `bridge:root=com.apple.NanoPassbookBridgeSettings#MIRROR_MY_COMPANION_ID`
+- Cartera i Apple Pay → Personalitza: `bridge:root=com.apple.NanoPassbookBridgeSettings#CUSTOM_ID`
+- Dades mòbils: `bridge:root=CELLULAR_ID`
+- Mail i Calendari: `bridge:root=com.apple.BridgeRemoteAccounts`
+- Mail i Calendari → Comptes: `bridge:root=com.apple.BridgeRemoteAccounts#Accounts`
+- Mail i Calendari → Afegeix un compte de Google…: `bridge:root=com.apple.BridgeRemoteAccounts#ADD_GOOGLE_ACCOUNT`
+- Mail i Calendari → Obtén: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch`
+- Mail i Calendari → Obtén → No: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#Off`
+- Mail i Calendari → Obtén → Cada hora: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#Hourly`
+- Mail i Calendari → Obtén → 30 min: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#30%20min`
+- Mail i Calendari → Obtén → 15 min: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#15%20min`
+- Notifica la lectura: `bridge:root=com.apple.MessagesBridgeSettings%23READ_RECEIPTS`
+- Límit de fotos: `bridge:root=com.apple.mobileslideshow`

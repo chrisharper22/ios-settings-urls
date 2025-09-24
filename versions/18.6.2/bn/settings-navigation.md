@@ -1,0 +1,29 @@
+- Apple অ্যাকাউন্ট: `settings-navigation://com.apple.Settings.AppleAccount`
+- Apple অ্যাকাউন্ট → iCloud: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE`
+- Apple অ্যাকাউন্ট → iCloud → ক্যালেন্ডার: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Calendars`
+- Apple অ্যাকাউন্ট → iCloud → ক্যালেন্ডার → পাঠান ও গ্রহণ করুন: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Calendars/CALENDAR_SEND_RECEIVE`
+- Apple অ্যাকাউন্ট → iCloud → ক্যালেন্ডার → ইমেল আপডেট পান: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Calendars/CALENDAR_SHARED_CALENDAR_UPDATE`
+- Apple অ্যাকাউন্ট → iCloud → Mail: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail`
+- Apple অ্যাকাউন্ট → iCloud → Mail → ডিফল্ট ইমেল: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/DEFAULT_EMAIL`
+- Apple অ্যাকাউন্ট → iCloud → Mail → ঠিকানা: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/ALIASES`
+- Apple অ্যাকাউন্ট → iCloud → Mail → স্বয়ংক্রিয়ভাবে উত্তর দেওয়া: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/AUTO_REPLY`
+- Apple অ্যাকাউন্ট → iCloud → Mail → iCloud মেইলের নিয়মাবলি: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/SERVER_SIDE_RULES`
+- Apple অ্যাকাউন্ট → iCloud → Mail → মেল ফরওয়ার্ডিং: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/MAIL_FORWARDING`
+- Apple অ্যাকাউন্ট → iCloud → Mail → মেলবক্সের কার্যকলাপ: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/MAILBOX_BEHAVIORS`
+- Apple অ্যাকাউন্ট → iCloud → Mail → সাইন করা হচ্ছে এবং এনক্রিপশন: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/S_MIME`
+- Apple অ্যাকাউন্ট → iCloud → Mail → মেসেজ ইম্পোর্ট করুন: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/MAIL_IMPORT`
+- Apps: `settings-navigation://com.apple.Settings.Apps`
+- Apps → Fitness: `settings-navigation://com.apple.Settings.Apps/com.apple.Fitness`
+- Apps → Safari: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/`
+- Apps → Safari → এক্সটেনশন: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/WEB_EXTENSIONS`
+- Apps → Safari → পপ-আপ ব্লক করুন: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari#BLOCK_POPUPS`
+- Apps → Safari → ক্রস-সাইট ট্র্যাকিং থেকে বিরত রাখুন: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari#TRACKER_PROTECTION`
+- Apps → Safari → অটোফিল: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/AUTO_FILL`
+- Apps → Safari → ডাউনলোড: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/DOWNLOADS`
+- Apps → পাসওয়ার্ড: `settings-navigation://com.apple.Settings.Apps/com.apple.Passwords`
+- Apps → পাসওয়ার্ড → সুরক্ষা সংক্রান্ত পরামর্শ: `settings-navigation://com.apple.Settings.Apps/com.apple.Passwords#SECURITY_RECOMMENDATIONS`
+- গোপনীয়তা ও সুরক্ষা: `settings-navigation://com.apple.Settings.PrivacyAndSecurity`
+- গোপনীয়তা ও সুরক্ষা → সুরক্ষা চেক: `settings-navigation://com.apple.Settings.PrivacyAndSecurity/SAFETY_CHECK`
+- হোম: `settings-navigation://com.apple.Settings.HomeKit`
+- Search: `settings-navigation://com.apple.Settings.Search`
+- TV প্রোভাইডার: `settings-navigation://com.apple.Settings.TVProvider`

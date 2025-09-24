@@ -1,0 +1,426 @@
+- נגישות: `bridge:root=ACCESSIBILITY`
+- נגישות → ראייה: `bridge:root=ACCESSIBILITY#VISION`
+- נגישות → ‏VoiceOver: `bridge:root=ACCESSIBILITY&path=VOICEOVER_TITLE`
+- נגישות → הגדלה/הקטנה: `bridge:root=ACCESSIBILITY&path=ZOOM_TITLE`
+- נגישות → מלל עבה: `bridge:root=ACCESSIBILITY#BoldTextEnabled`
+- נגישות → תוויות פעיל/לא פעיל: `bridge:root=ACCESSIBILITY#OnOffLabelsEnabled`
+- נגישות → גוני אפור: `bridge:root=ACCESSIBILITY#GrayscaleDisplay`
+- נגישות → הפחתת השקיפות: `bridge:root=ACCESSIBILITY#REDUCE_TRANSPARENCY`
+- נגישות → הפחתת תזוזות: `bridge:root=ACCESSIBILITY&path=ReduceMotion`
+- נגישות → צליל פעמונים: `bridge:root=ACCESSIBILITY&path=TapticChimesCell`
+- נגישות → צליל פעמונים → צליל פעמונים: `bridge:root=ACCESSIBILITY&path=TapticChimesCell#Chimes`
+- נגישות → צליל פעמונים → תזמון: `bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule`
+- נגישות → צליל פעמונים → תזמון → אחת לשעה: `bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule#Hourly`
+- נגישות → צליל פעמונים → תזמון → ‏30 דקות: `bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule#30%20minutes`
+- נגישות → צליל פעמונים → תזמון → ‏15 דקות: `bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule#15%20minutes`
+- נגישות → צליל פעמונים → צלילים: `bridge:root=ACCESSIBILITY&path=TapticChimesCell/Sounds`
+- נגישות → צליל פעמונים → צלילים → פעמונים: `bridge:root=ACCESSIBILITY&path=TapticChimesCell/Sounds#Bells`
+- נגישות → צליל פעמונים → צלילים → ציפורים: `bridge:root=ACCESSIBILITY&path=TapticChimesCell/Sounds#Birds`
+- נגישות → מוטוריקה: `bridge:root=ACCESSIBILITY#MotorGroupCell`
+- נגישות → מהירות לחיצה על כפתור הצד: `bridge:root=ACCESSIBILITY&path=SideButton`
+- נגישות → מהירות לחיצה על כפתור הצד → מהירות לחיצה: `bridge:root=ACCESSIBILITY&path=SideButton#SIDE_SPEED_HEADER`
+- נגישות → מהירות לחיצה על כפתור הצד → ברירת המחדל: `bridge:root=ACCESSIBILITY&path=SideButton#SIDE_CLICK_SPEED_DEFAULT`
+- נגישות → מהירות לחיצה על כפתור הצד → איטית: `bridge:root=ACCESSIBILITY&path=SideButton#SIDE_CLICK_SPEED_SLOW`
+- נגישות → מהירות לחיצה על כפתור הצד → האיטית ביותר: `bridge:root=ACCESSIBILITY&path=SideButton#SIDE_CLICK_SPEED_SLOWEST`
+- נגישות → התאמות למגע: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell`
+- נגישות → התאמות למגע → התאמות למגע: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#TOUCH_ACCOMMODATIONS_SWITCHER`
+- נגישות → התאמות למגע → משך זמן להחזקה: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#HoldDurationGroup`
+- נגישות → התאמות למגע → משך זמן להחזקה: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#HoldDuration`
+- נגישות → התאמות למגע → התעלמות מהקשות חוזרות: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#IgnoreRepeatGroup`
+- נגישות → התאמות למגע → התעלמות מהקשות חוזרות: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#IgnoreRepeat`
+- נגישות → התאמות למגע → מסייע ההקשה: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#Tap%20Assistance`
+- נגישות → התאמות למגע → כבוי: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#OFF`
+- נגישות → התאמות למגע → שימוש במיקום המגע הראשוני: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#ACTIVATE_ON_TOUCH`
+- נגישות → התאמות למגע → שימוש במיקום המגע האחרון: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#ACTIVATE_ON_RELEASE`
+- נגישות → פעילות בכיסא גלגלים: `bridge:root=ACCESSIBILITY#MOBILITY`
+- נגישות → ווקי-טוקי: `bridge:root=ACCESSIBILITY#WalkieTalkieTapToTalkGroup`
+- נגישות → הקשה לדיבור: `bridge:root=ACCESSIBILITY#WalkieTalkieTapToTalk`
+- נגישות → שמיעה: `bridge:root=ACCESSIBILITY#HEARING`
+- נגישות → ‏RTT: `bridge:root=ACCESSIBILITY&path=RTT`
+- נגישות → ‏RTT → ‏RTT: `bridge:root=ACCESSIBILITY&path=RTT#RTT_TITLE`
+- נגישות → ‏RTT → מספר ממסר: `bridge:root=ACCESSIBILITY&path=RTT/TTY_RELAY_LABEL`
+- נגישות → ‏RTT → שליחה מיידית: `bridge:root=ACCESSIBILITY&path=RTT#TTY_REALTIME_LABEL`
+- נגישות → ‏RTT → תגובות ברירת המחדל: `bridge:root=ACCESSIBILITY&path=RTT/RTT_CANNED_TEXT_TITLE`
+- נגישות → ‏RTT → תגובות ברירת המחדל → תגובות ברירת המחדל: `bridge:root=ACCESSIBILITY&path=RTT/RTT_CANNED_TEXT_TITLE#Default%20Replies`
+- נגישות → ‏RTT → תגובות ברירת המחדל → הוספת תגובה…: `bridge:root=ACCESSIBILITY&path=RTT/RTT_CANNED_TEXT_TITLE#Add%20reply%E2%80%A6`
+- נגישות → שמע חד-ערוצי: `bridge:root=ACCESSIBILITY#MonoAudioEnabled`
+- נגישות → איזון שמאל-ימין: `bridge:root=ACCESSIBILITY#LEFT_RIGHT_BALANCE_SPOKEN`
+- נגישות → עדכוני אוזניות: `bridge:root=ACCESSIBILITY#HeadphoneNotificationsID`
+- נגישות → מכשירי שמיעה: `bridge:root=ACCESSIBILITY#HearingDevicesComplicationGroupID`
+- נגישות → תצוגת שעון: `bridge:root=ACCESSIBILITY&path=HearingDevicesComplicationRowID`
+- נגישות → תצוגת שעון → עוצמת מיקרופון: `bridge:root=ACCESSIBILITY&path=HearingDevicesComplicationRowID#Mic%20Volume`
+- נגישות → תצוגת שעון → תוכנית: `bridge:root=ACCESSIBILITY&path=HearingDevicesComplicationRowID#Program`
+- נגישות → מהירות הקראת זמנים ברטט: `bridge:root=ACCESSIBILITY#TapticTimeSpeedAdjustmentGroup`
+- נגישות → קיצור דרך למאפייני נגישות: `bridge:root=ACCESSIBILITY&path=AX_SHORTCUT`
+- ביטול קוד הגישה: `bridge:root=PASSCODE_ID`
+- ביטול קוד הגישה → הפעלת קוד הגישה: `bridge:root=PASSCODE_ID#TOGGLE_PASSCODE_ID`
+- ביטול קוד הגישה → שינוי קוד הגישה: `bridge:root=PASSCODE_ID#CHANGE_PASSCODE_ID`
+- ביטול קוד הגישה → קוד גישה פשוט: `bridge:root=PASSCODE_ID#SIMPLE_PASSCODE_SWITCH_ID`
+- ביטול קוד הגישה → ביטול הנעילה באמצעות ה-iPhone: `bridge:root=PASSCODE_ID#AUTO_UNLOCK_SWITCH_ID`
+- ביטול קוד הגישה → מחיקת נתונים: `bridge:root=PASSCODE_ID#ERASE_DATA_SWITCH_ID`
+- ביטול קוד הגישה → זיהוי ענידה: `bridge:root=PASSCODE_ID#WRIST_DETECTION_CELL_ID`
+- אנשי קשר: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired`
+- אנשי קשר → סדר מיון: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder`
+- אנשי קשר → סדר מיון → פרטי, משפחה: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder#0`
+- אנשי קשר → סדר מיון → משפחה, פרטי: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder#1`
+- אנשי קשר → סדר הצגה: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder`
+- אנשי קשר → סדר הצגה → פרטי, משפחה: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder#1`
+- אנשי קשר → סדר הצגה → משפחה, פרטי: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder#2`
+- אנשי קשר → שם מקוצר: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName`
+- אנשי קשר → שם מקוצר → שם מקוצר: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Short%20Name`
+- אנשי קשר → שם מקוצר → שם פרטי ואות ראשונה של שם משפחה: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Name%20&%20Last%20Initial`
+- אנשי קשר → שם מקוצר → אות ראשונה של השם ושם משפחה: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Initial%20&%20Last%20Name`
+- אנשי קשר → שם מקוצר → שם פרטי בלבד: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Name%20Only`
+- אנשי קשר → שם מקוצר → שם משפחה בלבד: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Last%20Name%20Only`
+- אנשי קשר → שם מקוצר → שימוש בשמות חיבה: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Prefer%20Nicknames`
+- שווי שוק: `bridge:root=com.apple.StocksBridgeSettings`
+- שווי שוק → תצוגת השעון מראה: `bridge:root=com.apple.StocksBridgeSettings#Clock%20Face%20Complication%20Shows`
+- שווי שוק → מחיר נוכחי: `bridge:root=com.apple.StocksBridgeSettings#Current%20Price`
+- שווי שוק → שינוי נקודות: `bridge:root=com.apple.StocksBridgeSettings#Points%20Change`
+- שווי שוק → שינוי אחוז: `bridge:root=com.apple.StocksBridgeSettings#Percentage%20Change`
+- שווי שוק → שווי שוק: `bridge:root=com.apple.StocksBridgeSettings#Market%20Cap`
+- שווי שוק → עיצוב השעון של Siri מראה נתונים של: `bridge:root=com.apple.StocksBridgeSettings#Siri%20Face%20Shows%20Quote%20For`
+- שווי שוק → המניה שנבחרה: `bridge:root=com.apple.StocksBridgeSettings&path=Selected%20Stock`
+- שווי שוק → המניה שנבחרה → המניה שנבחרה: `bridge:root=com.apple.StocksBridgeSettings&path=Selected%20Stock#Selected%20Stock`
+- ווקי-טוקי: `bridge:root=com.apple.tincan.settings`
+- ווקי-טוקי → קבלת עדכונים: `bridge:root=com.apple.tincan.settings#ALLOW_NOTIFICATIONS_ID`
+- ווקי-טוקי → שליחה ל״מרכז העדכונים״: `bridge:root=com.apple.tincan.settings#SEND_TO_NOTIFICATION_CENTER_ID`
+- ווקי-טוקי → ללא עדכונים: `bridge:root=com.apple.tincan.settings#NOTIFICATIONS_OFF_ID`
+- ווקי-טוקי → קיבוץ עדכונים: `bridge:root=com.apple.tincan.settings&path=NOTIFICATION_COALESCING_ID`
+- ווקי-טוקי → חברים: `bridge:root=com.apple.tincan.settings#Friends`
+- איתור ה-Apple Watch שלי: `bridge:root=ActiveWatch`
+- איתור ה-Apple Watch שלי → קשר שעון חדש: `bridge:root=ActiveWatch&path=Pair%20New%20Watch`
+- מודעות קשובה: `bridge:root=com.apple.MindSettings`
+- מודעות קשובה → קבלת עדכונים: `bridge:root=com.apple.MindSettings#ALLOW_NOTIFICATIONS_ID`
+- מודעות קשובה → שליחה ל״מרכז העדכונים״: `bridge:root=com.apple.MindSettings#SEND_TO_NOTIFICATION_CENTER_ID`
+- מודעות קשובה → ללא עדכונים: `bridge:root=com.apple.MindSettings#NOTIFICATIONS_OFF_ID`
+- מודעות קשובה → תזכורות למודעות קשובה: `bridge:root=com.apple.MindSettings#MIND_GROUP_ID`
+- מודעות קשובה → תחילת היום: `bridge:root=com.apple.MindSettings#MIND_START_OF_DAY_REMINDER`
+- מודעות קשובה → סוף היום: `bridge:root=com.apple.MindSettings#MIND_END_OF_DAY_REMINDER`
+- מודעות קשובה → הוספת תזכורת…: `bridge:root=com.apple.MindSettings#Add%20Reminder%E2%80%A6`
+- מודעות קשובה → סיכום שבועי: `bridge:root=com.apple.MindSettings#MIND_WEEKLY_SUMMARY_ID`
+- מודעות קשובה → השתקה עד מחר: `bridge:root=com.apple.MindSettings#MIND_MUTE_FOR_TODAY_ID`
+- מודעות קשובה → קצב נשימות: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID`
+- מודעות קשובה → קצב נשימות → ארבע נשימות בדקה: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_4`
+- מודעות קשובה → קצב נשימות → חמש נשימות בדקה: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_5`
+- מודעות קשובה → קצב נשימות → שש נשימות בדקה: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_6`
+- מודעות קשובה → קצב נשימות → שבע נשימות בדקה: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_7`
+- מודעות קשובה → קצב נשימות → שמונה נשימות בדקה: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_8`
+- מודעות קשובה → קצב נשימות → תשע נשימות בדקה: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_9`
+- מודעות קשובה → קצב נשימות → עשר נשימות בדקה: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_10`
+- מודעות קשובה → רטט אינטראקטיבי: `bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID`
+- מודעות קשובה → רטט אינטראקטיבי → ללא: `bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#NONE_ID`
+- מודעות קשובה → רטט אינטראקטיבי → עדין: `bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#MINIMAL_ID`
+- מודעות קשובה → רטט אינטראקטיבי → בולט: `bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#PROMINENT_ID`
+- Siri: `bridge:root=SIRI_WATCH_SETTINGS_ID`
+- Siri → בקשות ל-Siri: `bridge:root=SIRI_WATCH_SETTINGS_ID#ASK_SIRI_GROUP_ID`
+- Siri → ‏Siri: `bridge:root=SIRI_WATCH_SETTINGS_ID#HEY_SIRI_SWITCH_ID`
+- Siri → הרמה לדיבור: `bridge:root=SIRI_WATCH_SETTINGS_ID#RAISE_TO_SPEAK_SWITCH_ID`
+- Siri → לחיצה על ה-Digital Crown: `bridge:root=SIRI_WATCH_SETTINGS_ID#DIGITAL_CROWN_SWITCH_ID`
+- Siri → משוב קולי: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID`
+- Siri → משוב קולי → תצוגה פעילה תמיד: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_ALWAYS_ON_ID`
+- Siri → משוב קולי → שליטה באמצעות ״מצב שקט״: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_CONTROL_WITH_SILENT_MODE_ID`
+- Siri → משוב קולי → אוזניות בלבד: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_HEADPHONES_ONLY_ID`
+- Siri → עוצמת הקול: `bridge:root=SIRI_WATCH_SETTINGS_ID#VOICE_VOLUME_GROUP_ID`
+- Siri → הצעות של Siri: `bridge:root=SIRI_WATCH_SETTINGS_ID#ASSISTANT_SUGGESTIONS_GROUP_ID`
+- פריסת היישומים: `bridge:root=APP_VIEW_ID`
+- כללי: `bridge:root=GENERAL_LINK`
+- כללי → מידע: `bridge:root=GENERAL_LINK&path=ABOUT`
+- כללי → מידע → שם: `bridge:root=GENERAL_LINK&path=ABOUT/NAME_CELL_ID`
+- כללי → מידע → אחריות מוגבלת: `bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION`
+- כללי → מידע → אחריות מוגבלת → אחריות מוגבלת: `bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#Limited%20Warranty`
+- כללי → מידע → אחריות מוגבלת → פרטי אחריות: `bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#COVERAGE%20DETAILS`
+- כללי → מידע → אחריות מוגבלת → אחריות חומרה: `bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#Hardware%20Coverage`
+- כללי → מידע → אחריות מוגבלת → תמיכת צ׳אט וטלפון: `bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#Chat%20&%20Phone%20Support`
+- כללי → מידע → שירים: `bridge:root=GENERAL_LINK&path=ABOUT#SONGS_CELL_ID`
+- כללי → מידע → תמונות: `bridge:root=GENERAL_LINK&path=ABOUT#PHOTOS_CELL_ID`
+- כללי → מידע → יישומים: `bridge:root=GENERAL_LINK&path=ABOUT#APPLICATIONS_CELL_ID`
+- כללי → מידע → קיבולת: `bridge:root=GENERAL_LINK&path=ABOUT#STORAGE_CAPACITY_CELL_ID`
+- כללי → מידע → זמין: `bridge:root=GENERAL_LINK&path=ABOUT#STORAGE_AVAILABLE_CELL_ID`
+- כללי → מידע → גירסה: `bridge:root=GENERAL_LINK&path=ABOUT#OS_VERSION_CELL_ID`
+- כללי → מידע → מפעיל: `bridge:root=GENERAL_LINK&path=ABOUT#CARRIER_CELL_ID`
+- כללי → מידע → דגם: `bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_MODEL_CELL_ID`
+- כללי → מידע → מספר סידורי: `bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_SERIAL_NUMBER_CELL_ID`
+- כללי → מידע → Bluetooth: `bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_BLUETOOTH_ADDRESS_CELL_ID`
+- כללי → מידע → IMEI: `bridge:root=GENERAL_LINK&path=ABOUT#IMEI_CELL_ID`
+- כללי → מידע → ICCID: `bridge:root=GENERAL_LINK&path=ABOUT#ICCID_CELL_ID`
+- כללי → מידע → ‏EID: `bridge:root=GENERAL_LINK&path=ABOUT/EID_CELL_ID`
+- כללי → מידע → SEID: `bridge:root=GENERAL_LINK&path=ABOUT/DEVICE_SEID_CELL_ID`
+- כללי → מידע → משפטי: `bridge:root=GENERAL_LINK&path=ABOUT/LEGAL`
+- כללי → מידע → הצגת המדריך למשתמש ב-Apple Watch : `bridge:root=GENERAL_LINK&path=ABOUT#MANUAL`
+- כללי → עדכוני תוכנה: `bridge:root=GENERAL_LINK&path=SOFTWARE_UPDATE_LINK`
+- כללי → התקנת יישום אוטומטית: `bridge:root=GENERAL_LINK#AUTO_APP_INSTALL_SWITCH_ID`
+- כללי → מצב טיסה: `bridge:root=GENERAL_LINK&path=AIRPLANE_MODE_ID`
+- כללי → ריכוז: `bridge:root=GENERAL_LINK&path=FOCUS_ID`
+- כללי → ריכוז → שיקוף ה-iPhone שלי: `bridge:root=GENERAL_LINK&path=FOCUS_ID#Mirror%20my%20iPhone`
+- כללי → כיוון השעון: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION`
+- כללי → כיוון השעון → ענידת ה-Apple Watch על:: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#WRIST_CHOICE_ID`
+- כללי → כיוון השעון → פרק כף יד שמאל: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#LEFT_HAND_ID`
+- כללי → כיוון השעון → פרק כף יד ימין: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#RIGHT_HAND_ID`
+- כללי → כיוון השעון → ה-Digital Crown בצד שמאל: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#LISA_ON_LEFT_ID`
+- כללי → כיוון השעון → ה-Digital Crown בצד ימין: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#LISA_ON_RIGHT_ID`
+- כללי → חשבון Apple: `bridge:root=GENERAL_LINK&path=LINK_WITH_ICLOUD_LINK`
+- כללי → הפעלת ״הכתבה״: `bridge:root=GENERAL_LINK#DICTATION_CELL_ID`
+- כללי → ‏Handoff: `bridge:root=GENERAL_LINK#CONTINUITY`
+- כללי → מצב ארונית לילה: `bridge:root=GENERAL_LINK#NIGHTSTAND_CELL_ID`
+- כללי → צילומי מסך: `bridge:root=GENERAL_LINK#BUTTON_CHORD_CELL_ID`
+- כללי → חיסכון בצריכה: `bridge:root=GENERAL_LINK&path=USAGE_LINK`
+- כללי → דו״חות אבחון: `bridge:root=GENERAL_LINK&path=DIAGNOSTIC_LOG_BROWSER`
+- כללי → העתקת נתוני השעון: `bridge:root=GENERAL_LINK#LOGS_CELL_ID`
+- כללי → איפוס: `bridge:root=GENERAL_LINK&path=RESET`
+- כללי → הפעלה אוטומטית כאשר המכשיר מתחת למים: `bridge:root=GENERAL_LINK&path=AUTO_LAUNCH`
+- כללי → הפעלה אוטומטית כאשר המכשיר מתחת למים → הפעלה אוטומטית של יישומי שמע: `bridge:root=GENERAL_LINK&path=AUTO_LAUNCH#AUTO_LAUNCH_MEDIA`
+- כללי → חזרה לשעון: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK`
+- כללי → חזרה לשעון → חזרה לשעון: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#CSLPRFReturnToClockGroupID`
+- כללי → חזרה לשעון → תמיד: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#RETURN_TO_CLOCK_ALWAYS`
+- כללי → חזרה לשעון → אחרי שתי דקות: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#RETURN_TO_CLOCK_AFTER_2_MINUTES`
+- כללי → חזרה לשעון → אחרי שעה: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#RETURN_TO_CLOCK_AFTER_1_HOUR`
+- כללי → חזרה לשעון → יישומים: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#APP_GROUP_ID`
+- כללי → שפה ואזור: `bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION`
+- כללי → שפה ואזור → שיקוף ה-iPhone שלי: `bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION#MIRROR_MY_COMPANION_ID`
+- כללי → שפה ואזור → עריכה: `bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION#CUSTOM_ID`
+- כללי → Wake Screen: `bridge:root=GENERAL_LINK&path=WAKE_SCREEN`
+- כללי → Wake Screen → מופעל כעת: `bridge:root=GENERAL_LINK&path=WAKE_SCREEN#AUTO_LAUNCH_MEDIA`
+- תצוגה ובהירות: `bridge:root=DISPLAY_AND_BRIGHTNESS`
+- תצוגה ובהירות → בהירות: `bridge:root=DISPLAY_AND_BRIGHTNESS#BRIGHTNESS_LABEL`
+- תצוגה ובהירות → תצוגה פעילה תמיד: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID`
+- תצוגה ובהירות → תצוגה פעילה תמיד → תצוגה פעילה תמיד: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID#TRITIUM_ID`
+- תצוגה ובהירות → תצוגה פעילה תמיד → כאשר היד לא מורמת: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID#TRITIUM_PRIVACY_GROUP_ID`
+- תצוגה ובהירות → תצוגה פעילה תמיד → הצגת עדכונים: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Notifications`
+- תצוגה ובהירות → תצוגה פעילה תמיד → הצגת עדכונים → הצגת עדכונים: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Notifications#APP_BACKLIGHT_PRIVACY_GLOBAL_APP`
+- תצוגה ובהירות → תצוגה פעילה תמיד → הצגת עדכונים → יישומי Apple Watch: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Notifications#APP_GROUP_ID`
+- תצוגה ובהירות → תצוגה פעילה תמיד → הצגת יישומים: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Apps`
+- תצוגה ובהירות → תצוגה פעילה תמיד → הצגת יישומים → הצגת יישומים: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Apps#APP_BACKLIGHT_PRIVACY_GLOBAL_APP`
+- תצוגה ובהירות → תצוגה פעילה תמיד → הצגת יישומים → יישומים: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Apps#APP_GROUP_ID`
+- תצוגה ובהירות → גודל המלל: `bridge:root=DISPLAY_AND_BRIGHTNESS#TEXT_SIZE`
+- תצוגה ובהירות → מלל עבה: `bridge:root=DISPLAY_AND_BRIGHTNESS#BOLD_TEXT`
+- תצוגה ובהירות → התעוררות: `bridge:root=DISPLAY_AND_BRIGHTNESS#WAKE`
+- תצוגה ובהירות → התעוררות בהרמת פרק כף היד: `bridge:root=DISPLAY_AND_BRIGHTNESS#WAKE_SCREEN_ON_WRIST_RAISE_SWITCH_ID`
+- תצוגה ובהירות → התעוררות בסיבוב הכתר: `bridge:root=DISPLAY_AND_BRIGHTNESS#WAKE_SCREEN_ON_CROWN_UP_SWITCH_ID`
+- תצוגה ובהירות → משך ההתעוררות: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration`
+- תצוגה ובהירות → משך ההתעוררות → בעת הקשה: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration#ON_TAP_GROUP_ID`
+- תצוגה ובהירות → משך ההתעוררות → התעוררות למשך 15 שניות: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration#SHORT_WAKE_ID`
+- תצוגה ובהירות → משך ההתעוררות → התעוררות למשך 70 שניות: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration#LONG_WAKE_ID`
+- ערמה חכמה: `bridge:root=SMARTSTACK_LINK`
+- צלילים ורטט אינטראקטיבי: `bridge:root=SOUNDS_ID`
+- צלילים ורטט אינטראקטיבי → עוצמת התראה: `bridge:root=SOUNDS_ID#AUDIO_SLIDER`
+- צלילים ורטט אינטראקטיבי → מצב שקט: `bridge:root=SOUNDS_ID#audio_mute_switch`
+- צלילים ורטט אינטראקטיבי → שמע באוזניות: `bridge:root=SOUNDS_ID#HEADPHONE_AUDIO_GROUP`
+- צלילים ורטט אינטראקטיבי → שימוש בטוח באוזניות: `bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING`
+- צלילים ורטט אינטראקטיבי → שימוש בטוח באוזניות → עדכוני אוזניות: `bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING#COSHeadphoneNotificationsSwitchKey`
+- צלילים ורטט אינטראקטיבי → שימוש בטוח באוזניות → הנמכת צלילים חזקים: `bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING#COSHeadphoneLevelLimitSwitchKey`
+- צלילים ורטט אינטראקטיבי → רטט אינטראקטיבי: `bridge:root=SOUNDS_ID#Haptics`
+- צלילים ורטט אינטראקטיבי → אזהרות אינטראקטיביות: `bridge:root=SOUNDS_ID#Haptic%20Alerts`
+- צלילים ורטט אינטראקטיבי → רטט אינטראקטיבי של הכתר: `bridge:root=SOUNDS_ID#JACKRABBIT_ID`
+- צלילים ורטט אינטראקטיבי → מערכת עם רטט אינטראקטיבי: `bridge:root=SOUNDS_ID#SYSTEM_HAPTICS_ID`
+- צלילים ורטט אינטראקטיבי → כיסוי להשתקה: `bridge:root=SOUNDS_ID#COVER_TO_MUTE`
+- חירום SOS: `bridge:root=SOS_MODE_ID`
+- פרטיות: `bridge:root=PRIVACY_ID`
+- פרטיות → קצב לב: `bridge:root=PRIVACY_ID#HEART_RATE_ENABLED_LABEL`
+- פרטיות → קצב נשימות: `bridge:root=PRIVACY_ID#RESPIRATORY_RATE_LABEL`
+- פרטיות → מעקב אחר כושר: `bridge:root=PRIVACY_ID#FITNESS_TRACKING_ENABLED_LABEL`
+- פרטיות → איפוס נתוני כיול של ״כושר״: `bridge:root=PRIVACY_ID#RESET_MOTION_CALIBRATION_LABEL`
+- פרטיות → מדידות רעשים סביבתיים: `bridge:root=PRIVACY_ID#ENVIRONMENTAL_AUDIO_ENABLED_SWITCH_ID`
+- פרטיות → מדידות שמע באוזניות: `bridge:root=PRIVACY_ID&path=HeadphoneAudio`
+- פרטיות → מדידות שמע באוזניות → שמירה ב״בריאות״: `bridge:root=PRIVACY_ID&path=HeadphoneAudio#SAVE_IN_HEALTH_GROUP`
+- פרטיות → מדידות שמע באוזניות → ל-8 ימים: `bridge:root=PRIVACY_ID&path=HeadphoneAudio#FOR_EIGHT_DAYS_CELL`
+- פרטיות → מדידות שמע באוזניות → עד שאמחק: `bridge:root=PRIVACY_ID&path=HeadphoneAudio#UNTIL_I_DELETE_CELL`
+- פרטיות → מדידות רמת חמצן בדם: `bridge:root=PRIVACY_ID#OXYGEN_SATURATION_ENABLED_SWITCH_ID`
+- פרטיות → טמפרטורת פרק כף היד: `bridge:root=PRIVACY_ID#WRIST_TEMPERATURE_SWITCH_ID`
+- זמן מסך: `bridge:root=SCREEN_TIME_ID`
+- ‏Nike Run Club: `bridge:root=VICTORY_ROW_ID`
+- דואר: `bridge:root=com.apple.NanoMailBridgeSettings`
+- דואר → שיקוף ה-iPhone שלי: `bridge:root=com.apple.NanoMailBridgeSettings#MIRROR_MY_COMPANION_ID`
+- דואר → עריכה: `bridge:root=com.apple.NanoMailBridgeSettings#CUSTOM_ID`
+- דואר → הגדרות ״דואר״: `bridge:root=com.apple.NanoMailBridgeSettings#Mail%20Settings`
+- דואר → חשבונות: `bridge:root=com.apple.NanoMailBridgeSettings&path=Accounts`
+- דואר → כלול דואר: `bridge:root=com.apple.NanoMailBridgeSettings&path=Include%20Mail`
+- דואר → תצוגה מקדימה של הודעות: `bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview`
+- דואר → תצוגה מקדימה של הודעות → ללא: `bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#0`
+- דואר → תצוגה מקדימה של הודעות → שורה אחת: `bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#1`
+- דואר → תצוגה מקדימה של הודעות → שתי שורות: `bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#2`
+- דואר → תגובות ברירת-מחדל: `bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies`
+- דואר → תגובות ברירת-מחדל → תגובות ברירת-מחדל: `bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies#Default%20Replies`
+- דואר → תגובות ברירת-מחדל → הוספת תגובה…: `bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies#Add%20reply%E2%80%A6`
+- דואר → חתימה: `bridge:root=com.apple.NanoMailBridgeSettings&path=Signature`
+- מגבלת אחסון: `bridge:root=com.apple.NanoMusicBridgeSettings`
+- מגבלת אחסון → פלייליסטים ואלבומים: `bridge:root=com.apple.NanoMusicBridgeSettings#PLAYLISTS%20&%20ALBUMS`
+- מגבלת אחסון → הוספת מוזיקה…: `bridge:root=com.apple.NanoMusicBridgeSettings#Add%20Music%E2%80%A6`
+- הודעות: `bridge:root=com.apple.MessagesBridgeSettings`
+- הודעות → שיקוף ה-iPhone שלי: `bridge:root=com.apple.MessagesBridgeSettings#MIRROR_MY_COMPANION_ID`
+- הודעות → עריכה: `bridge:root=com.apple.MessagesBridgeSettings#CUSTOM_ID`
+- הודעות → תגובות ברירת-מחדל: `bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES`
+- הודעות → תגובות ברירת-מחדל → תגובות ברירת-מחדל: `bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Default%20Replies`
+- הודעות → תגובות ברירת-מחדל → תגובות חכמות: `bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Smart%20Replies`
+- הודעות → תגובות ברירת-מחדל → הוספת תגובה…: `bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Add%20reply%E2%80%A6`
+- הודעות → התראות חוזרות: `bridge:root=com.apple.MessagesBridgeSettings&path=PLAY_ALERT_TONE`
+- הודעות → הודעות שמע: `bridge:root=com.apple.MessagesBridgeSettings&path=AudioMessagesMode`
+- מזג אוויר: `bridge:root=com.apple.weatherbridgesettings`
+- מזג אוויר → עיר ברירת-המחדל: `bridge:root=com.apple.weatherbridgesettings&path=Default%20City`
+- מזג אוויר → עיר ברירת-המחדל → עיר ברירת-המחדל: `bridge:root=com.apple.weatherbridgesettings&path=Default%20City#Default%20City`
+- מזג אוויר → עיר ברירת-המחדל → מיקום נוכחי: `bridge:root=com.apple.weatherbridgesettings&path=Default%20City#Current%20Location`
+- לוח שנה: `bridge:root=com.apple.NanoCalendarBridgeSettings`
+- לוח שנה → עדכונים: `bridge:root=com.apple.NanoCalendarBridgeSettings#MIRROR_RADIO_GROUP_ID`
+- לוח שנה → שיקוף ה-iPhone שלי: `bridge:root=com.apple.NanoCalendarBridgeSettings#MIRROR_MY_COMPANION_ID`
+- לוח שנה → התאמה אישית…: `bridge:root=com.apple.NanoCalendarBridgeSettings#CUSTOM_ID`
+- לוח שנה → לוחות שנה: `bridge:root=com.apple.NanoCalendarBridgeSettings#CALENDARS_MIRROR_RADIO_GROUP_ID`
+- לוח שנה → שיקוף ה-iPhone שלי: `bridge:root=com.apple.NanoCalendarBridgeSettings#CALENDARS_MIRROR_MY_COMPANION_ID`
+- לוח שנה → התאמה אישית…: `bridge:root=com.apple.NanoCalendarBridgeSettings&path=CALENDARS_CUSTOM_ID`
+- לוח שנה → אירועים קרובים: `bridge:root=com.apple.NanoCalendarBridgeSettings&path=Upcoming%20Events`
+- לוח שנה → הזמנות: `bridge:root=com.apple.NanoCalendarBridgeSettings&path=Invitations`
+- לוח שנה → תשובות של מוזמנים: `bridge:root=com.apple.NanoCalendarBridgeSettings&path=Invitee%20Responses`
+- לוח שנה → שינויים בלוח שנה משותף: `bridge:root=com.apple.NanoCalendarBridgeSettings&path=Shared%20Calendar%20Alerts`
+- עומק: `bridge:root=com.apple.DepthCompanionSettings`
+- כפתור הפעולה: `bridge:root=STING_TITLE`
+- רעש: `bridge:root=com.apple.Noise.settings`
+- רעש → מדידות רעשים סביבתיים: `bridge:root=com.apple.Noise.settings#ENABLE_MEASUREMENTS_ID`
+- רעש → התראות רעש: `bridge:root=com.apple.Noise.settings#LOUD_NOTIFICATION_GROUP_ID`
+- רעש → סף רעש: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID`
+- רעש → סף רעש → ללא: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#OFF`
+- רעש → סף רעש → 80 דציבלים: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_80`
+- רעש → סף רעש → 85 דציבלים: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_85`
+- רעש → סף רעש → 90 דציבלים: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_90`
+- רעש → סף רעש → 95 דציבלים: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_95`
+- רעש → סף רעש → 100 דציבלים: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_100`
+- רעש → קיבוץ עדכונים: `bridge:root=com.apple.Noise.settings&path=NOTIFICATION_COALESCING_ID`
+- תמונות: `bridge:root=com.apple.NanoPhotosBridgeSettings`
+- תמונות → סנכרון תמונות: `bridge:root=com.apple.NanoPhotosBridgeSettings#Photo%20Syncing`
+- תמונות → זיכרונות: `bridge:root=com.apple.NanoPhotosBridgeSettings#Memories`
+- תמונות → סנכרון זיכרונות: `bridge:root=com.apple.NanoPhotosBridgeSettings#Sync%20Memories`
+- תמונות → תמונות מובילות: `bridge:root=com.apple.NanoPhotosBridgeSettings#Featured%20Photos`
+- תמונות → סנכרון תמונות מובילות: `bridge:root=com.apple.NanoPhotosBridgeSettings#Sync%20Featured%20Photos`
+- תמונות → אלבום: `bridge:root=com.apple.NanoPhotosBridgeSettings#Album`
+- תמונות → סנכרון אלבום: `bridge:root=com.apple.NanoPhotosBridgeSettings&path=Sync%20Album`
+- תמונות → מגבלת תמונות: `bridge:root=com.apple.NanoPhotosBridgeSettings&path=Photos%20Limit`
+- תמונות → הגדרות עדכונים: `bridge:root=com.apple.NanoPhotosBridgeSettings#MIRROR_RADIO_GROUP_ID`
+- תמונות → שיקוף ה-iPhone שלי: `bridge:root=com.apple.NanoPhotosBridgeSettings#MIRROR_MY_COMPANION_ID`
+- תמונות → עריכה: `bridge:root=com.apple.NanoPhotosBridgeSettings#CUSTOM_ID`
+- פודקאסטים: `bridge:root=com.apple.private.PodcastsBridgeSettings`
+- שטיפת ידיים: `bridge:root=com.apple.BrookBridgeSettings`
+- שטיפת ידיים → קבלת עדכונים: `bridge:root=com.apple.BrookBridgeSettings#ALLOW_NOTIFICATIONS_ID`
+- שטיפת ידיים → שליחה ל״מרכז העדכונים״: `bridge:root=com.apple.BrookBridgeSettings#SEND_TO_NOTIFICATION_CENTER_ID`
+- שטיפת ידיים → ללא עדכונים: `bridge:root=com.apple.BrookBridgeSettings#NOTIFICATIONS_OFF_ID`
+- שטיפת ידיים → קיבוץ עדכונים: `bridge:root=com.apple.BrookBridgeSettings&path=NOTIFICATION_COALESCING_ID`
+- שטיפת ידיים → ספירה לאחור לשטיפת ידיים: `bridge:root=com.apple.BrookBridgeSettings#HANDWASHING_TIMER_ID`
+- לב: `bridge:root=com.apple.HeartRateSettings`
+- לב → לב: `bridge:root=com.apple.HeartRateSettings#1`
+- לב → עדכוני קצב לב: `bridge:root=com.apple.HeartRateSettings#2`
+- לב → קצב לב גבוה: `bridge:root=com.apple.HeartRateSettings#3`
+- לב → קצב לב נמוך: `bridge:root=com.apple.HeartRateSettings#4`
+- לב → קצב לא סדיר: `bridge:root=com.apple.HeartRateSettings#5`
+- לב → הצגת מדידות אק״ג ב״בריאות״: `bridge:root=com.apple.HeartRateSettings#6`
+- לב → אק״ג: `bridge:root=com.apple.HeartRateSettings#7`
+- שינה: `bridge:root=com.apple.NanoBedtimeBridgeSettings`
+- שינה → הגדרת ״שינה״ ביישום ״בריאות״: `bridge:root=com.apple.NanoBedtimeBridgeSettings#SET_UP_SLEEP_CELL_ID`
+- אימון: `bridge:root=com.apple.SessionTrackerAppSettings`
+- אימון → מצב סוללה חלשה: `bridge:root=com.apple.SessionTrackerAppSettings#LOW_POWER_MODE`
+- אימון → הצגת מדדי יעדים: `bridge:root=com.apple.SessionTrackerAppSettings#PRO_SETTING_ENABLED_LABEL`
+- אימון → תצוגת אימון: `bridge:root=com.apple.SessionTrackerAppSettings&path=METRIC_VIEW_ID`
+- אימון → השהיה אוטומטית: `bridge:root=com.apple.SessionTrackerAppSettings&path=AUTO_PAUSE_ID`
+- אימון → השהיה אוטומטית → השהיה אוטומטית: `bridge:root=com.apple.SessionTrackerAppSettings&path=AUTO_PAUSE_ID#WorkoutAutoPauseSwitch`
+- אימון → תזכורת להתחיל אימון: `bridge:root=com.apple.SessionTrackerAppSettings#AUTO_START_WORKOUT_NOTIFICATIONS_ENABLED_LABEL`
+- אימון → תזכורת לסיים אימון: `bridge:root=com.apple.SessionTrackerAppSettings#END_REMINDERS_ENABLED_LABEL`
+- אימון → לחיצה להשהיה: `bridge:root=com.apple.SessionTrackerAppSettings#CHORD_PRESS_PAUSE_WORKOUT_ENABLED_LABEL`
+- אימון → זיהוי מכשירי כושר: `bridge:root=com.apple.SessionTrackerAppSettings#NFC_ENABLED_LABEL_ID`
+- אימון → תצוגת קצב/מהירות: `bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL`
+- אימון → תצוגת קצב/מהירות → נוכחי: `bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL#CURRENT_PACE_ID`
+- אימון → תצוגת קצב/מהירות → ממוצע: `bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL#AVERAGE_PACE_ID`
+- אימון → פלייליסט לאימון: `bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID`
+- אימון → פלייליסט לאימון → ללא: `bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID#NONE_AUTOSTART_ID`
+- אימון → פלייליסט לאימון → פלייליסטים: `bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID#MUSIC_PLAYLIST_GROUP_ID`
+- אימון → הפעלה מההתחלה: `bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_MUSIC_PLAY_FROM_BEGINNING_SETTING_ID`
+- אימון → סדר אקראי: `bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_MUSIC_SHUFFLE_SETTING_ID`
+- אימון → יחידות מדידה: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID`
+- אימון → יחידות מדידה → קלוריות: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_CALORIES_ID`
+- אימון → יחידות מדידה → קילוקלוריות: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_KILOCALORIES_ID`
+- אימון → יחידות מדידה → קילוג׳ול: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_KILOJOULES_ID`
+- אימון → יחידות מדידה → יארדים: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#POOL_LENGTH_YARDS_ID`
+- אימון → יחידות מדידה → מטרים: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#POOL_LENGTH_METERS_ID`
+- אימון → יחידות מדידה → מיילים: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#CYCLING_WORKOUTS_MILES_ID`
+- אימון → יחידות מדידה → קילומטרים: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#CYCLING_WORKOUTS_KILOMETERS_ID`
+- אימון → יחידות מדידה → מיילים: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#WALKING_AND_RUNNING_WORKOUTS_MILES_ID`
+- אימון → יחידות מדידה → קילומטרים: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#WALKING_AND_RUNNING_WORKOUTS_KILOMETERS_ID`
+- אימון → משוב קולי: `bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_VOICE_FEEDBACK_LABEL`
+- אימון → זמן להליכה: `bridge:root=com.apple.SessionTrackerAppSettings#GUIDED_WORKOUT_PREFETCH_FOOTER_ID`
+- אימון → הוספת אימונים חדשים לשעון: `bridge:root=com.apple.SessionTrackerAppSettings#GUIDED_WORKOUT_PREFETCH_LABEL_ID`
+- טלפון: `bridge:root=com.apple.PhoneBridgeSettings`
+- טלפון → שיחות: `bridge:root=com.apple.PhoneBridgeSettings#carrier_direct_calling_group_id`
+- טלפון → צלצול: `bridge:root=com.apple.PhoneBridgeSettings#RINGTONE`
+- טלפון → צליל: `bridge:root=com.apple.PhoneBridgeSettings#INCOMING_CALL_SOUND`
+- טלפון → רטט אינטראקטיבי: `bridge:root=com.apple.PhoneBridgeSettings#INCOMING_CALL_HAPTIC`
+- App Store: `bridge:root=com.apple.BridgeAppStoreDaemonSettings`
+- App Store → הורדות אוטומטיות: `bridge:root=com.apple.BridgeAppStoreDaemonSettings#automaticDownloadSpecifier`
+- App Store → עדכונים אוטומטיים: `bridge:root=com.apple.BridgeAppStoreDaemonSettings#Automatic%20Updates`
+- ספרי שמע: `bridge:root=com.apple.NanoBooks.BridgeSettings`
+- ספרי שמע → התחברות: `bridge:root=com.apple.NanoBooks.BridgeSettings#Sign%20In`
+- התראות על פניות: `bridge:root=com.apple.NanoMapsBridgeSettings`
+- התראות על פניות → התראות על פניות: `bridge:root=com.apple.NanoMapsBridgeSettings#Turn%20Alerts`
+- התראות על פניות → נהיגה: `bridge:root=com.apple.NanoMapsBridgeSettings#Driving`
+- התראות על פניות → נהיגה עם CarPlay: `bridge:root=com.apple.NanoMapsBridgeSettings#Driving%20with%20CarPlay`
+- התראות על פניות → הליכה: `bridge:root=com.apple.NanoMapsBridgeSettings#Walking`
+- התראות על פניות → רכיבה על אופניים: `bridge:root=com.apple.NanoMapsBridgeSettings#Cycling`
+- התראות על פניות → הצגת אפשרויות ניווט: `bridge:root=com.apple.NanoMapsBridgeSettings#Show%20Navigation`
+- התראות על פניות → תחבורה: `bridge:root=com.apple.NanoMapsBridgeSettings#Transit`
+- התראות על פניות → נתוני תת-גירסה:: `bridge:root=com.apple.NanoMapsBridgeSettings#Build%20Info%3A`
+- Dock: `bridge:root=DOCK`
+- Dock → סידור ה-Dock: `bridge:root=DOCK#OrderingOptionGroup`
+- Dock → אחרונים: `bridge:root=DOCK#Recents`
+- Dock → מועדפים: `bridge:root=DOCK#Favorites`
+- Dock: `bridge:root=DOCK.0`
+- Dock → סידור ה-Dock: `bridge:root=DOCK.0#OrderingOptionGroup`
+- Dock → אחרונים: `bridge:root=DOCK.0#Recents`
+- Dock → מועדפים: `bridge:root=DOCK.0#Favorites`
+- רמת חמצן בדם: `bridge:root=com.apple.OxygenSaturationSettings`
+- שעון: `bridge:root=com.apple.NanoClockBridgeSettings`
+- שעון → שעון 24 שעות: `bridge:root=com.apple.NanoClockBridgeSettings#24-Hour%20Time`
+- שעון → צליל פעמונים: `bridge:root=com.apple.NanoClockBridgeSettings#Chimes`
+- שעון → צלילים: `bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds`
+- שעון → צלילים → פעמונים: `bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds#Bells`
+- שעון → צלילים → ציפורים: `bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds#Birds`
+- שעון → הקראת זמנים: `bridge:root=com.apple.NanoClockBridgeSettings#Speak%20Time`
+- שעון → שליטה באמצעות ״מצב שקט״: `bridge:root=com.apple.NanoClockBridgeSettings#Control%20With%20Silent%20Mode`
+- שעון → הקראה קבועה: `bridge:root=com.apple.NanoClockBridgeSettings#Always%20Speak`
+- שעון → הקראת זמנים ברטט: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time`
+- שעון → הקראת זמנים ברטט → הקראת זמנים ברטט: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Taptic%20Time`
+- שעון → הקראת זמנים ברטט → ספרות: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Digits`
+- שעון → הקראת זמנים ברטט → תמצית: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Terse`
+- שעון → הקראת זמנים ברטט → קוד מורס: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Morse%20Code`
+- שעון → התראות בטכנולוגיית Push מה-iPhone: `bridge:root=com.apple.NanoClockBridgeSettings#Push%20Alerts%20from%20iPhone`
+- שעון → חיווי של עדכונים: `bridge:root=com.apple.NanoClockBridgeSettings#Notifications%20Indicator`
+- שעון → מונוגרמה: `bridge:root=com.apple.NanoClockBridgeSettings&path=MONOGRAM_ID`
+- שעון → עדכונים על עיצוב שעון: `bridge:root=com.apple.NanoClockBridgeSettings#Watch%20Face%20Notifications`
+- שעון → קיצורים של שמות ערים: `bridge:root=com.apple.NanoClockBridgeSettings&path=City%20Abbreviations`
+- שעון → מקורות נתוני עיצוב השעון של Siri: `bridge:root=com.apple.NanoClockBridgeSettings&path=Siri%20Face%20Data%20Sources`
+- בריאות: `bridge:root=com.apple.BridgeHealthSettings`
+- תצוגות: `bridge:root=COMPLICATIONS`
+- הגדרות מפעיל: `bridge:root=CARRIER_SETTINGS`
+- פעילות: `bridge:root=com.apple.HealthAppsSettings`
+- פעילות → עדכוני התקדמות: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL`
+- פעילות → עדכוני התקדמות → ללא: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#ZERO_HOURS_ID`
+- פעילות → עדכוני התקדמות → כל 2 שעות: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#TWO_HOURS_ID`
+- פעילות → עדכוני התקדמות → כל 4 שעות: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#FOUR_HOURS_ID`
+- פעילות → עדכוני התקדמות → כל 6 שעות: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#SIX_HOURS_ID`
+- פעילות → עדכוני התקדמות → כל 8 שעות: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#EIGHT_HOURS_ID`
+- פעילות → הישגים: `bridge:root=com.apple.HealthAppsSettings#ACHIEVEMENTS_ENABLED_LABEL`
+- פעילות → סיכום שבועי: `bridge:root=com.apple.HealthAppsSettings#WEEKLY_SUMMARY_ENABLED_LABEL`
+- פעילות → הדרכה אישית יומית: `bridge:root=com.apple.HealthAppsSettings#DAILY_PROGRESS_ENABLED_LABEL`
+- פעילות → יעדים בהם עמדת: `bridge:root=com.apple.HealthAppsSettings#GOAL_COMPLETIONS_ENABLED_LABEL`
+- פעילות → אתגרים מיוחדים: `bridge:root=com.apple.HealthAppsSettings#REMOTE_ACHIEVEMENTS_ENABLED_LABEL`
+- פעילות → עדכוני שיתוף פעילות: `bridge:root=com.apple.HealthAppsSettings#ACTIVITY_SHARING_NOTIFICATIONS_ENABLED`
+- ארנק ו-Apple Pay: `bridge:root=com.apple.NanoPassbookBridgeSettings`
+- ארנק ו-Apple Pay → Apple Cash: `bridge:root=com.apple.NanoPassbookBridgeSettings#Apple%C2%A0Cash`
+- ארנק ו-Apple Pay → הוספת כרטיס: `bridge:root=com.apple.NanoPassbookBridgeSettings#Add%20Card`
+- ארנק ו-Apple Pay → עדכונים: `bridge:root=com.apple.NanoPassbookBridgeSettings#MIRROR_RADIO_GROUP_ID`
+- ארנק ו-Apple Pay → שיקוף ה-iPhone שלי: `bridge:root=com.apple.NanoPassbookBridgeSettings#MIRROR_MY_COMPANION_ID`
+- ארנק ו-Apple Pay → עריכה: `bridge:root=com.apple.NanoPassbookBridgeSettings#CUSTOM_ID`
+- סלולרי: `bridge:root=CELLULAR_ID`
+- ״דואר״ ו״לוח שנה״: `bridge:root=com.apple.BridgeRemoteAccounts`
+- ״דואר״ ו״לוח שנה״ → חשבונות: `bridge:root=com.apple.BridgeRemoteAccounts#Accounts`
+- ״דואר״ ו״לוח שנה״ → הוספת חשבון Google...: `bridge:root=com.apple.BridgeRemoteAccounts#ADD_GOOGLE_ACCOUNT`
+- ״דואר״ ו״לוח שנה״ → משיכת דוא״ל: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch`
+- ״דואר״ ו״לוח שנה״ → משיכת דוא״ל → כבוי: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#Off`
+- ״דואר״ ו״לוח שנה״ → משיכת דוא״ל → אחת לשעה: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#Hourly`
+- ״דואר״ ו״לוח שנה״ → משיכת דוא״ל → חצי שעה: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#30%20min`
+- ״דואר״ ו״לוח שנה״ → משיכת דוא״ל → רבע שעה: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#15%20min`
+- שליחת אישורי קריאה: `bridge:root=com.apple.MessagesBridgeSettings%23READ_RECEIPTS`
+- מגבלת תמונות: `bridge:root=com.apple.mobileslideshow`

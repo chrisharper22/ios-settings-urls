@@ -1,0 +1,426 @@
+- அணுகல்தன்மை: `bridge:root=ACCESSIBILITY`
+- அணுகல்தன்மை → பார்வை: `bridge:root=ACCESSIBILITY#VISION`
+- அணுகல்தன்மை → VoiceOver: `bridge:root=ACCESSIBILITY&path=VOICEOVER_TITLE`
+- அணுகல்தன்மை → ஜூம்: `bridge:root=ACCESSIBILITY&path=ZOOM_TITLE`
+- அணுகல்தன்மை → தடித்த உரை: `bridge:root=ACCESSIBILITY#BoldTextEnabled`
+- அணுகல்தன்மை → ஆன்/ஆஃப் லேபிள்கள்: `bridge:root=ACCESSIBILITY#OnOffLabelsEnabled`
+- அணுகல்தன்மை → கிரேஸ்கேல்: `bridge:root=ACCESSIBILITY#GrayscaleDisplay`
+- அணுகல்தன்மை → டிரான்ஸ்பெரன்சியைக் குறை: `bridge:root=ACCESSIBILITY#REDUCE_TRANSPARENCY`
+- அணுகல்தன்மை → நகர்வைக் குறை: `bridge:root=ACCESSIBILITY&path=ReduceMotion`
+- அணுகல்தன்மை → சைம்ஸ்: `bridge:root=ACCESSIBILITY&path=TapticChimesCell`
+- அணுகல்தன்மை → சைம்ஸ் → சைம்ஸ்: `bridge:root=ACCESSIBILITY&path=TapticChimesCell#Chimes`
+- அணுகல்தன்மை → சைம்ஸ் → திட்டமிடல்: `bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule`
+- அணுகல்தன்மை → சைம்ஸ் → திட்டமிடல் → மணிதோறும்: `bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule#Hourly`
+- அணுகல்தன்மை → சைம்ஸ் → திட்டமிடல் → 30 நிமிடங்கள்: `bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule#30%20minutes`
+- அணுகல்தன்மை → சைம்ஸ் → திட்டமிடல் → 15 நிமிடம்: `bridge:root=ACCESSIBILITY&path=TapticChimesCell/Schedule#15%20minutes`
+- அணுகல்தன்மை → சைம்ஸ் → ஒலிகள்: `bridge:root=ACCESSIBILITY&path=TapticChimesCell/Sounds`
+- அணுகல்தன்மை → சைம்ஸ் → ஒலிகள் → மணிகள்: `bridge:root=ACCESSIBILITY&path=TapticChimesCell/Sounds#Bells`
+- அணுகல்தன்மை → சைம்ஸ் → ஒலிகள் → பறவைகள்: `bridge:root=ACCESSIBILITY&path=TapticChimesCell/Sounds#Birds`
+- அணுகல்தன்மை → மோட்டார்: `bridge:root=ACCESSIBILITY#MotorGroupCell`
+- அணுகல்தன்மை → பக்கவாட்டு பட்டன் கிளிக் வேகம்: `bridge:root=ACCESSIBILITY&path=SideButton`
+- அணுகல்தன்மை → பக்கவாட்டு பட்டன் கிளிக் வேகம் → கிளிக் வேகம்: `bridge:root=ACCESSIBILITY&path=SideButton#SIDE_SPEED_HEADER`
+- அணுகல்தன்மை → பக்கவாட்டு பட்டன் கிளிக் வேகம் → இயல்புநிலை: `bridge:root=ACCESSIBILITY&path=SideButton#SIDE_CLICK_SPEED_DEFAULT`
+- அணுகல்தன்மை → பக்கவாட்டு பட்டன் கிளிக் வேகம் → குறைந்த வேகம்: `bridge:root=ACCESSIBILITY&path=SideButton#SIDE_CLICK_SPEED_SLOW`
+- அணுகல்தன்மை → பக்கவாட்டு பட்டன் கிளிக் வேகம் → மிகக் குறைந்த வேகம்: `bridge:root=ACCESSIBILITY&path=SideButton#SIDE_CLICK_SPEED_SLOWEST`
+- அணுகல்தன்மை → தொடு வசதிகள்: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell`
+- அணுகல்தன்மை → தொடு வசதிகள் → தொடு வசதிகள்: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#TOUCH_ACCOMMODATIONS_SWITCHER`
+- அணுகல்தன்மை → தொடு வசதிகள் → அழுத்திப்பிடித்தல் காலஅளவு: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#HoldDurationGroup`
+- அணுகல்தன்மை → தொடு வசதிகள் → அழுத்திப்பிடித்தல் காலஅளவு: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#HoldDuration`
+- அணுகல்தன்மை → தொடு வசதிகள் → ரிப்பீட்டைப் புறக்கணி: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#IgnoreRepeatGroup`
+- அணுகல்தன்மை → தொடு வசதிகள் → ரிப்பீட்டைப் புறக்கணி: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#IgnoreRepeat`
+- அணுகல்தன்மை → தொடு வசதிகள் → தட்டுவதற்கான உதவி: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#Tap%20Assistance`
+- அணுகல்தன்மை → தொடு வசதிகள் → ஆஃப்: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#OFF`
+- அணுகல்தன்மை → தொடு வசதிகள் → ஆரம்பத் தொடு புள்ளியைப் பயன்படுத்து: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#ACTIVATE_ON_TOUCH`
+- அணுகல்தன்மை → தொடு வசதிகள் → இறுதித் தொடு புள்ளியைப் பயன்படுத்து: `bridge:root=ACCESSIBILITY&path=TouchAccommodationsCell#ACTIVATE_ON_RELEASE`
+- அணுகல்தன்மை → சக்கர நாற்காலிச் செயல்பாடு: `bridge:root=ACCESSIBILITY#MOBILITY`
+- அணுகல்தன்மை → வாக்கி-டாக்கி: `bridge:root=ACCESSIBILITY#WalkieTalkieTapToTalkGroup`
+- அணுகல்தன்மை → பேச தட்டவும்: `bridge:root=ACCESSIBILITY#WalkieTalkieTapToTalk`
+- அணுகல்தன்மை → செவித்திறன்: `bridge:root=ACCESSIBILITY#HEARING`
+- அணுகல்தன்மை → RTT: `bridge:root=ACCESSIBILITY&path=RTT`
+- அணுகல்தன்மை → RTT → RTT: `bridge:root=ACCESSIBILITY&path=RTT#RTT_TITLE`
+- அணுகல்தன்மை → RTT → ரிலே எண்: `bridge:root=ACCESSIBILITY&path=RTT/TTY_RELAY_LABEL`
+- அணுகல்தன்மை → RTT → உடனடியாக அனுப்பு: `bridge:root=ACCESSIBILITY&path=RTT#TTY_REALTIME_LABEL`
+- அணுகல்தன்மை → RTT → இயல்புநிலை பதில்கள்: `bridge:root=ACCESSIBILITY&path=RTT/RTT_CANNED_TEXT_TITLE`
+- அணுகல்தன்மை → RTT → இயல்புநிலை பதில்கள் → இயல்புநிலை பதில்கள்: `bridge:root=ACCESSIBILITY&path=RTT/RTT_CANNED_TEXT_TITLE#Default%20Replies`
+- அணுகல்தன்மை → RTT → இயல்புநிலை பதில்கள் → பதிலை சேர்…: `bridge:root=ACCESSIBILITY&path=RTT/RTT_CANNED_TEXT_TITLE#Add%20reply%E2%80%A6`
+- அணுகல்தன்மை → மோனோ ஆடியோ: `bridge:root=ACCESSIBILITY#MonoAudioEnabled`
+- அணுகல்தன்மை → இடது-வலது ஸ்டீரியோ பேலன்ஸ்: `bridge:root=ACCESSIBILITY#LEFT_RIGHT_BALANCE_SPOKEN`
+- அணுகல்தன்மை → ஹெட்ஃபோன் அறிவிப்புகள்: `bridge:root=ACCESSIBILITY#HeadphoneNotificationsID`
+- அணுகல்தன்மை → ஹியரிங் சாதனங்கள்: `bridge:root=ACCESSIBILITY#HearingDevicesComplicationGroupID`
+- அணுகல்தன்மை → காம்ப்ளிகேஷன்: `bridge:root=ACCESSIBILITY&path=HearingDevicesComplicationRowID`
+- அணுகல்தன்மை → காம்ப்ளிகேஷன் → மைக் ஒலியளவு: `bridge:root=ACCESSIBILITY&path=HearingDevicesComplicationRowID#Mic%20Volume`
+- அணுகல்தன்மை → காம்ப்ளிகேஷன் → புரோக்ராம்: `bridge:root=ACCESSIBILITY&path=HearingDevicesComplicationRowID#Program`
+- அணுகல்தன்மை → டேப்டிக் டைம் வேகம்: `bridge:root=ACCESSIBILITY#TapticTimeSpeedAdjustmentGroup`
+- அணுகல்தன்மை → அணுகல்தன்மை சுருக்கவழி: `bridge:root=ACCESSIBILITY&path=AX_SHORTCUT`
+- பாஸ்கோடை ஆஃப் செய்: `bridge:root=PASSCODE_ID`
+- பாஸ்கோடை ஆஃப் செய் → பாஸ்கோடை ஆன் செய்: `bridge:root=PASSCODE_ID#TOGGLE_PASSCODE_ID`
+- பாஸ்கோடை ஆஃப் செய் → பாஸ்கோடை மாற்றவும்: `bridge:root=PASSCODE_ID#CHANGE_PASSCODE_ID`
+- பாஸ்கோடை ஆஃப் செய் → எளிய பாஸ்கோடு: `bridge:root=PASSCODE_ID#SIMPLE_PASSCODE_SWITCH_ID`
+- பாஸ்கோடை ஆஃப் செய் → iPhone மூலம் அன்லாக் செய்: `bridge:root=PASSCODE_ID#AUTO_UNLOCK_SWITCH_ID`
+- பாஸ்கோடை ஆஃப் செய் → தரவுகளை அழி: `bridge:root=PASSCODE_ID#ERASE_DATA_SWITCH_ID`
+- பாஸ்கோடை ஆஃப் செய் → மணிக்கட்டு கண்டறிதல்: `bridge:root=PASSCODE_ID#WRIST_DETECTION_CELL_ID`
+- தொடர்புகள்: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired`
+- தொடர்புகள் → வகைப்படுத்தல் வரிசை: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder`
+- தொடர்புகள் → வகைப்படுத்தல் வரிசை → முதல், கடைசி: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder#0`
+- தொடர்புகள் → வகைப்படுத்தல் வரிசை → கடைசி, முதல்: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=contactsSortOrder#1`
+- தொடர்புகள் → காட்டப்படும் வரிசை: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder`
+- தொடர்புகள் → காட்டப்படும் வரிசை → முதல், கடைசி: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder#1`
+- தொடர்புகள் → காட்டப்படும் வரிசை → கடைசி, முதல்: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=NSPersonNameDefaultDisplayNameOrder#2`
+- தொடர்புகள் → சுருக்கப் பெயர்: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName`
+- தொடர்புகள் → சுருக்கப் பெயர் → சுருக்கப் பெயர்: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Short%20Name`
+- தொடர்புகள் → சுருக்கப் பெயர் → முதற்பெயர் & கடைசிப் பெயரின் முதலெழுத்து: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Name%20&%20Last%20Initial`
+- தொடர்புகள் → சுருக்கப் பெயர் → முதற்பெயரின் முதலெழுத்து & கடைசிப் பெயர்: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Initial%20&%20Last%20Name`
+- தொடர்புகள் → சுருக்கப் பெயர் → முதற்பெயர் மட்டும்: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#First%20Name%20Only`
+- தொடர்புகள் → சுருக்கப் பெயர் → கடைசிப் பெயர் மட்டும்: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Last%20Name%20Only`
+- தொடர்புகள் → சுருக்கப் பெயர் → புனைபெயர்களுக்கு முன்னுரிமையளி: `bridge:root=com.apple.NanoContactsBridgeSettingsPaired&path=PersonShortName#Prefer%20Nicknames`
+- மார்கெட் கேப்: `bridge:root=com.apple.StocksBridgeSettings`
+- மார்கெட் கேப் → கடிகார முகப்பு காம்ப்ளிகேஷன் காட்டுவது: `bridge:root=com.apple.StocksBridgeSettings#Clock%20Face%20Complication%20Shows`
+- மார்கெட் கேப் → தற்போதைய விலை: `bridge:root=com.apple.StocksBridgeSettings#Current%20Price`
+- மார்கெட் கேப் → பாயிண்ட்கள் மாற்றம்: `bridge:root=com.apple.StocksBridgeSettings#Points%20Change`
+- மார்கெட் கேப் → சதவீத மாற்றம்: `bridge:root=com.apple.StocksBridgeSettings#Percentage%20Change`
+- மார்கெட் கேப் → சந்தை மூலதனம்: `bridge:root=com.apple.StocksBridgeSettings#Market%20Cap`
+- மார்கெட் கேப் → Siri முகப்பு காட்டும் பங்கு விலை: `bridge:root=com.apple.StocksBridgeSettings#Siri%20Face%20Shows%20Quote%20For`
+- மார்கெட் கேப் → தேர்ந்தெடுக்கப்பட்ட பங்கு: `bridge:root=com.apple.StocksBridgeSettings&path=Selected%20Stock`
+- மார்கெட் கேப் → தேர்ந்தெடுக்கப்பட்ட பங்கு → தேர்ந்தெடுக்கப்பட்ட பங்கு: `bridge:root=com.apple.StocksBridgeSettings&path=Selected%20Stock#Selected%20Stock`
+- வாக்கி-டாக்கி: `bridge:root=com.apple.tincan.settings`
+- வாக்கி-டாக்கி → அறிவிப்புகளை அனுமதி: `bridge:root=com.apple.tincan.settings#ALLOW_NOTIFICATIONS_ID`
+- வாக்கி-டாக்கி → அறிவிப்பு மையத்திற்கு அனுப்பு: `bridge:root=com.apple.tincan.settings#SEND_TO_NOTIFICATION_CENTER_ID`
+- வாக்கி-டாக்கி → அறிவிப்புகள் ஆஃப்: `bridge:root=com.apple.tincan.settings#NOTIFICATIONS_OFF_ID`
+- வாக்கி-டாக்கி → அறிவிப்புகள் தொகுப்பு: `bridge:root=com.apple.tincan.settings&path=NOTIFICATION_COALESCING_ID`
+- வாக்கி-டாக்கி → நண்பர்கள்: `bridge:root=com.apple.tincan.settings#Friends`
+- எனது Apple Watchஐக் கண்டறி: `bridge:root=ActiveWatch`
+- எனது Apple Watchஐக் கண்டறி → புதிய Watchஐ இணை: `bridge:root=ActiveWatch&path=Pair%20New%20Watch`
+- மைண்ட்ஃபுல்னஸ்: `bridge:root=com.apple.MindSettings`
+- மைண்ட்ஃபுல்னஸ் → அறிவிப்புகளை அனுமதி: `bridge:root=com.apple.MindSettings#ALLOW_NOTIFICATIONS_ID`
+- மைண்ட்ஃபுல்னஸ் → அறிவிப்பு மையத்திற்கு அனுப்பு: `bridge:root=com.apple.MindSettings#SEND_TO_NOTIFICATION_CENTER_ID`
+- மைண்ட்ஃபுல்னஸ் → அறிவிப்புகள் ஆஃப்: `bridge:root=com.apple.MindSettings#NOTIFICATIONS_OFF_ID`
+- மைண்ட்ஃபுல்னஸ் → மைண்ட்ஃபுல்னஸ் நினைவூட்டல்கள்: `bridge:root=com.apple.MindSettings#MIND_GROUP_ID`
+- மைண்ட்ஃபுல்னஸ் → நாளின் தொடக்கம்: `bridge:root=com.apple.MindSettings#MIND_START_OF_DAY_REMINDER`
+- மைண்ட்ஃபுல்னஸ் → நாளின் முடிவில்: `bridge:root=com.apple.MindSettings#MIND_END_OF_DAY_REMINDER`
+- மைண்ட்ஃபுல்னஸ் → நினைவூட்டலைச் சேர்…: `bridge:root=com.apple.MindSettings#Add%20Reminder%E2%80%A6`
+- மைண்ட்ஃபுல்னஸ் → வாராந்தரச் சுருக்கவிவரம்: `bridge:root=com.apple.MindSettings#MIND_WEEKLY_SUMMARY_ID`
+- மைண்ட்ஃபுல்னஸ் → இன்று முழுவதும் ஒலிமுடக்கு: `bridge:root=com.apple.MindSettings#MIND_MUTE_FOR_TODAY_ID`
+- மைண்ட்ஃபுல்னஸ் → சுவாச விகிதம்: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID`
+- மைண்ட்ஃபுல்னஸ் → சுவாச விகிதம் → ஒரு நிமிடத்திற்கு 4 சுவாசங்கள்: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_4`
+- மைண்ட்ஃபுல்னஸ் → சுவாச விகிதம் → ஒரு நிமிடத்திற்கு 5 சுவாசங்கள்: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_5`
+- மைண்ட்ஃபுல்னஸ் → சுவாச விகிதம் → ஒரு நிமிடத்திற்கு 6 சுவாசங்கள்: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_6`
+- மைண்ட்ஃபுல்னஸ் → சுவாச விகிதம் → ஒரு நிமிடத்திற்கு 7 சுவாசங்கள்: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_7`
+- மைண்ட்ஃபுல்னஸ் → சுவாச விகிதம் → ஒரு நிமிடத்திற்கு 8 சுவாசங்கள்: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_8`
+- மைண்ட்ஃபுல்னஸ் → சுவாச விகிதம் → ஒரு நிமிடத்திற்கு 9 சுவாசங்கள்: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_9`
+- மைண்ட்ஃபுல்னஸ் → சுவாச விகிதம் → ஒரு நிமிடத்திற்கு 10 சுவாசங்கள்: `bridge:root=com.apple.MindSettings&path=MIND_BREATHE_RATE_ID#ID_BPM_10`
+- மைண்ட்ஃபுல்னஸ் → ஹேப்டிக்ஸ்: `bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID`
+- மைண்ட்ஃபுல்னஸ் → ஹேப்டிக்ஸ் → எதுவுமில்லை: `bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#NONE_ID`
+- மைண்ட்ஃபுல்னஸ் → ஹேப்டிக்ஸ் → குறைந்தபட்சம்: `bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#MINIMAL_ID`
+- மைண்ட்ஃபுல்னஸ் → ஹேப்டிக்ஸ் → கவனிக்கத்தக்கது: `bridge:root=com.apple.MindSettings&path=MIND_HAPTICS_ID#PROMINENT_ID`
+- Siri: `bridge:root=SIRI_WATCH_SETTINGS_ID`
+- Siri → Siriஐக் கேட்கவும்: `bridge:root=SIRI_WATCH_SETTINGS_ID#ASK_SIRI_GROUP_ID`
+- Siri → Siri: `bridge:root=SIRI_WATCH_SETTINGS_ID#HEY_SIRI_SWITCH_ID`
+- Siri → பேச எடுத்தல்: `bridge:root=SIRI_WATCH_SETTINGS_ID#RAISE_TO_SPEAK_SWITCH_ID`
+- Siri → Digital Crownஐ அழுத்துதல்: `bridge:root=SIRI_WATCH_SETTINGS_ID#DIGITAL_CROWN_SWITCH_ID`
+- Siri → வாய்ஸ் ஃபீட்பேக்: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID`
+- Siri → வாய்ஸ் ஃபீட்பேக் → எப்போதும் ஆனில் வை: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_ALWAYS_ON_ID`
+- Siri → வாய்ஸ் ஃபீட்பேக் → அமைதிப் பயன்முறையில் கட்டுப்படுத்து: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_CONTROL_WITH_SILENT_MODE_ID`
+- Siri → வாய்ஸ் ஃபீட்பேக் → ஹெட்ஃபோன்கள் மட்டும்: `bridge:root=SIRI_WATCH_SETTINGS_ID&path=VOICE_FEEDBACK_ID#VOICE_FEEDBACK_HEADPHONES_ONLY_ID`
+- Siri → குரல் ஒலியளவு: `bridge:root=SIRI_WATCH_SETTINGS_ID#VOICE_VOLUME_GROUP_ID`
+- Siri → Siri பரிந்துரைகள்: `bridge:root=SIRI_WATCH_SETTINGS_ID#ASSISTANT_SUGGESTIONS_GROUP_ID`
+- செயலிக் காட்சி: `bridge:root=APP_VIEW_ID`
+- பொது: `bridge:root=GENERAL_LINK`
+- பொது → அறிமுகம்: `bridge:root=GENERAL_LINK&path=ABOUT`
+- பொது → அறிமுகம் → பெயர்: `bridge:root=GENERAL_LINK&path=ABOUT/NAME_CELL_ID`
+- பொது → அறிமுகம் → வரம்புடைய உத்திரவாதம்: `bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION`
+- பொது → அறிமுகம் → வரம்புடைய உத்திரவாதம் → வரம்புடைய உத்திரவாதம்: `bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#Limited%20Warranty`
+- பொது → அறிமுகம் → வரம்புடைய உத்திரவாதம் → கவரேஜ் விவரங்கள்: `bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#COVERAGE%20DETAILS`
+- பொது → அறிமுகம் → வரம்புடைய உத்திரவாதம் → வன்பொருள் கவரேஜ்: `bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#Hardware%20Coverage`
+- பொது → அறிமுகம் → வரம்புடைய உத்திரவாதம் → உரையாடல் & ஃபோன் ஆதரவு: `bridge:root=GENERAL_LINK&path=ABOUT/WARRANTY_DESCRIPTION#Chat%20&%20Phone%20Support`
+- பொது → அறிமுகம் → பாடல்கள்: `bridge:root=GENERAL_LINK&path=ABOUT#SONGS_CELL_ID`
+- பொது → அறிமுகம் → புகைப்படங்கள்: `bridge:root=GENERAL_LINK&path=ABOUT#PHOTOS_CELL_ID`
+- பொது → அறிமுகம் → செயலிகள்: `bridge:root=GENERAL_LINK&path=ABOUT#APPLICATIONS_CELL_ID`
+- பொது → அறிமுகம் → கொள்ளளவு: `bridge:root=GENERAL_LINK&path=ABOUT#STORAGE_CAPACITY_CELL_ID`
+- பொது → அறிமுகம் → கிடைக்கும்: `bridge:root=GENERAL_LINK&path=ABOUT#STORAGE_AVAILABLE_CELL_ID`
+- பொது → அறிமுகம் → பதிப்பு: `bridge:root=GENERAL_LINK&path=ABOUT#OS_VERSION_CELL_ID`
+- பொது → அறிமுகம் → நெட்வொர்க் வழங்குநர்: `bridge:root=GENERAL_LINK&path=ABOUT#CARRIER_CELL_ID`
+- பொது → அறிமுகம் → மாடல்: `bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_MODEL_CELL_ID`
+- பொது → அறிமுகம் → வரிசை எண்: `bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_SERIAL_NUMBER_CELL_ID`
+- பொது → அறிமுகம் → Bluetooth: `bridge:root=GENERAL_LINK&path=ABOUT#DEVICE_BLUETOOTH_ADDRESS_CELL_ID`
+- பொது → அறிமுகம் → IMEI: `bridge:root=GENERAL_LINK&path=ABOUT#IMEI_CELL_ID`
+- பொது → அறிமுகம் → ICCID: `bridge:root=GENERAL_LINK&path=ABOUT#ICCID_CELL_ID`
+- பொது → அறிமுகம் → EID: `bridge:root=GENERAL_LINK&path=ABOUT/EID_CELL_ID`
+- பொது → அறிமுகம் → SEID: `bridge:root=GENERAL_LINK&path=ABOUT/DEVICE_SEID_CELL_ID`
+- பொது → அறிமுகம் → சட்ட விதிகள்: `bridge:root=GENERAL_LINK&path=ABOUT/LEGAL`
+- பொது → அறிமுகம் → Apple Watch பயனர் வழிகாட்டியைக் காட்டு: `bridge:root=GENERAL_LINK&path=ABOUT#MANUAL`
+- பொது → மென்பொருள் புதுப்பிப்பு: `bridge:root=GENERAL_LINK&path=SOFTWARE_UPDATE_LINK`
+- பொது → தானாகச் செயலியை நிறுவு: `bridge:root=GENERAL_LINK#AUTO_APP_INSTALL_SWITCH_ID`
+- பொது → விமானப் பயன்முறை: `bridge:root=GENERAL_LINK&path=AIRPLANE_MODE_ID`
+- பொது → ஃபோகஸ்: `bridge:root=GENERAL_LINK&path=FOCUS_ID`
+- பொது → ஃபோகஸ் → எனது iPhoneஐ மிரர் செய்: `bridge:root=GENERAL_LINK&path=FOCUS_ID#Mirror%20my%20iPhone`
+- பொது → Watch திசையமைவு: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION`
+- பொது → Watch திசையமைவு → Apple Watch அணியும் முறை: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#WRIST_CHOICE_ID`
+- பொது → Watch திசையமைவு → இடது மணிக்கட்டு: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#LEFT_HAND_ID`
+- பொது → Watch திசையமைவு → வலது மணிக்கட்டு: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#RIGHT_HAND_ID`
+- பொது → Watch திசையமைவு → இடது பக்கத்தில் Digital Crown: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#LISA_ON_LEFT_ID`
+- பொது → Watch திசையமைவு → வலது பக்கத்தில் Digital Crown: `bridge:root=GENERAL_LINK&path=GIZMO_ORIENTATION#LISA_ON_RIGHT_ID`
+- பொது → Apple கணக்கு: `bridge:root=GENERAL_LINK&path=LINK_WITH_ICLOUD_LINK`
+- பொது → டிக்டேஷனைச் செயல்படுத்து: `bridge:root=GENERAL_LINK#DICTATION_CELL_ID`
+- பொது → Handoffஐச் செயல்படுத்து: `bridge:root=GENERAL_LINK#CONTINUITY`
+- பொது → நைட்ஸ்டாண்ட் பயன்முறை: `bridge:root=GENERAL_LINK#NIGHTSTAND_CELL_ID`
+- பொது → ஸ்கிரீன்ஷாட்களைச் செயல்படுத்து: `bridge:root=GENERAL_LINK#BUTTON_CHORD_CELL_ID`
+- பொது → ஆற்றல் இருப்பு: `bridge:root=GENERAL_LINK&path=USAGE_LINK`
+- பொது → பழுதறிதல் பதிவுகள்: `bridge:root=GENERAL_LINK&path=DIAGNOSTIC_LOG_BROWSER`
+- பொது → Watch பகுப்பாய்வுகளை நகலெடு: `bridge:root=GENERAL_LINK#LOGS_CELL_ID`
+- பொது → மீட்டமை: `bridge:root=GENERAL_LINK&path=RESET`
+- பொது → நீரில் மூழ்கும்போது தானாகத் தொடங்கு: `bridge:root=GENERAL_LINK&path=AUTO_LAUNCH`
+- பொது → நீரில் மூழ்கும்போது தானாகத் தொடங்கு → ஆடியோ செயலிகளைத் தானாகத் தொடங்கு: `bridge:root=GENERAL_LINK&path=AUTO_LAUNCH#AUTO_LAUNCH_MEDIA`
+- பொது → கடிகாரத்திற்குத் திரும்பு: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK`
+- பொது → கடிகாரத்திற்குத் திரும்பு → கடிகாரத்திற்குத் திரும்பு: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#CSLPRFReturnToClockGroupID`
+- பொது → கடிகாரத்திற்குத் திரும்பு → எப்போதும்: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#RETURN_TO_CLOCK_ALWAYS`
+- பொது → கடிகாரத்திற்குத் திரும்பு → 2 நிமிடங்களுக்குப் பின்: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#RETURN_TO_CLOCK_AFTER_2_MINUTES`
+- பொது → கடிகாரத்திற்குத் திரும்பு → 1 மணிநேரத்திற்குப் பின்: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#RETURN_TO_CLOCK_AFTER_1_HOUR`
+- பொது → கடிகாரத்திற்குத் திரும்பு → செயலிகள்: `bridge:root=GENERAL_LINK&path=RETURN_TO_CLOCK#APP_GROUP_ID`
+- பொது → மொழி & வட்டாரம்: `bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION`
+- பொது → மொழி & வட்டாரம் → எனது iPhoneஐ மிரர் செய்: `bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION#MIRROR_MY_COMPANION_ID`
+- பொது → மொழி & வட்டாரம் → பிரத்தியேகம்: `bridge:root=GENERAL_LINK&path=LANGUAGE_AND_REGION#CUSTOM_ID`
+- பொது → Wake Screen: `bridge:root=GENERAL_LINK&path=WAKE_SCREEN`
+- பொது → Wake Screen → பிளே ஆகிறது: `bridge:root=GENERAL_LINK&path=WAKE_SCREEN#AUTO_LAUNCH_MEDIA`
+- டிஸ்ப்ளே & ஒளிர்வு: `bridge:root=DISPLAY_AND_BRIGHTNESS`
+- டிஸ்ப்ளே & ஒளிர்வு → ஒளிர்வு: `bridge:root=DISPLAY_AND_BRIGHTNESS#BRIGHTNESS_LABEL`
+- டிஸ்ப்ளே & ஒளிர்வு → எப்போதும் ஆனில் வை: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID`
+- டிஸ்ப்ளே & ஒளிர்வு → எப்போதும் ஆனில் வை → எப்போதும் ஆனில் வை: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID#TRITIUM_ID`
+- டிஸ்ப்ளே & ஒளிர்வு → எப்போதும் ஆனில் வை → மணிக்கட்டு கீழே இருத்தல்: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID#TRITIUM_PRIVACY_GROUP_ID`
+- டிஸ்ப்ளே & ஒளிர்வு → எப்போதும் ஆனில் வை → அறிவிப்புகளைக் காட்டு: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Notifications`
+- டிஸ்ப்ளே & ஒளிர்வு → எப்போதும் ஆனில் வை → அறிவிப்புகளைக் காட்டு → அறிவிப்புகளைக் காட்டு: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Notifications#APP_BACKLIGHT_PRIVACY_GLOBAL_APP`
+- டிஸ்ப்ளே & ஒளிர்வு → எப்போதும் ஆனில் வை → அறிவிப்புகளைக் காட்டு → APPLE WATCH செயலிகள்: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Notifications#APP_GROUP_ID`
+- டிஸ்ப்ளே & ஒளிர்வு → எப்போதும் ஆனில் வை → செயலிகளைக் காட்டு: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Apps`
+- டிஸ்ப்ளே & ஒளிர்வு → எப்போதும் ஆனில் வை → செயலிகளைக் காட்டு → செயலிகளைக் காட்டு: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Apps#APP_BACKLIGHT_PRIVACY_GLOBAL_APP`
+- டிஸ்ப்ளே & ஒளிர்வு → எப்போதும் ஆனில் வை → செயலிகளைக் காட்டு → செயலிகள்: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=TRITIUM_ID/Show%20Apps#APP_GROUP_ID`
+- டிஸ்ப்ளே & ஒளிர்வு → எழுத்தின் அளவு: `bridge:root=DISPLAY_AND_BRIGHTNESS#TEXT_SIZE`
+- டிஸ்ப்ளே & ஒளிர்வு → தடித்த உரை: `bridge:root=DISPLAY_AND_BRIGHTNESS#BOLD_TEXT`
+- டிஸ்ப்ளே & ஒளிர்வு → திரையை இயக்கு: `bridge:root=DISPLAY_AND_BRIGHTNESS#WAKE`
+- டிஸ்ப்ளே & ஒளிர்வு → மணிக்கட்டை உயர்த்தும்போது திரையை இயக்கு: `bridge:root=DISPLAY_AND_BRIGHTNESS#WAKE_SCREEN_ON_WRIST_RAISE_SWITCH_ID`
+- டிஸ்ப்ளே & ஒளிர்வு → Crown சுழற்றப்படும்போது திரையை இயக்கு: `bridge:root=DISPLAY_AND_BRIGHTNESS#WAKE_SCREEN_ON_CROWN_UP_SWITCH_ID`
+- டிஸ்ப்ளே & ஒளிர்வு → திரை இயக்கக் காலஅளவு: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration`
+- டிஸ்ப்ளே & ஒளிர்வு → திரை இயக்கக் காலஅளவு → தட்டும்போது: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration#ON_TAP_GROUP_ID`
+- டிஸ்ப்ளே & ஒளிர்வு → திரை இயக்கக் காலஅளவு → 15 விநாடிகள் திரையை இயக்கு: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration#SHORT_WAKE_ID`
+- டிஸ்ப்ளே & ஒளிர்வு → திரை இயக்கக் காலஅளவு → 70 விநாடிகள் திரையை இயக்கு: `bridge:root=DISPLAY_AND_BRIGHTNESS&path=Wake%20Duration#LONG_WAKE_ID`
+- ஸ்மார்ட் ஸ்டேக்: `bridge:root=SMARTSTACK_LINK`
+- ஒலிகள் & ஹேப்டிக்ஸ்: `bridge:root=SOUNDS_ID`
+- ஒலிகள் & ஹேப்டிக்ஸ் → விழிப்பூட்டல் ஒலியளவு: `bridge:root=SOUNDS_ID#AUDIO_SLIDER`
+- ஒலிகள் & ஹேப்டிக்ஸ் → அமைதிப் பயன்முறை: `bridge:root=SOUNDS_ID#audio_mute_switch`
+- ஒலிகள் & ஹேப்டிக்ஸ் → ஹெட்ஃபோன் ஆடியோ: `bridge:root=SOUNDS_ID#HEADPHONE_AUDIO_GROUP`
+- ஒலிகள் & ஹேப்டிக்ஸ் → ஹெட்ஃபோன் பாதுகாப்பு: `bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING`
+- ஒலிகள் & ஹேப்டிக்ஸ் → ஹெட்ஃபோன் பாதுகாப்பு → ஹெட்ஃபோன் அறிவிப்புகள்: `bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING#COSHeadphoneNotificationsSwitchKey`
+- ஒலிகள் & ஹேப்டிக்ஸ் → ஹெட்ஃபோன் பாதுகாப்பு → உரத்த ஒலிகளைக் குறை: `bridge:root=SOUNDS_ID&path=HEADPHONE_LEVEL_LIMIT_SETTING#COSHeadphoneLevelLimitSwitchKey`
+- ஒலிகள் & ஹேப்டிக்ஸ் → ஹேப்டிக்ஸ்: `bridge:root=SOUNDS_ID#Haptics`
+- ஒலிகள் & ஹேப்டிக்ஸ் → ஹேப்டிக் விழிப்பூட்டல்கள்: `bridge:root=SOUNDS_ID#Haptic%20Alerts`
+- ஒலிகள் & ஹேப்டிக்ஸ் → கிரவுன் ஹேப்டிக்ஸ்: `bridge:root=SOUNDS_ID#JACKRABBIT_ID`
+- ஒலிகள் & ஹேப்டிக்ஸ் → சிஸ்டம் ஹேப்டிக்ஸ்: `bridge:root=SOUNDS_ID#SYSTEM_HAPTICS_ID`
+- ஒலிகள் & ஹேப்டிக்ஸ் → ஒலிமுடக்க, மூடவும்: `bridge:root=SOUNDS_ID#COVER_TO_MUTE`
+- அவசரகால SOS: `bridge:root=SOS_MODE_ID`
+- தனியுரிமை: `bridge:root=PRIVACY_ID`
+- தனியுரிமை → இதயத்துடிப்பு: `bridge:root=PRIVACY_ID#HEART_RATE_ENABLED_LABEL`
+- தனியுரிமை → சுவாச விகிதம்: `bridge:root=PRIVACY_ID#RESPIRATORY_RATE_LABEL`
+- தனியுரிமை → ஃபிட்னஸ் டிராக்கிங்: `bridge:root=PRIVACY_ID#FITNESS_TRACKING_ENABLED_LABEL`
+- தனியுரிமை → ஃபிட்னஸ் கேலிப்ரேஷன் தரவுகளை மீட்டமை: `bridge:root=PRIVACY_ID#RESET_MOTION_CALIBRATION_LABEL`
+- தனியுரிமை → சுற்றுச்சூழல் ஒலி அளவீடுகள்: `bridge:root=PRIVACY_ID#ENVIRONMENTAL_AUDIO_ENABLED_SWITCH_ID`
+- தனியுரிமை → ஹெட்ஃபோன் ஆடியோ அளவீடுகள்: `bridge:root=PRIVACY_ID&path=HeadphoneAudio`
+- தனியுரிமை → ஹெட்ஃபோன் ஆடியோ அளவீடுகள் → “உடல்நலம்” செயலியில் சேமி: `bridge:root=PRIVACY_ID&path=HeadphoneAudio#SAVE_IN_HEALTH_GROUP`
+- தனியுரிமை → ஹெட்ஃபோன் ஆடியோ அளவீடுகள் → 8 நாட்களுக்கு: `bridge:root=PRIVACY_ID&path=HeadphoneAudio#FOR_EIGHT_DAYS_CELL`
+- தனியுரிமை → ஹெட்ஃபோன் ஆடியோ அளவீடுகள் → நான் நீக்கும் வரை: `bridge:root=PRIVACY_ID&path=HeadphoneAudio#UNTIL_I_DELETE_CELL`
+- தனியுரிமை → இரத்த ஆக்சிஜன் அளவீடுகள்: `bridge:root=PRIVACY_ID#OXYGEN_SATURATION_ENABLED_SWITCH_ID`
+- தனியுரிமை → மணிக்கட்டு வெப்பநிலை: `bridge:root=PRIVACY_ID#WRIST_TEMPERATURE_SWITCH_ID`
+- ஸ்கிரீன் டைம்: `bridge:root=SCREEN_TIME_ID`
+- Nike Run Club: `bridge:root=VICTORY_ROW_ID`
+- Mail: `bridge:root=com.apple.NanoMailBridgeSettings`
+- Mail → எனது iPhoneஐ மிரர் செய்: `bridge:root=com.apple.NanoMailBridgeSettings#MIRROR_MY_COMPANION_ID`
+- Mail → பிரத்தியேகம்: `bridge:root=com.apple.NanoMailBridgeSettings#CUSTOM_ID`
+- Mail → Mail அமைப்புகள்: `bridge:root=com.apple.NanoMailBridgeSettings#Mail%20Settings`
+- Mail → கணக்குகள்: `bridge:root=com.apple.NanoMailBridgeSettings&path=Accounts`
+- Mail → Mailஐ உள்ளடக்கு: `bridge:root=com.apple.NanoMailBridgeSettings&path=Include%20Mail`
+- Mail → மெசேஜ் முன்னோட்டம்: `bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview`
+- Mail → மெசேஜ் முன்னோட்டம் → எதுவுமில்லை: `bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#0`
+- Mail → மெசேஜ் முன்னோட்டம் → 1 வரி: `bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#1`
+- Mail → மெசேஜ் முன்னோட்டம் → 2 வரிகள்: `bridge:root=com.apple.NanoMailBridgeSettings&path=Message%20Preview#2`
+- Mail → இயல்புநிலை பதில்கள்: `bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies`
+- Mail → இயல்புநிலை பதில்கள் → இயல்புநிலை பதில்கள்: `bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies#Default%20Replies`
+- Mail → இயல்புநிலை பதில்கள் → பதிலை சேர்…: `bridge:root=com.apple.NanoMailBridgeSettings&path=Default%20Replies#Add%20reply%E2%80%A6`
+- Mail → சிக்னேச்சர்: `bridge:root=com.apple.NanoMailBridgeSettings&path=Signature`
+- சேமிப்பகம் வரம்பு: `bridge:root=com.apple.NanoMusicBridgeSettings`
+- சேமிப்பகம் வரம்பு → பிளேலிஸ்ட்கள் & ஆல்பங்கள்: `bridge:root=com.apple.NanoMusicBridgeSettings#PLAYLISTS%20&%20ALBUMS`
+- சேமிப்பகம் வரம்பு → இசையைச் சேர்…: `bridge:root=com.apple.NanoMusicBridgeSettings#Add%20Music%E2%80%A6`
+- மெசேஜஸ்: `bridge:root=com.apple.MessagesBridgeSettings`
+- மெசேஜஸ் → எனது iPhoneஐ மிரர் செய்: `bridge:root=com.apple.MessagesBridgeSettings#MIRROR_MY_COMPANION_ID`
+- மெசேஜஸ் → பிரத்தியேகம்: `bridge:root=com.apple.MessagesBridgeSettings#CUSTOM_ID`
+- மெசேஜஸ் → இயல்புநிலை பதில்கள்: `bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES`
+- மெசேஜஸ் → இயல்புநிலை பதில்கள் → இயல்புநிலை பதில்கள்: `bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Default%20Replies`
+- மெசேஜஸ் → இயல்புநிலை பதில்கள் → ஸ்மார்ட் பதில்கள்: `bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Smart%20Replies`
+- மெசேஜஸ் → இயல்புநிலை பதில்கள் → பதிலை சேர்…: `bridge:root=com.apple.MessagesBridgeSettings&path=DEFAULT_REPLIES#Add%20reply%E2%80%A6`
+- மெசேஜஸ் → மீண்டும் விழிப்பூட்டல்களை வழங்கு: `bridge:root=com.apple.MessagesBridgeSettings&path=PLAY_ALERT_TONE`
+- மெசேஜஸ் → ஆடியோ மெசேஜ்கள்: `bridge:root=com.apple.MessagesBridgeSettings&path=AudioMessagesMode`
+- வானிலை: `bridge:root=com.apple.weatherbridgesettings`
+- வானிலை → இயல்புநிலை நகரம்: `bridge:root=com.apple.weatherbridgesettings&path=Default%20City`
+- வானிலை → இயல்புநிலை நகரம் → இயல்புநிலை நகரம்: `bridge:root=com.apple.weatherbridgesettings&path=Default%20City#Default%20City`
+- வானிலை → இயல்புநிலை நகரம் → தற்போதைய இருப்பிடம்: `bridge:root=com.apple.weatherbridgesettings&path=Default%20City#Current%20Location`
+- கேலண்டர்: `bridge:root=com.apple.NanoCalendarBridgeSettings`
+- கேலண்டர் → அறிவிப்புகள்: `bridge:root=com.apple.NanoCalendarBridgeSettings#MIRROR_RADIO_GROUP_ID`
+- கேலண்டர் → எனது iPhoneஐ மிரர் செய்: `bridge:root=com.apple.NanoCalendarBridgeSettings#MIRROR_MY_COMPANION_ID`
+- கேலண்டர் → பிரத்தியேகம்…: `bridge:root=com.apple.NanoCalendarBridgeSettings#CUSTOM_ID`
+- கேலண்டர் → கேலண்டர்கள்: `bridge:root=com.apple.NanoCalendarBridgeSettings#CALENDARS_MIRROR_RADIO_GROUP_ID`
+- கேலண்டர் → எனது iPhoneஐ மிரர் செய்: `bridge:root=com.apple.NanoCalendarBridgeSettings#CALENDARS_MIRROR_MY_COMPANION_ID`
+- கேலண்டர் → பிரத்தியேகம்…: `bridge:root=com.apple.NanoCalendarBridgeSettings&path=CALENDARS_CUSTOM_ID`
+- கேலண்டர் → இனிவரும் நிகழ்வுகள்: `bridge:root=com.apple.NanoCalendarBridgeSettings&path=Upcoming%20Events`
+- கேலண்டர் → அழைப்புகள்: `bridge:root=com.apple.NanoCalendarBridgeSettings&path=Invitations`
+- கேலண்டர் → அழைப்பாளர் பதில்கள்: `bridge:root=com.apple.NanoCalendarBridgeSettings&path=Invitee%20Responses`
+- கேலண்டர் → பகிரப்பட்ட கேலண்டர் மாற்றங்கள்: `bridge:root=com.apple.NanoCalendarBridgeSettings&path=Shared%20Calendar%20Alerts`
+- ஆழம்: `bridge:root=com.apple.DepthCompanionSettings`
+- ஆக்‌ஷன் பட்டன்: `bridge:root=STING_TITLE`
+- இரைச்சல்: `bridge:root=com.apple.Noise.settings`
+- இரைச்சல் → சுற்றுச்சூழல் ஒலி அளவீடுகள்: `bridge:root=com.apple.Noise.settings#ENABLE_MEASUREMENTS_ID`
+- இரைச்சல் → இரைச்சல் குறித்த அறிவிப்புகள்: `bridge:root=com.apple.Noise.settings#LOUD_NOTIFICATION_GROUP_ID`
+- இரைச்சல் → இரைச்சல் வரம்பு: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID`
+- இரைச்சல் → இரைச்சல் வரம்பு → ஆஃப்: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#OFF`
+- இரைச்சல் → இரைச்சல் வரம்பு → 80 டெசிபல்கள்: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_80`
+- இரைச்சல் → இரைச்சல் வரம்பு → 85 டெசிபல்கள்: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_85`
+- இரைச்சல் → இரைச்சல் வரம்பு → 90 டெசிபல்கள்: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_90`
+- இரைச்சல் → இரைச்சல் வரம்பு → 95 டெசிபல்கள்: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_95`
+- இரைச்சல் → இரைச்சல் வரம்பு → 100 டெசிபல்கள்: `bridge:root=com.apple.Noise.settings&path=LOUD_NOTIFICATION_ID#ID_BPM_100`
+- இரைச்சல் → அறிவிப்புகள் தொகுப்பு: `bridge:root=com.apple.Noise.settings&path=NOTIFICATION_COALESCING_ID`
+- புகைப்படங்கள்: `bridge:root=com.apple.NanoPhotosBridgeSettings`
+- புகைப்படங்கள் → புகைப்பட ஒத்திசைத்தல்: `bridge:root=com.apple.NanoPhotosBridgeSettings#Photo%20Syncing`
+- புகைப்படங்கள் → நினைவுகள்: `bridge:root=com.apple.NanoPhotosBridgeSettings#Memories`
+- புகைப்படங்கள் → நினைவுகளை ஒத்திசைத்தல்: `bridge:root=com.apple.NanoPhotosBridgeSettings#Sync%20Memories`
+- புகைப்படங்கள் → சிறப்புப் புகைப்படங்கள்: `bridge:root=com.apple.NanoPhotosBridgeSettings#Featured%20Photos`
+- புகைப்படங்கள் → சிறப்புப் புகைப்படங்களை ஒத்திசைத்தல்: `bridge:root=com.apple.NanoPhotosBridgeSettings#Sync%20Featured%20Photos`
+- புகைப்படங்கள் → ஆல்பம்: `bridge:root=com.apple.NanoPhotosBridgeSettings#Album`
+- புகைப்படங்கள் → ஆல்பத்தை ஒத்திசைத்தல்: `bridge:root=com.apple.NanoPhotosBridgeSettings&path=Sync%20Album`
+- புகைப்படங்கள் → புகைப்படங்களின் வரம்பு: `bridge:root=com.apple.NanoPhotosBridgeSettings&path=Photos%20Limit`
+- புகைப்படங்கள் → அறிவிப்பு அமைப்புகள்: `bridge:root=com.apple.NanoPhotosBridgeSettings#MIRROR_RADIO_GROUP_ID`
+- புகைப்படங்கள் → எனது iPhoneஐ மிரர் செய்: `bridge:root=com.apple.NanoPhotosBridgeSettings#MIRROR_MY_COMPANION_ID`
+- புகைப்படங்கள் → பிரத்தியேகம்: `bridge:root=com.apple.NanoPhotosBridgeSettings#CUSTOM_ID`
+- பாட்காஸ்ட்கள்: `bridge:root=com.apple.private.PodcastsBridgeSettings`
+- கைகழுவுதல்: `bridge:root=com.apple.BrookBridgeSettings`
+- கைகழுவுதல் → அறிவிப்புகளை அனுமதி: `bridge:root=com.apple.BrookBridgeSettings#ALLOW_NOTIFICATIONS_ID`
+- கைகழுவுதல் → அறிவிப்பு மையத்திற்கு அனுப்பு: `bridge:root=com.apple.BrookBridgeSettings#SEND_TO_NOTIFICATION_CENTER_ID`
+- கைகழுவுதல் → அறிவிப்புகள் ஆஃப்: `bridge:root=com.apple.BrookBridgeSettings#NOTIFICATIONS_OFF_ID`
+- கைகழுவுதல் → அறிவிப்புகள் தொகுப்பு: `bridge:root=com.apple.BrookBridgeSettings&path=NOTIFICATION_COALESCING_ID`
+- கைகழுவுதல் → ஹேண்ட்வாஷ் டைமர்: `bridge:root=com.apple.BrookBridgeSettings#HANDWASHING_TIMER_ID`
+- இதயம்: `bridge:root=com.apple.HeartRateSettings`
+- இதயம் → இதயம்: `bridge:root=com.apple.HeartRateSettings#1`
+- இதயம் → இதயத்துடிப்பு அறிவிப்புகள்: `bridge:root=com.apple.HeartRateSettings#2`
+- இதயம் → அதிக இதயத்துடிப்பு: `bridge:root=com.apple.HeartRateSettings#3`
+- இதயம் → குறைந்த இதயத்துடிப்பு: `bridge:root=com.apple.HeartRateSettings#4`
+- இதயம் → சீரற்ற இதயத்துடிப்பு: `bridge:root=com.apple.HeartRateSettings#5`
+- இதயம் → பதிவுசெய்யப்பட்ட ECGகளை “உடல்நலம்” செயலியில் காட்டு: `bridge:root=com.apple.HeartRateSettings#6`
+- இதயம் → ECG: `bridge:root=com.apple.HeartRateSettings#7`
+- உறக்கம்: `bridge:root=com.apple.NanoBedtimeBridgeSettings`
+- உறக்கம் → “உடல்நலம்” செயலியில் உறக்கத்தை அமைக்கவும்: `bridge:root=com.apple.NanoBedtimeBridgeSettings#SET_UP_SLEEP_CELL_ID`
+- உடற்பயிற்சி: `bridge:root=com.apple.SessionTrackerAppSettings`
+- உடற்பயிற்சி → குறைந்த ஆற்றல் பயன்முறை: `bridge:root=com.apple.SessionTrackerAppSettings#LOW_POWER_MODE`
+- உடற்பயிற்சி → இலக்கு மெட்ரிக்கைக் காட்டு: `bridge:root=com.apple.SessionTrackerAppSettings#PRO_SETTING_ENABLED_LABEL`
+- உடற்பயிற்சி → உடற்பயிற்சிக் காட்சி: `bridge:root=com.apple.SessionTrackerAppSettings&path=METRIC_VIEW_ID`
+- உடற்பயிற்சி → தானாக இடைநிறுத்து: `bridge:root=com.apple.SessionTrackerAppSettings&path=AUTO_PAUSE_ID`
+- உடற்பயிற்சி → தானாக இடைநிறுத்து → தானாக இடைநிறுத்து: `bridge:root=com.apple.SessionTrackerAppSettings&path=AUTO_PAUSE_ID#WorkoutAutoPauseSwitch`
+- உடற்பயிற்சி → உடற்பயிற்சியைத் தொடங்குவதற்கான நினைவூட்டல்: `bridge:root=com.apple.SessionTrackerAppSettings#AUTO_START_WORKOUT_NOTIFICATIONS_ENABLED_LABEL`
+- உடற்பயிற்சி → உடற்பயிற்சியை முடிப்பதற்கான நினைவூட்டல்: `bridge:root=com.apple.SessionTrackerAppSettings#END_REMINDERS_ENABLED_LABEL`
+- உடற்பயிற்சி → இடைநிறுத்த அழுத்தவும்: `bridge:root=com.apple.SessionTrackerAppSettings#CHORD_PRESS_PAUSE_WORKOUT_ENABLED_LABEL`
+- உடற்பயிற்சி → ஜிம் உபகரணத்தைக் கண்டறி: `bridge:root=com.apple.SessionTrackerAppSettings#NFC_ENABLED_LABEL_ID`
+- உடற்பயிற்சி → வேகம் குறித்த காட்சி: `bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL`
+- உடற்பயிற்சி → வேகம் குறித்த காட்சி → தற்போதையது: `bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL#CURRENT_PACE_ID`
+- உடற்பயிற்சி → வேகம் குறித்த காட்சி → சராசரி: `bridge:root=com.apple.SessionTrackerAppSettings&path=PACE_VIEW_LABEL#AVERAGE_PACE_ID`
+- உடற்பயிற்சி → உடற்பயிற்சி பிளேலிஸ்ட்: `bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID`
+- உடற்பயிற்சி → உடற்பயிற்சி பிளேலிஸ்ட் → எதுவுமில்லை: `bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID#NONE_AUTOSTART_ID`
+- உடற்பயிற்சி → உடற்பயிற்சி பிளேலிஸ்ட் → பிளேலிஸ்ட்கள்: `bridge:root=com.apple.SessionTrackerAppSettings&path=MUSIC_AUTOSTART_TITLE_ID#MUSIC_PLAYLIST_GROUP_ID`
+- உடற்பயிற்சி → ஆரம்பத்திலிருந்து பிளே செய்: `bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_MUSIC_PLAY_FROM_BEGINNING_SETTING_ID`
+- உடற்பயிற்சி → கலைத்துக் காட்டு: `bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_MUSIC_SHUFFLE_SETTING_ID`
+- உடற்பயிற்சி → அளவீட்டுக்கான யூனிட்கள்: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID`
+- உடற்பயிற்சி → அளவீட்டுக்கான யூனிட்கள் → கலோரிகள்: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_CALORIES_ID`
+- உடற்பயிற்சி → அளவீட்டுக்கான யூனிட்கள் → கிலோகலோரிகள்: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_KILOCALORIES_ID`
+- உடற்பயிற்சி → அளவீட்டுக்கான யூனிட்கள் → கிலோஜூல்ஸ்: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#ENERGY_UNITS_KILOJOULES_ID`
+- உடற்பயிற்சி → அளவீட்டுக்கான யூனிட்கள் → யார்டுகள்: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#POOL_LENGTH_YARDS_ID`
+- உடற்பயிற்சி → அளவீட்டுக்கான யூனிட்கள் → மீட்டர்: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#POOL_LENGTH_METERS_ID`
+- உடற்பயிற்சி → அளவீட்டுக்கான யூனிட்கள் → மைல்கள்: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#CYCLING_WORKOUTS_MILES_ID`
+- உடற்பயிற்சி → அளவீட்டுக்கான யூனிட்கள் → கிலோமீட்டர்: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#CYCLING_WORKOUTS_KILOMETERS_ID`
+- உடற்பயிற்சி → அளவீட்டுக்கான யூனிட்கள் → மைல்கள்: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#WALKING_AND_RUNNING_WORKOUTS_MILES_ID`
+- உடற்பயிற்சி → அளவீட்டுக்கான யூனிட்கள் → கிலோமீட்டர்: `bridge:root=com.apple.SessionTrackerAppSettings&path=UNITS_OF_MEASURE_ID#WALKING_AND_RUNNING_WORKOUTS_KILOMETERS_ID`
+- உடற்பயிற்சி → வாய்ஸ் ஃபீட்பேக்: `bridge:root=com.apple.SessionTrackerAppSettings#WORKOUT_VOICE_FEEDBACK_LABEL`
+- உடற்பயிற்சி → நடக்க வேண்டிய நேரம்: `bridge:root=com.apple.SessionTrackerAppSettings#GUIDED_WORKOUT_PREFETCH_FOOTER_ID`
+- உடற்பயிற்சி → Watchஇல் புதிய உடற்பயிற்சிகளைச் சேர்: `bridge:root=com.apple.SessionTrackerAppSettings#GUIDED_WORKOUT_PREFETCH_LABEL_ID`
+- ஃபோன்: `bridge:root=com.apple.PhoneBridgeSettings`
+- ஃபோன் → அழைப்புகள்: `bridge:root=com.apple.PhoneBridgeSettings#carrier_direct_calling_group_id`
+- ஃபோன் → ரிங்டோன்: `bridge:root=com.apple.PhoneBridgeSettings#RINGTONE`
+- ஃபோன் → ஒலி: `bridge:root=com.apple.PhoneBridgeSettings#INCOMING_CALL_SOUND`
+- ஃபோன் → ஹேப்டிக்: `bridge:root=com.apple.PhoneBridgeSettings#INCOMING_CALL_HAPTIC`
+- App Store: `bridge:root=com.apple.BridgeAppStoreDaemonSettings`
+- App Store → தானாகப் பதிவிறக்கப்படுபவை: `bridge:root=com.apple.BridgeAppStoreDaemonSettings#automaticDownloadSpecifier`
+- App Store → தானியங்குப் புதுப்பிப்புகள்: `bridge:root=com.apple.BridgeAppStoreDaemonSettings#Automatic%20Updates`
+- ஆடியோ புத்தகங்கள்: `bridge:root=com.apple.NanoBooks.BridgeSettings`
+- ஆடியோ புத்தகங்கள் → உள்நுழைக: `bridge:root=com.apple.NanoBooks.BridgeSettings#Sign%20In`
+- திருப்பத்திற்கான விழிப்பூட்டல்கள்: `bridge:root=com.apple.NanoMapsBridgeSettings`
+- திருப்பத்திற்கான விழிப்பூட்டல்கள் → திருப்பத்திற்கான விழிப்பூட்டல்கள்: `bridge:root=com.apple.NanoMapsBridgeSettings#Turn%20Alerts`
+- திருப்பத்திற்கான விழிப்பூட்டல்கள் → டிரைவிங்: `bridge:root=com.apple.NanoMapsBridgeSettings#Driving`
+- திருப்பத்திற்கான விழிப்பூட்டல்கள் → CarPlay உடன் டிரைவிங்: `bridge:root=com.apple.NanoMapsBridgeSettings#Driving%20with%20CarPlay`
+- திருப்பத்திற்கான விழிப்பூட்டல்கள் → நடைப்பயிற்சி: `bridge:root=com.apple.NanoMapsBridgeSettings#Walking`
+- திருப்பத்திற்கான விழிப்பூட்டல்கள் → சைக்கிளிங்: `bridge:root=com.apple.NanoMapsBridgeSettings#Cycling`
+- திருப்பத்திற்கான விழிப்பூட்டல்கள் → வழிச்செலுத்தலைக் காட்டு: `bridge:root=com.apple.NanoMapsBridgeSettings#Show%20Navigation`
+- திருப்பத்திற்கான விழிப்பூட்டல்கள் → டிரான்ஸிட்: `bridge:root=com.apple.NanoMapsBridgeSettings#Transit`
+- திருப்பத்திற்கான விழிப்பூட்டல்கள் → பில்ட் தகவல்:: `bridge:root=com.apple.NanoMapsBridgeSettings#Build%20Info%3A`
+- Dock: `bridge:root=DOCK`
+- Dock → Dock ஆர்டரிங்: `bridge:root=DOCK#OrderingOptionGroup`
+- Dock → சமீபத்தியவை: `bridge:root=DOCK#Recents`
+- Dock → பிடித்தவை: `bridge:root=DOCK#Favorites`
+- Dock: `bridge:root=DOCK.0`
+- Dock → Dock ஆர்டரிங்: `bridge:root=DOCK.0#OrderingOptionGroup`
+- Dock → சமீபத்தியவை: `bridge:root=DOCK.0#Recents`
+- Dock → பிடித்தவை: `bridge:root=DOCK.0#Favorites`
+- இரத்த ஆக்சிஜன்: `bridge:root=com.apple.OxygenSaturationSettings`
+- கடிகாரம்: `bridge:root=com.apple.NanoClockBridgeSettings`
+- கடிகாரம் → 24-மணிநேரம்: `bridge:root=com.apple.NanoClockBridgeSettings#24-Hour%20Time`
+- கடிகாரம் → சைம்ஸ்: `bridge:root=com.apple.NanoClockBridgeSettings#Chimes`
+- கடிகாரம் → ஒலிகள்: `bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds`
+- கடிகாரம் → ஒலிகள் → மணிகள்: `bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds#Bells`
+- கடிகாரம் → ஒலிகள் → பறவைகள்: `bridge:root=com.apple.NanoClockBridgeSettings&path=Sounds#Birds`
+- கடிகாரம் → நேரத்தைச் சொல்: `bridge:root=com.apple.NanoClockBridgeSettings#Speak%20Time`
+- கடிகாரம் → அமைதிப் பயன்முறையில் கட்டுப்படுத்து: `bridge:root=com.apple.NanoClockBridgeSettings#Control%20With%20Silent%20Mode`
+- கடிகாரம் → எப்போதும் பேசு: `bridge:root=com.apple.NanoClockBridgeSettings#Always%20Speak`
+- கடிகாரம் → டேப்டிக் டைம்: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time`
+- கடிகாரம் → டேப்டிக் டைம் → டேப்டிக் டைம்: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Taptic%20Time`
+- கடிகாரம் → டேப்டிக் டைம் → இலக்கங்கள்: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Digits`
+- கடிகாரம் → டேப்டிக் டைம் → டெர்ஸ்: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Terse`
+- கடிகாரம் → டேப்டிக் டைம் → மோர்ஸ் குறியீடு: `bridge:root=com.apple.NanoClockBridgeSettings&path=Taptic%20Time#Morse%20Code`
+- கடிகாரம் → iPhoneஇல் இருந்து Push விழிப்பூட்டல்கள்: `bridge:root=com.apple.NanoClockBridgeSettings#Push%20Alerts%20from%20iPhone`
+- கடிகாரம் → அறிவிப்புகள் இண்டிகேட்டர்: `bridge:root=com.apple.NanoClockBridgeSettings#Notifications%20Indicator`
+- கடிகாரம் → மோனோகிராம்: `bridge:root=com.apple.NanoClockBridgeSettings&path=MONOGRAM_ID`
+- கடிகாரம் → Watch முகப்பு அறிவிப்புகள்: `bridge:root=com.apple.NanoClockBridgeSettings#Watch%20Face%20Notifications`
+- கடிகாரம் → நகரத்தின் சுருக்கெழுத்துகள்: `bridge:root=com.apple.NanoClockBridgeSettings&path=City%20Abbreviations`
+- கடிகாரம் → Siri முகப்புத் தரவு ஆதாரங்கள்: `bridge:root=com.apple.NanoClockBridgeSettings&path=Siri%20Face%20Data%20Sources`
+- உடல்நலம்: `bridge:root=com.apple.BridgeHealthSettings`
+- காம்ப்ளிகேஷன்கள்: `bridge:root=COMPLICATIONS`
+- நெட்வொர்க் வழங்குநர் அமைப்புகள்: `bridge:root=CARRIER_SETTINGS`
+- செயல்பாடு: `bridge:root=com.apple.HealthAppsSettings`
+- செயல்பாடு → செயல்நிலை புதுப்பிப்புகள்: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL`
+- செயல்பாடு → செயல்நிலை புதுப்பிப்புகள் → எதுவுமில்லை: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#ZERO_HOURS_ID`
+- செயல்பாடு → செயல்நிலை புதுப்பிப்புகள் → 2 மணிநேரத்திற்கு ஒருமுறை: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#TWO_HOURS_ID`
+- செயல்பாடு → செயல்நிலை புதுப்பிப்புகள் → 4 மணிநேரத்திற்கு ஒருமுறை: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#FOUR_HOURS_ID`
+- செயல்பாடு → செயல்நிலை புதுப்பிப்புகள் → 6 மணிநேரத்திற்கு ஒருமுறை: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#SIX_HOURS_ID`
+- செயல்பாடு → செயல்நிலை புதுப்பிப்புகள் → 8 மணிநேரத்திற்கு ஒருமுறை: `bridge:root=com.apple.HealthAppsSettings&path=PROGRESS_UPDATES_ENABLED_LABEL#EIGHT_HOURS_ID`
+- செயல்பாடு → சாதனைகள்: `bridge:root=com.apple.HealthAppsSettings#ACHIEVEMENTS_ENABLED_LABEL`
+- செயல்பாடு → வாராந்தரச் சுருக்கவிவரம்: `bridge:root=com.apple.HealthAppsSettings#WEEKLY_SUMMARY_ENABLED_LABEL`
+- செயல்பாடு → தினசரி பயிற்சி: `bridge:root=com.apple.HealthAppsSettings#DAILY_PROGRESS_ENABLED_LABEL`
+- செயல்பாடு → இலக்கு நிறைவுசெய்யப்படுதல்: `bridge:root=com.apple.HealthAppsSettings#GOAL_COMPLETIONS_ENABLED_LABEL`
+- செயல்பாடு → சிறப்புச் சவால்கள்: `bridge:root=com.apple.HealthAppsSettings#REMOTE_ACHIEVEMENTS_ENABLED_LABEL`
+- செயல்பாடு → செயல்பாட்டுப் பகிர்வு அறிவிப்புகள்: `bridge:root=com.apple.HealthAppsSettings#ACTIVITY_SHARING_NOTIFICATIONS_ENABLED`
+- வாலெட் & Apple Pay: `bridge:root=com.apple.NanoPassbookBridgeSettings`
+- வாலெட் & Apple Pay → Apple Cash: `bridge:root=com.apple.NanoPassbookBridgeSettings#Apple%C2%A0Cash`
+- வாலெட் & Apple Pay → கார்டைச் சேர்: `bridge:root=com.apple.NanoPassbookBridgeSettings#Add%20Card`
+- வாலெட் & Apple Pay → அறிவிப்புகள்: `bridge:root=com.apple.NanoPassbookBridgeSettings#MIRROR_RADIO_GROUP_ID`
+- வாலெட் & Apple Pay → எனது iPhoneஐ மிரர் செய்: `bridge:root=com.apple.NanoPassbookBridgeSettings#MIRROR_MY_COMPANION_ID`
+- வாலெட் & Apple Pay → பிரத்தியேகம்: `bridge:root=com.apple.NanoPassbookBridgeSettings#CUSTOM_ID`
+- மொபைல் சேவை: `bridge:root=CELLULAR_ID`
+- Mail & கேலண்டர்: `bridge:root=com.apple.BridgeRemoteAccounts`
+- Mail & கேலண்டர் → கணக்குகள்: `bridge:root=com.apple.BridgeRemoteAccounts#Accounts`
+- Mail & கேலண்டர் → Google கணக்கைச் சேர்...: `bridge:root=com.apple.BridgeRemoteAccounts#ADD_GOOGLE_ACCOUNT`
+- Mail & கேலண்டர் → பெறுக: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch`
+- Mail & கேலண்டர் → பெறுக → ஆஃப்: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#Off`
+- Mail & கேலண்டர் → பெறுக → மணிதோறும்: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#Hourly`
+- Mail & கேலண்டர் → பெறுக → 30 நிமி: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#30%20min`
+- Mail & கேலண்டர் → பெறுக → 15 நிமி: `bridge:root=com.apple.BridgeRemoteAccounts&path=Fetch#15%20min`
+- படித்ததற்கான உறுதிப்படுத்தலை அனுப்பு: `bridge:root=com.apple.MessagesBridgeSettings%23READ_RECEIPTS`
+- புகைப்படங்களின் வரம்பு: `bridge:root=com.apple.mobileslideshow`

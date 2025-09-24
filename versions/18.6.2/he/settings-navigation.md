@@ -1,0 +1,29 @@
+- חשבון Apple: `settings-navigation://com.apple.Settings.AppleAccount`
+- חשבון Apple → ‏iCloud: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE`
+- חשבון Apple → ‏iCloud → לוח שנה: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Calendars`
+- חשבון Apple → ‏iCloud → לוח שנה → שליחה וקבלה: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Calendars/CALENDAR_SEND_RECEIVE`
+- חשבון Apple → ‏iCloud → לוח שנה → קבלת עדכונים בדוא״ל: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Calendars/CALENDAR_SHARED_CALENDAR_UPDATE`
+- חשבון Apple → ‏iCloud → דואר: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail`
+- חשבון Apple → ‏iCloud → דואר → דוא״ל ברירת המחדל: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/DEFAULT_EMAIL`
+- חשבון Apple → ‏iCloud → דואר → כתובות: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/ALIASES`
+- חשבון Apple → ‏iCloud → דואר → מענה אוטומטי: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/AUTO_REPLY`
+- חשבון Apple → ‏iCloud → דואר → כללי ״דואר iCloud״: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/SERVER_SIDE_RULES`
+- חשבון Apple → ‏iCloud → דואר → הפניית דוא״ל: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/MAIL_FORWARDING`
+- חשבון Apple → ‏iCloud → דואר → אופני הפעולה של תיבת הדואר: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/MAILBOX_BEHAVIORS`
+- חשבון Apple → ‏iCloud → דואר → חתימה והצפנה: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/S_MIME`
+- חשבון Apple → ‏iCloud → דואר → ייבוא הודעות: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/MAIL_IMPORT`
+- Apps: `settings-navigation://com.apple.Settings.Apps`
+- Apps → Fitness: `settings-navigation://com.apple.Settings.Apps/com.apple.Fitness`
+- Apps → ‏Safari: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/`
+- Apps → ‏Safari → הרחבות: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/WEB_EXTENSIONS`
+- Apps → ‏Safari → חסימת חלונות קופצניים: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari#BLOCK_POPUPS`
+- Apps → ‏Safari → מניעת מעקב חוצה-אתרים: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari#TRACKER_PROTECTION`
+- Apps → ‏Safari → מילוי אוטומטי: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/AUTO_FILL`
+- Apps → ‏Safari → הורדות: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/DOWNLOADS`
+- Apps → סיסמאות: `settings-navigation://com.apple.Settings.Apps/com.apple.Passwords`
+- Apps → סיסמאות → המלצות אבטחה: `settings-navigation://com.apple.Settings.Apps/com.apple.Passwords#SECURITY_RECOMMENDATIONS`
+- פרטיות ואבטחה: `settings-navigation://com.apple.Settings.PrivacyAndSecurity`
+- פרטיות ואבטחה → בדיקת בטיחות: `settings-navigation://com.apple.Settings.PrivacyAndSecurity/SAFETY_CHECK`
+- הבית שלי: `settings-navigation://com.apple.Settings.HomeKit`
+- Search: `settings-navigation://com.apple.Settings.Search`
+- ספק שירותי טלוויזיה: `settings-navigation://com.apple.Settings.TVProvider`

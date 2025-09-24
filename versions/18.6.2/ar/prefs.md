@@ -1,0 +1,1186 @@
+- البطارية: `prefs:root=BATTERY_USAGE`
+- البطارية → نمط الطاقة المنخفضة: `prefs:root=BATTERY_USAGE#BATTERY_SAVER_MODE`
+- البطارية → حالة البطارية: `prefs:root=BATTERY_USAGE#BATTERY_HEALTH_ID`
+- زر الإجراءات: `prefs:root=ACTION_BUTTON`
+- الإشعارات: `prefs:root=NOTIFICATIONS_ID`
+- الإشعارات → ملخص مُجدول: `prefs:root=NOTIFICATIONS_ID&path=SCHEDULED_DELIVERY_ID`
+- عام: `prefs:root=General`
+- عام → ‏VPN وإدارة الأجهزة: `prefs:root=General&path=ManagedConfigurationList`
+- عام → ‏AppleCare والضمان: `prefs:root=General&path=COVERAGE/`
+- عام → التعبئة التلقائية وكلمات السر: `prefs:root=General&path=AUTOFILL`
+- عام → التعبئة التلقائية وكلمات السر → تعبئة تلقائية لكلمات السر: `prefs:root=General&path=AUTOFILL#AUTOFILL`
+- عام → التعبئة التلقائية وكلمات السر → تنظيف رموز التحقق: `prefs:root=General&path=AUTOFILL#CLEAN_UP_VERIFICATION_CODES`
+- عام → التعبئة التلقائية وكلمات السر → إعداد رموز التحقق…: `prefs:root=General&path=AUTOFILL#SET_UP_VERIFICATION_CODES`
+- عام → السعة: `prefs:root=General&path=STORAGE_MGMT`
+- عام → السعة → السعة: `prefs:root=General&path=STORAGE_MGMT#MANAGE`
+- عام → السعة → إزالة غير المستخدمة: `prefs:root=General&path=STORAGE_MGMT#OFFLOAD`
+- عام → تحديث البرامج: `prefs:root=General&path=SOFTWARE_UPDATE_LINK`
+- عام → تحديث البرامج → تحديثات تلقائية: `prefs:root=General&path=SOFTWARE_UPDATE_LINK/SUAutomaticUpdateButton`
+- عام → لوحة المفاتيح: `prefs:root=General&path=Keyboard`
+- عام → لوحة المفاتيح → لوحات المفاتيح: `prefs:root=General&path=Keyboard/KEYBOARDS`
+- عام → لوحة المفاتيح → استبدال النص: `prefs:root=General&path=Keyboard/USER_DICTIONARY`
+- عام → لوحة المفاتيح → البدء بأحرف كبيرة تلقائيًا: `prefs:root=General&path=Keyboard#KeyboardAutocapitalization`
+- عام → لوحة المفاتيح → التصحيح تلقائيًا: `prefs:root=General&path=Keyboard#KeyboardAutocorrection`
+- عام → لوحة المفاتيح → تحقق من التدقيق الإملائي: `prefs:root=General&path=Keyboard#KeyboardCheckSpelling`
+- عام → لوحة المفاتيح → تمكين "تثبيت عالي": `prefs:root=General&path=Keyboard#KeyboardCapsLock`
+- عام → لوحة المفاتيح → الاختصارات: `prefs:root=General&path=Keyboard#KeyboardAssistant`
+- عام → لوحة المفاتيح → التنبؤ: `prefs:root=General&path=Keyboard#KeyboardPrediction`
+- عام → لوحة المفاتيح → الترقيم الذكي: `prefs:root=General&path=Keyboard#SmartTyping`
+- عام → لوحة المفاتيح → تقسيم لوحة المفاتيح: `prefs:root=General&path=Keyboard#RivenKeyboard`
+- عام → لوحة المفاتيح → تمكين الضغطات على المفاتيح: `prefs:root=General&path=Keyboard#GesturesEnabled`
+- عام → لوحة المفاتيح → معاينة الأحرف: `prefs:root=General&path=Keyboard#KeyboardAllowPaddle`
+- عام → لوحة المفاتيح → اختصار النقطة ".": `prefs:root=General&path=Keyboard#KeyboardPeriodShortcut`
+- عام → لوحة المفاتيح → اسحب للكتابة: `prefs:root=General&path=Keyboard#KeyboardContinuousPathEnabled`
+- عام → لوحة المفاتيح → تمكين الإملاء: `prefs:root=General&path=Keyboard#Dictation`
+- عام → لوحة المفاتيح → إدراج علامات الترقيم تلقائيًا: `prefs:root=General&path=Keyboard#AutoPunctuationSetting`
+- عام → اللغة والمنطقة: `prefs:root=General&path=INTERNATIONAL`
+- عام → اللغة والمنطقة → لغات أخرى…: `prefs:root=General&path=INTERNATIONAL#NEW_PREFERRED_LANGUAGE`
+- عام → اللغة والمنطقة → ترتيب اللغة المفضلة: `prefs:root=General&path=INTERNATIONAL#PREFERRED_LANGUAGE_GROUP`
+- عام → اللغة والمنطقة → إضافة لغة…: `prefs:root=General&path=INTERNATIONAL#ADD_PREFERRED_LANGUAGE`
+- عام → اللغة والمنطقة → المنطقة: `prefs:root=General&path=INTERNATIONAL/LOCALE`
+- عام → اللغة والمنطقة → الأرقام: `prefs:root=General&path=INTERNATIONAL/NUMBERING_SYSTEM`
+- عام → اللغة والمنطقة → التقويم: `prefs:root=General&path=INTERNATIONAL/CALENDAR`
+- عام → اللغة والمنطقة → وحدة درجة الحرارة: `prefs:root=General&path=INTERNATIONAL/TEMPERATURE_UNIT`
+- عام → قاموس: `prefs:root=General&path=DICTIONARY`
+- عام → صورة داخل الصورة: `prefs:root=General&path=PiP_SPEC`
+- عام → لوحة التعقب: `prefs:root=General&path=POINTERS`
+- عام → NFC: `prefs:root=General&path=NFC_LINK`
+- عام → VPN: `prefs:root=General&path=VPN`
+- عام → كاربلاي: `prefs:root=General&path=CARPLAY`
+- عام → حول: `prefs:root=General&path=About`
+- عام → حول → شهادات موثوقة: `prefs:root=General&path=About/CERT_TRUST_SETTINGS`
+- عام → حول → الرقم التسلسلي: `prefs:root=General&path=About#SerialNumber`
+- عام → حول → رقم الطراز: `prefs:root=General&path=About#ProductModel`
+- عام → حول → اسم الطراز: `prefs:root=General&path=About#ProductModelName`
+- عام → حول → إصدار iOS: `prefs:root=General&path=About/SW_VERSION_SPECIFIER`
+- عام → القانونية والتنظيمية: `prefs:root=General&path=LEGAL_AND_REGULATORY`
+- عام → القانونية والتنظيمية → الضمان: `prefs:root=General&path=LEGAL_AND_REGULATORY#Warranty`
+- عام → الإرسال السريع: `prefs:root=General&path=AIRDROP_LINK`
+- عام → الإرسال السريع → تقريب الجهازين: `prefs:root=General&path=AIRDROP_LINK#AIRDROP_NFC_ID`
+- عام → زر الشاشة الرئيسية: `prefs:root=General&path=HOME_BUTTON`
+- عام → المفتاح الجانبي: `prefs:root=General#Rotation_Switch_Action_Group`
+- عام → تحديث التطبيقات في الخلفية: `prefs:root=General&path=AUTO_CONTENT_DOWNLOAD`
+- عام → الوقت والتاريخ: `prefs:root=General&path=DATE_AND_TIME`
+- عام → مخرج التلفزيون: `prefs:root=General&path=TV_OUT`
+- عام → إعادة تعيين: `prefs:root=General&path=Reset`
+- عام → إعادة تعيين → إعادة تعيين جميع الإعدادات: `prefs:root=General&path=Reset#settingsErase`
+- عام → إعادة تعيين → مسح جميع المحتويات والإعدادات: `prefs:root=General&path=Reset#fullErase`
+- عام → إعادة تعيين → إعادة تعيين إعدادات الشبكة: `prefs:root=General&path=Reset#RESET_NETWORK_LABEL`
+- عام → إعادة تعيين → إزالة كل باقات البيانات الخلوية: `prefs:root=General&path=Reset#cellularErase`
+- عام → إعادة تعيين → خدمات المشترك: `prefs:root=General&path=Reset#SUBSCRIBER_SERVICES_ID`
+- عام → إعادة تعيين → إعادة تعيين قاموس لوحة المفاتيح: `prefs:root=General&path=Reset#RESET_KEYBOARD_DICTIONARY_LABEL`
+- عام → إعادة تعيين → إعادة تعيين شكل الشاشة الرئيسية: `prefs:root=General&path=Reset#RESET_ICONS_LABEL`
+- عام → إعادة تعيين → إعادة تعيين الموقع والخصوصية: `prefs:root=General&path=Reset#RESET_PRIVACY_LABEL`
+- عام → إيقاف التشغيل: `prefs:root=General#SHUTDOWN_LABEL`
+- عام → البث السريع والاستمرار: `prefs:root=General&path=CONTINUITY_SPEC`
+- عام → البث السريع والاستمرار → التسليم: `prefs:root=General&path=CONTINUITY_SPEC#CONTINUITY`
+- عام → البث السريع والاستمرار → نقل إلى HomePod: `prefs:root=General&path=CONTINUITY_SPEC#TRANSFER_TO_HOMEPOD`
+- عام → البث السريع والاستمرار → البث السريع تلقائيًا: `prefs:root=General&path=CONTINUITY_SPEC#AUTOMATICALLY_AIRPLAY`
+- عام → البث السريع والاستمرار → كاميرا الاستمرار: `prefs:root=General&path=CONTINUITY_SPEC#WOMBAT_CAMERA`
+- ‏المحفظة و Apple Pay: `prefs:root=PASSBOOK`
+- ‏المحفظة و Apple Pay → ‏Apple Cash: `prefs:root=PASSBOOK#Apple%C2%A0Cash`
+- ‏المحفظة و Apple Pay → بطاقات الدفع: `prefs:root=PASSBOOK#SETTINGS_PAYMENT_CARDS_GROUP`
+- ‏المحفظة و Apple Pay → إضافة بطاقة: `prefs:root=PASSBOOK#Add%20Card`
+- ‏المحفظة و Apple Pay → اضغط مرتين على الزر الجانبي: `prefs:root=PASSBOOK#Double-Click%20Side%20Button`
+- ‏المحفظة و Apple Pay → تتبع الطلب: `prefs:root=PASSBOOK#ORDER_TRACKING`
+- اليوميات: `prefs:root=JOURNAL`
+- الاستعداد: `prefs:root=AMBIENT`
+- الطقس: `prefs:root=WEATHER`
+- حساب Apple: `prefs:root=APPLE_ACCOUNT` or `settings-navigation://com.apple.Settings.AppleAccount`
+- حساب Apple → ‏iCloud: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE` or `prefs:root=CASTLE`
+- حساب Apple → ‏iCloud → تخزين iCloud: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/STORAGE_AND_BACKUP` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/STORAGE_AND_BACKUP` or `prefs:root=CASTLE&path=STORAGE_AND_BACKUP`
+- حساب Apple → ‏iCloud → iCloud Drive: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity` or `prefs:root=CASTLE&path=com.apple.Dataclass.Ubiquity`
+- حساب Apple → ‏iCloud → الصور: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.MediaStream` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.MediaStream` or `prefs:root=CASTLE&path=com.apple.Dataclass.MediaStream`
+- حساب Apple → ‏iCloud → البريد: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Mail` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail` or `prefs:root=CASTLE&path=com.apple.Dataclass.Mail`
+- حساب Apple → ‏iCloud → البريد → نطاق بريد إلكتروني مخصص: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Mail/BYOD_SETTING_SPECIFIER_ID` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/BYOD_SETTING_SPECIFIER_ID` or `prefs:root=CASTLE&path=com.apple.Dataclass.Mail/BYOD_SETTING_SPECIFIER_ID`
+- حساب Apple → ‏iCloud → جهات الاتصال: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Contacts` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Contacts` or `prefs:root=CASTLE&path=com.apple.Dataclass.Contacts`
+- حساب Apple → ‏iCloud → التقويم: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Calendars` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Calendars` or `prefs:root=CASTLE&path=com.apple.Dataclass.Calendars`
+- حساب Apple → ‏iCloud → التذكيرات: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Reminders` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Reminders` or `prefs:root=CASTLE&path=com.apple.Dataclass.Reminders`
+- حساب Apple → ‏iCloud → سفاري: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks` or `prefs:root=CASTLE&path=com.apple.Dataclass.Bookmarks`
+- حساب Apple → ‏iCloud → ملاحظات: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Notes` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Notes` or `prefs:root=CASTLE&path=com.apple.Dataclass.Notes`
+- حساب Apple → ‏iCloud → الأخبار: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.News` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.News` or `prefs:root=CASTLE&path=com.apple.Dataclass.News`
+- حساب Apple → ‏iCloud → نسخ احتياطي: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/BACKUP` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/BACKUP` or `prefs:root=CASTLE&path=BACKUP`
+- حساب Apple → ‏iCloud → صحتي: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Health` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Health` or `prefs:root=CASTLE&path=com.apple.Dataclass.Health`
+- حساب Apple → ‏iCloud → كلمات السر وسلسلة المفاتيح: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync` or `prefs:root=CASTLE&path=com.apple.Dataclass.KeychainSync`
+- حساب Apple → ‏iCloud → إخفاء بريدي الإلكتروني: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE` or `prefs:root=CASTLE&path=PRIVATE_EMAIL_MANAGE`
+- حساب Apple → مشاركة موقعي: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING` or `settings-navigation://com.apple.Settings.AppleAccount/LOCATION_SHARING`
+- حساب Apple → مشاركة موقعي → تحديد الموقع: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING/FindMyDevice-Settings` or `settings-navigation://com.apple.Settings.AppleAccount/LOCATION_SHARING/FindMyDevice-Settings`
+- حساب Apple → الاسم وأرقام الهواتف والبريد الإلكتروني: `prefs:root=APPLE_ACCOUNT&path=APPLE_ACCOUNT_CONTACT` or `settings-navigation://com.apple.Settings.AppleAccount/APPLE_ACCOUNT_CONTACT`
+- حساب Apple → كلمة السر والأمن: `prefs:root=APPLE_ACCOUNT&path=PASSWORD_AND_SECURITY` or `settings-navigation://com.apple.Settings.AppleAccount/PASSWORD_AND_SECURITY`
+- حساب Apple → الدفع والشحن: `prefs:root=APPLE_ACCOUNT&path=PAYMENT_AND_SHIPPING` or `settings-navigation://com.apple.Settings.AppleAccount/PAYMENT_AND_SHIPPING`
+- حساب Apple → الاشتراكات: `prefs:root=APPLE_ACCOUNT&path=SUBSCRIPTIONS` or `settings-navigation://com.apple.Settings.AppleAccount/SUBSCRIPTIONS`
+- حساب Apple → العائلة: `prefs:root=APPLE_ACCOUNT&path=Family` or `settings-navigation://com.apple.Settings.AppleAccount/Family`
+- حساب Apple → التحقق من مفتاح جهة الاتصال: `prefs:root=APPLE_ACCOUNT&path=TRANSPARENCY` or `settings-navigation://com.apple.Settings.AppleAccount/TRANSPARENCY`
+- الخرائط، خرائط: `prefs:root=MAPS`
+- الخرائط، خرائط → مؤشر جودة الهواء: `prefs:root=MAPS#AirQualityPreferenceID`
+- الخرائط، خرائط → دائمًا بالعربية: `prefs:root=MAPS#LabelLanguageAlwaysUIPreferenceID`
+- الخرائط، خرائط → على الدراجة: `prefs:root=MAPS&path=CyclingLinkPreferenceID`
+- الخرائط، خرائط → طريقة السفر المفضلة: `prefs:root=MAPS#TransportTypePreferenceGroupID`
+- الخرائط، خرائط → قيادة: `prefs:root=MAPS&path=DrivingLinkPreferenceID`
+- الخرائط، خرائط → تعليمات الاتجاه المنطوقة: `prefs:root=MAPS&path=NavigationGuidanceLinkPreferenceID`
+- الخرائط، خرائط → إظهار موقع السيارة المركونة: `prefs:root=MAPS#ParkedCarPreferenceID`
+- الخرائط، خرائط → مشاركة وقت الوصول المقدر: `prefs:root=MAPS#ShareETAPreferenceID`
+- الخرائط، خرائط → المواصلات: `prefs:root=MAPS&path=TransitLinkPreferenceID`
+- الخرائط، خرائط → مشيًا: `prefs:root=MAPS&path=WalkingLinkPreferenceID`
+- الخرائط، خرائط → حالات الطقس: `prefs:root=MAPS#WeatherConditionsPreferenceID`
+- مدة استخدام الجهاز: `prefs:root=SCREEN_TIME`
+- مدة استخدام الجهاز → See All App & Website Activity: `prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY`
+- مدة استخدام الجهاز → See All App & Website Activity → اليوم: `prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY#DAY`
+- مدة استخدام الجهاز → See All App & Website Activity → الأسبوع: `prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY#WEEK`
+- مدة استخدام الجهاز → وقت التوقف: `prefs:root=SCREEN_TIME&path=DOWNTIME`
+- مدة استخدام الجهاز → حدود التطبيقات: `prefs:root=SCREEN_TIME&path=APP_LIMITS`
+- مدة استخدام الجهاز → حدود التواصل: `prefs:root=SCREEN_TIME&path=COMMUNICATION_LIMITS`
+- مدة استخدام الجهاز → أمان التواصل: `prefs:root=SCREEN_TIME&path=COMMUNICATION_SAFETY`
+- مدة استخدام الجهاز → السماح دائمًا: `prefs:root=SCREEN_TIME&path=ALWAYS_ALLOWED`
+- مدة استخدام الجهاز → قيود المحتوى والخصوصية: `prefs:root=SCREEN_TIME&path=CONTENT_PRIVACY`
+- مدة استخدام الجهاز → الإشراف العائلي: `prefs:root=SCREEN_TIME#FAMILY`
+- مدة استخدام الجهاز → بُعد الشاشة: `prefs:root=SCREEN_TIME&path=EYE_DISTANCE`
+- المساحة الحرة: `prefs:root=FREEFORM`
+- التركيز: `prefs:root=DO_NOT_DISTURB`
+- التركيز → حالة التركيز: `prefs:root=DO_NOT_DISTURB&path=status`
+- المظهر: `prefs:root=DISPLAY`
+- المظهر → المظهر: `prefs:root=DISPLAY#DEVICE_APPEARANCE`
+- المظهر → انسجام اللون: `prefs:root=DISPLAY#WHITE_BALANCE`
+- المظهر → الإضاءة الدافئة: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION`
+- المظهر → الإضاءة الدافئة → مُجدوَل: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#SCHEDULED`
+- المظهر → الإضاءة الدافئة → التمكين يدويًا حتى الغد: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#MANUAL`
+- المظهر → الإضاءة الدافئة → درجة حرارة اللون: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#COLOR_TEMPERATURE`
+- المظهر → القفل التلقائي: `prefs:root=DISPLAY&path=AUTOLOCK`
+- المظهر → رفع للتنبيه: `prefs:root=DISPLAY#RAISE_TO_WAKE`
+- المظهر → قفل/فتح قفل: `prefs:root=DISPLAY#SMART_CASE_LOCK_SPEC`
+- المظهر → حجم النص: `prefs:root=DISPLAY&path=TEXT_SIZE`
+- المظهر → نص غامق: `prefs:root=DISPLAY#BOLD_TEXT`
+- المظهر → الإضاءة: `prefs:root=DISPLAY#BRIGHTNESS`
+- المظهر → تكبير الشاشة: `prefs:root=DISPLAY#DISPLAY_ZOOM_GROUP`
+- المظهر → المظهر: `prefs:root=DISPLAY&path=APPEARANCE`
+- المظهر → المظهر → نافذة التكبير: `prefs:root=DISPLAY&path=APPEARANCE#WINDOW_ZOOM`
+- المظهر → المظهر → تكبير/تصغير النافذة بكلتا اليدين: `prefs:root=DISPLAY&path=APPEARANCE#TWO_HANDED_WINDOW_ZOOM`
+- المظهر → عرض: `prefs:root=DISPLAY&path=MAGNIFY`
+- المظهر → تشغيل الشاشة دومًا: `prefs:root=DISPLAY&path=ALWAYS_ON`
+- المظهر → تشغيل الشاشة دومًا → تشغيل الشاشة دومًا: `prefs:root=DISPLAY&path=ALWAYS_ON#ALWAYS_ON`
+- المظهر → التطبيقات المتوافقة: `prefs:root=DISPLAY&path=COMPATIBLE_APPEARANCE`
+- المظهر → التطبيقات المتوافقة → داكن، فاتح: `prefs:root=DISPLAY&path=COMPATIBLE_APPEARANCE#COMPATIBLE_APPEARANCE_CHOICES`
+- الشاشة الرئيسية: `prefs:root=HOME_SCREEN`
+- الشاشة الرئيسية → التطبيقات التي تم تنزيلها حديثًا: `prefs:root=HOME_SCREEN&path=APP_DOWNLOADS_GO_TO`
+- الشاشة الرئيسية → شارات الإشعارات: `prefs:root=HOME_SCREEN#BADGES_IN_APP_LIBRARY`
+- الشاشة الرئيسية ومكتبة التطبيقات: `prefs:root=HOME_SCREEN_DOCK`
+- الشاشة الرئيسية ومكتبة التطبيقات → التطبيقات التي تم تنزيلها حديثًا: `prefs:root=HOME_SCREEN_DOCK&path=APP_DOWNLOADS_GO_TO`
+- الشاشة الرئيسية ومكتبة التطبيقات → Dock: `prefs:root=HOME_SCREEN_DOCK&path=MULTITASKING_DOCK`
+- الشاشة الرئيسية ومكتبة التطبيقات → Dock → إظهار مكتبة التطبيقات في شريط الأيقونات: `prefs:root=HOME_SCREEN_DOCK&path=MULTITASKING_DOCK#SHOW_APP_LIBRARY`
+- الشاشة الرئيسية ومكتبة التطبيقات → إظهار التطبيقات المقترحة والحديثة في شريط الأيقونات: `prefs:root=HOME_SCREEN_DOCK#ALLOW_RECENTS`
+- الشاشة الرئيسية ومكتبة التطبيقات → منظم الواجهة: `prefs:root=HOME_SCREEN_DOCK&path=CONTINUOUS-EXPOSE`
+- Multitasking & Gestures: `prefs:root=com.apple.MultitaskingAndGesturesSettings`
+- Multitasking & Gestures → تعدد المهام: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Multitasking`
+- Multitasking & Gestures → تعدد المهام → السماح بتطبيقات متعددة: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Multitasking#MultipleApps`
+- Multitasking & Gestures → تعدد المهام → العرض المتقابل والعرض المتراكب: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Multitasking#SplitViewSlideOver`
+- Multitasking & Gestures → تعدد المهام → محاكاة الشاشة: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Multitasking#ScreenMirroring`
+- Multitasking & Gestures → تعدد المهام → منظم الواجهة: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Multitasking#StageManager`
+- Multitasking & Gestures → تعدد المهام → إظهار التطبيقات الحديثة في منظم الواجهة: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Multitasking#StageManagerRecentApps`
+- Multitasking & Gestures → تعدد المهام → إظهار شريط الأيقونات في منظم الواجهة: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Multitasking#StageManagerDock`
+- Multitasking & Gestures → صورة داخل الصورة: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=PictureInPicture`
+- Multitasking & Gestures → إيماءات الإنتاجية: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Productivity`
+- Multitasking & Gestures → إيماءات الإنتاجية → الإيماءات: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Productivity#Gestures`
+- Multitasking & Gestures → إيماءات الإنتاجية → إيماءات الإنتاجية: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Productivity#ProductivityGestures`
+- Multitasking & Gestures → الإيماءات بأربع وخمس أصابع: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=FourAndFiveFingers`
+- Multitasking & Gestures → الهز للتراجع: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=ShakeToUndo`
+- Multitasking & Gestures → إيماءات الزوايا: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=CornerGestures`
+- تسهيلات الاستخدام: `prefs:root=ACCESSIBILITY`
+- تسهيلات الاستخدام → التعليق الصوتي: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE`
+- تسهيلات الاستخدام → التعليق الصوتي → البرنامج التعليمي للتعليق الصوتي: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#VoiceOverTouchTutorialEnabled`
+- تسهيلات الاستخدام → التعليق الصوتي → سرعة الكلام: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#SpeakingRateSlider`
+- تسهيلات الاستخدام → التعليق الصوتي → النطق: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Voices`
+- تسهيلات الاستخدام → التعليق الصوتي → النطق → طرق النطق: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Voices/PRONUNCIATION_DICTIONARY`
+- تسهيلات الاستخدام → التعليق الصوتي → النطق → طرق النطق → طرق النطق: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Voices/PRONUNCIATION_DICTIONARY#PRONUNCIATION_DICTIONARY`
+- تسهيلات الاستخدام → التعليق الصوتي → النطق → تغيير الحدة: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Voices#PITCH_CHANGES_TITLE`
+- تسهيلات الاستخدام → التعليق الصوتي → النطق → إضافة صوت في الدوَّار…: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Voices#ADD_NEW_VOICE`
+- تسهيلات الاستخدام → التعليق الصوتي → النطق → اكتشاف اللغات: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Voices#LANGUAGE_DETECTION`
+- تسهيلات الاستخدام → التعليق الصوتي → النطق → جعل الكلام مكانيًا: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Voices#SPATIALIZE_SPEECH`
+- تسهيلات الاستخدام → التعليق الصوتي → الإسهاب: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity`
+- تسهيلات الاستخدام → التعليق الصوتي → الإسهاب → الإسهاب: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#Verbosity`
+- تسهيلات الاستخدام → التعليق الصوتي → الإسهاب → علامات الترقيم: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup`
+- تسهيلات الاستخدام → التعليق الصوتي → الإسهاب → علامات الترقيم → علامات الترقيم: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup#voiceOverPunctuationGroup`
+- تسهيلات الاستخدام → التعليق الصوتي → الإسهاب → علامات الترقيم → مجموعة علامات ترقيم نشطة: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup#voiceOverActivePunctuationGroup`
+- تسهيلات الاستخدام → التعليق الصوتي → الإسهاب → علامات الترقيم → الكل: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup#all`
+- تسهيلات الاستخدام → التعليق الصوتي → الإسهاب → علامات الترقيم → البعض: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup#AXSSVoiceOverPunctuationGroupSome`
+- تسهيلات الاستخدام → التعليق الصوتي → الإسهاب → علامات الترقيم → لا شيء: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup#PunctuationGroupNone`
+- تسهيلات الاستخدام → التعليق الصوتي → الإسهاب → علامات الترقيم → إضافة مجموعة علامات ترقيم: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup/NewPunctuation`
+- تسهيلات الاستخدام → التعليق الصوتي → الإسهاب → علامات الترقيم → إضافة مجموعة علامات ترقيم → إضافة مجموعة علامات ترقيم: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup/NewPunctuation#NewPunctuation`
+- تسهيلات الاستخدام → التعليق الصوتي → الإسهاب → علامات الترقيم → استيراد: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup/ImportPunctuation`
+- تسهيلات الاستخدام → التعليق الصوتي → الإسهاب → علامات الترقيم → استيراد → استيراد: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup/ImportPunctuation#ImportPunctuation`
+- تسهيلات الاستخدام → التعليق الصوتي → الإسهاب → نطق التلميحات: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#HINTS_TITLE`
+- تسهيلات الاستخدام → التعليق الصوتي → الإسهاب → إشعارات النظام: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/SystemNotifications`
+- تسهيلات الاستخدام → التعليق الصوتي → الإسهاب → إشعارات النظام → إشعارات النظام: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/SystemNotifications#SystemNotifications`
+- تسهيلات الاستخدام → التعليق الصوتي → الإسهاب → إشعارات النظام → الإشعارات أثناء الإقفال: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/SystemNotifications#LockScreenNotifications`
+- تسهيلات الاستخدام → التعليق الصوتي → الإسهاب → إشعارات النظام → إشعارات الشعار: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/SystemNotifications#BannerNotifications`
+- تسهيلات الاستخدام → التعليق الصوتي → الإسهاب → إشعارات النظام → استخدام نمط الصامت: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/SystemNotifications#NOTIFICATION_USE_RINGER_SWITCH`
+- تسهيلات الاستخدام → التعليق الصوتي → الإسهاب → إعلامات QuickNav: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverQuickNavAnnouncementFeedback`
+- تسهيلات الاستخدام → التعليق الصوتي → الإسهاب → إعلامات QuickNav → إعلامات QuickNav: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverQuickNavAnnouncementFeedback#voiceOverQuickNavAnnouncementFeedback`
+- تسهيلات الاستخدام → التعليق الصوتي → الإسهاب → إشعارات المصباح اليدوي: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverFlashlightNotificationsEnabled`
+- تسهيلات الاستخدام → التعليق الصوتي → الإسهاب → إشعارات المصباح اليدوي → إشعارات المصباح اليدوي: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverFlashlightNotificationsEnabled#voiceOverFlashlightNotificationsEnabled`
+- تسهيلات الاستخدام → التعليق الصوتي → الإسهاب → حروف كبيرة: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverCapitalLetterFeedback`
+- تسهيلات الاستخدام → التعليق الصوتي → الإسهاب → حروف كبيرة → حروف كبيرة: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverCapitalLetterFeedback#voiceOverCapitalLetterFeedback`
+- تسهيلات الاستخدام → التعليق الصوتي → الإسهاب → حذف النص: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverDeletionFeedback`
+- تسهيلات الاستخدام → التعليق الصوتي → الإسهاب → حذف النص → حذف النص: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverDeletionFeedback#voiceOverDeletionFeedback`
+- تسهيلات الاستخدام → التعليق الصوتي → الإسهاب → الروابط: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverLinkFeedback`
+- تسهيلات الاستخدام → التعليق الصوتي → الإسهاب → الروابط → الروابط: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverLinkFeedback#voiceOverLinkFeedback`
+- تسهيلات الاستخدام → التعليق الصوتي → الإسهاب → الإجراءات: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverActionsFeedback`
+- تسهيلات الاستخدام → التعليق الصوتي → الإسهاب → الإجراءات → الإجراءات: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverActionsFeedback#voiceOverActionsFeedback`
+- تسهيلات الاستخدام → التعليق الصوتي → الإسهاب → المزيد من المحتوى: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMoreContentOutputFeedback`
+- تسهيلات الاستخدام → التعليق الصوتي → الإسهاب → المزيد من المحتوى → المزيد من المحتوى: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMoreContentOutputFeedback#voiceOverMoreContentOutputFeedback`
+- تسهيلات الاستخدام → التعليق الصوتي → الإسهاب → أوصاف الحاوية: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverContainerOutputFeedback`
+- تسهيلات الاستخدام → التعليق الصوتي → الإسهاب → أوصاف الحاوية → أوصاف الحاوية: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverContainerOutputFeedback#voiceOverContainerOutputFeedback`
+- تسهيلات الاستخدام → التعليق الصوتي → الإسهاب → الأرقام: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverNumberFeedback`
+- تسهيلات الاستخدام → التعليق الصوتي → الإسهاب → الأرقام → الأرقام: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverNumberFeedback#voiceOverNumberFeedback`
+- تسهيلات الاستخدام → التعليق الصوتي → الإسهاب → الاستجابة للنص للتنبؤي: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/PREDICTIVE_TEXT_FEEDBACK`
+- تسهيلات الاستخدام → التعليق الصوتي → الإسهاب → الاستجابة للنص للتنبؤي → الاستجابة للنص للتنبؤي: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/PREDICTIVE_TEXT_FEEDBACK#PREDICTIVE_TEXT_FEEDBACK`
+- تسهيلات الاستخدام → التعليق الصوتي → الإسهاب → الاستجابة للنص للتنبؤي → عندما يظهر النص التنبؤي: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/PREDICTIVE_TEXT_FEEDBACK/InlineTextCompletionAppearanceFeedback`
+- تسهيلات الاستخدام → التعليق الصوتي → الإسهاب → الاستجابة للنص للتنبؤي → عندما يظهر النص التنبؤي → عندما يظهر النص التنبؤي: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/PREDICTIVE_TEXT_FEEDBACK/InlineTextCompletionAppearanceFeedback#InlineTextCompletionAppearanceFeedback`
+- تسهيلات الاستخدام → التعليق الصوتي → الإسهاب → الاستجابة للنص للتنبؤي → عند إدخال الاستجابة للنص للتنبؤي: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/PREDICTIVE_TEXT_FEEDBACK/InlineTextCompletionInsertionFeedback`
+- تسهيلات الاستخدام → التعليق الصوتي → الإسهاب → الاستجابة للنص للتنبؤي → عند إدخال الاستجابة للنص للتنبؤي → عند إدخال الاستجابة للنص للتنبؤي: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/PREDICTIVE_TEXT_FEEDBACK/InlineTextCompletionInsertionFeedback#InlineTextCompletionInsertionFeedback`
+- تسهيلات الاستخدام → التعليق الصوتي → الإسهاب → رؤوس الجدول: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#speakTableHeader`
+- تسهيلات الاستخدام → التعليق الصوتي → الإسهاب → أرقام الصفوف والأعمدة: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#SPEAK_TABLE_ROW_COLUMN`
+- تسهيلات الاستخدام → التعليق الصوتي → الإسهاب → تأكيد التكلم: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#ACTION_CONFIRMATION`
+- تسهيلات الاستخدام → التعليق الصوتي → الإسهاب → ملخص دوار الويب: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverRotorSummaryFeedback`
+- تسهيلات الاستخدام → التعليق الصوتي → الإسهاب → ملخص دوار الويب → ملخص دوار الويب: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverRotorSummaryFeedback#voiceOverRotorSummaryFeedback`
+- تسهيلات الاستخدام → التعليق الصوتي → الإسهاب → إيموجي: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverEmojiFeedback`
+- تسهيلات الاستخدام → التعليق الصوتي → الإسهاب → إيموجي → إيموجي: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverEmojiFeedback#voiceOverEmojiFeedback`
+- تسهيلات الاستخدام → التعليق الصوتي → الإسهاب → لاحقة إيموجي: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#EMOJI_SUFFIX`
+- تسهيلات الاستخدام → التعليق الصوتي → الإسهاب → أوصاف الوسائط: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions`
+- تسهيلات الاستخدام → التعليق الصوتي → الإسهاب → أوصاف الوسائط → أوصاف الوسائط: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#voiceOverMediaDescriptions`
+- تسهيلات الاستخدام → التعليق الصوتي → الإسهاب → الاستجابة الصوتية للإدخال: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#voiceOverInputFeedback`
+- تسهيلات الاستخدام → التعليق الصوتي → الإسهاب → ملاحظات تحويم التطبيقات: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#voiceOverAppHoverFeedback`
+- تسهيلات الاستخدام → التعليق الصوتي → برايل: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille`
+- تسهيلات الاستخدام → التعليق الصوتي → برايل → برايل: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#Braille`
+- تسهيلات الاستخدام → التعليق الصوتي → برايل → الإخراج: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput`
+- تسهيلات الاستخدام → التعليق الصوتي → برايل → الإخراج → الإخراج: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#BrailleDisplayOutput`
+- تسهيلات الاستخدام → التعليق الصوتي → برايل → الإدخال: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput`
+- تسهيلات الاستخدام → التعليق الصوتي → برايل → الإدخال → الإدخال: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#BrailleDisplayInput`
+- تسهيلات الاستخدام → التعليق الصوتي → برايل → مطابقة جدولَي الإدخال والإخراج: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BRAILLE_SYNC_TABLES`
+- تسهيلات الاستخدام → التعليق الصوتي → برايل → الإدخال والإخراج: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleDisplayOutput`
+- تسهيلات الاستخدام → التعليق الصوتي → برايل → ترجمة تلقائية: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#GRADE2_AUTO_TRANSLATE`
+- تسهيلات الاستخدام → التعليق الصوتي → برايل → شاشة إدخال برايل: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput`
+- تسهيلات الاستخدام → التعليق الصوتي → برايل → شاشة إدخال برايل → شاشة إدخال برايل: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#BrailleGesturesInput`
+- تسهيلات الاستخدام → التعليق الصوتي → برايل → شاشة إدخال برايل → البدء تلقائيًا عند تعديل نص: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#AUTO_ACTIVATE_ON_TEXT_FIELDS`
+- تسهيلات الاستخدام → التعليق الصوتي → برايل → شاشة إدخال برايل → عكس مواضع النقطة: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#SHOULD_REVERSE_DOTS`
+- تسهيلات الاستخدام → التعليق الصوتي → برايل → شاشة إدخال برايل → البقاء نشطًا حتى يتم الاستبعاد: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#CONTROL_DEVICE_USING_BRAILLE_GESTURE`
+- تسهيلات الاستخدام → التعليق الصوتي → برايل → شاشة إدخال برايل → الاستجابة المرئية للنص: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#DISPLAY_ENTERED_TEXT`
+- تسهيلات الاستخدام → التعليق الصوتي → برايل → شاشة إدخال برايل → الاستجابة الصوتية للكتابة: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#TYPING_FEEDBACK`
+- تسهيلات الاستخدام → التعليق الصوتي → برايل → شاشة إدخال برايل → الصوت: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#USE_TYPING_SOUND_FEEDBACK`
+- تسهيلات الاستخدام → التعليق الصوتي → برايل → شاشة إدخال برايل → الصوت: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#USE_HAPTIC_FEEDBACK`
+- تسهيلات الاستخدام → التعليق الصوتي → برايل → شاشة إدخال برايل → إعلانات النمط: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#SOUND_OPTION`
+- تسهيلات الاستخدام → التعليق الصوتي → برايل → شاشة إدخال برايل → اختيار جدول برايل: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#BSI_TABLES`
+- تسهيلات الاستخدام → التعليق الصوتي → برايل → جداول برايل: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier`
+- تسهيلات الاستخدام → التعليق الصوتي → برايل → جداول برايل → جداول برايل: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier#tableIdentifier`
+- تسهيلات الاستخدام → التعليق الصوتي → برايل → جداول برايل → إضافة جدول برايل…: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier/ADD_NEW_BRAILLE_LANGUAGE`
+- تسهيلات الاستخدام → التعليق الصوتي → برايل → جداول برايل → إضافة جدول برايل… → إضافة جدول برايل…: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier/ADD_NEW_BRAILLE_LANGUAGE#ADD_NEW_BRAILLE_LANGUAGE`
+- تسهيلات الاستخدام → التعليق الصوتي → برايل → خلايا الحالة: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL`
+- تسهيلات الاستخدام → التعليق الصوتي → برايل → خلايا الحالة → خلايا الحالة: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL`
+- تسهيلات الاستخدام → التعليق الصوتي → برايل → خلايا الحالة → موضع خلايا الحالة: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_POSITION`
+- تسهيلات الاستخدام → التعليق الصوتي → برايل → خلايا الحالة → إظهار الحالة العامة: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#StatusCellGeneral`
+- تسهيلات الاستخدام → التعليق الصوتي → برايل → خلايا الحالة → إظهار حالة النص: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#StatusCellTextStyle`
+- تسهيلات الاستخدام → التعليق الصوتي → برايل → المعادلات باستخدام رمز نيميث: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#ALWAYS_USE_NEMETH`
+- تسهيلات الاستخدام → التعليق الصوتي → برايل → إظهار لوحة المفاتيح على الشاشة: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#SHOW_SW_KEYBOARD`
+- تسهيلات الاستخدام → التعليق الصوتي → برايل → تقليب الصفحات عند التحريك: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#AUTO_TURN_PAGES`
+- تسهيلات الاستخدام → التعليق الصوتي → برايل → فواصل السطور: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#WORD_WRAP`
+- تسهيلات الاستخدام → التعليق الصوتي → برايل → تنسيق النص: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BRAILLE_FORMATTING`
+- تسهيلات الاستخدام → التعليق الصوتي → برايل → رسائل تنبيه برايل: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleAlertDisplayDuration`
+- تسهيلات الاستخدام → التعليق الصوتي → برايل → رسائل تنبيه برايل → رسائل تنبيه برايل: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleAlertDisplayDuration#voiceOverBrailleAlertDisplayDuration`
+- تسهيلات الاستخدام → التعليق الصوتي → برايل → رسائل تنبيه برايل → رسائل تنبيه برايل: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleAlertDisplayDuration#NumericalPreferenceSwitcherIdentifier`
+- تسهيلات الاستخدام → التعليق الصوتي → برايل → رسائل تنبيه برايل → إظهار حتى يتم الاستبعاد: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleAlertDisplayDuration#NumericalPreferenceInfiniteTimeDurationIdentifier`
+- تسهيلات الاستخدام → التعليق الصوتي → برايل → تجاهل مدة التآلف: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleDebounceTimeout`
+- تسهيلات الاستخدام → التعليق الصوتي → برايل → تجاهل مدة التآلف → تجاهل مدة التآلف: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleDebounceTimeout/voiceOverBrailleDebounceTimeout`
+- تسهيلات الاستخدام → التعليق الصوتي → برايل → مدة التقدم التلقائي: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleAutoAdvance`
+- تسهيلات الاستخدام → التعليق الصوتي → برايل → مدة التقدم التلقائي → مدة التقدم التلقائي: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleAutoAdvance#voiceOverBrailleAutoAdvance`
+- تسهيلات الاستخدام → التعليق الصوتي → برايل → ستار الصوت: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#SOUND_CURTAIN`
+- تسهيلات الاستخدام → التعليق الصوتي → برايل → تمكين Bluetooth عند البدء: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverAlwaysTurnOnBluetooth`
+- تسهيلات الاستخدام → التعليق الصوتي → برايل → اختيار شاشة عرض برايل: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#DEVICES`
+- تسهيلات الاستخدام → التعليق الصوتي → الصوت: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio`
+- تسهيلات الاستخدام → التعليق الصوتي → الصوت → الصوت: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#Audio`
+- تسهيلات الاستخدام → التعليق الصوتي → الصوت → أصوات التعليق الصوتي: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds`
+- تسهيلات الاستخدام → التعليق الصوتي → الصوت → أصوات التعليق الصوتي → أصوات التعليق الصوتي: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSounds`
+- تسهيلات الاستخدام → التعليق الصوتي → الصوت → أصوات التعليق الصوتي → الأصوات: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSSettingsItem.Sounds`
+- تسهيلات الاستخدام → التعليق الصوتي → الصوت → أصوات التعليق الصوتي → التفاعل: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSOutputEventCategory.Interaction`
+- تسهيلات الاستخدام → التعليق الصوتي → الصوت → أصوات التعليق الصوتي → الاستجابة الصوتية للتعليق الصوتي: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSOutputEventCategory.VoiceOverFeedback`
+- تسهيلات الاستخدام → التعليق الصوتي → الصوت → أصوات التعليق الصوتي → ملاحظات التطبيقات: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSOutputEventCategory.AppFeedback`
+- تسهيلات الاستخدام → التعليق الصوتي → الصوت → أصوات التعليق الصوتي → برايل: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSOutputEventCategory.Braille`
+- تسهيلات الاستخدام → التعليق الصوتي → الصوت → أصوات التعليق الصوتي → تعديل النص: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSOutputEventCategory.TextEditing`
+- تسهيلات الاستخدام → التعليق الصوتي → الصوت → أصوات التعليق الصوتي → النظام: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSOutputEventCategory.System`
+- تسهيلات الاستخدام → التعليق الصوتي → الصوت → تخامد الصوت: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#AUDIO_DUCKING`
+- تسهيلات الاستخدام → التعليق الصوتي → الصوت → تحديد السماعة تلقائيًا في المكالمة: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#ROUTE_TO_SPEAKER`
+- تسهيلات الاستخدام → التعليق الصوتي → الصوت → إرسال لـ HDMI: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#ROUTE_TO_HDMI`
+- تسهيلات الاستخدام → التعليق الصوتي → الأوامر: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands`
+- تسهيلات الاستخدام → التعليق الصوتي → الأوامر → الأوامر: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands#CustomizeCommands`
+- تسهيلات الاستخدام → التعليق الصوتي → الأوامر → جميع الأوامر: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/AllCommands`
+- تسهيلات الاستخدام → التعليق الصوتي → الأوامر → جميع الأوامر → جميع الأوامر: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/AllCommands#AllCommands`
+- تسهيلات الاستخدام → التعليق الصوتي → الأوامر → إدخال لوحة مفاتيح برايل: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/BrailleKeyboardInput`
+- تسهيلات الاستخدام → التعليق الصوتي → الأوامر → إدخال لوحة مفاتيح برايل → إدخال لوحة مفاتيح برايل: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/BrailleKeyboardInput#BrailleKeyboardInput`
+- تسهيلات الاستخدام → التعليق الصوتي → الأوامر → إيماءات اللمس: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/TouchGestures`
+- تسهيلات الاستخدام → التعليق الصوتي → الأوامر → إيماءات اللمس → إيماءات اللمس: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/TouchGestures#TouchGestures`
+- تسهيلات الاستخدام → التعليق الصوتي → الأوامر → اختصارات لوحة المفاتيح: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/KeyboardShortcuts`
+- تسهيلات الاستخدام → التعليق الصوتي → الأوامر → اختصارات لوحة المفاتيح → اختصارات لوحة المفاتيح: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/KeyboardShortcuts#KeyboardShortcuts`
+- تسهيلات الاستخدام → التعليق الصوتي → الأوامر → كتابة باليد: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/Handwriting`
+- تسهيلات الاستخدام → التعليق الصوتي → الأوامر → كتابة باليد → كتابة باليد: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/Handwriting#Handwriting`
+- تسهيلات الاستخدام → التعليق الصوتي → الأوامر → شاشة إدخال برايل: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/BrailleScreenInput`
+- تسهيلات الاستخدام → التعليق الصوتي → الأوامر → شاشة إدخال برايل → شاشة إدخال برايل: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/BrailleScreenInput#BrailleScreenInput`
+- تسهيلات الاستخدام → التعليق الصوتي → الأوامر → إعادة تعيين أوامر التعليق الصوتي: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands#ResetVoiceOverCommands`
+- تسهيلات الاستخدام → التعليق الصوتي → الأوامر → تبديل اليد المهيمنة للإيماءات: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands#SWITCH_GESTURE_HANDEDNESS`
+- تسهيلات الاستخدام → التعليق الصوتي → الأنشطة: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/activities`
+- تسهيلات الاستخدام → التعليق الصوتي → الأنشطة → الأنشطة: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/activities#activities`
+- تسهيلات الاستخدام → التعليق الصوتي → الأنشطة → البرمجة: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/activities/Programming`
+- تسهيلات الاستخدام → التعليق الصوتي → الأنشطة → البرمجة → البرمجة: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/activities/Programming#Programming`
+- تسهيلات الاستخدام → التعليق الصوتي → الأنشطة → إضافة نشاط…: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/activities/New`
+- تسهيلات الاستخدام → التعليق الصوتي → الأنشطة → إضافة نشاط… → إضافة نشاط…: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/activities/New#New`
+- تسهيلات الاستخدام → التعليق الصوتي → دوار: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions`
+- تسهيلات الاستخدام → التعليق الصوتي → دوار → دوار: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#RotorActions`
+- تسهيلات الاستخدام → التعليق الصوتي → دوار → عناصر الدوَّار: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions/WebRotor`
+- تسهيلات الاستخدام → التعليق الصوتي → دوار → عناصر الدوَّار → عناصر الدوَّار: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions/WebRotor#WebRotor`
+- تسهيلات الاستخدام → التعليق الصوتي → دوار → تغيير الدوَّار مع العنصر: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#STICKY_ROTOR_TITLE`
+- تسهيلات الاستخدام → التعليق الصوتي → دوار → تعديل تطبيقات الشاشة الرئيسية: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#editApps`
+- تسهيلات الاستخدام → التعليق الصوتي → دوار → تطبيقات اللمس المباشر: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions/apps`
+- تسهيلات الاستخدام → التعليق الصوتي → دوار → تطبيقات اللمس المباشر → تطبيقات اللمس المباشر: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions/apps#apps`
+- تسهيلات الاستخدام → التعليق الصوتي → كتابة: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions`
+- تسهيلات الاستخدام → التعليق الصوتي → كتابة → كتابة: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#TypingOptions`
+- تسهيلات الاستخدام → التعليق الصوتي → كتابة → نمط الكتابة: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_MODE_TITLE`
+- تسهيلات الاستخدام → التعليق الصوتي → كتابة → نمط الكتابة → نمط الكتابة: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_MODE_TITLE#TYPING_MODE_TITLE`
+- تسهيلات الاستخدام → التعليق الصوتي → كتابة → النطق الصوتي: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE`
+- تسهيلات الاستخدام → التعليق الصوتي → كتابة → النطق الصوتي → النطق الصوتي: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_TITLE`
+- تسهيلات الاستخدام → التعليق الصوتي → كتابة → الاستجابة الصوتية للكتابة: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_FEEDBACK`
+- تسهيلات الاستخدام → التعليق الصوتي → كتابة → الاستجابة الصوتية للكتابة → الاستجابة الصوتية للكتابة: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_FEEDBACK#TYPING_FEEDBACK`
+- تسهيلات الاستخدام → التعليق الصوتي → كتابة → مفاتيح التعديل: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS`
+- تسهيلات الاستخدام → التعليق الصوتي → كتابة → مفاتيح التعديل → مفاتيح التعديل: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS#MODIFIER_KEYS`
+- تسهيلات الاستخدام → التعليق الصوتي → كتابة → مدة التفاعل مع لوحة المفاتيح: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/KEYBOARD_TIMING_TIMEOUT`
+- تسهيلات الاستخدام → التعليق الصوتي → كتابة → مدة التفاعل مع لوحة المفاتيح → مدة التفاعل مع لوحة المفاتيح: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/KEYBOARD_TIMING_TIMEOUT#KEYBOARD_TIMING_TIMEOUT`
+- تسهيلات الاستخدام → التعليق الصوتي → التنقل بين الصور: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages`
+- تسهيلات الاستخدام → التعليق الصوتي → التنقل بين الصور → التنقل بين الصور: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#IncludeUnlabeledImages`
+- تسهيلات الاستخدام → التعليق الصوتي → مؤشر كبير: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CursorStyle`
+- تسهيلات الاستخدام → التعليق الصوتي → لوحة الشرح المكتوب: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CaptionPanel`
+- تسهيلات الاستخدام → التعليق الصوتي → مهلة الضغط مرتين: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/DOUBLE_TAP_INTERVAL_TITLE`
+- تسهيلات الاستخدام → التعليق الصوتي → مهلة الضغط مرتين → مهلة الضغط مرتين: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/DOUBLE_TAP_INTERVAL_TITLE#NumericalPreferencePickerGroupIdentifier`
+- تسهيلات الاستخدام → التعليق الصوتي → نمط التنقل: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NavigationStyle`
+- تسهيلات الاستخدام → التعليق الصوتي → نمط التنقل → نمط التنقل: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NavigationStyle#NavigationStyle`
+- تسهيلات الاستخدام → التعليق الصوتي → الإعدادات السريعة: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings`
+- تسهيلات الاستخدام → التعليق الصوتي → الإعدادات السريعة → الإعدادات السريعة: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#QuickSettings`
+- تسهيلات الاستخدام → التعليق الصوتي → التعرف باستخدام التعليق الصوتي: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver`
+- تسهيلات الاستخدام → التعليق الصوتي → التعرف باستخدام التعليق الصوتي → التعرف باستخدام التعليق الصوتي: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver#NeuralVoiceOver`
+- تسهيلات الاستخدام → التعليق الصوتي → التعرف باستخدام التعليق الصوتي → أوصاف الصور: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_IMAGE_DESCRIPTIONS`
+- تسهيلات الاستخدام → التعليق الصوتي → التعرف باستخدام التعليق الصوتي → أوصاف الصور → أوصاف الصور: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_IMAGE_DESCRIPTIONS#VO_IMAGE_DESCRIPTIONS`
+- تسهيلات الاستخدام → التعليق الصوتي → التعرف باستخدام التعليق الصوتي → أوصاف الصور → إخراج المحتوى الحساس: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_IMAGE_DESCRIPTIONS#SensitiveContentGroup`
+- تسهيلات الاستخدام → التعليق الصوتي → التعرف باستخدام التعليق الصوتي → أوصاف الصور → اللغات الإضافية: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_IMAGE_DESCRIPTIONS/AdditionalLanguages`
+- تسهيلات الاستخدام → التعليق الصوتي → التعرف باستخدام التعليق الصوتي → أوصاف الصور → اللغات الإضافية → اللغات الإضافية: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_IMAGE_DESCRIPTIONS/AdditionalLanguages#AdditionalLanguages`
+- تسهيلات الاستخدام → التعليق الصوتي → التعرف باستخدام التعليق الصوتي → أوصاف الصور → تطبيق على التطبيقات: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_IMAGE_DESCRIPTIONS/apps`
+- تسهيلات الاستخدام → التعليق الصوتي → التعرف باستخدام التعليق الصوتي → أوصاف الصور → تطبيق على التطبيقات → تطبيق على التطبيقات: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_IMAGE_DESCRIPTIONS/apps#apps`
+- تسهيلات الاستخدام → التعليق الصوتي → التعرف باستخدام التعليق الصوتي → التعرف على الشاشة: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_SCREEN_RECOGNITION`
+- تسهيلات الاستخدام → التعليق الصوتي → التعرف باستخدام التعليق الصوتي → التعرف على الشاشة → التعرف على الشاشة: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_SCREEN_RECOGNITION#VO_SCREEN_RECOGNITION`
+- تسهيلات الاستخدام → التعليق الصوتي → التعرف باستخدام التعليق الصوتي → التعرف على الشاشة → تطبيق على التطبيقات: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_SCREEN_RECOGNITION/apps`
+- تسهيلات الاستخدام → التعليق الصوتي → التعرف باستخدام التعليق الصوتي → التعرف على الشاشة → تطبيق على التطبيقات → تطبيق على التطبيقات: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_SCREEN_RECOGNITION/apps#apps`
+- تسهيلات الاستخدام → التعليق الصوتي → التعرف باستخدام التعليق الصوتي → التعرف على النص: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver#VO_OCR`
+- تسهيلات الاستخدام → التعليق الصوتي → التعرف باستخدام التعليق الصوتي → نمط الاستجابة الصوتية: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_FEEDBACK`
+- تسهيلات الاستخدام → التعليق الصوتي → التعرف باستخدام التعليق الصوتي → نمط الاستجابة الصوتية → نمط الاستجابة الصوتية: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_FEEDBACK#VO_FEEDBACK`
+- تسهيلات الاستخدام → التعليق الصوتي → التعرف باستخدام التعليق الصوتي → التعرف المباشر: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_REAL_WORLD_DETECTION`
+- تسهيلات الاستخدام → التعليق الصوتي → التأخير قبل التحديد: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#VoiceOverDelayUntilSpeak`
+- تسهيلات الاستخدام → التعليق الصوتي → مهلة ضم الإصبعين مرتين: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#DOUBLE_TAP_INTERVAL`
+- تسهيلات الاستخدام → تكبير: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE`
+- تسهيلات الاستخدام → تكبير → تتبع التركيز: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomShouldFollowFocus`
+- تسهيلات الاستخدام → تكبير → الكتابة الذكية: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomAlwaysUseWindowZoomForTyping`
+- تسهيلات الاستخدام → تكبير → اختصارات لوحة المفاتيح: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts`
+- تسهيلات الاستخدام → تكبير → اختصارات لوحة المفاتيح → اختصارات لوحة المفاتيح: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomEnableKeyboardShortcuts`
+- تسهيلات الاستخدام → تكبير → اختصارات لوحة المفاتيح → ضبط مستوى التكبير: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutAdjustZoomLevel`
+- تسهيلات الاستخدام → تكبير → اختصارات لوحة المفاتيح → تبديل التكبير: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutToggleZoom`
+- تسهيلات الاستخدام → تكبير → اختصارات لوحة المفاتيح → نقل نافذة التكبير: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutPanZoom`
+- تسهيلات الاستخدام → تكبير → اختصارات لوحة المفاتيح → تغيير حجم نافذة التكبير: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutResizeZoomWindow`
+- تسهيلات الاستخدام → تكبير → اختصارات لوحة المفاتيح → تبديل منطقة التكبير: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutSwitchZoomMode`
+- تسهيلات الاستخدام → تكبير → اختصارات لوحة المفاتيح → تبديل التكبير مؤقتًا: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutTempToggleZoom`
+- تسهيلات الاستخدام → تكبير → اختصارات لوحة المفاتيح → تكبير باستخدام عجلة التمرير: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutScrollWheel`
+- تسهيلات الاستخدام → تكبير → استخدام إيماءات لوحة التعقب للتكبير/التصغير: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomWithTrackpad`
+- تسهيلات الاستخدام → تكبير → معالج التحكم بالتكبير: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug`
+- تسهيلات الاستخدام → تكبير → معالج التحكم بالتكبير → معالج التحكم بالتكبير: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug#ZoomSlug`
+- تسهيلات الاستخدام → تكبير → معالج التحكم بالتكبير → إظهار وحدة التحكم: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug#ZOOM_DETACH_CONTROLS`
+- تسهيلات الاستخدام → تكبير → معالج التحكم بالتكبير → ضغطة واحدة: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_CONTROLLER_ACTION_SINGLE_TAP`
+- تسهيلات الاستخدام → تكبير → معالج التحكم بالتكبير → ضغطة واحدة → ضغطة واحدة: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_CONTROLLER_ACTION_SINGLE_TAP#ZOOM_CONTROLLER_ACTION_SINGLE_TAP`
+- تسهيلات الاستخدام → تكبير → معالج التحكم بالتكبير → الضغط مرتين: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_CONTROLLER_ACTION_DOUBLE_TAP`
+- تسهيلات الاستخدام → تكبير → معالج التحكم بالتكبير → الضغط مرتين → الضغط مرتين: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_CONTROLLER_ACTION_DOUBLE_TAP#ZOOM_CONTROLLER_ACTION_DOUBLE_TAP`
+- تسهيلات الاستخدام → تكبير → معالج التحكم بالتكبير → ضغط ثلاث مرات: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_CONTROLLER_ACTION_TRIPLE_TAP`
+- تسهيلات الاستخدام → تكبير → معالج التحكم بالتكبير → ضغط ثلاث مرات → ضغط ثلاث مرات: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_CONTROLLER_ACTION_TRIPLE_TAP#ZOOM_CONTROLLER_ACTION_TRIPLE_TAP`
+- تسهيلات الاستخدام → تكبير → معالج التحكم بالتكبير → ضبط مستوى التكبير: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug#ZOOM_TAP_AND_SLIDE_TO_ADJUST_ZOOM_LEVEL`
+- تسهيلات الاستخدام → تكبير → معالج التحكم بالتكبير → اللون: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/CONTROLLER_COLOR`
+- تسهيلات الاستخدام → تكبير → معالج التحكم بالتكبير → اللون → اللون: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/CONTROLLER_COLOR#CONTROLLER_COLOR`
+- تسهيلات الاستخدام → تكبير → معالج التحكم بالتكبير → تعتيم عند الخمول: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_IDLE_SLUG_OPACITY`
+- تسهيلات الاستخدام → تكبير → معالج التحكم بالتكبير → تعتيم عند الخمول → تعتيم عند الخمول: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_IDLE_SLUG_OPACITY#ZOOM_IDLE_SLUG_OPACITY`
+- تسهيلات الاستخدام → تكبير → تكبير المنطقة: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode`
+- تسهيلات الاستخدام → تكبير → تكبير المنطقة → تكبير المنطقة: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode#ZoomLensMode`
+- تسهيلات الاستخدام → تكبير → الحد الأقصى لمستوى التكبير/التصغير: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomPreferredMaxZoomLevel`
+- تسهيلات الاستخدام → تكبير → فلتر التكبير: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomFilter`
+- تسهيلات الاستخدام → تكبير → فلتر التكبير → فلتر التكبير: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomFilter#ZoomFilter`
+- تسهيلات الاستخدام → تكبير → إظهار أثناء المحاكاة: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomShowWhileMirroring`
+- تسهيلات الاستخدام → تكبير → تعيين التكبير كتركيز افتراضي: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomAsDefaultDial`
+- تسهيلات الاستخدام → تكبير → استخدام التاج الرقمي للتكبير/التصغير: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomStealsCrownTurns`
+- تسهيلات الاستخدام → تكبير → لون الحد: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#MagnifyingGlassBorderColor`
+- تسهيلات الاستخدام → تحويم النص: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE`
+- تسهيلات الاستخدام → تحويم النص → وضع العرض: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextDisplayMode`
+- تسهيلات الاستخدام → تحويم النص → وضع العرض → وضع العرض: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextDisplayMode#HoverTextDisplayMode`
+- تسهيلات الاستخدام → تحويم النص → سرعة التمرير: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextScrollSpeed`
+- تسهيلات الاستخدام → تحويم النص → سرعة التمرير → سرعة التمرير: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextScrollSpeed#HoverTextScrollSpeed`
+- تسهيلات الاستخدام → تحويم النص → الخط: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextStyle`
+- تسهيلات الاستخدام → تحويم النص → الخط → الخط: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextStyle#HoverTextStyle`
+- تسهيلات الاستخدام → تحويم النص → الحجم: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextSize`
+- تسهيلات الاستخدام → تحويم النص → الحجم → الحجم: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextSize#HoverTextSize`
+- تسهيلات الاستخدام → تحويم النص → الألوان: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE#HOVER_TEXT_COLOR_OPTIONS`
+- تسهيلات الاستخدام → تحويم النص → مفتاح تعديل التنشيط: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextActivationModifier`
+- تسهيلات الاستخدام → تحويم النص → مفتاح تعديل التنشيط → مفتاح تعديل التنشيط: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextActivationModifier#HoverTextActivationModifier`
+- تسهيلات الاستخدام → تحويم النص → قفل التنشيط: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE#HOVER_TEXT_ACTIVATION_LOCK`
+- تسهيلات الاستخدام → لوحات المفاتيح والكتابة: `prefs:root=ACCESSIBILITY&path=KEYBOARDS`
+- تسهيلات الاستخدام → لوحات المفاتيح والكتابة → تحويم الكتابة: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING`
+- تسهيلات الاستخدام → لوحات المفاتيح والكتابة → تحويم الكتابة → وضع العرض: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING/HoverTextTypingDisplayMode`
+- تسهيلات الاستخدام → لوحات المفاتيح والكتابة → تحويم الكتابة → وضع العرض → وضع العرض: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING/HoverTextTypingDisplayMode#HoverTextTypingDisplayMode`
+- تسهيلات الاستخدام → لوحات المفاتيح والكتابة → تحويم الكتابة → الخط: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING/HoverTypingStyle`
+- تسهيلات الاستخدام → لوحات المفاتيح والكتابة → تحويم الكتابة → الخط → الخط: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING/HoverTypingStyle#HoverTypingStyle`
+- تسهيلات الاستخدام → لوحات المفاتيح والكتابة → تحويم الكتابة → الحجم: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING/HoverTextSize`
+- تسهيلات الاستخدام → لوحات المفاتيح والكتابة → تحويم الكتابة → الحجم → الحجم: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING/HoverTextSize#HoverTextSize`
+- تسهيلات الاستخدام → لوحات المفاتيح والكتابة → تحويم الكتابة → ألوان الكتابة: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TYPING_COLOR_OPTIONS`
+- تسهيلات الاستخدام → لوحات المفاتيح والكتابة → تحويم الكتابة → ألوان العرض: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TYPING_DISPLAY_COLOR_OPTIONS`
+- تسهيلات الاستخدام → لوحات المفاتيح والكتابة → تحويم الكتابة → لون النص: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TEXT_TEXT_COLOR`
+- تسهيلات الاستخدام → لوحات المفاتيح والكتابة → تحويم الكتابة → لون نقطة الإدراج: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TEXT_INSERTION_POINT_COLOR`
+- تسهيلات الاستخدام → لوحات المفاتيح والكتابة → تحويم الكتابة → لون الخلفية: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TEXT_BACKGROUND_COLOR`
+- تسهيلات الاستخدام → لوحات المفاتيح والكتابة → تحويم الكتابة → لون الحد: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TEXT_BORDER_COLOR`
+- تسهيلات الاستخدام → لوحات المفاتيح والكتابة → تحويم الكتابة → لون الكلمة المصححة تلقائيًا: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TYPING_AUTOCORRECTED_WORD_COLOR`
+- تسهيلات الاستخدام → لوحات المفاتيح والكتابة → تحويم الكتابة → لون الكلمة التي بها خطأ إملائي: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TYPING_MISSPELLED_WORD`
+- تسهيلات الاستخدام → لوحات المفاتيح والكتابة → تحويم الكتابة → إعادة التعيين إلى الافتراضي: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TYPING_RESET_BUTTON`
+- تسهيلات الاستخدام → لوحات المفاتيح والكتابة → وصول كامل باستخدام لوحة مفاتيح: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS`
+- تسهيلات الاستخدام → لوحات المفاتيح والكتابة → وصول كامل باستخدام لوحة مفاتيح → وصول كامل باستخدام لوحة مفاتيح: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAEnabledSwitch`
+- تسهيلات الاستخدام → لوحات المفاتيح والكتابة → وصول كامل باستخدام لوحة مفاتيح → الأوامر: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKACommands`
+- تسهيلات الاستخدام → لوحات المفاتيح والكتابة → وصول كامل باستخدام لوحة مفاتيح → الأوامر → الأوامر: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKACommands#FKACommands`
+- تسهيلات الاستخدام → لوحات المفاتيح والكتابة → وصول كامل باستخدام لوحة مفاتيح → الإخفاء تلقائيًا: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKAFocusRingTimeout`
+- تسهيلات الاستخدام → لوحات المفاتيح والكتابة → وصول كامل باستخدام لوحة مفاتيح → الإخفاء تلقائيًا → الإخفاء تلقائيًا: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKAFocusRingTimeout#FKAFocusRingTimeout`
+- تسهيلات الاستخدام → لوحات المفاتيح والكتابة → وصول كامل باستخدام لوحة مفاتيح → زيادة الحجم: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKALargeFocusRingEnabled`
+- تسهيلات الاستخدام → لوحات المفاتيح والكتابة → وصول كامل باستخدام لوحة مفاتيح → تباين عالٍ: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKAFocusRingHighContrastEnabled`
+- تسهيلات الاستخدام → لوحات المفاتيح والكتابة → وصول كامل باستخدام لوحة مفاتيح → اللون: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKAFocusRingColor`
+- تسهيلات الاستخدام → لوحات المفاتيح والكتابة → وصول كامل باستخدام لوحة مفاتيح → اللون → اللون: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKAFocusRingColor#FKAFocusRingColor`
+- تسهيلات الاستخدام → لوحات المفاتيح والكتابة → تكرار المفتاح: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT`
+- تسهيلات الاستخدام → لوحات المفاتيح والكتابة → تكرار المفتاح → تكرار المفتاح: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatEnabled`
+- تسهيلات الاستخدام → لوحات المفاتيح والكتابة → تكرار المفتاح → الفاصل الزمني لتكرار المفتاح: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatInterval`
+- تسهيلات الاستخدام → لوحات المفاتيح والكتابة → تكرار المفتاح → التأخير لحين التكرار: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatDelay`
+- تسهيلات الاستخدام → لوحات المفاتيح والكتابة → ثبات المفاتيح: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS`
+- تسهيلات الاستخدام → لوحات المفاتيح والكتابة → ثبات المفاتيح → ثبات المفاتيح: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysEnabled`
+- تسهيلات الاستخدام → لوحات المفاتيح والكتابة → ثبات المفاتيح → تبديل مع مفتاح العالي: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysShiftToggle`
+- تسهيلات الاستخدام → لوحات المفاتيح والكتابة → ثبات المفاتيح → الصوت: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysSound`
+- تسهيلات الاستخدام → لوحات المفاتيح والكتابة → إبطاء المفاتيح: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/SLOW_KEYS`
+- تسهيلات الاستخدام → لوحات المفاتيح والكتابة → إبطاء المفاتيح → إبطاء المفاتيح: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/SLOW_KEYS#NumericalPreferenceSwitcherIdentifier`
+- تسهيلات الاستخدام → لوحات المفاتيح والكتابة → لوحات المفاتيح الرقمية: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#SOFTWARE_KEYBOARDS`
+- تسهيلات الاستخدام → لوحات المفاتيح والكتابة → إظهار مفاتيح الأحرف الصغيرة: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#LOWERCASE_KEYBOARD`
+- تسهيلات الاستخدام → شاشة العرض وحجم النص: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT`
+- تسهيلات الاستخدام → شاشة العرض وحجم النص → نص غامق: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#ENHANCE_TEXT_LEGIBILITY`
+- تسهيلات الاستخدام → شاشة العرض وحجم النص → نص أكبر: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/LARGER_TEXT`
+- تسهيلات الاستخدام → شاشة العرض وحجم النص → نص أكبر → نص أكبر: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/LARGER_TEXT#LARGER_TEXT`
+- تسهيلات الاستخدام → شاشة العرض وحجم النص → نص أكبر → أحجام أكبر لتسهيلات الاستخدام: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/LARGER_TEXT#LARGER_DYNAMIC_TYPE_SWITCH`
+- تسهيلات الاستخدام → شاشة العرض وحجم النص → أشكال الزر: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#BUTTON_SHAPES`
+- تسهيلات الاستخدام → شاشة العرض وحجم النص → تشغيل/إيقاف العناوين: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#OnOffLabels`
+- تسهيلات الاستخدام → شاشة العرض وحجم النص → تقليل الشفافية: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#REDUCE_TRANSPARENCY`
+- تسهيلات الاستخدام → شاشة العرض وحجم النص → زيادة التباين: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#TEXT_COLORS_DARKEN`
+- تسهيلات الاستخدام → شاشة العرض وحجم النص → التمييز بدون لون: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#DIFFERENTIATE_WITHOUT_COLOR`
+- تسهيلات الاستخدام → شاشة العرض وحجم النص → تفضيل النص الأفقي: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#PREFER_HORIZONTAL_TEXT`
+- تسهيلات الاستخدام → شاشة العرض وحجم النص → عكس ذكي: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#SMART_INVERT`
+- تسهيلات الاستخدام → شاشة العرض وحجم النص → عكس كلاسيكي: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#CLASSIC_INVERT`
+- تسهيلات الاستخدام → شاشة العرض وحجم النص → فلاتر الألوان: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR`
+- تسهيلات الاستخدام → شاشة العرض وحجم النص → فلاتر الألوان → فلاتر الألوان: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR#DISPLAY_FILTER_COLOR`
+- تسهيلات الاستخدام → شاشة العرض وحجم النص → فلاتر الألوان → تطبيق على تمرير الفيديو: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR#VIDEO_PASSTHROUGH`
+- تسهيلات الاستخدام → شاشة العرض وحجم النص → تقليل النقطة البيضاء: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#WHITE_POINT`
+- تسهيلات الاستخدام → شاشة العرض وحجم النص → إضاءة تلقائية: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#AUTO_BRIGHTNESS`
+- تسهيلات الاستخدام → شاشة العرض وحجم النص → تجاهل حركات العين للتثبيت: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#STATIC_FOVEATION_TEXT`
+- تسهيلات الاستخدام → شاشة العرض وحجم النص → محاذاة الشاشات تلقائيًا: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#AUTO_IPD_TEXT`
+- تسهيلات الاستخدام → شاشة العرض وحجم النص → زيادة حالة التركيز: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#INCREASE_FOCUS_STATE_TEXT`
+- تسهيلات الاستخدام → الحركة: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE`
+- تسهيلات الاستخدام → الحركة → تقليل الحركة: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION`
+- تسهيلات الاستخدام → الحركة → تشغيل تأثيرات الرسائل تلقائيًا: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#ReduceMotionAutoplayMessagesEffects`
+- تسهيلات الاستخدام → الحركة → التشغيل التلقائي للصور المتحركة: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION_AUTOPLAY_ANIMATED_IMAGES`
+- تسهيلات الاستخدام → الحركة → تشغيل معاينة الفيديو تلقائيًا: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION_AUTOPLAY_VIDEO_PREVIEWS`
+- تسهيلات الاستخدام → الحركة → تفضيل المؤشر غير الوامض: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#PREFER_NONBLINKING_CURSOR`
+- تسهيلات الاستخدام → الحركة → تحديد معدل الإطار: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REFRESH_RATE`
+- تسهيلات الاستخدام → الحركة → تعتيم الأضواء الوامضة: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#PHOTOSENSITIVE_MITIGATION`
+- تسهيلات الاستخدام → الحركة → إظهار إشارات حركة السيارة: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#MotionCues`
+- تسهيلات الاستخدام → المحتوى المنطوق: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE`
+- تسهيلات الاستخدام → المحتوى المنطوق → نطق التحديد: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QUICK_SPEAK_TITLE`
+- تسهيلات الاستخدام → المحتوى المنطوق → نطق الشاشة: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpeakThisEnabled`
+- تسهيلات الاستخدام → المحتوى المنطوق → وحدة التحكم بالنطق: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController`
+- تسهيلات الاستخدام → المحتوى المنطوق → وحدة التحكم بالنطق → وحدة التحكم بالنطق: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController#SpeechController`
+- تسهيلات الاستخدام → المحتوى المنطوق → وحدة التحكم بالنطق → الضغط المطول: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController/SpeechControllerLongPressAction`
+- تسهيلات الاستخدام → المحتوى المنطوق → وحدة التحكم بالنطق → الضغط المطول → الضغط المطول: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController/SpeechControllerLongPressAction#SpeechControllerLongPressAction`
+- تسهيلات الاستخدام → المحتوى المنطوق → وحدة التحكم بالنطق → الضغط مرتين: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController/SpeechControllerDoubleTapAction`
+- تسهيلات الاستخدام → المحتوى المنطوق → وحدة التحكم بالنطق → الضغط مرتين → الضغط مرتين: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController/SpeechControllerDoubleTapAction#SpeechControllerDoubleTapAction`
+- تسهيلات الاستخدام → المحتوى المنطوق → وحدة التحكم بالنطق → تعتيم عند الخمول: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController/SpeechControllerIdleOpacity`
+- تسهيلات الاستخدام → المحتوى المنطوق → وحدة التحكم بالنطق → تعتيم عند الخمول → تعتيم عند الخمول: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController/SpeechControllerIdleOpacity#SpeechControllerIdleOpacity`
+- تسهيلات الاستخدام → المحتوى المنطوق → وحدة التحكم بالنطق → تخصيص أزرار الماوس: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController#CustomizeMouseButtons`
+- تسهيلات الاستخدام → المحتوى المنطوق → تمييز المحتوى: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/QuickSpeakHighlight`
+- تسهيلات الاستخدام → المحتوى المنطوق → تمييز المحتوى → تمييز المحتوى: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/QuickSpeakHighlight#QuickSpeakHighlight`
+- تسهيلات الاستخدام → المحتوى المنطوق → تمييز المحتوى → أسلوب تمييز الجملة: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/QuickSpeakHighlight#SENTENCE_HIGHLIGHT_STYLE`
+- تسهيلات الاستخدام → المحتوى المنطوق → تمييز المحتوى → ألوان التمييز: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/QuickSpeakHighlight#COLOR_CHOICE`
+- تسهيلات الاستخدام → المحتوى المنطوق → الاستجابة الصوتية للكتابة: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback`
+- تسهيلات الاستخدام → المحتوى المنطوق → الاستجابة الصوتية للكتابة → الاستجابة الصوتية للكتابة: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#TypingFeedback`
+- تسهيلات الاستخدام → المحتوى المنطوق → الاستجابة الصوتية للكتابة → أحرف: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#LETTER`
+- تسهيلات الاستخدام → المحتوى المنطوق → الاستجابة الصوتية للكتابة → تلميحات الحروف: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#PhoneticFeedback`
+- تسهيلات الاستخدام → المحتوى المنطوق → الاستجابة الصوتية للكتابة → نطق الكلمات: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#WORD_FEEDBACK`
+- تسهيلات الاستخدام → المحتوى المنطوق → الاستجابة الصوتية للكتابة → نطق النص تلقائيًا: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#SPEAK_AUTOCORRECTIONS`
+- تسهيلات الاستخدام → المحتوى المنطوق → الاستجابة الصوتية للكتابة → اضغط باستمرار لنطق التنبؤات: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#QUICKTYPE_WORD_FEEDBACK`
+- تسهيلات الاستخدام → المحتوى المنطوق → الأصوات: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/QuickSpeakAccents`
+- تسهيلات الاستخدام → المحتوى المنطوق → الأصوات → الأصوات: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/QuickSpeakAccents#QuickSpeakAccents`
+- تسهيلات الاستخدام → المحتوى المنطوق → اللغة الافتراضية: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpokenContentDefaultLanguage`
+- تسهيلات الاستخدام → المحتوى المنطوق → اللغة الافتراضية → اللغة الافتراضية: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpokenContentDefaultLanguage#SpokenContentDefaultLanguage`
+- تسهيلات الاستخدام → المحتوى المنطوق → اكتشاف اللغات: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#LANGUAGE_DETECTION`
+- تسهيلات الاستخدام → المحتوى المنطوق → سرعة الكلام: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakRate`
+- تسهيلات الاستخدام → المحتوى المنطوق → طرق النطق: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/VoiceOverSettings`
+- تسهيلات الاستخدام → المحتوى المنطوق → طرق النطق → طرق النطق: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/VoiceOverSettings#VoiceOverSettings`
+- تسهيلات الاستخدام → المحتوى المنطوق → جعل الكلام مكانيًا: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SPATIALIZE_SPEECH`
+- تسهيلات الاستخدام → الأوصاف الصوتية: `prefs:root=ACCESSIBILITY&path=DESCRIPTIVE_VIDEO`
+- تسهيلات الاستخدام → التفاعل: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE`
+- تسهيلات الاستخدام → التفاعل → اللمس المساعد: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE`
+- تسهيلات الاستخدام → التفاعل → اللمس المساعد → اللمس المساعد: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#EnableAssistiveTouchSpecifier`
+- تسهيلات الاستخدام → التفاعل → اللمس المساعد → تخصيص قائمة المستوى الأعلى: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize`
+- تسهيلات الاستخدام → التفاعل → اللمس المساعد → تخصيص قائمة المستوى الأعلى → تخصيص قائمة المستوى الأعلى: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize#AssistiveTouchCustomize`
+- تسهيلات الاستخدام → التفاعل → اللمس المساعد → تخصيص قائمة المستوى الأعلى → اضغط على أيقونة للتغيير:: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize#ASTStepperCell`
+- تسهيلات الاستخدام → التفاعل → اللمس المساعد → ضغطة واحدة: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/TapSpecifier`
+- تسهيلات الاستخدام → التفاعل → اللمس المساعد → ضغطة واحدة → ضغطة واحدة: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/TapSpecifier#TapSpecifier`
+- تسهيلات الاستخدام → التفاعل → اللمس المساعد → الضغط مرتين: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier`
+- تسهيلات الاستخدام → التفاعل → اللمس المساعد → الضغط مرتين → الضغط مرتين: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier#DoubleTapSpecifier`
+- تسهيلات الاستخدام → التفاعل → اللمس المساعد → الضغط مرتين → مهلة الضغط مرتين: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier/ASTDoubleTapTimeoutSpecifier`
+- تسهيلات الاستخدام → التفاعل → اللمس المساعد → الضغط مرتين → مهلة الضغط مرتين → مهلة الضغط مرتين: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier/ASTDoubleTapTimeoutSpecifier#ASTDoubleTapTimeoutSpecifier`
+- تسهيلات الاستخدام → التفاعل → اللمس المساعد → الضغط المطول: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier`
+- تسهيلات الاستخدام → التفاعل → اللمس المساعد → الضغط المطول → الضغط المطول: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier#LongPressSpecifier`
+- تسهيلات الاستخدام → التفاعل → اللمس المساعد → الضغط المطول → مدة الضغط المطول: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier/ASTLongPressDurationSpecifier`
+- تسهيلات الاستخدام → التفاعل → اللمس المساعد → الضغط المطول → مدة الضغط المطول → مدة الضغط المطول: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier/ASTLongPressDurationSpecifier#ASTLongPressDurationSpecifier`
+- تسهيلات الاستخدام → التفاعل → اللمس المساعد → 3D Touch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#ForceTouchSpecifier`
+- تسهيلات الاستخدام → التفاعل → اللمس المساعد → إنشاء إيماءة جديدة…: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/CreateCustomGesture`
+- تسهيلات الاستخدام → التفاعل → اللمس المساعد → إنشاء إيماءة جديدة… → إنشاء إيماءة جديدة…: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/CreateCustomGesture#CreateCustomGesture`
+- تسهيلات الاستخدام → التفاعل → اللمس المساعد → تعتيم عند الخمول: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/IdleOpacity`
+- تسهيلات الاستخدام → التفاعل → اللمس المساعد → تعتيم عند الخمول → تعتيم عند الخمول: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/IdleOpacity#IdleOpacity`
+- تسهيلات الاستخدام → التفاعل → اللمس المساعد → لوحة التعقب الافتراضية: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID`
+- تسهيلات الاستخدام → التفاعل → اللمس المساعد → لوحة التعقب الافتراضية → سرعة التعقب: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID#TRACKING_SPEED_SLIDER`
+- تسهيلات الاستخدام → التفاعل → اللمس المساعد → لوحة التعقب الافتراضية → تمرير طبيعي: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID#NATURAL_SCROLLING`
+- تسهيلات الاستخدام → التفاعل → اللمس المساعد → لوحة التعقب الافتراضية → سرعة التمرير: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID#SCROLL_SPEED_SLIDER`
+- تسهيلات الاستخدام → التفاعل → اللمس المساعد → لوحة التعقب الافتراضية → الحد: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID#BORDER`
+- تسهيلات الاستخدام → التفاعل → اللمس المساعد → لوحة التعقب الافتراضية → الحد: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID/BORDER`
+- تسهيلات الاستخدام → التفاعل → اللمس المساعد → لوحة التعقب الافتراضية → الحد → اللون: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID/BORDER#COLOR`
+- تسهيلات الاستخدام → التفاعل → اللمس المساعد → لوحة التعقب الافتراضية → الحد → التعتيم: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID/BORDER#OPACITY`
+- تسهيلات الاستخدام → التفاعل → اللمس المساعد → لوحة التعقب الافتراضية → الحد → عرض الحد: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID/BORDER#BORDER_WIDTH`
+- تسهيلات الاستخدام → التفاعل → اللمس المساعد → لوحة التعقب الافتراضية → لوحة التعقب: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID#TRACKPAD`
+- تسهيلات الاستخدام → التفاعل → اللمس المساعد → لوحة التعقب الافتراضية → لوحة التعقب: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID/TRACKPAD`
+- تسهيلات الاستخدام → التفاعل → اللمس المساعد → لوحة التعقب الافتراضية → لوحة التعقب → اللون: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID/TRACKPAD#COLOR`
+- تسهيلات الاستخدام → التفاعل → اللمس المساعد → لوحة التعقب الافتراضية → لوحة التعقب → التعتيم: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID/TRACKPAD#OPACITY`
+- تسهيلات الاستخدام → التفاعل → اللمس المساعد → الأجهزة: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices`
+- تسهيلات الاستخدام → التفاعل → اللمس المساعد → الأجهزة → الأجهزة: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices#AssistiveTouchMouseDevices`
+- تسهيلات الاستخدام → التفاعل → اللمس المساعد → الأجهزة → أجهزة Bluetooth…: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices/BluetoothDevicesScanning`
+- تسهيلات الاستخدام → التفاعل → اللمس المساعد → الأجهزة → أجهزة Bluetooth… → أجهزة Bluetooth…: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices/BluetoothDevicesScanning#BluetoothDevicesScanning`
+- تسهيلات الاستخدام → التفاعل → اللمس المساعد → مفاتيح الماوس: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseKeys`
+- تسهيلات الاستخدام → التفاعل → اللمس المساعد → مفاتيح الماوس → مفاتيح الماوس: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseKeys#AssistiveTouchMouseKeys`
+- تسهيلات الاستخدام → التفاعل → اللمس المساعد → مفاتيح الماوس → مبدل مفتاح الاختيار: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseKeys#OptionKeyToggle`
+- تسهيلات الاستخدام → التفاعل → اللمس المساعد → مفاتيح الماوس → استخدام لوحة المفاتيح الرئيسية: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseKeys#UsePrimaryKeyboard`
+- تسهيلات الاستخدام → التفاعل → اللمس المساعد → مفاتيح الماوس → التأخير المبدئي: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseKeys#InitialDelay`
+- تسهيلات الاستخدام → التفاعل → اللمس المساعد → مفاتيح الماوس → الحد الأقصى للسرعة: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseKeys#MaximumSpeed`
+- تسهيلات الاستخدام → التفاعل → اللمس المساعد → إظهار لوحة المفاتيح على الشاشة: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AlwaysShowSoftwareKeyboard`
+- تسهيلات الاستخدام → التفاعل → اللمس المساعد → إظهار القائمة دائمًا: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AlwaysShowMenu`
+- تسهيلات الاستخدام → التفاعل → اللمس المساعد → الصوت عند النقر: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#MouseClickSounds`
+- تسهيلات الاستخدام → التفاعل → اللمس المساعد → التحكم بالمكوث: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellEnabledSpecifier`
+- تسهيلات الاستخدام → التفاعل → اللمس المساعد → تفاوت الحركة: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellToleranceSpecifier`
+- تسهيلات الاستخدام → التفاعل → اللمس المساعد → تفاوت الحركة → تفاوت الحركة: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellToleranceSpecifier#DwellToleranceSpecifier`
+- تسهيلات الاستخدام → التفاعل → اللمس المساعد → حساسية التتبع: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#TouchSpeed`
+- تسهيلات الاستخدام → التفاعل → اللمس المساعد → إجراء التراجع: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellAutorevertSpecifier`
+- تسهيلات الاستخدام → التفاعل → اللمس المساعد → إجراء التراجع → إجراء التراجع: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellAutorevertSpecifier#DwellAutorevertSpecifier`
+- تسهيلات الاستخدام → التفاعل → اللمس المساعد → زوايا فعالة: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellCornersSpecifier`
+- تسهيلات الاستخدام → التفاعل → اللمس المساعد → زوايا فعالة → زوايا فعالة: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellCornersSpecifier#DwellCornersSpecifier`
+- تسهيلات الاستخدام → التفاعل → اللمس المساعد → زوايا فعالة → أعلى اليسار: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellCornersSpecifier#TopLeft`
+- تسهيلات الاستخدام → التفاعل → اللمس المساعد → زوايا فعالة → أعلى اليمين: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellCornersSpecifier#TopRight`
+- تسهيلات الاستخدام → التفاعل → اللمس المساعد → زوايا فعالة → أسفل اليسار: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellCornersSpecifier#BottomLeft`
+- تسهيلات الاستخدام → التفاعل → اللمس المساعد → زوايا فعالة → أسفل اليمين: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellCornersSpecifier#BottomRight`
+- تسهيلات الاستخدام → التفاعل → اللمس المساعد → توقعات موسعة: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellExtendedPredictionsSpecifier`
+- تسهيلات الاستخدام → التفاعل → اللمس المساعد → مهلة التحكم بالمكوث: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellTimeoutSpecifier`
+- تسهيلات الاستخدام → التفاعل → اللمس المساعد → التأكيد باستخدام اللمس المساعد: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#APPLE_PAY_SWITCH`
+- تسهيلات الاستخدام → التفاعل → اللمس المساعد → إجراء إيماءات اللمس: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#MouseBehavesLikeFinger`
+- تسهيلات الاستخدام → التفاعل → اللمس المساعد → استخدام ذراع تحكم بالألعاب: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#EnableAssistiveTouchGameControllerSpecifier`
+- تسهيلات الاستخدام → التفاعل → اللمس المساعد → إجراءات صوتية: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/SOUND_ACTIONS`
+- تسهيلات الاستخدام → التفاعل → اللمس المساعد → إجراءات صوتية: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#SOUND_ACTIONS`
+- تسهيلات الاستخدام → التفاعل → التحكم بالمكوث: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL`
+- تسهيلات الاستخدام → التفاعل → التحكم بالمكوث → التحكم بالمكوث: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL#DWELL_CONTROL_TITLE`
+- تسهيلات الاستخدام → التفاعل → التحكم بالمكوث → الهدف: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL/DWELL_CONTROL_TARGET`
+- تسهيلات الاستخدام → التفاعل → التحكم بالمكوث → تفاوت الحركة: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL/DWELL_MOVEMENT_TOLERANCE`
+- تسهيلات الاستخدام → التفاعل → التحكم بالمكوث → تمييز عنصر التحكم: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL#DWELL_HIGHLIGHT_CONTROL_TITLE`
+- تسهيلات الاستخدام → التفاعل → التحكم بالمكوث → إيقاف مؤقت أثناء تشغيل الوسائط: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL#DWELL_PAUSE_FOR_MEDIA_PLAYBACK_TITLE`
+- تسهيلات الاستخدام → التفاعل → التحكم بالمكوث → إظهار عناصر تحكم التمرير: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL#AXDwellQuickScrollSpecifierID`
+- تسهيلات الاستخدام → التفاعل → التحكم بالمكوث → متابعة القائمة: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL#AXDwellFollowSpecifierID`
+- تسهيلات الاستخدام → التفاعل → التحكم بالمكوث: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/#DwellEnabledSpecifier`
+- تسهيلات الاستخدام → التفاعل → تسهيل الوصول: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#REACHABILITY`
+- تسهيلات الاستخدام → التفاعل → الحس اللمسي: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch`
+- تسهيلات الاستخدام → التفاعل → الحس اللمسي → الحس اللمسي: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#ForceTouch`
+- تسهيلات الاستخدام → التفاعل → الحس اللمسي → 3D Touch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#ForceTouchAccessibilityMainSwitch`
+- تسهيلات الاستخدام → التفاعل → الحس اللمسي → حساسية 3D Touch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#FourceTouchSensitivityGroupIdentifier`
+- تسهيلات الاستخدام → التفاعل → الحس اللمسي → مدة اللمس: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#timingGroup`
+- تسهيلات الاستخدام → التفاعل → الحس اللمسي → اختبار مدة اللمس: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#FourceTouchSensitivityTestGroupIdentifier`
+- تسهيلات الاستخدام → التفاعل → تسهيلات اللمس: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS`
+- تسهيلات الاستخدام → التفاعل → تسهيلات اللمس → تسهيلات اللمس: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#TOUCH_ACCOMMODATIONS_SWITCHER`
+- تسهيلات الاستخدام → التفاعل → تسهيلات اللمس → مدة الضغط المطول: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#HoldDuration`
+- تسهيلات الاستخدام → التفاعل → تسهيلات اللمس → تجاهل التكرار: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#IgnoreRepeat`
+- تسهيلات الاستخدام → التفاعل → تسهيلات اللمس → مساعدة الضغط: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#Tap%20Assistance`
+- تسهيلات الاستخدام → التفاعل → اضغط للتنبيه: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TAP_TO_WAKE_TITLE`
+- تسهيلات الاستخدام → التفاعل → اضغط أو اسحب للتنبيه: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TAP_TOUCH_TO_WAKE_TITLE`
+- تسهيلات الاستخدام → التفاعل → الهز للتراجع: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#SHAKE_TO_UNDO`
+- تسهيلات الاستخدام → التفاعل → الاهتزاز: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#VIBRATION`
+- تسهيلات الاستخدام → التفاعل → منع القفل لإنهاء المكالمة: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#LockButtonIgnore`
+- تسهيلات الاستخدام → التفاعل → إعادة توجيه المكالمة الصوتية: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING`
+- تسهيلات الاستخدام → التفاعل → إعادة توجيه المكالمة الصوتية → إعادة توجيه المكالمة الصوتية: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING`
+- تسهيلات الاستخدام → التفاعل → إعادة توجيه المكالمة الصوتية → الرد على المكالمات تلقائيًا: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING/callAudioRoutingAutoAnswer`
+- تسهيلات الاستخدام → التفاعل → إعادة توجيه المكالمة الصوتية → الرد على المكالمات تلقائيًا → الرد على المكالمات تلقائيًا: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING/callAudioRoutingAutoAnswer#callAudioRoutingAutoAnswer`
+- تسهيلات الاستخدام → التفاعل → الضغط من الخلف: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/BackTap`
+- تسهيلات الاستخدام → التفاعل → الضغط من الخلف → الضغط من الخلف: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/BackTap#BackTap`
+- تسهيلات الاستخدام → التفاعل → الضغط من الخلف → الضغط مرتين: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/BackTap/DoubleTap`
+- تسهيلات الاستخدام → التفاعل → الضغط من الخلف → الضغط مرتين → الضغط مرتين: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/BackTap/DoubleTap#DoubleTap`
+- تسهيلات الاستخدام → التفاعل → الضغط من الخلف → ضغط ثلاث مرات: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/BackTap/TripleTap`
+- تسهيلات الاستخدام → التفاعل → الضغط من الخلف → ضغط ثلاث مرات → ضغط ثلاث مرات: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/BackTap/TripleTap#TripleTap`
+- تسهيلات الاستخدام → التفاعل → التحكم بالمؤشر: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer`
+- تسهيلات الاستخدام → التفاعل → التحكم بالمؤشر → زيادة التباين: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#PointerIncreaseContrastSpecifier`
+- تسهيلات الاستخدام → التفاعل → التحكم بالمؤشر → إخفاء المؤشر تلقائيًا: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#PointerAutoHideSpecifier`
+- تسهيلات الاستخدام → التفاعل → التحكم بالمؤشر → اللون: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#PointerColorSpecifier`
+- تسهيلات الاستخدام → التفاعل → التحكم بالمؤشر → حجم المؤشر: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#PointerSizeSpecifier`
+- تسهيلات الاستخدام → التفاعل → التحكم بالمؤشر → التحكم بالمؤشر: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#PointerControlEnablingCell`
+- تسهيلات الاستخدام → التفاعل → التحكم بالمؤشر → التحكم: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer/POINTER_CONTROL_CONTROL`
+- تسهيلات الاستخدام → التفاعل → التحكم بالمؤشر → اللون: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer/PointerColorSpecifier`
+- تسهيلات الاستخدام → التفاعل → التحكم بالمؤشر → اللون → عرض الحد: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer/PointerColorSpecifier#PointerStrokeWidth`
+- تسهيلات الاستخدام → التفاعل → التحكم بالمؤشر → تجاهل لوحة التعقب: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#IgnoreTrackpad`
+- تسهيلات الاستخدام → التفاعل → التحكم بالمؤشر → استمرارية لوحة التعقب: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#PointerInertia`
+- تسهيلات الاستخدام → التفاعل → التحكم بالمؤشر → حركات المؤشر: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#PointerCustomShapes`
+- تسهيلات الاستخدام → التفاعل → التحكم بالمؤشر → سرعة التمرير: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#DeviceScrollSpeed`
+- تسهيلات الاستخدام → التفاعل → النظر إلى الأعلى للوصول إلى مركز التحكم: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/UPWARDS_HUD`
+- تسهيلات الاستخدام → التفاعل → النظر إلى الأعلى للوصول إلى مركز التحكم → الوضع الرأسي لمركز التحكم: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/UPWARDS_HUD#UpwardsHUDPositionSpecifier`
+- تسهيلات الاستخدام → التفاعل → النظر إلى الأعلى للوصول إلى مركز التحكم → النظر إلى الأعلى للوصول إلى مركز التحكم: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/UPWARDS_HUD#UpwardsHUDToggleSpecifier`
+- تسهيلات الاستخدام → التفاعل → إجراءات صوتية: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/SOUND_ACTIONS`
+- تسهيلات الاستخدام → التفاعل → تفضيل عناصر التحكم غير المقيدة بحركة الرأس: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#CAMERA_ANCHOR_ALTERNATIVE_Preference`
+- تسهيلات الاستخدام → ‏بصمة الوجه والانتباه: `prefs:root=ACCESSIBILITY&path=FACE_ID`
+- تسهيلات الاستخدام → ‏بصمة الوجه والانتباه → تتطلب مصادقة بصمة الوجه الانتباه: `prefs:root=ACCESSIBILITY&path=FACE_ID#PearlUnlockAttention`
+- تسهيلات الاستخدام → ‏بصمة الوجه والانتباه → الميزات المتتبعة للانتباه: `prefs:root=ACCESSIBILITY&path=FACE_ID#AttentionAware`
+- تسهيلات الاستخدام → ‏بصمة الوجه والانتباه → إشارة حس لمسي عند إجراء مصادقة ناجحة: `prefs:root=ACCESSIBILITY&path=FACE_ID#PearlSuccessHaptic`
+- تسهيلات الاستخدام → التحكم بالتبديل: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle`
+- تسهيلات الاستخدام → التحكم بالتبديل → عناصر التحكم البديلة: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier`
+- تسهيلات الاستخدام → التحكم بالتبديل → عناصر التحكم البديلة → عناصر التحكم البديلة: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier#SwitchesIdentifier`
+- تسهيلات الاستخدام → التحكم بالتبديل → عناصر التحكم البديلة → إضافة عنصر تحكم بديل جديد…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier/AddSwitchIdentifier`
+- تسهيلات الاستخدام → التحكم بالتبديل → عناصر التحكم البديلة → إضافة عنصر تحكم بديل جديد… → إضافة عنصر تحكم بديل جديد…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier/AddSwitchIdentifier#AddSwitchIdentifier`
+- تسهيلات الاستخدام → التحكم بالتبديل → عناصر التحكم البديلة → أجهزة Bluetooth…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier/BluetoothDevicesIdentifier`
+- تسهيلات الاستخدام → التحكم بالتبديل → عناصر التحكم البديلة → أجهزة Bluetooth… → أجهزة Bluetooth…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier/BluetoothDevicesIdentifier/BluetoothDevicesIdentifier`
+- تسهيلات الاستخدام → التحكم بالتبديل → عناصر التحكم البديلة → تجاهل إعداد التبديل غير الصالح: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier#UpwardsHUDToggleSpecifier`
+- تسهيلات الاستخدام → التحكم بالتبديل → التوليفات: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/RecipesIdentifier`
+- تسهيلات الاستخدام → التحكم بالتبديل → التوليفات → التوليفات: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/RecipesIdentifier#RecipesIdentifier`
+- تسهيلات الاستخدام → التحكم بالتبديل → التوليفات → إنشاء توليفة جديدة…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/RecipesIdentifier/CreateNewRecipe`
+- تسهيلات الاستخدام → التحكم بالتبديل → التوليفات → إنشاء توليفة جديدة… → إنشاء توليفة جديدة…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/RecipesIdentifier/CreateNewRecipe#CreateNewRecipe`
+- تسهيلات الاستخدام → التحكم بالتبديل → التوليفات → بدء تشغيل التوليفة: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/RecipesIdentifier/LaunchRecipe`
+- تسهيلات الاستخدام → التحكم بالتبديل → التوليفات → بدء تشغيل التوليفة → بدء تشغيل التوليفة: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/RecipesIdentifier/LaunchRecipe#LaunchRecipe`
+- تسهيلات الاستخدام → التحكم بالتبديل → نمط المسح: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier`
+- تسهيلات الاستخدام → التحكم بالتبديل → نمط المسح → نمط المسح: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#ScanningStyleIdentifier`
+- تسهيلات الاستخدام → التحكم بالتبديل → نمط التحكم بالتبديل: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/FirstLaunchScanningModeIdentifier`
+- تسهيلات الاستخدام → التحكم بالتبديل → نمط التحكم بالتبديل → نمط التحكم بالتبديل: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/FirstLaunchScanningModeIdentifier#FirstLaunchScanningModeIdentifier`
+- تسهيلات الاستخدام → التحكم بالتبديل → وقت المسح التلقائي: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningSpeedIdentifier`
+- تسهيلات الاستخدام → التحكم بالتبديل → وقت المسح التلقائي → وقت المسح التلقائي: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningSpeedIdentifier#NumericalPreferencePickerGroupIdentifier`
+- تسهيلات الاستخدام → التحكم بالتبديل → إيقاف مؤقت على أول عنصر: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/DelayAfterInputIdentifier`
+- تسهيلات الاستخدام → التحكم بالتبديل → إيقاف مؤقت على أول عنصر → إيقاف مؤقت على أول عنصر: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/DelayAfterInputIdentifier#NumericalPreferenceSwitcherIdentifier`
+- تسهيلات الاستخدام → التحكم بالتبديل → تكرارات حلقية: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanCyclesIdentifier`
+- تسهيلات الاستخدام → التحكم بالتبديل → تكرارات حلقية → تكرارات حلقية: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanCyclesIdentifier#ScanCyclesIdentifier`
+- تسهيلات الاستخدام → التحكم بالتبديل → تكرار النقل: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ActionRepeatIdentifier`
+- تسهيلات الاستخدام → التحكم بالتبديل → تكرار النقل → تكرار النقل: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ActionRepeatIdentifier#NumericalPreferenceSwitcherIdentifier`
+- تسهيلات الاستخدام → التحكم بالتبديل → نمط التحكم بالتبديل: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSelectionGroupIdentifier`
+- تسهيلات الاستخدام → التحكم بالتبديل → نمط التحكم بالتبديل → مؤشر منزلق: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSelectionGroupIdentifier#POINTER_PICKER_ENABLED`
+- تسهيلات الاستخدام → التحكم بالتبديل → الضغط المطول: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/LongPressIdentifier`
+- تسهيلات الاستخدام → التحكم بالتبديل → الضغط المطول → الضغط المطول: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/LongPressIdentifier#NumericalPreferenceSwitcherIdentifier`
+- تسهيلات الاستخدام → التحكم بالتبديل → سلوك الضغط: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier`
+- تسهيلات الاستخدام → التحكم بالتبديل → سلوك الضغط → سلوك الضغط: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#TapBehaviorIdentifier`
+- تسهيلات الاستخدام → التحكم بالتبديل → العنصر محل التركيز بعد الضغط: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanLocationIdentifier`
+- تسهيلات الاستخدام → التحكم بالتبديل → العنصر محل التركيز بعد الضغط → العنصر محل التركيز بعد الضغط: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanLocationIdentifier#ScanLocationIdentifier`
+- تسهيلات الاستخدام → التحكم بالتبديل → مسح نفس المفتاح بعد الضغط: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#RestartScanAtCurrentIdentifier`
+- تسهيلات الاستخدام → التحكم بالتبديل → الضغط على مفاتيح لوحة المفاتيح دومًا: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AlwaysTapKeyboardIdentifier`
+- تسهيلات الاستخدام → التحكم بالتبديل → توقعات موسعة: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#UseExtendedKeyboardPredictionsIdentifier`
+- تسهيلات الاستخدام → التحكم بالتبديل → مدة الضغط المطول: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/HoldDurationIdentifier`
+- تسهيلات الاستخدام → التحكم بالتبديل → مدة الضغط المطول → مدة الضغط المطول: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/HoldDurationIdentifier#NumericalPreferenceSwitcherIdentifier`
+- تسهيلات الاستخدام → التحكم بالتبديل → تجاهل التكرار: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/IgnoreRepeatIdentifier`
+- تسهيلات الاستخدام → التحكم بالتبديل → تجاهل التكرار → تجاهل التكرار: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/IgnoreRepeatIdentifier#NumericalPreferenceSwitcherIdentifier`
+- تسهيلات الاستخدام → التحكم بالتبديل → مؤشر منزلق: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier`
+- تسهيلات الاستخدام → التحكم بالتبديل → مؤشر منزلق → مؤشر منزلق: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#AxisSweepIdentifier`
+- تسهيلات الاستخدام → التحكم بالتبديل → مؤشر منزلق → نمط التحديد: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleGroup`
+- تسهيلات الاستخدام → التحكم بالتبديل → مؤشر منزلق → سرعة مؤشر الانزلاق: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#AxisSweepSpeed`
+- تسهيلات الاستخدام → التحكم بالتبديل → تتبع الرأس: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CameraPointPickerSwitch`
+- تسهيلات الاستخدام → التحكم بالتبديل → تتبع الرأس → تتبع الرأس: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CameraPointPickerSwitch#CameraPointPickerSwitcher`
+- تسهيلات الاستخدام → التحكم بالتبديل → المؤثرات الصوتية: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SoundIdentifier`
+- تسهيلات الاستخدام → التحكم بالتبديل → النطق: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier`
+- تسهيلات الاستخدام → التحكم بالتبديل → النطق → الأصوات: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#VoicesIdentifier`
+- تسهيلات الاستخدام → التحكم بالتبديل → النطق → نطق سمات العنصر: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#SPEECH_SPEAKS_TRAITS_LABEL`
+- تسهيلات الاستخدام → التحكم بالتبديل → النطق → إيقاف مؤقت أثناء التحدث: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#SPEECH_PAUSES_SCANNING_LABEL`
+- تسهيلات الاستخدام → التحكم بالتبديل → عناصر القائمة: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier`
+- تسهيلات الاستخدام → التحكم بالتبديل → عناصر القائمة → عناصر القائمة: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier#CustomizeMenuIdentifier`
+- تسهيلات الاستخدام → التحكم بالتبديل → عناصر القائمة → المستوى الأعلى: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/TopLevel`
+- تسهيلات الاستخدام → التحكم بالتبديل → عناصر القائمة → المستوى الأعلى → المستوى الأعلى: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/TopLevel#TopLevel`
+- تسهيلات الاستخدام → التحكم بالتبديل → عناصر القائمة → الإيماءات: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Gestures`
+- تسهيلات الاستخدام → التحكم بالتبديل → عناصر القائمة → الإيماءات → الإيماءات: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Gestures#Gestures`
+- تسهيلات الاستخدام → التحكم بالتبديل → عناصر القائمة → الجهاز: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Device`
+- تسهيلات الاستخدام → التحكم بالتبديل → عناصر القائمة → الجهاز → الجهاز: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Device#Device`
+- تسهيلات الاستخدام → التحكم بالتبديل → عناصر القائمة → الإعدادات: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Settings`
+- تسهيلات الاستخدام → التحكم بالتبديل → عناصر القائمة → الإعدادات → الإعدادات: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Settings#Settings`
+- تسهيلات الاستخدام → التحكم بالتبديل → عناصر القائمة → عناصر التحكم في الوسائط: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/MediaControls`
+- تسهيلات الاستخدام → التحكم بالتبديل → عناصر القائمة → عناصر التحكم في الوسائط → عناصر التحكم في الوسائط: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/MediaControls#MediaControls`
+- تسهيلات الاستخدام → التحكم بالتبديل → تجميع العناصر: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ItemGroupingIdentifier`
+- تسهيلات الاستخدام → التحكم بالتبديل → مؤشر كبير: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CursorVisibilityIdentifier`
+- تسهيلات الاستخدام → التحكم بالتبديل → الإيماءات المحفوظة: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomGesturesIdentifier`
+- تسهيلات الاستخدام → التحكم بالتبديل → الإيماءات المحفوظة → الإيماءات المحفوظة: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomGesturesIdentifier#CustomGesturesIdentifier`
+- تسهيلات الاستخدام → التحكم بالتبديل → الإيماءات المحفوظة → إنشاء إيماءة جديدة…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomGesturesIdentifier/CreateCustomGesture`
+- تسهيلات الاستخدام → التحكم بالتبديل → الإيماءات المحفوظة → إنشاء إيماءة جديدة… → إنشاء إيماءة جديدة…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomGesturesIdentifier/CreateCustomGesture#CreateCustomGesture`
+- تسهيلات الاستخدام → التحكم بالتبديل → التأكيد باستخدام ميزة التحكم بالتبديل: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#APPLE_PAY_SWITCH`
+- تسهيلات الاستخدام → التحكم بالتبديل → لون المؤشر: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CursorColorIdentifier`
+- تسهيلات الاستخدام → التحكم بالتبديل → لون المؤشر → لون المؤشر: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CursorColorIdentifier#CursorColorIdentifier`
+- تسهيلات الاستخدام → التحكم بالصوت: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle`
+- تسهيلات الاستخدام → التحكم بالصوت → إعداد التحكم بالصوت: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#SETUP_COMMAND_AND_CONTROL`
+- تسهيلات الاستخدام → التحكم بالصوت → فتح البرنامج التعليمي للتحكم بالصوت: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#COMMAND_AND_CONTROL_LAUNCH_ONBOARDING`
+- تسهيلات الاستخدام → التحكم بالصوت → اللغة: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_LANGUAGE`
+- تسهيلات الاستخدام → التحكم بالصوت → اللغة → اللغة: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_LANGUAGE#COMMAND_AND_CONTROL_LANGUAGE`
+- تسهيلات الاستخدام → التحكم بالصوت → الأوامر: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS`
+- تسهيلات الاستخدام → التحكم بالصوت → الأوامر → الأوامر: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS#COMMAND_AND_CONTROL_COMMANDS`
+- تسهيلات الاستخدام → التحكم بالصوت → الأوامر → إنشاء أمر جديد: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/CreateNewCommand`
+- تسهيلات الاستخدام → التحكم بالصوت → الأوامر → إنشاء أمر جديد → إنشاء أمر جديد: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/CreateNewCommand#CreateNewCommand`
+- تسهيلات الاستخدام → التحكم بالصوت → الأوامر → تَنقُّل أساسي: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/System`
+- تسهيلات الاستخدام → التحكم بالصوت → الأوامر → تراكبات: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/Overlays`
+- تسهيلات الاستخدام → التحكم بالصوت → الأوامر → إيماءات أساسية: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/Gestures`
+- تسهيلات الاستخدام → التحكم بالصوت → الأوامر → إيماءات متقدمة: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/DragDropGestures`
+- تسهيلات الاستخدام → التحكم بالصوت → الأوامر → الإملاء: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/TextDictation`
+- تسهيلات الاستخدام → التحكم بالصوت → الأوامر → التنقل في النص: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/Movement`
+- تسهيلات الاستخدام → التحكم بالصوت → الأوامر → تحديد النص: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/Selection`
+- تسهيلات الاستخدام → التحكم بالصوت → الأوامر → تعديل النص: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/Editing`
+- تسهيلات الاستخدام → التحكم بالصوت → الأوامر → حذف النص: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/AdvancedDeletion`
+- تسهيلات الاستخدام → التحكم بالصوت → الأوامر → الجهاز: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/Hardware`
+- تسهيلات الاستخدام → التحكم بالصوت → الأوامر → تسهيلات الاستخدام: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/Accessibility`
+- تسهيلات الاستخدام → التحكم بالصوت → الأوامر → استيراد الأوامر المخصصة: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/ImportCustomCommands`
+- تسهيلات الاستخدام → التحكم بالصوت → الأوامر → استيراد الأوامر المخصصة → استيراد الأوامر المخصصة: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/ImportCustomCommands#ImportCustomCommands`
+- تسهيلات الاستخدام → التحكم بالصوت → المفردات: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_VOCABULARY`
+- تسهيلات الاستخدام → التحكم بالصوت → المفردات → المفردات: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_VOCABULARY/VOCABULARY`
+- تسهيلات الاستخدام → التحكم بالصوت → المفردات → المفردات → المفردات: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_VOCABULARY/VOCABULARY#VOCABULARY`
+- تسهيلات الاستخدام → التحكم بالصوت → المفردات → استيراد المفردات: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_VOCABULARY#IMPORT_VOCABULARY`
+- تسهيلات الاستخدام → التحكم بالصوت → المفردات → تصدير المفردات: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_VOCABULARY#EXPORT_VOCABULARY`
+- تسهيلات الاستخدام → التحكم بالصوت → المفردات → حذف كل المفردات: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_VOCABULARY#DELETE_ALL_VOCABULARY`
+- تسهيلات الاستخدام → التحكم بالصوت → إظهار التأكيد: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#SHOW_TEXT_RESPONSE_TITLE`
+- تسهيلات الاستخدام → التحكم بالصوت → تشغيل صوت: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#PLAY_SOUND_RESPONSE_TITLE`
+- تسهيلات الاستخدام → التحكم بالصوت → إظهار التلميحات: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#USER_HINTS_SHOW_HINTS_TITLE`
+- تسهيلات الاستخدام → التحكم بالصوت → تراكب: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY`
+- تسهيلات الاستخدام → التحكم بالصوت → تراكب → تراكب: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#ALWAYS_SHOW_OVERLAY`
+- تسهيلات الاستخدام → التحكم بالصوت → متتبع للانتباه: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ATTENTION_AWARE_ACTION`
+- تسهيلات الاستخدام → الزر العلوي/بصمة الإصبع: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE`
+- تسهيلات الاستخدام → الزر العلوي/بصمة الإصبع → سرعة النقر: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_SPEED_HEADER`
+- تسهيلات الاستخدام → الزر العلوي/بصمة الإصبع → الضغط المطول للتحدث: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantTitle`
+- تسهيلات الاستخدام → الزر العلوي/بصمة الإصبع → زر الشاشة الرئيسية: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE/HomeButtonAssistantTitle`
+- تسهيلات الاستخدام → الزر العلوي/بصمة الإصبع → زر الشاشة الرئيسية → ضع إصبعك للفتح: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE/HomeButtonAssistantTitle#RestingUnlockSetting`
+- تسهيلات الاستخدام → الزر العلوي/بصمة الإصبع → تمكين التأكيد باستخدام ميزة التحكم بالتبديل: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#APPLE_PAY_CONFIRM_WITH_SC`
+- تسهيلات الاستخدام → الزر العلوي/بصمة الإصبع → تمكين التأكيد باستخدام اللمس المساعد: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#APPLE_PAY_CONFIRM_WITH_AST`
+- تسهيلات الاستخدام → ريموت Apple TV: `prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE`
+- تسهيلات الاستخدام → ريموت Apple TV → أزرار الاتجاهات: `prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE#AppleTVSimpleGestures`
+- تسهيلات الاستخدام → ريموت Apple TV → أزرار التلفزيون المباشر: `prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE#AppleTVLiveTVButtons`
+- تسهيلات الاستخدام → محاكاة Apple Watch: `prefs:root=ACCESSIBILITY&path=APPLE_WATCH_REMOTE_SCREEN`
+- تسهيلات الاستخدام → أجهزة السمع: `prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE`
+- تسهيلات الاستخدام → أجهزة السمع → أجهزة السمع المصنوعة لـ iPhone: `prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#AvailableAidsHeading`
+- تسهيلات الاستخدام → أجهزة السمع → توافق الوسيلة المساعدة للسمع: `prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#HEARING_AID_COMPLIANCE`
+- تسهيلات الاستخدام → مركز التحكم في السمع: `prefs:root=ACCESSIBILITY&path=HEARING_CONTROL_CENTER`
+- تسهيلات الاستخدام → مركز التحكم في السمع → أدوات التحكم المضمنة: `prefs:root=ACCESSIBILITY&path=HEARING_CONTROL_CENTER#INCLUDED_MODULES_SECTION_TITLE`
+- تسهيلات الاستخدام → مركز التحكم في السمع → المزيد من عناصر التحكم: `prefs:root=ACCESSIBILITY&path=HEARING_CONTROL_CENTER#MORE_MODULES_SECTION_TITLE`
+- تسهيلات الاستخدام → التعرف على الأصوات: `prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE`
+- تسهيلات الاستخدام → التعرف على الأصوات → الأصوات: `prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE/Sounds`
+- تسهيلات الاستخدام → التعرف على الأصوات → الأصوات → الأصوات: `prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE/Sounds#Sounds`
+- تسهيلات الاستخدام → ‏RTT/TTY: `prefs:root=ACCESSIBILITY&path=RTT`
+- تسهيلات الاستخدام → ‏RTT/TTY → برنامج RTT / TTY: `prefs:root=ACCESSIBILITY&path=RTT#SW_TTY`
+- تسهيلات الاستخدام → ‏RTT/TTY → أجهزة TTY: `prefs:root=ACCESSIBILITY&path=RTT#HW_TTY`
+- تسهيلات الاستخدام → صوتي ومرئي: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE`
+- تسهيلات الاستخدام → صوتي ومرئي → تسهيلات سماعات الرأس: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID`
+- تسهيلات الاستخدام → صوتي ومرئي → تسهيلات سماعات الرأس → تسهيلات سماعات الرأس: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID#AXPAEnableSpecID`
+- تسهيلات الاستخدام → صوتي ومرئي → تسهيلات سماعات الرأس → الإعداد المخصص للصوت: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID#AXPAPersonalAudioSetupSpecID`
+- تسهيلات الاستخدام → صوتي ومرئي → أصوات الخلفية: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID`
+- تسهيلات الاستخدام → صوتي ومرئي → أصوات الخلفية → أصوات الخلفية: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID#CSFeatureToggleSpecID`
+- تسهيلات الاستخدام → صوتي ومرئي → أصوات الخلفية → الصوت: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID/ComfortSoundSoundLabel`
+- تسهيلات الاستخدام → صوتي ومرئي → أصوات الخلفية → الصوت → الصوت: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID/ComfortSoundSoundLabel#ComfortSoundSoundLabel`
+- تسهيلات الاستخدام → صوتي ومرئي → أصوات الخلفية → مستوى أصوات الخلفية: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID#ComfortSoundsVolume`
+- تسهيلات الاستخدام → صوتي ومرئي → أصوات الخلفية → استخدام عند تشغيل الوسائط: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID#ComfortSoundsMixingName`
+- تسهيلات الاستخدام → صوتي ومرئي → أصوات الخلفية → مستوى الصوت مع الوسائط: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID#ComfortSoundsMixingVolume`
+- تسهيلات الاستخدام → صوتي ومرئي → أصوات الخلفية → إيقاف الأصوات عند القفل: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID#ComfortSoundsPlayWhenLockedName`
+- تسهيلات الاستخدام → صوتي ومرئي → صوت أحادي: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAMonoSpecID`
+- تسهيلات الاستخدام → صوتي ومرئي → إظهار التحكم في مستوى الصوت دائمًا: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAAlwaysShowVolumeControlSpecID`
+- تسهيلات الاستخدام → صوتي ومرئي → إلغاء ضوضاء الهاتف: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPANoiseSpecID`
+- تسهيلات الاستخدام → صوتي ومرئي → فلاش LED للتنبيهات: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH`
+- تسهيلات الاستخدام → صوتي ومرئي → فلاش LED للتنبيهات → فلاش LED للتنبيهات: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_FLASH`
+- تسهيلات الاستخدام → صوتي ومرئي → فلاش LED للتنبيهات → فلاش أثناء فتح القفل: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_FLASH_WHILE_UNLOCKED`
+- تسهيلات الاستخدام → صوتي ومرئي → فلاش LED للتنبيهات → فلاش في النمط الصامت: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_RINGER_SWITCH_CONTROL`
+- تسهيلات الاستخدام → صوتي ومرئي → توازن يمين-يسار الاستريو: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#LeftRightBalance`
+- تسهيلات الاستخدام → صوتي ومرئي → أصوات التشغيل وإيقاف التشغيل: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#StartupSound`
+- تسهيلات الاستخدام → صوتي ومرئي → إشعارات سماعة الرأس: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXHeadphoneNotificationsSpecID`
+- تسهيلات الاستخدام → صوتي ومرئي → إضافة عزل الصوت: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#ExtendedVoiceIsolationSpecID`
+- تسهيلات الاستخدام → صوتي ومرئي → المؤثرات الصوتية: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#SOUND_EFFECTS_PREFERENCE`
+- تسهيلات الاستخدام → صوتي ومرئي → إضافة الصوت في المكالمات: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/MIX_TO_UPLINK`
+- تسهيلات الاستخدام → صوتي ومرئي → إضافة الصوت في المكالمات → السماح للتطبيقات بإضافة الصوت في المكالمات: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/MIX_TO_UPLINK#MIX_TO_UPLINK`
+- تسهيلات الاستخدام → الترجمة والشرح المكتوب: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING`
+- تسهيلات الاستخدام → الترجمة والشرح المكتوب → النمط: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING/currentTheme`
+- تسهيلات الاستخدام → الترجمة والشرح المكتوب → النمط → النمط: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING/currentTheme#currentTheme`
+- تسهيلات الاستخدام → الترجمة والشرح المكتوب → الشرح المكتوب لأحداث العرض + الترجمة المصاحبة للصم وضعاف السمع: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#PREFER_SDH`
+- تسهيلات الاستخدام → الترجمة والشرح المكتوب → إظهار النسخ النصية للصوت: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#SHOW_AUDIO_TRANSCRIPTIONS`
+- تسهيلات الاستخدام → الترجمة والشرح المكتوب → إظهار عند كتم الصوت: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#SHOW_WHEN_MUTED`
+- تسهيلات الاستخدام → الترجمة والشرح المكتوب → إظهار عند التخطي للخلف: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#SHOW_ON_SKIP_BACK`
+- تسهيلات الاستخدام → التعليقات المصاحبة المباشرة: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION`
+- تسهيلات الاستخدام → التعليقات المصاحبة المباشرة → التعليقات المصاحبة المباشرة: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION#LIVE_TRANSCRIPTION_TITLE`
+- تسهيلات الاستخدام → التعليقات المصاحبة المباشرة → المظهر: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE`
+- تسهيلات الاستخدام → التعليقات المصاحبة المباشرة → المظهر → المظهر: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE#LIVE_TRANSCRIPTION_APPEARANCE`
+- تسهيلات الاستخدام → التعليقات المصاحبة المباشرة → المظهر → نص غامق: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE/ENHANCE_TEXT_LEGIBILITY`
+- تسهيلات الاستخدام → التعليقات المصاحبة المباشرة → المظهر → نص غامق → نص غامق: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE/ENHANCE_TEXT_LEGIBILITY#ENHANCE_TEXT_LEGIBILITY`
+- تسهيلات الاستخدام → التعليقات المصاحبة المباشرة → المظهر → حجم النص: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE/LARGER_TEXT`
+- تسهيلات الاستخدام → التعليقات المصاحبة المباشرة → المظهر → حجم النص → حجم النص: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE/LARGER_TEXT#LARGER_TEXT`
+- تسهيلات الاستخدام → التعليقات المصاحبة المباشرة → المظهر → خيارات الألوان: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE#LIVE_TRANSCRIPTION_COLOR_OPTIONS`
+- تسهيلات الاستخدام → التعليقات المصاحبة المباشرة → المظهر → لون النص: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE#LIVE_TRANSCRIPTION_TEXT_COLOR`
+- تسهيلات الاستخدام → التعليقات المصاحبة المباشرة → المظهر → لون الخلفية: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE#LIVE_TRANSCRIPTION_BACKGROUND_COLOR`
+- تسهيلات الاستخدام → التعليقات المصاحبة المباشرة → المظهر → إعادة تعيين الألوان: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE#LIVE_TRANSCRIPTION_RESET_COLORS`
+- تسهيلات الاستخدام → التعليقات المصاحبة المباشرة → المظهر → تعتيم عند الخمول: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE#LIVE_CAPTIONS_IDLE_OPACITY_TITLE`
+- تسهيلات الاستخدام → التعليقات المصاحبة المباشرة → التعليقات المصاحبة المباشرة في فيس تايم: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION#FACE_TIME_CAPTIONS`
+- تسهيلات الاستخدام → الوصول الموجه: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE`
+- تسهيلات الاستخدام → الوصول الموجه → إعدادات رمز الدخول: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessSecurityLinkList`
+- تسهيلات الاستخدام → الوصول الموجه → إعدادات رمز الدخول → إعدادات رمز الدخول: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessSecurityLinkList#GuidedAccessSecurityLinkList`
+- تسهيلات الاستخدام → الوصول الموجه → إعدادات رمز الدخول → تعيين رمز دخول الوصول الموجه: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessSecurityLinkList#GAXPinButton`
+- تسهيلات الاستخدام → الوصول الموجه → إعدادات رمز الدخول → بصمة الإصبع: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessSecurityLinkList#GAXSpecIDTouchIDSwitch`
+- تسهيلات الاستخدام → الوصول الموجه → الحدود الزمنية: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList`
+- تسهيلات الاستخدام → الوصول الموجه → الحدود الزمنية → الحدود الزمنية: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GuidedAccessTimeRestrictionsLinkList`
+- تسهيلات الاستخدام → الوصول الموجه → الحدود الزمنية → الصوت: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList/GUIDED_ACCESS_TIME_RESTRICTIONS_SOUND_TITLE`
+- تسهيلات الاستخدام → الوصول الموجه → الحدود الزمنية → الصوت → الصوت: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList/GUIDED_ACCESS_TIME_RESTRICTIONS_SOUND_TITLE#GUIDED_ACCESS_TIME_RESTRICTIONS_SOUND_TITLE`
+- تسهيلات الاستخدام → الوصول الموجه → الحدود الزمنية → تحدث: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_SPEAK_TITLE`
+- تسهيلات الاستخدام → الوصول الموجه → اختصار تسهيلات الاستخدام: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessEnableAXFeatures`
+- تسهيلات الاستخدام → الوصول الموجه → القفل التلقائي للشاشة: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessAutoLockTime`
+- تسهيلات الاستخدام → الوصول الموجه → القفل التلقائي للشاشة → القفل التلقائي للشاشة: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessAutoLockTime#GuidedAccessAutoLockTime`
+- تسهيلات الاستخدام → الوصول المساعد: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE`
+- تسهيلات الاستخدام → الوصول المساعد → إعداد الوصول المساعد: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#SetUpClarityUISpecifier`
+- تسهيلات الاستخدام → الوصول المساعد → بدء الوصول المساعد: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#ClarityUIStart`
+- تسهيلات الاستخدام → الوصول المساعد → التطبيقات: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#Applications`
+- تسهيلات الاستخدام → الوصول المساعد → الخيارات: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#Options`
+- تسهيلات الاستخدام → الوصول المساعد → خلفية الشاشة: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE/Wallpaper`
+- تسهيلات الاستخدام → الوصول المساعد → خلفية الشاشة → خلفية الشاشة: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE/Wallpaper#Wallpaper`
+- تسهيلات الاستخدام → الوصول المساعد → السماح بأزرار مستوى الصوت: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#VolumeButtons`
+- تسهيلات الاستخدام → الوصول المساعد → إظهار الوقت على شاشة القفل: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#ShowTime`
+- تسهيلات الاستخدام → الوصول المساعد → إظهار مستوى شحن البطارية على الشاشة الرئيسية: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#ShowBattery`
+- تسهيلات الاستخدام → الوصول المساعد → إظهار شارات الإشعارات: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#ShowNotification`
+- تسهيلات الاستخدام → الوصول المساعد → السماح بـ Siri: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#AllowSiri`
+- تسهيلات الاستخدام → الوصول المساعد → إعدادات رمز الدخول: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE/PasscodeSettings`
+- تسهيلات الاستخدام → الوصول المساعد → إعدادات رمز الدخول → إعدادات رمز الدخول: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE/PasscodeSettings#PasscodeSettings`
+- تسهيلات الاستخدام → ‏Siri: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE`
+- تسهيلات الاستخدام → ‏Siri → الكتابة إلى Siri: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_SETTINGS_TYPE_TO_SIRI`
+- تسهيلات الاستخدام → ‏Siri → مدة التوقف المؤقت لـ Siri: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#ENDPOINTER`
+- تسهيلات الاستخدام → ‏Siri → سرعة نطق Siri: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SPEECH_RATE`
+- تسهيلات الاستخدام → ‏Siri → الردود المنطوقة: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK`
+- تسهيلات الاستخدام → ‏Siri → استماع إلى "Siri" دائمًا: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_SETTINGS_VOICE_ACTIVATION_ALWAYS_ALLOW`
+- تسهيلات الاستخدام → ‏Siri → إظهار التطبيقات خلف Siri: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRL_SHOW_APPS`
+- تسهيلات الاستخدام → ‏Siri → إعلان الإشعارات على المكبر: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#ANNOUNCE_NOTIFICATIONS_BUILT_IN_SPEAKER_ID`
+- تسهيلات الاستخدام → ‏Siri → إنهاء المكالمة: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE/SIRI_CALL_HANGUP_ID`
+- تسهيلات الاستخدام → ‏Siri → إنهاء المكالمة → إنهاء المكالمة: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE/SIRI_CALL_HANGUP_ID#SIRI_CALL_HANGUP_ID`
+- تسهيلات الاستخدام → ‏Siri → الاستماع إلى النطق غير النمطي: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_ATYPICAL_SPEECH`
+- تسهيلات الاستخدام → ‏Siri → مطلوب قول "Siri" للمقاطعة: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_BARGE`
+- تسهيلات الاستخدام → اختصار تسهيلات الاستخدام: `prefs:root=ACCESSIBILITY&path=TRIPLE_CLICK_TITLE`
+- تسهيلات الاستخدام → إعدادات حسب التطبيق: `prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE`
+- تسهيلات الاستخدام → إعدادات حسب التطبيق → إظهار التطبيقات المخفية: `prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE#PROTECTED_APPS_SHOW_HIDDEN_TITLE`
+- تسهيلات الاستخدام → إعدادات حسب التطبيق → إضافة تطبيق: `prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE#AX_ADD_BUTTON_IDENTIFIER`
+- تسهيلات الاستخدام → التحكم في الأجهزة القريبة: `prefs:root=ACCESSIBILITY&path=CONTROL_NEARBY_DEVICES`
+- تسهيلات الاستخدام → التحكم في الأجهزة القريبة → التحكم في الأجهزة القريبة: `prefs:root=ACCESSIBILITY&path=CONTROL_NEARBY_DEVICES#CONTROL_NEARBY_DEVICES`
+- تسهيلات الاستخدام → إدخال العين: `prefs:root=ACCESSIBILITY&path=DOMINANT_EYE`
+- تسهيلات الاستخدام → النطق المباشر: `prefs:root=ACCESSIBILITY&path=LIVE_SPEECH_TITLE`
+- تسهيلات الاستخدام → النطق المباشر → العبارات: `prefs:root=ACCESSIBILITY&path=LIVE_SPEECH_TITLE/LiveSpeechCategoryManagement`
+- تسهيلات الاستخدام → النطق المباشر → الأصوات: `prefs:root=ACCESSIBILITY&path=LIVE_SPEECH_TITLE#LIVE_SPEECH_VOICES`
+- تسهيلات الاستخدام → الصوت الشخصي: `prefs:root=ACCESSIBILITY&path=PERSONAL_VOICE_TITLE`
+- تسهيلات الاستخدام → الصوت الشخصي → إنشاء صوت شخصي: `prefs:root=ACCESSIBILITY&path=PERSONAL_VOICE_TITLE#VB_CREATE_PERSONAL_VOICE`
+- تسهيلات الاستخدام → الصوت الشخصي → المشاركة على جميع الأجهزة: `prefs:root=ACCESSIBILITY&path=PERSONAL_VOICE_TITLE#VB_USE_ICLOUD_TITLE`
+- تسهيلات الاستخدام → الصوت الشخصي → السماح للتطبيقات بطلب الاستخدام: `prefs:root=ACCESSIBILITY&path=PERSONAL_VOICE_TITLE#VB_ALLOW_WITH_APPS`
+- تسهيلات الاستخدام → AirPods: `prefs:root=ACCESSIBILITY&path=AIRPODS`
+- تسهيلات الاستخدام → AirPods → سرعة الضغط: `prefs:root=ACCESSIBILITY&path=AIRPODS#TapGroup`
+- تسهيلات الاستخدام → AirPods → مدة الضغط المطول: `prefs:root=ACCESSIBILITY&path=AIRPODS#HoldGroup`
+- تسهيلات الاستخدام → AirPods → إعدادات iPhone الصوتية والمرئية: `prefs:root=ACCESSIBILITY&path=AIRPODS#PERSONAL_AUDIO_AIRPODS_BUTTON`
+- تسهيلات الاستخدام → AirPods → تتبع iPhone: `prefs:root=ACCESSIBILITY&path=AIRPODS#SPATIAL_AUDIO_SWITCH`
+- تسهيلات الاستخدام → AirPods → مستوى صوت النغمة: `prefs:root=ACCESSIBILITY&path=AIRPODS#TONE_VOLUME`
+- تسهيلات الاستخدام → الاختصارات الصوتية: `prefs:root=ACCESSIBILITY&path=ADAPTIVE_VOICE_SHORTCUTS_TITLE`
+- تسهيلات الاستخدام → الاختصارات الصوتية → إعداد الاختصارات الصوتية: `prefs:root=ACCESSIBILITY&path=ADAPTIVE_VOICE_SHORTCUTS_TITLE#AVS_SET_UP_BUTTON_TITLE`
+- تسهيلات الاستخدام → الحس اللمسي في الموسيقى: `prefs:root=ACCESSIBILITY&path=HAPTIC_MUSIC`
+- تسهيلات الاستخدام → تتبع العينين: `prefs:root=ACCESSIBILITY&path=OnDeviceEyeTracking`
+- تسهيلات الاستخدام → تتبع العينين → تتبع العينين: `prefs:root=ACCESSIBILITY&path=OnDeviceEyeTracking#OnDeviceEyeTrackingEnabledSpecifier`
+- تسهيلات الاستخدام → تتبع العينين → زيادة السلاسة: `prefs:root=ACCESSIBILITY&path=OnDeviceEyeTracking#SMOOTHING`
+- تسهيلات الاستخدام → تتبع العينين → الانتقال إلى العنصر: `prefs:root=ACCESSIBILITY&path=OnDeviceEyeTracking#SNAP_TO_ITEM`
+- تسهيلات الاستخدام → تتبع العينين → تركيز على مفاتيح لوحة المفاتيح: `prefs:root=ACCESSIBILITY&path=OnDeviceEyeTracking#KEYBOARD_ZOOM`
+- تسهيلات الاستخدام → تتبع العينين → الإخفاء تلقائيًا: `prefs:root=ACCESSIBILITY&path=OnDeviceEyeTracking#AUTO_HIDE`
+- تسهيلات الاستخدام → تتبع العينين → التحكم بالمكوث: `prefs:root=ACCESSIBILITY&path=OnDeviceEyeTracking#DWELL_CONTROL`
+- تسهيلات الاستخدام → وحدة التحكم في الكاميرا: `prefs:root=ACCESSIBILITY&path=CAMERA_CONTROL`
+- تسهيلات الاستخدام → وحدة التحكم في الكاميرا → وحدة التحكم في الكاميرا: `prefs:root=ACCESSIBILITY&path=CAMERA_CONTROL#CAMERA_CONTROL_SWITCH`
+- تسهيلات الاستخدام → وحدة التحكم في الكاميرا → الضغط الخفيف: `prefs:root=ACCESSIBILITY&path=CAMERA_CONTROL#LIGHT_PRESS`
+- تسهيلات الاستخدام → وحدة التحكم في الكاميرا → السحب: `prefs:root=ACCESSIBILITY&path=CAMERA_CONTROL#SWIPE`
+- تسهيلات الاستخدام → وحدة التحكم في الكاميرا → قوة الضغط الخفيف: `prefs:root=ACCESSIBILITY&path=CAMERA_CONTROL#LIGHT_PRESS_FORCE`
+- تسهيلات الاستخدام → وحدة التحكم في الكاميرا → سرعة الضغط الخفيف مرتين: `prefs:root=ACCESSIBILITY&path=CAMERA_CONTROL#SENSITIVITY`
+- البريد: `prefs:root=MAIL`
+- البريد → الحسابات: `prefs:root=MAIL&path=ACCOUNTS`
+- البريد → الحسابات → إضافة حساب: `prefs:root=MAIL&path=ACCOUNTS#ADD_ACCOUNT`
+- البريد → الحسابات → جلب بيانات جديدة: `prefs:root=MAIL&path=ACCOUNTS#FETCH_NEW_DATA`
+- البريد → معاينة: `prefs:root=MAIL&path=Preview`
+- البريد → إظهار تسمية "إلى/نسخة": `prefs:root=MAIL#Show%20To/Cc%20Labels`
+- البريد → خيارات السحب: `prefs:root=MAIL&path=Swipe%20Options`
+- البريد → السؤال قبل الحذف: `prefs:root=MAIL#Ask%20Before%20Deleting`
+- البريد → تحميل الصور البعيدة: `prefs:root=MAIL#Load%20Remote%20Images`
+- البريد → تنظيم حسب السلسلة: `prefs:root=MAIL#Organize%20by%20Thread`
+- البريد → طي الرسائل المقروءة: `prefs:root=MAIL#Collapse%20Read%20Messages`
+- البريد → أحدث رسالة في الأعلى: `prefs:root=MAIL#Most%20Recent%20Message%20on%20Top`
+- البريد → سلاسل كاملة: `prefs:root=MAIL#Complete%20Threads`
+- البريد → إجراء السلسلة المكتومة: `prefs:root=MAIL&path=Muted%20Thread%20Action`
+- البريد → تجاهل المرسلين المحظورين: `prefs:root=MAIL#Ignore%20Blocked%20Senders`
+- البريد → خيارات المرسلين المحظورين: `prefs:root=MAIL&path=Blocked%20Sender%20Options`
+- البريد → محظور: `prefs:root=MAIL&path=Blocked`
+- البريد → نسخة مخفية لنفسي دائمًا: `prefs:root=MAIL#Always%20Bcc%20Myself`
+- البريد → تمييز العناوين: `prefs:root=MAIL&path=Mark%20Addresses`
+- البريد → زيادة مستوى الاقتباس: `prefs:root=MAIL&path=Increase%20Quote%20Level`
+- البريد → تضمين المرفقات في الردود: `prefs:root=MAIL&path=Include%20Attachments%20with%20Replies`
+- البريد → التوقيع: `prefs:root=MAIL&path=Signature`
+- خلفية الشاشة: `prefs:root=Wallpaper`
+- الملاحظات: `prefs:root=NOTES`
+- الملاحظات → الحساب الافتراضي: `prefs:root=NOTES&path=Default%20Account`
+- الملاحظات → كلمة السر: `prefs:root=NOTES&path=Password`
+- الملاحظات → فرز الملاحظات حسب: `prefs:root=NOTES&path=Sort%20Notes%20By`
+- الملاحظات → الملاحظات الجديدة تبدأ بـ: `prefs:root=NOTES&path=New%20Notes%20Start%20With`
+- الملاحظات → فرز العناصر التي وضعت عليها علامة: `prefs:root=NOTES&path=Sort%20Checked%20Items`
+- الملاحظات → السطور والشبكات: `prefs:root=NOTES&path=Lines%20%26%20Grids`
+- الملاحظات → الحفظ في الصور: `prefs:root=NOTES#Save%20to%20Photos`
+- الملاحظات → وصول إلى الملاحظات من شاشة القفل: `prefs:root=NOTES&path=Access%20Notes%20from%20Lock%20Screen`
+- رمز الدخول: `prefs:root=PASSCODE`
+- رمز الدخول → إيقاف رمز الدخول: `prefs:root=PASSCODE#PASSCODE_OFF`
+- رمز الدخول → تغيير رمز الدخول: `prefs:root=PASSCODE#CHANGE_PASSCODE`
+- رمز الدخول → يتطلب رمز الدخول: `prefs:root=PASSCODE&path=PASSCODE_REQ`
+- رمز الدخول → الاتصال باستخدام الصوت: `prefs:root=PASSCODE#VOICE_DIAL`
+- رمز الدخول → السماح بالوصول عند القفل: `prefs:root=PASSCODE#ALLOW_ACCESS_WHEN_LOCKED`
+- رمز الدخول → الرد برسالة: `prefs:root=PASSCODE#REPLY_WITH_MESSAGE_SWITCH`
+- رمز الدخول → التحكم في المنزل: `prefs:root=PASSCODE#HOME_CONTROL_SWITCH`
+- رمز الدخول → المحفظة: `prefs:root=PASSCODE#WALLET_SWITCH`
+- رمز الدخول → إعادة الاتصال من المكالمات الفائتة: `prefs:root=PASSCODE#RETURN_MISSED_CALLS_SWITCH`
+- رمز الدخول → مسح البيانات: `prefs:root=PASSCODE#WIPE_DEVICE`
+- رمز الدخول → فتح القفل باستخدام Apple Watch: `prefs:root=PASSCODE#AUTO_UNLOCK_DEVICES_GROUP`
+- رمز الدخول → حماية الجهاز المسروق: `prefs:root=PASSCODE#DTO_GROUP_ID`
+- التقويم: `prefs:root=CALENDAR`
+- التقويم → تجاوز النطاق الزمني: `prefs:root=CALENDAR&path=TimeZoneCityArray`
+- التقويم → تقويمات بديلة: `prefs:root=CALENDAR&path=Alternate%20Calendars`
+- التقويم → إظهار أرقام الأسابيع: `prefs:root=CALENDAR#Week%20Numbers`
+- التقويم → إظهار حالات رفض المدعوين: `prefs:root=CALENDAR#Show%20Invitee%20Declines`
+- التقويم → المزامنة: `prefs:root=CALENDAR&path=Sync`
+- التقويم → أوقات التنبيه الافتراضية: `prefs:root=CALENDAR&path=Default%20Alert%20Times`
+- التقويم → بدء الأسبوع يوم: `prefs:root=CALENDAR&path=Start%20Week%20On`
+- التقويم → اقتراحات المواقع: `prefs:root=CALENDAR#Location%20Suggestions`
+- البيانات الصحية: `prefs:root=HEALTH`
+- الهاتف: `prefs:root=Phone`
+- الهاتف → رقم هاتفي: `prefs:root=Phone&path=My%20Number`
+- الهاتف → مكالمات واردة: `prefs:root=Phone&path=INCOMING_CALL_STYLE`
+- الهاتف → الإعلان عن المكالمات: `prefs:root=Phone&path=ANNOUNCE_CALLS`
+- الهاتف → الإبلاغ عن المكالمات/رسائل SMS: `prefs:root=Phone&path=CLASSIFICATION_AND_REPORTING`
+- الهاتف → الرد برسالة نصية: `prefs:root=Phone&path=Respond%20with%20Text`
+- الهاتف → تحويل المكالمة: `prefs:root=Phone&path=Call%20Forwarding`
+- الهاتف → تحويل المكالمة → تحويل المكالمة: `prefs:root=Phone&path=Call%20Forwarding#idMasterOnOffSwitch`
+- الهاتف → انتظار المكالمة: `prefs:root=Phone&path=Call%20Waiting`
+- الهاتف → إظهار هويتي: `prefs:root=Phone&path=Show%20My%20Caller%20ID`
+- الهاتف → إظهار هويتي → إظهار هويتي: `prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary`
+- الهاتف → إظهار هويتي → إظهار هويتي → إظهار هويتي: `prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary#Show%20My%20Caller%20ID`
+- الهاتف → إسكات المتصلين غير المعروفين: `prefs:root=Phone#SILENCE_CALLS`
+- الهاتف → جهات الاتصال المحظورة: `prefs:root=Phone&path=SPECIFIER_IDENTIFIER_BLACKLIST`
+- الهاتف → مساعد الاتصال: `prefs:root=Phone&path=Dial%20Assist`
+- App Store: `prefs:root=STORE`
+- App Store → تنزيلات تلقائية: `prefs:root=STORE#Automatic%20Downloads`
+- App Store → تحديثات التطبيقات: `prefs:root=STORE#App%20Updates`
+- App Store → تنزيل التطبيقات: `prefs:root=STORE&path=App%20Downloads`
+- App Store → تشغيل الفيديو تلقائيًا: `prefs:root=STORE&path=Video%20Autoplay`
+- App Store → تقييمات ومراجعات من التطبيق: `prefs:root=STORE#In-App%20Ratings%20&%20Reviews`
+- الخصوصية والأمن: `prefs:root=Privacy` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity`
+- الخصوصية والأمن → صحتي: `prefs:root=Privacy&path=HEALTH` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/HEALTH`
+- الخصوصية والأمن → البيانات الصحية: `prefs:root=Privacy&path=HEALTH_DATA` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/HEALTH_DATA`
+- الخصوصية والأمن → الموقع: `prefs:root=Privacy&path=LOCATION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/LOCATION`
+- الخصوصية والأمن → الموقع → مشاركة موقعي: `prefs:root=Privacy&path=LOCATION/LOCATION_SHARING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/LOCATION/LOCATION_SHARING`
+- الخصوصية والأمن → جهات الاتصال: `prefs:root=Privacy&path=CONTACTS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CONTACTS`
+- الخصوصية والأمن → التقويمات: `prefs:root=Privacy&path=CALENDARS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CALENDARS`
+- الخصوصية والأمن → التذكيرات: `prefs:root=Privacy&path=REMINDERS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/REMINDERS`
+- الخصوصية والأمن → الصور: `prefs:root=Privacy&path=PHOTOS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PHOTOS`
+- الخصوصية والأمن → مشاركة Bluetooth: `prefs:root=Privacy&path=BT_PERIPHERAL` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/BT_PERIPHERAL`
+- الخصوصية والأمن → الميكروفون: `prefs:root=Privacy&path=MICROPHONE` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/MICROPHONE`
+- الخصوصية والأمن → التعرف على الكلام: `prefs:root=Privacy&path=SPEECH_RECOGNITION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/SPEECH_RECOGNITION`
+- الخصوصية والأمن → الكاميرا: `prefs:root=Privacy&path=CAMERA` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CAMERA`
+- الخصوصية والأمن → HomeKit: `prefs:root=Privacy&path=WILLOW` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/WILLOW`
+- الخصوصية والأمن → الوسائط و Apple Music: `prefs:root=Privacy&path=MEDIALIBRARY` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/MEDIALIBRARY`
+- الخصوصية والأمن → التحليلات: `prefs:root=Privacy&path=PROBLEM_REPORTING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PROBLEM_REPORTING`
+- الخصوصية والأمن → الإعلانات: `prefs:root=Privacy&path=ADVERTISING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/ADVERTISING`
+- الخصوصية والأمن → الملفات والمجلدات: `prefs:root=Privacy&path=FILEACCESS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/FILEACCESS`
+- الخصوصية والأمن → التتبع: `prefs:root=Privacy&path=USER_TRACKING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/USER_TRACKING`
+- الخصوصية والأمن → تقرير خصوصية التطبيقات: `prefs:root=Privacy&path=PRIVACY_REPORT` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PRIVACY_REPORT`
+- الخصوصية والأمن → نمط المنع: `prefs:root=Privacy#LOCKDOWN_MODE` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity#LOCKDOWN_MODE#LOCKDOWN_MODE`
+- الخصوصية والأمن → محتوى حساس: `prefs:root=Privacy#NUDITY_DETECTION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity#NUDITY_DETECTION#NUDITY_DETECTION`
+- القياس: `prefs:root=MEASURE`
+- القياس → وحدات القياس: `prefs:root=MEASURE#MEASURE_UNITS`
+- القياس → إنجليزي: `prefs:root=MEASURE#Imperial`
+- القياس → متري: `prefs:root=MEASURE#Metric`
+- مقاطع فيديو: `prefs:root=TVAPP`
+- مقاطع فيديو → استخدام البيانات الخلوية للتشغيل: `prefs:root=TVAPP#com.apple.videos%3AVideosUseCellularDataEnabledSetting`
+- مقاطع فيديو → جودة التشغيل: `prefs:root=TVAPP#com.apple.videos%3APlaybackQualityGroup`
+- مقاطع فيديو → المشتريات والمُستَأجَرات: `prefs:root=TVAPP&path=com.apple.videos%3APreferredPurchaseResolution`
+- مقاطع فيديو → المشاركة المنزلية: `prefs:root=TVAPP#com.apple.videos%3AHomeSharingFooter`
+- Game Center: `prefs:root=GAMECENTER`
+- المذكرات الصوتية: `prefs:root=VOICE_MEMOS`
+- المذكرات الصوتية → مسح العناصر المحذوفة: `prefs:root=VOICE_MEMOS&path=RCVoiceMemosRecentlyDeletedWindowKey`
+- المذكرات الصوتية → جودة الصوت: `prefs:root=VOICE_MEMOS&path=RCVoiceMemosAudioQualityKey`
+- المذكرات الصوتية → التسمية المستندة إلى الموقع: `prefs:root=VOICE_MEMOS#RCVoiceMemosUseLocationBasedNaming`
+- الاختصارات: `prefs:root=SHORTCUTS`
+- الاختصارات → مزامنة iCloud: `prefs:root=SHORTCUTS#WFCloudKitSyncEnabled`
+- الاختصارات → مزامنة ترتيب الاختصارات: `prefs:root=SHORTCUTS#WFCloudKitSyncOrderEnabled`
+- الاختصارات → إشعارات قانونية: `prefs:root=SHORTCUTS&path=Legal%20Notices`
+- التذكيرات: `prefs:root=REMINDERS`
+- التذكيرات → القائمة الافتراضية: `prefs:root=REMINDERS&path=DEFAULT_LIST`
+- التذكيرات → القائمة الافتراضية → التذكيرات: `prefs:root=REMINDERS&path=DEFAULT_LIST#preferredDefaultListID`
+- التذكيرات → إشعار اليوم: `prefs:root=REMINDERS#todayNotificationFireTime`
+- التذكيرات → إظهار كمتأخر: `prefs:root=REMINDERS#showRemindersAsOverdue`
+- الموسيقى: `prefs:root=MUSIC`
+- الموسيقى → إظهار Apple Music: `prefs:root=MUSIC#com.apple.Music%3AAppleMusicEnabled`
+- الموسيقى → إضافة أغاني قائمة التشغيل: `prefs:root=MUSIC#com.apple.Music%3AAddPlaylistSongsToMyMusicSwitch`
+- الموسيقى → إظهار تقييمات النجوم: `prefs:root=MUSIC#com.apple.Music%3AShowStarRatings`
+- الموسيقى → مزامنة المكتبة: `prefs:root=MUSIC#com.apple.Music%3ACloudMusicLibraryEnabled`
+- الموسيقى → البيانات الخلوية: `prefs:root=MUSIC&path=com.apple.Music%3ACellularData`
+- الموسيقى → الموسيقى التي تم تنزيلها: `prefs:root=MUSIC&path=com.apple.Music%3AMusicUsageLink`
+- الموسيقى → تحسين التخزين: `prefs:root=MUSIC&path=com.apple.Music%3AOptimizeStorage`
+- الموسيقى → تنزيلات تلقائية: `prefs:root=MUSIC#com.apple.Music%3AMusicAutomaticDownload`
+- الموسيقى → موازن الصوت: `prefs:root=MUSIC&path=com.apple.Music%3AEQ`
+- الموسيقى → فحص الصوت: `prefs:root=MUSIC#com.apple.Music%3ASoundCheck`
+- الموسيقى → استخدام سجل الاستماع: `prefs:root=MUSIC#com.apple.Music%3APrivateListening`
+- ‏Siri: `prefs:root=SIRI`
+- ‏Siri → السماح بـ Siri عند القفل: `prefs:root=SIRI#ASSISTANT_LOCK_SCREEN_ACCESS`
+- ‏Siri → اللغة: `prefs:root=SIRI&path=LANGUAGE_ID`
+- ‏Siri → صوت Siri: `prefs:root=SIRI&path=VOICE_ID`
+- ‏Siri → الاستجابة الصوتية: `prefs:root=SIRI&path=VOICE_FEEDBACK_ID`
+- ‏Siri → معلوماتي: `prefs:root=SIRI&path=MY_INFO`
+- الأصوات: `prefs:root=Sounds`
+- الأصوات → استخدام سماعة الرأس بأمان: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING`
+- الأصوات → استخدام سماعة الرأس بأمان → محولات لايتننغ: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING/HEADPHONE_LIGHTNING_ADAPTERS`
+- الأصوات → استخدام سماعة الرأس بأمان → إشعارات سماعة الرأس: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneWeeklyNotificationsKey`
+- الأصوات → استخدام سماعة الرأس بأمان → خفض الصوت المرتفع: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneLevelLimitSwitchKey`
+- الأصوات → المؤثرات الصوتية: `prefs:root=Sounds&path=SOUND_EFFECTS`
+- الأصوات → النغمات والتنبيهات: `prefs:root=Sounds#RINGER_AND_ALERT_GROUP`
+- الأصوات → تغيير بالأزرار: `prefs:root=Sounds#CHANGE_WITH_BUTTONS`
+- الأصوات → الأصوات وأنماط الاهتزاز: `prefs:root=Sounds#SOUNDS_ALERT_GROUP`
+- الأصوات → النغمة: `prefs:root=Sounds&path=Ringtone`
+- الأصوات → نغمة الرسائل: `prefs:root=Sounds&path=Text_Messages`
+- الأصوات → بريد صوتي جديد: `prefs:root=Sounds&path=Voicemail`
+- الأصوات → البريد الجديد: `prefs:root=Sounds&path=NEW_MAIL`
+- الأصوات → البريد المرسل: `prefs:root=Sounds&path=SENT_MAIL`
+- الأصوات → تنبيهات التقويم: `prefs:root=Sounds&path=Calendar%20Alarm`
+- الأصوات → تنبيهات التذكير: `prefs:root=Sounds&path=Reminder%20Alerts`
+- الأصوات → صوت لوحة المفاتيح: `prefs:root=Sounds#KEYBOARD_SOUND_SWITCH`
+- الأصوات → صوت القفل: `prefs:root=Sounds#LOCK_SOUND_SWITCH`
+- الأصوات → الصوت المكاني المخصص: `prefs:root=Sounds&path=Personalized%20Spatial%20Audio`
+- ‏قلم Apple: `prefs:root=Pencil`
+- ‏قلم Apple → ‏قلم Apple: `prefs:root=Pencil#PrefersPencilDraws`
+- ‏قلم Apple → ‏قلم Apple: `prefs:root=Pencil#PencilTextInput`
+- طوارئ SOS: `prefs:root=EMERGENCY_SOS`
+- طوارئ SOS → الاتصال بالضغط على الزر الجانبي: `prefs:root=EMERGENCY_SOS#CALL_WITH_SIDE_BUTTON`
+- طوارئ SOS → اتصال تلقائي: `prefs:root=EMERGENCY_SOS#AUTO_CALL`
+- طوارئ SOS → جهات اتصال الطوارئ: `prefs:root=EMERGENCY_SOS#EMERGENCY_CONTACTS`
+- طوارئ SOS → صوت العد التنازلي: `prefs:root=EMERGENCY_SOS#ALARM_SOUND_SWITCH`
+- Wi-Fi: `prefs:root=WIFI`
+- جهات الاتصال: `prefs:root=CONTACTS`
+- جهات الاتصال → السماح لجهات الاتصال بالوصول إلى: `prefs:root=CONTACTS#Allow%20Contacts%20To%20Access`
+- جهات الاتصال → ‏Siri: `prefs:root=CONTACTS&path=SIRI_AND_SEARCH`
+- جهات الاتصال → ترتيب الظهور: `prefs:root=CONTACTS&path=ContactsSortOrder`
+- جهات الاتصال → ترتيب العرض: `prefs:root=CONTACTS&path=PersonNameOrder`
+- جهات الاتصال → الاسم المختصر: `prefs:root=CONTACTS&path=PersonShortName`
+- جهات الاتصال → الاسم المختصر → الاسم المختصر: `prefs:root=CONTACTS&path=PersonShortName#Short%20Name`
+- جهات الاتصال → الاسم المختصر → يفضل الكنية: `prefs:root=CONTACTS&path=PersonShortName#Prefer%20Nicknames`
+- جهات الاتصال → معلوماتي: `prefs:root=CONTACTS&path=MeCard`
+- جهات الاتصال → استيراد جهات الاتصال من الـ SIM: `prefs:root=CONTACTS#SIMImport`
+- مركز التحكم: `prefs:root=ControlCenter`
+- مركز التحكم → الوصول ضمن التطبيقات: `prefs:root=ControlCenter#ALLOWED_WITHIN_APPS`
+- مركز التحكم → تخصيص عناصر التحكم: `prefs:root=ControlCenter&path=CUSTOMIZE_CONTROLS`
+- المطور: `prefs:root=DEVELOPER_SETTINGS`
+- المطور → شبكة متعددة المسارات: `prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG`
+- المطور → شبكة متعددة المسارات → شبكة متعددة المسارات: `prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG#Multipath%20Networking`
+- المطور → المظهر: `prefs:root=DEVELOPER_SETTINGS#UIAppearanceGroup`
+- المطور → المظهر الداكن: `prefs:root=DEVELOPER_SETTINGS#UIAppearanceSettings`
+- المطور → الأجهزة المقترنة: `prefs:root=DEVELOPER_SETTINGS#DTPairedDevicesGroup`
+- المطور → حذف أجهزة الكمبيتر الموثوقة: `prefs:root=DEVELOPER_SETTINGS#CLEAR_TRUSTED_COMPUTERS`
+- المطور → التسجيل: `prefs:root=DEVELOPER_SETTINGS&path=DTInstrumentsSettings`
+- المطور → تمكين التحكم التلقائي بواجهة المستخدم: `prefs:root=DEVELOPER_SETTINGS#UIAGroup`
+- المطور → شبكة: `prefs:root=DEVELOPER_SETTINGS#NLCGroup`
+- المطور → مهايئ الربط بالشبكة: `prefs:root=DEVELOPER_SETTINGS&path=NLC`
+- المطور → تسجيل إضافي: `prefs:root=DEVELOPER_SETTINGS#ADDITIONAL_LOGGING`
+- المطور → السماح بخدمات HTTP: `prefs:root=DEVELOPER_SETTINGS#ALLOW_HTTP_SERVICES`
+- المطور → تعطيل تقييد المعدل: `prefs:root=DEVELOPER_SETTINGS#DISABLE_RATE_LIMITING`
+- المطور → مفتاح مرور NFC اختياري: `prefs:root=DEVELOPER_SETTINGS#NFC_PASS_KEY_OPTIONAL`
+- المطور → اختبار خدمات الوسائط: `prefs:root=DEVELOPER_SETTINGS#MEDIA_SERVICES_TESTING`
+- المطور → إعادة تعيين خدمات الوسائط: `prefs:root=DEVELOPER_SETTINGS#RESET_MEDIA_SERVICES`
+- المطور → اختبار الأخبار: `prefs:root=DEVELOPER_SETTINGS#NEWS_TESTING`
+- المطور → إعادة تعيين البيانات المحلية مع الإطلاق القادم: `prefs:root=DEVELOPER_SETTINGS#RESET_LOCAL_DATA_ON_NEXT_LAUNCH`
+- المطور → اختبار إطار عمل مشغل الوسائط: `prefs:root=DEVELOPER_SETTINGS#RoutineSettingsGroup`
+- المطور → واجهة برمجة التطبيق للمحتوى القابل للتشغيل: `prefs:root=DEVELOPER_SETTINGS&path=RoutineSettings`
+- المطور → مزود خدمة التلفزيون: `prefs:root=DEVELOPER_SETTINGS&path=VideoSubscriberAccountSettings`
+- المطور → ClassKit API: `prefs:root=DEVELOPER_SETTINGS&path=ClassKitSettings`
+- المطور → اختبار CoreSpotlight: `prefs:root=DEVELOPER_SETTINGS#CORESPOTLIGHT_TESTING`
+- المطور → إعادة فهرسة جميع العناصر: `prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS`
+- المطور → إعادة فهرسة جميع العناصر مع المعرف: `prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS_WITH_IDENTIFIERS`
+- المطور → اختبار الاختصارات: `prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_TESTING`
+- المطور → عرض الاختصارات الحديثة: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_SPOTLIGHT`
+- المطور → عرض الوسائط القادمة: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_UPCOMING_MEDIA`
+- المطور → عرض التبرعات على شاشة القفل: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_LOCKSCREEN`
+- المطور → فرض مزامنة الاختصارات على الساعة: `prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_SYNC_WATCHOS`
+- المطور → اختبار MIDI-CI: `prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA`
+- المطور → تمكين MIDI-CI: `prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA_ENABLE`
+- المطور → اكتشاف التعليق: `prefs:root=DEVELOPER_SETTINGS#HANGTRACER_EXTERNAL_CONFIGURE`
+- Bluetooth: `prefs:root=Bluetooth`
+- الأسهم: `prefs:root=STOCKS`
+- الأسهم → الخصوصية: `prefs:root=STOCKS#Privacy`
+- الأسهم → إعادة تعيين المعرّف: `prefs:root=STOCKS#reset_identifier`
+- الترجمة: `prefs:root=TRANSLATE`
+- الترجمة → نمط الترجمة على الجهاز: `prefs:root=TRANSLATE#OnDeviceOnly`
+- الأخبار: `prefs:root=NEWS`
+- الأخبار → عرض معاينات القصة الإخبارية: `prefs:root=NEWS#show_excerpt_mode`
+- الأخبار → تقييد القصص الإخبارية في قسم اليوم: `prefs:root=NEWS#showStoriesFromFavoritesSpecifierID`
+- الأخبار → الخصوصية: `prefs:root=NEWS#Privacy`
+- الأخبار → إعادة تعيين المعرّف: `prefs:root=NEWS#reset_identifier`
+- الأخبار → إقرارات: `prefs:root=NEWS&path=Acknowledgements`
+- الرسائل: `prefs:root=MESSAGES`
+- فيس تايم: `prefs:root=FACETIME`
+- الصور: `prefs:root=Photos`
+- الصور → صور iCloud: `prefs:root=Photos#iCloudPhotosSwitch`
+- الصور → تحسين التخزين: `prefs:root=Photos#iCloudOptimizeStorageOption`
+- الصور → تنزيل الملفات الأصلية والاحتفاظ بها: `prefs:root=Photos#iCloudKeepOriginalsOption`
+- الصور → الألبومات المشتركة: `prefs:root=Photos#SharedStreamsSwitch`
+- الصور → البيانات الخلوية: `prefs:root=Photos&path=CellularDataLinkList`
+- الصور → التشغيل التلقائي للفيديوهات: `prefs:root=Photos#VideoAutoplaySwitch`
+- الصور → عرض HDR الكامل: `prefs:root=Photos#ImageModulationSwitch`
+- الصور → إظهار أحداث العطلات: `prefs:root=Photos#MEMORIES_HOLIDAY_CALENDAR_EVENTS_SWITCH`
+- الصور → النقل إلى Mac أو كمبيوتر شخصي: `prefs:root=Photos#TransferGroup`
+- إشعارات المخالطة: `prefs:root=EXPOSURE_NOTIFICATION`
+- الكاميرا: `prefs:root=CAMERA`
+- الكاميرا → التنسيقات: `prefs:root=CAMERA&path=CameraFormatsSettingsList`
+- الكاميرا → التنسيقات → Apple ProRaw: `prefs:root=CAMERA&path=CameraFormatsSettingsList#CAMUserPreferenceEnableLinearDNGControl`
+- الكاميرا → Record Video: `prefs:root=CAMERA&path=Record%20Video`
+- الكاميرا → Record Video → فيديو HDR: `prefs:root=CAMERA&path=Record%20Video#HDR%20Video`
+- الكاميرا → الاحتفاظ بالإعدادات: `prefs:root=CAMERA&path=CameraPreserveSettingsSwitch`
+- الكاميرا → الاحتفاظ بالإعدادات → وضع الكاميرا: `prefs:root=CAMERA&path=CameraPreserveSettingsSwitch#CAMUserPreferencePreserveCaptureMode`
+- الكاميرا → مربعات: `prefs:root=CAMERA#CameraGridSwitch`
+- الكاميرا → مسح ضوئي لرموز QR: `prefs:root=CAMERA#CameraQRBannerSwitch`
+- خلوي: `prefs:root=MOBILE_DATA_SETTINGS_ID`
+- خلوي → خيارات البيانات الخلوية: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS`
+- خلوي → خيارات البيانات الخلوية → نمط البيانات المنخفضة: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS#Low%20Data%20Mode`
+- خلوي → البيانات الخلوية: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=SHOW_ALL`
+- البودكاست: `prefs:root=PODCASTS`
+- البوصلة: `prefs:root=COMPASS`
+- البوصلة → استخدام الشمال الحقيقي: `prefs:root=COMPASS#USE_TRUE_NORTH`
+- الكتب: `prefs:root=IBOOKS`
+- الكتب → المحتوى على الإنترنت: `prefs:root=IBOOKS#BKAllowOnlineContent`
+- الكتب → تجري المزامنة: `prefs:root=IBOOKS#SYNCING`
+- الكتب → ما تقرأه حاليًا: `prefs:root=IBOOKS#BKLibrary.ReadingNow`
+- الكتب → iCloud Drive: `prefs:root=IBOOKS#BCSyncICloudDrive`
+- الكتب → القراءة: `prefs:root=IBOOKS#READING`
+- الكتب → المحاذاة بالكامل: `prefs:root=IBOOKS#BKFullJustification`
+- الكتب → تشريط تلقائي: `prefs:root=IBOOKS#BKAutoHyphenation`
+- الكتب → التقدم بكلا الهامشين: `prefs:root=IBOOKS#BKLeftTapTurnToNext`
+- الكتب → أهداف القراءة: `prefs:root=IBOOKS#READING_GOALS`
+- الكتب → مسح بيانات أهداف القراءة: `prefs:root=IBOOKS#BKReadingGoalsShouldClearDataKey`
+- الكتب → يجري البحث: `prefs:root=IBOOKS#SEARCHING`
+- الكتب → متجر الكتب: `prefs:root=IBOOKS#BKIncludeBookStoreResultsInSearch`
+- الكتب → الكتب الصوتية: `prefs:root=IBOOKS#AUDIOBOOKS`
+- الكتب → تخطي للأمام: `prefs:root=IBOOKS&path=BKAudioBookSkipForward`
+- الكتب → تخطي للخلف: `prefs:root=IBOOKS&path=BKAudioBookSkipBackward`
+- الكتب → عناصر التحكم الخارجية: `prefs:root=IBOOKS#BKRemoteSkipInsteadOfNextTrackDefaultKey`
+- الكتب → التالي/السابق: `prefs:root=IBOOKS#Next/Previous`
+- الكتب → تخطي للأمام/رجوع: `prefs:root=IBOOKS#Skip%20Forward/Back`
+- الكتب → الخصوصية: `prefs:root=IBOOKS#PRIVACY`
+- الكتب → إعادة تعيين المعرّف: `prefs:root=IBOOKS#BAResetAnalyticsUserID`
+- الكتب → إقرارات: `prefs:root=IBOOKS&path=Acknowledgements`
+- نمط الطيران: `prefs:root=ROOT#AIRPLANE_MODE`

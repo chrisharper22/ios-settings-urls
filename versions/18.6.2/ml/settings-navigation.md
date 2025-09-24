@@ -1,0 +1,29 @@
+- Apple അക്കൗണ്ട്: `settings-navigation://com.apple.Settings.AppleAccount`
+- Apple അക്കൗണ്ട് → iCloud: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE`
+- Apple അക്കൗണ്ട് → iCloud → കലണ്ടർ: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Calendars`
+- Apple അക്കൗണ്ട് → iCloud → കലണ്ടർ → അയയ്ക്കലും സ്വീകരിക്കലും: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Calendars/CALENDAR_SEND_RECEIVE`
+- Apple അക്കൗണ്ട് → iCloud → കലണ്ടർ → ഇ-മെയിൽ അപ്ഡേറ്റുകൾ സ്വീകരിക്കൂ: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Calendars/CALENDAR_SHARED_CALENDAR_UPDATE`
+- Apple അക്കൗണ്ട് → iCloud → Mail: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail`
+- Apple അക്കൗണ്ട് → iCloud → Mail → ഡിഫോൾട്ട് ഇ-മെയിൽ: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/DEFAULT_EMAIL`
+- Apple അക്കൗണ്ട് → iCloud → Mail → വിലാസങ്ങൾ: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/ALIASES`
+- Apple അക്കൗണ്ട് → iCloud → Mail → ഓട്ടോമാറ്റിക് മറുപടി: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/AUTO_REPLY`
+- Apple അക്കൗണ്ട് → iCloud → Mail → iCloud Mail നിയമങ്ങൾ: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/SERVER_SIDE_RULES`
+- Apple അക്കൗണ്ട് → iCloud → Mail → മെയിൽ ഫോർവേഡിങ്: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/MAIL_FORWARDING`
+- Apple അക്കൗണ്ട് → iCloud → Mail → മെയിൽബോക്സ് പ്രവർത്തനരീതി: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/MAILBOX_BEHAVIORS`
+- Apple അക്കൗണ്ട് → iCloud → Mail → സൈനിങും എൻക്രിപ്ഷനും: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/S_MIME`
+- Apple അക്കൗണ്ട് → iCloud → Mail → സന്ദേശങ്ങൾ ഇംപോർട്ട് ചെയ്യൂ: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/MAIL_IMPORT`
+- Apps: `settings-navigation://com.apple.Settings.Apps`
+- Apps → Fitness: `settings-navigation://com.apple.Settings.Apps/com.apple.Fitness`
+- Apps → Safari: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/`
+- Apps → Safari → വിപുലീകരണങ്ങൾ: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/WEB_EXTENSIONS`
+- Apps → Safari → പോപ്പ്-അപ്പുകൾ ബ്ലോക്ക് ചെയ്യൂ: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari#BLOCK_POPUPS`
+- Apps → Safari → ക്രോസ് സൈറ്റ് ട്രാക്കിങ് തടയൂ: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari#TRACKER_PROTECTION`
+- Apps → Safari → ഓട്ടോ-ഫിൽ ചെയ്യൂ: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/AUTO_FILL`
+- Apps → Safari → ഡൗൺലോഡുകൾ: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/DOWNLOADS`
+- Apps → പാസ്‌വേഡ്സ്: `settings-navigation://com.apple.Settings.Apps/com.apple.Passwords`
+- Apps → പാസ്‌വേഡ്സ് → സുരക്ഷാ ശുപാർശകൾ: `settings-navigation://com.apple.Settings.Apps/com.apple.Passwords#SECURITY_RECOMMENDATIONS`
+- സ്വകാര്യതയും സുരക്ഷയും: `settings-navigation://com.apple.Settings.PrivacyAndSecurity`
+- സ്വകാര്യതയും സുരക്ഷയും → സുരക്ഷാ പരിശോധന: `settings-navigation://com.apple.Settings.PrivacyAndSecurity/SAFETY_CHECK`
+- ഹോം: `settings-navigation://com.apple.Settings.HomeKit`
+- Search: `settings-navigation://com.apple.Settings.Search`
+- TV ദാതാവ്: `settings-navigation://com.apple.Settings.TVProvider`

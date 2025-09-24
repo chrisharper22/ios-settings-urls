@@ -1,0 +1,1186 @@
+- Baterai: `prefs:root=BATTERY_USAGE`
+- Baterai → Mode Daya Rendah: `prefs:root=BATTERY_USAGE#BATTERY_SAVER_MODE`
+- Baterai → Kesehatan Baterai: `prefs:root=BATTERY_USAGE#BATTERY_HEALTH_ID`
+- Tombol Tindakan: `prefs:root=ACTION_BUTTON`
+- Pemberitahuan: `prefs:root=NOTIFICATIONS_ID`
+- Pemberitahuan → Ringkasan Terjadwal: `prefs:root=NOTIFICATIONS_ID&path=SCHEDULED_DELIVERY_ID`
+- Umum: `prefs:root=General`
+- Umum → Manajemen VPN & Perangkat: `prefs:root=General&path=ManagedConfigurationList`
+- Umum → AppleCare & Garansi: `prefs:root=General&path=COVERAGE/`
+- Umum → Isi-Auto & Kata Sandi: `prefs:root=General&path=AUTOFILL`
+- Umum → Isi-Auto & Kata Sandi → Isi-Auto Kata Sandi: `prefs:root=General&path=AUTOFILL#AUTOFILL`
+- Umum → Isi-Auto & Kata Sandi → Bersihkan kode verifikasi: `prefs:root=General&path=AUTOFILL#CLEAN_UP_VERIFICATION_CODES`
+- Umum → Isi-Auto & Kata Sandi → Atur kode verifikasi: `prefs:root=General&path=AUTOFILL#SET_UP_VERIFICATION_CODES`
+- Umum → Penyimpanan: `prefs:root=General&path=STORAGE_MGMT`
+- Umum → Penyimpanan → Penyimpanan: `prefs:root=General&path=STORAGE_MGMT#MANAGE`
+- Umum → Penyimpanan → Keluarkan App Tak Terpakai: `prefs:root=General&path=STORAGE_MGMT#OFFLOAD`
+- Umum → Pembaruan Perangkat Lunak: `prefs:root=General&path=SOFTWARE_UPDATE_LINK`
+- Umum → Pembaruan Perangkat Lunak → Pembaruan Otomatis: `prefs:root=General&path=SOFTWARE_UPDATE_LINK/SUAutomaticUpdateButton`
+- Umum → Papan Ketik: `prefs:root=General&path=Keyboard`
+- Umum → Papan Ketik → Papan Ketik: `prefs:root=General&path=Keyboard/KEYBOARDS`
+- Umum → Papan Ketik → Penggantian Teks: `prefs:root=General&path=Keyboard/USER_DICTIONARY`
+- Umum → Papan Ketik → Huruf Besar Otomatis: `prefs:root=General&path=Keyboard#KeyboardAutocapitalization`
+- Umum → Papan Ketik → Koreksi Otomatis: `prefs:root=General&path=Keyboard#KeyboardAutocorrection`
+- Umum → Papan Ketik → Periksa Ejaan: `prefs:root=General&path=Keyboard#KeyboardCheckSpelling`
+- Umum → Papan Ketik → Aktifkan Huruf Besar: `prefs:root=General&path=Keyboard#KeyboardCapsLock`
+- Umum → Papan Ketik → Pintasan: `prefs:root=General&path=Keyboard#KeyboardAssistant`
+- Umum → Papan Ketik → Prediktif: `prefs:root=General&path=Keyboard#KeyboardPrediction`
+- Umum → Papan Ketik → Tanda Baca Cerdas: `prefs:root=General&path=Keyboard#SmartTyping`
+- Umum → Papan Ketik → Pisahkan Papan Ketik: `prefs:root=General&path=Keyboard#RivenKeyboard`
+- Umum → Papan Ketik → Aktifkan Gesek Tombol: `prefs:root=General&path=Keyboard#GesturesEnabled`
+- Umum → Papan Ketik → Pratinjau Karakter: `prefs:root=General&path=Keyboard#KeyboardAllowPaddle`
+- Umum → Papan Ketik → Pintasan “.”: `prefs:root=General&path=Keyboard#KeyboardPeriodShortcut`
+- Umum → Papan Ketik → Geser - ketik: `prefs:root=General&path=Keyboard#KeyboardContinuousPathEnabled`
+- Umum → Papan Ketik → Aktifkan Dikte: `prefs:root=General&path=Keyboard#Dictation`
+- Umum → Papan Ketik → Tanda Baca Otomatis: `prefs:root=General&path=Keyboard#AutoPunctuationSetting`
+- Umum → Bahasa & Wilayah: `prefs:root=General&path=INTERNATIONAL`
+- Umum → Bahasa & Wilayah → Bahasa Lainnya…: `prefs:root=General&path=INTERNATIONAL#NEW_PREFERRED_LANGUAGE`
+- Umum → Bahasa & Wilayah → Urutan Bahasa Pilihan: `prefs:root=General&path=INTERNATIONAL#PREFERRED_LANGUAGE_GROUP`
+- Umum → Bahasa & Wilayah → Tambah Bahasa…: `prefs:root=General&path=INTERNATIONAL#ADD_PREFERRED_LANGUAGE`
+- Umum → Bahasa & Wilayah → Wilayah: `prefs:root=General&path=INTERNATIONAL/LOCALE`
+- Umum → Bahasa & Wilayah → Angka: `prefs:root=General&path=INTERNATIONAL/NUMBERING_SYSTEM`
+- Umum → Bahasa & Wilayah → Kalender: `prefs:root=General&path=INTERNATIONAL/CALENDAR`
+- Umum → Bahasa & Wilayah → Unit Suhu: `prefs:root=General&path=INTERNATIONAL/TEMPERATURE_UNIT`
+- Umum → Kamus: `prefs:root=General&path=DICTIONARY`
+- Umum → Gambar dalam Gambar: `prefs:root=General&path=PiP_SPEC`
+- Umum → Trackpad: `prefs:root=General&path=POINTERS`
+- Umum → NFC: `prefs:root=General&path=NFC_LINK`
+- Umum → VPN: `prefs:root=General&path=VPN`
+- Umum → CarPlay: `prefs:root=General&path=CARPLAY`
+- Umum → Mengenai: `prefs:root=General&path=About`
+- Umum → Mengenai → Sertifikat Tepercaya: `prefs:root=General&path=About/CERT_TRUST_SETTINGS`
+- Umum → Mengenai → Nomor Seri: `prefs:root=General&path=About#SerialNumber`
+- Umum → Mengenai → Nomor Model: `prefs:root=General&path=About#ProductModel`
+- Umum → Mengenai → Model: `prefs:root=General&path=About#ProductModelName`
+- Umum → Mengenai → Versi iOS: `prefs:root=General&path=About/SW_VERSION_SPECIFIER`
+- Umum → Legal & Pengatur: `prefs:root=General&path=LEGAL_AND_REGULATORY`
+- Umum → Legal & Pengatur → Garansi: `prefs:root=General&path=LEGAL_AND_REGULATORY#Warranty`
+- Umum → AirDrop: `prefs:root=General&path=AIRDROP_LINK`
+- Umum → AirDrop → Mendekatkan Perangkat: `prefs:root=General&path=AIRDROP_LINK#AIRDROP_NFC_ID`
+- Umum → Tombol Utama: `prefs:root=General&path=HOME_BUTTON`
+- Umum → Pengalih Samping: `prefs:root=General#Rotation_Switch_Action_Group`
+- Umum → Segarkan App di Latar: `prefs:root=General&path=AUTO_CONTENT_DOWNLOAD`
+- Umum → Tanggal & Waktu: `prefs:root=General&path=DATE_AND_TIME`
+- Umum → TV Out: `prefs:root=General&path=TV_OUT`
+- Umum → Atur Ulang: `prefs:root=General&path=Reset`
+- Umum → Atur Ulang → Atur Ulang Semua Pengaturan: `prefs:root=General&path=Reset#settingsErase`
+- Umum → Atur Ulang → Hapus Semua Konten & Pengaturan: `prefs:root=General&path=Reset#fullErase`
+- Umum → Atur Ulang → Atur Ulang Jaringan: `prefs:root=General&path=Reset#RESET_NETWORK_LABEL`
+- Umum → Atur Ulang → Hapus Semua Paket Data Seluler: `prefs:root=General&path=Reset#cellularErase`
+- Umum → Atur Ulang → Layanan Pelanggan: `prefs:root=General&path=Reset#SUBSCRIBER_SERVICES_ID`
+- Umum → Atur Ulang → Atur Ulang Kamus Papan Ketik: `prefs:root=General&path=Reset#RESET_KEYBOARD_DICTIONARY_LABEL`
+- Umum → Atur Ulang → Atur Ulang Susunan Layar Utama: `prefs:root=General&path=Reset#RESET_ICONS_LABEL`
+- Umum → Atur Ulang → Atur Ulang Lokasi & Privasi: `prefs:root=General&path=Reset#RESET_PRIVACY_LABEL`
+- Umum → Matikan: `prefs:root=General#SHUTDOWN_LABEL`
+- Umum → AirPlay & Berkelanjutan: `prefs:root=General&path=CONTINUITY_SPEC`
+- Umum → AirPlay & Berkelanjutan → Handoff: `prefs:root=General&path=CONTINUITY_SPEC#CONTINUITY`
+- Umum → AirPlay & Berkelanjutan → Transfer ke HomePod: `prefs:root=General&path=CONTINUITY_SPEC#TRANSFER_TO_HOMEPOD`
+- Umum → AirPlay & Berkelanjutan → AirPlay Secara Otomatis: `prefs:root=General&path=CONTINUITY_SPEC#AUTOMATICALLY_AIRPLAY`
+- Umum → AirPlay & Berkelanjutan → Kamera Berkelanjutan: `prefs:root=General&path=CONTINUITY_SPEC#WOMBAT_CAMERA`
+- Dompet & Apple Pay: `prefs:root=PASSBOOK`
+- Dompet & Apple Pay → Apple Cash: `prefs:root=PASSBOOK#Apple%C2%A0Cash`
+- Dompet & Apple Pay → Kartu Pembayaran: `prefs:root=PASSBOOK#SETTINGS_PAYMENT_CARDS_GROUP`
+- Dompet & Apple Pay → Tambah Kartu: `prefs:root=PASSBOOK#Add%20Card`
+- Dompet & Apple Pay → Klik Tombol Samping Dua Kali: `prefs:root=PASSBOOK#Double-Click%20Side%20Button`
+- Dompet & Apple Pay → Pelacakan Pesanan: `prefs:root=PASSBOOK#ORDER_TRACKING`
+- Jurnal: `prefs:root=JOURNAL`
+- Siaga: `prefs:root=AMBIENT`
+- Cuaca: `prefs:root=WEATHER`
+- Akun Apple: `prefs:root=APPLE_ACCOUNT` or `settings-navigation://com.apple.Settings.AppleAccount`
+- Akun Apple → iCloud: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE` or `prefs:root=CASTLE`
+- Akun Apple → iCloud → Penyimpanan iCloud: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/STORAGE_AND_BACKUP` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/STORAGE_AND_BACKUP` or `prefs:root=CASTLE&path=STORAGE_AND_BACKUP`
+- Akun Apple → iCloud → iCloud Drive: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity` or `prefs:root=CASTLE&path=com.apple.Dataclass.Ubiquity`
+- Akun Apple → iCloud → Foto: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.MediaStream` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.MediaStream` or `prefs:root=CASTLE&path=com.apple.Dataclass.MediaStream`
+- Akun Apple → iCloud → Mail: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Mail` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail` or `prefs:root=CASTLE&path=com.apple.Dataclass.Mail`
+- Akun Apple → iCloud → Mail → Domain Email Khusus: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Mail/BYOD_SETTING_SPECIFIER_ID` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/BYOD_SETTING_SPECIFIER_ID` or `prefs:root=CASTLE&path=com.apple.Dataclass.Mail/BYOD_SETTING_SPECIFIER_ID`
+- Akun Apple → iCloud → Kontak: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Contacts` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Contacts` or `prefs:root=CASTLE&path=com.apple.Dataclass.Contacts`
+- Akun Apple → iCloud → Kalender: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Calendars` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Calendars` or `prefs:root=CASTLE&path=com.apple.Dataclass.Calendars`
+- Akun Apple → iCloud → Pengingat: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Reminders` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Reminders` or `prefs:root=CASTLE&path=com.apple.Dataclass.Reminders`
+- Akun Apple → iCloud → Safari: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks` or `prefs:root=CASTLE&path=com.apple.Dataclass.Bookmarks`
+- Akun Apple → iCloud → Catatan: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Notes` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Notes` or `prefs:root=CASTLE&path=com.apple.Dataclass.Notes`
+- Akun Apple → iCloud → News: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.News` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.News` or `prefs:root=CASTLE&path=com.apple.Dataclass.News`
+- Akun Apple → iCloud → Cadangan: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/BACKUP` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/BACKUP` or `prefs:root=CASTLE&path=BACKUP`
+- Akun Apple → iCloud → Kesehatan: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Health` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Health` or `prefs:root=CASTLE&path=com.apple.Dataclass.Health`
+- Akun Apple → iCloud → Kata Sandi & Rantai Kunci: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync` or `prefs:root=CASTLE&path=com.apple.Dataclass.KeychainSync`
+- Akun Apple → iCloud → Sembunyikan Email Saya: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE` or `prefs:root=CASTLE&path=PRIVATE_EMAIL_MANAGE`
+- Akun Apple → Bagikan Lokasi Saya: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING` or `settings-navigation://com.apple.Settings.AppleAccount/LOCATION_SHARING`
+- Akun Apple → Bagikan Lokasi Saya → Lacak: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING/FindMyDevice-Settings` or `settings-navigation://com.apple.Settings.AppleAccount/LOCATION_SHARING/FindMyDevice-Settings`
+- Akun Apple → Nama, Nomor Telepon, Email: `prefs:root=APPLE_ACCOUNT&path=APPLE_ACCOUNT_CONTACT` or `settings-navigation://com.apple.Settings.AppleAccount/APPLE_ACCOUNT_CONTACT`
+- Akun Apple → Kata Sandi & Keamanan: `prefs:root=APPLE_ACCOUNT&path=PASSWORD_AND_SECURITY` or `settings-navigation://com.apple.Settings.AppleAccount/PASSWORD_AND_SECURITY`
+- Akun Apple → Pembayaran & Pengiriman: `prefs:root=APPLE_ACCOUNT&path=PAYMENT_AND_SHIPPING` or `settings-navigation://com.apple.Settings.AppleAccount/PAYMENT_AND_SHIPPING`
+- Akun Apple → Langganan: `prefs:root=APPLE_ACCOUNT&path=SUBSCRIPTIONS` or `settings-navigation://com.apple.Settings.AppleAccount/SUBSCRIPTIONS`
+- Akun Apple → Keluarga: `prefs:root=APPLE_ACCOUNT&path=Family` or `settings-navigation://com.apple.Settings.AppleAccount/Family`
+- Akun Apple → Verifikasi Kunci Kontak: `prefs:root=APPLE_ACCOUNT&path=TRANSPARENCY` or `settings-navigation://com.apple.Settings.AppleAccount/TRANSPARENCY`
+- Peta: `prefs:root=MAPS`
+- Peta → Indeks Kualitas Udara: `prefs:root=MAPS#AirQualityPreferenceID`
+- Peta → Selalu Bahasa Indonesia: `prefs:root=MAPS#LabelLanguageAlwaysUIPreferenceID`
+- Peta → Bersepeda: `prefs:root=MAPS&path=CyclingLinkPreferenceID`
+- Peta → Jenis Perjalanan Pilihan: `prefs:root=MAPS#TransportTypePreferenceGroupID`
+- Peta → Berkendara: `prefs:root=MAPS&path=DrivingLinkPreferenceID`
+- Peta → Petunjuk Arah Lisan: `prefs:root=MAPS&path=NavigationGuidanceLinkPreferenceID`
+- Peta → Tampilkan Lokasi Parkir: `prefs:root=MAPS#ParkedCarPreferenceID`
+- Peta → Bagikan ETA: `prefs:root=MAPS#ShareETAPreferenceID`
+- Peta → Transit: `prefs:root=MAPS&path=TransitLinkPreferenceID`
+- Peta → Berjalan Kaki: `prefs:root=MAPS&path=WalkingLinkPreferenceID`
+- Peta → Kondisi Cuaca: `prefs:root=MAPS#WeatherConditionsPreferenceID`
+- Durasi Layar: `prefs:root=SCREEN_TIME`
+- Durasi Layar → See All App & Website Activity: `prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY`
+- Durasi Layar → See All App & Website Activity → Hari Ini: `prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY#DAY`
+- Durasi Layar → See All App & Website Activity → Minggu: `prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY#WEEK`
+- Durasi Layar → Waktu Henti: `prefs:root=SCREEN_TIME&path=DOWNTIME`
+- Durasi Layar → Batas App: `prefs:root=SCREEN_TIME&path=APP_LIMITS`
+- Durasi Layar → Batas Komunikasi: `prefs:root=SCREEN_TIME&path=COMMUNICATION_LIMITS`
+- Durasi Layar → Keamanan Komunikasi: `prefs:root=SCREEN_TIME&path=COMMUNICATION_SAFETY`
+- Durasi Layar → Selalu Diizinkan: `prefs:root=SCREEN_TIME&path=ALWAYS_ALLOWED`
+- Durasi Layar → Pembatasan Konten & Privasi: `prefs:root=SCREEN_TIME&path=CONTENT_PRIVACY`
+- Durasi Layar → Pengawasan Orang Tua: `prefs:root=SCREEN_TIME#FAMILY`
+- Durasi Layar → Jarak Layar: `prefs:root=SCREEN_TIME&path=EYE_DISTANCE`
+- Freeform: `prefs:root=FREEFORM`
+- Fokus: `prefs:root=DO_NOT_DISTURB`
+- Fokus → Status Fokus: `prefs:root=DO_NOT_DISTURB&path=status`
+- Tampilan: `prefs:root=DISPLAY`
+- Tampilan → Tampilan: `prefs:root=DISPLAY#DEVICE_APPEARANCE`
+- Tampilan → True Tone: `prefs:root=DISPLAY#WHITE_BALANCE`
+- Tampilan → Night Shift: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION`
+- Tampilan → Night Shift → Terjadwal: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#SCHEDULED`
+- Tampilan → Night Shift → Aktifkan Manual Hingga Esok: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#MANUAL`
+- Tampilan → Night Shift → Suhu Warna: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#COLOR_TEMPERATURE`
+- Tampilan → Kunci-Otomatis: `prefs:root=DISPLAY&path=AUTOLOCK`
+- Tampilan → Angkat-Bangun: `prefs:root=DISPLAY#RAISE_TO_WAKE`
+- Tampilan → Kunci/Buka: `prefs:root=DISPLAY#SMART_CASE_LOCK_SPEC`
+- Tampilan → Ukuran Teks: `prefs:root=DISPLAY&path=TEXT_SIZE`
+- Tampilan → Teks Tebal: `prefs:root=DISPLAY#BOLD_TEXT`
+- Tampilan → Kecerahan: `prefs:root=DISPLAY#BRIGHTNESS`
+- Tampilan → Zoom Tampilan: `prefs:root=DISPLAY#DISPLAY_ZOOM_GROUP`
+- Tampilan → Tampilan: `prefs:root=DISPLAY&path=APPEARANCE`
+- Tampilan → Tampilan → Zoom Jendela: `prefs:root=DISPLAY&path=APPEARANCE#WINDOW_ZOOM`
+- Tampilan → Tampilan → Zoom Jendela Dua Tangan: `prefs:root=DISPLAY&path=APPEARANCE#TWO_HANDED_WINDOW_ZOOM`
+- Tampilan → Lihat: `prefs:root=DISPLAY&path=MAGNIFY`
+- Tampilan → Layar Selalu Nyala: `prefs:root=DISPLAY&path=ALWAYS_ON`
+- Tampilan → Layar Selalu Nyala → Layar Selalu Nyala: `prefs:root=DISPLAY&path=ALWAYS_ON#ALWAYS_ON`
+- Tampilan → App yang Kompatibel: `prefs:root=DISPLAY&path=COMPATIBLE_APPEARANCE`
+- Tampilan → App yang Kompatibel → Gelap, Terang: `prefs:root=DISPLAY&path=COMPATIBLE_APPEARANCE#COMPATIBLE_APPEARANCE_CHOICES`
+- Layar Utama: `prefs:root=HOME_SCREEN`
+- Layar Utama → App yang Baru Diunduh: `prefs:root=HOME_SCREEN&path=APP_DOWNLOADS_GO_TO`
+- Layar Utama → Tanda Pemberitahuan: `prefs:root=HOME_SCREEN#BADGES_IN_APP_LIBRARY`
+- Layar Utama & Perpustakaan App: `prefs:root=HOME_SCREEN_DOCK`
+- Layar Utama & Perpustakaan App → App yang Baru Diunduh: `prefs:root=HOME_SCREEN_DOCK&path=APP_DOWNLOADS_GO_TO`
+- Layar Utama & Perpustakaan App → Dock: `prefs:root=HOME_SCREEN_DOCK&path=MULTITASKING_DOCK`
+- Layar Utama & Perpustakaan App → Dock → Tampilkan Perpustakaan App di Dock: `prefs:root=HOME_SCREEN_DOCK&path=MULTITASKING_DOCK#SHOW_APP_LIBRARY`
+- Layar Utama & Perpustakaan App → Tampilkan Saran App & Terbaru di Dock: `prefs:root=HOME_SCREEN_DOCK#ALLOW_RECENTS`
+- Layar Utama & Perpustakaan App → Pengelola Sorotan: `prefs:root=HOME_SCREEN_DOCK&path=CONTINUOUS-EXPOSE`
+- Multitasking & Gestures: `prefs:root=com.apple.MultitaskingAndGesturesSettings`
+- Multitasking & Gestures → Multitugas: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Multitasking`
+- Multitasking & Gestures → Multitugas → Izinkan Beberapa App: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Multitasking#MultipleApps`
+- Multitasking & Gestures → Multitugas → Split View & Slide Over: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Multitasking#SplitViewSlideOver`
+- Multitasking & Gestures → Multitugas → Pencerminan Layar: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Multitasking#ScreenMirroring`
+- Multitasking & Gestures → Multitugas → Pengelola Sorotan: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Multitasking#StageManager`
+- Multitasking & Gestures → Multitugas → Tampilkan App Terbaru di Pengelola Sorotan: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Multitasking#StageManagerRecentApps`
+- Multitasking & Gestures → Multitugas → Tampilkan Dock di Pengelola Sorotan: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Multitasking#StageManagerDock`
+- Multitasking & Gestures → Gambar dalam Gambar: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=PictureInPicture`
+- Multitasking & Gestures → Gerakan Produktivitas: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Productivity`
+- Multitasking & Gestures → Gerakan Produktivitas → Gerakan: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Productivity#Gestures`
+- Multitasking & Gestures → Gerakan Produktivitas → Gerakan Produktivitas: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Productivity#ProductivityGestures`
+- Multitasking & Gestures → Gerakan Empat & Lima Jari: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=FourAndFiveFingers`
+- Multitasking & Gestures → Goyang untuk Urung: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=ShakeToUndo`
+- Multitasking & Gestures → Gerakan Pojok: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=CornerGestures`
+- Aksesibilitas: `prefs:root=ACCESSIBILITY`
+- Aksesibilitas → VoiceOver: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE`
+- Aksesibilitas → VoiceOver → Tutorial VoiceOver: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#VoiceOverTouchTutorialEnabled`
+- Aksesibilitas → VoiceOver → Laju Bicara: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#SpeakingRateSlider`
+- Aksesibilitas → VoiceOver → Ucapan: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Voices`
+- Aksesibilitas → VoiceOver → Ucapan → Pelafalan: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Voices/PRONUNCIATION_DICTIONARY`
+- Aksesibilitas → VoiceOver → Ucapan → Pelafalan → Pelafalan: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Voices/PRONUNCIATION_DICTIONARY#PRONUNCIATION_DICTIONARY`
+- Aksesibilitas → VoiceOver → Ucapan → Perubahan Nada: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Voices#PITCH_CHANGES_TITLE`
+- Aksesibilitas → VoiceOver → Ucapan → Tambah Suara Rotor…: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Voices#ADD_NEW_VOICE`
+- Aksesibilitas → VoiceOver → Ucapan → Deteksi Bahasa: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Voices#LANGUAGE_DETECTION`
+- Aksesibilitas → VoiceOver → Ucapan → Spasialkan Ucapan: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Voices#SPATIALIZE_SPEECH`
+- Aksesibilitas → VoiceOver → Verbositas: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity`
+- Aksesibilitas → VoiceOver → Verbositas → Verbositas: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#Verbosity`
+- Aksesibilitas → VoiceOver → Verbositas → Tanda Baca: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup`
+- Aksesibilitas → VoiceOver → Verbositas → Tanda Baca → Tanda Baca: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup#voiceOverPunctuationGroup`
+- Aksesibilitas → VoiceOver → Verbositas → Tanda Baca → Grup Tanda Baca Aktif: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup#voiceOverActivePunctuationGroup`
+- Aksesibilitas → VoiceOver → Verbositas → Tanda Baca → Semua: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup#all`
+- Aksesibilitas → VoiceOver → Verbositas → Tanda Baca → Sebagian: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup#AXSSVoiceOverPunctuationGroupSome`
+- Aksesibilitas → VoiceOver → Verbositas → Tanda Baca → Tidak Ada: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup#PunctuationGroupNone`
+- Aksesibilitas → VoiceOver → Verbositas → Tanda Baca → Tambah Grup Tanda Baca: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup/NewPunctuation`
+- Aksesibilitas → VoiceOver → Verbositas → Tanda Baca → Tambah Grup Tanda Baca → Tambah Grup Tanda Baca: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup/NewPunctuation#NewPunctuation`
+- Aksesibilitas → VoiceOver → Verbositas → Tanda Baca → Impor: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup/ImportPunctuation`
+- Aksesibilitas → VoiceOver → Verbositas → Tanda Baca → Impor → Impor: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup/ImportPunctuation#ImportPunctuation`
+- Aksesibilitas → VoiceOver → Verbositas → Ucapkan Petunjuk: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#HINTS_TITLE`
+- Aksesibilitas → VoiceOver → Verbositas → Pemberitahuan Sistem: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/SystemNotifications`
+- Aksesibilitas → VoiceOver → Verbositas → Pemberitahuan Sistem → Pemberitahuan Sistem: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/SystemNotifications#SystemNotifications`
+- Aksesibilitas → VoiceOver → Verbositas → Pemberitahuan Sistem → Pemberitahuan saat Dikunci: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/SystemNotifications#LockScreenNotifications`
+- Aksesibilitas → VoiceOver → Verbositas → Pemberitahuan Sistem → Pemberitahuan Spanduk: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/SystemNotifications#BannerNotifications`
+- Aksesibilitas → VoiceOver → Verbositas → Pemberitahuan Sistem → Gunakan Mode Hening: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/SystemNotifications#NOTIFICATION_USE_RINGER_SWITCH`
+- Aksesibilitas → VoiceOver → Verbositas → Pengumuman QuickNav: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverQuickNavAnnouncementFeedback`
+- Aksesibilitas → VoiceOver → Verbositas → Pengumuman QuickNav → Pengumuman QuickNav: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverQuickNavAnnouncementFeedback#voiceOverQuickNavAnnouncementFeedback`
+- Aksesibilitas → VoiceOver → Verbositas → Pemberitahuan Senter: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverFlashlightNotificationsEnabled`
+- Aksesibilitas → VoiceOver → Verbositas → Pemberitahuan Senter → Pemberitahuan Senter: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverFlashlightNotificationsEnabled#voiceOverFlashlightNotificationsEnabled`
+- Aksesibilitas → VoiceOver → Verbositas → Huruf Kapital: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverCapitalLetterFeedback`
+- Aksesibilitas → VoiceOver → Verbositas → Huruf Kapital → Huruf Kapital: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverCapitalLetterFeedback#voiceOverCapitalLetterFeedback`
+- Aksesibilitas → VoiceOver → Verbositas → Menghapus Teks: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverDeletionFeedback`
+- Aksesibilitas → VoiceOver → Verbositas → Menghapus Teks → Menghapus Teks: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverDeletionFeedback#voiceOverDeletionFeedback`
+- Aksesibilitas → VoiceOver → Verbositas → Tautan: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverLinkFeedback`
+- Aksesibilitas → VoiceOver → Verbositas → Tautan → Tautan: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverLinkFeedback#voiceOverLinkFeedback`
+- Aksesibilitas → VoiceOver → Verbositas → Tindakan: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverActionsFeedback`
+- Aksesibilitas → VoiceOver → Verbositas → Tindakan → Tindakan: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverActionsFeedback#voiceOverActionsFeedback`
+- Aksesibilitas → VoiceOver → Verbositas → Konten Lainnya: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMoreContentOutputFeedback`
+- Aksesibilitas → VoiceOver → Verbositas → Konten Lainnya → Konten Lainnya: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMoreContentOutputFeedback#voiceOverMoreContentOutputFeedback`
+- Aksesibilitas → VoiceOver → Verbositas → Deskripsi Wadah: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverContainerOutputFeedback`
+- Aksesibilitas → VoiceOver → Verbositas → Deskripsi Wadah → Deskripsi Wadah: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverContainerOutputFeedback#voiceOverContainerOutputFeedback`
+- Aksesibilitas → VoiceOver → Verbositas → Angka: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverNumberFeedback`
+- Aksesibilitas → VoiceOver → Verbositas → Angka → Angka: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverNumberFeedback#voiceOverNumberFeedback`
+- Aksesibilitas → VoiceOver → Verbositas → Umpan Balik Teks Prediktif: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/PREDICTIVE_TEXT_FEEDBACK`
+- Aksesibilitas → VoiceOver → Verbositas → Umpan Balik Teks Prediktif → Umpan Balik Teks Prediktif: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/PREDICTIVE_TEXT_FEEDBACK#PREDICTIVE_TEXT_FEEDBACK`
+- Aksesibilitas → VoiceOver → Verbositas → Umpan Balik Teks Prediktif → Saat Teks Prediktif Muncul: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/PREDICTIVE_TEXT_FEEDBACK/InlineTextCompletionAppearanceFeedback`
+- Aksesibilitas → VoiceOver → Verbositas → Umpan Balik Teks Prediktif → Saat Teks Prediktif Muncul → Saat Teks Prediktif Muncul: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/PREDICTIVE_TEXT_FEEDBACK/InlineTextCompletionAppearanceFeedback#InlineTextCompletionAppearanceFeedback`
+- Aksesibilitas → VoiceOver → Verbositas → Umpan Balik Teks Prediktif → Saat Umpan Balik Teks Prediktif Dimasukkan: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/PREDICTIVE_TEXT_FEEDBACK/InlineTextCompletionInsertionFeedback`
+- Aksesibilitas → VoiceOver → Verbositas → Umpan Balik Teks Prediktif → Saat Umpan Balik Teks Prediktif Dimasukkan → Saat Umpan Balik Teks Prediktif Dimasukkan: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/PREDICTIVE_TEXT_FEEDBACK/InlineTextCompletionInsertionFeedback#InlineTextCompletionInsertionFeedback`
+- Aksesibilitas → VoiceOver → Verbositas → Header Tabel: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#speakTableHeader`
+- Aksesibilitas → VoiceOver → Verbositas → Nomor Kolom & Baris: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#SPEAK_TABLE_ROW_COLUMN`
+- Aksesibilitas → VoiceOver → Verbositas → Ucapkan Konfirmasi: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#ACTION_CONFIRMATION`
+- Aksesibilitas → VoiceOver → Verbositas → Ringkasan Rotor Web: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverRotorSummaryFeedback`
+- Aksesibilitas → VoiceOver → Verbositas → Ringkasan Rotor Web → Ringkasan Rotor Web: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverRotorSummaryFeedback#voiceOverRotorSummaryFeedback`
+- Aksesibilitas → VoiceOver → Verbositas → Emoji: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverEmojiFeedback`
+- Aksesibilitas → VoiceOver → Verbositas → Emoji → Emoji: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverEmojiFeedback#voiceOverEmojiFeedback`
+- Aksesibilitas → VoiceOver → Verbositas → Akhiran Emoji: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#EMOJI_SUFFIX`
+- Aksesibilitas → VoiceOver → Verbositas → Deskripsi Media: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions`
+- Aksesibilitas → VoiceOver → Verbositas → Deskripsi Media → Deskripsi Media: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#voiceOverMediaDescriptions`
+- Aksesibilitas → VoiceOver → Verbositas → Umpan Balik Input: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#voiceOverInputFeedback`
+- Aksesibilitas → VoiceOver → Verbositas → Umpan Balik Layang App: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#voiceOverAppHoverFeedback`
+- Aksesibilitas → VoiceOver → Braille: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille`
+- Aksesibilitas → VoiceOver → Braille → Braille: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#Braille`
+- Aksesibilitas → VoiceOver → Braille → Output: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput`
+- Aksesibilitas → VoiceOver → Braille → Output → Output: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#BrailleDisplayOutput`
+- Aksesibilitas → VoiceOver → Braille → Input: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput`
+- Aksesibilitas → VoiceOver → Braille → Input → Input: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#BrailleDisplayInput`
+- Aksesibilitas → VoiceOver → Braille → Samakan Tabel Input dan Output: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BRAILLE_SYNC_TABLES`
+- Aksesibilitas → VoiceOver → Braille → Input dan Output: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleDisplayOutput`
+- Aksesibilitas → VoiceOver → Braille → Terjemahan Otomatis: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#GRADE2_AUTO_TRANSLATE`
+- Aksesibilitas → VoiceOver → Braille → Input Layar Braille: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput`
+- Aksesibilitas → VoiceOver → Braille → Input Layar Braille → Input Layar Braille: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#BrailleGesturesInput`
+- Aksesibilitas → VoiceOver → Braille → Input Layar Braille → Mulai Secara Otomatis saat Mengedit Teks: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#AUTO_ACTIVATE_ON_TEXT_FIELDS`
+- Aksesibilitas → VoiceOver → Braille → Input Layar Braille → Terbalikkan Posisi Titik: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#SHOULD_REVERSE_DOTS`
+- Aksesibilitas → VoiceOver → Braille → Input Layar Braille → Terus Aktif hingga Ditutup: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#CONTROL_DEVICE_USING_BRAILLE_GESTURE`
+- Aksesibilitas → VoiceOver → Braille → Input Layar Braille → Umpan Balik Teks Visual: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#DISPLAY_ENTERED_TEXT`
+- Aksesibilitas → VoiceOver → Braille → Input Layar Braille → Umpan Balik Ketikan: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#TYPING_FEEDBACK`
+- Aksesibilitas → VoiceOver → Braille → Input Layar Braille → Bunyi: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#USE_TYPING_SOUND_FEEDBACK`
+- Aksesibilitas → VoiceOver → Braille → Input Layar Braille → Bunyi: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#USE_HAPTIC_FEEDBACK`
+- Aksesibilitas → VoiceOver → Braille → Input Layar Braille → Pengumuman Mode: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#SOUND_OPTION`
+- Aksesibilitas → VoiceOver → Braille → Input Layar Braille → Pilih Tabel Braille: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#BSI_TABLES`
+- Aksesibilitas → VoiceOver → Braille → Tabel Braille: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier`
+- Aksesibilitas → VoiceOver → Braille → Tabel Braille → Tabel Braille: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier#tableIdentifier`
+- Aksesibilitas → VoiceOver → Braille → Tabel Braille → Tambah Tabel Braille…: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier/ADD_NEW_BRAILLE_LANGUAGE`
+- Aksesibilitas → VoiceOver → Braille → Tabel Braille → Tambah Tabel Braille… → Tambah Tabel Braille…: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier/ADD_NEW_BRAILLE_LANGUAGE#ADD_NEW_BRAILLE_LANGUAGE`
+- Aksesibilitas → VoiceOver → Braille → Sel Status: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL`
+- Aksesibilitas → VoiceOver → Braille → Sel Status → Sel Status: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL`
+- Aksesibilitas → VoiceOver → Braille → Sel Status → Posisi Sel Status: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_POSITION`
+- Aksesibilitas → VoiceOver → Braille → Sel Status → Tampilkan Status Umum: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#StatusCellGeneral`
+- Aksesibilitas → VoiceOver → Braille → Sel Status → Tampilkan Status Teks: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#StatusCellTextStyle`
+- Aksesibilitas → VoiceOver → Braille → Persamaan dg Kode Nemeth: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#ALWAYS_USE_NEMETH`
+- Aksesibilitas → VoiceOver → Braille → Papan Ketik Pada Layar: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#SHOW_SW_KEYBOARD`
+- Aksesibilitas → VoiceOver → Braille → Geser dan Balik Halaman: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#AUTO_TURN_PAGES`
+- Aksesibilitas → VoiceOver → Braille → Bungkus Kata: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#WORD_WRAP`
+- Aksesibilitas → VoiceOver → Braille → Pemformatan Teks: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BRAILLE_FORMATTING`
+- Aksesibilitas → VoiceOver → Braille → Pesan Peringatan Braille: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleAlertDisplayDuration`
+- Aksesibilitas → VoiceOver → Braille → Pesan Peringatan Braille → Pesan Peringatan Braille: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleAlertDisplayDuration#voiceOverBrailleAlertDisplayDuration`
+- Aksesibilitas → VoiceOver → Braille → Pesan Peringatan Braille → Pesan Peringatan Braille: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleAlertDisplayDuration#NumericalPreferenceSwitcherIdentifier`
+- Aksesibilitas → VoiceOver → Braille → Pesan Peringatan Braille → Tampilkan hingga Ditutup: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleAlertDisplayDuration#NumericalPreferenceInfiniteTimeDurationIdentifier`
+- Aksesibilitas → VoiceOver → Braille → Abaikan Durasi Akor: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleDebounceTimeout`
+- Aksesibilitas → VoiceOver → Braille → Abaikan Durasi Akor → Abaikan Durasi Akor: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleDebounceTimeout/voiceOverBrailleDebounceTimeout`
+- Aksesibilitas → VoiceOver → Braille → Durasi Maju Otomatis: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleAutoAdvance`
+- Aksesibilitas → VoiceOver → Braille → Durasi Maju Otomatis → Durasi Maju Otomatis: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleAutoAdvance#voiceOverBrailleAutoAdvance`
+- Aksesibilitas → VoiceOver → Braille → Tirai Bunyi: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#SOUND_CURTAIN`
+- Aksesibilitas → VoiceOver → Braille → Aktifkan Bluetooth saat Dimulai: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverAlwaysTurnOnBluetooth`
+- Aksesibilitas → VoiceOver → Braille → Pilih Layar Braille: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#DEVICES`
+- Aksesibilitas → VoiceOver → Audio: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio`
+- Aksesibilitas → VoiceOver → Audio → Audio: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#Audio`
+- Aksesibilitas → VoiceOver → Audio → Bunyi VoiceOver: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds`
+- Aksesibilitas → VoiceOver → Audio → Bunyi VoiceOver → Bunyi VoiceOver: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSounds`
+- Aksesibilitas → VoiceOver → Audio → Bunyi VoiceOver → Bunyi: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSSettingsItem.Sounds`
+- Aksesibilitas → VoiceOver → Audio → Bunyi VoiceOver → Interaksi: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSOutputEventCategory.Interaction`
+- Aksesibilitas → VoiceOver → Audio → Bunyi VoiceOver → Umpan Balik VoiceOver: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSOutputEventCategory.VoiceOverFeedback`
+- Aksesibilitas → VoiceOver → Audio → Bunyi VoiceOver → Umpan Balik App: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSOutputEventCategory.AppFeedback`
+- Aksesibilitas → VoiceOver → Audio → Bunyi VoiceOver → Braille: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSOutputEventCategory.Braille`
+- Aksesibilitas → VoiceOver → Audio → Bunyi VoiceOver → Pengeditan Teks: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSOutputEventCategory.TextEditing`
+- Aksesibilitas → VoiceOver → Audio → Bunyi VoiceOver → Sistem: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSOutputEventCategory.System`
+- Aksesibilitas → VoiceOver → Audio → Pengurangan Audio: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#AUDIO_DUCKING`
+- Aksesibilitas → VoiceOver → Audio → Pilih Otomatis Pembicara saat Panggilan: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#ROUTE_TO_SPEAKER`
+- Aksesibilitas → VoiceOver → Audio → Kirimkan ke HDMI: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#ROUTE_TO_HDMI`
+- Aksesibilitas → VoiceOver → Perintah: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands`
+- Aksesibilitas → VoiceOver → Perintah → Perintah: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands#CustomizeCommands`
+- Aksesibilitas → VoiceOver → Perintah → Semua Perintah: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/AllCommands`
+- Aksesibilitas → VoiceOver → Perintah → Semua Perintah → Semua Perintah: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/AllCommands#AllCommands`
+- Aksesibilitas → VoiceOver → Perintah → Input Papan Ketik Braille: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/BrailleKeyboardInput`
+- Aksesibilitas → VoiceOver → Perintah → Input Papan Ketik Braille → Input Papan Ketik Braille: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/BrailleKeyboardInput#BrailleKeyboardInput`
+- Aksesibilitas → VoiceOver → Perintah → Gerakan Sentuh: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/TouchGestures`
+- Aksesibilitas → VoiceOver → Perintah → Gerakan Sentuh → Gerakan Sentuh: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/TouchGestures#TouchGestures`
+- Aksesibilitas → VoiceOver → Perintah → Pintasan Papan Ketik: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/KeyboardShortcuts`
+- Aksesibilitas → VoiceOver → Perintah → Pintasan Papan Ketik → Pintasan Papan Ketik: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/KeyboardShortcuts#KeyboardShortcuts`
+- Aksesibilitas → VoiceOver → Perintah → Tulisan Tangan: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/Handwriting`
+- Aksesibilitas → VoiceOver → Perintah → Tulisan Tangan → Tulisan Tangan: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/Handwriting#Handwriting`
+- Aksesibilitas → VoiceOver → Perintah → Input Layar Braille: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/BrailleScreenInput`
+- Aksesibilitas → VoiceOver → Perintah → Input Layar Braille → Input Layar Braille: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/BrailleScreenInput#BrailleScreenInput`
+- Aksesibilitas → VoiceOver → Perintah → Atur Ulang Perintah VoiceOver: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands#ResetVoiceOverCommands`
+- Aksesibilitas → VoiceOver → Perintah → Ganti Tangan Dominan untuk Gerakan: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands#SWITCH_GESTURE_HANDEDNESS`
+- Aksesibilitas → VoiceOver → Aktivitas: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/activities`
+- Aksesibilitas → VoiceOver → Aktivitas → Aktivitas: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/activities#activities`
+- Aksesibilitas → VoiceOver → Aktivitas → Pemrograman: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/activities/Programming`
+- Aksesibilitas → VoiceOver → Aktivitas → Pemrograman → Pemrograman: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/activities/Programming#Programming`
+- Aksesibilitas → VoiceOver → Aktivitas → Tambah Aktivitas…: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/activities/New`
+- Aksesibilitas → VoiceOver → Aktivitas → Tambah Aktivitas… → Tambah Aktivitas…: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/activities/New#New`
+- Aksesibilitas → VoiceOver → Rotor: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions`
+- Aksesibilitas → VoiceOver → Rotor → Rotor: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#RotorActions`
+- Aksesibilitas → VoiceOver → Rotor → Item Rotor: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions/WebRotor`
+- Aksesibilitas → VoiceOver → Rotor → Item Rotor → Item Rotor: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions/WebRotor#WebRotor`
+- Aksesibilitas → VoiceOver → Rotor → Ubah Rotor dengan Item: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#STICKY_ROTOR_TITLE`
+- Aksesibilitas → VoiceOver → Rotor → Edit App di Layar Utama: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#editApps`
+- Aksesibilitas → VoiceOver → Rotor → App Sentuh Langsung: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions/apps`
+- Aksesibilitas → VoiceOver → Rotor → App Sentuh Langsung → App Sentuh Langsung: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions/apps#apps`
+- Aksesibilitas → VoiceOver → Ketikan: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions`
+- Aksesibilitas → VoiceOver → Ketikan → Ketikan: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#TypingOptions`
+- Aksesibilitas → VoiceOver → Ketikan → Gaya Pengetikan: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_MODE_TITLE`
+- Aksesibilitas → VoiceOver → Ketikan → Gaya Pengetikan → Gaya Pengetikan: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_MODE_TITLE#TYPING_MODE_TITLE`
+- Aksesibilitas → VoiceOver → Ketikan → Umpan Balik Fonetik: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE`
+- Aksesibilitas → VoiceOver → Ketikan → Umpan Balik Fonetik → Umpan Balik Fonetik: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_TITLE`
+- Aksesibilitas → VoiceOver → Ketikan → Umpan Balik Ketikan: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_FEEDBACK`
+- Aksesibilitas → VoiceOver → Ketikan → Umpan Balik Ketikan → Umpan Balik Ketikan: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_FEEDBACK#TYPING_FEEDBACK`
+- Aksesibilitas → VoiceOver → Ketikan → Tombol Pengubah: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS`
+- Aksesibilitas → VoiceOver → Ketikan → Tombol Pengubah → Tombol Pengubah: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS#MODIFIER_KEYS`
+- Aksesibilitas → VoiceOver → Ketikan → Waktu Interaksi Papan Ketik: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/KEYBOARD_TIMING_TIMEOUT`
+- Aksesibilitas → VoiceOver → Ketikan → Waktu Interaksi Papan Ketik → Waktu Interaksi Papan Ketik: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/KEYBOARD_TIMING_TIMEOUT#KEYBOARD_TIMING_TIMEOUT`
+- Aksesibilitas → VoiceOver → Navigasikan Gambar: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages`
+- Aksesibilitas → VoiceOver → Navigasikan Gambar → Navigasikan Gambar: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#IncludeUnlabeledImages`
+- Aksesibilitas → VoiceOver → Kursor Besar: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CursorStyle`
+- Aksesibilitas → VoiceOver → Panel Teks: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CaptionPanel`
+- Aksesibilitas → VoiceOver → Batas Waktu Ketuk Dua Kali: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/DOUBLE_TAP_INTERVAL_TITLE`
+- Aksesibilitas → VoiceOver → Batas Waktu Ketuk Dua Kali → Batas Waktu Ketuk Dua Kali: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/DOUBLE_TAP_INTERVAL_TITLE#NumericalPreferencePickerGroupIdentifier`
+- Aksesibilitas → VoiceOver → Gaya Navigasi: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NavigationStyle`
+- Aksesibilitas → VoiceOver → Gaya Navigasi → Gaya Navigasi: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NavigationStyle#NavigationStyle`
+- Aksesibilitas → VoiceOver → Pengaturan Cepat: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings`
+- Aksesibilitas → VoiceOver → Pengaturan Cepat → Pengaturan Cepat: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#QuickSettings`
+- Aksesibilitas → VoiceOver → Pengenalan VoiceOver: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver`
+- Aksesibilitas → VoiceOver → Pengenalan VoiceOver → Pengenalan VoiceOver: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver#NeuralVoiceOver`
+- Aksesibilitas → VoiceOver → Pengenalan VoiceOver → Deskripsi Gambar: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_IMAGE_DESCRIPTIONS`
+- Aksesibilitas → VoiceOver → Pengenalan VoiceOver → Deskripsi Gambar → Deskripsi Gambar: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_IMAGE_DESCRIPTIONS#VO_IMAGE_DESCRIPTIONS`
+- Aksesibilitas → VoiceOver → Pengenalan VoiceOver → Deskripsi Gambar → Output Konten Sensitif: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_IMAGE_DESCRIPTIONS#SensitiveContentGroup`
+- Aksesibilitas → VoiceOver → Pengenalan VoiceOver → Deskripsi Gambar → Bahasa Tambahan: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_IMAGE_DESCRIPTIONS/AdditionalLanguages`
+- Aksesibilitas → VoiceOver → Pengenalan VoiceOver → Deskripsi Gambar → Bahasa Tambahan → Bahasa Tambahan: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_IMAGE_DESCRIPTIONS/AdditionalLanguages#AdditionalLanguages`
+- Aksesibilitas → VoiceOver → Pengenalan VoiceOver → Deskripsi Gambar → Terapkan ke App: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_IMAGE_DESCRIPTIONS/apps`
+- Aksesibilitas → VoiceOver → Pengenalan VoiceOver → Deskripsi Gambar → Terapkan ke App → Terapkan ke App: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_IMAGE_DESCRIPTIONS/apps#apps`
+- Aksesibilitas → VoiceOver → Pengenalan VoiceOver → Pengenalan Layar: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_SCREEN_RECOGNITION`
+- Aksesibilitas → VoiceOver → Pengenalan VoiceOver → Pengenalan Layar → Pengenalan Layar: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_SCREEN_RECOGNITION#VO_SCREEN_RECOGNITION`
+- Aksesibilitas → VoiceOver → Pengenalan VoiceOver → Pengenalan Layar → Terapkan ke App: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_SCREEN_RECOGNITION/apps`
+- Aksesibilitas → VoiceOver → Pengenalan VoiceOver → Pengenalan Layar → Terapkan ke App → Terapkan ke App: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_SCREEN_RECOGNITION/apps#apps`
+- Aksesibilitas → VoiceOver → Pengenalan VoiceOver → Pengenalan Teks: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver#VO_OCR`
+- Aksesibilitas → VoiceOver → Pengenalan VoiceOver → Gaya Umpan Balik: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_FEEDBACK`
+- Aksesibilitas → VoiceOver → Pengenalan VoiceOver → Gaya Umpan Balik → Gaya Umpan Balik: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_FEEDBACK#VO_FEEDBACK`
+- Aksesibilitas → VoiceOver → Pengenalan VoiceOver → Pengenalan Langsung: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_REAL_WORLD_DETECTION`
+- Aksesibilitas → VoiceOver → Tunda sebelum Memilih: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#VoiceOverDelayUntilSpeak`
+- Aksesibilitas → VoiceOver → Batas Waktu Jepit Dua Kali: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#DOUBLE_TAP_INTERVAL`
+- Aksesibilitas → Zoom: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE`
+- Aksesibilitas → Zoom → Ikuti Fokus: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomShouldFollowFocus`
+- Aksesibilitas → Zoom → Pengetikan Cerdas: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomAlwaysUseWindowZoomForTyping`
+- Aksesibilitas → Zoom → Pintasan Papan Ketik: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts`
+- Aksesibilitas → Zoom → Pintasan Papan Ketik → Pintasan Papan Ketik: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomEnableKeyboardShortcuts`
+- Aksesibilitas → Zoom → Pintasan Papan Ketik → Sesuaikan Level Zoom: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutAdjustZoomLevel`
+- Aksesibilitas → Zoom → Pintasan Papan Ketik → Ubah Zoom: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutToggleZoom`
+- Aksesibilitas → Zoom → Pintasan Papan Ketik → Pindahkan Jendela Zoom: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutPanZoom`
+- Aksesibilitas → Zoom → Pintasan Papan Ketik → Ubah Ukuran Jendela Zoom: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutResizeZoomWindow`
+- Aksesibilitas → Zoom → Pintasan Papan Ketik → Alihkan Bidang Zoom: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutSwitchZoomMode`
+- Aksesibilitas → Zoom → Pintasan Papan Ketik → Ubah Zoom Untuk Sementara: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutTempToggleZoom`
+- Aksesibilitas → Zoom → Pintasan Papan Ketik → Zoom dengan Roda Gulir: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutScrollWheel`
+- Aksesibilitas → Zoom → Gunakan gerakan trackpad untuk men-zoom: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomWithTrackpad`
+- Aksesibilitas → Zoom → Pengontrol Zoom: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug`
+- Aksesibilitas → Zoom → Pengontrol Zoom → Pengontrol Zoom: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug#ZoomSlug`
+- Aksesibilitas → Zoom → Pengontrol Zoom → Tampilkan Pengontrol: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug#ZOOM_DETACH_CONTROLS`
+- Aksesibilitas → Zoom → Pengontrol Zoom → Ketuk Satu Kali: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_CONTROLLER_ACTION_SINGLE_TAP`
+- Aksesibilitas → Zoom → Pengontrol Zoom → Ketuk Satu Kali → Ketuk Satu Kali: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_CONTROLLER_ACTION_SINGLE_TAP#ZOOM_CONTROLLER_ACTION_SINGLE_TAP`
+- Aksesibilitas → Zoom → Pengontrol Zoom → Ketuk Dua Kali: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_CONTROLLER_ACTION_DOUBLE_TAP`
+- Aksesibilitas → Zoom → Pengontrol Zoom → Ketuk Dua Kali → Ketuk Dua Kali: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_CONTROLLER_ACTION_DOUBLE_TAP#ZOOM_CONTROLLER_ACTION_DOUBLE_TAP`
+- Aksesibilitas → Zoom → Pengontrol Zoom → Ketuk Tiga Kali: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_CONTROLLER_ACTION_TRIPLE_TAP`
+- Aksesibilitas → Zoom → Pengontrol Zoom → Ketuk Tiga Kali → Ketuk Tiga Kali: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_CONTROLLER_ACTION_TRIPLE_TAP#ZOOM_CONTROLLER_ACTION_TRIPLE_TAP`
+- Aksesibilitas → Zoom → Pengontrol Zoom → Sesuaikan Level Zoom: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug#ZOOM_TAP_AND_SLIDE_TO_ADJUST_ZOOM_LEVEL`
+- Aksesibilitas → Zoom → Pengontrol Zoom → Warna: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/CONTROLLER_COLOR`
+- Aksesibilitas → Zoom → Pengontrol Zoom → Warna → Warna: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/CONTROLLER_COLOR#CONTROLLER_COLOR`
+- Aksesibilitas → Zoom → Pengontrol Zoom → Opasitas Idle: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_IDLE_SLUG_OPACITY`
+- Aksesibilitas → Zoom → Pengontrol Zoom → Opasitas Idle → Opasitas Idle: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_IDLE_SLUG_OPACITY#ZOOM_IDLE_SLUG_OPACITY`
+- Aksesibilitas → Zoom → Wilayah Zoom: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode`
+- Aksesibilitas → Zoom → Wilayah Zoom → Wilayah Zoom: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode#ZoomLensMode`
+- Aksesibilitas → Zoom → Level Zoom Maksimum: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomPreferredMaxZoomLevel`
+- Aksesibilitas → Zoom → Filter Zoom: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomFilter`
+- Aksesibilitas → Zoom → Filter Zoom → Filter Zoom: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomFilter#ZoomFilter`
+- Aksesibilitas → Zoom → Tampilkan saat Mencerminkan: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomShowWhileMirroring`
+- Aksesibilitas → Zoom → Atur Zoom sebagai Fokus Default: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomAsDefaultDial`
+- Aksesibilitas → Zoom → Gunakan Digital Crown untuk Zoom: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomStealsCrownTurns`
+- Aksesibilitas → Zoom → Warna Tepi: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#MagnifyingGlassBorderColor`
+- Aksesibilitas → Layangkan Teks: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE`
+- Aksesibilitas → Layangkan Teks → Mode Tampilan: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextDisplayMode`
+- Aksesibilitas → Layangkan Teks → Mode Tampilan → Mode Tampilan: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextDisplayMode#HoverTextDisplayMode`
+- Aksesibilitas → Layangkan Teks → Kecepatan Menggulir: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextScrollSpeed`
+- Aksesibilitas → Layangkan Teks → Kecepatan Menggulir → Kecepatan Menggulir: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextScrollSpeed#HoverTextScrollSpeed`
+- Aksesibilitas → Layangkan Teks → Font: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextStyle`
+- Aksesibilitas → Layangkan Teks → Font → Font: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextStyle#HoverTextStyle`
+- Aksesibilitas → Layangkan Teks → Ukuran: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextSize`
+- Aksesibilitas → Layangkan Teks → Ukuran → Ukuran: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextSize#HoverTextSize`
+- Aksesibilitas → Layangkan Teks → Warna: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE#HOVER_TEXT_COLOR_OPTIONS`
+- Aksesibilitas → Layangkan Teks → Pengubah Aktivasi: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextActivationModifier`
+- Aksesibilitas → Layangkan Teks → Pengubah Aktivasi → Pengubah Aktivasi: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextActivationModifier#HoverTextActivationModifier`
+- Aksesibilitas → Layangkan Teks → Kunci Aktivasi: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE#HOVER_TEXT_ACTIVATION_LOCK`
+- Aksesibilitas → Papan Ketik & Pengetikan: `prefs:root=ACCESSIBILITY&path=KEYBOARDS`
+- Aksesibilitas → Papan Ketik & Pengetikan → Pengetikan Layang: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING`
+- Aksesibilitas → Papan Ketik & Pengetikan → Pengetikan Layang → Mode Tampilan: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING/HoverTextTypingDisplayMode`
+- Aksesibilitas → Papan Ketik & Pengetikan → Pengetikan Layang → Mode Tampilan → Mode Tampilan: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING/HoverTextTypingDisplayMode#HoverTextTypingDisplayMode`
+- Aksesibilitas → Papan Ketik & Pengetikan → Pengetikan Layang → Font: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING/HoverTypingStyle`
+- Aksesibilitas → Papan Ketik & Pengetikan → Pengetikan Layang → Font → Font: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING/HoverTypingStyle#HoverTypingStyle`
+- Aksesibilitas → Papan Ketik & Pengetikan → Pengetikan Layang → Ukuran: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING/HoverTextSize`
+- Aksesibilitas → Papan Ketik & Pengetikan → Pengetikan Layang → Ukuran → Ukuran: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING/HoverTextSize#HoverTextSize`
+- Aksesibilitas → Papan Ketik & Pengetikan → Pengetikan Layang → Warna Pengetikan: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TYPING_COLOR_OPTIONS`
+- Aksesibilitas → Papan Ketik & Pengetikan → Pengetikan Layang → Warna Tampilan: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TYPING_DISPLAY_COLOR_OPTIONS`
+- Aksesibilitas → Papan Ketik & Pengetikan → Pengetikan Layang → Warna Teks: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TEXT_TEXT_COLOR`
+- Aksesibilitas → Papan Ketik & Pengetikan → Pengetikan Layang → Warna Titik Penyisipan: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TEXT_INSERTION_POINT_COLOR`
+- Aksesibilitas → Papan Ketik & Pengetikan → Pengetikan Layang → Warna Latar Belakang: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TEXT_BACKGROUND_COLOR`
+- Aksesibilitas → Papan Ketik & Pengetikan → Pengetikan Layang → Warna Tepi: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TEXT_BORDER_COLOR`
+- Aksesibilitas → Papan Ketik & Pengetikan → Pengetikan Layang → Warna Kata yang Dikoreksi Otomatis: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TYPING_AUTOCORRECTED_WORD_COLOR`
+- Aksesibilitas → Papan Ketik & Pengetikan → Pengetikan Layang → Warna Kata Salah Eja: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TYPING_MISSPELLED_WORD`
+- Aksesibilitas → Papan Ketik & Pengetikan → Pengetikan Layang → Atur Ulang ke Default: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TYPING_RESET_BUTTON`
+- Aksesibilitas → Papan Ketik & Pengetikan → Akses Papan Ketik Penuh: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS`
+- Aksesibilitas → Papan Ketik & Pengetikan → Akses Papan Ketik Penuh → Akses Papan Ketik Penuh: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAEnabledSwitch`
+- Aksesibilitas → Papan Ketik & Pengetikan → Akses Papan Ketik Penuh → Perintah: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKACommands`
+- Aksesibilitas → Papan Ketik & Pengetikan → Akses Papan Ketik Penuh → Perintah → Perintah: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKACommands#FKACommands`
+- Aksesibilitas → Papan Ketik & Pengetikan → Akses Papan Ketik Penuh → Sembunyikan Otomatis: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKAFocusRingTimeout`
+- Aksesibilitas → Papan Ketik & Pengetikan → Akses Papan Ketik Penuh → Sembunyikan Otomatis → Sembunyikan Otomatis: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKAFocusRingTimeout#FKAFocusRingTimeout`
+- Aksesibilitas → Papan Ketik & Pengetikan → Akses Papan Ketik Penuh → Tambah Ukuran: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKALargeFocusRingEnabled`
+- Aksesibilitas → Papan Ketik & Pengetikan → Akses Papan Ketik Penuh → Kontras Tinggi: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKAFocusRingHighContrastEnabled`
+- Aksesibilitas → Papan Ketik & Pengetikan → Akses Papan Ketik Penuh → Warna: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKAFocusRingColor`
+- Aksesibilitas → Papan Ketik & Pengetikan → Akses Papan Ketik Penuh → Warna → Warna: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKAFocusRingColor#FKAFocusRingColor`
+- Aksesibilitas → Papan Ketik & Pengetikan → Pengulangan Tombol: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT`
+- Aksesibilitas → Papan Ketik & Pengetikan → Pengulangan Tombol → Pengulangan Tombol: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatEnabled`
+- Aksesibilitas → Papan Ketik & Pengetikan → Pengulangan Tombol → Interval Pengulangan Tombol: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatInterval`
+- Aksesibilitas → Papan Ketik & Pengetikan → Pengulangan Tombol → Jeda Hingga Pengulangan: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatDelay`
+- Aksesibilitas → Papan Ketik & Pengetikan → Tombol Sticky: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS`
+- Aksesibilitas → Papan Ketik & Pengetikan → Tombol Sticky → Tombol Sticky: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysEnabled`
+- Aksesibilitas → Papan Ketik & Pengetikan → Tombol Sticky → Ubah Dengan Tombol Shift: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysShiftToggle`
+- Aksesibilitas → Papan Ketik & Pengetikan → Tombol Sticky → Bunyi: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysSound`
+- Aksesibilitas → Papan Ketik & Pengetikan → Tombol Lambat: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/SLOW_KEYS`
+- Aksesibilitas → Papan Ketik & Pengetikan → Tombol Lambat → Tombol Lambat: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/SLOW_KEYS#NumericalPreferenceSwitcherIdentifier`
+- Aksesibilitas → Papan Ketik & Pengetikan → Papan Ketik Perangkat Lunak: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#SOFTWARE_KEYBOARDS`
+- Aksesibilitas → Papan Ketik & Pengetikan → Tampilkan Tombol Huruf Kecil: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#LOWERCASE_KEYBOARD`
+- Aksesibilitas → Layar & Ukuran Teks: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT`
+- Aksesibilitas → Layar & Ukuran Teks → Tebalkan Teks: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#ENHANCE_TEXT_LEGIBILITY`
+- Aksesibilitas → Layar & Ukuran Teks → Teks yang Lebih Besar: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/LARGER_TEXT`
+- Aksesibilitas → Layar & Ukuran Teks → Teks yang Lebih Besar → Teks yang Lebih Besar: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/LARGER_TEXT#LARGER_TEXT`
+- Aksesibilitas → Layar & Ukuran Teks → Teks yang Lebih Besar → Ukuran yang Lebih Besar: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/LARGER_TEXT#LARGER_DYNAMIC_TYPE_SWITCH`
+- Aksesibilitas → Layar & Ukuran Teks → Bentuk Tombol: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#BUTTON_SHAPES`
+- Aksesibilitas → Layar & Ukuran Teks → Label Nyala/Mati: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#OnOffLabels`
+- Aksesibilitas → Layar & Ukuran Teks → Kurangi Transparansi: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#REDUCE_TRANSPARENCY`
+- Aksesibilitas → Layar & Ukuran Teks → Tambah Kontras: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#TEXT_COLORS_DARKEN`
+- Aksesibilitas → Layar & Ukuran Teks → Bedakan Tanpa Warna: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#DIFFERENTIATE_WITHOUT_COLOR`
+- Aksesibilitas → Layar & Ukuran Teks → Pilih Teks Horizontal: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#PREFER_HORIZONTAL_TEXT`
+- Aksesibilitas → Layar & Ukuran Teks → Pembalikan Cerdas: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#SMART_INVERT`
+- Aksesibilitas → Layar & Ukuran Teks → Pembalikan Klasik: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#CLASSIC_INVERT`
+- Aksesibilitas → Layar & Ukuran Teks → Filter Warna: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR`
+- Aksesibilitas → Layar & Ukuran Teks → Filter Warna → Filter Warna: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR#DISPLAY_FILTER_COLOR`
+- Aksesibilitas → Layar & Ukuran Teks → Filter Warna → Terapkan ke Laluan Video: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR#VIDEO_PASSTHROUGH`
+- Aksesibilitas → Layar & Ukuran Teks → Kurangi Titik Putih: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#WHITE_POINT`
+- Aksesibilitas → Layar & Ukuran Teks → Kecerahan Otomatis: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#AUTO_BRIGHTNESS`
+- Aksesibilitas → Layar & Ukuran Teks → Abaikan Gerakan Mata untuk Menstabilkan: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#STATIC_FOVEATION_TEXT`
+- Aksesibilitas → Layar & Ukuran Teks → Sejajarkan Layar Secara Otomatis: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#AUTO_IPD_TEXT`
+- Aksesibilitas → Layar & Ukuran Teks → Tingkatkan Status Fokus: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#INCREASE_FOCUS_STATE_TEXT`
+- Aksesibilitas → Gerakan: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE`
+- Aksesibilitas → Gerakan → Kurangi Gerakan: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION`
+- Aksesibilitas → Gerakan → Putar Otomatis Efek Pesan: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#ReduceMotionAutoplayMessagesEffects`
+- Aksesibilitas → Gerakan → Putar Otomatis Animasi Gambar: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION_AUTOPLAY_ANIMATED_IMAGES`
+- Aksesibilitas → Gerakan → Putar Auto Pratinjau Video: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION_AUTOPLAY_VIDEO_PREVIEWS`
+- Aksesibilitas → Gerakan → Pilih Kursor yang Tidak Berkedip: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#PREFER_NONBLINKING_CURSOR`
+- Aksesibilitas → Gerakan → Batasi Laju Bingkai: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REFRESH_RATE`
+- Aksesibilitas → Gerakan → Redupkan Cahaya Kilat: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#PHOTOSENSITIVE_MITIGATION`
+- Aksesibilitas → Gerakan → Tampilkan Petunjuk Gerakan Kendaraan: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#MotionCues`
+- Aksesibilitas → Konten Lisan: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE`
+- Aksesibilitas → Konten Lisan → Ucapkan Pilihan: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QUICK_SPEAK_TITLE`
+- Aksesibilitas → Konten Lisan → Ucapkan Layar: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpeakThisEnabled`
+- Aksesibilitas → Konten Lisan → Pengontrol Ucapan: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController`
+- Aksesibilitas → Konten Lisan → Pengontrol Ucapan → Pengontrol Ucapan: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController#SpeechController`
+- Aksesibilitas → Konten Lisan → Pengontrol Ucapan → Tekan Lama: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController/SpeechControllerLongPressAction`
+- Aksesibilitas → Konten Lisan → Pengontrol Ucapan → Tekan Lama → Tekan Lama: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController/SpeechControllerLongPressAction#SpeechControllerLongPressAction`
+- Aksesibilitas → Konten Lisan → Pengontrol Ucapan → Ketuk Dua Kali: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController/SpeechControllerDoubleTapAction`
+- Aksesibilitas → Konten Lisan → Pengontrol Ucapan → Ketuk Dua Kali → Ketuk Dua Kali: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController/SpeechControllerDoubleTapAction#SpeechControllerDoubleTapAction`
+- Aksesibilitas → Konten Lisan → Pengontrol Ucapan → Opasitas Idle: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController/SpeechControllerIdleOpacity`
+- Aksesibilitas → Konten Lisan → Pengontrol Ucapan → Opasitas Idle → Opasitas Idle: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController/SpeechControllerIdleOpacity#SpeechControllerIdleOpacity`
+- Aksesibilitas → Konten Lisan → Pengontrol Ucapan → Sesuaikan Tombol Tetikus: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController#CustomizeMouseButtons`
+- Aksesibilitas → Konten Lisan → Sorot Konten: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/QuickSpeakHighlight`
+- Aksesibilitas → Konten Lisan → Sorot Konten → Sorot Konten: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/QuickSpeakHighlight#QuickSpeakHighlight`
+- Aksesibilitas → Konten Lisan → Sorot Konten → Gaya Sorotan Kalimat: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/QuickSpeakHighlight#SENTENCE_HIGHLIGHT_STYLE`
+- Aksesibilitas → Konten Lisan → Sorot Konten → Warna Sorotan: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/QuickSpeakHighlight#COLOR_CHOICE`
+- Aksesibilitas → Konten Lisan → Umpan Balik Ketikan: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback`
+- Aksesibilitas → Konten Lisan → Umpan Balik Ketikan → Umpan Balik Ketikan: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#TypingFeedback`
+- Aksesibilitas → Konten Lisan → Umpan Balik Ketikan → Karakter: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#LETTER`
+- Aksesibilitas → Konten Lisan → Umpan Balik Ketikan → Petunjuk Karakter: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#PhoneticFeedback`
+- Aksesibilitas → Konten Lisan → Umpan Balik Ketikan → Ucapkan Kata: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#WORD_FEEDBACK`
+- Aksesibilitas → Konten Lisan → Umpan Balik Ketikan → Ucapkan Teks-otomatis: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#SPEAK_AUTOCORRECTIONS`
+- Aksesibilitas → Konten Lisan → Umpan Balik Ketikan → Tahan-Ucapkan Prediksi: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#QUICKTYPE_WORD_FEEDBACK`
+- Aksesibilitas → Konten Lisan → Suara: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/QuickSpeakAccents`
+- Aksesibilitas → Konten Lisan → Suara → Suara: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/QuickSpeakAccents#QuickSpeakAccents`
+- Aksesibilitas → Konten Lisan → Bahasa Default: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpokenContentDefaultLanguage`
+- Aksesibilitas → Konten Lisan → Bahasa Default → Bahasa Default: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpokenContentDefaultLanguage#SpokenContentDefaultLanguage`
+- Aksesibilitas → Konten Lisan → Deteksi Bahasa: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#LANGUAGE_DETECTION`
+- Aksesibilitas → Konten Lisan → Laju Bicara: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakRate`
+- Aksesibilitas → Konten Lisan → Pelafalan: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/VoiceOverSettings`
+- Aksesibilitas → Konten Lisan → Pelafalan → Pelafalan: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/VoiceOverSettings#VoiceOverSettings`
+- Aksesibilitas → Konten Lisan → Spasialkan Ucapan: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SPATIALIZE_SPEECH`
+- Aksesibilitas → Deskripsi Audio: `prefs:root=ACCESSIBILITY&path=DESCRIPTIVE_VIDEO`
+- Aksesibilitas → Interaksi: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE`
+- Aksesibilitas → Interaksi → AssistiveTouch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE`
+- Aksesibilitas → Interaksi → AssistiveTouch → AssistiveTouch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#EnableAssistiveTouchSpecifier`
+- Aksesibilitas → Interaksi → AssistiveTouch → Sesuaikan Menu Level Atas: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize`
+- Aksesibilitas → Interaksi → AssistiveTouch → Sesuaikan Menu Level Atas → Sesuaikan Menu Level Atas: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize#AssistiveTouchCustomize`
+- Aksesibilitas → Interaksi → AssistiveTouch → Sesuaikan Menu Level Atas → Ketuk ikon untuk mengubah:: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize#ASTStepperCell`
+- Aksesibilitas → Interaksi → AssistiveTouch → Ketuk Satu Kali: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/TapSpecifier`
+- Aksesibilitas → Interaksi → AssistiveTouch → Ketuk Satu Kali → Ketuk Satu Kali: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/TapSpecifier#TapSpecifier`
+- Aksesibilitas → Interaksi → AssistiveTouch → Ketuk Dua Kali: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier`
+- Aksesibilitas → Interaksi → AssistiveTouch → Ketuk Dua Kali → Ketuk Dua Kali: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier#DoubleTapSpecifier`
+- Aksesibilitas → Interaksi → AssistiveTouch → Ketuk Dua Kali → Batas Waktu Ketuk Dua Kali: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier/ASTDoubleTapTimeoutSpecifier`
+- Aksesibilitas → Interaksi → AssistiveTouch → Ketuk Dua Kali → Batas Waktu Ketuk Dua Kali → Batas Waktu Ketuk Dua Kali: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier/ASTDoubleTapTimeoutSpecifier#ASTDoubleTapTimeoutSpecifier`
+- Aksesibilitas → Interaksi → AssistiveTouch → Tekan Lama: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier`
+- Aksesibilitas → Interaksi → AssistiveTouch → Tekan Lama → Tekan Lama: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier#LongPressSpecifier`
+- Aksesibilitas → Interaksi → AssistiveTouch → Tekan Lama → Durasi Tekan Lama: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier/ASTLongPressDurationSpecifier`
+- Aksesibilitas → Interaksi → AssistiveTouch → Tekan Lama → Durasi Tekan Lama → Durasi Tekan Lama: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier/ASTLongPressDurationSpecifier#ASTLongPressDurationSpecifier`
+- Aksesibilitas → Interaksi → AssistiveTouch → 3D Touch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#ForceTouchSpecifier`
+- Aksesibilitas → Interaksi → AssistiveTouch → Buat Gerakan Baru…: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/CreateCustomGesture`
+- Aksesibilitas → Interaksi → AssistiveTouch → Buat Gerakan Baru… → Buat Gerakan Baru…: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/CreateCustomGesture#CreateCustomGesture`
+- Aksesibilitas → Interaksi → AssistiveTouch → Opasitas Idle: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/IdleOpacity`
+- Aksesibilitas → Interaksi → AssistiveTouch → Opasitas Idle → Opasitas Idle: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/IdleOpacity#IdleOpacity`
+- Aksesibilitas → Interaksi → AssistiveTouch → Trackpad Virtual: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID`
+- Aksesibilitas → Interaksi → AssistiveTouch → Trackpad Virtual → Kecepatan Melacak: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID#TRACKING_SPEED_SLIDER`
+- Aksesibilitas → Interaksi → AssistiveTouch → Trackpad Virtual → Pengguliran Alami: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID#NATURAL_SCROLLING`
+- Aksesibilitas → Interaksi → AssistiveTouch → Trackpad Virtual → Kecepatan Menggulir: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID#SCROLL_SPEED_SLIDER`
+- Aksesibilitas → Interaksi → AssistiveTouch → Trackpad Virtual → Tepi: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID#BORDER`
+- Aksesibilitas → Interaksi → AssistiveTouch → Trackpad Virtual → Tepi: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID/BORDER`
+- Aksesibilitas → Interaksi → AssistiveTouch → Trackpad Virtual → Tepi → Warna: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID/BORDER#COLOR`
+- Aksesibilitas → Interaksi → AssistiveTouch → Trackpad Virtual → Tepi → Opasitas: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID/BORDER#OPACITY`
+- Aksesibilitas → Interaksi → AssistiveTouch → Trackpad Virtual → Tepi → Lebar Tepi: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID/BORDER#BORDER_WIDTH`
+- Aksesibilitas → Interaksi → AssistiveTouch → Trackpad Virtual → Trackpad: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID#TRACKPAD`
+- Aksesibilitas → Interaksi → AssistiveTouch → Trackpad Virtual → Trackpad: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID/TRACKPAD`
+- Aksesibilitas → Interaksi → AssistiveTouch → Trackpad Virtual → Trackpad → Warna: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID/TRACKPAD#COLOR`
+- Aksesibilitas → Interaksi → AssistiveTouch → Trackpad Virtual → Trackpad → Opasitas: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID/TRACKPAD#OPACITY`
+- Aksesibilitas → Interaksi → AssistiveTouch → Perangkat: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices`
+- Aksesibilitas → Interaksi → AssistiveTouch → Perangkat → Perangkat: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices#AssistiveTouchMouseDevices`
+- Aksesibilitas → Interaksi → AssistiveTouch → Perangkat → Perangkat Bluetooth…: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices/BluetoothDevicesScanning`
+- Aksesibilitas → Interaksi → AssistiveTouch → Perangkat → Perangkat Bluetooth… → Perangkat Bluetooth…: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices/BluetoothDevicesScanning#BluetoothDevicesScanning`
+- Aksesibilitas → Interaksi → AssistiveTouch → Tombol Tetikus: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseKeys`
+- Aksesibilitas → Interaksi → AssistiveTouch → Tombol Tetikus → Tombol Tetikus: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseKeys#AssistiveTouchMouseKeys`
+- Aksesibilitas → Interaksi → AssistiveTouch → Tombol Tetikus → Pengubah Tombol Option: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseKeys#OptionKeyToggle`
+- Aksesibilitas → Interaksi → AssistiveTouch → Tombol Tetikus → Gunakan Papan Ketik Utama: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseKeys#UsePrimaryKeyboard`
+- Aksesibilitas → Interaksi → AssistiveTouch → Tombol Tetikus → Penundaan Awal: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseKeys#InitialDelay`
+- Aksesibilitas → Interaksi → AssistiveTouch → Tombol Tetikus → Kecepatan Maksimum: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseKeys#MaximumSpeed`
+- Aksesibilitas → Interaksi → AssistiveTouch → Papan Ketik Pada Layar: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AlwaysShowSoftwareKeyboard`
+- Aksesibilitas → Interaksi → AssistiveTouch → Selalu Tampilkan Menu: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AlwaysShowMenu`
+- Aksesibilitas → Interaksi → AssistiveTouch → Bunyi saat Diklik: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#MouseClickSounds`
+- Aksesibilitas → Interaksi → AssistiveTouch → Kontrol Tetap: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellEnabledSpecifier`
+- Aksesibilitas → Interaksi → AssistiveTouch → Toleransi Gerakan: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellToleranceSpecifier`
+- Aksesibilitas → Interaksi → AssistiveTouch → Toleransi Gerakan → Toleransi Gerakan: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellToleranceSpecifier#DwellToleranceSpecifier`
+- Aksesibilitas → Interaksi → AssistiveTouch → Sensitivitas Pelacakan: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#TouchSpeed`
+- Aksesibilitas → Interaksi → AssistiveTouch → Tindakan Pengembalian: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellAutorevertSpecifier`
+- Aksesibilitas → Interaksi → AssistiveTouch → Tindakan Pengembalian → Tindakan Pengembalian: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellAutorevertSpecifier#DwellAutorevertSpecifier`
+- Aksesibilitas → Interaksi → AssistiveTouch → Pojok Aktif: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellCornersSpecifier`
+- Aksesibilitas → Interaksi → AssistiveTouch → Pojok Aktif → Pojok Aktif: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellCornersSpecifier#DwellCornersSpecifier`
+- Aksesibilitas → Interaksi → AssistiveTouch → Pojok Aktif → Kiri Atas: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellCornersSpecifier#TopLeft`
+- Aksesibilitas → Interaksi → AssistiveTouch → Pojok Aktif → Kanan Atas: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellCornersSpecifier#TopRight`
+- Aksesibilitas → Interaksi → AssistiveTouch → Pojok Aktif → Kiri Bawah: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellCornersSpecifier#BottomLeft`
+- Aksesibilitas → Interaksi → AssistiveTouch → Pojok Aktif → Kanan Bawah: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellCornersSpecifier#BottomRight`
+- Aksesibilitas → Interaksi → AssistiveTouch → Prediksi Diperluas: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellExtendedPredictionsSpecifier`
+- Aksesibilitas → Interaksi → AssistiveTouch → Batas Waktu Kontrol Tetap: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellTimeoutSpecifier`
+- Aksesibilitas → Interaksi → AssistiveTouch → Konfirmasi dengan AssistiveTouch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#APPLE_PAY_SWITCH`
+- Aksesibilitas → Interaksi → AssistiveTouch → Jalankan Gerakan Sentuh: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#MouseBehavesLikeFinger`
+- Aksesibilitas → Interaksi → AssistiveTouch → Gunakan Pengontrol Game: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#EnableAssistiveTouchGameControllerSpecifier`
+- Aksesibilitas → Interaksi → AssistiveTouch → Tindakan Bunyi: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/SOUND_ACTIONS`
+- Aksesibilitas → Interaksi → AssistiveTouch → Tindakan Bunyi: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#SOUND_ACTIONS`
+- Aksesibilitas → Interaksi → Kontrol Tetap: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL`
+- Aksesibilitas → Interaksi → Kontrol Tetap → Kontrol Tetap: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL#DWELL_CONTROL_TITLE`
+- Aksesibilitas → Interaksi → Kontrol Tetap → Target: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL/DWELL_CONTROL_TARGET`
+- Aksesibilitas → Interaksi → Kontrol Tetap → Toleransi Gerakan: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL/DWELL_MOVEMENT_TOLERANCE`
+- Aksesibilitas → Interaksi → Kontrol Tetap → Sorot Kontrol: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL#DWELL_HIGHLIGHT_CONTROL_TITLE`
+- Aksesibilitas → Interaksi → Kontrol Tetap → Jeda Selama Pemutaran Media: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL#DWELL_PAUSE_FOR_MEDIA_PLAYBACK_TITLE`
+- Aksesibilitas → Interaksi → Kontrol Tetap → Tampilkan Kontrol Pengguliran: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL#AXDwellQuickScrollSpecifierID`
+- Aksesibilitas → Interaksi → Kontrol Tetap → Menu Mengikuti: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL#AXDwellFollowSpecifierID`
+- Aksesibilitas → Interaksi → Kontrol Tetap: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/#DwellEnabledSpecifier`
+- Aksesibilitas → Interaksi → Keterjangkauan: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#REACHABILITY`
+- Aksesibilitas → Interaksi → Sentuhan Haptik: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch`
+- Aksesibilitas → Interaksi → Sentuhan Haptik → Sentuhan Haptik: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#ForceTouch`
+- Aksesibilitas → Interaksi → Sentuhan Haptik → 3D Touch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#ForceTouchAccessibilityMainSwitch`
+- Aksesibilitas → Interaksi → Sentuhan Haptik → Sensitivitas 3D Touch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#FourceTouchSensitivityGroupIdentifier`
+- Aksesibilitas → Interaksi → Sentuhan Haptik → Durasi Sentuh: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#timingGroup`
+- Aksesibilitas → Interaksi → Sentuhan Haptik → Tes Durasi Sentuhan: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#FourceTouchSensitivityTestGroupIdentifier`
+- Aksesibilitas → Interaksi → Akomodasi Sentuh: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS`
+- Aksesibilitas → Interaksi → Akomodasi Sentuh → Akomodasi Sentuh: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#TOUCH_ACCOMMODATIONS_SWITCHER`
+- Aksesibilitas → Interaksi → Akomodasi Sentuh → Durasi Penahanan: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#HoldDuration`
+- Aksesibilitas → Interaksi → Akomodasi Sentuh → Abaikan Pengulangan: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#IgnoreRepeat`
+- Aksesibilitas → Interaksi → Akomodasi Sentuh → Bantuan Ketukan: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#Tap%20Assistance`
+- Aksesibilitas → Interaksi → Ketuk-Bangun: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TAP_TO_WAKE_TITLE`
+- Aksesibilitas → Interaksi → Ketuk atau Gesek untuk Bangun: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TAP_TOUCH_TO_WAKE_TITLE`
+- Aksesibilitas → Interaksi → Goyang untuk Urung: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#SHAKE_TO_UNDO`
+- Aksesibilitas → Interaksi → Getaran: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#VIBRATION`
+- Aksesibilitas → Interaksi → Cegah Kunci Mengakhiri Panggilan: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#LockButtonIgnore`
+- Aksesibilitas → Interaksi → Penyaluran Audio Panggilan: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING`
+- Aksesibilitas → Interaksi → Penyaluran Audio Panggilan → Penyaluran Audio Panggilan: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING`
+- Aksesibilitas → Interaksi → Penyaluran Audio Panggilan → Otomatis Jawab Panggilan: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING/callAudioRoutingAutoAnswer`
+- Aksesibilitas → Interaksi → Penyaluran Audio Panggilan → Otomatis Jawab Panggilan → Otomatis Jawab Panggilan: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING/callAudioRoutingAutoAnswer#callAudioRoutingAutoAnswer`
+- Aksesibilitas → Interaksi → Ketuk Bagian Belakang: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/BackTap`
+- Aksesibilitas → Interaksi → Ketuk Bagian Belakang → Ketuk Bagian Belakang: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/BackTap#BackTap`
+- Aksesibilitas → Interaksi → Ketuk Bagian Belakang → Ketuk Dua Kali: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/BackTap/DoubleTap`
+- Aksesibilitas → Interaksi → Ketuk Bagian Belakang → Ketuk Dua Kali → Ketuk Dua Kali: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/BackTap/DoubleTap#DoubleTap`
+- Aksesibilitas → Interaksi → Ketuk Bagian Belakang → Ketuk Tiga Kali: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/BackTap/TripleTap`
+- Aksesibilitas → Interaksi → Ketuk Bagian Belakang → Ketuk Tiga Kali → Ketuk Tiga Kali: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/BackTap/TripleTap#TripleTap`
+- Aksesibilitas → Interaksi → Kontrol Penunjuk: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer`
+- Aksesibilitas → Interaksi → Kontrol Penunjuk → Tambah Kontras: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#PointerIncreaseContrastSpecifier`
+- Aksesibilitas → Interaksi → Kontrol Penunjuk → Otomatis Sembunyikan Penunjuk: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#PointerAutoHideSpecifier`
+- Aksesibilitas → Interaksi → Kontrol Penunjuk → Warna: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#PointerColorSpecifier`
+- Aksesibilitas → Interaksi → Kontrol Penunjuk → Ukuran Penunjuk: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#PointerSizeSpecifier`
+- Aksesibilitas → Interaksi → Kontrol Penunjuk → Kontrol Penunjuk: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#PointerControlEnablingCell`
+- Aksesibilitas → Interaksi → Kontrol Penunjuk → Kontrol: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer/POINTER_CONTROL_CONTROL`
+- Aksesibilitas → Interaksi → Kontrol Penunjuk → Warna: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer/PointerColorSpecifier`
+- Aksesibilitas → Interaksi → Kontrol Penunjuk → Warna → Lebar Tepi: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer/PointerColorSpecifier#PointerStrokeWidth`
+- Aksesibilitas → Interaksi → Kontrol Penunjuk → Abaikan Trackpad: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#IgnoreTrackpad`
+- Aksesibilitas → Interaksi → Kontrol Penunjuk → Inersia Trackpad: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#PointerInertia`
+- Aksesibilitas → Interaksi → Kontrol Penunjuk → Animasi Penunjuk: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#PointerCustomShapes`
+- Aksesibilitas → Interaksi → Kontrol Penunjuk → Kecepatan Menggulir: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#DeviceScrollSpeed`
+- Aksesibilitas → Interaksi → Lihat ke Atas untuk Pusat Kontrol: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/UPWARDS_HUD`
+- Aksesibilitas → Interaksi → Lihat ke Atas untuk Pusat Kontrol → Posisi vertikal Pusat Kontrol: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/UPWARDS_HUD#UpwardsHUDPositionSpecifier`
+- Aksesibilitas → Interaksi → Lihat ke Atas untuk Pusat Kontrol → Lihat ke Atas untuk Pusat Kontrol: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/UPWARDS_HUD#UpwardsHUDToggleSpecifier`
+- Aksesibilitas → Interaksi → Tindakan Bunyi: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/SOUND_ACTIONS`
+- Aksesibilitas → Interaksi → Pilih Kontrol yang Tidak Terkunci Kepala: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#CAMERA_ANCHOR_ALTERNATIVE_Preference`
+- Aksesibilitas → Face ID & Perhatian: `prefs:root=ACCESSIBILITY&path=FACE_ID`
+- Aksesibilitas → Face ID & Perhatian → Perlukan Perhatian untuk Face ID: `prefs:root=ACCESSIBILITY&path=FACE_ID#PearlUnlockAttention`
+- Aksesibilitas → Face ID & Perhatian → Fitur Sadar Perhatian: `prefs:root=ACCESSIBILITY&path=FACE_ID#AttentionAware`
+- Aksesibilitas → Face ID & Perhatian → Haptik saat Pengesahan Berhasil: `prefs:root=ACCESSIBILITY&path=FACE_ID#PearlSuccessHaptic`
+- Aksesibilitas → Kontrol Pengalihan: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle`
+- Aksesibilitas → Kontrol Pengalihan → Pengalihan: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier`
+- Aksesibilitas → Kontrol Pengalihan → Pengalihan → Pengalihan: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier#SwitchesIdentifier`
+- Aksesibilitas → Kontrol Pengalihan → Pengalihan → Tambah Pengalih Baru…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier/AddSwitchIdentifier`
+- Aksesibilitas → Kontrol Pengalihan → Pengalihan → Tambah Pengalih Baru… → Tambah Pengalih Baru…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier/AddSwitchIdentifier#AddSwitchIdentifier`
+- Aksesibilitas → Kontrol Pengalihan → Pengalihan → Perangkat Bluetooth…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier/BluetoothDevicesIdentifier`
+- Aksesibilitas → Kontrol Pengalihan → Pengalihan → Perangkat Bluetooth… → Perangkat Bluetooth…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier/BluetoothDevicesIdentifier/BluetoothDevicesIdentifier`
+- Aksesibilitas → Kontrol Pengalihan → Pengalihan → Abaikan Pengaturan Pengalih Tidak Sah: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier#UpwardsHUDToggleSpecifier`
+- Aksesibilitas → Kontrol Pengalihan → Rangkaian: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/RecipesIdentifier`
+- Aksesibilitas → Kontrol Pengalihan → Rangkaian → Rangkaian: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/RecipesIdentifier#RecipesIdentifier`
+- Aksesibilitas → Kontrol Pengalihan → Rangkaian → Buat Rangkaian Baru…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/RecipesIdentifier/CreateNewRecipe`
+- Aksesibilitas → Kontrol Pengalihan → Rangkaian → Buat Rangkaian Baru… → Buat Rangkaian Baru…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/RecipesIdentifier/CreateNewRecipe#CreateNewRecipe`
+- Aksesibilitas → Kontrol Pengalihan → Rangkaian → Luncurkan Rangkaian: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/RecipesIdentifier/LaunchRecipe`
+- Aksesibilitas → Kontrol Pengalihan → Rangkaian → Luncurkan Rangkaian → Luncurkan Rangkaian: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/RecipesIdentifier/LaunchRecipe#LaunchRecipe`
+- Aksesibilitas → Kontrol Pengalihan → Gaya Pemindaian: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier`
+- Aksesibilitas → Kontrol Pengalihan → Gaya Pemindaian → Gaya Pemindaian: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#ScanningStyleIdentifier`
+- Aksesibilitas → Kontrol Pengalihan → Mode Kontrol Pengalihan: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/FirstLaunchScanningModeIdentifier`
+- Aksesibilitas → Kontrol Pengalihan → Mode Kontrol Pengalihan → Mode Kontrol Pengalihan: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/FirstLaunchScanningModeIdentifier#FirstLaunchScanningModeIdentifier`
+- Aksesibilitas → Kontrol Pengalihan → Waktu Pemindaian Otomatis: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningSpeedIdentifier`
+- Aksesibilitas → Kontrol Pengalihan → Waktu Pemindaian Otomatis → Waktu Pemindaian Otomatis: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningSpeedIdentifier#NumericalPreferencePickerGroupIdentifier`
+- Aksesibilitas → Kontrol Pengalihan → Jeda pada Item Pertama: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/DelayAfterInputIdentifier`
+- Aksesibilitas → Kontrol Pengalihan → Jeda pada Item Pertama → Jeda pada Item Pertama: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/DelayAfterInputIdentifier#NumericalPreferenceSwitcherIdentifier`
+- Aksesibilitas → Kontrol Pengalihan → Loop: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanCyclesIdentifier`
+- Aksesibilitas → Kontrol Pengalihan → Loop → Loop: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanCyclesIdentifier#ScanCyclesIdentifier`
+- Aksesibilitas → Kontrol Pengalihan → Ulangi Pemindahan: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ActionRepeatIdentifier`
+- Aksesibilitas → Kontrol Pengalihan → Ulangi Pemindahan → Ulangi Pemindahan: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ActionRepeatIdentifier#NumericalPreferenceSwitcherIdentifier`
+- Aksesibilitas → Kontrol Pengalihan → Mode Kontrol Pengalihan: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSelectionGroupIdentifier`
+- Aksesibilitas → Kontrol Pengalihan → Mode Kontrol Pengalihan → Kursor Meluncur: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSelectionGroupIdentifier#POINTER_PICKER_ENABLED`
+- Aksesibilitas → Kontrol Pengalihan → Tekan Lama: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/LongPressIdentifier`
+- Aksesibilitas → Kontrol Pengalihan → Tekan Lama → Tekan Lama: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/LongPressIdentifier#NumericalPreferenceSwitcherIdentifier`
+- Aksesibilitas → Kontrol Pengalihan → Perilaku Ketuk: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier`
+- Aksesibilitas → Kontrol Pengalihan → Perilaku Ketuk → Perilaku Ketuk: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#TapBehaviorIdentifier`
+- Aksesibilitas → Kontrol Pengalihan → Item Fokus Setelah Diketuk: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanLocationIdentifier`
+- Aksesibilitas → Kontrol Pengalihan → Item Fokus Setelah Diketuk → Item Fokus Setelah Diketuk: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanLocationIdentifier#ScanLocationIdentifier`
+- Aksesibilitas → Kontrol Pengalihan → Pindai Lagi Setelah Diketuk: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#RestartScanAtCurrentIdentifier`
+- Aksesibilitas → Kontrol Pengalihan → Selalu Ketuk Tombol Papan Ketik: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AlwaysTapKeyboardIdentifier`
+- Aksesibilitas → Kontrol Pengalihan → Prediksi Diperluas: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#UseExtendedKeyboardPredictionsIdentifier`
+- Aksesibilitas → Kontrol Pengalihan → Durasi Penahanan: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/HoldDurationIdentifier`
+- Aksesibilitas → Kontrol Pengalihan → Durasi Penahanan → Durasi Penahanan: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/HoldDurationIdentifier#NumericalPreferenceSwitcherIdentifier`
+- Aksesibilitas → Kontrol Pengalihan → Abaikan Pengulangan: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/IgnoreRepeatIdentifier`
+- Aksesibilitas → Kontrol Pengalihan → Abaikan Pengulangan → Abaikan Pengulangan: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/IgnoreRepeatIdentifier#NumericalPreferenceSwitcherIdentifier`
+- Aksesibilitas → Kontrol Pengalihan → Kursor Meluncur: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier`
+- Aksesibilitas → Kontrol Pengalihan → Kursor Meluncur → Kursor Meluncur: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#AxisSweepIdentifier`
+- Aksesibilitas → Kontrol Pengalihan → Kursor Meluncur → Mode Pilihan: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleGroup`
+- Aksesibilitas → Kontrol Pengalihan → Kursor Meluncur → Kecepatan Kursor Meluncur: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#AxisSweepSpeed`
+- Aksesibilitas → Kontrol Pengalihan → Pelacakan Kepala: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CameraPointPickerSwitch`
+- Aksesibilitas → Kontrol Pengalihan → Pelacakan Kepala → Pelacakan Kepala: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CameraPointPickerSwitch#CameraPointPickerSwitcher`
+- Aksesibilitas → Kontrol Pengalihan → Efek Suara: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SoundIdentifier`
+- Aksesibilitas → Kontrol Pengalihan → Ucapan: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier`
+- Aksesibilitas → Kontrol Pengalihan → Ucapan → Suara: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#VoicesIdentifier`
+- Aksesibilitas → Kontrol Pengalihan → Ucapan → Ucapkan Atribut Item: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#SPEECH_SPEAKS_TRAITS_LABEL`
+- Aksesibilitas → Kontrol Pengalihan → Ucapan → Jeda saat Berbicara: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#SPEECH_PAUSES_SCANNING_LABEL`
+- Aksesibilitas → Kontrol Pengalihan → Item Menu: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier`
+- Aksesibilitas → Kontrol Pengalihan → Item Menu → Item Menu: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier#CustomizeMenuIdentifier`
+- Aksesibilitas → Kontrol Pengalihan → Item Menu → Level Atas: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/TopLevel`
+- Aksesibilitas → Kontrol Pengalihan → Item Menu → Level Atas → Level Atas: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/TopLevel#TopLevel`
+- Aksesibilitas → Kontrol Pengalihan → Item Menu → Gerakan: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Gestures`
+- Aksesibilitas → Kontrol Pengalihan → Item Menu → Gerakan → Gerakan: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Gestures#Gestures`
+- Aksesibilitas → Kontrol Pengalihan → Item Menu → Perangkat: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Device`
+- Aksesibilitas → Kontrol Pengalihan → Item Menu → Perangkat → Perangkat: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Device#Device`
+- Aksesibilitas → Kontrol Pengalihan → Item Menu → Pengaturan: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Settings`
+- Aksesibilitas → Kontrol Pengalihan → Item Menu → Pengaturan → Pengaturan: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Settings#Settings`
+- Aksesibilitas → Kontrol Pengalihan → Item Menu → Kontrol Media: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/MediaControls`
+- Aksesibilitas → Kontrol Pengalihan → Item Menu → Kontrol Media → Kontrol Media: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/MediaControls#MediaControls`
+- Aksesibilitas → Kontrol Pengalihan → Kelompokkan Item: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ItemGroupingIdentifier`
+- Aksesibilitas → Kontrol Pengalihan → Kursor Besar: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CursorVisibilityIdentifier`
+- Aksesibilitas → Kontrol Pengalihan → Gerakan yang Disimpan: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomGesturesIdentifier`
+- Aksesibilitas → Kontrol Pengalihan → Gerakan yang Disimpan → Gerakan yang Disimpan: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomGesturesIdentifier#CustomGesturesIdentifier`
+- Aksesibilitas → Kontrol Pengalihan → Gerakan yang Disimpan → Buat Gerakan Baru…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomGesturesIdentifier/CreateCustomGesture`
+- Aksesibilitas → Kontrol Pengalihan → Gerakan yang Disimpan → Buat Gerakan Baru… → Buat Gerakan Baru…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomGesturesIdentifier/CreateCustomGesture#CreateCustomGesture`
+- Aksesibilitas → Kontrol Pengalihan → Gunakan Kontrol Pengalihan: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#APPLE_PAY_SWITCH`
+- Aksesibilitas → Kontrol Pengalihan → Warna Kursor: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CursorColorIdentifier`
+- Aksesibilitas → Kontrol Pengalihan → Warna Kursor → Warna Kursor: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CursorColorIdentifier#CursorColorIdentifier`
+- Aksesibilitas → Kontrol Suara: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle`
+- Aksesibilitas → Kontrol Suara → Atur Kontrol Suara: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#SETUP_COMMAND_AND_CONTROL`
+- Aksesibilitas → Kontrol Suara → Buka Tutorial Kontrol Suara: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#COMMAND_AND_CONTROL_LAUNCH_ONBOARDING`
+- Aksesibilitas → Kontrol Suara → Bahasa: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_LANGUAGE`
+- Aksesibilitas → Kontrol Suara → Bahasa → Bahasa: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_LANGUAGE#COMMAND_AND_CONTROL_LANGUAGE`
+- Aksesibilitas → Kontrol Suara → Perintah: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS`
+- Aksesibilitas → Kontrol Suara → Perintah → Perintah: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS#COMMAND_AND_CONTROL_COMMANDS`
+- Aksesibilitas → Kontrol Suara → Perintah → Buat Perintah Baru: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/CreateNewCommand`
+- Aksesibilitas → Kontrol Suara → Perintah → Buat Perintah Baru → Buat Perintah Baru: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/CreateNewCommand#CreateNewCommand`
+- Aksesibilitas → Kontrol Suara → Perintah → Navigasi Dasar: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/System`
+- Aksesibilitas → Kontrol Suara → Perintah → Lapisan Atas: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/Overlays`
+- Aksesibilitas → Kontrol Suara → Perintah → Gerakan Dasar: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/Gestures`
+- Aksesibilitas → Kontrol Suara → Perintah → Gerakan Lanjutan: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/DragDropGestures`
+- Aksesibilitas → Kontrol Suara → Perintah → Dikte: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/TextDictation`
+- Aksesibilitas → Kontrol Suara → Perintah → Navigasi Teks: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/Movement`
+- Aksesibilitas → Kontrol Suara → Perintah → Pilihan Teks: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/Selection`
+- Aksesibilitas → Kontrol Suara → Perintah → Pengeditan Teks: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/Editing`
+- Aksesibilitas → Kontrol Suara → Perintah → Penghapusan Teks: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/AdvancedDeletion`
+- Aksesibilitas → Kontrol Suara → Perintah → Perangkat: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/Hardware`
+- Aksesibilitas → Kontrol Suara → Perintah → Aksesibilitas: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/Accessibility`
+- Aksesibilitas → Kontrol Suara → Perintah → Impor Perintah Khusus: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/ImportCustomCommands`
+- Aksesibilitas → Kontrol Suara → Perintah → Impor Perintah Khusus → Impor Perintah Khusus: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/ImportCustomCommands#ImportCustomCommands`
+- Aksesibilitas → Kontrol Suara → Kosakata: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_VOCABULARY`
+- Aksesibilitas → Kontrol Suara → Kosakata → Kosakata: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_VOCABULARY/VOCABULARY`
+- Aksesibilitas → Kontrol Suara → Kosakata → Kosakata → Kosakata: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_VOCABULARY/VOCABULARY#VOCABULARY`
+- Aksesibilitas → Kontrol Suara → Kosakata → Impor Kosakata: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_VOCABULARY#IMPORT_VOCABULARY`
+- Aksesibilitas → Kontrol Suara → Kosakata → Ekspor Kosakata: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_VOCABULARY#EXPORT_VOCABULARY`
+- Aksesibilitas → Kontrol Suara → Kosakata → Hapus Semua Kosakata: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_VOCABULARY#DELETE_ALL_VOCABULARY`
+- Aksesibilitas → Kontrol Suara → Tampilkan Konfirmasi: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#SHOW_TEXT_RESPONSE_TITLE`
+- Aksesibilitas → Kontrol Suara → Putar Bunyi: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#PLAY_SOUND_RESPONSE_TITLE`
+- Aksesibilitas → Kontrol Suara → Tampilkan Petunjuk: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#USER_HINTS_SHOW_HINTS_TITLE`
+- Aksesibilitas → Kontrol Suara → Lapisan Atas: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY`
+- Aksesibilitas → Kontrol Suara → Lapisan Atas → Lapisan Atas: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#ALWAYS_SHOW_OVERLAY`
+- Aksesibilitas → Kontrol Suara → Sadar Perhatian: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ATTENTION_AWARE_ACTION`
+- Aksesibilitas → Tombol Atas/Touch ID: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE`
+- Aksesibilitas → Tombol Atas/Touch ID → Kecepatan Klik: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_SPEED_HEADER`
+- Aksesibilitas → Tombol Atas/Touch ID → Tekan dan Tahan untuk Berbicara: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantTitle`
+- Aksesibilitas → Tombol Atas/Touch ID → Tombol Utama: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE/HomeButtonAssistantTitle`
+- Aksesibilitas → Tombol Atas/Touch ID → Tombol Utama → Tempelkan Jari-Buka: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE/HomeButtonAssistantTitle#RestingUnlockSetting`
+- Aksesibilitas → Tombol Atas/Touch ID → Aktifkan Konfirmasi dengan Kontrol Pengalihan: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#APPLE_PAY_CONFIRM_WITH_SC`
+- Aksesibilitas → Tombol Atas/Touch ID → Aktifkan dengan AssistiveTouch: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#APPLE_PAY_CONFIRM_WITH_AST`
+- Aksesibilitas → Apple TV Remote: `prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE`
+- Aksesibilitas → Apple TV Remote → Tombol Arah: `prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE#AppleTVSimpleGestures`
+- Aksesibilitas → Apple TV Remote → Tombol TV Langsung: `prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE#AppleTVLiveTVButtons`
+- Aksesibilitas → Pencerminan Apple Watch: `prefs:root=ACCESSIBILITY&path=APPLE_WATCH_REMOTE_SCREEN`
+- Aksesibilitas → Alat Bantu Dengar: `prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE`
+- Aksesibilitas → Alat Bantu Dengar → Alat Bantu Dengar MFi: `prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#AvailableAidsHeading`
+- Aksesibilitas → Alat Bantu Dengar → Kompatibilitas Alat Dengar: `prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#HEARING_AID_COMPLIANCE`
+- Aksesibilitas → Pusat Kontrol Pendengaran: `prefs:root=ACCESSIBILITY&path=HEARING_CONTROL_CENTER`
+- Aksesibilitas → Pusat Kontrol Pendengaran → Kontrol yang Disertakan: `prefs:root=ACCESSIBILITY&path=HEARING_CONTROL_CENTER#INCLUDED_MODULES_SECTION_TITLE`
+- Aksesibilitas → Pusat Kontrol Pendengaran → Kontrol Lainnya: `prefs:root=ACCESSIBILITY&path=HEARING_CONTROL_CENTER#MORE_MODULES_SECTION_TITLE`
+- Aksesibilitas → Pengenalan Bunyi: `prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE`
+- Aksesibilitas → Pengenalan Bunyi → Bunyi: `prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE/Sounds`
+- Aksesibilitas → Pengenalan Bunyi → Bunyi → Bunyi: `prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE/Sounds#Sounds`
+- Aksesibilitas → RTT/TTY: `prefs:root=ACCESSIBILITY&path=RTT`
+- Aksesibilitas → RTT/TTY → RTT/TTY Perangkat Lunak: `prefs:root=ACCESSIBILITY&path=RTT#SW_TTY`
+- Aksesibilitas → RTT/TTY → TTY Perangkat Keras: `prefs:root=ACCESSIBILITY&path=RTT#HW_TTY`
+- Aksesibilitas → Audio & Visual: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE`
+- Aksesibilitas → Audio & Visual → Akomodasi Headphone: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID`
+- Aksesibilitas → Audio & Visual → Akomodasi Headphone → Akomodasi Headphone: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID#AXPAEnableSpecID`
+- Aksesibilitas → Audio & Visual → Akomodasi Headphone → Pengaturan Audio Khusus: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID#AXPAPersonalAudioSetupSpecID`
+- Aksesibilitas → Audio & Visual → Bunyi Latar Belakang: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID`
+- Aksesibilitas → Audio & Visual → Bunyi Latar Belakang → Bunyi Latar Belakang: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID#CSFeatureToggleSpecID`
+- Aksesibilitas → Audio & Visual → Bunyi Latar Belakang → Bunyi: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID/ComfortSoundSoundLabel`
+- Aksesibilitas → Audio & Visual → Bunyi Latar Belakang → Bunyi → Bunyi: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID/ComfortSoundSoundLabel#ComfortSoundSoundLabel`
+- Aksesibilitas → Audio & Visual → Bunyi Latar Belakang → Volume Bunyi Latar Belakang: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID#ComfortSoundsVolume`
+- Aksesibilitas → Audio & Visual → Bunyi Latar Belakang → Gunakan Saat Media Diputar: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID#ComfortSoundsMixingName`
+- Aksesibilitas → Audio & Visual → Bunyi Latar Belakang → Volume dengan Media: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID#ComfortSoundsMixingVolume`
+- Aksesibilitas → Audio & Visual → Bunyi Latar Belakang → Hentikan Bunyi Saat Terkunci: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID#ComfortSoundsPlayWhenLockedName`
+- Aksesibilitas → Audio & Visual → Audio Mono: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAMonoSpecID`
+- Aksesibilitas → Audio & Visual → Selalu Tampilkan Kontrol Volume: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAAlwaysShowVolumeControlSpecID`
+- Aksesibilitas → Audio & Visual → Peredam Kebisingan Telepon: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPANoiseSpecID`
+- Aksesibilitas → Audio & Visual → Kilat LED Peringatan: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH`
+- Aksesibilitas → Audio & Visual → Kilat LED Peringatan → Kilat LED Peringatan: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_FLASH`
+- Aksesibilitas → Audio & Visual → Kilat LED Peringatan → Kilat Saat Tidak Dikunci: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_FLASH_WHILE_UNLOCKED`
+- Aksesibilitas → Audio & Visual → Kilat LED Peringatan → Kilat dalam Mode Hening: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_RINGER_SWITCH_CONTROL`
+- Aksesibilitas → Audio & Visual → Pengimbang Stereo Kiri-Kanan: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#LeftRightBalance`
+- Aksesibilitas → Audio & Visual → Bunyi Daya Nyala & Mati: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#StartupSound`
+- Aksesibilitas → Audio & Visual → Pemberitahuan Headphone: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXHeadphoneNotificationsSpecID`
+- Aksesibilitas → Audio & Visual → Tambahkan Isolasi Suara: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#ExtendedVoiceIsolationSpecID`
+- Aksesibilitas → Audio & Visual → Efek Bunyi: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#SOUND_EFFECTS_PREFERENCE`
+- Aksesibilitas → Audio & Visual → Tambahkan Audio di Panggilan: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/MIX_TO_UPLINK`
+- Aksesibilitas → Audio & Visual → Tambahkan Audio di Panggilan → Izinkan App untuk Menambahkan Audio di Panggilan: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/MIX_TO_UPLINK#MIX_TO_UPLINK`
+- Aksesibilitas → Subtitle & Teks Tertulis: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING`
+- Aksesibilitas → Subtitle & Teks Tertulis → Gaya: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING/currentTheme`
+- Aksesibilitas → Subtitle & Teks Tertulis → Gaya → Gaya: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING/currentTheme#currentTheme`
+- Aksesibilitas → Subtitle & Teks Tertulis → Teks Tertulis + SDH: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#PREFER_SDH`
+- Aksesibilitas → Subtitle & Teks Tertulis → Tampilkan Transkripsi Audio: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#SHOW_AUDIO_TRANSCRIPTIONS`
+- Aksesibilitas → Subtitle & Teks Tertulis → Tampilkan saat Dibisukan: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#SHOW_WHEN_MUTED`
+- Aksesibilitas → Subtitle & Teks Tertulis → Tampilkan di Lewati Mundur: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#SHOW_ON_SKIP_BACK`
+- Aksesibilitas → Teks Langsung: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION`
+- Aksesibilitas → Teks Langsung → Teks Langsung: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION#LIVE_TRANSCRIPTION_TITLE`
+- Aksesibilitas → Teks Langsung → Tampilan: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE`
+- Aksesibilitas → Teks Langsung → Tampilan → Tampilan: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE#LIVE_TRANSCRIPTION_APPEARANCE`
+- Aksesibilitas → Teks Langsung → Tampilan → Tebalkan Teks: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE/ENHANCE_TEXT_LEGIBILITY`
+- Aksesibilitas → Teks Langsung → Tampilan → Tebalkan Teks → Tebalkan Teks: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE/ENHANCE_TEXT_LEGIBILITY#ENHANCE_TEXT_LEGIBILITY`
+- Aksesibilitas → Teks Langsung → Tampilan → Ukuran Teks: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE/LARGER_TEXT`
+- Aksesibilitas → Teks Langsung → Tampilan → Ukuran Teks → Ukuran Teks: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE/LARGER_TEXT#LARGER_TEXT`
+- Aksesibilitas → Teks Langsung → Tampilan → Pilihan Warna: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE#LIVE_TRANSCRIPTION_COLOR_OPTIONS`
+- Aksesibilitas → Teks Langsung → Tampilan → Warna Teks: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE#LIVE_TRANSCRIPTION_TEXT_COLOR`
+- Aksesibilitas → Teks Langsung → Tampilan → Warna Latar Belakang: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE#LIVE_TRANSCRIPTION_BACKGROUND_COLOR`
+- Aksesibilitas → Teks Langsung → Tampilan → Atur Ulang Warna: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE#LIVE_TRANSCRIPTION_RESET_COLORS`
+- Aksesibilitas → Teks Langsung → Tampilan → Opasitas Idle: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE#LIVE_CAPTIONS_IDLE_OPACITY_TITLE`
+- Aksesibilitas → Teks Langsung → Teks Langsung di FaceTime: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION#FACE_TIME_CAPTIONS`
+- Aksesibilitas → Akses Terpandu: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE`
+- Aksesibilitas → Akses Terpandu → Pengaturan Kode Sandi: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessSecurityLinkList`
+- Aksesibilitas → Akses Terpandu → Pengaturan Kode Sandi → Pengaturan Kode Sandi: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessSecurityLinkList#GuidedAccessSecurityLinkList`
+- Aksesibilitas → Akses Terpandu → Pengaturan Kode Sandi → Atur Kode Sandi Akses Terpandu: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessSecurityLinkList#GAXPinButton`
+- Aksesibilitas → Akses Terpandu → Pengaturan Kode Sandi → Touch ID: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessSecurityLinkList#GAXSpecIDTouchIDSwitch`
+- Aksesibilitas → Akses Terpandu → Batas Waktu: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList`
+- Aksesibilitas → Akses Terpandu → Batas Waktu → Batas Waktu: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GuidedAccessTimeRestrictionsLinkList`
+- Aksesibilitas → Akses Terpandu → Batas Waktu → Bunyi: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList/GUIDED_ACCESS_TIME_RESTRICTIONS_SOUND_TITLE`
+- Aksesibilitas → Akses Terpandu → Batas Waktu → Bunyi → Bunyi: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList/GUIDED_ACCESS_TIME_RESTRICTIONS_SOUND_TITLE#GUIDED_ACCESS_TIME_RESTRICTIONS_SOUND_TITLE`
+- Aksesibilitas → Akses Terpandu → Batas Waktu → Ucapkan: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_SPEAK_TITLE`
+- Aksesibilitas → Akses Terpandu → Pintasan Aksesibilitas: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessEnableAXFeatures`
+- Aksesibilitas → Akses Terpandu → Kunci-Auto Layar: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessAutoLockTime`
+- Aksesibilitas → Akses Terpandu → Kunci-Auto Layar → Kunci-Auto Layar: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessAutoLockTime#GuidedAccessAutoLockTime`
+- Aksesibilitas → Akses Bantuan: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE`
+- Aksesibilitas → Akses Bantuan → Atur Akses Bantuan: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#SetUpClarityUISpecifier`
+- Aksesibilitas → Akses Bantuan → Mulai Akses Bantuan: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#ClarityUIStart`
+- Aksesibilitas → Akses Bantuan → Aplikasi: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#Applications`
+- Aksesibilitas → Akses Bantuan → Pilihan: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#Options`
+- Aksesibilitas → Akses Bantuan → Wallpaper: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE/Wallpaper`
+- Aksesibilitas → Akses Bantuan → Wallpaper → Wallpaper: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE/Wallpaper#Wallpaper`
+- Aksesibilitas → Akses Bantuan → Izinkan Tombol Volume: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#VolumeButtons`
+- Aksesibilitas → Akses Bantuan → Tampilkan Waktu di Layar Terkunci: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#ShowTime`
+- Aksesibilitas → Akses Bantuan → Tampilkan Level Baterai di Layar Utama: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#ShowBattery`
+- Aksesibilitas → Akses Bantuan → Tampilkan Tanda Pemberitahuan: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#ShowNotification`
+- Aksesibilitas → Akses Bantuan → Izinkan Siri: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#AllowSiri`
+- Aksesibilitas → Akses Bantuan → Pengaturan Kode Sandi: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE/PasscodeSettings`
+- Aksesibilitas → Akses Bantuan → Pengaturan Kode Sandi → Pengaturan Kode Sandi: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE/PasscodeSettings#PasscodeSettings`
+- Aksesibilitas → Siri: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE`
+- Aksesibilitas → Siri → Ketik ke Siri: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_SETTINGS_TYPE_TO_SIRI`
+- Aksesibilitas → Siri → Waktu Jeda Siri: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#ENDPOINTER`
+- Aksesibilitas → Siri → Laju Bicara Siri: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SPEECH_RATE`
+- Aksesibilitas → Siri → Respons Lisan: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK`
+- Aksesibilitas → Siri → Selalu Dengarkan “Siri”: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_SETTINGS_VOICE_ACTIVATION_ALWAYS_ALLOW`
+- Aksesibilitas → Siri → Tampilkan App di Balik Siri: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRL_SHOW_APPS`
+- Aksesibilitas → Siri → Umumkan Pemberitahuan di Speaker: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#ANNOUNCE_NOTIFICATIONS_BUILT_IN_SPEAKER_ID`
+- Aksesibilitas → Siri → Tutup Panggilan: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE/SIRI_CALL_HANGUP_ID`
+- Aksesibilitas → Siri → Tutup Panggilan → Tutup Panggilan: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE/SIRI_CALL_HANGUP_ID#SIRI_CALL_HANGUP_ID`
+- Aksesibilitas → Siri → Dengarkan Ucapan Atipikal: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_ATYPICAL_SPEECH`
+- Aksesibilitas → Siri → Perlukan “Siri” untuk Gangguan: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_BARGE`
+- Aksesibilitas → Pintasan Aksesibilitas: `prefs:root=ACCESSIBILITY&path=TRIPLE_CLICK_TITLE`
+- Aksesibilitas → Pengaturan per App: `prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE`
+- Aksesibilitas → Pengaturan per App → Tampilkan App Tersembunyi: `prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE#PROTECTED_APPS_SHOW_HIDDEN_TITLE`
+- Aksesibilitas → Pengaturan per App → Tambah App: `prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE#AX_ADD_BUTTON_IDENTIFIER`
+- Aksesibilitas → Kontrol Perangkat di Sekitar: `prefs:root=ACCESSIBILITY&path=CONTROL_NEARBY_DEVICES`
+- Aksesibilitas → Kontrol Perangkat di Sekitar → Kontrol Perangkat di Sekitar: `prefs:root=ACCESSIBILITY&path=CONTROL_NEARBY_DEVICES#CONTROL_NEARBY_DEVICES`
+- Aksesibilitas → Input Mata: `prefs:root=ACCESSIBILITY&path=DOMINANT_EYE`
+- Aksesibilitas → Ucapan Langsung: `prefs:root=ACCESSIBILITY&path=LIVE_SPEECH_TITLE`
+- Aksesibilitas → Ucapan Langsung → Frasa: `prefs:root=ACCESSIBILITY&path=LIVE_SPEECH_TITLE/LiveSpeechCategoryManagement`
+- Aksesibilitas → Ucapan Langsung → Suara: `prefs:root=ACCESSIBILITY&path=LIVE_SPEECH_TITLE#LIVE_SPEECH_VOICES`
+- Aksesibilitas → Suara Personal: `prefs:root=ACCESSIBILITY&path=PERSONAL_VOICE_TITLE`
+- Aksesibilitas → Suara Personal → Buat Suara Personal: `prefs:root=ACCESSIBILITY&path=PERSONAL_VOICE_TITLE#VB_CREATE_PERSONAL_VOICE`
+- Aksesibilitas → Suara Personal → Bagikan di Semua Perangkat: `prefs:root=ACCESSIBILITY&path=PERSONAL_VOICE_TITLE#VB_USE_ICLOUD_TITLE`
+- Aksesibilitas → Suara Personal → Izinkan App untuk Meminta Izin Menggunakan: `prefs:root=ACCESSIBILITY&path=PERSONAL_VOICE_TITLE#VB_ALLOW_WITH_APPS`
+- Aksesibilitas → AirPods: `prefs:root=ACCESSIBILITY&path=AIRPODS`
+- Aksesibilitas → AirPods → Kecepatan Tekan: `prefs:root=ACCESSIBILITY&path=AIRPODS#TapGroup`
+- Aksesibilitas → AirPods → Durasi Tekan dan Tahan: `prefs:root=ACCESSIBILITY&path=AIRPODS#HoldGroup`
+- Aksesibilitas → AirPods → Pengaturan Audio & Visual iPhone: `prefs:root=ACCESSIBILITY&path=AIRPODS#PERSONAL_AUDIO_AIRPODS_BUTTON`
+- Aksesibilitas → AirPods → Ikuti iPhone: `prefs:root=ACCESSIBILITY&path=AIRPODS#SPATIAL_AUDIO_SWITCH`
+- Aksesibilitas → AirPods → Volume Nada: `prefs:root=ACCESSIBILITY&path=AIRPODS#TONE_VOLUME`
+- Aksesibilitas → Pintasan Suara: `prefs:root=ACCESSIBILITY&path=ADAPTIVE_VOICE_SHORTCUTS_TITLE`
+- Aksesibilitas → Pintasan Suara → Atur Pintasan Suara: `prefs:root=ACCESSIBILITY&path=ADAPTIVE_VOICE_SHORTCUTS_TITLE#AVS_SET_UP_BUTTON_TITLE`
+- Aksesibilitas → Haptik Musik: `prefs:root=ACCESSIBILITY&path=HAPTIC_MUSIC`
+- Aksesibilitas → Pelacakan Mata: `prefs:root=ACCESSIBILITY&path=OnDeviceEyeTracking`
+- Aksesibilitas → Pelacakan Mata → Pelacakan Mata: `prefs:root=ACCESSIBILITY&path=OnDeviceEyeTracking#OnDeviceEyeTrackingEnabledSpecifier`
+- Aksesibilitas → Pelacakan Mata → Penghalusan: `prefs:root=ACCESSIBILITY&path=OnDeviceEyeTracking#SMOOTHING`
+- Aksesibilitas → Pelacakan Mata → Posisikan ke Item: `prefs:root=ACCESSIBILITY&path=OnDeviceEyeTracking#SNAP_TO_ITEM`
+- Aksesibilitas → Pelacakan Mata → Perbesar Tombol Papan Ketik: `prefs:root=ACCESSIBILITY&path=OnDeviceEyeTracking#KEYBOARD_ZOOM`
+- Aksesibilitas → Pelacakan Mata → Sembunyikan Otomatis: `prefs:root=ACCESSIBILITY&path=OnDeviceEyeTracking#AUTO_HIDE`
+- Aksesibilitas → Pelacakan Mata → Kontrol Tetap: `prefs:root=ACCESSIBILITY&path=OnDeviceEyeTracking#DWELL_CONTROL`
+- Aksesibilitas → Kontrol Kamera: `prefs:root=ACCESSIBILITY&path=CAMERA_CONTROL`
+- Aksesibilitas → Kontrol Kamera → Kontrol Kamera: `prefs:root=ACCESSIBILITY&path=CAMERA_CONTROL#CAMERA_CONTROL_SWITCH`
+- Aksesibilitas → Kontrol Kamera → Tekan Lembut: `prefs:root=ACCESSIBILITY&path=CAMERA_CONTROL#LIGHT_PRESS`
+- Aksesibilitas → Kontrol Kamera → Gesek: `prefs:root=ACCESSIBILITY&path=CAMERA_CONTROL#SWIPE`
+- Aksesibilitas → Kontrol Kamera → Level Tekan Lembut: `prefs:root=ACCESSIBILITY&path=CAMERA_CONTROL#LIGHT_PRESS_FORCE`
+- Aksesibilitas → Kontrol Kamera → Kecepatan Tekan Lembut Dua Kali: `prefs:root=ACCESSIBILITY&path=CAMERA_CONTROL#SENSITIVITY`
+- Mail: `prefs:root=MAIL`
+- Mail → Akun: `prefs:root=MAIL&path=ACCOUNTS`
+- Mail → Akun → Tambah Akun: `prefs:root=MAIL&path=ACCOUNTS#ADD_ACCOUNT`
+- Mail → Akun → Ambil Data Baru: `prefs:root=MAIL&path=ACCOUNTS#FETCH_NEW_DATA`
+- Mail → Pratinjau: `prefs:root=MAIL&path=Preview`
+- Mail → Tampilkan Label Kepada/Cc: `prefs:root=MAIL#Show%20To/Cc%20Labels`
+- Mail → Pilihan Gesek: `prefs:root=MAIL&path=Swipe%20Options`
+- Mail → Tanya Sebelum Hapus: `prefs:root=MAIL#Ask%20Before%20Deleting`
+- Mail → Muat Gambar Jarak Jauh: `prefs:root=MAIL#Load%20Remote%20Images`
+- Mail → Atur menurut Topik: `prefs:root=MAIL#Organize%20by%20Thread`
+- Mail → Ciutkan Pesan Dibaca: `prefs:root=MAIL#Collapse%20Read%20Messages`
+- Mail → Pesan Terbaru Di Bagian Atas: `prefs:root=MAIL#Most%20Recent%20Message%20on%20Top`
+- Mail → Topik Lengkap: `prefs:root=MAIL#Complete%20Threads`
+- Mail → Tindakan Topik yang Dibisukan: `prefs:root=MAIL&path=Muted%20Thread%20Action`
+- Mail → Abaikan Pengirim Terblokir: `prefs:root=MAIL#Ignore%20Blocked%20Senders`
+- Mail → Pilihan Pengirim yang Diblokir: `prefs:root=MAIL&path=Blocked%20Sender%20Options`
+- Mail → Diblokir: `prefs:root=MAIL&path=Blocked`
+- Mail → Selalu Bcc Ke Saya: `prefs:root=MAIL#Always%20Bcc%20Myself`
+- Mail → Tandai Alamat: `prefs:root=MAIL&path=Mark%20Addresses`
+- Mail → Tambah Level Kutipan: `prefs:root=MAIL&path=Increase%20Quote%20Level`
+- Mail → Sertakan Lampiran dengan Balasan: `prefs:root=MAIL&path=Include%20Attachments%20with%20Replies`
+- Mail → Tanda Tangan: `prefs:root=MAIL&path=Signature`
+- Wallpaper: `prefs:root=Wallpaper`
+- Catatan: `prefs:root=NOTES`
+- Catatan → Akun Default: `prefs:root=NOTES&path=Default%20Account`
+- Catatan → Kata Sandi: `prefs:root=NOTES&path=Password`
+- Catatan → Urutkan Catatan Menurut: `prefs:root=NOTES&path=Sort%20Notes%20By`
+- Catatan → Catatan Baru Dimulai Dengan: `prefs:root=NOTES&path=New%20Notes%20Start%20With`
+- Catatan → Urutkan Item yang Dicentang: `prefs:root=NOTES&path=Sort%20Checked%20Items`
+- Catatan → Garis & Grid: `prefs:root=NOTES&path=Lines%20%26%20Grids`
+- Catatan → Simpan ke Foto: `prefs:root=NOTES#Save%20to%20Photos`
+- Catatan → Akses Catatan dari Layar Terkunci: `prefs:root=NOTES&path=Access%20Notes%20from%20Lock%20Screen`
+- Kode Sandi: `prefs:root=PASSCODE`
+- Kode Sandi → Matikan Kode Sandi: `prefs:root=PASSCODE#PASSCODE_OFF`
+- Kode Sandi → Ubah Kode Sandi: `prefs:root=PASSCODE#CHANGE_PASSCODE`
+- Kode Sandi → Perlu Kode Sandi: `prefs:root=PASSCODE&path=PASSCODE_REQ`
+- Kode Sandi → Panggilan Suara: `prefs:root=PASSCODE#VOICE_DIAL`
+- Kode Sandi → Izinkan Akses Saat Terkunci: `prefs:root=PASSCODE#ALLOW_ACCESS_WHEN_LOCKED`
+- Kode Sandi → Balas dengan Pesan: `prefs:root=PASSCODE#REPLY_WITH_MESSAGE_SWITCH`
+- Kode Sandi → Kontrol Rumah: `prefs:root=PASSCODE#HOME_CONTROL_SWITCH`
+- Kode Sandi → Dompet: `prefs:root=PASSCODE#WALLET_SWITCH`
+- Kode Sandi → Balas Panggilan Tak Terjawab: `prefs:root=PASSCODE#RETURN_MISSED_CALLS_SWITCH`
+- Kode Sandi → Hapus Data: `prefs:root=PASSCODE#WIPE_DEVICE`
+- Kode Sandi → Buka dengan Apple Watch: `prefs:root=PASSCODE#AUTO_UNLOCK_DEVICES_GROUP`
+- Kode Sandi → Perlindungan Perangkat Curian: `prefs:root=PASSCODE#DTO_GROUP_ID`
+- Kalender: `prefs:root=CALENDAR`
+- Kalender → Penimpaan Zona Waktu: `prefs:root=CALENDAR&path=TimeZoneCityArray`
+- Kalender → Kalender Alternatif: `prefs:root=CALENDAR&path=Alternate%20Calendars`
+- Kalender → Nomor Minggu: `prefs:root=CALENDAR#Week%20Numbers`
+- Kalender → Tampilkan yang Menolak: `prefs:root=CALENDAR#Show%20Invitee%20Declines`
+- Kalender → Selaraskan: `prefs:root=CALENDAR&path=Sync`
+- Kalender → Waktu Peringatan Default: `prefs:root=CALENDAR&path=Default%20Alert%20Times`
+- Kalender → Mulai Minggu Pada: `prefs:root=CALENDAR&path=Start%20Week%20On`
+- Kalender → Saran Lokasi: `prefs:root=CALENDAR#Location%20Suggestions`
+- Data Kesehatan: `prefs:root=HEALTH`
+- Telepon: `prefs:root=Phone`
+- Telepon → Nomor Saya: `prefs:root=Phone&path=My%20Number`
+- Telepon → Panggilan Masuk: `prefs:root=Phone&path=INCOMING_CALL_STYLE`
+- Telepon → Umumkan Panggilan: `prefs:root=Phone&path=ANNOUNCE_CALLS`
+- Telepon → Pelaporan SMS/Panggilan: `prefs:root=Phone&path=CLASSIFICATION_AND_REPORTING`
+- Telepon → Respons dengan Teks: `prefs:root=Phone&path=Respond%20with%20Text`
+- Telepon → Penerusan Panggilan: `prefs:root=Phone&path=Call%20Forwarding`
+- Telepon → Penerusan Panggilan → Penerusan Panggilan: `prefs:root=Phone&path=Call%20Forwarding#idMasterOnOffSwitch`
+- Telepon → Nada Sela: `prefs:root=Phone&path=Call%20Waiting`
+- Telepon → Tunjukkan ID Penelepon Saya: `prefs:root=Phone&path=Show%20My%20Caller%20ID`
+- Telepon → Tunjukkan ID Penelepon Saya → Tunjukkan ID Penelepon Saya: `prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary`
+- Telepon → Tunjukkan ID Penelepon Saya → Tunjukkan ID Penelepon Saya → Tunjukkan ID Penelepon Saya: `prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary#Show%20My%20Caller%20ID`
+- Telepon → Heningkan Nomor Tak Dikenal: `prefs:root=Phone#SILENCE_CALLS`
+- Telepon → Kontak yang Diblokir: `prefs:root=Phone&path=SPECIFIER_IDENTIFIER_BLACKLIST`
+- Telepon → Bantuan Telepon: `prefs:root=Phone&path=Dial%20Assist`
+- App Store: `prefs:root=STORE`
+- App Store → Pengunduhan Otomatis: `prefs:root=STORE#Automatic%20Downloads`
+- App Store → Pembaruan Aplikasi: `prefs:root=STORE#App%20Updates`
+- App Store → Pengunduhan App: `prefs:root=STORE&path=App%20Downloads`
+- App Store → Pemutaran Otomatis Video: `prefs:root=STORE&path=Video%20Autoplay`
+- App Store → Penilaian & Ulasan Di App: `prefs:root=STORE#In-App%20Ratings%20&%20Reviews`
+- Privasi & Keamanan: `prefs:root=Privacy` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity`
+- Privasi & Keamanan → Kesehatan: `prefs:root=Privacy&path=HEALTH` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/HEALTH`
+- Privasi & Keamanan → Data Kesehatan: `prefs:root=Privacy&path=HEALTH_DATA` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/HEALTH_DATA`
+- Privasi & Keamanan → Lokasi: `prefs:root=Privacy&path=LOCATION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/LOCATION`
+- Privasi & Keamanan → Lokasi → Bagikan Lokasi Saya: `prefs:root=Privacy&path=LOCATION/LOCATION_SHARING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/LOCATION/LOCATION_SHARING`
+- Privasi & Keamanan → Kontak: `prefs:root=Privacy&path=CONTACTS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CONTACTS`
+- Privasi & Keamanan → Kalender: `prefs:root=Privacy&path=CALENDARS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CALENDARS`
+- Privasi & Keamanan → Pengingat: `prefs:root=Privacy&path=REMINDERS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/REMINDERS`
+- Privasi & Keamanan → Foto: `prefs:root=Privacy&path=PHOTOS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PHOTOS`
+- Privasi & Keamanan → Berbagi Bluetooth: `prefs:root=Privacy&path=BT_PERIPHERAL` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/BT_PERIPHERAL`
+- Privasi & Keamanan → Mikrofon: `prefs:root=Privacy&path=MICROPHONE` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/MICROPHONE`
+- Privasi & Keamanan → Pengenalan Ucapan: `prefs:root=Privacy&path=SPEECH_RECOGNITION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/SPEECH_RECOGNITION`
+- Privasi & Keamanan → Kamera: `prefs:root=Privacy&path=CAMERA` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CAMERA`
+- Privasi & Keamanan → HomeKit: `prefs:root=Privacy&path=WILLOW` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/WILLOW`
+- Privasi & Keamanan → Media & Apple Music: `prefs:root=Privacy&path=MEDIALIBRARY` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/MEDIALIBRARY`
+- Privasi & Keamanan → Analisis: `prefs:root=Privacy&path=PROBLEM_REPORTING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PROBLEM_REPORTING`
+- Privasi & Keamanan → Pengiklanan: `prefs:root=Privacy&path=ADVERTISING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/ADVERTISING`
+- Privasi & Keamanan → File dan Folder: `prefs:root=Privacy&path=FILEACCESS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/FILEACCESS`
+- Privasi & Keamanan → Pelacakan: `prefs:root=Privacy&path=USER_TRACKING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/USER_TRACKING`
+- Privasi & Keamanan → Laporan Privasi App: `prefs:root=Privacy&path=PRIVACY_REPORT` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PRIVACY_REPORT`
+- Privasi & Keamanan → Mode Kuncitara: `prefs:root=Privacy#LOCKDOWN_MODE` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity#LOCKDOWN_MODE#LOCKDOWN_MODE`
+- Privasi & Keamanan → Konten Sensitif: `prefs:root=Privacy#NUDITY_DETECTION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity#NUDITY_DETECTION#NUDITY_DETECTION`
+- Pengukur: `prefs:root=MEASURE`
+- Pengukur → Unit Ukuran: `prefs:root=MEASURE#MEASURE_UNITS`
+- Pengukur → Imperial: `prefs:root=MEASURE#Imperial`
+- Pengukur → Metrik: `prefs:root=MEASURE#Metric`
+- Video: `prefs:root=TVAPP`
+- Video → Data Seluler untuk Pemutaran: `prefs:root=TVAPP#com.apple.videos%3AVideosUseCellularDataEnabledSetting`
+- Video → Kualitas Pemutaran: `prefs:root=TVAPP#com.apple.videos%3APlaybackQualityGroup`
+- Video → Pembelian dan Penyewaan: `prefs:root=TVAPP&path=com.apple.videos%3APreferredPurchaseResolution`
+- Video → Berbagi Rumah: `prefs:root=TVAPP#com.apple.videos%3AHomeSharingFooter`
+- Game Center: `prefs:root=GAMECENTER`
+- Memo Suara: `prefs:root=VOICE_MEMOS`
+- Memo Suara → Bersihkan yang Dihapus: `prefs:root=VOICE_MEMOS&path=RCVoiceMemosRecentlyDeletedWindowKey`
+- Memo Suara → Kualitas Audio: `prefs:root=VOICE_MEMOS&path=RCVoiceMemosAudioQualityKey`
+- Memo Suara → Penamaan berbasis lokasi: `prefs:root=VOICE_MEMOS#RCVoiceMemosUseLocationBasedNaming`
+- Pintasan: `prefs:root=SHORTCUTS`
+- Pintasan → Penyelarasan iCloud: `prefs:root=SHORTCUTS#WFCloudKitSyncEnabled`
+- Pintasan → Selaraskan Susunan Pintasan: `prefs:root=SHORTCUTS#WFCloudKitSyncOrderEnabled`
+- Pintasan → Pemberitahuan Legal: `prefs:root=SHORTCUTS&path=Legal%20Notices`
+- Pengingat: `prefs:root=REMINDERS`
+- Pengingat → Daftar Default: `prefs:root=REMINDERS&path=DEFAULT_LIST`
+- Pengingat → Daftar Default → Pengingat: `prefs:root=REMINDERS&path=DEFAULT_LIST#preferredDefaultListID`
+- Pengingat → Pemberitahuan Hari Ini: `prefs:root=REMINDERS#todayNotificationFireTime`
+- Pengingat → Tampilkan sebagai Terlewati: `prefs:root=REMINDERS#showRemindersAsOverdue`
+- Musik: `prefs:root=MUSIC`
+- Musik → Tampilkan Apple Music: `prefs:root=MUSIC#com.apple.Music%3AAppleMusicEnabled`
+- Musik → Tambah Lagu Daftar Putar: `prefs:root=MUSIC#com.apple.Music%3AAddPlaylistSongsToMyMusicSwitch`
+- Musik → Tampilkan Nilai Bintang: `prefs:root=MUSIC#com.apple.Music%3AShowStarRatings`
+- Musik → Selaraskan Perpustakaan: `prefs:root=MUSIC#com.apple.Music%3ACloudMusicLibraryEnabled`
+- Musik → Data Seluler: `prefs:root=MUSIC&path=com.apple.Music%3ACellularData`
+- Musik → Musik Unduhan: `prefs:root=MUSIC&path=com.apple.Music%3AMusicUsageLink`
+- Musik → Optimalkan Penyimpanan: `prefs:root=MUSIC&path=com.apple.Music%3AOptimizeStorage`
+- Musik → Pengunduhan Otomatis: `prefs:root=MUSIC#com.apple.Music%3AMusicAutomaticDownload`
+- Musik → EQ: `prefs:root=MUSIC&path=com.apple.Music%3AEQ`
+- Musik → Pemeriksaan Bunyi: `prefs:root=MUSIC#com.apple.Music%3ASoundCheck`
+- Musik → Pakai Riwayat Mendengarkan: `prefs:root=MUSIC#com.apple.Music%3APrivateListening`
+- Siri: `prefs:root=SIRI`
+- Siri → Izinkan Siri Saat Terkunci: `prefs:root=SIRI#ASSISTANT_LOCK_SCREEN_ACCESS`
+- Siri → Bahasa: `prefs:root=SIRI&path=LANGUAGE_ID`
+- Siri → Suara Siri: `prefs:root=SIRI&path=VOICE_ID`
+- Siri → Umpan Balik Suara: `prefs:root=SIRI&path=VOICE_FEEDBACK_ID`
+- Siri → Informasi Saya: `prefs:root=SIRI&path=MY_INFO`
+- Bunyi: `prefs:root=Sounds`
+- Bunyi → Keamanan Headphone: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING`
+- Bunyi → Keamanan Headphone → Adaptor Lightning: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING/HEADPHONE_LIGHTNING_ADAPTERS`
+- Bunyi → Keamanan Headphone → Pemberitahuan Headphone: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneWeeklyNotificationsKey`
+- Bunyi → Keamanan Headphone → Kurangi Audio Keras: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneLevelLimitSwitchKey`
+- Bunyi → Efek Suara: `prefs:root=Sounds&path=SOUND_EFFECTS`
+- Bunyi → Dering dan Peringatan: `prefs:root=Sounds#RINGER_AND_ALERT_GROUP`
+- Bunyi → Ubah dengan Tombol: `prefs:root=Sounds#CHANGE_WITH_BUTTONS`
+- Bunyi → Pola Getaran dan Bunyi: `prefs:root=Sounds#SOUNDS_ALERT_GROUP`
+- Bunyi → Nada Dering: `prefs:root=Sounds&path=Ringtone`
+- Bunyi → Nada Teks: `prefs:root=Sounds&path=Text_Messages`
+- Bunyi → Pesan Suara Baru: `prefs:root=Sounds&path=Voicemail`
+- Bunyi → Mail Baru: `prefs:root=Sounds&path=NEW_MAIL`
+- Bunyi → Mail Terkirim: `prefs:root=Sounds&path=SENT_MAIL`
+- Bunyi → Peringatan Kalender: `prefs:root=Sounds&path=Calendar%20Alarm`
+- Bunyi → Peringatan Pengingat: `prefs:root=Sounds&path=Reminder%20Alerts`
+- Bunyi → Klik Papan Ketik: `prefs:root=Sounds#KEYBOARD_SOUND_SWITCH`
+- Bunyi → Bunyi saat Mengunci: `prefs:root=Sounds#LOCK_SOUND_SWITCH`
+- Bunyi → Audio Spasial yang Dipersonalisasi: `prefs:root=Sounds&path=Personalized%20Spatial%20Audio`
+- Apple Pencil: `prefs:root=Pencil`
+- Apple Pencil → Apple Pencil: `prefs:root=Pencil#PrefersPencilDraws`
+- Apple Pencil → Apple Pencil: `prefs:root=Pencil#PencilTextInput`
+- Darurat SOS: `prefs:root=EMERGENCY_SOS`
+- Darurat SOS → Panggil dengan Tombol Samping: `prefs:root=EMERGENCY_SOS#CALL_WITH_SIDE_BUTTON`
+- Darurat SOS → Panggilan Otomatis: `prefs:root=EMERGENCY_SOS#AUTO_CALL`
+- Darurat SOS → Kontak Darurat: `prefs:root=EMERGENCY_SOS#EMERGENCY_CONTACTS`
+- Darurat SOS → Bunyi Hitungan Mundur: `prefs:root=EMERGENCY_SOS#ALARM_SOUND_SWITCH`
+- Wi-Fi: `prefs:root=WIFI`
+- Kontak: `prefs:root=CONTACTS`
+- Kontak → Izinkan Kontak Untuk Mengakses: `prefs:root=CONTACTS#Allow%20Contacts%20To%20Access`
+- Kontak → Siri: `prefs:root=CONTACTS&path=SIRI_AND_SEARCH`
+- Kontak → Atur Urutan: `prefs:root=CONTACTS&path=ContactsSortOrder`
+- Kontak → Urutan Tampilan: `prefs:root=CONTACTS&path=PersonNameOrder`
+- Kontak → Nama Pendek: `prefs:root=CONTACTS&path=PersonShortName`
+- Kontak → Nama Pendek → Nama Pendek: `prefs:root=CONTACTS&path=PersonShortName#Short%20Name`
+- Kontak → Nama Pendek → Pilih Nama Panggilan: `prefs:root=CONTACTS&path=PersonShortName#Prefer%20Nicknames`
+- Kontak → Info Saya: `prefs:root=CONTACTS&path=MeCard`
+- Kontak → Impor Kontak SIM: `prefs:root=CONTACTS#SIMImport`
+- Pusat Kontrol: `prefs:root=ControlCenter`
+- Pusat Kontrol → Akses Di Dalam App: `prefs:root=ControlCenter#ALLOWED_WITHIN_APPS`
+- Pusat Kontrol → Sesuaikan Kontrol: `prefs:root=ControlCenter&path=CUSTOMIZE_CONTROLS`
+- Pengembang: `prefs:root=DEVELOPER_SETTINGS`
+- Pengembang → Jaringan Multijalur: `prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG`
+- Pengembang → Jaringan Multijalur → Jaringan Multijalur: `prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG#Multipath%20Networking`
+- Pengembang → Tampilan: `prefs:root=DEVELOPER_SETTINGS#UIAppearanceGroup`
+- Pengembang → Tampilan Gelap: `prefs:root=DEVELOPER_SETTINGS#UIAppearanceSettings`
+- Pengembang → Perangkat yang Dipasangkan: `prefs:root=DEVELOPER_SETTINGS#DTPairedDevicesGroup`
+- Pengembang → Bersihkan Komputer Tepercaya: `prefs:root=DEVELOPER_SETTINGS#CLEAR_TRUSTED_COMPUTERS`
+- Pengembang → Pencatatan: `prefs:root=DEVELOPER_SETTINGS&path=DTInstrumentsSettings`
+- Pengembang → Aktifkan Automasi UI: `prefs:root=DEVELOPER_SETTINGS#UIAGroup`
+- Pengembang → Jaringan: `prefs:root=DEVELOPER_SETTINGS#NLCGroup`
+- Pengembang → Pengondisi Tautan Jaringan: `prefs:root=DEVELOPER_SETTINGS&path=NLC`
+- Pengembang → Pencatatan Tambahan: `prefs:root=DEVELOPER_SETTINGS#ADDITIONAL_LOGGING`
+- Pengembang → Izinkan Layanan HTTP: `prefs:root=DEVELOPER_SETTINGS#ALLOW_HTTP_SERVICES`
+- Pengembang → Nonaktifkan Pembatasan Laju: `prefs:root=DEVELOPER_SETTINGS#DISABLE_RATE_LIMITING`
+- Pengembang → Kunci Sandi NFC Opsional: `prefs:root=DEVELOPER_SETTINGS#NFC_PASS_KEY_OPTIONAL`
+- Pengembang → Pengetesan Layanan Media: `prefs:root=DEVELOPER_SETTINGS#MEDIA_SERVICES_TESTING`
+- Pengembang → Atur Ulang Layanan Media: `prefs:root=DEVELOPER_SETTINGS#RESET_MEDIA_SERVICES`
+- Pengembang → Pengetesan News: `prefs:root=DEVELOPER_SETTINGS#NEWS_TESTING`
+- Pengembang → Atur Ulang Data Lokal pada Peluncuran Berikutnya: `prefs:root=DEVELOPER_SETTINGS#RESET_LOCAL_DATA_ON_NEXT_LAUNCH`
+- Pengembang → Pengetesan Framework Pemutar Media: `prefs:root=DEVELOPER_SETTINGS#RoutineSettingsGroup`
+- Pengembang → API Konten Dapat Diputar: `prefs:root=DEVELOPER_SETTINGS&path=RoutineSettings`
+- Pengembang → Penyedia TV: `prefs:root=DEVELOPER_SETTINGS&path=VideoSubscriberAccountSettings`
+- Pengembang → API ClassKit: `prefs:root=DEVELOPER_SETTINGS&path=ClassKitSettings`
+- Pengembang → Pengetesan CoreSpotlight: `prefs:root=DEVELOPER_SETTINGS#CORESPOTLIGHT_TESTING`
+- Pengembang → Indeks Ulang Semua Item: `prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS`
+- Pengembang → Indeks Ulang Semua Item dengan Pengenal: `prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS_WITH_IDENTIFIERS`
+- Pengembang → Pengetesan Pintasan: `prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_TESTING`
+- Pengembang → Tampilkan Pintasan Terbaru: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_SPOTLIGHT`
+- Pengembang → Tampilkan Media Mendatang: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_UPCOMING_MEDIA`
+- Pengembang → Tampilkan Donasi di Layar Terkunci: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_LOCKSCREEN`
+- Pengembang → Selaraskan Paksa Pintasan ke Apple Watch: `prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_SYNC_WATCHOS`
+- Pengembang → Pengetesan MIDI-CI: `prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA`
+- Pengembang → Aktifkan MIDI-CI: `prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA_ENABLE`
+- Pengembang → Deteksi Hang: `prefs:root=DEVELOPER_SETTINGS#HANGTRACER_EXTERNAL_CONFIGURE`
+- Bluetooth: `prefs:root=Bluetooth`
+- Saham: `prefs:root=STOCKS`
+- Saham → Privasi: `prefs:root=STOCKS#Privacy`
+- Saham → Atur Ulang Pengenal: `prefs:root=STOCKS#reset_identifier`
+- Terjemahkan: `prefs:root=TRANSLATE`
+- Terjemahkan → Mode Pada Perangkat: `prefs:root=TRANSLATE#OnDeviceOnly`
+- News: `prefs:root=NEWS`
+- News → Tampilkan Pratinjau Tulisan: `prefs:root=NEWS#show_excerpt_mode`
+- News → Batasi Tulisan di Hari Ini: `prefs:root=NEWS#showStoriesFromFavoritesSpecifierID`
+- News → Privasi: `prefs:root=NEWS#Privacy`
+- News → Atur Ulang Pengenal: `prefs:root=NEWS#reset_identifier`
+- News → Pengakuan: `prefs:root=NEWS&path=Acknowledgements`
+- Pesan: `prefs:root=MESSAGES`
+- FaceTime: `prefs:root=FACETIME`
+- Foto: `prefs:root=Photos`
+- Foto → Foto iCloud: `prefs:root=Photos#iCloudPhotosSwitch`
+- Foto → Optimalkan Penyimpanan: `prefs:root=Photos#iCloudOptimizeStorageOption`
+- Foto → Unduh dan Simpan yang Asli: `prefs:root=Photos#iCloudKeepOriginalsOption`
+- Foto → Album Bersama: `prefs:root=Photos#SharedStreamsSwitch`
+- Foto → Data Seluler: `prefs:root=Photos&path=CellularDataLinkList`
+- Foto → Putar Otomatis Video: `prefs:root=Photos#VideoAutoplaySwitch`
+- Foto → Lihat HDR Penuh: `prefs:root=Photos#ImageModulationSwitch`
+- Foto → Tampilkan Acara Liburan: `prefs:root=Photos#MEMORIES_HOLIDAY_CALENDAR_EVENTS_SWITCH`
+- Foto → Transfer ke Mac atau PC: `prefs:root=Photos#TransferGroup`
+- Pemberitahuan Pemaparan: `prefs:root=EXPOSURE_NOTIFICATION`
+- Kamera: `prefs:root=CAMERA`
+- Kamera → Format: `prefs:root=CAMERA&path=CameraFormatsSettingsList`
+- Kamera → Format → Apple ProRaw: `prefs:root=CAMERA&path=CameraFormatsSettingsList#CAMUserPreferenceEnableLinearDNGControl`
+- Kamera → Record Video: `prefs:root=CAMERA&path=Record%20Video`
+- Kamera → Record Video → Video HDR: `prefs:root=CAMERA&path=Record%20Video#HDR%20Video`
+- Kamera → Pertahankan Pengaturan: `prefs:root=CAMERA&path=CameraPreserveSettingsSwitch`
+- Kamera → Pertahankan Pengaturan → Mode Kamera: `prefs:root=CAMERA&path=CameraPreserveSettingsSwitch#CAMUserPreferencePreserveCaptureMode`
+- Kamera → Grid: `prefs:root=CAMERA#CameraGridSwitch`
+- Kamera → Pindai Kode QR: `prefs:root=CAMERA#CameraQRBannerSwitch`
+- Seluler: `prefs:root=MOBILE_DATA_SETTINGS_ID`
+- Seluler → Pilihan Data Seluler: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS`
+- Seluler → Pilihan Data Seluler → Mode Data Rendah: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS#Low%20Data%20Mode`
+- Seluler → Data Seluler: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=SHOW_ALL`
+- Podcast: `prefs:root=PODCASTS`
+- Kompas: `prefs:root=COMPASS`
+- Kompas → Gunakan Utara Sesungguhnya: `prefs:root=COMPASS#USE_TRUE_NORTH`
+- Buku: `prefs:root=IBOOKS`
+- Buku → Konten Online: `prefs:root=IBOOKS#BKAllowOnlineContent`
+- Buku → MENYELARASKAN: `prefs:root=IBOOKS#SYNCING`
+- Buku → Sedang Dibaca: `prefs:root=IBOOKS#BKLibrary.ReadingNow`
+- Buku → iCloud Drive: `prefs:root=IBOOKS#BCSyncICloudDrive`
+- Buku → MEMBACA: `prefs:root=IBOOKS#READING`
+- Buku → Rata Penuh: `prefs:root=IBOOKS#BKFullJustification`
+- Buku → Pemenggalan-otomatis: `prefs:root=IBOOKS#BKAutoHyphenation`
+- Buku → Kedua Margin Maju: `prefs:root=IBOOKS#BKLeftTapTurnToNext`
+- Buku → Target Bacaan: `prefs:root=IBOOKS#READING_GOALS`
+- Buku → Bersihkan Data Target Bacaan: `prefs:root=IBOOKS#BKReadingGoalsShouldClearDataKey`
+- Buku → MENCARI: `prefs:root=IBOOKS#SEARCHING`
+- Buku → Toko Buku: `prefs:root=IBOOKS#BKIncludeBookStoreResultsInSearch`
+- Buku → BUKU AUDIO: `prefs:root=IBOOKS#AUDIOBOOKS`
+- Buku → Lewati Maju: `prefs:root=IBOOKS&path=BKAudioBookSkipForward`
+- Buku → Lewati Mundur: `prefs:root=IBOOKS&path=BKAudioBookSkipBackward`
+- Buku → KONTROL EKSTERNAL: `prefs:root=IBOOKS#BKRemoteSkipInsteadOfNextTrackDefaultKey`
+- Buku → Berikutnya/Sebelumnya: `prefs:root=IBOOKS#Next/Previous`
+- Buku → Lewati Maju/Mundur: `prefs:root=IBOOKS#Skip%20Forward/Back`
+- Buku → PRIVASI: `prefs:root=IBOOKS#PRIVACY`
+- Buku → Atur Ulang Pengenal: `prefs:root=IBOOKS#BAResetAnalyticsUserID`
+- Buku → Pengakuan: `prefs:root=IBOOKS&path=Acknowledgements`
+- Mode Pesawat: `prefs:root=ROOT#AIRPLANE_MODE`

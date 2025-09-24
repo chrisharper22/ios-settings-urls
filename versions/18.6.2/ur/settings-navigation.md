@@ -1,0 +1,29 @@
+- ‏Apple اکاؤنٹ: `settings-navigation://com.apple.Settings.AppleAccount`
+- ‏Apple اکاؤنٹ → iCloud: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE`
+- ‏Apple اکاؤنٹ → iCloud → کیلنڈر: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Calendars`
+- ‏Apple اکاؤنٹ → iCloud → کیلنڈر → بھیجیں اور موصول کریں: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Calendars/CALENDAR_SEND_RECEIVE`
+- ‏Apple اکاؤنٹ → iCloud → کیلنڈر → ای میل اپڈیٹ حاصل کریں: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Calendars/CALENDAR_SHARED_CALENDAR_UPDATE`
+- ‏Apple اکاؤنٹ → iCloud → ‏Mail: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail`
+- ‏Apple اکاؤنٹ → iCloud → ‏Mail → ڈیفالٹ ای میل: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/DEFAULT_EMAIL`
+- ‏Apple اکاؤنٹ → iCloud → ‏Mail → ایڈریس: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/ALIASES`
+- ‏Apple اکاؤنٹ → iCloud → ‏Mail → آٹومیٹک طریقے سے جواب دیں: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/AUTO_REPLY`
+- ‏Apple اکاؤنٹ → iCloud → ‏Mail → ‏iCloud میل کی شرائط: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/SERVER_SIDE_RULES`
+- ‏Apple اکاؤنٹ → iCloud → ‏Mail → ‏Mail فارورڈ کیا جانا: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/MAIL_FORWARDING`
+- ‏Apple اکاؤنٹ → iCloud → ‏Mail → پوسٹ باکس کا برتاؤ: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/MAILBOX_BEHAVIORS`
+- ‏Apple اکاؤنٹ → iCloud → ‏Mail → دستخط کرنا اور انکرپشن: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/S_MIME`
+- ‏Apple اکاؤنٹ → iCloud → ‏Mail → پیغامات امپورٹ کریں: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/MAIL_IMPORT`
+- Apps: `settings-navigation://com.apple.Settings.Apps`
+- Apps → Fitness: `settings-navigation://com.apple.Settings.Apps/com.apple.Fitness`
+- Apps → ‏Safari: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/`
+- Apps → ‏Safari → اکسٹنشن: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/WEB_EXTENSIONS`
+- Apps → ‏Safari → پاپ اپ بلاک کریں: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari#BLOCK_POPUPS`
+- Apps → ‏Safari → کراس سائٹ ٹریکنگ روکیں: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari#TRACKER_PROTECTION`
+- Apps → ‏Safari → آٹوفِل: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/AUTO_FILL`
+- Apps → ‏Safari → ڈاؤنلوڈ: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/DOWNLOADS`
+- Apps → پاس ورڈ: `settings-navigation://com.apple.Settings.Apps/com.apple.Passwords`
+- Apps → پاس ورڈ → سیکورٹی کی تجاویز: `settings-navigation://com.apple.Settings.Apps/com.apple.Passwords#SECURITY_RECOMMENDATIONS`
+- رازداری اور تحفظ: `settings-navigation://com.apple.Settings.PrivacyAndSecurity`
+- رازداری اور تحفظ → حفاظتی جانچ: `settings-navigation://com.apple.Settings.PrivacyAndSecurity/SAFETY_CHECK`
+- گھر: `settings-navigation://com.apple.Settings.HomeKit`
+- Search: `settings-navigation://com.apple.Settings.Search`
+- ٹی وی فراہم کنندہ: `settings-navigation://com.apple.Settings.TVProvider`

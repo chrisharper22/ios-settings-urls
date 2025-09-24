@@ -1,0 +1,1186 @@
+- Baterija: `prefs:root=BATTERY_USAGE`
+- Baterija → Mod slabog napajanja: `prefs:root=BATTERY_USAGE#BATTERY_SAVER_MODE`
+- Baterija → Zdravlje baterije: `prefs:root=BATTERY_USAGE#BATTERY_HEALTH_ID`
+- Tipka postupka: `prefs:root=ACTION_BUTTON`
+- Obavijesti: `prefs:root=NOTIFICATIONS_ID`
+- Obavijesti → Zakazani sažetak: `prefs:root=NOTIFICATIONS_ID&path=SCHEDULED_DELIVERY_ID`
+- Općenito: `prefs:root=General`
+- Općenito → VPN i upravljanje uređajem: `prefs:root=General&path=ManagedConfigurationList`
+- Općenito → AppleCare i jamstvo: `prefs:root=General&path=COVERAGE/`
+- Općenito → Auto ispuna i lozinke: `prefs:root=General&path=AUTOFILL`
+- Općenito → Auto ispuna i lozinke → Auto ispuna lozinki: `prefs:root=General&path=AUTOFILL#AUTOFILL`
+- Općenito → Auto ispuna i lozinke → Očisti verifikacijske kodove: `prefs:root=General&path=AUTOFILL#CLEAN_UP_VERIFICATION_CODES`
+- Općenito → Auto ispuna i lozinke → Podesi verifikacijske kodove: `prefs:root=General&path=AUTOFILL#SET_UP_VERIFICATION_CODES`
+- Općenito → Memorija: `prefs:root=General&path=STORAGE_MGMT`
+- Općenito → Memorija → Memorija: `prefs:root=General&path=STORAGE_MGMT#MANAGE`
+- Općenito → Memorija → Makni nekorištene aplikacije: `prefs:root=General&path=STORAGE_MGMT#OFFLOAD`
+- Općenito → Ažuriranje softvera: `prefs:root=General&path=SOFTWARE_UPDATE_LINK`
+- Općenito → Ažuriranje softvera → Automatska ažuriranja: `prefs:root=General&path=SOFTWARE_UPDATE_LINK/SUAutomaticUpdateButton`
+- Općenito → Tipkovnica: `prefs:root=General&path=Keyboard`
+- Općenito → Tipkovnica → Tipkovnice: `prefs:root=General&path=Keyboard/KEYBOARDS`
+- Općenito → Tipkovnica → Zamjena teksta: `prefs:root=General&path=Keyboard/USER_DICTIONARY`
+- Općenito → Tipkovnica → Veliko početno slovo: `prefs:root=General&path=Keyboard#KeyboardAutocapitalization`
+- Općenito → Tipkovnica → Auto ispravak: `prefs:root=General&path=Keyboard#KeyboardAutocorrection`
+- Općenito → Tipkovnica → Provjera pravopisa: `prefs:root=General&path=Keyboard#KeyboardCheckSpelling`
+- Općenito → Tipkovnica → Omogući Caps Lock: `prefs:root=General&path=Keyboard#KeyboardCapsLock`
+- Općenito → Tipkovnica → Prečaci: `prefs:root=General&path=Keyboard#KeyboardAssistant`
+- Općenito → Tipkovnica → Predviđanje: `prefs:root=General&path=Keyboard#KeyboardPrediction`
+- Općenito → Tipkovnica → Pametna interpunkcija: `prefs:root=General&path=Keyboard#SmartTyping`
+- Općenito → Tipkovnica → Razdvoji tipkovnicu: `prefs:root=General&path=Keyboard#RivenKeyboard`
+- Općenito → Tipkovnica → Omogući udarce tipki: `prefs:root=General&path=Keyboard#GesturesEnabled`
+- Općenito → Tipkovnica → Pregled znakova: `prefs:root=General&path=Keyboard#KeyboardAllowPaddle`
+- Općenito → Tipkovnica → “.” prečac: `prefs:root=General&path=Keyboard#KeyboardPeriodShortcut`
+- Općenito → Tipkovnica → Povucite za tipkanje: `prefs:root=General&path=Keyboard#KeyboardContinuousPathEnabled`
+- Općenito → Tipkovnica → Omogući Diktat: `prefs:root=General&path=Keyboard#Dictation`
+- Općenito → Tipkovnica → Automatska interpunkcija: `prefs:root=General&path=Keyboard#AutoPunctuationSetting`
+- Općenito → Jezik i regija: `prefs:root=General&path=INTERNATIONAL`
+- Općenito → Jezik i regija → Drugi jezici…: `prefs:root=General&path=INTERNATIONAL#NEW_PREFERRED_LANGUAGE`
+- Općenito → Jezik i regija → Preferirani redoslijed jezika: `prefs:root=General&path=INTERNATIONAL#PREFERRED_LANGUAGE_GROUP`
+- Općenito → Jezik i regija → Dodaj jezik…: `prefs:root=General&path=INTERNATIONAL#ADD_PREFERRED_LANGUAGE`
+- Općenito → Jezik i regija → Regija: `prefs:root=General&path=INTERNATIONAL/LOCALE`
+- Općenito → Jezik i regija → Brojevi: `prefs:root=General&path=INTERNATIONAL/NUMBERING_SYSTEM`
+- Općenito → Jezik i regija → Kalendar: `prefs:root=General&path=INTERNATIONAL/CALENDAR`
+- Općenito → Jezik i regija → Jedinica za temperaturu: `prefs:root=General&path=INTERNATIONAL/TEMPERATURE_UNIT`
+- Općenito → Rječnik: `prefs:root=General&path=DICTIONARY`
+- Općenito → Slika u slici: `prefs:root=General&path=PiP_SPEC`
+- Općenito → Dodirna površina: `prefs:root=General&path=POINTERS`
+- Općenito → NFC: `prefs:root=General&path=NFC_LINK`
+- Općenito → VPN: `prefs:root=General&path=VPN`
+- Općenito → CarPlay: `prefs:root=General&path=CARPLAY`
+- Općenito → Više informacija: `prefs:root=General&path=About`
+- Općenito → Više informacija → Pouzdani certifikati: `prefs:root=General&path=About/CERT_TRUST_SETTINGS`
+- Općenito → Više informacija → Serijski broj: `prefs:root=General&path=About#SerialNumber`
+- Općenito → Više informacija → Broj modela: `prefs:root=General&path=About#ProductModel`
+- Općenito → Više informacija → Naziv modela: `prefs:root=General&path=About#ProductModelName`
+- Općenito → Više informacija → Verzija iOS-a: `prefs:root=General&path=About/SW_VERSION_SPECIFIER`
+- Općenito → Pravne i regulatorne informacije: `prefs:root=General&path=LEGAL_AND_REGULATORY`
+- Općenito → Pravne i regulatorne informacije → Jamstvo: `prefs:root=General&path=LEGAL_AND_REGULATORY#Warranty`
+- Općenito → AirDrop: `prefs:root=General&path=AIRDROP_LINK`
+- Općenito → AirDrop → Približavanje uređaja: `prefs:root=General&path=AIRDROP_LINK#AIRDROP_NFC_ID`
+- Općenito → Tipka Home: `prefs:root=General&path=HOME_BUTTON`
+- Općenito → Bočni prekidač: `prefs:root=General#Rotation_Switch_Action_Group`
+- Općenito → Osvježavanje aplikacija u pozadini: `prefs:root=General&path=AUTO_CONTENT_DOWNLOAD`
+- Općenito → Datum i vrijeme: `prefs:root=General&path=DATE_AND_TIME`
+- Općenito → TV izlaz: `prefs:root=General&path=TV_OUT`
+- Općenito → Resetiranje: `prefs:root=General&path=Reset`
+- Općenito → Resetiranje → Resetiraj sve postavke: `prefs:root=General&path=Reset#settingsErase`
+- Općenito → Resetiranje → Obriši sav sadržaj i postavke: `prefs:root=General&path=Reset#fullErase`
+- Općenito → Resetiranje → Resetiraj mrežne postavke: `prefs:root=General&path=Reset#RESET_NETWORK_LABEL`
+- Općenito → Resetiranje → Ukloni sve podatkovne planove: `prefs:root=General&path=Reset#cellularErase`
+- Općenito → Resetiranje → Pretplatničke usluge: `prefs:root=General&path=Reset#SUBSCRIBER_SERVICES_ID`
+- Općenito → Resetiranje → Resetiraj rječnik tipkovnice: `prefs:root=General&path=Reset#RESET_KEYBOARD_DICTIONARY_LABEL`
+- Općenito → Resetiranje → Resetiraj raspored početnog zaslona: `prefs:root=General&path=Reset#RESET_ICONS_LABEL`
+- Općenito → Resetiranje → Resetiraj lokaciju i privatnost: `prefs:root=General&path=Reset#RESET_PRIVACY_LABEL`
+- Općenito → Isključi: `prefs:root=General#SHUTDOWN_LABEL`
+- Općenito → AirPlay i kontinuitet: `prefs:root=General&path=CONTINUITY_SPEC`
+- Općenito → AirPlay i kontinuitet → Handoff: `prefs:root=General&path=CONTINUITY_SPEC#CONTINUITY`
+- Općenito → AirPlay i kontinuitet → Prebaci na HomePod: `prefs:root=General&path=CONTINUITY_SPEC#TRANSFER_TO_HOMEPOD`
+- Općenito → AirPlay i kontinuitet → Automatski AirPlay: `prefs:root=General&path=CONTINUITY_SPEC#AUTOMATICALLY_AIRPLAY`
+- Općenito → AirPlay i kontinuitet → Kamera kontinuiteta: `prefs:root=General&path=CONTINUITY_SPEC#WOMBAT_CAMERA`
+- Novčanik i Apple Pay: `prefs:root=PASSBOOK`
+- Novčanik i Apple Pay → Apple Cash: `prefs:root=PASSBOOK#Apple%C2%A0Cash`
+- Novčanik i Apple Pay → Platne kartice: `prefs:root=PASSBOOK#SETTINGS_PAYMENT_CARDS_GROUP`
+- Novčanik i Apple Pay → Dodaj karticu: `prefs:root=PASSBOOK#Add%20Card`
+- Novčanik i Apple Pay → Pritisnite dvaput bočnu tipku: `prefs:root=PASSBOOK#Double-Click%20Side%20Button`
+- Novčanik i Apple Pay → Praćenje narudžbe: `prefs:root=PASSBOOK#ORDER_TRACKING`
+- Dnevnik: `prefs:root=JOURNAL`
+- Pripravno stanje: `prefs:root=AMBIENT`
+- Vrijeme: `prefs:root=WEATHER`
+- Apple račun: `prefs:root=APPLE_ACCOUNT` or `settings-navigation://com.apple.Settings.AppleAccount`
+- Apple račun → iCloud: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE` or `prefs:root=CASTLE`
+- Apple račun → iCloud → iCloud memorija: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/STORAGE_AND_BACKUP` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/STORAGE_AND_BACKUP` or `prefs:root=CASTLE&path=STORAGE_AND_BACKUP`
+- Apple račun → iCloud → iCloud Drive: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity` or `prefs:root=CASTLE&path=com.apple.Dataclass.Ubiquity`
+- Apple račun → iCloud → Foto: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.MediaStream` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.MediaStream` or `prefs:root=CASTLE&path=com.apple.Dataclass.MediaStream`
+- Apple račun → iCloud → Mail: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Mail` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail` or `prefs:root=CASTLE&path=com.apple.Dataclass.Mail`
+- Apple račun → iCloud → Mail → Prilagođena domena e-maila: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Mail/BYOD_SETTING_SPECIFIER_ID` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/BYOD_SETTING_SPECIFIER_ID` or `prefs:root=CASTLE&path=com.apple.Dataclass.Mail/BYOD_SETTING_SPECIFIER_ID`
+- Apple račun → iCloud → Kontakti: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Contacts` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Contacts` or `prefs:root=CASTLE&path=com.apple.Dataclass.Contacts`
+- Apple račun → iCloud → Kalendar: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Calendars` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Calendars` or `prefs:root=CASTLE&path=com.apple.Dataclass.Calendars`
+- Apple račun → iCloud → Podsjetnici: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Reminders` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Reminders` or `prefs:root=CASTLE&path=com.apple.Dataclass.Reminders`
+- Apple račun → iCloud → Safari: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks` or `prefs:root=CASTLE&path=com.apple.Dataclass.Bookmarks`
+- Apple račun → iCloud → Bilješke: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Notes` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Notes` or `prefs:root=CASTLE&path=com.apple.Dataclass.Notes`
+- Apple račun → iCloud → News: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.News` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.News` or `prefs:root=CASTLE&path=com.apple.Dataclass.News`
+- Apple račun → iCloud → Sigurnosna kopija: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/BACKUP` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/BACKUP` or `prefs:root=CASTLE&path=BACKUP`
+- Apple račun → iCloud → Zdravlje: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Health` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Health` or `prefs:root=CASTLE&path=com.apple.Dataclass.Health`
+- Apple račun → iCloud → Lozinke i privjesak ključeva: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync` or `prefs:root=CASTLE&path=com.apple.Dataclass.KeychainSync`
+- Apple račun → iCloud → Sakrij moj e-mail: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE` or `prefs:root=CASTLE&path=PRIVATE_EMAIL_MANAGE`
+- Apple račun → Dijeli moju lokaciju: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING` or `settings-navigation://com.apple.Settings.AppleAccount/LOCATION_SHARING`
+- Apple račun → Dijeli moju lokaciju → Pronalaženje: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING/FindMyDevice-Settings` or `settings-navigation://com.apple.Settings.AppleAccount/LOCATION_SHARING/FindMyDevice-Settings`
+- Apple račun → Ime, telefonski brojevi, e-mail: `prefs:root=APPLE_ACCOUNT&path=APPLE_ACCOUNT_CONTACT` or `settings-navigation://com.apple.Settings.AppleAccount/APPLE_ACCOUNT_CONTACT`
+- Apple račun → Lozinka i sigurnost: `prefs:root=APPLE_ACCOUNT&path=PASSWORD_AND_SECURITY` or `settings-navigation://com.apple.Settings.AppleAccount/PASSWORD_AND_SECURITY`
+- Apple račun → Plaćanje i isporuka: `prefs:root=APPLE_ACCOUNT&path=PAYMENT_AND_SHIPPING` or `settings-navigation://com.apple.Settings.AppleAccount/PAYMENT_AND_SHIPPING`
+- Apple račun → Pretplate: `prefs:root=APPLE_ACCOUNT&path=SUBSCRIPTIONS` or `settings-navigation://com.apple.Settings.AppleAccount/SUBSCRIPTIONS`
+- Apple račun → Obitelj: `prefs:root=APPLE_ACCOUNT&path=Family` or `settings-navigation://com.apple.Settings.AppleAccount/Family`
+- Apple račun → Verifikacija ključa kontakta: `prefs:root=APPLE_ACCOUNT&path=TRANSPARENCY` or `settings-navigation://com.apple.Settings.AppleAccount/TRANSPARENCY`
+- Karte: `prefs:root=MAPS`
+- Karte → Indeks kvalitete zraka: `prefs:root=MAPS#AirQualityPreferenceID`
+- Karte → Uvijek na hrvatskom: `prefs:root=MAPS#LabelLanguageAlwaysUIPreferenceID`
+- Karte → Bicikliranje: `prefs:root=MAPS&path=CyclingLinkPreferenceID`
+- Karte → Preferirana vrsta putovanja: `prefs:root=MAPS#TransportTypePreferenceGroupID`
+- Karte → Vožnja: `prefs:root=MAPS&path=DrivingLinkPreferenceID`
+- Karte → Govorne upute: `prefs:root=MAPS&path=NavigationGuidanceLinkPreferenceID`
+- Karte → Prikaži lokaciju parkiranja: `prefs:root=MAPS#ParkedCarPreferenceID`
+- Karte → Podijelite vrijeme dolaska: `prefs:root=MAPS#ShareETAPreferenceID`
+- Karte → Javni prijevoz: `prefs:root=MAPS&path=TransitLinkPreferenceID`
+- Karte → Hodanje: `prefs:root=MAPS&path=WalkingLinkPreferenceID`
+- Karte → Vremenski uvjeti: `prefs:root=MAPS#WeatherConditionsPreferenceID`
+- Vrijeme uporabe zaslona: `prefs:root=SCREEN_TIME`
+- Vrijeme uporabe zaslona → See All App & Website Activity: `prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY`
+- Vrijeme uporabe zaslona → See All App & Website Activity → Danas: `prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY#DAY`
+- Vrijeme uporabe zaslona → See All App & Website Activity → Tjedan: `prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY#WEEK`
+- Vrijeme uporabe zaslona → Vrijeme isključenosti: `prefs:root=SCREEN_TIME&path=DOWNTIME`
+- Vrijeme uporabe zaslona → Ograničenja aplikacija: `prefs:root=SCREEN_TIME&path=APP_LIMITS`
+- Vrijeme uporabe zaslona → Ograničenja komuniciranja: `prefs:root=SCREEN_TIME&path=COMMUNICATION_LIMITS`
+- Vrijeme uporabe zaslona → Sigurnost komuniciranja: `prefs:root=SCREEN_TIME&path=COMMUNICATION_SAFETY`
+- Vrijeme uporabe zaslona → Uvijek dozvoljeno: `prefs:root=SCREEN_TIME&path=ALWAYS_ALLOWED`
+- Vrijeme uporabe zaslona → Ograničenja sadržaja i privatnosti: `prefs:root=SCREEN_TIME&path=CONTENT_PRIVACY`
+- Vrijeme uporabe zaslona → Roditeljske kontrole: `prefs:root=SCREEN_TIME#FAMILY`
+- Vrijeme uporabe zaslona → Udaljenost zaslona: `prefs:root=SCREEN_TIME&path=EYE_DISTANCE`
+- Freeform: `prefs:root=FREEFORM`
+- Fokus: `prefs:root=DO_NOT_DISTURB`
+- Fokus → Status fokusa: `prefs:root=DO_NOT_DISTURB&path=status`
+- Izgled: `prefs:root=DISPLAY`
+- Izgled → Izgled: `prefs:root=DISPLAY#DEVICE_APPEARANCE`
+- Izgled → True Tone: `prefs:root=DISPLAY#WHITE_BALANCE`
+- Izgled → Night Shift: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION`
+- Izgled → Night Shift → Zakazano: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#SCHEDULED`
+- Izgled → Night Shift → Ručno uključi do sutra: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#MANUAL`
+- Izgled → Night Shift → Temperatura boje: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#COLOR_TEMPERATURE`
+- Izgled → Auto zaključavanje: `prefs:root=DISPLAY&path=AUTOLOCK`
+- Izgled → Podignite za uključenje: `prefs:root=DISPLAY#RAISE_TO_WAKE`
+- Izgled → Otključavanje / zaključavanje: `prefs:root=DISPLAY#SMART_CASE_LOCK_SPEC`
+- Izgled → Veličina teksta: `prefs:root=DISPLAY&path=TEXT_SIZE`
+- Izgled → Podebljaj tekst: `prefs:root=DISPLAY#BOLD_TEXT`
+- Izgled → Svjetlina: `prefs:root=DISPLAY#BRIGHTNESS`
+- Izgled → Zumiranje zaslona: `prefs:root=DISPLAY#DISPLAY_ZOOM_GROUP`
+- Izgled → Izgled: `prefs:root=DISPLAY&path=APPEARANCE`
+- Izgled → Izgled → Prozor: `prefs:root=DISPLAY&path=APPEARANCE#WINDOW_ZOOM`
+- Izgled → Izgled → Zumiranje prozora s dvije ruke: `prefs:root=DISPLAY&path=APPEARANCE#TWO_HANDED_WINDOW_ZOOM`
+- Izgled → Prikaz: `prefs:root=DISPLAY&path=MAGNIFY`
+- Izgled → Uvijek uključen zaslon: `prefs:root=DISPLAY&path=ALWAYS_ON`
+- Izgled → Uvijek uključen zaslon → Uvijek uključen zaslon: `prefs:root=DISPLAY&path=ALWAYS_ON#ALWAYS_ON`
+- Izgled → Kompatibilne aplikacije: `prefs:root=DISPLAY&path=COMPATIBLE_APPEARANCE`
+- Izgled → Kompatibilne aplikacije → Tamni, svijetli: `prefs:root=DISPLAY&path=COMPATIBLE_APPEARANCE#COMPATIBLE_APPEARANCE_CHOICES`
+- Početni zaslon: `prefs:root=HOME_SCREEN`
+- Početni zaslon → Novopreuzete aplikacije: `prefs:root=HOME_SCREEN&path=APP_DOWNLOADS_GO_TO`
+- Početni zaslon → Bedževi obavijesti: `prefs:root=HOME_SCREEN#BADGES_IN_APP_LIBRARY`
+- Početni zaslon i medijateka aplikacija: `prefs:root=HOME_SCREEN_DOCK`
+- Početni zaslon i medijateka aplikacija → Novopreuzete aplikacije: `prefs:root=HOME_SCREEN_DOCK&path=APP_DOWNLOADS_GO_TO`
+- Početni zaslon i medijateka aplikacija → Dock: `prefs:root=HOME_SCREEN_DOCK&path=MULTITASKING_DOCK`
+- Početni zaslon i medijateka aplikacija → Dock → Prikaži medijateku aplikacija u Docku: `prefs:root=HOME_SCREEN_DOCK&path=MULTITASKING_DOCK#SHOW_APP_LIBRARY`
+- Početni zaslon i medijateka aplikacija → Prikaži predložene i nedavne aplikacije u Docku: `prefs:root=HOME_SCREEN_DOCK#ALLOW_RECENTS`
+- Početni zaslon i medijateka aplikacija → Scenski upravitelj: `prefs:root=HOME_SCREEN_DOCK&path=CONTINUOUS-EXPOSE`
+- Multitasking & Gestures: `prefs:root=com.apple.MultitaskingAndGesturesSettings`
+- Multitasking & Gestures → Višezadaćnost: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Multitasking`
+- Multitasking & Gestures → Višezadaćnost → Dozvoli više aplikacija: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Multitasking#MultipleApps`
+- Multitasking & Gestures → Višezadaćnost → Split View i Slide Over: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Multitasking#SplitViewSlideOver`
+- Multitasking & Gestures → Višezadaćnost → Zrcaljenje zaslona: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Multitasking#ScreenMirroring`
+- Multitasking & Gestures → Višezadaćnost → Scenski upravitelj: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Multitasking#StageManager`
+- Multitasking & Gestures → Višezadaćnost → Prikaži nedavne aplikacije u Scenskom upravitelju: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Multitasking#StageManagerRecentApps`
+- Multitasking & Gestures → Višezadaćnost → Prikaži Dock u Scenskom upravitelju: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Multitasking#StageManagerDock`
+- Multitasking & Gestures → Slika u slici: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=PictureInPicture`
+- Multitasking & Gestures → Geste za produktivnost: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Productivity`
+- Multitasking & Gestures → Geste za produktivnost → Geste: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Productivity#Gestures`
+- Multitasking & Gestures → Geste za produktivnost → Geste za produktivnost: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Productivity#ProductivityGestures`
+- Multitasking & Gestures → Geste s četiri i pet prstiju: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=FourAndFiveFingers`
+- Multitasking & Gestures → Poništi tresenjem: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=ShakeToUndo`
+- Multitasking & Gestures → Geste iz kuta: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=CornerGestures`
+- Pristupačnost: `prefs:root=ACCESSIBILITY`
+- Pristupačnost → VoiceOver: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE`
+- Pristupačnost → VoiceOver → VoiceOver obuka: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#VoiceOverTouchTutorialEnabled`
+- Pristupačnost → VoiceOver → Brzina čitanja: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#SpeakingRateSlider`
+- Pristupačnost → VoiceOver → Čitanje: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Voices`
+- Pristupačnost → VoiceOver → Čitanje → Izgovori: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Voices/PRONUNCIATION_DICTIONARY`
+- Pristupačnost → VoiceOver → Čitanje → Izgovori → Izgovori: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Voices/PRONUNCIATION_DICTIONARY#PRONUNCIATION_DICTIONARY`
+- Pristupačnost → VoiceOver → Čitanje → Promjena visine tona: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Voices#PITCH_CHANGES_TITLE`
+- Pristupačnost → VoiceOver → Čitanje → Dodaj glas rotora…: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Voices#ADD_NEW_VOICE`
+- Pristupačnost → VoiceOver → Čitanje → Detektiraj jezike: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Voices#LANGUAGE_DETECTION`
+- Pristupačnost → VoiceOver → Čitanje → Prostorni govor: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Voices#SPATIALIZE_SPEECH`
+- Pristupačnost → VoiceOver → Rječitost: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity`
+- Pristupačnost → VoiceOver → Rječitost → Rječitost: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#Verbosity`
+- Pristupačnost → VoiceOver → Rječitost → Interpunkcija: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup`
+- Pristupačnost → VoiceOver → Rječitost → Interpunkcija → Interpunkcija: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup#voiceOverPunctuationGroup`
+- Pristupačnost → VoiceOver → Rječitost → Interpunkcija → Aktivna grupa interpunkcije: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup#voiceOverActivePunctuationGroup`
+- Pristupačnost → VoiceOver → Rječitost → Interpunkcija → Sve: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup#all`
+- Pristupačnost → VoiceOver → Rječitost → Interpunkcija → Nekoliko: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup#AXSSVoiceOverPunctuationGroupSome`
+- Pristupačnost → VoiceOver → Rječitost → Interpunkcija → Bez: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup#PunctuationGroupNone`
+- Pristupačnost → VoiceOver → Rječitost → Interpunkcija → Dodaj grupu interpunkcije: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup/NewPunctuation`
+- Pristupačnost → VoiceOver → Rječitost → Interpunkcija → Dodaj grupu interpunkcije → Dodaj grupu interpunkcije: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup/NewPunctuation#NewPunctuation`
+- Pristupačnost → VoiceOver → Rječitost → Interpunkcija → Importiraj: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup/ImportPunctuation`
+- Pristupačnost → VoiceOver → Rječitost → Interpunkcija → Importiraj → Importiraj: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup/ImportPunctuation#ImportPunctuation`
+- Pristupačnost → VoiceOver → Rječitost → Pročitaj savjete: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#HINTS_TITLE`
+- Pristupačnost → VoiceOver → Rječitost → Obavijesti sustava: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/SystemNotifications`
+- Pristupačnost → VoiceOver → Rječitost → Obavijesti sustava → Obavijesti sustava: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/SystemNotifications#SystemNotifications`
+- Pristupačnost → VoiceOver → Rječitost → Obavijesti sustava → Obavijesti kad je uređaj zaključan: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/SystemNotifications#LockScreenNotifications`
+- Pristupačnost → VoiceOver → Rječitost → Obavijesti sustava → Obavijesti u baneru: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/SystemNotifications#BannerNotifications`
+- Pristupačnost → VoiceOver → Rječitost → Obavijesti sustava → Koristi Tihi način rada: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/SystemNotifications#NOTIFICATION_USE_RINGER_SWITCH`
+- Pristupačnost → VoiceOver → Rječitost → QuickNav najave: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverQuickNavAnnouncementFeedback`
+- Pristupačnost → VoiceOver → Rječitost → QuickNav najave → QuickNav najave: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverQuickNavAnnouncementFeedback#voiceOverQuickNavAnnouncementFeedback`
+- Pristupačnost → VoiceOver → Rječitost → Obavijesti o ručnoj svjetiljci: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverFlashlightNotificationsEnabled`
+- Pristupačnost → VoiceOver → Rječitost → Obavijesti o ručnoj svjetiljci → Obavijesti o ručnoj svjetiljci: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverFlashlightNotificationsEnabled#voiceOverFlashlightNotificationsEnabled`
+- Pristupačnost → VoiceOver → Rječitost → Velika slova: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverCapitalLetterFeedback`
+- Pristupačnost → VoiceOver → Rječitost → Velika slova → Velika slova: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverCapitalLetterFeedback#voiceOverCapitalLetterFeedback`
+- Pristupačnost → VoiceOver → Rječitost → Brisanje teksta: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverDeletionFeedback`
+- Pristupačnost → VoiceOver → Rječitost → Brisanje teksta → Brisanje teksta: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverDeletionFeedback#voiceOverDeletionFeedback`
+- Pristupačnost → VoiceOver → Rječitost → Linkovi: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverLinkFeedback`
+- Pristupačnost → VoiceOver → Rječitost → Linkovi → Linkovi: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverLinkFeedback#voiceOverLinkFeedback`
+- Pristupačnost → VoiceOver → Rječitost → Postupci: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverActionsFeedback`
+- Pristupačnost → VoiceOver → Rječitost → Postupci → Postupci: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverActionsFeedback#voiceOverActionsFeedback`
+- Pristupačnost → VoiceOver → Rječitost → Više sadržaja: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMoreContentOutputFeedback`
+- Pristupačnost → VoiceOver → Rječitost → Više sadržaja → Više sadržaja: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMoreContentOutputFeedback#voiceOverMoreContentOutputFeedback`
+- Pristupačnost → VoiceOver → Rječitost → Opisi spremnika: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverContainerOutputFeedback`
+- Pristupačnost → VoiceOver → Rječitost → Opisi spremnika → Opisi spremnika: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverContainerOutputFeedback#voiceOverContainerOutputFeedback`
+- Pristupačnost → VoiceOver → Rječitost → Brojevi: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverNumberFeedback`
+- Pristupačnost → VoiceOver → Rječitost → Brojevi → Brojevi: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverNumberFeedback#voiceOverNumberFeedback`
+- Pristupačnost → VoiceOver → Rječitost → Povratna informacija za predviđanje teksta: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/PREDICTIVE_TEXT_FEEDBACK`
+- Pristupačnost → VoiceOver → Rječitost → Povratna informacija za predviđanje teksta → Povratna informacija za predviđanje teksta: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/PREDICTIVE_TEXT_FEEDBACK#PREDICTIVE_TEXT_FEEDBACK`
+- Pristupačnost → VoiceOver → Rječitost → Povratna informacija za predviđanje teksta → Kad se prikaže predviđanje teksta: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/PREDICTIVE_TEXT_FEEDBACK/InlineTextCompletionAppearanceFeedback`
+- Pristupačnost → VoiceOver → Rječitost → Povratna informacija za predviđanje teksta → Kad se prikaže predviđanje teksta → Kad se prikaže predviđanje teksta: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/PREDICTIVE_TEXT_FEEDBACK/InlineTextCompletionAppearanceFeedback#InlineTextCompletionAppearanceFeedback`
+- Pristupačnost → VoiceOver → Rječitost → Povratna informacija za predviđanje teksta → Kad se unese povratna informacija za predviđanje teksta: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/PREDICTIVE_TEXT_FEEDBACK/InlineTextCompletionInsertionFeedback`
+- Pristupačnost → VoiceOver → Rječitost → Povratna informacija za predviđanje teksta → Kad se unese povratna informacija za predviđanje teksta → Kad se unese povratna informacija za predviđanje teksta: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/PREDICTIVE_TEXT_FEEDBACK/InlineTextCompletionInsertionFeedback#InlineTextCompletionInsertionFeedback`
+- Pristupačnost → VoiceOver → Rječitost → Zaglavlja tablica: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#speakTableHeader`
+- Pristupačnost → VoiceOver → Rječitost → Brojevi redaka i stupaca: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#SPEAK_TABLE_ROW_COLUMN`
+- Pristupačnost → VoiceOver → Rječitost → Pročitaj potvrde: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#ACTION_CONFIRMATION`
+- Pristupačnost → VoiceOver → Rječitost → Sažetak web rotora: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverRotorSummaryFeedback`
+- Pristupačnost → VoiceOver → Rječitost → Sažetak web rotora → Sažetak web rotora: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverRotorSummaryFeedback#voiceOverRotorSummaryFeedback`
+- Pristupačnost → VoiceOver → Rječitost → Emoji: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverEmojiFeedback`
+- Pristupačnost → VoiceOver → Rječitost → Emoji → Emoji: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverEmojiFeedback#voiceOverEmojiFeedback`
+- Pristupačnost → VoiceOver → Rječitost → Dodatak emojiju: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#EMOJI_SUFFIX`
+- Pristupačnost → VoiceOver → Rječitost → Opisi medija: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions`
+- Pristupačnost → VoiceOver → Rječitost → Opisi medija → Opisi medija: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#voiceOverMediaDescriptions`
+- Pristupačnost → VoiceOver → Rječitost → Povratna informacija tijekom unosa: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#voiceOverInputFeedback`
+- Pristupačnost → VoiceOver → Rječitost → Povratna informacija za zadržavanje aplikacije: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#voiceOverAppHoverFeedback`
+- Pristupačnost → VoiceOver → Brajica: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille`
+- Pristupačnost → VoiceOver → Brajica → Brajica: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#Braille`
+- Pristupačnost → VoiceOver → Brajica → Izlaz: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput`
+- Pristupačnost → VoiceOver → Brajica → Izlaz → Izlaz: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#BrailleDisplayOutput`
+- Pristupačnost → VoiceOver → Brajica → Unos: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput`
+- Pristupačnost → VoiceOver → Brajica → Unos → Unos: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#BrailleDisplayInput`
+- Pristupačnost → VoiceOver → Brajica → Uskladi tablice ulaza i izlaza: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BRAILLE_SYNC_TABLES`
+- Pristupačnost → VoiceOver → Brajica → Ulaz i izlaz: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleDisplayOutput`
+- Pristupačnost → VoiceOver → Brajica → Automatski prijevod: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#GRADE2_AUTO_TRANSLATE`
+- Pristupačnost → VoiceOver → Brajica → Brajica na zaslonu: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput`
+- Pristupačnost → VoiceOver → Brajica → Brajica na zaslonu → Brajica na zaslonu: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#BrailleGesturesInput`
+- Pristupačnost → VoiceOver → Brajica → Brajica na zaslonu → Pokreni automatski prilikom uređivanja teksta: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#AUTO_ACTIVATE_ON_TEXT_FIELDS`
+- Pristupačnost → VoiceOver → Brajica → Brajica na zaslonu → Obrni položaje točke: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#SHOULD_REVERSE_DOTS`
+- Pristupačnost → VoiceOver → Brajica → Brajica na zaslonu → Održavaj aktivno do otpuštanja: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#CONTROL_DEVICE_USING_BRAILLE_GESTURE`
+- Pristupačnost → VoiceOver → Brajica → Brajica na zaslonu → Vizualna tekstualna povratna informacija: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#DISPLAY_ENTERED_TEXT`
+- Pristupačnost → VoiceOver → Brajica → Brajica na zaslonu → Povratna informacija tijekom tipkanja: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#TYPING_FEEDBACK`
+- Pristupačnost → VoiceOver → Brajica → Brajica na zaslonu → Zvuk: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#USE_TYPING_SOUND_FEEDBACK`
+- Pristupačnost → VoiceOver → Brajica → Brajica na zaslonu → Zvuk: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#USE_HAPTIC_FEEDBACK`
+- Pristupačnost → VoiceOver → Brajica → Brajica na zaslonu → Način rada najava: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#SOUND_OPTION`
+- Pristupačnost → VoiceOver → Brajica → Brajica na zaslonu → Odaberi brajevu tablicu: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#BSI_TABLES`
+- Pristupačnost → VoiceOver → Brajica → Brajeve tablice: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier`
+- Pristupačnost → VoiceOver → Brajica → Brajeve tablice → Brajeve tablice: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier#tableIdentifier`
+- Pristupačnost → VoiceOver → Brajica → Brajeve tablice → Dodaj brajevu tablicu…: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier/ADD_NEW_BRAILLE_LANGUAGE`
+- Pristupačnost → VoiceOver → Brajica → Brajeve tablice → Dodaj brajevu tablicu… → Dodaj brajevu tablicu…: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier/ADD_NEW_BRAILLE_LANGUAGE#ADD_NEW_BRAILLE_LANGUAGE`
+- Pristupačnost → VoiceOver → Brajica → Ćelije statusa: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL`
+- Pristupačnost → VoiceOver → Brajica → Ćelije statusa → Ćelije statusa: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL`
+- Pristupačnost → VoiceOver → Brajica → Ćelije statusa → Položaj ćelija statusa: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_POSITION`
+- Pristupačnost → VoiceOver → Brajica → Ćelije statusa → Prikaži općeniti status: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#StatusCellGeneral`
+- Pristupačnost → VoiceOver → Brajica → Ćelije statusa → Prikaži status teksta: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#StatusCellTextStyle`
+- Pristupačnost → VoiceOver → Brajica → Jednadžbe u Nemeth kodu: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#ALWAYS_USE_NEMETH`
+- Pristupačnost → VoiceOver → Brajica → Prikaži tipkovnicu na zaslonu: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#SHOW_SW_KEYBOARD`
+- Pristupačnost → VoiceOver → Brajica → Okreći stranice pomicanjem: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#AUTO_TURN_PAGES`
+- Pristupačnost → VoiceOver → Brajica → Omotaj riječi: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#WORD_WRAP`
+- Pristupačnost → VoiceOver → Brajica → Formatiranje teksta: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BRAILLE_FORMATTING`
+- Pristupačnost → VoiceOver → Brajica → Poruke alarma na brajici: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleAlertDisplayDuration`
+- Pristupačnost → VoiceOver → Brajica → Poruke alarma na brajici → Poruke alarma na brajici: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleAlertDisplayDuration#voiceOverBrailleAlertDisplayDuration`
+- Pristupačnost → VoiceOver → Brajica → Poruke alarma na brajici → Poruke alarma na brajici: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleAlertDisplayDuration#NumericalPreferenceSwitcherIdentifier`
+- Pristupačnost → VoiceOver → Brajica → Poruke alarma na brajici → Prikaži do odbacivanja: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleAlertDisplayDuration#NumericalPreferenceInfiniteTimeDurationIdentifier`
+- Pristupačnost → VoiceOver → Brajica → Ignoriraj trajanje uzorka: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleDebounceTimeout`
+- Pristupačnost → VoiceOver → Brajica → Ignoriraj trajanje uzorka → Ignoriraj trajanje uzorka: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleDebounceTimeout/voiceOverBrailleDebounceTimeout`
+- Pristupačnost → VoiceOver → Brajica → Trajanje auto pomicanja: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleAutoAdvance`
+- Pristupačnost → VoiceOver → Brajica → Trajanje auto pomicanja → Trajanje auto pomicanja: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleAutoAdvance#voiceOverBrailleAutoAdvance`
+- Pristupačnost → VoiceOver → Brajica → Zvučna zavjesa: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#SOUND_CURTAIN`
+- Pristupačnost → VoiceOver → Brajica → Omogući Bluetooth prilikom pokretanja: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverAlwaysTurnOnBluetooth`
+- Pristupačnost → VoiceOver → Brajica → Odaberite brajev redak: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#DEVICES`
+- Pristupačnost → VoiceOver → Zvuk: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio`
+- Pristupačnost → VoiceOver → Zvuk → Zvuk: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#Audio`
+- Pristupačnost → VoiceOver → Zvuk → Zvukovi za VoiceOver: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds`
+- Pristupačnost → VoiceOver → Zvuk → Zvukovi za VoiceOver → Zvukovi za VoiceOver: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSounds`
+- Pristupačnost → VoiceOver → Zvuk → Zvukovi za VoiceOver → Zvukovi: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSSettingsItem.Sounds`
+- Pristupačnost → VoiceOver → Zvuk → Zvukovi za VoiceOver → Interakcija: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSOutputEventCategory.Interaction`
+- Pristupačnost → VoiceOver → Zvuk → Zvukovi za VoiceOver → VoiceOver povratna informacija: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSOutputEventCategory.VoiceOverFeedback`
+- Pristupačnost → VoiceOver → Zvuk → Zvukovi za VoiceOver → Povratna informacija za aplikaciju: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSOutputEventCategory.AppFeedback`
+- Pristupačnost → VoiceOver → Zvuk → Zvukovi za VoiceOver → Brajica: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSOutputEventCategory.Braille`
+- Pristupačnost → VoiceOver → Zvuk → Zvukovi za VoiceOver → Uređivanje teksta: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSOutputEventCategory.TextEditing`
+- Pristupačnost → VoiceOver → Zvuk → Zvukovi za VoiceOver → Sustav: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSOutputEventCategory.System`
+- Pristupačnost → VoiceOver → Zvuk → Stišaj pozadinski zvuk: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#AUDIO_DUCKING`
+- Pristupačnost → VoiceOver → Zvuk → Auto odabir zvučnika: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#ROUTE_TO_SPEAKER`
+- Pristupačnost → VoiceOver → Zvuk → Pošalji na HDMI: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#ROUTE_TO_HDMI`
+- Pristupačnost → VoiceOver → Naredbe: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands`
+- Pristupačnost → VoiceOver → Naredbe → Naredbe: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands#CustomizeCommands`
+- Pristupačnost → VoiceOver → Naredbe → Sve naredbe: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/AllCommands`
+- Pristupačnost → VoiceOver → Naredbe → Sve naredbe → Sve naredbe: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/AllCommands#AllCommands`
+- Pristupačnost → VoiceOver → Naredbe → Unos tipkovnice brajice: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/BrailleKeyboardInput`
+- Pristupačnost → VoiceOver → Naredbe → Unos tipkovnice brajice → Unos tipkovnice brajice: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/BrailleKeyboardInput#BrailleKeyboardInput`
+- Pristupačnost → VoiceOver → Naredbe → Geste dodira: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/TouchGestures`
+- Pristupačnost → VoiceOver → Naredbe → Geste dodira → Geste dodira: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/TouchGestures#TouchGestures`
+- Pristupačnost → VoiceOver → Naredbe → Prečaci tipkovnice: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/KeyboardShortcuts`
+- Pristupačnost → VoiceOver → Naredbe → Prečaci tipkovnice → Prečaci tipkovnice: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/KeyboardShortcuts#KeyboardShortcuts`
+- Pristupačnost → VoiceOver → Naredbe → Rukopis: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/Handwriting`
+- Pristupačnost → VoiceOver → Naredbe → Rukopis → Rukopis: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/Handwriting#Handwriting`
+- Pristupačnost → VoiceOver → Naredbe → Brajica na zaslonu: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/BrailleScreenInput`
+- Pristupačnost → VoiceOver → Naredbe → Brajica na zaslonu → Brajica na zaslonu: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/BrailleScreenInput#BrailleScreenInput`
+- Pristupačnost → VoiceOver → Naredbe → Resetiraj VoiceOver naredbe: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands#ResetVoiceOverCommands`
+- Pristupačnost → VoiceOver → Naredbe → Prebaci ruku koja se koristi za geste: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands#SWITCH_GESTURE_HANDEDNESS`
+- Pristupačnost → VoiceOver → Aktivnosti: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/activities`
+- Pristupačnost → VoiceOver → Aktivnosti → Aktivnosti: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/activities#activities`
+- Pristupačnost → VoiceOver → Aktivnosti → Programiranje: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/activities/Programming`
+- Pristupačnost → VoiceOver → Aktivnosti → Programiranje → Programiranje: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/activities/Programming#Programming`
+- Pristupačnost → VoiceOver → Aktivnosti → Dodaj aktivnost…: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/activities/New`
+- Pristupačnost → VoiceOver → Aktivnosti → Dodaj aktivnost… → Dodaj aktivnost…: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/activities/New#New`
+- Pristupačnost → VoiceOver → Rotor: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions`
+- Pristupačnost → VoiceOver → Rotor → Rotor: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#RotorActions`
+- Pristupačnost → VoiceOver → Rotor → Stavke rotora: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions/WebRotor`
+- Pristupačnost → VoiceOver → Rotor → Stavke rotora → Stavke rotora: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions/WebRotor#WebRotor`
+- Pristupačnost → VoiceOver → Rotor → Mijenjanje rotora pomoću stavke: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#STICKY_ROTOR_TITLE`
+- Pristupačnost → VoiceOver → Rotor → Uredi aplikacije na poč. zasl.: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#editApps`
+- Pristupačnost → VoiceOver → Rotor → Aplikacije izravnog dodira: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions/apps`
+- Pristupačnost → VoiceOver → Rotor → Aplikacije izravnog dodira → Aplikacije izravnog dodira: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions/apps#apps`
+- Pristupačnost → VoiceOver → Tipkanje: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions`
+- Pristupačnost → VoiceOver → Tipkanje → Tipkanje: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#TypingOptions`
+- Pristupačnost → VoiceOver → Tipkanje → Stil tipkanja: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_MODE_TITLE`
+- Pristupačnost → VoiceOver → Tipkanje → Stil tipkanja → Stil tipkanja: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_MODE_TITLE#TYPING_MODE_TITLE`
+- Pristupačnost → VoiceOver → Tipkanje → Fonetske informacije: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE`
+- Pristupačnost → VoiceOver → Tipkanje → Fonetske informacije → Fonetske informacije: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_TITLE`
+- Pristupačnost → VoiceOver → Tipkanje → Povratna informacija tijekom tipkanja: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_FEEDBACK`
+- Pristupačnost → VoiceOver → Tipkanje → Povratna informacija tijekom tipkanja → Povratna informacija tijekom tipkanja: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_FEEDBACK#TYPING_FEEDBACK`
+- Pristupačnost → VoiceOver → Tipkanje → Modifikatori: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS`
+- Pristupačnost → VoiceOver → Tipkanje → Modifikatori → Modifikatori: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS#MODIFIER_KEYS`
+- Pristupačnost → VoiceOver → Tipkanje → Vrijeme interakcije tipkovnice: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/KEYBOARD_TIMING_TIMEOUT`
+- Pristupačnost → VoiceOver → Tipkanje → Vrijeme interakcije tipkovnice → Vrijeme interakcije tipkovnice: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/KEYBOARD_TIMING_TIMEOUT#KEYBOARD_TIMING_TIMEOUT`
+- Pristupačnost → VoiceOver → Navigacija slika: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages`
+- Pristupačnost → VoiceOver → Navigacija slika → Navigacija slika: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#IncludeUnlabeledImages`
+- Pristupačnost → VoiceOver → Veliki kursor: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CursorStyle`
+- Pristupačnost → VoiceOver → Prozor s titlovima: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CaptionPanel`
+- Pristupačnost → VoiceOver → Istek dvostrukog dodira: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/DOUBLE_TAP_INTERVAL_TITLE`
+- Pristupačnost → VoiceOver → Istek dvostrukog dodira → Istek dvostrukog dodira: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/DOUBLE_TAP_INTERVAL_TITLE#NumericalPreferencePickerGroupIdentifier`
+- Pristupačnost → VoiceOver → Stil navigacije: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NavigationStyle`
+- Pristupačnost → VoiceOver → Stil navigacije → Stil navigacije: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NavigationStyle#NavigationStyle`
+- Pristupačnost → VoiceOver → Brze postavke: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings`
+- Pristupačnost → VoiceOver → Brze postavke → Brze postavke: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#QuickSettings`
+- Pristupačnost → VoiceOver → Prepoznavanje pomoću VoiceOvera: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver`
+- Pristupačnost → VoiceOver → Prepoznavanje pomoću VoiceOvera → Prepoznavanje pomoću VoiceOvera: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver#NeuralVoiceOver`
+- Pristupačnost → VoiceOver → Prepoznavanje pomoću VoiceOvera → Opisi slika: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_IMAGE_DESCRIPTIONS`
+- Pristupačnost → VoiceOver → Prepoznavanje pomoću VoiceOvera → Opisi slika → Opisi slika: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_IMAGE_DESCRIPTIONS#VO_IMAGE_DESCRIPTIONS`
+- Pristupačnost → VoiceOver → Prepoznavanje pomoću VoiceOvera → Opisi slika → Informacija o osjetljivom sadržaju: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_IMAGE_DESCRIPTIONS#SensitiveContentGroup`
+- Pristupačnost → VoiceOver → Prepoznavanje pomoću VoiceOvera → Opisi slika → Dodatni jezici: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_IMAGE_DESCRIPTIONS/AdditionalLanguages`
+- Pristupačnost → VoiceOver → Prepoznavanje pomoću VoiceOvera → Opisi slika → Dodatni jezici → Dodatni jezici: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_IMAGE_DESCRIPTIONS/AdditionalLanguages#AdditionalLanguages`
+- Pristupačnost → VoiceOver → Prepoznavanje pomoću VoiceOvera → Opisi slika → Primijeni na aplikacije: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_IMAGE_DESCRIPTIONS/apps`
+- Pristupačnost → VoiceOver → Prepoznavanje pomoću VoiceOvera → Opisi slika → Primijeni na aplikacije → Primijeni na aplikacije: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_IMAGE_DESCRIPTIONS/apps#apps`
+- Pristupačnost → VoiceOver → Prepoznavanje pomoću VoiceOvera → Prepoznavanje zaslona: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_SCREEN_RECOGNITION`
+- Pristupačnost → VoiceOver → Prepoznavanje pomoću VoiceOvera → Prepoznavanje zaslona → Prepoznavanje zaslona: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_SCREEN_RECOGNITION#VO_SCREEN_RECOGNITION`
+- Pristupačnost → VoiceOver → Prepoznavanje pomoću VoiceOvera → Prepoznavanje zaslona → Primijeni na aplikacije: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_SCREEN_RECOGNITION/apps`
+- Pristupačnost → VoiceOver → Prepoznavanje pomoću VoiceOvera → Prepoznavanje zaslona → Primijeni na aplikacije → Primijeni na aplikacije: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_SCREEN_RECOGNITION/apps#apps`
+- Pristupačnost → VoiceOver → Prepoznavanje pomoću VoiceOvera → Prepoznavanje teksta: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver#VO_OCR`
+- Pristupačnost → VoiceOver → Prepoznavanje pomoću VoiceOvera → Stil povratne informacije: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_FEEDBACK`
+- Pristupačnost → VoiceOver → Prepoznavanje pomoću VoiceOvera → Stil povratne informacije → Stil povratne informacije: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_FEEDBACK#VO_FEEDBACK`
+- Pristupačnost → VoiceOver → Prepoznavanje pomoću VoiceOvera → Prepoznavanje uživo: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_REAL_WORLD_DETECTION`
+- Pristupačnost → VoiceOver → Odgoda prije odabira: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#VoiceOverDelayUntilSpeak`
+- Pristupačnost → VoiceOver → Istek dvostrukog štipanja: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#DOUBLE_TAP_INTERVAL`
+- Pristupačnost → Zumiranje: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE`
+- Pristupačnost → Zumiranje → Praćenje fokusa: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomShouldFollowFocus`
+- Pristupačnost → Zumiranje → Pametno tipkanje: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomAlwaysUseWindowZoomForTyping`
+- Pristupačnost → Zumiranje → Prečaci tipkovnice: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts`
+- Pristupačnost → Zumiranje → Prečaci tipkovnice → Prečaci tipkovnice: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomEnableKeyboardShortcuts`
+- Pristupačnost → Zumiranje → Prečaci tipkovnice → Podesi razinu zumiranja: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutAdjustZoomLevel`
+- Pristupačnost → Zumiranje → Prečaci tipkovnice → Uključi/isključi zumiranje: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutToggleZoom`
+- Pristupačnost → Zumiranje → Prečaci tipkovnice → Pomakni prozor zumiranja: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutPanZoom`
+- Pristupačnost → Zumiranje → Prečaci tipkovnice → Prilagodi prozor zumiranja: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutResizeZoomWindow`
+- Pristupačnost → Zumiranje → Prečaci tipkovnice → Promijeni područje zumiranja: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutSwitchZoomMode`
+- Pristupačnost → Zumiranje → Prečaci tipkovnice → Privremeno prebaci zumiranje: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutTempToggleZoom`
+- Pristupačnost → Zumiranje → Prečaci tipkovnice → Zumiranje kotačićem: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutScrollWheel`
+- Pristupačnost → Zumiranje → Koristi gestu dodirne površine za zumiranje: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomWithTrackpad`
+- Pristupačnost → Zumiranje → Kontroler zumiranja: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug`
+- Pristupačnost → Zumiranje → Kontroler zumiranja → Kontroler zumiranja: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug#ZoomSlug`
+- Pristupačnost → Zumiranje → Kontroler zumiranja → Prikaži kontroler: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug#ZOOM_DETACH_CONTROLS`
+- Pristupačnost → Zumiranje → Kontroler zumiranja → Jednostruki dodir: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_CONTROLLER_ACTION_SINGLE_TAP`
+- Pristupačnost → Zumiranje → Kontroler zumiranja → Jednostruki dodir → Jednostruki dodir: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_CONTROLLER_ACTION_SINGLE_TAP#ZOOM_CONTROLLER_ACTION_SINGLE_TAP`
+- Pristupačnost → Zumiranje → Kontroler zumiranja → Dvostruki dodir: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_CONTROLLER_ACTION_DOUBLE_TAP`
+- Pristupačnost → Zumiranje → Kontroler zumiranja → Dvostruki dodir → Dvostruki dodir: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_CONTROLLER_ACTION_DOUBLE_TAP#ZOOM_CONTROLLER_ACTION_DOUBLE_TAP`
+- Pristupačnost → Zumiranje → Kontroler zumiranja → Trostruki dodir: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_CONTROLLER_ACTION_TRIPLE_TAP`
+- Pristupačnost → Zumiranje → Kontroler zumiranja → Trostruki dodir → Trostruki dodir: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_CONTROLLER_ACTION_TRIPLE_TAP#ZOOM_CONTROLLER_ACTION_TRIPLE_TAP`
+- Pristupačnost → Zumiranje → Kontroler zumiranja → Podesi razinu zumiranja: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug#ZOOM_TAP_AND_SLIDE_TO_ADJUST_ZOOM_LEVEL`
+- Pristupačnost → Zumiranje → Kontroler zumiranja → Boja: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/CONTROLLER_COLOR`
+- Pristupačnost → Zumiranje → Kontroler zumiranja → Boja → Boja: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/CONTROLLER_COLOR#CONTROLLER_COLOR`
+- Pristupačnost → Zumiranje → Kontroler zumiranja → Neprozirnost kod neaktivnosti: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_IDLE_SLUG_OPACITY`
+- Pristupačnost → Zumiranje → Kontroler zumiranja → Neprozirnost kod neaktivnosti → Neprozirnost kod neaktivnosti: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_IDLE_SLUG_OPACITY#ZOOM_IDLE_SLUG_OPACITY`
+- Pristupačnost → Zumiranje → Područje zumiranja: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode`
+- Pristupačnost → Zumiranje → Područje zumiranja → Područje zumiranja: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode#ZoomLensMode`
+- Pristupačnost → Zumiranje → Maksimalno uvećanje: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomPreferredMaxZoomLevel`
+- Pristupačnost → Zumiranje → Filtar zumiranja: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomFilter`
+- Pristupačnost → Zumiranje → Filtar zumiranja → Filtar zumiranja: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomFilter#ZoomFilter`
+- Pristupačnost → Zumiranje → Prikaži tijekom zrcaljenja: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomShowWhileMirroring`
+- Pristupačnost → Zumiranje → Podesi Zum kao standardni fokus: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomAsDefaultDial`
+- Pristupačnost → Zumiranje → Koristi Digital Crown za zumiranje: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomStealsCrownTurns`
+- Pristupačnost → Zumiranje → Boja ruba: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#MagnifyingGlassBorderColor`
+- Pristupačnost → Povećanje teksta kursorom: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE`
+- Pristupačnost → Povećanje teksta kursorom → Način prikaza: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextDisplayMode`
+- Pristupačnost → Povećanje teksta kursorom → Način prikaza → Način prikaza: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextDisplayMode#HoverTextDisplayMode`
+- Pristupačnost → Povećanje teksta kursorom → Brzina listanja: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextScrollSpeed`
+- Pristupačnost → Povećanje teksta kursorom → Brzina listanja → Brzina listanja: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextScrollSpeed#HoverTextScrollSpeed`
+- Pristupačnost → Povećanje teksta kursorom → Font: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextStyle`
+- Pristupačnost → Povećanje teksta kursorom → Font → Font: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextStyle#HoverTextStyle`
+- Pristupačnost → Povećanje teksta kursorom → Veličina: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextSize`
+- Pristupačnost → Povećanje teksta kursorom → Veličina → Veličina: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextSize#HoverTextSize`
+- Pristupačnost → Povećanje teksta kursorom → Boje: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE#HOVER_TEXT_COLOR_OPTIONS`
+- Pristupačnost → Povećanje teksta kursorom → Modifikator aktivacije: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextActivationModifier`
+- Pristupačnost → Povećanje teksta kursorom → Modifikator aktivacije → Modifikator aktivacije: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextActivationModifier#HoverTextActivationModifier`
+- Pristupačnost → Povećanje teksta kursorom → Zaključavanje aktivacije: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE#HOVER_TEXT_ACTIVATION_LOCK`
+- Pristupačnost → Tipkovnice i tipkanje: `prefs:root=ACCESSIBILITY&path=KEYBOARDS`
+- Pristupačnost → Tipkovnice i tipkanje → Povećanje tijekom tipkanja: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING`
+- Pristupačnost → Tipkovnice i tipkanje → Povećanje tijekom tipkanja → Način prikaza: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING/HoverTextTypingDisplayMode`
+- Pristupačnost → Tipkovnice i tipkanje → Povećanje tijekom tipkanja → Način prikaza → Način prikaza: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING/HoverTextTypingDisplayMode#HoverTextTypingDisplayMode`
+- Pristupačnost → Tipkovnice i tipkanje → Povećanje tijekom tipkanja → Font: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING/HoverTypingStyle`
+- Pristupačnost → Tipkovnice i tipkanje → Povećanje tijekom tipkanja → Font → Font: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING/HoverTypingStyle#HoverTypingStyle`
+- Pristupačnost → Tipkovnice i tipkanje → Povećanje tijekom tipkanja → Veličina: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING/HoverTextSize`
+- Pristupačnost → Tipkovnice i tipkanje → Povećanje tijekom tipkanja → Veličina → Veličina: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING/HoverTextSize#HoverTextSize`
+- Pristupačnost → Tipkovnice i tipkanje → Povećanje tijekom tipkanja → Boje za tipkanje: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TYPING_COLOR_OPTIONS`
+- Pristupačnost → Tipkovnice i tipkanje → Povećanje tijekom tipkanja → Boje zaslona: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TYPING_DISPLAY_COLOR_OPTIONS`
+- Pristupačnost → Tipkovnice i tipkanje → Povećanje tijekom tipkanja → Boja teksta: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TEXT_TEXT_COLOR`
+- Pristupačnost → Tipkovnice i tipkanje → Povećanje tijekom tipkanja → Boja mjesta za umetanje: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TEXT_INSERTION_POINT_COLOR`
+- Pristupačnost → Tipkovnice i tipkanje → Povećanje tijekom tipkanja → Pozadinska boja: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TEXT_BACKGROUND_COLOR`
+- Pristupačnost → Tipkovnice i tipkanje → Povećanje tijekom tipkanja → Boja ruba: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TEXT_BORDER_COLOR`
+- Pristupačnost → Tipkovnice i tipkanje → Povećanje tijekom tipkanja → Automatski ispravljena boja riječi: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TYPING_AUTOCORRECTED_WORD_COLOR`
+- Pristupačnost → Tipkovnice i tipkanje → Povećanje tijekom tipkanja → Krivo napisana boja riječi: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TYPING_MISSPELLED_WORD`
+- Pristupačnost → Tipkovnice i tipkanje → Povećanje tijekom tipkanja → Resetiraj na standardno: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TYPING_RESET_BUTTON`
+- Pristupačnost → Tipkovnice i tipkanje → Puni pristup putem tipkovnice: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS`
+- Pristupačnost → Tipkovnice i tipkanje → Puni pristup putem tipkovnice → Puni pristup putem tipkovnice: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAEnabledSwitch`
+- Pristupačnost → Tipkovnice i tipkanje → Puni pristup putem tipkovnice → Naredbe: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKACommands`
+- Pristupačnost → Tipkovnice i tipkanje → Puni pristup putem tipkovnice → Naredbe → Naredbe: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKACommands#FKACommands`
+- Pristupačnost → Tipkovnice i tipkanje → Puni pristup putem tipkovnice → Automatski sakrij: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKAFocusRingTimeout`
+- Pristupačnost → Tipkovnice i tipkanje → Puni pristup putem tipkovnice → Automatski sakrij → Automatski sakrij: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKAFocusRingTimeout#FKAFocusRingTimeout`
+- Pristupačnost → Tipkovnice i tipkanje → Puni pristup putem tipkovnice → Povećaj veličinu: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKALargeFocusRingEnabled`
+- Pristupačnost → Tipkovnice i tipkanje → Puni pristup putem tipkovnice → Visoki kontrast: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKAFocusRingHighContrastEnabled`
+- Pristupačnost → Tipkovnice i tipkanje → Puni pristup putem tipkovnice → Boja: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKAFocusRingColor`
+- Pristupačnost → Tipkovnice i tipkanje → Puni pristup putem tipkovnice → Boja → Boja: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKAFocusRingColor#FKAFocusRingColor`
+- Pristupačnost → Tipkovnice i tipkanje → Ponavljanje tipke: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT`
+- Pristupačnost → Tipkovnice i tipkanje → Ponavljanje tipke → Ponavljanje tipke: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatEnabled`
+- Pristupačnost → Tipkovnice i tipkanje → Ponavljanje tipke → Interval ponavljanja tipke: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatInterval`
+- Pristupačnost → Tipkovnice i tipkanje → Ponavljanje tipke → Odgoda prije ponavljanja: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatDelay`
+- Pristupačnost → Tipkovnice i tipkanje → Vezane tipke: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS`
+- Pristupačnost → Tipkovnice i tipkanje → Vezane tipke → Vezane tipke: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysEnabled`
+- Pristupačnost → Tipkovnice i tipkanje → Vezane tipke → Promjena pomoću tipke Shift: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysShiftToggle`
+- Pristupačnost → Tipkovnice i tipkanje → Vezane tipke → Zvuk: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysSound`
+- Pristupačnost → Tipkovnice i tipkanje → Spore tipke: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/SLOW_KEYS`
+- Pristupačnost → Tipkovnice i tipkanje → Spore tipke → Spore tipke: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/SLOW_KEYS#NumericalPreferenceSwitcherIdentifier`
+- Pristupačnost → Tipkovnice i tipkanje → Softverske tipkovnice: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#SOFTWARE_KEYBOARDS`
+- Pristupačnost → Tipkovnice i tipkanje → Prikaži tipke malih slova: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#LOWERCASE_KEYBOARD`
+- Pristupačnost → Zaslon i veličina teksta: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT`
+- Pristupačnost → Zaslon i veličina teksta → Podebljaj tekst: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#ENHANCE_TEXT_LEGIBILITY`
+- Pristupačnost → Zaslon i veličina teksta → Veća slova: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/LARGER_TEXT`
+- Pristupačnost → Zaslon i veličina teksta → Veća slova → Veća slova: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/LARGER_TEXT#LARGER_TEXT`
+- Pristupačnost → Zaslon i veličina teksta → Veća slova → Prilagodi veličine: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/LARGER_TEXT#LARGER_DYNAMIC_TYPE_SWITCH`
+- Pristupačnost → Zaslon i veličina teksta → Oblici tipki: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#BUTTON_SHAPES`
+- Pristupačnost → Zaslon i veličina teksta → Oznake za uklj./isklj.: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#OnOffLabels`
+- Pristupačnost → Zaslon i veličina teksta → Smanji prozirnost: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#REDUCE_TRANSPARENCY`
+- Pristupačnost → Zaslon i veličina teksta → Povećaj kontrast: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#TEXT_COLORS_DARKEN`
+- Pristupačnost → Zaslon i veličina teksta → Razgraniči bez boje: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#DIFFERENTIATE_WITHOUT_COLOR`
+- Pristupačnost → Zaslon i veličina teksta → Preferiraj vodoravni tekst: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#PREFER_HORIZONTAL_TEXT`
+- Pristupačnost → Zaslon i veličina teksta → Pametno obrtanje: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#SMART_INVERT`
+- Pristupačnost → Zaslon i veličina teksta → Klasično obrtanje: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#CLASSIC_INVERT`
+- Pristupačnost → Zaslon i veličina teksta → Filtri boja: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR`
+- Pristupačnost → Zaslon i veličina teksta → Filtri boja → Filtri boja: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR#DISPLAY_FILTER_COLOR`
+- Pristupačnost → Zaslon i veličina teksta → Filtri boja → Primijeni na video prijelaz: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR#VIDEO_PASSTHROUGH`
+- Pristupačnost → Zaslon i veličina teksta → Smanji bijelu točku: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#WHITE_POINT`
+- Pristupačnost → Zaslon i veličina teksta → Auto svjetlina: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#AUTO_BRIGHTNESS`
+- Pristupačnost → Zaslon i veličina teksta → Ignoriraj pokrete očiju prilikom stabilizacije: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#STATIC_FOVEATION_TEXT`
+- Pristupačnost → Zaslon i veličina teksta → Poravnaj zaslone automatski: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#AUTO_IPD_TEXT`
+- Pristupačnost → Zaslon i veličina teksta → Povećaj status fokusa: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#INCREASE_FOCUS_STATE_TEXT`
+- Pristupačnost → Pomicanje: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE`
+- Pristupačnost → Pomicanje → Smanji pomicanje: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION`
+- Pristupačnost → Pomicanje → Automatski pokreni efekte poruka: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#ReduceMotionAutoplayMessagesEffects`
+- Pristupačnost → Pomicanje → Automatski reproduciraj animirane slike: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION_AUTOPLAY_ANIMATED_IMAGES`
+- Pristupačnost → Pomicanje → Automatski pregledi videozapisa: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION_AUTOPLAY_VIDEO_PREVIEWS`
+- Pristupačnost → Pomicanje → Preferiraj kursor koji ne treperi: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#PREFER_NONBLINKING_CURSOR`
+- Pristupačnost → Pomicanje → Ograniči brzinu sličica: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REFRESH_RATE`
+- Pristupačnost → Pomicanje → Zatamni treperava svjetla: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#PHOTOSENSITIVE_MITIGATION`
+- Pristupačnost → Pomicanje → Prikaži Znakove kretanja vozila: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#MotionCues`
+- Pristupačnost → Pročitani sadržaj: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE`
+- Pristupačnost → Pročitani sadržaj → Pročitaj odabir: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QUICK_SPEAK_TITLE`
+- Pristupačnost → Pročitani sadržaj → Pročitaj zaslon: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpeakThisEnabled`
+- Pristupačnost → Pročitani sadržaj → Kontroler čitanja: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController`
+- Pristupačnost → Pročitani sadržaj → Kontroler čitanja → Kontroler čitanja: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController#SpeechController`
+- Pristupačnost → Pročitani sadržaj → Kontroler čitanja → Dugi pritisak: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController/SpeechControllerLongPressAction`
+- Pristupačnost → Pročitani sadržaj → Kontroler čitanja → Dugi pritisak → Dugi pritisak: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController/SpeechControllerLongPressAction#SpeechControllerLongPressAction`
+- Pristupačnost → Pročitani sadržaj → Kontroler čitanja → Dvostruki dodir: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController/SpeechControllerDoubleTapAction`
+- Pristupačnost → Pročitani sadržaj → Kontroler čitanja → Dvostruki dodir → Dvostruki dodir: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController/SpeechControllerDoubleTapAction#SpeechControllerDoubleTapAction`
+- Pristupačnost → Pročitani sadržaj → Kontroler čitanja → Neprozirnost kod neaktivnosti: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController/SpeechControllerIdleOpacity`
+- Pristupačnost → Pročitani sadržaj → Kontroler čitanja → Neprozirnost kod neaktivnosti → Neprozirnost kod neaktivnosti: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController/SpeechControllerIdleOpacity#SpeechControllerIdleOpacity`
+- Pristupačnost → Pročitani sadržaj → Kontroler čitanja → Prilagodi tipke miša: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController#CustomizeMouseButtons`
+- Pristupačnost → Pročitani sadržaj → Istakni sadržaj: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/QuickSpeakHighlight`
+- Pristupačnost → Pročitani sadržaj → Istakni sadržaj → Istakni sadržaj: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/QuickSpeakHighlight#QuickSpeakHighlight`
+- Pristupačnost → Pročitani sadržaj → Istakni sadržaj → Stil isticanja rečenice: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/QuickSpeakHighlight#SENTENCE_HIGHLIGHT_STYLE`
+- Pristupačnost → Pročitani sadržaj → Istakni sadržaj → Boje isticanja: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/QuickSpeakHighlight#COLOR_CHOICE`
+- Pristupačnost → Pročitani sadržaj → Povratna informacija tijekom tipkanja: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback`
+- Pristupačnost → Pročitani sadržaj → Povratna informacija tijekom tipkanja → Povratna informacija tijekom tipkanja: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#TypingFeedback`
+- Pristupačnost → Pročitani sadržaj → Povratna informacija tijekom tipkanja → Znakovi: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#LETTER`
+- Pristupačnost → Pročitani sadržaj → Povratna informacija tijekom tipkanja → Savjeti za znakove: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#PhoneticFeedback`
+- Pristupačnost → Pročitani sadržaj → Povratna informacija tijekom tipkanja → Pročitaj riječi: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#WORD_FEEDBACK`
+- Pristupačnost → Pročitani sadržaj → Povratna informacija tijekom tipkanja → Pročitaj auto ispravke: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#SPEAK_AUTOCORRECTIONS`
+- Pristupačnost → Pročitani sadržaj → Povratna informacija tijekom tipkanja → Zadržite za čitanje prijedloga: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#QUICKTYPE_WORD_FEEDBACK`
+- Pristupačnost → Pročitani sadržaj → Glasovi: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/QuickSpeakAccents`
+- Pristupačnost → Pročitani sadržaj → Glasovi → Glasovi: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/QuickSpeakAccents#QuickSpeakAccents`
+- Pristupačnost → Pročitani sadržaj → Standardni jezik: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpokenContentDefaultLanguage`
+- Pristupačnost → Pročitani sadržaj → Standardni jezik → Standardni jezik: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpokenContentDefaultLanguage#SpokenContentDefaultLanguage`
+- Pristupačnost → Pročitani sadržaj → Detektiraj jezike: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#LANGUAGE_DETECTION`
+- Pristupačnost → Pročitani sadržaj → Brzina čitanja: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakRate`
+- Pristupačnost → Pročitani sadržaj → Izgovori: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/VoiceOverSettings`
+- Pristupačnost → Pročitani sadržaj → Izgovori → Izgovori: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/VoiceOverSettings#VoiceOverSettings`
+- Pristupačnost → Pročitani sadržaj → Prostorni govor: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SPATIALIZE_SPEECH`
+- Pristupačnost → Audio opisi: `prefs:root=ACCESSIBILITY&path=DESCRIPTIVE_VIDEO`
+- Pristupačnost → Interakcija: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE`
+- Pristupačnost → Interakcija → AssistiveTouch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE`
+- Pristupačnost → Interakcija → AssistiveTouch → AssistiveTouch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#EnableAssistiveTouchSpecifier`
+- Pristupačnost → Interakcija → AssistiveTouch → Podesi izbornik gornje razine: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize`
+- Pristupačnost → Interakcija → AssistiveTouch → Podesi izbornik gornje razine → Podesi izbornik gornje razine: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize#AssistiveTouchCustomize`
+- Pristupačnost → Interakcija → AssistiveTouch → Podesi izbornik gornje razine → Dodirnite ikonu za promjenu:: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize#ASTStepperCell`
+- Pristupačnost → Interakcija → AssistiveTouch → Jedan dodir: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/TapSpecifier`
+- Pristupačnost → Interakcija → AssistiveTouch → Jedan dodir → Jedan dodir: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/TapSpecifier#TapSpecifier`
+- Pristupačnost → Interakcija → AssistiveTouch → Dvostruki dodir: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier`
+- Pristupačnost → Interakcija → AssistiveTouch → Dvostruki dodir → Dvostruki dodir: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier#DoubleTapSpecifier`
+- Pristupačnost → Interakcija → AssistiveTouch → Dvostruki dodir → Istek dvostrukog dodira: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier/ASTDoubleTapTimeoutSpecifier`
+- Pristupačnost → Interakcija → AssistiveTouch → Dvostruki dodir → Istek dvostrukog dodira → Istek dvostrukog dodira: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier/ASTDoubleTapTimeoutSpecifier#ASTDoubleTapTimeoutSpecifier`
+- Pristupačnost → Interakcija → AssistiveTouch → Dugi pritisak: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier`
+- Pristupačnost → Interakcija → AssistiveTouch → Dugi pritisak → Dugi pritisak: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier#LongPressSpecifier`
+- Pristupačnost → Interakcija → AssistiveTouch → Dugi pritisak → Trajanje dugog pritiska: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier/ASTLongPressDurationSpecifier`
+- Pristupačnost → Interakcija → AssistiveTouch → Dugi pritisak → Trajanje dugog pritiska → Trajanje dugog pritiska: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier/ASTLongPressDurationSpecifier#ASTLongPressDurationSpecifier`
+- Pristupačnost → Interakcija → AssistiveTouch → 3D Touch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#ForceTouchSpecifier`
+- Pristupačnost → Interakcija → AssistiveTouch → Izradi novu gestu…: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/CreateCustomGesture`
+- Pristupačnost → Interakcija → AssistiveTouch → Izradi novu gestu… → Izradi novu gestu…: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/CreateCustomGesture#CreateCustomGesture`
+- Pristupačnost → Interakcija → AssistiveTouch → Neprozirnost kod neaktivnosti: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/IdleOpacity`
+- Pristupačnost → Interakcija → AssistiveTouch → Neprozirnost kod neaktivnosti → Neprozirnost kod neaktivnosti: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/IdleOpacity#IdleOpacity`
+- Pristupačnost → Interakcija → AssistiveTouch → Virtualna dodirna površina: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID`
+- Pristupačnost → Interakcija → AssistiveTouch → Virtualna dodirna površina → Brzina povlačenja: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID#TRACKING_SPEED_SLIDER`
+- Pristupačnost → Interakcija → AssistiveTouch → Virtualna dodirna površina → Prirodno listanje: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID#NATURAL_SCROLLING`
+- Pristupačnost → Interakcija → AssistiveTouch → Virtualna dodirna površina → Brzina listanja: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID#SCROLL_SPEED_SLIDER`
+- Pristupačnost → Interakcija → AssistiveTouch → Virtualna dodirna površina → Rub: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID#BORDER`
+- Pristupačnost → Interakcija → AssistiveTouch → Virtualna dodirna površina → Rub: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID/BORDER`
+- Pristupačnost → Interakcija → AssistiveTouch → Virtualna dodirna površina → Rub → Boja: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID/BORDER#COLOR`
+- Pristupačnost → Interakcija → AssistiveTouch → Virtualna dodirna površina → Rub → Neprozirnost: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID/BORDER#OPACITY`
+- Pristupačnost → Interakcija → AssistiveTouch → Virtualna dodirna površina → Rub → Širina ruba: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID/BORDER#BORDER_WIDTH`
+- Pristupačnost → Interakcija → AssistiveTouch → Virtualna dodirna površina → Dodirna površina: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID#TRACKPAD`
+- Pristupačnost → Interakcija → AssistiveTouch → Virtualna dodirna površina → Dodirna površina: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID/TRACKPAD`
+- Pristupačnost → Interakcija → AssistiveTouch → Virtualna dodirna površina → Dodirna površina → Boja: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID/TRACKPAD#COLOR`
+- Pristupačnost → Interakcija → AssistiveTouch → Virtualna dodirna površina → Dodirna površina → Neprozirnost: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID/TRACKPAD#OPACITY`
+- Pristupačnost → Interakcija → AssistiveTouch → Uređaji: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices`
+- Pristupačnost → Interakcija → AssistiveTouch → Uređaji → Uređaji: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices#AssistiveTouchMouseDevices`
+- Pristupačnost → Interakcija → AssistiveTouch → Uređaji → Bluetooth uređaji…: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices/BluetoothDevicesScanning`
+- Pristupačnost → Interakcija → AssistiveTouch → Uređaji → Bluetooth uređaji… → Bluetooth uređaji…: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices/BluetoothDevicesScanning#BluetoothDevicesScanning`
+- Pristupačnost → Interakcija → AssistiveTouch → Tipke miša: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseKeys`
+- Pristupačnost → Interakcija → AssistiveTouch → Tipke miša → Tipke miša: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseKeys#AssistiveTouchMouseKeys`
+- Pristupačnost → Interakcija → AssistiveTouch → Tipke miša → Prebaci tipkom Option: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseKeys#OptionKeyToggle`
+- Pristupačnost → Interakcija → AssistiveTouch → Tipke miša → Koristi primarnu tipkovnicu: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseKeys#UsePrimaryKeyboard`
+- Pristupačnost → Interakcija → AssistiveTouch → Tipke miša → Početna odgoda: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseKeys#InitialDelay`
+- Pristupačnost → Interakcija → AssistiveTouch → Tipke miša → Maksimalna brzina: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseKeys#MaximumSpeed`
+- Pristupačnost → Interakcija → AssistiveTouch → Prikaži tipkovnicu na zaslonu: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AlwaysShowSoftwareKeyboard`
+- Pristupačnost → Interakcija → AssistiveTouch → Uvijek prikaži izbornik: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AlwaysShowMenu`
+- Pristupačnost → Interakcija → AssistiveTouch → Zvuk klikanja: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#MouseClickSounds`
+- Pristupačnost → Interakcija → AssistiveTouch → Kontrola zadržavanja: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellEnabledSpecifier`
+- Pristupačnost → Interakcija → AssistiveTouch → Tolerancija pokreta: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellToleranceSpecifier`
+- Pristupačnost → Interakcija → AssistiveTouch → Tolerancija pokreta → Tolerancija pokreta: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellToleranceSpecifier#DwellToleranceSpecifier`
+- Pristupačnost → Interakcija → AssistiveTouch → Osjetljivost praćenja: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#TouchSpeed`
+- Pristupačnost → Interakcija → AssistiveTouch → Vraćanje postupka: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellAutorevertSpecifier`
+- Pristupačnost → Interakcija → AssistiveTouch → Vraćanje postupka → Vraćanje postupka: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellAutorevertSpecifier#DwellAutorevertSpecifier`
+- Pristupačnost → Interakcija → AssistiveTouch → Aktivni kutovi: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellCornersSpecifier`
+- Pristupačnost → Interakcija → AssistiveTouch → Aktivni kutovi → Aktivni kutovi: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellCornersSpecifier#DwellCornersSpecifier`
+- Pristupačnost → Interakcija → AssistiveTouch → Aktivni kutovi → Gore lijevo: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellCornersSpecifier#TopLeft`
+- Pristupačnost → Interakcija → AssistiveTouch → Aktivni kutovi → Gore desno: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellCornersSpecifier#TopRight`
+- Pristupačnost → Interakcija → AssistiveTouch → Aktivni kutovi → Dolje lijevo: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellCornersSpecifier#BottomLeft`
+- Pristupačnost → Interakcija → AssistiveTouch → Aktivni kutovi → Dolje desno: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellCornersSpecifier#BottomRight`
+- Pristupačnost → Interakcija → AssistiveTouch → Prošireni prijedlozi: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellExtendedPredictionsSpecifier`
+- Pristupačnost → Interakcija → AssistiveTouch → Istek vremena Kontrole zadržavanja: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellTimeoutSpecifier`
+- Pristupačnost → Interakcija → AssistiveTouch → Potvrdi koristeći AssistiveTouch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#APPLE_PAY_SWITCH`
+- Pristupačnost → Interakcija → AssistiveTouch → Napravi geste dodira: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#MouseBehavesLikeFinger`
+- Pristupačnost → Interakcija → AssistiveTouch → Koristi igraći kontroler: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#EnableAssistiveTouchGameControllerSpecifier`
+- Pristupačnost → Interakcija → AssistiveTouch → Postupci zvuka: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/SOUND_ACTIONS`
+- Pristupačnost → Interakcija → AssistiveTouch → Postupci zvuka: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#SOUND_ACTIONS`
+- Pristupačnost → Interakcija → Kontrola zadržavanja: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL`
+- Pristupačnost → Interakcija → Kontrola zadržavanja → Kontrola zadržavanja: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL#DWELL_CONTROL_TITLE`
+- Pristupačnost → Interakcija → Kontrola zadržavanja → Ciljana vrijednost: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL/DWELL_CONTROL_TARGET`
+- Pristupačnost → Interakcija → Kontrola zadržavanja → Tolerancija pokreta: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL/DWELL_MOVEMENT_TOLERANCE`
+- Pristupačnost → Interakcija → Kontrola zadržavanja → Istakni kontrolu: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL#DWELL_HIGHLIGHT_CONTROL_TITLE`
+- Pristupačnost → Interakcija → Kontrola zadržavanja → Pauziraj tijekom reprodukcije medija: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL#DWELL_PAUSE_FOR_MEDIA_PLAYBACK_TITLE`
+- Pristupačnost → Interakcija → Kontrola zadržavanja → Prikaži kontrole za listanje: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL#AXDwellQuickScrollSpecifierID`
+- Pristupačnost → Interakcija → Kontrola zadržavanja → Izbornik Prati: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL#AXDwellFollowSpecifierID`
+- Pristupačnost → Interakcija → Kontrola zadržavanja: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/#DwellEnabledSpecifier`
+- Pristupačnost → Interakcija → Dosezanje: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#REACHABILITY`
+- Pristupačnost → Interakcija → Dodir s vibracijom: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch`
+- Pristupačnost → Interakcija → Dodir s vibracijom → Dodir s vibracijom: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#ForceTouch`
+- Pristupačnost → Interakcija → Dodir s vibracijom → 3D Touch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#ForceTouchAccessibilityMainSwitch`
+- Pristupačnost → Interakcija → Dodir s vibracijom → Osjetljivost za 3D Touch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#FourceTouchSensitivityGroupIdentifier`
+- Pristupačnost → Interakcija → Dodir s vibracijom → Trajanje dodira: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#timingGroup`
+- Pristupačnost → Interakcija → Dodir s vibracijom → Test trajanja dodira: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#FourceTouchSensitivityTestGroupIdentifier`
+- Pristupačnost → Interakcija → Prilagodbe dodira: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS`
+- Pristupačnost → Interakcija → Prilagodbe dodira → Prilagodbe dodira: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#TOUCH_ACCOMMODATIONS_SWITCHER`
+- Pristupačnost → Interakcija → Prilagodbe dodira → Trajanje dodira: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#HoldDuration`
+- Pristupačnost → Interakcija → Prilagodbe dodira → Ignoriraj ponavljanje: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#IgnoreRepeat`
+- Pristupačnost → Interakcija → Prilagodbe dodira → Asistirani dodir: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#Tap%20Assistance`
+- Pristupačnost → Interakcija → Dodirnite za uključenje zaslona: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TAP_TO_WAKE_TITLE`
+- Pristupačnost → Interakcija → Dodirnite ili povucite za uključenje: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TAP_TOUCH_TO_WAKE_TITLE`
+- Pristupačnost → Interakcija → Poništi tresenjem: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#SHAKE_TO_UNDO`
+- Pristupačnost → Interakcija → Vibracija: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#VIBRATION`
+- Pristupačnost → Interakcija → Spriječi dovršavanje poziva zaključavanjem: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#LockButtonIgnore`
+- Pristupačnost → Interakcija → Preusmjeri zvuk poziva: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING`
+- Pristupačnost → Interakcija → Preusmjeri zvuk poziva → Preusmjeri zvuk poziva: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING`
+- Pristupačnost → Interakcija → Preusmjeri zvuk poziva → Automatsko javljanje: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING/callAudioRoutingAutoAnswer`
+- Pristupačnost → Interakcija → Preusmjeri zvuk poziva → Automatsko javljanje → Automatsko javljanje: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING/callAudioRoutingAutoAnswer#callAudioRoutingAutoAnswer`
+- Pristupačnost → Interakcija → Dodir po poleđini: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/BackTap`
+- Pristupačnost → Interakcija → Dodir po poleđini → Dodir po poleđini: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/BackTap#BackTap`
+- Pristupačnost → Interakcija → Dodir po poleđini → Dvostruki dodir: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/BackTap/DoubleTap`
+- Pristupačnost → Interakcija → Dodir po poleđini → Dvostruki dodir → Dvostruki dodir: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/BackTap/DoubleTap#DoubleTap`
+- Pristupačnost → Interakcija → Dodir po poleđini → Trostruki dodir: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/BackTap/TripleTap`
+- Pristupačnost → Interakcija → Dodir po poleđini → Trostruki dodir → Trostruki dodir: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/BackTap/TripleTap#TripleTap`
+- Pristupačnost → Interakcija → Upravljanje pokazivačem: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer`
+- Pristupačnost → Interakcija → Upravljanje pokazivačem → Povećaj kontrast: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#PointerIncreaseContrastSpecifier`
+- Pristupačnost → Interakcija → Upravljanje pokazivačem → Automatski sakrij pokazivač: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#PointerAutoHideSpecifier`
+- Pristupačnost → Interakcija → Upravljanje pokazivačem → Boja: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#PointerColorSpecifier`
+- Pristupačnost → Interakcija → Upravljanje pokazivačem → Veličina pokazivača: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#PointerSizeSpecifier`
+- Pristupačnost → Interakcija → Upravljanje pokazivačem → Upravljanje pokazivačem: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#PointerControlEnablingCell`
+- Pristupačnost → Interakcija → Upravljanje pokazivačem → Upravljanje: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer/POINTER_CONTROL_CONTROL`
+- Pristupačnost → Interakcija → Upravljanje pokazivačem → Boja: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer/PointerColorSpecifier`
+- Pristupačnost → Interakcija → Upravljanje pokazivačem → Boja → Širina ruba: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer/PointerColorSpecifier#PointerStrokeWidth`
+- Pristupačnost → Interakcija → Upravljanje pokazivačem → Ignoriraj dodirnu površinu: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#IgnoreTrackpad`
+- Pristupačnost → Interakcija → Upravljanje pokazivačem → Inercija dodirne površine: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#PointerInertia`
+- Pristupačnost → Interakcija → Upravljanje pokazivačem → Animacije pokazivača: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#PointerCustomShapes`
+- Pristupačnost → Interakcija → Upravljanje pokazivačem → Brzina listanja: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#DeviceScrollSpeed`
+- Pristupačnost → Interakcija → Pogledajte prema gore za Kontrolni centar: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/UPWARDS_HUD`
+- Pristupačnost → Interakcija → Pogledajte prema gore za Kontrolni centar → Okomiti položaj Kontrolnog centra: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/UPWARDS_HUD#UpwardsHUDPositionSpecifier`
+- Pristupačnost → Interakcija → Pogledajte prema gore za Kontrolni centar → Pogledajte prema gore za Kontrolni centar: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/UPWARDS_HUD#UpwardsHUDToggleSpecifier`
+- Pristupačnost → Interakcija → Postupci zvuka: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/SOUND_ACTIONS`
+- Pristupačnost → Interakcija → Preferiraj kontrole nevezane uz kretnje glave: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#CAMERA_ANCHOR_ALTERNATIVE_Preference`
+- Pristupačnost → Face ID i pažnja: `prefs:root=ACCESSIBILITY&path=FACE_ID`
+- Pristupačnost → Face ID i pažnja → Zahtijevaj pažnju za Face ID: `prefs:root=ACCESSIBILITY&path=FACE_ID#PearlUnlockAttention`
+- Pristupačnost → Face ID i pažnja → Značajke svjesne pažnje: `prefs:root=ACCESSIBILITY&path=FACE_ID#AttentionAware`
+- Pristupačnost → Face ID i pažnja → Vibracija nakon uspješne autorizacije: `prefs:root=ACCESSIBILITY&path=FACE_ID#PearlSuccessHaptic`
+- Pristupačnost → Kontrola prekidača: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle`
+- Pristupačnost → Kontrola prekidača → Prekidači: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier`
+- Pristupačnost → Kontrola prekidača → Prekidači → Prekidači: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier#SwitchesIdentifier`
+- Pristupačnost → Kontrola prekidača → Prekidači → Dodaj novi prekidač…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier/AddSwitchIdentifier`
+- Pristupačnost → Kontrola prekidača → Prekidači → Dodaj novi prekidač… → Dodaj novi prekidač…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier/AddSwitchIdentifier#AddSwitchIdentifier`
+- Pristupačnost → Kontrola prekidača → Prekidači → Bluetooth uređaji…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier/BluetoothDevicesIdentifier`
+- Pristupačnost → Kontrola prekidača → Prekidači → Bluetooth uređaji… → Bluetooth uređaji…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier/BluetoothDevicesIdentifier/BluetoothDevicesIdentifier`
+- Pristupačnost → Kontrola prekidača → Prekidači → Ignoriraj nevažeće podešavanje prekidača: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier#UpwardsHUDToggleSpecifier`
+- Pristupačnost → Kontrola prekidača → Planovi: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/RecipesIdentifier`
+- Pristupačnost → Kontrola prekidača → Planovi → Planovi: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/RecipesIdentifier#RecipesIdentifier`
+- Pristupačnost → Kontrola prekidača → Planovi → Izradi novi plan…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/RecipesIdentifier/CreateNewRecipe`
+- Pristupačnost → Kontrola prekidača → Planovi → Izradi novi plan… → Izradi novi plan…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/RecipesIdentifier/CreateNewRecipe#CreateNewRecipe`
+- Pristupačnost → Kontrola prekidača → Planovi → Pokreni plan: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/RecipesIdentifier/LaunchRecipe`
+- Pristupačnost → Kontrola prekidača → Planovi → Pokreni plan → Pokreni plan: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/RecipesIdentifier/LaunchRecipe#LaunchRecipe`
+- Pristupačnost → Kontrola prekidača → Stil skeniranja: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier`
+- Pristupačnost → Kontrola prekidača → Stil skeniranja → Stil skeniranja: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#ScanningStyleIdentifier`
+- Pristupačnost → Kontrola prekidača → Mod Kontrole prekidača: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/FirstLaunchScanningModeIdentifier`
+- Pristupačnost → Kontrola prekidača → Mod Kontrole prekidača → Mod Kontrole prekidača: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/FirstLaunchScanningModeIdentifier#FirstLaunchScanningModeIdentifier`
+- Pristupačnost → Kontrola prekidača → Trajanje auto skeniranja: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningSpeedIdentifier`
+- Pristupačnost → Kontrola prekidača → Trajanje auto skeniranja → Trajanje auto skeniranja: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningSpeedIdentifier#NumericalPreferencePickerGroupIdentifier`
+- Pristupačnost → Kontrola prekidača → Pauziraj na prvoj stavki: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/DelayAfterInputIdentifier`
+- Pristupačnost → Kontrola prekidača → Pauziraj na prvoj stavki → Pauziraj na prvoj stavki: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/DelayAfterInputIdentifier#NumericalPreferenceSwitcherIdentifier`
+- Pristupačnost → Kontrola prekidača → Petlje: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanCyclesIdentifier`
+- Pristupačnost → Kontrola prekidača → Petlje → Petlje: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanCyclesIdentifier#ScanCyclesIdentifier`
+- Pristupačnost → Kontrola prekidača → Ponavljanje pomicanja: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ActionRepeatIdentifier`
+- Pristupačnost → Kontrola prekidača → Ponavljanje pomicanja → Ponavljanje pomicanja: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ActionRepeatIdentifier#NumericalPreferenceSwitcherIdentifier`
+- Pristupačnost → Kontrola prekidača → Mod Kontrole prekidača: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSelectionGroupIdentifier`
+- Pristupačnost → Kontrola prekidača → Mod Kontrole prekidača → Klizni kursor: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSelectionGroupIdentifier#POINTER_PICKER_ENABLED`
+- Pristupačnost → Kontrola prekidača → Dugi pritisak: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/LongPressIdentifier`
+- Pristupačnost → Kontrola prekidača → Dugi pritisak → Dugi pritisak: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/LongPressIdentifier#NumericalPreferenceSwitcherIdentifier`
+- Pristupačnost → Kontrola prekidača → Ponašanje dodira: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier`
+- Pristupačnost → Kontrola prekidača → Ponašanje dodira → Ponašanje dodira: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#TapBehaviorIdentifier`
+- Pristupačnost → Kontrola prekidača → Fokusirana stavka iza dodira: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanLocationIdentifier`
+- Pristupačnost → Kontrola prekidača → Fokusirana stavka iza dodira → Fokusirana stavka iza dodira: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanLocationIdentifier#ScanLocationIdentifier`
+- Pristupačnost → Kontrola prekidača → Skeniraj istu tipku iza dodira: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#RestartScanAtCurrentIdentifier`
+- Pristupačnost → Kontrola prekidača → Uvijek dodirni tipke tipkovnice: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AlwaysTapKeyboardIdentifier`
+- Pristupačnost → Kontrola prekidača → Prošireni prijedlozi: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#UseExtendedKeyboardPredictionsIdentifier`
+- Pristupačnost → Kontrola prekidača → Trajanje dodira: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/HoldDurationIdentifier`
+- Pristupačnost → Kontrola prekidača → Trajanje dodira → Trajanje dodira: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/HoldDurationIdentifier#NumericalPreferenceSwitcherIdentifier`
+- Pristupačnost → Kontrola prekidača → Ignoriraj ponavljanje: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/IgnoreRepeatIdentifier`
+- Pristupačnost → Kontrola prekidača → Ignoriraj ponavljanje → Ignoriraj ponavljanje: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/IgnoreRepeatIdentifier#NumericalPreferenceSwitcherIdentifier`
+- Pristupačnost → Kontrola prekidača → Klizni kursor: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier`
+- Pristupačnost → Kontrola prekidača → Klizni kursor → Klizni kursor: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#AxisSweepIdentifier`
+- Pristupačnost → Kontrola prekidača → Klizni kursor → Način odabira: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleGroup`
+- Pristupačnost → Kontrola prekidača → Klizni kursor → Brzina kliznog kursora: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#AxisSweepSpeed`
+- Pristupačnost → Kontrola prekidača → Praćenje glave: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CameraPointPickerSwitch`
+- Pristupačnost → Kontrola prekidača → Praćenje glave → Praćenje glave: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CameraPointPickerSwitch#CameraPointPickerSwitcher`
+- Pristupačnost → Kontrola prekidača → Zvučni efekti: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SoundIdentifier`
+- Pristupačnost → Kontrola prekidača → Čitanje: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier`
+- Pristupačnost → Kontrola prekidača → Čitanje → Glasovi: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#VoicesIdentifier`
+- Pristupačnost → Kontrola prekidača → Čitanje → Pročitaj atribute stavke: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#SPEECH_SPEAKS_TRAITS_LABEL`
+- Pristupačnost → Kontrola prekidača → Čitanje → Pauziraj tijekom čitanja: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#SPEECH_PAUSES_SCANNING_LABEL`
+- Pristupačnost → Kontrola prekidača → Stavke izbornika: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier`
+- Pristupačnost → Kontrola prekidača → Stavke izbornika → Stavke izbornika: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier#CustomizeMenuIdentifier`
+- Pristupačnost → Kontrola prekidača → Stavke izbornika → Gornja razina: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/TopLevel`
+- Pristupačnost → Kontrola prekidača → Stavke izbornika → Gornja razina → Gornja razina: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/TopLevel#TopLevel`
+- Pristupačnost → Kontrola prekidača → Stavke izbornika → Geste: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Gestures`
+- Pristupačnost → Kontrola prekidača → Stavke izbornika → Geste → Geste: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Gestures#Gestures`
+- Pristupačnost → Kontrola prekidača → Stavke izbornika → Uređaj: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Device`
+- Pristupačnost → Kontrola prekidača → Stavke izbornika → Uređaj → Uređaj: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Device#Device`
+- Pristupačnost → Kontrola prekidača → Stavke izbornika → Postavke: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Settings`
+- Pristupačnost → Kontrola prekidača → Stavke izbornika → Postavke → Postavke: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Settings#Settings`
+- Pristupačnost → Kontrola prekidača → Stavke izbornika → Kontrole za medije: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/MediaControls`
+- Pristupačnost → Kontrola prekidača → Stavke izbornika → Kontrole za medije → Kontrole za medije: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/MediaControls#MediaControls`
+- Pristupačnost → Kontrola prekidača → Grupiraj stavke: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ItemGroupingIdentifier`
+- Pristupačnost → Kontrola prekidača → Veliki kursor: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CursorVisibilityIdentifier`
+- Pristupačnost → Kontrola prekidača → Spremljene geste: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomGesturesIdentifier`
+- Pristupačnost → Kontrola prekidača → Spremljene geste → Spremljene geste: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomGesturesIdentifier#CustomGesturesIdentifier`
+- Pristupačnost → Kontrola prekidača → Spremljene geste → Izradi novu gestu…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomGesturesIdentifier/CreateCustomGesture`
+- Pristupačnost → Kontrola prekidača → Spremljene geste → Izradi novu gestu… → Izradi novu gestu…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomGesturesIdentifier/CreateCustomGesture#CreateCustomGesture`
+- Pristupačnost → Kontrola prekidača → Potvrda Kontrolom prekidača: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#APPLE_PAY_SWITCH`
+- Pristupačnost → Kontrola prekidača → Boja kursora: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CursorColorIdentifier`
+- Pristupačnost → Kontrola prekidača → Boja kursora → Boja kursora: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CursorColorIdentifier#CursorColorIdentifier`
+- Pristupačnost → Upravljanje glasom: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle`
+- Pristupačnost → Upravljanje glasom → Podesi upravljanje glasom: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#SETUP_COMMAND_AND_CONTROL`
+- Pristupačnost → Upravljanje glasom → Otvori upute za upravljanje glasom: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#COMMAND_AND_CONTROL_LAUNCH_ONBOARDING`
+- Pristupačnost → Upravljanje glasom → Jezik: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_LANGUAGE`
+- Pristupačnost → Upravljanje glasom → Jezik → Jezik: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_LANGUAGE#COMMAND_AND_CONTROL_LANGUAGE`
+- Pristupačnost → Upravljanje glasom → Naredbe: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS`
+- Pristupačnost → Upravljanje glasom → Naredbe → Naredbe: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS#COMMAND_AND_CONTROL_COMMANDS`
+- Pristupačnost → Upravljanje glasom → Naredbe → Izradi novu naredbu: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/CreateNewCommand`
+- Pristupačnost → Upravljanje glasom → Naredbe → Izradi novu naredbu → Izradi novu naredbu: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/CreateNewCommand#CreateNewCommand`
+- Pristupačnost → Upravljanje glasom → Naredbe → Osnovna navigacija: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/System`
+- Pristupačnost → Upravljanje glasom → Naredbe → Nadslojevi: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/Overlays`
+- Pristupačnost → Upravljanje glasom → Naredbe → Osnovne geste: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/Gestures`
+- Pristupačnost → Upravljanje glasom → Naredbe → Napredne geste: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/DragDropGestures`
+- Pristupačnost → Upravljanje glasom → Naredbe → Diktat: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/TextDictation`
+- Pristupačnost → Upravljanje glasom → Naredbe → Navigacija u tekstu: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/Movement`
+- Pristupačnost → Upravljanje glasom → Naredbe → Odabir teksta: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/Selection`
+- Pristupačnost → Upravljanje glasom → Naredbe → Uređivanje teksta: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/Editing`
+- Pristupačnost → Upravljanje glasom → Naredbe → Brisanje teksta: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/AdvancedDeletion`
+- Pristupačnost → Upravljanje glasom → Naredbe → Uređaj: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/Hardware`
+- Pristupačnost → Upravljanje glasom → Naredbe → Pristupačnost: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/Accessibility`
+- Pristupačnost → Upravljanje glasom → Naredbe → Importiraj prilagođene naredbe: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/ImportCustomCommands`
+- Pristupačnost → Upravljanje glasom → Naredbe → Importiraj prilagođene naredbe → Importiraj prilagođene naredbe: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/ImportCustomCommands#ImportCustomCommands`
+- Pristupačnost → Upravljanje glasom → Vokabular: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_VOCABULARY`
+- Pristupačnost → Upravljanje glasom → Vokabular → Vokabular: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_VOCABULARY/VOCABULARY`
+- Pristupačnost → Upravljanje glasom → Vokabular → Vokabular → Vokabular: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_VOCABULARY/VOCABULARY#VOCABULARY`
+- Pristupačnost → Upravljanje glasom → Vokabular → Importiraj vokabular: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_VOCABULARY#IMPORT_VOCABULARY`
+- Pristupačnost → Upravljanje glasom → Vokabular → Eksportiraj vokabular: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_VOCABULARY#EXPORT_VOCABULARY`
+- Pristupačnost → Upravljanje glasom → Vokabular → Obriši sav vokabular: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_VOCABULARY#DELETE_ALL_VOCABULARY`
+- Pristupačnost → Upravljanje glasom → Prikaži potvrdu: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#SHOW_TEXT_RESPONSE_TITLE`
+- Pristupačnost → Upravljanje glasom → Reproduciraj zvuk: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#PLAY_SOUND_RESPONSE_TITLE`
+- Pristupačnost → Upravljanje glasom → Prikaži natuknice: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#USER_HINTS_SHOW_HINTS_TITLE`
+- Pristupačnost → Upravljanje glasom → Nadsloj: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY`
+- Pristupačnost → Upravljanje glasom → Nadsloj → Nadsloj: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#ALWAYS_SHOW_OVERLAY`
+- Pristupačnost → Upravljanje glasom → Svjesno pažnje: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ATTENTION_AWARE_ACTION`
+- Pristupačnost → Gornja tipka/Touch ID: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE`
+- Pristupačnost → Gornja tipka/Touch ID → Brzina pritiskanja: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_SPEED_HEADER`
+- Pristupačnost → Gornja tipka/Touch ID → Pritiskanje i zadržavanje za govor: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantTitle`
+- Pristupačnost → Gornja tipka/Touch ID → Tipka Home: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE/HomeButtonAssistantTitle`
+- Pristupačnost → Gornja tipka/Touch ID → Tipka Home → Zadržite prst za otvaranje: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE/HomeButtonAssistantTitle#RestingUnlockSetting`
+- Pristupačnost → Gornja tipka/Touch ID → Omogući potvrđivanje pomoću Kontrole prekidača: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#APPLE_PAY_CONFIRM_WITH_SC`
+- Pristupačnost → Gornja tipka/Touch ID → Omogući potvrđivanje pomoću AssistiveToucha: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#APPLE_PAY_CONFIRM_WITH_AST`
+- Pristupačnost → Apple TV Remote: `prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE`
+- Pristupačnost → Apple TV Remote → Tipke za usmjeravanje: `prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE#AppleTVSimpleGestures`
+- Pristupačnost → Apple TV Remote → Tipke za TV uživo: `prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE#AppleTVLiveTVButtons`
+- Pristupačnost → Apple Watch zrcaljenje: `prefs:root=ACCESSIBILITY&path=APPLE_WATCH_REMOTE_SCREEN`
+- Pristupačnost → Slušni aparati: `prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE`
+- Pristupačnost → Slušni aparati → MFi slušni aparati: `prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#AvailableAidsHeading`
+- Pristupačnost → Slušni aparati → Komp. slušnog pomagala: `prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#HEARING_AID_COMPLIANCE`
+- Pristupačnost → Kontrolni centar za sluh: `prefs:root=ACCESSIBILITY&path=HEARING_CONTROL_CENTER`
+- Pristupačnost → Kontrolni centar za sluh → Uključene kontrole: `prefs:root=ACCESSIBILITY&path=HEARING_CONTROL_CENTER#INCLUDED_MODULES_SECTION_TITLE`
+- Pristupačnost → Kontrolni centar za sluh → Više naredbi: `prefs:root=ACCESSIBILITY&path=HEARING_CONTROL_CENTER#MORE_MODULES_SECTION_TITLE`
+- Pristupačnost → Prepoznavanje zvuka: `prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE`
+- Pristupačnost → Prepoznavanje zvuka → Zvukovi: `prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE/Sounds`
+- Pristupačnost → Prepoznavanje zvuka → Zvukovi → Zvukovi: `prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE/Sounds#Sounds`
+- Pristupačnost → RTT/TTY: `prefs:root=ACCESSIBILITY&path=RTT`
+- Pristupačnost → RTT/TTY → Softverski RTT/TTY: `prefs:root=ACCESSIBILITY&path=RTT#SW_TTY`
+- Pristupačnost → RTT/TTY → Hardverski TTY: `prefs:root=ACCESSIBILITY&path=RTT#HW_TTY`
+- Pristupačnost → Audio i vizualno: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE`
+- Pristupačnost → Audio i vizualno → Prilagodbe slušalica: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID`
+- Pristupačnost → Audio i vizualno → Prilagodbe slušalica → Prilagodbe slušalica: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID#AXPAEnableSpecID`
+- Pristupačnost → Audio i vizualno → Prilagodbe slušalica → Prilagođeno podešavanje zvuka: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID#AXPAPersonalAudioSetupSpecID`
+- Pristupačnost → Audio i vizualno → Pozadinski zvukovi: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID`
+- Pristupačnost → Audio i vizualno → Pozadinski zvukovi → Pozadinski zvukovi: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID#CSFeatureToggleSpecID`
+- Pristupačnost → Audio i vizualno → Pozadinski zvukovi → Zvuk: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID/ComfortSoundSoundLabel`
+- Pristupačnost → Audio i vizualno → Pozadinski zvukovi → Zvuk → Zvuk: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID/ComfortSoundSoundLabel#ComfortSoundSoundLabel`
+- Pristupačnost → Audio i vizualno → Pozadinski zvukovi → Glasnoća pozadinskih zvukova: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID#ComfortSoundsVolume`
+- Pristupačnost → Audio i vizualno → Pozadinski zvukovi → Koristi kad se reproduciraju mediji: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID#ComfortSoundsMixingName`
+- Pristupačnost → Audio i vizualno → Pozadinski zvukovi → Glasnoća medija: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID#ComfortSoundsMixingVolume`
+- Pristupačnost → Audio i vizualno → Pozadinski zvukovi → Zaustavi zvukove kad je uređaj zaključan: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID#ComfortSoundsPlayWhenLockedName`
+- Pristupačnost → Audio i vizualno → Mono zvuk: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAMonoSpecID`
+- Pristupačnost → Audio i vizualno → Uvijek prikazuj kontrolu glasnoće: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAAlwaysShowVolumeControlSpecID`
+- Pristupačnost → Audio i vizualno → Poništavanje pozadinske buke: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPANoiseSpecID`
+- Pristupačnost → Audio i vizualno → LED bljeskalica za alarme: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH`
+- Pristupačnost → Audio i vizualno → LED bljeskalica za alarme → LED bljeskalica za alarme: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_FLASH`
+- Pristupačnost → Audio i vizualno → LED bljeskalica za alarme → Bljeskaj kad je otključan: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_FLASH_WHILE_UNLOCKED`
+- Pristupačnost → Audio i vizualno → LED bljeskalica za alarme → Bljeskaj kad je isključen zvuk: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_RINGER_SWITCH_CONTROL`
+- Pristupačnost → Audio i vizualno → Stereo ravnoteža lijevo-desno: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#LeftRightBalance`
+- Pristupačnost → Audio i vizualno → Zvukovi uključenja i isključenja: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#StartupSound`
+- Pristupačnost → Audio i vizualno → Obavijesti o slušalicama: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXHeadphoneNotificationsSpecID`
+- Pristupačnost → Audio i vizualno → Dodaj Izoliranje glasa: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#ExtendedVoiceIsolationSpecID`
+- Pristupačnost → Audio i vizualno → Zvučni efekti: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#SOUND_EFFECTS_PREFERENCE`
+- Pristupačnost → Audio i vizualno → Dodaj zvuk u pozive: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/MIX_TO_UPLINK`
+- Pristupačnost → Audio i vizualno → Dodaj zvuk u pozive → Dozvoli aplikacijama dodavanje zvuka u pozive: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/MIX_TO_UPLINK#MIX_TO_UPLINK`
+- Pristupačnost → Titlovi i opisi: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING`
+- Pristupačnost → Titlovi i opisi → Stil: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING/currentTheme`
+- Pristupačnost → Titlovi i opisi → Stil → Stil: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING/currentTheme#currentTheme`
+- Pristupačnost → Titlovi i opisi → Prošireni titlovi + SDH: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#PREFER_SDH`
+- Pristupačnost → Titlovi i opisi → Prikaži transkripte audio zapisa: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#SHOW_AUDIO_TRANSCRIPTIONS`
+- Pristupačnost → Titlovi i opisi → Prikaži kad je stišano: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#SHOW_WHEN_MUTED`
+- Pristupačnost → Titlovi i opisi → Prikaži tijekom preskakanja unatrag: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#SHOW_ON_SKIP_BACK`
+- Pristupačnost → Opisi uživo: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION`
+- Pristupačnost → Opisi uživo → Opisi uživo: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION#LIVE_TRANSCRIPTION_TITLE`
+- Pristupačnost → Opisi uživo → Izgled: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE`
+- Pristupačnost → Opisi uživo → Izgled → Izgled: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE#LIVE_TRANSCRIPTION_APPEARANCE`
+- Pristupačnost → Opisi uživo → Izgled → Podebljaj tekst: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE/ENHANCE_TEXT_LEGIBILITY`
+- Pristupačnost → Opisi uživo → Izgled → Podebljaj tekst → Podebljaj tekst: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE/ENHANCE_TEXT_LEGIBILITY#ENHANCE_TEXT_LEGIBILITY`
+- Pristupačnost → Opisi uživo → Izgled → Veličina teksta: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE/LARGER_TEXT`
+- Pristupačnost → Opisi uživo → Izgled → Veličina teksta → Veličina teksta: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE/LARGER_TEXT#LARGER_TEXT`
+- Pristupačnost → Opisi uživo → Izgled → Opcije boje: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE#LIVE_TRANSCRIPTION_COLOR_OPTIONS`
+- Pristupačnost → Opisi uživo → Izgled → Boja teksta: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE#LIVE_TRANSCRIPTION_TEXT_COLOR`
+- Pristupačnost → Opisi uživo → Izgled → Boja pozadine: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE#LIVE_TRANSCRIPTION_BACKGROUND_COLOR`
+- Pristupačnost → Opisi uživo → Izgled → Resetiraj boje: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE#LIVE_TRANSCRIPTION_RESET_COLORS`
+- Pristupačnost → Opisi uživo → Izgled → Neprozirnost kod neaktivnosti: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE#LIVE_CAPTIONS_IDLE_OPACITY_TITLE`
+- Pristupačnost → Opisi uživo → Opisi uživo u FaceTimeu: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION#FACE_TIME_CAPTIONS`
+- Pristupačnost → Vođeni pristup: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE`
+- Pristupačnost → Vođeni pristup → Postavke šifre: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessSecurityLinkList`
+- Pristupačnost → Vođeni pristup → Postavke šifre → Postavke šifre: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessSecurityLinkList#GuidedAccessSecurityLinkList`
+- Pristupačnost → Vođeni pristup → Postavke šifre → Podesite šifru za vođeni pristup: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessSecurityLinkList#GAXPinButton`
+- Pristupačnost → Vođeni pristup → Postavke šifre → Touch ID: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessSecurityLinkList#GAXSpecIDTouchIDSwitch`
+- Pristupačnost → Vođeni pristup → Vremenska ograničenja: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList`
+- Pristupačnost → Vođeni pristup → Vremenska ograničenja → Vremenska ograničenja: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GuidedAccessTimeRestrictionsLinkList`
+- Pristupačnost → Vođeni pristup → Vremenska ograničenja → Zvuk: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList/GUIDED_ACCESS_TIME_RESTRICTIONS_SOUND_TITLE`
+- Pristupačnost → Vođeni pristup → Vremenska ograničenja → Zvuk → Zvuk: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList/GUIDED_ACCESS_TIME_RESTRICTIONS_SOUND_TITLE#GUIDED_ACCESS_TIME_RESTRICTIONS_SOUND_TITLE`
+- Pristupačnost → Vođeni pristup → Vremenska ograničenja → Pročitaj: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_SPEAK_TITLE`
+- Pristupačnost → Vođeni pristup → Prečac pristupačnosti: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessEnableAXFeatures`
+- Pristupačnost → Vođeni pristup → Auto zaključavanje zaslona: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessAutoLockTime`
+- Pristupačnost → Vođeni pristup → Auto zaključavanje zaslona → Auto zaključavanje zaslona: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessAutoLockTime#GuidedAccessAutoLockTime`
+- Pristupačnost → Pomoćni pristup: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE`
+- Pristupačnost → Pomoćni pristup → Podesite Pomoćni pristup: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#SetUpClarityUISpecifier`
+- Pristupačnost → Pomoćni pristup → Pokreni Pomoćni pristup: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#ClarityUIStart`
+- Pristupačnost → Pomoćni pristup → Aplikacije: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#Applications`
+- Pristupačnost → Pomoćni pristup → Opcije: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#Options`
+- Pristupačnost → Pomoćni pristup → Pozadina: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE/Wallpaper`
+- Pristupačnost → Pomoćni pristup → Pozadina → Pozadina: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE/Wallpaper#Wallpaper`
+- Pristupačnost → Pomoćni pristup → Dozvoli tipke za podešavanje glasnoće: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#VolumeButtons`
+- Pristupačnost → Pomoćni pristup → Sat na zaključanom zaslonu: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#ShowTime`
+- Pristupačnost → Pomoćni pristup → Prikaži razinu baterije na početnom zaslonu: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#ShowBattery`
+- Pristupačnost → Pomoćni pristup → Prikaži bedževe obavijesti: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#ShowNotification`
+- Pristupačnost → Pomoćni pristup → Dozvoli Siri: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#AllowSiri`
+- Pristupačnost → Pomoćni pristup → Postavke šifre: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE/PasscodeSettings`
+- Pristupačnost → Pomoćni pristup → Postavke šifre → Postavke šifre: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE/PasscodeSettings#PasscodeSettings`
+- Pristupačnost → Siri: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE`
+- Pristupačnost → Siri → Koristite Siri tipkanjem: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_SETTINGS_TYPE_TO_SIRI`
+- Pristupačnost → Siri → Trajanje pauze za Siri: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#ENDPOINTER`
+- Pristupačnost → Siri → Brzina govorenja Siri: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SPEECH_RATE`
+- Pristupačnost → Siri → Izgovoreni odgovori: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK`
+- Pristupačnost → Siri → Uvijek reagiraj na “Siri”: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_SETTINGS_VOICE_ACTIVATION_ALWAYS_ALLOW`
+- Pristupačnost → Siri → Prikaži aplikacije iza Siri: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRL_SHOW_APPS`
+- Pristupačnost → Siri → Najavi obavijesti na zvučniku: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#ANNOUNCE_NOTIFICATIONS_BUILT_IN_SPEAKER_ID`
+- Pristupačnost → Siri → Dovršavanje poziva: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE/SIRI_CALL_HANGUP_ID`
+- Pristupačnost → Siri → Dovršavanje poziva → Dovršavanje poziva: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE/SIRI_CALL_HANGUP_ID#SIRI_CALL_HANGUP_ID`
+- Pristupačnost → Siri → Reagiraj na netipični govor: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_ATYPICAL_SPEECH`
+- Pristupačnost → Siri → Zahtijevaj “Siri” za prekidanje: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_BARGE`
+- Pristupačnost → Prečac pristupačnosti: `prefs:root=ACCESSIBILITY&path=TRIPLE_CLICK_TITLE`
+- Pristupačnost → Postavke po aplikaciji: `prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE`
+- Pristupačnost → Postavke po aplikaciji → Prikaži skrivene aplikacije: `prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE#PROTECTED_APPS_SHOW_HIDDEN_TITLE`
+- Pristupačnost → Postavke po aplikaciji → Dodaj aplikaciju: `prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE#AX_ADD_BUTTON_IDENTIFIER`
+- Pristupačnost → Upravljanje obližnjim uređajima: `prefs:root=ACCESSIBILITY&path=CONTROL_NEARBY_DEVICES`
+- Pristupačnost → Upravljanje obližnjim uređajima → Upravljanje obližnjim uređajima: `prefs:root=ACCESSIBILITY&path=CONTROL_NEARBY_DEVICES#CONTROL_NEARBY_DEVICES`
+- Pristupačnost → Unos okom: `prefs:root=ACCESSIBILITY&path=DOMINANT_EYE`
+- Pristupačnost → Čitanje uživo: `prefs:root=ACCESSIBILITY&path=LIVE_SPEECH_TITLE`
+- Pristupačnost → Čitanje uživo → Fraze: `prefs:root=ACCESSIBILITY&path=LIVE_SPEECH_TITLE/LiveSpeechCategoryManagement`
+- Pristupačnost → Čitanje uživo → Glasovi: `prefs:root=ACCESSIBILITY&path=LIVE_SPEECH_TITLE#LIVE_SPEECH_VOICES`
+- Pristupačnost → Osobni glas: `prefs:root=ACCESSIBILITY&path=PERSONAL_VOICE_TITLE`
+- Pristupačnost → Osobni glas → Izradi Osobni glas: `prefs:root=ACCESSIBILITY&path=PERSONAL_VOICE_TITLE#VB_CREATE_PERSONAL_VOICE`
+- Pristupačnost → Osobni glas → Dijeli između uređaja: `prefs:root=ACCESSIBILITY&path=PERSONAL_VOICE_TITLE#VB_USE_ICLOUD_TITLE`
+- Pristupačnost → Osobni glas → Dozvoli aplikacijama da zatraže uporabu: `prefs:root=ACCESSIBILITY&path=PERSONAL_VOICE_TITLE#VB_ALLOW_WITH_APPS`
+- Pristupačnost → AirPods: `prefs:root=ACCESSIBILITY&path=AIRPODS`
+- Pristupačnost → AirPods → Brzina pritiskanja: `prefs:root=ACCESSIBILITY&path=AIRPODS#TapGroup`
+- Pristupačnost → AirPods → Trajanje pritiska i zadržavanja: `prefs:root=ACCESSIBILITY&path=AIRPODS#HoldGroup`
+- Pristupačnost → AirPods → Audio i vizualne postavke iPhonea: `prefs:root=ACCESSIBILITY&path=AIRPODS#PERSONAL_AUDIO_AIRPODS_BUTTON`
+- Pristupačnost → AirPods → Prati iPhone: `prefs:root=ACCESSIBILITY&path=AIRPODS#SPATIAL_AUDIO_SWITCH`
+- Pristupačnost → AirPods → Glasnoća tona: `prefs:root=ACCESSIBILITY&path=AIRPODS#TONE_VOLUME`
+- Pristupačnost → Vokalni prečaci: `prefs:root=ACCESSIBILITY&path=ADAPTIVE_VOICE_SHORTCUTS_TITLE`
+- Pristupačnost → Vokalni prečaci → Podesi Vokalne prečace: `prefs:root=ACCESSIBILITY&path=ADAPTIVE_VOICE_SHORTCUTS_TITLE#AVS_SET_UP_BUTTON_TITLE`
+- Pristupačnost → Glazbena vibracija: `prefs:root=ACCESSIBILITY&path=HAPTIC_MUSIC`
+- Pristupačnost → Praćenje kretanja očiju: `prefs:root=ACCESSIBILITY&path=OnDeviceEyeTracking`
+- Pristupačnost → Praćenje kretanja očiju → Praćenje kretanja očiju: `prefs:root=ACCESSIBILITY&path=OnDeviceEyeTracking#OnDeviceEyeTrackingEnabledSpecifier`
+- Pristupačnost → Praćenje kretanja očiju → Izglađivanje: `prefs:root=ACCESSIBILITY&path=OnDeviceEyeTracking#SMOOTHING`
+- Pristupačnost → Praćenje kretanja očiju → Pričvrsti na stavku: `prefs:root=ACCESSIBILITY&path=OnDeviceEyeTracking#SNAP_TO_ITEM`
+- Pristupačnost → Praćenje kretanja očiju → Zumiranje tipaka tipkovnice: `prefs:root=ACCESSIBILITY&path=OnDeviceEyeTracking#KEYBOARD_ZOOM`
+- Pristupačnost → Praćenje kretanja očiju → Automatski sakrij: `prefs:root=ACCESSIBILITY&path=OnDeviceEyeTracking#AUTO_HIDE`
+- Pristupačnost → Praćenje kretanja očiju → Kontrola zadržavanja: `prefs:root=ACCESSIBILITY&path=OnDeviceEyeTracking#DWELL_CONTROL`
+- Pristupačnost → Kontrola kamere: `prefs:root=ACCESSIBILITY&path=CAMERA_CONTROL`
+- Pristupačnost → Kontrola kamere → Kontrola kamere: `prefs:root=ACCESSIBILITY&path=CAMERA_CONTROL#CAMERA_CONTROL_SWITCH`
+- Pristupačnost → Kontrola kamere → Lagani pritisak: `prefs:root=ACCESSIBILITY&path=CAMERA_CONTROL#LIGHT_PRESS`
+- Pristupačnost → Kontrola kamere → Povlačenje: `prefs:root=ACCESSIBILITY&path=CAMERA_CONTROL#SWIPE`
+- Pristupačnost → Kontrola kamere → Snaga laganog pritiska: `prefs:root=ACCESSIBILITY&path=CAMERA_CONTROL#LIGHT_PRESS_FORCE`
+- Pristupačnost → Kontrola kamere → Dvaput lagano pritisnite Brzina: `prefs:root=ACCESSIBILITY&path=CAMERA_CONTROL#SENSITIVITY`
+- Mail: `prefs:root=MAIL`
+- Mail → Računi: `prefs:root=MAIL&path=ACCOUNTS`
+- Mail → Računi → Dodaj račun: `prefs:root=MAIL&path=ACCOUNTS#ADD_ACCOUNT`
+- Mail → Računi → Dohvati nove podatke: `prefs:root=MAIL&path=ACCOUNTS#FETCH_NEW_DATA`
+- Mail → Pregled: `prefs:root=MAIL&path=Preview`
+- Mail → Prikaži oznake "Prima" i "Cc": `prefs:root=MAIL#Show%20To/Cc%20Labels`
+- Mail → Opcije povlačenja: `prefs:root=MAIL&path=Swipe%20Options`
+- Mail → Pitaj prije brisanja: `prefs:root=MAIL#Ask%20Before%20Deleting`
+- Mail → Učitaj slike: `prefs:root=MAIL#Load%20Remote%20Images`
+- Mail → Organiziraj prema nizu: `prefs:root=MAIL#Organize%20by%20Thread`
+- Mail → Sažmi pročitane poruke: `prefs:root=MAIL#Collapse%20Read%20Messages`
+- Mail → Najnovije poruke na vrh: `prefs:root=MAIL#Most%20Recent%20Message%20on%20Top`
+- Mail → Sve poruke niza: `prefs:root=MAIL#Complete%20Threads`
+- Mail → Postupak utišanog niza: `prefs:root=MAIL&path=Muted%20Thread%20Action`
+- Mail → Ignoriraj blokirane pošiljatelje: `prefs:root=MAIL#Ignore%20Blocked%20Senders`
+- Mail → Opcije blokiranih pošiljatelja: `prefs:root=MAIL&path=Blocked%20Sender%20Options`
+- Mail → Blokirani: `prefs:root=MAIL&path=Blocked`
+- Mail → Uvijek Bcc sebi: `prefs:root=MAIL#Always%20Bcc%20Myself`
+- Mail → Označi adrese: `prefs:root=MAIL&path=Mark%20Addresses`
+- Mail → Povećaj razinu uvlake: `prefs:root=MAIL&path=Increase%20Quote%20Level`
+- Mail → Dodaj privitke odgovorima: `prefs:root=MAIL&path=Include%20Attachments%20with%20Replies`
+- Mail → Potpis: `prefs:root=MAIL&path=Signature`
+- Pozadina: `prefs:root=Wallpaper`
+- Bilješke: `prefs:root=NOTES`
+- Bilješke → Standardni račun: `prefs:root=NOTES&path=Default%20Account`
+- Bilješke → Lozinka: `prefs:root=NOTES&path=Password`
+- Bilješke → Razvrstaj prema: `prefs:root=NOTES&path=Sort%20Notes%20By`
+- Bilješke → Započni bilješke: `prefs:root=NOTES&path=New%20Notes%20Start%20With`
+- Bilješke → Razvrstaj označene stavke: `prefs:root=NOTES&path=Sort%20Checked%20Items`
+- Bilješke → Linije i rešetke: `prefs:root=NOTES&path=Lines%20%26%20Grids`
+- Bilješke → Spremi u Foto: `prefs:root=NOTES#Save%20to%20Photos`
+- Bilješke → Pristup sa zaključanog zaslona: `prefs:root=NOTES&path=Access%20Notes%20from%20Lock%20Screen`
+- Šifra: `prefs:root=PASSCODE`
+- Šifra → Isključi šifru: `prefs:root=PASSCODE#PASSCODE_OFF`
+- Šifra → Promijeni šifru: `prefs:root=PASSCODE#CHANGE_PASSCODE`
+- Šifra → Traži šifru: `prefs:root=PASSCODE&path=PASSCODE_REQ`
+- Šifra → Glasovno biranje: `prefs:root=PASSCODE#VOICE_DIAL`
+- Šifra → Dozvoli pristup kad je uređaj zaključan: `prefs:root=PASSCODE#ALLOW_ACCESS_WHEN_LOCKED`
+- Šifra → Odgovori porukom: `prefs:root=PASSCODE#REPLY_WITH_MESSAGE_SWITCH`
+- Šifra → Upravljanje domom: `prefs:root=PASSCODE#HOME_CONTROL_SWITCH`
+- Šifra → Novčanik: `prefs:root=PASSCODE#WALLET_SWITCH`
+- Šifra → Uzvrati propuštene pozive: `prefs:root=PASSCODE#RETURN_MISSED_CALLS_SWITCH`
+- Šifra → Obriši podatke: `prefs:root=PASSCODE#WIPE_DEVICE`
+- Šifra → Otključaj pomoću Apple Watcha: `prefs:root=PASSCODE#AUTO_UNLOCK_DEVICES_GROUP`
+- Šifra → Zaštita ukradenog uređaja: `prefs:root=PASSCODE#DTO_GROUP_ID`
+- Kalendar: `prefs:root=CALENDAR`
+- Kalendar → Druga vremenska zona: `prefs:root=CALENDAR&path=TimeZoneCityArray`
+- Kalendar → Alternativni kalendari: `prefs:root=CALENDAR&path=Alternate%20Calendars`
+- Kalendar → Brojevi tjedana: `prefs:root=CALENDAR#Week%20Numbers`
+- Kalendar → Prikaži odbačene pozivnice: `prefs:root=CALENDAR#Show%20Invitee%20Declines`
+- Kalendar → Sinkroniziraj: `prefs:root=CALENDAR&path=Sync`
+- Kalendar → Standardno vrijeme alarma: `prefs:root=CALENDAR&path=Default%20Alert%20Times`
+- Kalendar → Prvi dan tjedna: `prefs:root=CALENDAR&path=Start%20Week%20On`
+- Kalendar → Prijedlozi za lokacije: `prefs:root=CALENDAR#Location%20Suggestions`
+- Zdravstveni podaci: `prefs:root=HEALTH`
+- Telefon: `prefs:root=Phone`
+- Telefon → Moj broj: `prefs:root=Phone&path=My%20Number`
+- Telefon → Dolazni pozivi: `prefs:root=Phone&path=INCOMING_CALL_STYLE`
+- Telefon → Najavi pozive: `prefs:root=Phone&path=ANNOUNCE_CALLS`
+- Telefon → Prijavljivanje SMS-a/poziva: `prefs:root=Phone&path=CLASSIFICATION_AND_REPORTING`
+- Telefon → Odgovori porukom: `prefs:root=Phone&path=Respond%20with%20Text`
+- Telefon → Prosljeđivanje poziva: `prefs:root=Phone&path=Call%20Forwarding`
+- Telefon → Prosljeđivanje poziva → Prosljeđivanje poziva: `prefs:root=Phone&path=Call%20Forwarding#idMasterOnOffSwitch`
+- Telefon → Poziv na čekanju: `prefs:root=Phone&path=Call%20Waiting`
+- Telefon → Pokaži moj ID pozivatelja: `prefs:root=Phone&path=Show%20My%20Caller%20ID`
+- Telefon → Pokaži moj ID pozivatelja → Pokaži moj ID pozivatelja: `prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary`
+- Telefon → Pokaži moj ID pozivatelja → Pokaži moj ID pozivatelja → Pokaži moj ID pozivatelja: `prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary#Show%20My%20Caller%20ID`
+- Telefon → Utišaj nepoznate pozivatelje: `prefs:root=Phone#SILENCE_CALLS`
+- Telefon → Blokirani kontakti: `prefs:root=Phone&path=SPECIFIER_IDENTIFIER_BLACKLIST`
+- Telefon → Pomoć pri biranju: `prefs:root=Phone&path=Dial%20Assist`
+- App Store: `prefs:root=STORE`
+- App Store → Automatska preuzimanja: `prefs:root=STORE#Automatic%20Downloads`
+- App Store → Ažuriranja aplikacija: `prefs:root=STORE#App%20Updates`
+- App Store → Preuzimanje aplikacija: `prefs:root=STORE&path=App%20Downloads`
+- App Store → Auto reprodukcija videozapisa: `prefs:root=STORE&path=Video%20Autoplay`
+- App Store → Ocjene i osvrti u aplikaciji: `prefs:root=STORE#In-App%20Ratings%20&%20Reviews`
+- Privatnost i sigurnost: `prefs:root=Privacy` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity`
+- Privatnost i sigurnost → Zdravlje: `prefs:root=Privacy&path=HEALTH` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/HEALTH`
+- Privatnost i sigurnost → Zdravstveni podaci: `prefs:root=Privacy&path=HEALTH_DATA` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/HEALTH_DATA`
+- Privatnost i sigurnost → Lokacija: `prefs:root=Privacy&path=LOCATION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/LOCATION`
+- Privatnost i sigurnost → Lokacija → Dijeli moju lokaciju: `prefs:root=Privacy&path=LOCATION/LOCATION_SHARING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/LOCATION/LOCATION_SHARING`
+- Privatnost i sigurnost → Kontakti: `prefs:root=Privacy&path=CONTACTS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CONTACTS`
+- Privatnost i sigurnost → Kalendari: `prefs:root=Privacy&path=CALENDARS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CALENDARS`
+- Privatnost i sigurnost → Podsjetnici: `prefs:root=Privacy&path=REMINDERS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/REMINDERS`
+- Privatnost i sigurnost → Foto: `prefs:root=Privacy&path=PHOTOS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PHOTOS`
+- Privatnost i sigurnost → Bluetooth dijeljenje: `prefs:root=Privacy&path=BT_PERIPHERAL` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/BT_PERIPHERAL`
+- Privatnost i sigurnost → Mikrofon: `prefs:root=Privacy&path=MICROPHONE` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/MICROPHONE`
+- Privatnost i sigurnost → Prepoznavanje govora: `prefs:root=Privacy&path=SPEECH_RECOGNITION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/SPEECH_RECOGNITION`
+- Privatnost i sigurnost → Kamera: `prefs:root=Privacy&path=CAMERA` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CAMERA`
+- Privatnost i sigurnost → HomeKit: `prefs:root=Privacy&path=WILLOW` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/WILLOW`
+- Privatnost i sigurnost → Mediji i Apple Music: `prefs:root=Privacy&path=MEDIALIBRARY` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/MEDIALIBRARY`
+- Privatnost i sigurnost → Analiza: `prefs:root=Privacy&path=PROBLEM_REPORTING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PROBLEM_REPORTING`
+- Privatnost i sigurnost → Oglašavanje: `prefs:root=Privacy&path=ADVERTISING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/ADVERTISING`
+- Privatnost i sigurnost → Datoteke i mape: `prefs:root=Privacy&path=FILEACCESS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/FILEACCESS`
+- Privatnost i sigurnost → Praćenje: `prefs:root=Privacy&path=USER_TRACKING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/USER_TRACKING`
+- Privatnost i sigurnost → Izvještaj o privatnosti aplikacije: `prefs:root=Privacy&path=PRIVACY_REPORT` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PRIVACY_REPORT`
+- Privatnost i sigurnost → Mod zaključavanja: `prefs:root=Privacy#LOCKDOWN_MODE` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity#LOCKDOWN_MODE#LOCKDOWN_MODE`
+- Privatnost i sigurnost → Osjetljiv sadržaj: `prefs:root=Privacy#NUDITY_DETECTION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity#NUDITY_DETECTION#NUDITY_DETECTION`
+- Mjerenje: `prefs:root=MEASURE`
+- Mjerenje → Mjerne jedinice: `prefs:root=MEASURE#MEASURE_UNITS`
+- Mjerenje → Imperijalne: `prefs:root=MEASURE#Imperial`
+- Mjerenje → Metričke: `prefs:root=MEASURE#Metric`
+- Videozapisi: `prefs:root=TVAPP`
+- Videozapisi → Koristi mobilne podatke za reprodukciju: `prefs:root=TVAPP#com.apple.videos%3AVideosUseCellularDataEnabledSetting`
+- Videozapisi → Kvaliteta reprodukcije: `prefs:root=TVAPP#com.apple.videos%3APlaybackQualityGroup`
+- Videozapisi → Kupljene stavke i posudbe: `prefs:root=TVAPP&path=com.apple.videos%3APreferredPurchaseResolution`
+- Videozapisi → Dijeljenje unutar doma: `prefs:root=TVAPP#com.apple.videos%3AHomeSharingFooter`
+- Game Center: `prefs:root=GAMECENTER`
+- Diktafon: `prefs:root=VOICE_MEMOS`
+- Diktafon → Očisti obrisano: `prefs:root=VOICE_MEMOS&path=RCVoiceMemosRecentlyDeletedWindowKey`
+- Diktafon → Kvaliteta zvuka: `prefs:root=VOICE_MEMOS&path=RCVoiceMemosAudioQualityKey`
+- Diktafon → Naziv baziran na lokaciji: `prefs:root=VOICE_MEMOS#RCVoiceMemosUseLocationBasedNaming`
+- Prečaci: `prefs:root=SHORTCUTS`
+- Prečaci → Sinkroniziraj putem iClouda: `prefs:root=SHORTCUTS#WFCloudKitSyncEnabled`
+- Prečaci → Sink. redoslijed prečaca: `prefs:root=SHORTCUTS#WFCloudKitSyncOrderEnabled`
+- Prečaci → Pravne napomene: `prefs:root=SHORTCUTS&path=Legal%20Notices`
+- Podsjetnici: `prefs:root=REMINDERS`
+- Podsjetnici → Standardni popis: `prefs:root=REMINDERS&path=DEFAULT_LIST`
+- Podsjetnici → Standardni popis → Podsjetnici: `prefs:root=REMINDERS&path=DEFAULT_LIST#preferredDefaultListID`
+- Podsjetnici → Današnja obavijest: `prefs:root=REMINDERS#todayNotificationFireTime`
+- Podsjetnici → Prikaži kao prekoračeno: `prefs:root=REMINDERS#showRemindersAsOverdue`
+- Glazba: `prefs:root=MUSIC`
+- Glazba → Prikaži Apple Music: `prefs:root=MUSIC#com.apple.Music%3AAppleMusicEnabled`
+- Glazba → Dodaj pjesme s liste: `prefs:root=MUSIC#com.apple.Music%3AAddPlaylistSongsToMyMusicSwitch`
+- Glazba → Ocjenjivanje zvjezdicama: `prefs:root=MUSIC#com.apple.Music%3AShowStarRatings`
+- Glazba → Sinkroniziraj medijateku: `prefs:root=MUSIC#com.apple.Music%3ACloudMusicLibraryEnabled`
+- Glazba → Mobilni podaci: `prefs:root=MUSIC&path=com.apple.Music%3ACellularData`
+- Glazba → Preuzeta glazba: `prefs:root=MUSIC&path=com.apple.Music%3AMusicUsageLink`
+- Glazba → Optimiziraj memoriju: `prefs:root=MUSIC&path=com.apple.Music%3AOptimizeStorage`
+- Glazba → Automatska preuzimanja: `prefs:root=MUSIC#com.apple.Music%3AMusicAutomaticDownload`
+- Glazba → EQ: `prefs:root=MUSIC&path=com.apple.Music%3AEQ`
+- Glazba → Uskladi glasnoću: `prefs:root=MUSIC#com.apple.Music%3ASoundCheck`
+- Glazba → Koristi povijest slušanja: `prefs:root=MUSIC#com.apple.Music%3APrivateListening`
+- Siri: `prefs:root=SIRI`
+- Siri → Dozvoli Siri kad je uređaj zaklj.: `prefs:root=SIRI#ASSISTANT_LOCK_SCREEN_ACCESS`
+- Siri → Jezik: `prefs:root=SIRI&path=LANGUAGE_ID`
+- Siri → Glas za Siri: `prefs:root=SIRI&path=VOICE_ID`
+- Siri → Glasovni odgovori: `prefs:root=SIRI&path=VOICE_FEEDBACK_ID`
+- Siri → Moje informacije: `prefs:root=SIRI&path=MY_INFO`
+- Zvukovi: `prefs:root=Sounds`
+- Zvukovi → Sigurna uporaba slušalica: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING`
+- Zvukovi → Sigurna uporaba slušalica → Lightning adapteri: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING/HEADPHONE_LIGHTNING_ADAPTERS`
+- Zvukovi → Sigurna uporaba slušalica → Obavijesti o slušalicama: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneWeeklyNotificationsKey`
+- Zvukovi → Sigurna uporaba slušalica → Stišaj glasne zvukove: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneLevelLimitSwitchKey`
+- Zvukovi → Zvučni efekti: `prefs:root=Sounds&path=SOUND_EFFECTS`
+- Zvukovi → Zvono i alarmi: `prefs:root=Sounds#RINGER_AND_ALERT_GROUP`
+- Zvukovi → Promijeni tipkama: `prefs:root=Sounds#CHANGE_WITH_BUTTONS`
+- Zvukovi → Zvukovi i uzorci vibracije: `prefs:root=Sounds#SOUNDS_ALERT_GROUP`
+- Zvukovi → Melodija zvona: `prefs:root=Sounds&path=Ringtone`
+- Zvukovi → Zvuk poruke: `prefs:root=Sounds&path=Text_Messages`
+- Zvukovi → Nova govorna poruka: `prefs:root=Sounds&path=Voicemail`
+- Zvukovi → Novi e-mail: `prefs:root=Sounds&path=NEW_MAIL`
+- Zvukovi → Poslani e-mail: `prefs:root=Sounds&path=SENT_MAIL`
+- Zvukovi → Alarmi kalendara: `prefs:root=Sounds&path=Calendar%20Alarm`
+- Zvukovi → Alarmi podsjetnika: `prefs:root=Sounds&path=Reminder%20Alerts`
+- Zvukovi → Klik tipkovnice: `prefs:root=Sounds#KEYBOARD_SOUND_SWITCH`
+- Zvukovi → Zvuk zaključavanja: `prefs:root=Sounds#LOCK_SOUND_SWITCH`
+- Zvukovi → Personalizirani prostorni zvuk: `prefs:root=Sounds&path=Personalized%20Spatial%20Audio`
+- Apple Pencil: `prefs:root=Pencil`
+- Apple Pencil → Apple Pencil: `prefs:root=Pencil#PrefersPencilDraws`
+- Apple Pencil → Apple Pencil: `prefs:root=Pencil#PencilTextInput`
+- Hitan poziv: `prefs:root=EMERGENCY_SOS`
+- Hitan poziv → Pozivanje bočnom tipkom: `prefs:root=EMERGENCY_SOS#CALL_WITH_SIDE_BUTTON`
+- Hitan poziv → Automatski poziv: `prefs:root=EMERGENCY_SOS#AUTO_CALL`
+- Hitan poziv → Hitni kontakti: `prefs:root=EMERGENCY_SOS#EMERGENCY_CONTACTS`
+- Hitan poziv → Zvuk odbrojavanja: `prefs:root=EMERGENCY_SOS#ALARM_SOUND_SWITCH`
+- Wi-Fi: `prefs:root=WIFI`
+- Kontakti: `prefs:root=CONTACTS`
+- Kontakti → Dozvoli Kontaktima pristup: `prefs:root=CONTACTS#Allow%20Contacts%20To%20Access`
+- Kontakti → Siri: `prefs:root=CONTACTS&path=SIRI_AND_SEARCH`
+- Kontakti → Razvrstavanje: `prefs:root=CONTACTS&path=ContactsSortOrder`
+- Kontakti → Redoslijed prikaza: `prefs:root=CONTACTS&path=PersonNameOrder`
+- Kontakti → Kratko ime: `prefs:root=CONTACTS&path=PersonShortName`
+- Kontakti → Kratko ime → Kratko ime: `prefs:root=CONTACTS&path=PersonShortName#Short%20Name`
+- Kontakti → Kratko ime → Preferiraj nadimke: `prefs:root=CONTACTS&path=PersonShortName#Prefer%20Nicknames`
+- Kontakti → Moje informacije: `prefs:root=CONTACTS&path=MeCard`
+- Kontakti → Importiraj SIM kontakte: `prefs:root=CONTACTS#SIMImport`
+- Kontrolni centar: `prefs:root=ControlCenter`
+- Kontrolni centar → Pristup unutar aplikacija: `prefs:root=ControlCenter#ALLOWED_WITHIN_APPS`
+- Kontrolni centar → Prilagodi kontrole: `prefs:root=ControlCenter&path=CUSTOMIZE_CONTROLS`
+- Developer: `prefs:root=DEVELOPER_SETTINGS`
+- Developer → Umrežavanje kroz više putanja: `prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG`
+- Developer → Umrežavanje kroz više putanja → Umrežavanje kroz više putanja: `prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG#Multipath%20Networking`
+- Developer → Izgled: `prefs:root=DEVELOPER_SETTINGS#UIAppearanceGroup`
+- Developer → Tamni izgled: `prefs:root=DEVELOPER_SETTINGS#UIAppearanceSettings`
+- Developer → Upareni uređaji: `prefs:root=DEVELOPER_SETTINGS#DTPairedDevicesGroup`
+- Developer → Očisti pouzdana računala: `prefs:root=DEVELOPER_SETTINGS#CLEAR_TRUSTED_COMPUTERS`
+- Developer → Izrada log zapisa: `prefs:root=DEVELOPER_SETTINGS&path=DTInstrumentsSettings`
+- Developer → Omogući automatizaciju sučelja: `prefs:root=DEVELOPER_SETTINGS#UIAGroup`
+- Developer → Umrežavanje: `prefs:root=DEVELOPER_SETTINGS#NLCGroup`
+- Developer → Održavanje veze s mrežom: `prefs:root=DEVELOPER_SETTINGS&path=NLC`
+- Developer → Dodatno prijavljivanje: `prefs:root=DEVELOPER_SETTINGS#ADDITIONAL_LOGGING`
+- Developer → Dozvoli HTTP usluge: `prefs:root=DEVELOPER_SETTINGS#ALLOW_HTTP_SERVICES`
+- Developer → Onemogući ograničavanje brzine: `prefs:root=DEVELOPER_SETTINGS#DISABLE_RATE_LIMITING`
+- Developer → Opcionalni NFC ključ za prolaz: `prefs:root=DEVELOPER_SETTINGS#NFC_PASS_KEY_OPTIONAL`
+- Developer → Testiranje medijskih usluga: `prefs:root=DEVELOPER_SETTINGS#MEDIA_SERVICES_TESTING`
+- Developer → Resetiraj medijske usluge: `prefs:root=DEVELOPER_SETTINGS#RESET_MEDIA_SERVICES`
+- Developer → Testiranje aplikacije News: `prefs:root=DEVELOPER_SETTINGS#NEWS_TESTING`
+- Developer → Resetiraj lokalne podatke prilikom sljedećeg pokretanja: `prefs:root=DEVELOPER_SETTINGS#RESET_LOCAL_DATA_ON_NEXT_LAUNCH`
+- Developer → Testiranje okruženja aplikacije za medije: `prefs:root=DEVELOPER_SETTINGS#RoutineSettingsGroup`
+- Developer → API sadržaja koji se može reproducirati: `prefs:root=DEVELOPER_SETTINGS&path=RoutineSettings`
+- Developer → TV operater: `prefs:root=DEVELOPER_SETTINGS&path=VideoSubscriberAccountSettings`
+- Developer → ClassKit API: `prefs:root=DEVELOPER_SETTINGS&path=ClassKitSettings`
+- Developer → Testiranje CoreSpotlighta: `prefs:root=DEVELOPER_SETTINGS#CORESPOTLIGHT_TESTING`
+- Developer → Ponovno indeksiraj sve stavke: `prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS`
+- Developer → Ponovno indeksiraj sve stavke s identifikatorima: `prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS_WITH_IDENTIFIERS`
+- Developer → Testiranje prečaca: `prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_TESTING`
+- Developer → Prikaži nedavne prečace: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_SPOTLIGHT`
+- Developer → Prikaži nadolazeće medije: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_UPCOMING_MEDIA`
+- Developer → Prikaži donacije na zaključanom zaslonu: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_LOCKSCREEN`
+- Developer → Prisilno sinkroniziraj prečace za gledanje: `prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_SYNC_WATCHOS`
+- Developer → Testiranje značajke MIDI-CI: `prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA`
+- Developer → Omogući MIDI-CI: `prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA_ENABLE`
+- Developer → Detekcija zastoja: `prefs:root=DEVELOPER_SETTINGS#HANGTRACER_EXTERNAL_CONFIGURE`
+- Bluetooth: `prefs:root=Bluetooth`
+- Dionice: `prefs:root=STOCKS`
+- Dionice → Privatnost: `prefs:root=STOCKS#Privacy`
+- Dionice → Resetiraj identifikator: `prefs:root=STOCKS#reset_identifier`
+- Prijevod: `prefs:root=TRANSLATE`
+- Prijevod → Mod prijevoda na uređaju: `prefs:root=TRANSLATE#OnDeviceOnly`
+- News: `prefs:root=NEWS`
+- News → Pokaži preglede članaka: `prefs:root=NEWS#show_excerpt_mode`
+- News → Ograniči članke u Danas: `prefs:root=NEWS#showStoriesFromFavoritesSpecifierID`
+- News → Privatnost: `prefs:root=NEWS#Privacy`
+- News → Resetiraj identifikator: `prefs:root=NEWS#reset_identifier`
+- News → Priznanja: `prefs:root=NEWS&path=Acknowledgements`
+- Poruke: `prefs:root=MESSAGES`
+- FaceTime: `prefs:root=FACETIME`
+- Foto: `prefs:root=Photos`
+- Foto → iCloud fotografije: `prefs:root=Photos#iCloudPhotosSwitch`
+- Foto → Optimiziraj memoriju: `prefs:root=Photos#iCloudOptimizeStorageOption`
+- Foto → Preuzmi i zadrži originale: `prefs:root=Photos#iCloudKeepOriginalsOption`
+- Foto → Dijeljeni albumi: `prefs:root=Photos#SharedStreamsSwitch`
+- Foto → Mobilni podaci: `prefs:root=Photos&path=CellularDataLinkList`
+- Foto → Automatski reproduciraj videozapise: `prefs:root=Photos#VideoAutoplaySwitch`
+- Foto → Prikaz u Full HDR-u: `prefs:root=Photos#ImageModulationSwitch`
+- Foto → Prikaži blagdanske događaje: `prefs:root=Photos#MEMORIES_HOLIDAY_CALENDAR_EVENTS_SWITCH`
+- Foto → Prijenos na Mac ili PC: `prefs:root=Photos#TransferGroup`
+- Obavijesti o izloženosti: `prefs:root=EXPOSURE_NOTIFICATION`
+- Kamera: `prefs:root=CAMERA`
+- Kamera → Formati: `prefs:root=CAMERA&path=CameraFormatsSettingsList`
+- Kamera → Formati → Apple ProRaw: `prefs:root=CAMERA&path=CameraFormatsSettingsList#CAMUserPreferenceEnableLinearDNGControl`
+- Kamera → Record Video: `prefs:root=CAMERA&path=Record%20Video`
+- Kamera → Record Video → HDR video: `prefs:root=CAMERA&path=Record%20Video#HDR%20Video`
+- Kamera → Očuvanje postavki: `prefs:root=CAMERA&path=CameraPreserveSettingsSwitch`
+- Kamera → Očuvanje postavki → Mod kamere: `prefs:root=CAMERA&path=CameraPreserveSettingsSwitch#CAMUserPreferencePreserveCaptureMode`
+- Kamera → Rešetka: `prefs:root=CAMERA#CameraGridSwitch`
+- Kamera → Skeniraj QR kodove: `prefs:root=CAMERA#CameraQRBannerSwitch`
+- Mobilni podaci: `prefs:root=MOBILE_DATA_SETTINGS_ID`
+- Mobilni podaci → Opcije pod. plana: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS`
+- Mobilni podaci → Opcije pod. plana → Mod niske uporabe podataka: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS#Low%20Data%20Mode`
+- Mobilni podaci → Mobilni podaci: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=SHOW_ALL`
+- Podcasti: `prefs:root=PODCASTS`
+- Kompas: `prefs:root=COMPASS`
+- Kompas → Koristi stvarni sjever: `prefs:root=COMPASS#USE_TRUE_NORTH`
+- Knjige: `prefs:root=IBOOKS`
+- Knjige → Online sadržaj: `prefs:root=IBOOKS#BKAllowOnlineContent`
+- Knjige → SINKRONIZIRANJE: `prefs:root=IBOOKS#SYNCING`
+- Knjige → Sad čitate: `prefs:root=IBOOKS#BKLibrary.ReadingNow`
+- Knjige → iCloud Drive: `prefs:root=IBOOKS#BCSyncICloudDrive`
+- Knjige → ČITANJE: `prefs:root=IBOOKS#READING`
+- Knjige → Poravnate obje strane: `prefs:root=IBOOKS#BKFullJustification`
+- Knjige → Auto rastavljanje riječi: `prefs:root=IBOOKS#BKAutoHyphenation`
+- Knjige → Listanje s obje margine: `prefs:root=IBOOKS#BKLeftTapTurnToNext`
+- Knjige → Ciljevi čitanja: `prefs:root=IBOOKS#READING_GOALS`
+- Knjige → Očisti podatke cilja čitanja: `prefs:root=IBOOKS#BKReadingGoalsShouldClearDataKey`
+- Knjige → PRETRAŽIVANJE: `prefs:root=IBOOKS#SEARCHING`
+- Knjige → Knjižara: `prefs:root=IBOOKS#BKIncludeBookStoreResultsInSearch`
+- Knjige → AUDIO KNJIGE: `prefs:root=IBOOKS#AUDIOBOOKS`
+- Knjige → Preskoči unaprijed: `prefs:root=IBOOKS&path=BKAudioBookSkipForward`
+- Knjige → Preskoči unatrag: `prefs:root=IBOOKS&path=BKAudioBookSkipBackward`
+- Knjige → VANJSKE KONTROLE: `prefs:root=IBOOKS#BKRemoteSkipInsteadOfNextTrackDefaultKey`
+- Knjige → Sljedeće/prethodno: `prefs:root=IBOOKS#Next/Previous`
+- Knjige → Preskoči unaprijed/unatrag: `prefs:root=IBOOKS#Skip%20Forward/Back`
+- Knjige → PRIVATNOST: `prefs:root=IBOOKS#PRIVACY`
+- Knjige → Resetiraj identifikator: `prefs:root=IBOOKS#BAResetAnalyticsUserID`
+- Knjige → Priznanja: `prefs:root=IBOOKS&path=Acknowledgements`
+- Zrakoplovni mod: `prefs:root=ROOT#AIRPLANE_MODE`

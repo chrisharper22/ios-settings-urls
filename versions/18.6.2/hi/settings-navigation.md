@@ -1,0 +1,29 @@
+- Apple खाता: `settings-navigation://com.apple.Settings.AppleAccount`
+- Apple खाता → iCloud: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE`
+- Apple खाता → iCloud → कैलेंडर: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Calendars`
+- Apple खाता → iCloud → कैलेंडर → प्रेषण और प्राप्ति: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Calendars/CALENDAR_SEND_RECEIVE`
+- Apple खाता → iCloud → कैलेंडर → ईमेल अपडेट प्राप्त करें: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Calendars/CALENDAR_SHARED_CALENDAR_UPDATE`
+- Apple खाता → iCloud → मेल: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail`
+- Apple खाता → iCloud → मेल → डिफ़ॉल्ट ईमेल: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/DEFAULT_EMAIL`
+- Apple खाता → iCloud → मेल → पते: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/ALIASES`
+- Apple खाता → iCloud → मेल → ऑटो रिप्लाई: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/AUTO_REPLY`
+- Apple खाता → iCloud → मेल → iCloud मेल के नियम: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/SERVER_SIDE_RULES`
+- Apple खाता → iCloud → मेल → मेल फ़ॉरवर्डिंग: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/MAIL_FORWARDING`
+- Apple खाता → iCloud → मेल → मेलबॉक्स व्यवहार: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/MAILBOX_BEHAVIORS`
+- Apple खाता → iCloud → मेल → साइन करना और एंक्रिप्शन: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/S_MIME`
+- Apple खाता → iCloud → मेल → संदेश इंपोर्ट करें: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/MAIL_IMPORT`
+- Apps: `settings-navigation://com.apple.Settings.Apps`
+- Apps → Fitness: `settings-navigation://com.apple.Settings.Apps/com.apple.Fitness`
+- Apps → Safari: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/`
+- Apps → Safari → एक्सटेंशन: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/WEB_EXTENSIONS`
+- Apps → Safari → पॉप-अप ब्लॉक करें: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari#BLOCK_POPUPS`
+- Apps → Safari → क्रॉस-साइट ट्रैकिंग रोकें: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari#TRACKER_PROTECTION`
+- Apps → Safari → ऑटोफ़िल: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/AUTO_FILL`
+- Apps → Safari → डाउनलोड: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/DOWNLOADS`
+- Apps → पासवर्ड: `settings-navigation://com.apple.Settings.Apps/com.apple.Passwords`
+- Apps → पासवर्ड → सुरक्षा अनुशंसाएँ: `settings-navigation://com.apple.Settings.Apps/com.apple.Passwords#SECURITY_RECOMMENDATIONS`
+- गोपनीयता और सुरक्षा: `settings-navigation://com.apple.Settings.PrivacyAndSecurity`
+- गोपनीयता और सुरक्षा → सुरक्षा जाँच: `settings-navigation://com.apple.Settings.PrivacyAndSecurity/SAFETY_CHECK`
+- घर: `settings-navigation://com.apple.Settings.HomeKit`
+- Search: `settings-navigation://com.apple.Settings.Search`
+- टीवी सर्विस प्रोवाइडर: `settings-navigation://com.apple.Settings.TVProvider`

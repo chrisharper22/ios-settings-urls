@@ -1,0 +1,29 @@
+- Λογαριασμός Apple: `settings-navigation://com.apple.Settings.AppleAccount`
+- Λογαριασμός Apple → iCloud: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE`
+- Λογαριασμός Apple → iCloud → Ημερολόγιο: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Calendars`
+- Λογαριασμός Apple → iCloud → Ημερολόγιο → Αποστολή και λήψη: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Calendars/CALENDAR_SEND_RECEIVE`
+- Λογαριασμός Apple → iCloud → Ημερολόγιο → Λήψη ενημερώσεων μέσω email: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Calendars/CALENDAR_SHARED_CALENDAR_UPDATE`
+- Λογαριασμός Apple → iCloud → Mail: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail`
+- Λογαριασμός Apple → iCloud → Mail → Προεπιλεγμένο email: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/DEFAULT_EMAIL`
+- Λογαριασμός Apple → iCloud → Mail → Διευθύνσεις: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/ALIASES`
+- Λογαριασμός Apple → iCloud → Mail → Αυτόματη απάντηση: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/AUTO_REPLY`
+- Λογαριασμός Apple → iCloud → Mail → Κανόνες iCloud Mail: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/SERVER_SIDE_RULES`
+- Λογαριασμός Apple → iCloud → Mail → Προώθηση email: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/MAIL_FORWARDING`
+- Λογαριασμός Apple → iCloud → Mail → Συμπεριφορές θυρίδων: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/MAILBOX_BEHAVIORS`
+- Λογαριασμός Apple → iCloud → Mail → Υπογραφή και κρυπτογράφηση: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/S_MIME`
+- Λογαριασμός Apple → iCloud → Mail → Εισαγωγή μηνυμάτων: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/MAIL_IMPORT`
+- Apps: `settings-navigation://com.apple.Settings.Apps`
+- Apps → Fitness: `settings-navigation://com.apple.Settings.Apps/com.apple.Fitness`
+- Apps → Safari: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/`
+- Apps → Safari → Επεκτάσεις: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/WEB_EXTENSIONS`
+- Apps → Safari → Φραγή αναδυόμενων: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari#BLOCK_POPUPS`
+- Apps → Safari → Αποτροπή ανίχνευσης από ιστότοπους: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari#TRACKER_PROTECTION`
+- Apps → Safari → Αυτοσυμπλήρωση: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/AUTO_FILL`
+- Apps → Safari → Λήψεις: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/DOWNLOADS`
+- Apps → Συνθηματικά: `settings-navigation://com.apple.Settings.Apps/com.apple.Passwords`
+- Apps → Συνθηματικά → Συστάσεις ασφάλειας: `settings-navigation://com.apple.Settings.Apps/com.apple.Passwords#SECURITY_RECOMMENDATIONS`
+- Απόρρητο και ασφάλεια: `settings-navigation://com.apple.Settings.PrivacyAndSecurity`
+- Απόρρητο και ασφάλεια → Έλεγχος ασφάλειας: `settings-navigation://com.apple.Settings.PrivacyAndSecurity/SAFETY_CHECK`
+- Οικία: `settings-navigation://com.apple.Settings.HomeKit`
+- Search: `settings-navigation://com.apple.Settings.Search`
+- Πάροχος τηλ. υπηρεσιών: `settings-navigation://com.apple.Settings.TVProvider`

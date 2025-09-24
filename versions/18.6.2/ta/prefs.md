@@ -1,0 +1,1186 @@
+- பேட்டரி: `prefs:root=BATTERY_USAGE`
+- பேட்டரி → குறைந்த ஆற்றல் பயன்முறை: `prefs:root=BATTERY_USAGE#BATTERY_SAVER_MODE`
+- பேட்டரி → பேட்டரியின் நிலை: `prefs:root=BATTERY_USAGE#BATTERY_HEALTH_ID`
+- ஆக்‌ஷன் பட்டன்: `prefs:root=ACTION_BUTTON`
+- அறிவிப்புகள்: `prefs:root=NOTIFICATIONS_ID`
+- அறிவிப்புகள் → திட்டமிடப்பட்ட சுருக்கவிவரம்: `prefs:root=NOTIFICATIONS_ID&path=SCHEDULED_DELIVERY_ID`
+- பொது: `prefs:root=General`
+- பொது → VPN & சாதன மேலாண்மை: `prefs:root=General&path=ManagedConfigurationList`
+- பொது → AppleCare & உத்தரவாதம்: `prefs:root=General&path=COVERAGE/`
+- பொது → தானாக நிரப்புதல் & பாஸ்வேர்டுகள்: `prefs:root=General&path=AUTOFILL`
+- பொது → தானாக நிரப்புதல் & பாஸ்வேர்டுகள் → பாஸ்வேர்டுகளைத் தானாக நிரப்புதல்: `prefs:root=General&path=AUTOFILL#AUTOFILL`
+- பொது → தானாக நிரப்புதல் & பாஸ்வேர்டுகள் → சரிபார்ப்புக் குறியீடுகளை அழி: `prefs:root=General&path=AUTOFILL#CLEAN_UP_VERIFICATION_CODES`
+- பொது → தானாக நிரப்புதல் & பாஸ்வேர்டுகள் → சரிபார்ப்புக் குறியீடுகளை அமை: `prefs:root=General&path=AUTOFILL#SET_UP_VERIFICATION_CODES`
+- பொது → சேமிப்பகம்: `prefs:root=General&path=STORAGE_MGMT`
+- பொது → சேமிப்பகம் → சேமிப்பகம்: `prefs:root=General&path=STORAGE_MGMT#MANAGE`
+- பொது → சேமிப்பகம் → பயன்படுத்தப்படாத செயலிகளை ஆஃப்லோட் செய்: `prefs:root=General&path=STORAGE_MGMT#OFFLOAD`
+- பொது → மென்பொருள் புதுப்பிப்பு: `prefs:root=General&path=SOFTWARE_UPDATE_LINK`
+- பொது → மென்பொருள் புதுப்பிப்பு → தானியங்குப் புதுப்பிப்புகள்: `prefs:root=General&path=SOFTWARE_UPDATE_LINK/SUAutomaticUpdateButton`
+- பொது → கீபோர்டு: `prefs:root=General&path=Keyboard`
+- பொது → கீபோர்டு → கீபோர்டுகள்: `prefs:root=General&path=Keyboard/KEYBOARDS`
+- பொது → கீபோர்டு → மாற்று உரை: `prefs:root=General&path=Keyboard/USER_DICTIONARY`
+- பொது → கீபோர்டு → தானாகப் பேரெழுத்தாக்குதல்: `prefs:root=General&path=Keyboard#KeyboardAutocapitalization`
+- பொது → கீபோர்டு → தானாகத் திருத்துதல்: `prefs:root=General&path=Keyboard#KeyboardAutocorrection`
+- பொது → கீபோர்டு → எழுத்தாக்கத்தைச் சரிபார்: `prefs:root=General&path=Keyboard#KeyboardCheckSpelling`
+- பொது → கீபோர்டு → கேப்ஸ் லாக்கைச் செயல்படுத்து: `prefs:root=General&path=Keyboard#KeyboardCapsLock`
+- பொது → கீபோர்டு → சுருக்கவழிகள்: `prefs:root=General&path=Keyboard#KeyboardAssistant`
+- பொது → கீபோர்டு → கணிப்பு: `prefs:root=General&path=Keyboard#KeyboardPrediction`
+- பொது → கீபோர்டு → ஸ்மார்ட் நிறுத்தக்குறி: `prefs:root=General&path=Keyboard#SmartTyping`
+- பொது → கீபோர்டு → ஸ்ப்ளிட் கீபோர்டு: `prefs:root=General&path=Keyboard#RivenKeyboard`
+- பொது → கீபோர்டு → கீ ஃபிளிக்ஸைச் செயல்படுத்து: `prefs:root=General&path=Keyboard#GesturesEnabled`
+- பொது → கீபோர்டு → எழுத்து முன்னோட்டம்: `prefs:root=General&path=Keyboard#KeyboardAllowPaddle`
+- பொது → கீபோர்டு → “.” சுருக்கவழி: `prefs:root=General&path=Keyboard#KeyboardPeriodShortcut`
+- பொது → கீபோர்டு → டைப் செய்ய ஸ்லைடு செய்க: `prefs:root=General&path=Keyboard#KeyboardContinuousPathEnabled`
+- பொது → கீபோர்டு → டிக்டேஷனைச் செயல்படுத்து: `prefs:root=General&path=Keyboard#Dictation`
+- பொது → கீபோர்டு → தானியங்கு-நிறுத்தக்குறி: `prefs:root=General&path=Keyboard#AutoPunctuationSetting`
+- பொது → மொழி & வட்டாரம்: `prefs:root=General&path=INTERNATIONAL`
+- பொது → மொழி & வட்டாரம் → பிற மொழிகள்…: `prefs:root=General&path=INTERNATIONAL#NEW_PREFERRED_LANGUAGE`
+- பொது → மொழி & வட்டாரம் → விருப்ப மொழி வரிசை: `prefs:root=General&path=INTERNATIONAL#PREFERRED_LANGUAGE_GROUP`
+- பொது → மொழி & வட்டாரம் → மொழியைச் சேர்…: `prefs:root=General&path=INTERNATIONAL#ADD_PREFERRED_LANGUAGE`
+- பொது → மொழி & வட்டாரம் → மண்டலம்: `prefs:root=General&path=INTERNATIONAL/LOCALE`
+- பொது → மொழி & வட்டாரம் → எண்கள்: `prefs:root=General&path=INTERNATIONAL/NUMBERING_SYSTEM`
+- பொது → மொழி & வட்டாரம் → கேலண்டர்: `prefs:root=General&path=INTERNATIONAL/CALENDAR`
+- பொது → மொழி & வட்டாரம் → வெப்பநிலை யூனிட்: `prefs:root=General&path=INTERNATIONAL/TEMPERATURE_UNIT`
+- பொது → அகராதி: `prefs:root=General&path=DICTIONARY`
+- பொது → பிக்சர்-இன்-பிக்சர்: `prefs:root=General&path=PiP_SPEC`
+- பொது → டிராக்பேடு: `prefs:root=General&path=POINTERS`
+- பொது → NFC: `prefs:root=General&path=NFC_LINK`
+- பொது → VPN: `prefs:root=General&path=VPN`
+- பொது → CarPlay: `prefs:root=General&path=CARPLAY`
+- பொது → அறிமுகம்: `prefs:root=General&path=About`
+- பொது → அறிமுகம் → நம்பிக்கைச் சான்றிதழ்கள்: `prefs:root=General&path=About/CERT_TRUST_SETTINGS`
+- பொது → அறிமுகம் → வரிசை எண்: `prefs:root=General&path=About#SerialNumber`
+- பொது → அறிமுகம் → மாடல் எண்: `prefs:root=General&path=About#ProductModel`
+- பொது → அறிமுகம் → மாடல் பெயர்: `prefs:root=General&path=About#ProductModelName`
+- பொது → அறிமுகம் → iOS பதிப்பு: `prefs:root=General&path=About/SW_VERSION_SPECIFIER`
+- பொது → சட்டம் & ஒழுங்குமுறை: `prefs:root=General&path=LEGAL_AND_REGULATORY`
+- பொது → சட்டம் & ஒழுங்குமுறை → உத்தரவாதம்: `prefs:root=General&path=LEGAL_AND_REGULATORY#Warranty`
+- பொது → AirDrop: `prefs:root=General&path=AIRDROP_LINK`
+- பொது → AirDrop → சாதனங்களை அருகருகில் கொண்டுவரவும்: `prefs:root=General&path=AIRDROP_LINK#AIRDROP_NFC_ID`
+- பொது → முகப்பு பட்டன்: `prefs:root=General&path=HOME_BUTTON`
+- பொது → சைடு ஸ்விட்ச்: `prefs:root=General#Rotation_Switch_Action_Group`
+- பொது → பின்னணிச் செயலி ரிஃப்ரெஷ்: `prefs:root=General&path=AUTO_CONTENT_DOWNLOAD`
+- பொது → தேதி & நேரம்: `prefs:root=General&path=DATE_AND_TIME`
+- பொது → டிவி அவுட்: `prefs:root=General&path=TV_OUT`
+- பொது → மீட்டமை: `prefs:root=General&path=Reset`
+- பொது → மீட்டமை → அனைத்து அமைப்புகளையும் மீட்டமை: `prefs:root=General&path=Reset#settingsErase`
+- பொது → மீட்டமை → அனைத்து உள்ளடக்கத்தையும் அமைப்புகளையும் அழி: `prefs:root=General&path=Reset#fullErase`
+- பொது → மீட்டமை → நெட்வொர்க் அமைப்புகளை மீட்டமை: `prefs:root=General&path=Reset#RESET_NETWORK_LABEL`
+- பொது → மீட்டமை → அனைத்து மொபைல் டேட்டா திட்டங்களையும் அகற்று: `prefs:root=General&path=Reset#cellularErase`
+- பொது → மீட்டமை → சந்தாதாரர் சேவைகள்: `prefs:root=General&path=Reset#SUBSCRIBER_SERVICES_ID`
+- பொது → மீட்டமை → கீபோர்டு அகராதியை மீட்டமை: `prefs:root=General&path=Reset#RESET_KEYBOARD_DICTIONARY_LABEL`
+- பொது → மீட்டமை → முகப்புத் திரை லே-அவுட்டை மீட்டமை: `prefs:root=General&path=Reset#RESET_ICONS_LABEL`
+- பொது → மீட்டமை → இருப்பிடம் & தனியுரிமையை மீட்டமை: `prefs:root=General&path=Reset#RESET_PRIVACY_LABEL`
+- பொது → ஷட் டவுன்: `prefs:root=General#SHUTDOWN_LABEL`
+- பொது → AirPlay & கன்டினியுட்டி: `prefs:root=General&path=CONTINUITY_SPEC`
+- பொது → AirPlay & கன்டினியுட்டி → Handoff: `prefs:root=General&path=CONTINUITY_SPEC#CONTINUITY`
+- பொது → AirPlay & கன்டினியுட்டி → HomePodக்கு இடமாற்று: `prefs:root=General&path=CONTINUITY_SPEC#TRANSFER_TO_HOMEPOD`
+- பொது → AirPlay & கன்டினியுட்டி → தானாக AirPlay செய்: `prefs:root=General&path=CONTINUITY_SPEC#AUTOMATICALLY_AIRPLAY`
+- பொது → AirPlay & கன்டினியுட்டி → கன்டினியுட்டி கேமரா: `prefs:root=General&path=CONTINUITY_SPEC#WOMBAT_CAMERA`
+- வாலெட் & Apple Pay: `prefs:root=PASSBOOK`
+- வாலெட் & Apple Pay → Apple Cash: `prefs:root=PASSBOOK#Apple%C2%A0Cash`
+- வாலெட் & Apple Pay → பேமெண்ட் கார்டுகள்: `prefs:root=PASSBOOK#SETTINGS_PAYMENT_CARDS_GROUP`
+- வாலெட் & Apple Pay → கார்டைச் சேர்: `prefs:root=PASSBOOK#Add%20Card`
+- வாலெட் & Apple Pay → பக்கவாட்டு பட்டனை இருமுறை கிளிக் செய்தல்: `prefs:root=PASSBOOK#Double-Click%20Side%20Button`
+- வாலெட் & Apple Pay → ஆர்டர் டிராக்கிங்: `prefs:root=PASSBOOK#ORDER_TRACKING`
+- ஜர்னல்: `prefs:root=JOURNAL`
+- காத்திருப்பு: `prefs:root=AMBIENT`
+- வானிலை: `prefs:root=WEATHER`
+- Apple கணக்கு: `prefs:root=APPLE_ACCOUNT` or `settings-navigation://com.apple.Settings.AppleAccount`
+- Apple கணக்கு → iCloud: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE` or `prefs:root=CASTLE`
+- Apple கணக்கு → iCloud → iCloud சேமிப்பகம்: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/STORAGE_AND_BACKUP` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/STORAGE_AND_BACKUP` or `prefs:root=CASTLE&path=STORAGE_AND_BACKUP`
+- Apple கணக்கு → iCloud → iCloud Drive: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity` or `prefs:root=CASTLE&path=com.apple.Dataclass.Ubiquity`
+- Apple கணக்கு → iCloud → ஃபோட்டோஸ்: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.MediaStream` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.MediaStream` or `prefs:root=CASTLE&path=com.apple.Dataclass.MediaStream`
+- Apple கணக்கு → iCloud → Mail: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Mail` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail` or `prefs:root=CASTLE&path=com.apple.Dataclass.Mail`
+- Apple கணக்கு → iCloud → Mail → தனிப்பயன் மின்னஞ்சல் டொமைன்: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Mail/BYOD_SETTING_SPECIFIER_ID` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/BYOD_SETTING_SPECIFIER_ID` or `prefs:root=CASTLE&path=com.apple.Dataclass.Mail/BYOD_SETTING_SPECIFIER_ID`
+- Apple கணக்கு → iCloud → தொடர்புகள்: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Contacts` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Contacts` or `prefs:root=CASTLE&path=com.apple.Dataclass.Contacts`
+- Apple கணக்கு → iCloud → கேலண்டர்: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Calendars` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Calendars` or `prefs:root=CASTLE&path=com.apple.Dataclass.Calendars`
+- Apple கணக்கு → iCloud → நினைவூட்டல்கள்: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Reminders` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Reminders` or `prefs:root=CASTLE&path=com.apple.Dataclass.Reminders`
+- Apple கணக்கு → iCloud → Safari: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks` or `prefs:root=CASTLE&path=com.apple.Dataclass.Bookmarks`
+- Apple கணக்கு → iCloud → குறிப்புகள்: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Notes` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Notes` or `prefs:root=CASTLE&path=com.apple.Dataclass.Notes`
+- Apple கணக்கு → iCloud → News: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.News` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.News` or `prefs:root=CASTLE&path=com.apple.Dataclass.News`
+- Apple கணக்கு → iCloud → பேக்-அப்: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/BACKUP` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/BACKUP` or `prefs:root=CASTLE&path=BACKUP`
+- Apple கணக்கு → iCloud → உடல்நலம்: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Health` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Health` or `prefs:root=CASTLE&path=com.apple.Dataclass.Health`
+- Apple கணக்கு → iCloud → பாஸ்வேர்டுகள் மற்றும் கீசெயின்: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync` or `prefs:root=CASTLE&path=com.apple.Dataclass.KeychainSync`
+- Apple கணக்கு → iCloud → எனது மின்னஞ்சலை மறை: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE` or `prefs:root=CASTLE&path=PRIVATE_EMAIL_MANAGE`
+- Apple கணக்கு → எனது இருப்பிடத்தைப் பகிர்: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING` or `settings-navigation://com.apple.Settings.AppleAccount/LOCATION_SHARING`
+- Apple கணக்கு → எனது இருப்பிடத்தைப் பகிர் → இடம் அறி: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING/FindMyDevice-Settings` or `settings-navigation://com.apple.Settings.AppleAccount/LOCATION_SHARING/FindMyDevice-Settings`
+- Apple கணக்கு → பெயர், ஃபோன் எண்கள், மின்னஞ்சல்: `prefs:root=APPLE_ACCOUNT&path=APPLE_ACCOUNT_CONTACT` or `settings-navigation://com.apple.Settings.AppleAccount/APPLE_ACCOUNT_CONTACT`
+- Apple கணக்கு → பாஸ்வேர்டு & பாதுகாப்பு: `prefs:root=APPLE_ACCOUNT&path=PASSWORD_AND_SECURITY` or `settings-navigation://com.apple.Settings.AppleAccount/PASSWORD_AND_SECURITY`
+- Apple கணக்கு → பேமெண்ட் & ஷிப்பிங்: `prefs:root=APPLE_ACCOUNT&path=PAYMENT_AND_SHIPPING` or `settings-navigation://com.apple.Settings.AppleAccount/PAYMENT_AND_SHIPPING`
+- Apple கணக்கு → சந்தாக்கள்: `prefs:root=APPLE_ACCOUNT&path=SUBSCRIPTIONS` or `settings-navigation://com.apple.Settings.AppleAccount/SUBSCRIPTIONS`
+- Apple கணக்கு → குடும்பம்: `prefs:root=APPLE_ACCOUNT&path=Family` or `settings-navigation://com.apple.Settings.AppleAccount/Family`
+- Apple கணக்கு → கான்டாக்ட் கீ சரிபார்ப்பு: `prefs:root=APPLE_ACCOUNT&path=TRANSPARENCY` or `settings-navigation://com.apple.Settings.AppleAccount/TRANSPARENCY`
+- மேப்ஸ்: `prefs:root=MAPS`
+- மேப்ஸ் → காற்றின் தரக் குறியீடு: `prefs:root=MAPS#AirQualityPreferenceID`
+- மேப்ஸ் → எப்போதும் தமிழில் காட்டு: `prefs:root=MAPS#LabelLanguageAlwaysUIPreferenceID`
+- மேப்ஸ் → சைக்கிளிங்: `prefs:root=MAPS&path=CyclingLinkPreferenceID`
+- மேப்ஸ் → விருப்பமான பயண வகை: `prefs:root=MAPS#TransportTypePreferenceGroupID`
+- மேப்ஸ் → டிரைவிங்: `prefs:root=MAPS&path=DrivingLinkPreferenceID`
+- மேப்ஸ் → வழி அறிவிப்புகள்: `prefs:root=MAPS&path=NavigationGuidanceLinkPreferenceID`
+- மேப்ஸ் → பார்க் செய்த இடத்தைக் காட்டு: `prefs:root=MAPS#ParkedCarPreferenceID`
+- மேப்ஸ் → ETAஐப் பகிர்: `prefs:root=MAPS#ShareETAPreferenceID`
+- மேப்ஸ் → டிரான்ஸிட்: `prefs:root=MAPS&path=TransitLinkPreferenceID`
+- மேப்ஸ் → நடத்தல்: `prefs:root=MAPS&path=WalkingLinkPreferenceID`
+- மேப்ஸ் → வானிலை நிலவரம்: `prefs:root=MAPS#WeatherConditionsPreferenceID`
+- ஸ்கிரீன் டைம்: `prefs:root=SCREEN_TIME`
+- ஸ்கிரீன் டைம் → See All App & Website Activity: `prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY`
+- ஸ்கிரீன் டைம் → See All App & Website Activity → இன்று: `prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY#DAY`
+- ஸ்கிரீன் டைம் → See All App & Website Activity → வாரம்: `prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY#WEEK`
+- ஸ்கிரீன் டைம் → செயல்படா நேரம்: `prefs:root=SCREEN_TIME&path=DOWNTIME`
+- ஸ்கிரீன் டைம் → செயலி வரம்புகள்: `prefs:root=SCREEN_TIME&path=APP_LIMITS`
+- ஸ்கிரீன் டைம் → தகவல்தொடர்பு வரம்புகள்: `prefs:root=SCREEN_TIME&path=COMMUNICATION_LIMITS`
+- ஸ்கிரீன் டைம் → தகவல்தொடர்புப் பாதுகாப்பு: `prefs:root=SCREEN_TIME&path=COMMUNICATION_SAFETY`
+- ஸ்கிரீன் டைம் → எப்போதும் அனுமதிக்கப்படுபவை: `prefs:root=SCREEN_TIME&path=ALWAYS_ALLOWED`
+- ஸ்கிரீன் டைம் → உள்ளடக்கம் & தனியுரிமைக் கட்டுப்பாடுகள்: `prefs:root=SCREEN_TIME&path=CONTENT_PRIVACY`
+- ஸ்கிரீன் டைம் → பெற்றோர் கட்டுப்பாடுகள்: `prefs:root=SCREEN_TIME#FAMILY`
+- ஸ்கிரீன் டைம் → ஸ்கிரீன் தூரம்: `prefs:root=SCREEN_TIME&path=EYE_DISTANCE`
+- Freeform: `prefs:root=FREEFORM`
+- ஃபோகஸ்: `prefs:root=DO_NOT_DISTURB`
+- ஃபோகஸ் → ஃபோகஸ் நிலை: `prefs:root=DO_NOT_DISTURB&path=status`
+- தோற்றம்: `prefs:root=DISPLAY`
+- தோற்றம் → தோற்றம்: `prefs:root=DISPLAY#DEVICE_APPEARANCE`
+- தோற்றம் → True Tone: `prefs:root=DISPLAY#WHITE_BALANCE`
+- தோற்றம் → Night Shift: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION`
+- தோற்றம் → Night Shift → திட்டமிடல்: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#SCHEDULED`
+- தோற்றம் → Night Shift → இன்று முடியும் வரை செயல்படுத்து: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#MANUAL`
+- தோற்றம் → Night Shift → கலர் வெப்பநிலை: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#COLOR_TEMPERATURE`
+- தோற்றம் → தானாகப் பூட்டு: `prefs:root=DISPLAY&path=AUTOLOCK`
+- தோற்றம் → செயல்படுத்த எடுக்கவும்: `prefs:root=DISPLAY#RAISE_TO_WAKE`
+- தோற்றம் → லாக் / அன்லாக்: `prefs:root=DISPLAY#SMART_CASE_LOCK_SPEC`
+- தோற்றம் → எழுத்தின் அளவு: `prefs:root=DISPLAY&path=TEXT_SIZE`
+- தோற்றம் → தடித்த உரை: `prefs:root=DISPLAY#BOLD_TEXT`
+- தோற்றம் → ஒளிர்வு: `prefs:root=DISPLAY#BRIGHTNESS`
+- தோற்றம் → டிஸ்ப்ளே ஜூம்: `prefs:root=DISPLAY#DISPLAY_ZOOM_GROUP`
+- தோற்றம் → தோற்றம்: `prefs:root=DISPLAY&path=APPEARANCE`
+- தோற்றம் → தோற்றம் → விண்டோ ஜூம்: `prefs:root=DISPLAY&path=APPEARANCE#WINDOW_ZOOM`
+- தோற்றம் → தோற்றம் → இரு-கை விண்டோ ஜூம்: `prefs:root=DISPLAY&path=APPEARANCE#TWO_HANDED_WINDOW_ZOOM`
+- தோற்றம் → காட்டு: `prefs:root=DISPLAY&path=MAGNIFY`
+- தோற்றம் → டிஸ்ப்ளேவை எப்போதும் ஆனில் வை: `prefs:root=DISPLAY&path=ALWAYS_ON`
+- தோற்றம் → டிஸ்ப்ளேவை எப்போதும் ஆனில் வை → டிஸ்ப்ளேவை எப்போதும் ஆனில் வை: `prefs:root=DISPLAY&path=ALWAYS_ON#ALWAYS_ON`
+- தோற்றம் → இணக்கமான செயலிகள்: `prefs:root=DISPLAY&path=COMPATIBLE_APPEARANCE`
+- தோற்றம் → இணக்கமான செயலிகள் → அடர், வெளிர்: `prefs:root=DISPLAY&path=COMPATIBLE_APPEARANCE#COMPATIBLE_APPEARANCE_CHOICES`
+- முகப்புத் திரை: `prefs:root=HOME_SCREEN`
+- முகப்புத் திரை → புதிதாகப் பதிவிறக்கப்பட்ட செயலிகள்: `prefs:root=HOME_SCREEN&path=APP_DOWNLOADS_GO_TO`
+- முகப்புத் திரை → அறிவிப்பு பேட்ஜ்கள்: `prefs:root=HOME_SCREEN#BADGES_IN_APP_LIBRARY`
+- முகப்புத் திரை & செயலி லைப்ரரி: `prefs:root=HOME_SCREEN_DOCK`
+- முகப்புத் திரை & செயலி லைப்ரரி → புதிதாகப் பதிவிறக்கப்பட்ட செயலிகள்: `prefs:root=HOME_SCREEN_DOCK&path=APP_DOWNLOADS_GO_TO`
+- முகப்புத் திரை & செயலி லைப்ரரி → Dock: `prefs:root=HOME_SCREEN_DOCK&path=MULTITASKING_DOCK`
+- முகப்புத் திரை & செயலி லைப்ரரி → Dock → Dockஇல் செயலி லைப்ரரியைக் காட்டு: `prefs:root=HOME_SCREEN_DOCK&path=MULTITASKING_DOCK#SHOW_APP_LIBRARY`
+- முகப்புத் திரை & செயலி லைப்ரரி → பரிந்துரைக்கப்பட்ட மற்றும் சமீபத்திய செயலிகளை Dockஇல் காட்டு: `prefs:root=HOME_SCREEN_DOCK#ALLOW_RECENTS`
+- முகப்புத் திரை & செயலி லைப்ரரி → ஸ்டேஜ் மேனேஜர்: `prefs:root=HOME_SCREEN_DOCK&path=CONTINUOUS-EXPOSE`
+- Multitasking & Gestures: `prefs:root=com.apple.MultitaskingAndGesturesSettings`
+- Multitasking & Gestures → மல்டிடாஸ்க்கிங்: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Multitasking`
+- Multitasking & Gestures → மல்டிடாஸ்க்கிங் → பல செயலிகளை அனுமதி: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Multitasking#MultipleApps`
+- Multitasking & Gestures → மல்டிடாஸ்க்கிங் → Split View & Slide Over: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Multitasking#SplitViewSlideOver`
+- Multitasking & Gestures → மல்டிடாஸ்க்கிங் → ஸ்கிரீன் மிரரிங்: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Multitasking#ScreenMirroring`
+- Multitasking & Gestures → மல்டிடாஸ்க்கிங் → ஸ்டேஜ் மேனேஜர்: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Multitasking#StageManager`
+- Multitasking & Gestures → மல்டிடாஸ்க்கிங் → சமீபத்திய செயலிகளை ஸ்டேஜ் மேனேஜரில் காட்டு: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Multitasking#StageManagerRecentApps`
+- Multitasking & Gestures → மல்டிடாஸ்க்கிங் → ஸ்டேஜ் மேனேஜரில் Dockஐக் காட்டு: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Multitasking#StageManagerDock`
+- Multitasking & Gestures → பிக்சர்-இன்-பிக்சர்: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=PictureInPicture`
+- Multitasking & Gestures → புரொடக்டிவிட்டி சைகைகள்: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Productivity`
+- Multitasking & Gestures → புரொடக்டிவிட்டி சைகைகள் → சைகைகள்: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Productivity#Gestures`
+- Multitasking & Gestures → புரொடக்டிவிட்டி சைகைகள் → புரொடக்டிவிட்டி சைகைகள்: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Productivity#ProductivityGestures`
+- Multitasking & Gestures → நான்கு & ஐந்து விரல் சைகைகள்: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=FourAndFiveFingers`
+- Multitasking & Gestures → செயல்தவிர்க்க அசைக்கவும்: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=ShakeToUndo`
+- Multitasking & Gestures → கார்னர் சைகைகள்: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=CornerGestures`
+- அணுகல்தன்மை: `prefs:root=ACCESSIBILITY`
+- அணுகல்தன்மை → VoiceOver: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE`
+- அணுகல்தன்மை → VoiceOver → VoiceOver டுடோரியல்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#VoiceOverTouchTutorialEnabled`
+- அணுகல்தன்மை → VoiceOver → பேசும் வேகம்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#SpeakingRateSlider`
+- அணுகல்தன்மை → VoiceOver → பேச்சு: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Voices`
+- அணுகல்தன்மை → VoiceOver → பேச்சு → உச்சரிப்புகள்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Voices/PRONUNCIATION_DICTIONARY`
+- அணுகல்தன்மை → VoiceOver → பேச்சு → உச்சரிப்புகள் → உச்சரிப்புகள்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Voices/PRONUNCIATION_DICTIONARY#PRONUNCIATION_DICTIONARY`
+- அணுகல்தன்மை → VoiceOver → பேச்சு → பிட்ச் மாற்றம்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Voices#PITCH_CHANGES_TITLE`
+- அணுகல்தன்மை → VoiceOver → பேச்சு → ரோட்டார் குரலைச் சேர்த்தல்…: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Voices#ADD_NEW_VOICE`
+- அணுகல்தன்மை → VoiceOver → பேச்சு → மொழிகளைக் கண்டறி: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Voices#LANGUAGE_DETECTION`
+- அணுகல்தன்மை → VoiceOver → பேச்சு → பேச்சை ஸ்பேஷியலைஸ் செய்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Voices#SPATIALIZE_SPEECH`
+- அணுகல்தன்மை → VoiceOver → மிகைச் சொற்கள்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity`
+- அணுகல்தன்மை → VoiceOver → மிகைச் சொற்கள் → மிகைச் சொற்கள்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#Verbosity`
+- அணுகல்தன்மை → VoiceOver → மிகைச் சொற்கள் → நிறுத்தக்குறி: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup`
+- அணுகல்தன்மை → VoiceOver → மிகைச் சொற்கள் → நிறுத்தக்குறி → நிறுத்தக்குறி: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup#voiceOverPunctuationGroup`
+- அணுகல்தன்மை → VoiceOver → மிகைச் சொற்கள் → நிறுத்தக்குறி → செயலில் உள்ள நிறுத்தக்குறிக் குழு: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup#voiceOverActivePunctuationGroup`
+- அணுகல்தன்மை → VoiceOver → மிகைச் சொற்கள் → நிறுத்தக்குறி → அனைத்தும்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup#all`
+- அணுகல்தன்மை → VoiceOver → மிகைச் சொற்கள் → நிறுத்தக்குறி → சில: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup#AXSSVoiceOverPunctuationGroupSome`
+- அணுகல்தன்மை → VoiceOver → மிகைச் சொற்கள் → நிறுத்தக்குறி → எதுவுமில்லை: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup#PunctuationGroupNone`
+- அணுகல்தன்மை → VoiceOver → மிகைச் சொற்கள் → நிறுத்தக்குறி → நிறுத்தக்குறிக் குழுவைச் சேர்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup/NewPunctuation`
+- அணுகல்தன்மை → VoiceOver → மிகைச் சொற்கள் → நிறுத்தக்குறி → நிறுத்தக்குறிக் குழுவைச் சேர் → நிறுத்தக்குறிக் குழுவைச் சேர்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup/NewPunctuation#NewPunctuation`
+- அணுகல்தன்மை → VoiceOver → மிகைச் சொற்கள் → நிறுத்தக்குறி → இம்போர்ட் செய்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup/ImportPunctuation`
+- அணுகல்தன்மை → VoiceOver → மிகைச் சொற்கள் → நிறுத்தக்குறி → இம்போர்ட் செய் → இம்போர்ட் செய்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup/ImportPunctuation#ImportPunctuation`
+- அணுகல்தன்மை → VoiceOver → மிகைச் சொற்கள் → பேச்சுக் குறிப்புகள்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#HINTS_TITLE`
+- அணுகல்தன்மை → VoiceOver → மிகைச் சொற்கள் → சிஸ்டம் அறிவிப்புகள்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/SystemNotifications`
+- அணுகல்தன்மை → VoiceOver → மிகைச் சொற்கள் → சிஸ்டம் அறிவிப்புகள் → சிஸ்டம் அறிவிப்புகள்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/SystemNotifications#SystemNotifications`
+- அணுகல்தன்மை → VoiceOver → மிகைச் சொற்கள் → சிஸ்டம் அறிவிப்புகள் → லாக் செய்யப்பட்டுள்ளபோது அறிவிப்புகள்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/SystemNotifications#LockScreenNotifications`
+- அணுகல்தன்மை → VoiceOver → மிகைச் சொற்கள் → சிஸ்டம் அறிவிப்புகள் → பேனர் அறிவிப்புகள்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/SystemNotifications#BannerNotifications`
+- அணுகல்தன்மை → VoiceOver → மிகைச் சொற்கள் → சிஸ்டம் அறிவிப்புகள் → அமைதிப் பயன்முறையைப் பயன்படுத்து: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/SystemNotifications#NOTIFICATION_USE_RINGER_SWITCH`
+- அணுகல்தன்மை → VoiceOver → மிகைச் சொற்கள் → QuickNav அறிவிப்புகள்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverQuickNavAnnouncementFeedback`
+- அணுகல்தன்மை → VoiceOver → மிகைச் சொற்கள் → QuickNav அறிவிப்புகள் → QuickNav அறிவிப்புகள்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverQuickNavAnnouncementFeedback#voiceOverQuickNavAnnouncementFeedback`
+- அணுகல்தன்மை → VoiceOver → மிகைச் சொற்கள் → ஃபிளாஷ்லைட் அறிவிப்புகள்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverFlashlightNotificationsEnabled`
+- அணுகல்தன்மை → VoiceOver → மிகைச் சொற்கள் → ஃபிளாஷ்லைட் அறிவிப்புகள் → ஃபிளாஷ்லைட் அறிவிப்புகள்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverFlashlightNotificationsEnabled#voiceOverFlashlightNotificationsEnabled`
+- அணுகல்தன்மை → VoiceOver → மிகைச் சொற்கள் → பேரெழுத்துகள்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverCapitalLetterFeedback`
+- அணுகல்தன்மை → VoiceOver → மிகைச் சொற்கள் → பேரெழுத்துகள் → பேரெழுத்துகள்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverCapitalLetterFeedback#voiceOverCapitalLetterFeedback`
+- அணுகல்தன்மை → VoiceOver → மிகைச் சொற்கள் → உரையை நீக்குதல்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverDeletionFeedback`
+- அணுகல்தன்மை → VoiceOver → மிகைச் சொற்கள் → உரையை நீக்குதல் → உரையை நீக்குதல்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverDeletionFeedback#voiceOverDeletionFeedback`
+- அணுகல்தன்மை → VoiceOver → மிகைச் சொற்கள் → இணைப்புகள்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverLinkFeedback`
+- அணுகல்தன்மை → VoiceOver → மிகைச் சொற்கள் → இணைப்புகள் → இணைப்புகள்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverLinkFeedback#voiceOverLinkFeedback`
+- அணுகல்தன்மை → VoiceOver → மிகைச் சொற்கள் → செயல்கள்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverActionsFeedback`
+- அணுகல்தன்மை → VoiceOver → மிகைச் சொற்கள் → செயல்கள் → செயல்கள்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverActionsFeedback#voiceOverActionsFeedback`
+- அணுகல்தன்மை → VoiceOver → மிகைச் சொற்கள் → கூடுதல் உள்ளடக்கம்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMoreContentOutputFeedback`
+- அணுகல்தன்மை → VoiceOver → மிகைச் சொற்கள் → கூடுதல் உள்ளடக்கம் → கூடுதல் உள்ளடக்கம்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMoreContentOutputFeedback#voiceOverMoreContentOutputFeedback`
+- அணுகல்தன்மை → VoiceOver → மிகைச் சொற்கள் → கண்டெய்னர் விளக்கங்கள்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverContainerOutputFeedback`
+- அணுகல்தன்மை → VoiceOver → மிகைச் சொற்கள் → கண்டெய்னர் விளக்கங்கள் → கண்டெய்னர் விளக்கங்கள்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverContainerOutputFeedback#voiceOverContainerOutputFeedback`
+- அணுகல்தன்மை → VoiceOver → மிகைச் சொற்கள் → எண்கள்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverNumberFeedback`
+- அணுகல்தன்மை → VoiceOver → மிகைச் சொற்கள் → எண்கள் → எண்கள்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverNumberFeedback#voiceOverNumberFeedback`
+- அணுகல்தன்மை → VoiceOver → மிகைச் சொற்கள் → வார்த்தைக் கணிப்பு ஃபீட்பேக்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/PREDICTIVE_TEXT_FEEDBACK`
+- அணுகல்தன்மை → VoiceOver → மிகைச் சொற்கள் → வார்த்தைக் கணிப்பு ஃபீட்பேக் → வார்த்தைக் கணிப்பு ஃபீட்பேக்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/PREDICTIVE_TEXT_FEEDBACK#PREDICTIVE_TEXT_FEEDBACK`
+- அணுகல்தன்மை → VoiceOver → மிகைச் சொற்கள் → வார்த்தைக் கணிப்பு ஃபீட்பேக் → வார்த்தைக் கணிப்பு தோன்றும்போது: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/PREDICTIVE_TEXT_FEEDBACK/InlineTextCompletionAppearanceFeedback`
+- அணுகல்தன்மை → VoiceOver → மிகைச் சொற்கள் → வார்த்தைக் கணிப்பு ஃபீட்பேக் → வார்த்தைக் கணிப்பு தோன்றும்போது → வார்த்தைக் கணிப்பு தோன்றும்போது: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/PREDICTIVE_TEXT_FEEDBACK/InlineTextCompletionAppearanceFeedback#InlineTextCompletionAppearanceFeedback`
+- அணுகல்தன்மை → VoiceOver → மிகைச் சொற்கள் → வார்த்தைக் கணிப்பு ஃபீட்பேக் → வார்த்தைக் கணிப்பு ஃபீட்பேக் உள்ளிடப்படும்போது: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/PREDICTIVE_TEXT_FEEDBACK/InlineTextCompletionInsertionFeedback`
+- அணுகல்தன்மை → VoiceOver → மிகைச் சொற்கள் → வார்த்தைக் கணிப்பு ஃபீட்பேக் → வார்த்தைக் கணிப்பு ஃபீட்பேக் உள்ளிடப்படும்போது → வார்த்தைக் கணிப்பு ஃபீட்பேக் உள்ளிடப்படும்போது: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/PREDICTIVE_TEXT_FEEDBACK/InlineTextCompletionInsertionFeedback#InlineTextCompletionInsertionFeedback`
+- அணுகல்தன்மை → VoiceOver → மிகைச் சொற்கள் → அட்டவணைத் தலைப்புகள்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#speakTableHeader`
+- அணுகல்தன்மை → VoiceOver → மிகைச் சொற்கள் → வரிசை & நெடுவரிசை எண்ணிக்கை: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#SPEAK_TABLE_ROW_COLUMN`
+- அணுகல்தன்மை → VoiceOver → மிகைச் சொற்கள் → பேச்சுக்கான உறுதிப்படுத்துதல்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#ACTION_CONFIRMATION`
+- அணுகல்தன்மை → VoiceOver → மிகைச் சொற்கள் → இணைய ரோட்டார் சுருக்க விவரம்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverRotorSummaryFeedback`
+- அணுகல்தன்மை → VoiceOver → மிகைச் சொற்கள் → இணைய ரோட்டார் சுருக்க விவரம் → இணைய ரோட்டார் சுருக்க விவரம்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverRotorSummaryFeedback#voiceOverRotorSummaryFeedback`
+- அணுகல்தன்மை → VoiceOver → மிகைச் சொற்கள் → இமோஜி: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverEmojiFeedback`
+- அணுகல்தன்மை → VoiceOver → மிகைச் சொற்கள் → இமோஜி → இமோஜி: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverEmojiFeedback#voiceOverEmojiFeedback`
+- அணுகல்தன்மை → VoiceOver → மிகைச் சொற்கள் → இமோஜி சஃபிக்ஸ்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#EMOJI_SUFFIX`
+- அணுகல்தன்மை → VoiceOver → மிகைச் சொற்கள் → மீடியா விளக்கங்கள்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions`
+- அணுகல்தன்மை → VoiceOver → மிகைச் சொற்கள் → மீடியா விளக்கங்கள் → மீடியா விளக்கங்கள்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#voiceOverMediaDescriptions`
+- அணுகல்தன்மை → VoiceOver → மிகைச் சொற்கள் → உள்ளீட்டுக்கான ஃபீட்பேக்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#voiceOverInputFeedback`
+- அணுகல்தன்மை → VoiceOver → மிகைச் சொற்கள் → செயலி மீது ஹோவர் செய்யும்போதான ஃபீட்பேக்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#voiceOverAppHoverFeedback`
+- அணுகல்தன்மை → VoiceOver → பிரெய்ல்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille`
+- அணுகல்தன்மை → VoiceOver → பிரெய்ல் → பிரெய்ல்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#Braille`
+- அணுகல்தன்மை → VoiceOver → பிரெய்ல் → வெளியீடு: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput`
+- அணுகல்தன்மை → VoiceOver → பிரெய்ல் → வெளியீடு → வெளியீடு: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#BrailleDisplayOutput`
+- அணுகல்தன்மை → VoiceOver → பிரெய்ல் → உள்ளீடு: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput`
+- அணுகல்தன்மை → VoiceOver → பிரெய்ல் → உள்ளீடு → உள்ளீடு: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#BrailleDisplayInput`
+- அணுகல்தன்மை → VoiceOver → பிரெய்ல் → உள்ளீடு மற்றும் வெளியீட்டு அட்டவணைகளைப் பொருத்துதல்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BRAILLE_SYNC_TABLES`
+- அணுகல்தன்மை → VoiceOver → பிரெய்ல் → உள்ளீடு மற்றும் வெளியீடு: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleDisplayOutput`
+- அணுகல்தன்மை → VoiceOver → பிரெய்ல் → தன்னியக்க மொழிபெயர்ப்பு: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#GRADE2_AUTO_TRANSLATE`
+- அணுகல்தன்மை → VoiceOver → பிரெய்ல் → பிரெய்ல் திரை உள்ளீடு: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput`
+- அணுகல்தன்மை → VoiceOver → பிரெய்ல் → பிரெய்ல் திரை உள்ளீடு → பிரெய்ல் திரை உள்ளீடு: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#BrailleGesturesInput`
+- அணுகல்தன்மை → VoiceOver → பிரெய்ல் → பிரெய்ல் திரை உள்ளீடு → உரையைத் திருத்தும்போது தானாகத் தொடங்கு: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#AUTO_ACTIVATE_ON_TEXT_FIELDS`
+- அணுகல்தன்மை → VoiceOver → பிரெய்ல் → பிரெய்ல் திரை உள்ளீடு → புள்ளிகளுக்கான இடங்களை எதிர்திசைக்கு மாற்று: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#SHOULD_REVERSE_DOTS`
+- அணுகல்தன்மை → VoiceOver → பிரெய்ல் → பிரெய்ல் திரை உள்ளீடு → நிராகரிக்கப்படும்வரை செயலில் வை: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#CONTROL_DEVICE_USING_BRAILLE_GESTURE`
+- அணுகல்தன்மை → VoiceOver → பிரெய்ல் → பிரெய்ல் திரை உள்ளீடு → விஷுவல் உரை ஃபீட்பேக்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#DISPLAY_ENTERED_TEXT`
+- அணுகல்தன்மை → VoiceOver → பிரெய்ல் → பிரெய்ல் திரை உள்ளீடு → டைப்பிங் ஃபீட்பேக்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#TYPING_FEEDBACK`
+- அணுகல்தன்மை → VoiceOver → பிரெய்ல் → பிரெய்ல் திரை உள்ளீடு → ஒலி: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#USE_TYPING_SOUND_FEEDBACK`
+- அணுகல்தன்மை → VoiceOver → பிரெய்ல் → பிரெய்ல் திரை உள்ளீடு → ஒலி: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#USE_HAPTIC_FEEDBACK`
+- அணுகல்தன்மை → VoiceOver → பிரெய்ல் → பிரெய்ல் திரை உள்ளீடு → அறிவிப்புகளுக்கான முறை: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#SOUND_OPTION`
+- அணுகல்தன்மை → VoiceOver → பிரெய்ல் → பிரெய்ல் திரை உள்ளீடு → பிரெய்ல் அட்டவணையைத் தேர்வுசெய்க: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#BSI_TABLES`
+- அணுகல்தன்மை → VoiceOver → பிரெய்ல் → பிரெய்ல் அட்டவணைகள்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier`
+- அணுகல்தன்மை → VoiceOver → பிரெய்ல் → பிரெய்ல் அட்டவணைகள் → பிரெய்ல் அட்டவணைகள்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier#tableIdentifier`
+- அணுகல்தன்மை → VoiceOver → பிரெய்ல் → பிரெய்ல் அட்டவணைகள் → பிரெய்ல் அட்டவணையைச் சேர்…: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier/ADD_NEW_BRAILLE_LANGUAGE`
+- அணுகல்தன்மை → VoiceOver → பிரெய்ல் → பிரெய்ல் அட்டவணைகள் → பிரெய்ல் அட்டவணையைச் சேர்… → பிரெய்ல் அட்டவணையைச் சேர்…: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier/ADD_NEW_BRAILLE_LANGUAGE#ADD_NEW_BRAILLE_LANGUAGE`
+- அணுகல்தன்மை → VoiceOver → பிரெய்ல் → ஸ்டேட்டஸ் செல்கள்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL`
+- அணுகல்தன்மை → VoiceOver → பிரெய்ல் → ஸ்டேட்டஸ் செல்கள் → ஸ்டேட்டஸ் செல்கள்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL`
+- அணுகல்தன்மை → VoiceOver → பிரெய்ல் → ஸ்டேட்டஸ் செல்கள் → ஸ்டேட்டஸ் செல்களின் இடம்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_POSITION`
+- அணுகல்தன்மை → VoiceOver → பிரெய்ல் → ஸ்டேட்டஸ் செல்கள் → பொதுவான நிலையைக் காட்டு: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#StatusCellGeneral`
+- அணுகல்தன்மை → VoiceOver → பிரெய்ல் → ஸ்டேட்டஸ் செல்கள் → உரையின் நிலையைக் காட்டு: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#StatusCellTextStyle`
+- அணுகல்தன்மை → VoiceOver → பிரெய்ல் → சமன்பாடுகள் நெமெத் குறியீட்டைப் பயன்படுத்துதல்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#ALWAYS_USE_NEMETH`
+- அணுகல்தன்மை → VoiceOver → பிரெய்ல் → திரையில் உள்ள கீபோர்டைக் காட்டு: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#SHOW_SW_KEYBOARD`
+- அணுகல்தன்மை → VoiceOver → பிரெய்ல் → நகர்த்தும்போது பக்கங்களைத் திருப்பு: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#AUTO_TURN_PAGES`
+- அணுகல்தன்மை → VoiceOver → பிரெய்ல் → வார்த்தையை மடக்குதல்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#WORD_WRAP`
+- அணுகல்தன்மை → VoiceOver → பிரெய்ல் → உரை வடிவமைப்பு: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BRAILLE_FORMATTING`
+- அணுகல்தன்மை → VoiceOver → பிரெய்ல் → பிரெய்ல் விழிப்பூட்டல் மெசேஜ்கள்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleAlertDisplayDuration`
+- அணுகல்தன்மை → VoiceOver → பிரெய்ல் → பிரெய்ல் விழிப்பூட்டல் மெசேஜ்கள் → பிரெய்ல் விழிப்பூட்டல் மெசேஜ்கள்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleAlertDisplayDuration#voiceOverBrailleAlertDisplayDuration`
+- அணுகல்தன்மை → VoiceOver → பிரெய்ல் → பிரெய்ல் விழிப்பூட்டல் மெசேஜ்கள் → பிரெய்ல் விழிப்பூட்டல் மெசேஜ்கள்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleAlertDisplayDuration#NumericalPreferenceSwitcherIdentifier`
+- அணுகல்தன்மை → VoiceOver → பிரெய்ல் → பிரெய்ல் விழிப்பூட்டல் மெசேஜ்கள் → நிராகரிக்கப்படும் வரை காட்டு: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleAlertDisplayDuration#NumericalPreferenceInfiniteTimeDurationIdentifier`
+- அணுகல்தன்மை → VoiceOver → பிரெய்ல் → கோர்டுக்கான கால அளவைப் புறக்கணி: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleDebounceTimeout`
+- அணுகல்தன்மை → VoiceOver → பிரெய்ல் → கோர்டுக்கான கால அளவைப் புறக்கணி → கோர்டுக்கான கால அளவைப் புறக்கணி: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleDebounceTimeout/voiceOverBrailleDebounceTimeout`
+- அணுகல்தன்மை → VoiceOver → பிரெய்ல் → தன்னியக்க முன்செலுத்தல் நேரம்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleAutoAdvance`
+- அணுகல்தன்மை → VoiceOver → பிரெய்ல் → தன்னியக்க முன்செலுத்தல் நேரம் → தன்னியக்க முன்செலுத்தல் நேரம்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleAutoAdvance#voiceOverBrailleAutoAdvance`
+- அணுகல்தன்மை → VoiceOver → பிரெய்ல் → ஒலி மறைப்பு: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#SOUND_CURTAIN`
+- அணுகல்தன்மை → VoiceOver → பிரெய்ல் → தொடங்கும்போது Bluetoothஐ ஆன் செய்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverAlwaysTurnOnBluetooth`
+- அணுகல்தன்மை → VoiceOver → பிரெய்ல் → பிரெய்ல் டிஸ்ப்ளேவைத் தேர்வுசெய்யவும்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#DEVICES`
+- அணுகல்தன்மை → VoiceOver → ஆடியோ: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio`
+- அணுகல்தன்மை → VoiceOver → ஆடியோ → ஆடியோ: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#Audio`
+- அணுகல்தன்மை → VoiceOver → ஆடியோ → VoiceOver ஒலிகள்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds`
+- அணுகல்தன்மை → VoiceOver → ஆடியோ → VoiceOver ஒலிகள் → VoiceOver ஒலிகள்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSounds`
+- அணுகல்தன்மை → VoiceOver → ஆடியோ → VoiceOver ஒலிகள் → ஒலிகள்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSSettingsItem.Sounds`
+- அணுகல்தன்மை → VoiceOver → ஆடியோ → VoiceOver ஒலிகள் → ஊடாடல்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSOutputEventCategory.Interaction`
+- அணுகல்தன்மை → VoiceOver → ஆடியோ → VoiceOver ஒலிகள் → VoiceOver ஃபீட்பேக்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSOutputEventCategory.VoiceOverFeedback`
+- அணுகல்தன்மை → VoiceOver → ஆடியோ → VoiceOver ஒலிகள் → செயலி ஃபீட்பேக்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSOutputEventCategory.AppFeedback`
+- அணுகல்தன்மை → VoiceOver → ஆடியோ → VoiceOver ஒலிகள் → பிரெய்ல்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSOutputEventCategory.Braille`
+- அணுகல்தன்மை → VoiceOver → ஆடியோ → VoiceOver ஒலிகள் → உரை திருத்துதல்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSOutputEventCategory.TextEditing`
+- அணுகல்தன்மை → VoiceOver → ஆடியோ → VoiceOver ஒலிகள் → சிஸ்டம்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSOutputEventCategory.System`
+- அணுகல்தன்மை → VoiceOver → ஆடியோ → ஆடியோ டக்கிங்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#AUDIO_DUCKING`
+- அணுகல்தன்மை → VoiceOver → ஆடியோ → அழைப்புகளில் ஸ்பீக்கரைத் தானாகத் தேர்ந்தெடு: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#ROUTE_TO_SPEAKER`
+- அணுகல்தன்மை → VoiceOver → ஆடியோ → HDMIக்கு அனுப்பு: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#ROUTE_TO_HDMI`
+- அணுகல்தன்மை → VoiceOver → கட்டளைகள்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands`
+- அணுகல்தன்மை → VoiceOver → கட்டளைகள் → கட்டளைகள்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands#CustomizeCommands`
+- அணுகல்தன்மை → VoiceOver → கட்டளைகள் → அனைத்துக் கட்டளைகளும்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/AllCommands`
+- அணுகல்தன்மை → VoiceOver → கட்டளைகள் → அனைத்துக் கட்டளைகளும் → அனைத்துக் கட்டளைகளும்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/AllCommands#AllCommands`
+- அணுகல்தன்மை → VoiceOver → கட்டளைகள் → பிரெய்ல் கீபோர்டு உள்ளீடு: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/BrailleKeyboardInput`
+- அணுகல்தன்மை → VoiceOver → கட்டளைகள் → பிரெய்ல் கீபோர்டு உள்ளீடு → பிரெய்ல் கீபோர்டு உள்ளீடு: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/BrailleKeyboardInput#BrailleKeyboardInput`
+- அணுகல்தன்மை → VoiceOver → கட்டளைகள் → தொடுதல் சைகைகள்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/TouchGestures`
+- அணுகல்தன்மை → VoiceOver → கட்டளைகள் → தொடுதல் சைகைகள் → தொடுதல் சைகைகள்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/TouchGestures#TouchGestures`
+- அணுகல்தன்மை → VoiceOver → கட்டளைகள் → கீபோர்டு சுருக்கவழிகள்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/KeyboardShortcuts`
+- அணுகல்தன்மை → VoiceOver → கட்டளைகள் → கீபோர்டு சுருக்கவழிகள் → கீபோர்டு சுருக்கவழிகள்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/KeyboardShortcuts#KeyboardShortcuts`
+- அணுகல்தன்மை → VoiceOver → கட்டளைகள் → கையெழுத்து: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/Handwriting`
+- அணுகல்தன்மை → VoiceOver → கட்டளைகள் → கையெழுத்து → கையெழுத்து: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/Handwriting#Handwriting`
+- அணுகல்தன்மை → VoiceOver → கட்டளைகள் → பிரெய்ல் திரை உள்ளீடு: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/BrailleScreenInput`
+- அணுகல்தன்மை → VoiceOver → கட்டளைகள் → பிரெய்ல் திரை உள்ளீடு → பிரெய்ல் திரை உள்ளீடு: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/BrailleScreenInput#BrailleScreenInput`
+- அணுகல்தன்மை → VoiceOver → கட்டளைகள் → VoiceOver கட்டளைகளை மீட்டெடு: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands#ResetVoiceOverCommands`
+- அணுகல்தன்மை → VoiceOver → கட்டளைகள் → சைகைக்கு வசதியான கைப்பழக்கத்தை மாற்று: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands#SWITCH_GESTURE_HANDEDNESS`
+- அணுகல்தன்மை → VoiceOver → செயல்பாடுகள்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/activities`
+- அணுகல்தன்மை → VoiceOver → செயல்பாடுகள் → செயல்பாடுகள்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/activities#activities`
+- அணுகல்தன்மை → VoiceOver → செயல்பாடுகள் → புரொகிராமிங்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/activities/Programming`
+- அணுகல்தன்மை → VoiceOver → செயல்பாடுகள் → புரொகிராமிங் → புரொகிராமிங்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/activities/Programming#Programming`
+- அணுகல்தன்மை → VoiceOver → செயல்பாடுகள் → செயல்பாட்டைச் சேர்…: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/activities/New`
+- அணுகல்தன்மை → VoiceOver → செயல்பாடுகள் → செயல்பாட்டைச் சேர்… → செயல்பாட்டைச் சேர்…: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/activities/New#New`
+- அணுகல்தன்மை → VoiceOver → ரோட்டார்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions`
+- அணுகல்தன்மை → VoiceOver → ரோட்டார் → ரோட்டார்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#RotorActions`
+- அணுகல்தன்மை → VoiceOver → ரோட்டார் → ரோட்டர் ஐட்டங்கள்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions/WebRotor`
+- அணுகல்தன்மை → VoiceOver → ரோட்டார் → ரோட்டர் ஐட்டங்கள் → ரோட்டர் ஐட்டங்கள்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions/WebRotor#WebRotor`
+- அணுகல்தன்மை → VoiceOver → ரோட்டார் → வாசிப்பதன் அடிப்படையில் ரோட்டாரை மாற்று: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#STICKY_ROTOR_TITLE`
+- அணுகல்தன்மை → VoiceOver → ரோட்டார் → முகப்புத் திரையில் செயலிகளைத் திருத்து: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#editApps`
+- அணுகல்தன்மை → VoiceOver → ரோட்டார் → நேரடித் தொடுதல் செயலிகள்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions/apps`
+- அணுகல்தன்மை → VoiceOver → ரோட்டார் → நேரடித் தொடுதல் செயலிகள் → நேரடித் தொடுதல் செயலிகள்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions/apps#apps`
+- அணுகல்தன்மை → VoiceOver → டைப்பிங்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions`
+- அணுகல்தன்மை → VoiceOver → டைப்பிங் → டைப்பிங்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#TypingOptions`
+- அணுகல்தன்மை → VoiceOver → டைப்பிங் → டைப்பிங் ஸ்டைல்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_MODE_TITLE`
+- அணுகல்தன்மை → VoiceOver → டைப்பிங் → டைப்பிங் ஸ்டைல் → டைப்பிங் ஸ்டைல்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_MODE_TITLE#TYPING_MODE_TITLE`
+- அணுகல்தன்மை → VoiceOver → டைப்பிங் → ஒலிப்புமுறை ஃபீட்பேக்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE`
+- அணுகல்தன்மை → VoiceOver → டைப்பிங் → ஒலிப்புமுறை ஃபீட்பேக் → ஒலிப்புமுறை ஃபீட்பேக்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_TITLE`
+- அணுகல்தன்மை → VoiceOver → டைப்பிங் → டைப்பிங் ஃபீட்பேக்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_FEEDBACK`
+- அணுகல்தன்மை → VoiceOver → டைப்பிங் → டைப்பிங் ஃபீட்பேக் → டைப்பிங் ஃபீட்பேக்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_FEEDBACK#TYPING_FEEDBACK`
+- அணுகல்தன்மை → VoiceOver → டைப்பிங் → மாடிஃபையர் கீக்கள்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS`
+- அணுகல்தன்மை → VoiceOver → டைப்பிங் → மாடிஃபையர் கீக்கள் → மாடிஃபையர் கீக்கள்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS#MODIFIER_KEYS`
+- அணுகல்தன்மை → VoiceOver → டைப்பிங் → கீபோர்டு செயல்பாட்டு நேரம்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/KEYBOARD_TIMING_TIMEOUT`
+- அணுகல்தன்மை → VoiceOver → டைப்பிங் → கீபோர்டு செயல்பாட்டு நேரம் → கீபோர்டு செயல்பாட்டு நேரம்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/KEYBOARD_TIMING_TIMEOUT#KEYBOARD_TIMING_TIMEOUT`
+- அணுகல்தன்மை → VoiceOver → படங்களை அணுகுதல்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages`
+- அணுகல்தன்மை → VoiceOver → படங்களை அணுகுதல் → படங்களை அணுகுதல்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#IncludeUnlabeledImages`
+- அணுகல்தன்மை → VoiceOver → பெரிய கர்சர்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CursorStyle`
+- அணுகல்தன்மை → VoiceOver → கேப்ஷன் பேனல்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CaptionPanel`
+- அணுகல்தன்மை → VoiceOver → இருமுறை தட்டுவதற்கான நேர வரம்பு: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/DOUBLE_TAP_INTERVAL_TITLE`
+- அணுகல்தன்மை → VoiceOver → இருமுறை தட்டுவதற்கான நேர வரம்பு → இருமுறை தட்டுவதற்கான நேர வரம்பு: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/DOUBLE_TAP_INTERVAL_TITLE#NumericalPreferencePickerGroupIdentifier`
+- அணுகல்தன்மை → VoiceOver → நகர்வு முறை: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NavigationStyle`
+- அணுகல்தன்மை → VoiceOver → நகர்வு முறை → நகர்வு முறை: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NavigationStyle#NavigationStyle`
+- அணுகல்தன்மை → VoiceOver → விரைவு அமைப்புகள்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings`
+- அணுகல்தன்மை → VoiceOver → விரைவு அமைப்புகள் → விரைவு அமைப்புகள்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#QuickSettings`
+- அணுகல்தன்மை → VoiceOver → VoiceOver அறிதல்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver`
+- அணுகல்தன்மை → VoiceOver → VoiceOver அறிதல் → VoiceOver அறிதல்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver#NeuralVoiceOver`
+- அணுகல்தன்மை → VoiceOver → VoiceOver அறிதல் → பட விளக்கங்கள்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_IMAGE_DESCRIPTIONS`
+- அணுகல்தன்மை → VoiceOver → VoiceOver அறிதல் → பட விளக்கங்கள் → பட விளக்கங்கள்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_IMAGE_DESCRIPTIONS#VO_IMAGE_DESCRIPTIONS`
+- அணுகல்தன்மை → VoiceOver → VoiceOver அறிதல் → பட விளக்கங்கள் → முக்கிய உள்ளடக்கத்திற்கான வெளியீடு: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_IMAGE_DESCRIPTIONS#SensitiveContentGroup`
+- அணுகல்தன்மை → VoiceOver → VoiceOver அறிதல் → பட விளக்கங்கள் → கூடுதல் மொழிகள்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_IMAGE_DESCRIPTIONS/AdditionalLanguages`
+- அணுகல்தன்மை → VoiceOver → VoiceOver அறிதல் → பட விளக்கங்கள் → கூடுதல் மொழிகள் → கூடுதல் மொழிகள்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_IMAGE_DESCRIPTIONS/AdditionalLanguages#AdditionalLanguages`
+- அணுகல்தன்மை → VoiceOver → VoiceOver அறிதல் → பட விளக்கங்கள் → செயலிகளில் பயன்படுத்து: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_IMAGE_DESCRIPTIONS/apps`
+- அணுகல்தன்மை → VoiceOver → VoiceOver அறிதல் → பட விளக்கங்கள் → செயலிகளில் பயன்படுத்து → செயலிகளில் பயன்படுத்து: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_IMAGE_DESCRIPTIONS/apps#apps`
+- அணுகல்தன்மை → VoiceOver → VoiceOver அறிதல் → திரையில் உள்ளவற்றை அறிதல்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_SCREEN_RECOGNITION`
+- அணுகல்தன்மை → VoiceOver → VoiceOver அறிதல் → திரையில் உள்ளவற்றை அறிதல் → திரையில் உள்ளவற்றை அறிதல்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_SCREEN_RECOGNITION#VO_SCREEN_RECOGNITION`
+- அணுகல்தன்மை → VoiceOver → VoiceOver அறிதல் → திரையில் உள்ளவற்றை அறிதல் → செயலிகளில் பயன்படுத்து: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_SCREEN_RECOGNITION/apps`
+- அணுகல்தன்மை → VoiceOver → VoiceOver அறிதல் → திரையில் உள்ளவற்றை அறிதல் → செயலிகளில் பயன்படுத்து → செயலிகளில் பயன்படுத்து: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_SCREEN_RECOGNITION/apps#apps`
+- அணுகல்தன்மை → VoiceOver → VoiceOver அறிதல் → உரையறிதல்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver#VO_OCR`
+- அணுகல்தன்மை → VoiceOver → VoiceOver அறிதல் → ஃபீட்பேக் ஸ்டைல்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_FEEDBACK`
+- அணுகல்தன்மை → VoiceOver → VoiceOver அறிதல் → ஃபீட்பேக் ஸ்டைல் → ஃபீட்பேக் ஸ்டைல்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_FEEDBACK#VO_FEEDBACK`
+- அணுகல்தன்மை → VoiceOver → VoiceOver அறிதல் → நேரடியாகக் கண்டறிதல்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_REAL_WORLD_DETECTION`
+- அணுகல்தன்மை → VoiceOver → தேர்வு செய்வதற்கு முந்தைய தாமதம்: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#VoiceOverDelayUntilSpeak`
+- அணுகல்தன்மை → VoiceOver → இருமுறை பின்ச் செய்வதற்கான நேரம் முடிந்தது: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#DOUBLE_TAP_INTERVAL`
+- அணுகல்தன்மை → ஜூம்: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE`
+- அணுகல்தன்மை → ஜூம் → ஃபோகஸைப் பின்தொடர்: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomShouldFollowFocus`
+- அணுகல்தன்மை → ஜூம் → ஸ்மார்ட் டைப்பிங்: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomAlwaysUseWindowZoomForTyping`
+- அணுகல்தன்மை → ஜூம் → கீபோர்டு சுருக்கவழிகள்: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts`
+- அணுகல்தன்மை → ஜூம் → கீபோர்டு சுருக்கவழிகள் → கீபோர்டு சுருக்கவழிகள்: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomEnableKeyboardShortcuts`
+- அணுகல்தன்மை → ஜூம் → கீபோர்டு சுருக்கவழிகள் → ஜூம் அளவை சரிசெய்தல்: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutAdjustZoomLevel`
+- அணுகல்தன்மை → ஜூம் → கீபோர்டு சுருக்கவழிகள் → ஜூமை மாற்று: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutToggleZoom`
+- அணுகல்தன்மை → ஜூம் → கீபோர்டு சுருக்கவழிகள் → ஜூம் சாளரத்தை நகர்த்துதல்: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutPanZoom`
+- அணுகல்தன்மை → ஜூம் → கீபோர்டு சுருக்கவழிகள் → ஜூம் சாளரத்தின் அளவை மாற்றுதல்: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutResizeZoomWindow`
+- அணுகல்தன்மை → ஜூம் → கீபோர்டு சுருக்கவழிகள் → ஜூம் பகுதியை மாற்றுதல்: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutSwitchZoomMode`
+- அணுகல்தன்மை → ஜூம் → கீபோர்டு சுருக்கவழிகள் → தற்காலிகமாக ஜூமை மாற்றுதல்: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutTempToggleZoom`
+- அணுகல்தன்மை → ஜூம் → கீபோர்டு சுருக்கவழிகள் → ஸ்க்ரால் வீல் மூலம் ஜூம் செய்தல்: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutScrollWheel`
+- அணுகல்தன்மை → ஜூம் → ஜூம் செய்ய, டிராக்பேடு சைகையைப் பயன்படுத்தவும்: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomWithTrackpad`
+- அணுகல்தன்மை → ஜூம் → ஜூம் கன்ட்ரோலர்: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug`
+- அணுகல்தன்மை → ஜூம் → ஜூம் கன்ட்ரோலர் → ஜூம் கன்ட்ரோலர்: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug#ZoomSlug`
+- அணுகல்தன்மை → ஜூம் → ஜூம் கன்ட்ரோலர் → கன்ட்ரோலரைக் காட்டு: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug#ZOOM_DETACH_CONTROLS`
+- அணுகல்தன்மை → ஜூம் → ஜூம் கன்ட்ரோலர் → ஒரு முறை தட்டுதல்: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_CONTROLLER_ACTION_SINGLE_TAP`
+- அணுகல்தன்மை → ஜூம் → ஜூம் கன்ட்ரோலர் → ஒரு முறை தட்டுதல் → ஒரு முறை தட்டுதல்: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_CONTROLLER_ACTION_SINGLE_TAP#ZOOM_CONTROLLER_ACTION_SINGLE_TAP`
+- அணுகல்தன்மை → ஜூம் → ஜூம் கன்ட்ரோலர் → இருமுறை தட்டு: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_CONTROLLER_ACTION_DOUBLE_TAP`
+- அணுகல்தன்மை → ஜூம் → ஜூம் கன்ட்ரோலர் → இருமுறை தட்டு → இருமுறை தட்டு: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_CONTROLLER_ACTION_DOUBLE_TAP#ZOOM_CONTROLLER_ACTION_DOUBLE_TAP`
+- அணுகல்தன்மை → ஜூம் → ஜூம் கன்ட்ரோலர் → மூன்று முறை தட்டுதல்: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_CONTROLLER_ACTION_TRIPLE_TAP`
+- அணுகல்தன்மை → ஜூம் → ஜூம் கன்ட்ரோலர் → மூன்று முறை தட்டுதல் → மூன்று முறை தட்டுதல்: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_CONTROLLER_ACTION_TRIPLE_TAP#ZOOM_CONTROLLER_ACTION_TRIPLE_TAP`
+- அணுகல்தன்மை → ஜூம் → ஜூம் கன்ட்ரோலர் → ஜூம் அளவை சரிசெய்தல்: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug#ZOOM_TAP_AND_SLIDE_TO_ADJUST_ZOOM_LEVEL`
+- அணுகல்தன்மை → ஜூம் → ஜூம் கன்ட்ரோலர் → நிறம்: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/CONTROLLER_COLOR`
+- அணுகல்தன்மை → ஜூம் → ஜூம் கன்ட்ரோலர் → நிறம் → நிறம்: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/CONTROLLER_COLOR#CONTROLLER_COLOR`
+- அணுகல்தன்மை → ஜூம் → ஜூம் கன்ட்ரோலர் → செயலில் இல்லாததற்கான தெரிவுநிலை: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_IDLE_SLUG_OPACITY`
+- அணுகல்தன்மை → ஜூம் → ஜூம் கன்ட்ரோலர் → செயலில் இல்லாததற்கான தெரிவுநிலை → செயலில் இல்லாததற்கான தெரிவுநிலை: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_IDLE_SLUG_OPACITY#ZOOM_IDLE_SLUG_OPACITY`
+- அணுகல்தன்மை → ஜூம் → ஜூம் பகுதி: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode`
+- அணுகல்தன்மை → ஜூம் → ஜூம் பகுதி → ஜூம் பகுதி: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode#ZoomLensMode`
+- அணுகல்தன்மை → ஜூம் → அதிகபட்ச ஜூம் நிலை: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomPreferredMaxZoomLevel`
+- அணுகல்தன்மை → ஜூம் → ஜூம் ஃபில்டர்: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomFilter`
+- அணுகல்தன்மை → ஜூம் → ஜூம் ஃபில்டர் → ஜூம் ஃபில்டர்: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomFilter#ZoomFilter`
+- அணுகல்தன்மை → ஜூம் → மிரர் செய்யும்போது காட்டு: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomShowWhileMirroring`
+- அணுகல்தன்மை → ஜூம் → ஜூமை இயல்புநிலை ஃபோகஸில் அமை: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomAsDefaultDial`
+- அணுகல்தன்மை → ஜூம் → ஜூம் செய்ய, Digital Crownஐப் பயன்படுத்து: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomStealsCrownTurns`
+- அணுகல்தன்மை → ஜூம் → பார்டர் நிறம்: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#MagnifyingGlassBorderColor`
+- அணுகல்தன்மை → ஹோவர் உரை: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE`
+- அணுகல்தன்மை → ஹோவர் உரை → டிஸ்ப்ளே பயன்முறை: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextDisplayMode`
+- அணுகல்தன்மை → ஹோவர் உரை → டிஸ்ப்ளே பயன்முறை → டிஸ்ப்ளே பயன்முறை: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextDisplayMode#HoverTextDisplayMode`
+- அணுகல்தன்மை → ஹோவர் உரை → ஸ்க்ராலிங் வேகம்: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextScrollSpeed`
+- அணுகல்தன்மை → ஹோவர் உரை → ஸ்க்ராலிங் வேகம் → ஸ்க்ராலிங் வேகம்: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextScrollSpeed#HoverTextScrollSpeed`
+- அணுகல்தன்மை → ஹோவர் உரை → எழுத்துரு: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextStyle`
+- அணுகல்தன்மை → ஹோவர் உரை → எழுத்துரு → எழுத்துரு: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextStyle#HoverTextStyle`
+- அணுகல்தன்மை → ஹோவர் உரை → அளவு: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextSize`
+- அணுகல்தன்மை → ஹோவர் உரை → அளவு → அளவு: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextSize#HoverTextSize`
+- அணுகல்தன்மை → ஹோவர் உரை → நிறங்கள்: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE#HOVER_TEXT_COLOR_OPTIONS`
+- அணுகல்தன்மை → ஹோவர் உரை → ஆக்டிவேஷன் மாடிஃபையர்: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextActivationModifier`
+- அணுகல்தன்மை → ஹோவர் உரை → ஆக்டிவேஷன் மாடிஃபையர் → ஆக்டிவேஷன் மாடிஃபையர்: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextActivationModifier#HoverTextActivationModifier`
+- அணுகல்தன்மை → ஹோவர் உரை → ஆக்டிவேஷன் லாக்: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE#HOVER_TEXT_ACTIVATION_LOCK`
+- அணுகல்தன்மை → கீபோர்டுகள் & டைப்பிங்: `prefs:root=ACCESSIBILITY&path=KEYBOARDS`
+- அணுகல்தன்மை → கீபோர்டுகள் & டைப்பிங் → ஹோவர் டைப்பிங்: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING`
+- அணுகல்தன்மை → கீபோர்டுகள் & டைப்பிங் → ஹோவர் டைப்பிங் → டிஸ்ப்ளே பயன்முறை: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING/HoverTextTypingDisplayMode`
+- அணுகல்தன்மை → கீபோர்டுகள் & டைப்பிங் → ஹோவர் டைப்பிங் → டிஸ்ப்ளே பயன்முறை → டிஸ்ப்ளே பயன்முறை: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING/HoverTextTypingDisplayMode#HoverTextTypingDisplayMode`
+- அணுகல்தன்மை → கீபோர்டுகள் & டைப்பிங் → ஹோவர் டைப்பிங் → எழுத்துரு: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING/HoverTypingStyle`
+- அணுகல்தன்மை → கீபோர்டுகள் & டைப்பிங் → ஹோவர் டைப்பிங் → எழுத்துரு → எழுத்துரு: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING/HoverTypingStyle#HoverTypingStyle`
+- அணுகல்தன்மை → கீபோர்டுகள் & டைப்பிங் → ஹோவர் டைப்பிங் → அளவு: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING/HoverTextSize`
+- அணுகல்தன்மை → கீபோர்டுகள் & டைப்பிங் → ஹோவர் டைப்பிங் → அளவு → அளவு: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING/HoverTextSize#HoverTextSize`
+- அணுகல்தன்மை → கீபோர்டுகள் & டைப்பிங் → ஹோவர் டைப்பிங் → டைப்பிங் நிறங்கள்: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TYPING_COLOR_OPTIONS`
+- அணுகல்தன்மை → கீபோர்டுகள் & டைப்பிங் → ஹோவர் டைப்பிங் → டிஸ்ப்ளே நிறங்கள்: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TYPING_DISPLAY_COLOR_OPTIONS`
+- அணுகல்தன்மை → கீபோர்டுகள் & டைப்பிங் → ஹோவர் டைப்பிங் → உரை வண்ணம்: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TEXT_TEXT_COLOR`
+- அணுகல்தன்மை → கீபோர்டுகள் & டைப்பிங் → ஹோவர் டைப்பிங் → இன்செர்ஷன் பாயின்ட் நிறம்: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TEXT_INSERTION_POINT_COLOR`
+- அணுகல்தன்மை → கீபோர்டுகள் & டைப்பிங் → ஹோவர் டைப்பிங் → பின்னணி நிறம்: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TEXT_BACKGROUND_COLOR`
+- அணுகல்தன்மை → கீபோர்டுகள் & டைப்பிங் → ஹோவர் டைப்பிங் → பார்டர் நிறம்: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TEXT_BORDER_COLOR`
+- அணுகல்தன்மை → கீபோர்டுகள் & டைப்பிங் → ஹோவர் டைப்பிங் → தானாகச் சரிசெய்யப்பட்ட சொல்லின் நிறம்: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TYPING_AUTOCORRECTED_WORD_COLOR`
+- அணுகல்தன்மை → கீபோர்டுகள் & டைப்பிங் → ஹோவர் டைப்பிங் → தவறான எழுத்தாக்கமுள்ள சொல்லின் நிறம்: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TYPING_MISSPELLED_WORD`
+- அணுகல்தன்மை → கீபோர்டுகள் & டைப்பிங் → ஹோவர் டைப்பிங் → இயல்புநிலைக்கு மீட்டமை: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TYPING_RESET_BUTTON`
+- அணுகல்தன்மை → கீபோர்டுகள் & டைப்பிங் → முழு கீபோர்டு அணுகல்: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS`
+- அணுகல்தன்மை → கீபோர்டுகள் & டைப்பிங் → முழு கீபோர்டு அணுகல் → முழு கீபோர்டு அணுகல்: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAEnabledSwitch`
+- அணுகல்தன்மை → கீபோர்டுகள் & டைப்பிங் → முழு கீபோர்டு அணுகல் → கட்டளைகள்: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKACommands`
+- அணுகல்தன்மை → கீபோர்டுகள் & டைப்பிங் → முழு கீபோர்டு அணுகல் → கட்டளைகள் → கட்டளைகள்: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKACommands#FKACommands`
+- அணுகல்தன்மை → கீபோர்டுகள் & டைப்பிங் → முழு கீபோர்டு அணுகல் → தானாக மறை: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKAFocusRingTimeout`
+- அணுகல்தன்மை → கீபோர்டுகள் & டைப்பிங் → முழு கீபோர்டு அணுகல் → தானாக மறை → தானாக மறை: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKAFocusRingTimeout#FKAFocusRingTimeout`
+- அணுகல்தன்மை → கீபோர்டுகள் & டைப்பிங் → முழு கீபோர்டு அணுகல் → அளவை அதிகரி: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKALargeFocusRingEnabled`
+- அணுகல்தன்மை → கீபோர்டுகள் & டைப்பிங் → முழு கீபோர்டு அணுகல் → அதிக கான்ட்ராஸ்ட்: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKAFocusRingHighContrastEnabled`
+- அணுகல்தன்மை → கீபோர்டுகள் & டைப்பிங் → முழு கீபோர்டு அணுகல் → நிறம்: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKAFocusRingColor`
+- அணுகல்தன்மை → கீபோர்டுகள் & டைப்பிங் → முழு கீபோர்டு அணுகல் → நிறம் → நிறம்: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKAFocusRingColor#FKAFocusRingColor`
+- அணுகல்தன்மை → கீபோர்டுகள் & டைப்பிங் → கீ ரிப்பீட்: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT`
+- அணுகல்தன்மை → கீபோர்டுகள் & டைப்பிங் → கீ ரிப்பீட் → கீ ரிப்பீட்: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatEnabled`
+- அணுகல்தன்மை → கீபோர்டுகள் & டைப்பிங் → கீ ரிப்பீட் → கீ ரிப்பீட் இடைவெளி: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatInterval`
+- அணுகல்தன்மை → கீபோர்டுகள் & டைப்பிங் → கீ ரிப்பீட் → ரிப்பீட் ஆகும்வரை தாமதப்படுத்து: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatDelay`
+- அணுகல்தன்மை → கீபோர்டுகள் & டைப்பிங் → ஸ்டிக்கி கீஸ்: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS`
+- அணுகல்தன்மை → கீபோர்டுகள் & டைப்பிங் → ஸ்டிக்கி கீஸ் → ஸ்டிக்கி கீஸ்: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysEnabled`
+- அணுகல்தன்மை → கீபோர்டுகள் & டைப்பிங் → ஸ்டிக்கி கீஸ் → ஷிஃப்ட் கீ மூலம் மாற்று: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysShiftToggle`
+- அணுகல்தன்மை → கீபோர்டுகள் & டைப்பிங் → ஸ்டிக்கி கீஸ் → ஒலி: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysSound`
+- அணுகல்தன்மை → கீபோர்டுகள் & டைப்பிங் → ஸ்லோ கீஸ்: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/SLOW_KEYS`
+- அணுகல்தன்மை → கீபோர்டுகள் & டைப்பிங் → ஸ்லோ கீஸ் → ஸ்லோ கீஸ்: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/SLOW_KEYS#NumericalPreferenceSwitcherIdentifier`
+- அணுகல்தன்மை → கீபோர்டுகள் & டைப்பிங் → விர்ச்சுவல் கீபோர்டுகள்: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#SOFTWARE_KEYBOARDS`
+- அணுகல்தன்மை → கீபோர்டுகள் & டைப்பிங் → சிற்றெழுத்துகளுக்கான கீக்களைக் காட்டு: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#LOWERCASE_KEYBOARD`
+- அணுகல்தன்மை → டிஸ்ப்ளே & எழுத்தின் அளவு: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT`
+- அணுகல்தன்மை → டிஸ்ப்ளே & எழுத்தின் அளவு → தடித்த உரை: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#ENHANCE_TEXT_LEGIBILITY`
+- அணுகல்தன்மை → டிஸ்ப்ளே & எழுத்தின் அளவு → பெரிய எழுத்துகள்: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/LARGER_TEXT`
+- அணுகல்தன்மை → டிஸ்ப்ளே & எழுத்தின் அளவு → பெரிய எழுத்துகள் → பெரிய எழுத்துகள்: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/LARGER_TEXT#LARGER_TEXT`
+- அணுகல்தன்மை → டிஸ்ப்ளே & எழுத்தின் அளவு → பெரிய எழுத்துகள் → அணுகல்தன்மைக்கான பெரிய அளவுகள்: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/LARGER_TEXT#LARGER_DYNAMIC_TYPE_SWITCH`
+- அணுகல்தன்மை → டிஸ்ப்ளே & எழுத்தின் அளவு → பட்டன் வடிவங்கள்: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#BUTTON_SHAPES`
+- அணுகல்தன்மை → டிஸ்ப்ளே & எழுத்தின் அளவு → ஆன்/ஆஃப் லேபிள்கள்: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#OnOffLabels`
+- அணுகல்தன்மை → டிஸ்ப்ளே & எழுத்தின் அளவு → டிரான்ஸ்பெரன்சியைக் குறை: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#REDUCE_TRANSPARENCY`
+- அணுகல்தன்மை → டிஸ்ப்ளே & எழுத்தின் அளவு → கான்ட்ராஸ்ட்டை அதிகரி: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#TEXT_COLORS_DARKEN`
+- அணுகல்தன்மை → டிஸ்ப்ளே & எழுத்தின் அளவு → நிறமில்லாமல் வேறுபடுத்திக் காட்டு: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#DIFFERENTIATE_WITHOUT_COLOR`
+- அணுகல்தன்மை → டிஸ்ப்ளே & எழுத்தின் அளவு → கிடைமட்ட உரைக்கு முன்னுரிமை வழங்குதல்: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#PREFER_HORIZONTAL_TEXT`
+- அணுகல்தன்மை → டிஸ்ப்ளே & எழுத்தின் அளவு → ஸ்மார்ட் இன்வெர்ட்: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#SMART_INVERT`
+- அணுகல்தன்மை → டிஸ்ப்ளே & எழுத்தின் அளவு → கிளாசிக் இன்வெர்ட்: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#CLASSIC_INVERT`
+- அணுகல்தன்மை → டிஸ்ப்ளே & எழுத்தின் அளவு → வண்ண ஃபில்டர்கள்: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR`
+- அணுகல்தன்மை → டிஸ்ப்ளே & எழுத்தின் அளவு → வண்ண ஃபில்டர்கள் → வண்ண ஃபில்டர்கள்: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR#DISPLAY_FILTER_COLOR`
+- அணுகல்தன்மை → டிஸ்ப்ளே & எழுத்தின் அளவு → வண்ண ஃபில்டர்கள் → வீடியோ பாஸ்த்ரூவில் பயன்படுத்து: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR#VIDEO_PASSTHROUGH`
+- அணுகல்தன்மை → டிஸ்ப்ளே & எழுத்தின் அளவு → ஒயிட் பாயின்ட்டைக் குறை: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#WHITE_POINT`
+- அணுகல்தன்மை → டிஸ்ப்ளே & எழுத்தின் அளவு → தானியங்கு ஒளிர்வு: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#AUTO_BRIGHTNESS`
+- அணுகல்தன்மை → டிஸ்ப்ளே & எழுத்தின் அளவு → நிலைப்படுத்த, கண் அசைவுகளைப் புறக்கணி: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#STATIC_FOVEATION_TEXT`
+- அணுகல்தன்மை → டிஸ்ப்ளே & எழுத்தின் அளவு → டிஸ்ப்ளேகளைத் தானாக ஒழுங்கமை: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#AUTO_IPD_TEXT`
+- அணுகல்தன்மை → டிஸ்ப்ளே & எழுத்தின் அளவு → ஃபோகஸ் நிலையை அதிகரி: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#INCREASE_FOCUS_STATE_TEXT`
+- அணுகல்தன்மை → நகர்வு: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE`
+- அணுகல்தன்மை → நகர்வு → நகர்வைக் குறை: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION`
+- அணுகல்தன்மை → நகர்வு → மெசேஜ் எஃபெக்ட்டுகளைத் தானாக பிளே செய்யும்: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#ReduceMotionAutoplayMessagesEffects`
+- அணுகல்தன்மை → நகர்வு → அனிமேஷன் படங்களைத் தானாக பிளே செய்: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION_AUTOPLAY_ANIMATED_IMAGES`
+- அணுகல்தன்மை → நகர்வு → வீடியோ முன்னோட்டங்களைத் தானாக பிளே செய்: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION_AUTOPLAY_VIDEO_PREVIEWS`
+- அணுகல்தன்மை → நகர்வு → நிலையான கர்சருக்கு முன்னுரிமை வழங்குதல்: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#PREFER_NONBLINKING_CURSOR`
+- அணுகல்தன்மை → நகர்வு → ஃபிரேம் விகிதத்தைக் குறை: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REFRESH_RATE`
+- அணுகல்தன்மை → நகர்வு → ஒளிரும் லைட்டை மங்கச் செய்: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#PHOTOSENSITIVE_MITIGATION`
+- அணுகல்தன்மை → நகர்வு → வாகன நகர்வுக் குறிப்புகளைக் காட்டு: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#MotionCues`
+- அணுகல்தன்மை → உள்ளடக்கத்தை வாசித்தல்: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE`
+- அணுகல்தன்மை → உள்ளடக்கத்தை வாசித்தல் → தேர்ந்தெடுக்கப்பட்டதைச் சொல்: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QUICK_SPEAK_TITLE`
+- அணுகல்தன்மை → உள்ளடக்கத்தை வாசித்தல் → திரையிலுள்ளதைச் சொல்: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpeakThisEnabled`
+- அணுகல்தன்மை → உள்ளடக்கத்தை வாசித்தல் → ஸ்பீச் கன்ட்ரோலர்: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController`
+- அணுகல்தன்மை → உள்ளடக்கத்தை வாசித்தல் → ஸ்பீச் கன்ட்ரோலர் → ஸ்பீச் கன்ட்ரோலர்: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController#SpeechController`
+- அணுகல்தன்மை → உள்ளடக்கத்தை வாசித்தல் → ஸ்பீச் கன்ட்ரோலர் → நீண்ட நேரம் அழுத்துதல்: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController/SpeechControllerLongPressAction`
+- அணுகல்தன்மை → உள்ளடக்கத்தை வாசித்தல் → ஸ்பீச் கன்ட்ரோலர் → நீண்ட நேரம் அழுத்துதல் → நீண்ட நேரம் அழுத்துதல்: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController/SpeechControllerLongPressAction#SpeechControllerLongPressAction`
+- அணுகல்தன்மை → உள்ளடக்கத்தை வாசித்தல் → ஸ்பீச் கன்ட்ரோலர் → இருமுறை தட்டு: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController/SpeechControllerDoubleTapAction`
+- அணுகல்தன்மை → உள்ளடக்கத்தை வாசித்தல் → ஸ்பீச் கன்ட்ரோலர் → இருமுறை தட்டு → இருமுறை தட்டு: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController/SpeechControllerDoubleTapAction#SpeechControllerDoubleTapAction`
+- அணுகல்தன்மை → உள்ளடக்கத்தை வாசித்தல் → ஸ்பீச் கன்ட்ரோலர் → செயலில் இல்லாததற்கான தெரிவுநிலை: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController/SpeechControllerIdleOpacity`
+- அணுகல்தன்மை → உள்ளடக்கத்தை வாசித்தல் → ஸ்பீச் கன்ட்ரோலர் → செயலில் இல்லாததற்கான தெரிவுநிலை → செயலில் இல்லாததற்கான தெரிவுநிலை: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController/SpeechControllerIdleOpacity#SpeechControllerIdleOpacity`
+- அணுகல்தன்மை → உள்ளடக்கத்தை வாசித்தல் → ஸ்பீச் கன்ட்ரோலர் → மவுஸ் பட்டன்களைப் பிரத்தியேகமாக்கவும்: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController#CustomizeMouseButtons`
+- அணுகல்தன்மை → உள்ளடக்கத்தை வாசித்தல் → உள்ளடக்கத்தை ஹைலைட் செய்யவும்: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/QuickSpeakHighlight`
+- அணுகல்தன்மை → உள்ளடக்கத்தை வாசித்தல் → உள்ளடக்கத்தை ஹைலைட் செய்யவும் → உள்ளடக்கத்தை ஹைலைட் செய்யவும்: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/QuickSpeakHighlight#QuickSpeakHighlight`
+- அணுகல்தன்மை → உள்ளடக்கத்தை வாசித்தல் → உள்ளடக்கத்தை ஹைலைட் செய்யவும் → வாக்கியத்தின் ஹைலைட் ஸ்டைல்: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/QuickSpeakHighlight#SENTENCE_HIGHLIGHT_STYLE`
+- அணுகல்தன்மை → உள்ளடக்கத்தை வாசித்தல் → உள்ளடக்கத்தை ஹைலைட் செய்யவும் → ஹைலைட் நிறங்கள்: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/QuickSpeakHighlight#COLOR_CHOICE`
+- அணுகல்தன்மை → உள்ளடக்கத்தை வாசித்தல் → டைப்பிங் ஃபீட்பேக்: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback`
+- அணுகல்தன்மை → உள்ளடக்கத்தை வாசித்தல் → டைப்பிங் ஃபீட்பேக் → டைப்பிங் ஃபீட்பேக்: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#TypingFeedback`
+- அணுகல்தன்மை → உள்ளடக்கத்தை வாசித்தல் → டைப்பிங் ஃபீட்பேக் → எழுத்துகள்: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#LETTER`
+- அணுகல்தன்மை → உள்ளடக்கத்தை வாசித்தல் → டைப்பிங் ஃபீட்பேக் → எழுத்துகளுக்கான குறிப்புகள்: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#PhoneticFeedback`
+- அணுகல்தன்மை → உள்ளடக்கத்தை வாசித்தல் → டைப்பிங் ஃபீட்பேக் → வார்த்தைகளைச் சொல்: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#WORD_FEEDBACK`
+- அணுகல்தன்மை → உள்ளடக்கத்தை வாசித்தல் → டைப்பிங் ஃபீட்பேக் → தானாக உரையைச் சொல்லுதல்: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#SPEAK_AUTOCORRECTIONS`
+- அணுகல்தன்மை → உள்ளடக்கத்தை வாசித்தல் → டைப்பிங் ஃபீட்பேக் → கணிப்புகளைச் சொல்ல, பிடித்திருக்கவும்: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#QUICKTYPE_WORD_FEEDBACK`
+- அணுகல்தன்மை → உள்ளடக்கத்தை வாசித்தல் → குரல்கள்: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/QuickSpeakAccents`
+- அணுகல்தன்மை → உள்ளடக்கத்தை வாசித்தல் → குரல்கள் → குரல்கள்: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/QuickSpeakAccents#QuickSpeakAccents`
+- அணுகல்தன்மை → உள்ளடக்கத்தை வாசித்தல் → இயல்பு மொழி: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpokenContentDefaultLanguage`
+- அணுகல்தன்மை → உள்ளடக்கத்தை வாசித்தல் → இயல்பு மொழி → இயல்பு மொழி: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpokenContentDefaultLanguage#SpokenContentDefaultLanguage`
+- அணுகல்தன்மை → உள்ளடக்கத்தை வாசித்தல் → மொழிகளைக் கண்டறி: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#LANGUAGE_DETECTION`
+- அணுகல்தன்மை → உள்ளடக்கத்தை வாசித்தல் → பேசும் வேகம்: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakRate`
+- அணுகல்தன்மை → உள்ளடக்கத்தை வாசித்தல் → உச்சரிப்புகள்: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/VoiceOverSettings`
+- அணுகல்தன்மை → உள்ளடக்கத்தை வாசித்தல் → உச்சரிப்புகள் → உச்சரிப்புகள்: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/VoiceOverSettings#VoiceOverSettings`
+- அணுகல்தன்மை → உள்ளடக்கத்தை வாசித்தல் → பேச்சை ஸ்பேஷியலைஸ் செய்: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SPATIALIZE_SPEECH`
+- அணுகல்தன்மை → ஆடியோ விளக்கங்கள்: `prefs:root=ACCESSIBILITY&path=DESCRIPTIVE_VIDEO`
+- அணுகல்தன்மை → ஊடாடல்: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE`
+- அணுகல்தன்மை → ஊடாடல் → AssistiveTouch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE`
+- அணுகல்தன்மை → ஊடாடல் → AssistiveTouch → AssistiveTouch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#EnableAssistiveTouchSpecifier`
+- அணுகல்தன்மை → ஊடாடல் → AssistiveTouch → மேல் நிலை மெனுவைப் பிரத்தியேகமாக்கு: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize`
+- அணுகல்தன்மை → ஊடாடல் → AssistiveTouch → மேல் நிலை மெனுவைப் பிரத்தியேகமாக்கு → மேல் நிலை மெனுவைப் பிரத்தியேகமாக்கு: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize#AssistiveTouchCustomize`
+- அணுகல்தன்மை → ஊடாடல் → AssistiveTouch → மேல் நிலை மெனுவைப் பிரத்தியேகமாக்கு → மாற்ற, ஐகானைத் தட்டவும்:: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize#ASTStepperCell`
+- அணுகல்தன்மை → ஊடாடல் → AssistiveTouch → ஒரு முறை தட்டுதல்: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/TapSpecifier`
+- அணுகல்தன்மை → ஊடாடல் → AssistiveTouch → ஒரு முறை தட்டுதல் → ஒரு முறை தட்டுதல்: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/TapSpecifier#TapSpecifier`
+- அணுகல்தன்மை → ஊடாடல் → AssistiveTouch → இருமுறை தட்டு: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier`
+- அணுகல்தன்மை → ஊடாடல் → AssistiveTouch → இருமுறை தட்டு → இருமுறை தட்டு: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier#DoubleTapSpecifier`
+- அணுகல்தன்மை → ஊடாடல் → AssistiveTouch → இருமுறை தட்டு → இருமுறை தட்டுவதற்கான நேர வரம்பு: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier/ASTDoubleTapTimeoutSpecifier`
+- அணுகல்தன்மை → ஊடாடல் → AssistiveTouch → இருமுறை தட்டு → இருமுறை தட்டுவதற்கான நேர வரம்பு → இருமுறை தட்டுவதற்கான நேர வரம்பு: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier/ASTDoubleTapTimeoutSpecifier#ASTDoubleTapTimeoutSpecifier`
+- அணுகல்தன்மை → ஊடாடல் → AssistiveTouch → நீண்ட நேரம் அழுத்துதல்: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier`
+- அணுகல்தன்மை → ஊடாடல் → AssistiveTouch → நீண்ட நேரம் அழுத்துதல் → நீண்ட நேரம் அழுத்துதல்: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier#LongPressSpecifier`
+- அணுகல்தன்மை → ஊடாடல் → AssistiveTouch → நீண்ட நேரம் அழுத்துதல் → நீண்ட நேரம் அழுத்துதலுக்கான கால அளவு: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier/ASTLongPressDurationSpecifier`
+- அணுகல்தன்மை → ஊடாடல் → AssistiveTouch → நீண்ட நேரம் அழுத்துதல் → நீண்ட நேரம் அழுத்துதலுக்கான கால அளவு → நீண்ட நேரம் அழுத்துதலுக்கான கால அளவு: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier/ASTLongPressDurationSpecifier#ASTLongPressDurationSpecifier`
+- அணுகல்தன்மை → ஊடாடல் → AssistiveTouch → 3D Touch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#ForceTouchSpecifier`
+- அணுகல்தன்மை → ஊடாடல் → AssistiveTouch → புதிய சைகையை உருவாக்கு…: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/CreateCustomGesture`
+- அணுகல்தன்மை → ஊடாடல் → AssistiveTouch → புதிய சைகையை உருவாக்கு… → புதிய சைகையை உருவாக்கு…: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/CreateCustomGesture#CreateCustomGesture`
+- அணுகல்தன்மை → ஊடாடல் → AssistiveTouch → செயலில் இல்லாததற்கான தெரிவுநிலை: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/IdleOpacity`
+- அணுகல்தன்மை → ஊடாடல் → AssistiveTouch → செயலில் இல்லாததற்கான தெரிவுநிலை → செயலில் இல்லாததற்கான தெரிவுநிலை: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/IdleOpacity#IdleOpacity`
+- அணுகல்தன்மை → ஊடாடல் → AssistiveTouch → விர்ச்சுவல் டிராக்பேடு: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID`
+- அணுகல்தன்மை → ஊடாடல் → AssistiveTouch → விர்ச்சுவல் டிராக்பேடு → டிராக்கிங் வேகம்: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID#TRACKING_SPEED_SLIDER`
+- அணுகல்தன்மை → ஊடாடல் → AssistiveTouch → விர்ச்சுவல் டிராக்பேடு → நேச்சுரல் ஸ்க்ராலிங்: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID#NATURAL_SCROLLING`
+- அணுகல்தன்மை → ஊடாடல் → AssistiveTouch → விர்ச்சுவல் டிராக்பேடு → ஸ்க்ரால் வேகம்: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID#SCROLL_SPEED_SLIDER`
+- அணுகல்தன்மை → ஊடாடல் → AssistiveTouch → விர்ச்சுவல் டிராக்பேடு → பார்டர்: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID#BORDER`
+- அணுகல்தன்மை → ஊடாடல் → AssistiveTouch → விர்ச்சுவல் டிராக்பேடு → பார்டர்: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID/BORDER`
+- அணுகல்தன்மை → ஊடாடல் → AssistiveTouch → விர்ச்சுவல் டிராக்பேடு → பார்டர் → நிறம்: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID/BORDER#COLOR`
+- அணுகல்தன்மை → ஊடாடல் → AssistiveTouch → விர்ச்சுவல் டிராக்பேடு → பார்டர் → ஒளிபுகாத்தன்மை: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID/BORDER#OPACITY`
+- அணுகல்தன்மை → ஊடாடல் → AssistiveTouch → விர்ச்சுவல் டிராக்பேடு → பார்டர் → பார்டர் அகலம்: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID/BORDER#BORDER_WIDTH`
+- அணுகல்தன்மை → ஊடாடல் → AssistiveTouch → விர்ச்சுவல் டிராக்பேடு → டிராக்பேடு: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID#TRACKPAD`
+- அணுகல்தன்மை → ஊடாடல் → AssistiveTouch → விர்ச்சுவல் டிராக்பேடு → டிராக்பேடு: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID/TRACKPAD`
+- அணுகல்தன்மை → ஊடாடல் → AssistiveTouch → விர்ச்சுவல் டிராக்பேடு → டிராக்பேடு → நிறம்: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID/TRACKPAD#COLOR`
+- அணுகல்தன்மை → ஊடாடல் → AssistiveTouch → விர்ச்சுவல் டிராக்பேடு → டிராக்பேடு → ஒளிபுகாத்தன்மை: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID/TRACKPAD#OPACITY`
+- அணுகல்தன்மை → ஊடாடல் → AssistiveTouch → சாதனங்கள்: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices`
+- அணுகல்தன்மை → ஊடாடல் → AssistiveTouch → சாதனங்கள் → சாதனங்கள்: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices#AssistiveTouchMouseDevices`
+- அணுகல்தன்மை → ஊடாடல் → AssistiveTouch → சாதனங்கள் → Bluetooth சாதனங்கள்…: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices/BluetoothDevicesScanning`
+- அணுகல்தன்மை → ஊடாடல் → AssistiveTouch → சாதனங்கள் → Bluetooth சாதனங்கள்… → Bluetooth சாதனங்கள்…: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices/BluetoothDevicesScanning#BluetoothDevicesScanning`
+- அணுகல்தன்மை → ஊடாடல் → AssistiveTouch → மவுஸ் கீக்கள்: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseKeys`
+- அணுகல்தன்மை → ஊடாடல் → AssistiveTouch → மவுஸ் கீக்கள் → மவுஸ் கீக்கள்: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseKeys#AssistiveTouchMouseKeys`
+- அணுகல்தன்மை → ஊடாடல் → AssistiveTouch → மவுஸ் கீக்கள் → ஆப்ஷன் கீ ஸ்விட்ச்: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseKeys#OptionKeyToggle`
+- அணுகல்தன்மை → ஊடாடல் → AssistiveTouch → மவுஸ் கீக்கள் → முதன்மை கீபோர்டைப் பயன்படுத்தவும்: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseKeys#UsePrimaryKeyboard`
+- அணுகல்தன்மை → ஊடாடல் → AssistiveTouch → மவுஸ் கீக்கள் → ஆரம்பகட்ட தாமதம்: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseKeys#InitialDelay`
+- அணுகல்தன்மை → ஊடாடல் → AssistiveTouch → மவுஸ் கீக்கள் → அதிகபட்ச வேகம்: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseKeys#MaximumSpeed`
+- அணுகல்தன்மை → ஊடாடல் → AssistiveTouch → திரையில் உள்ள கீபோர்டைக் காட்டு: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AlwaysShowSoftwareKeyboard`
+- அணுகல்தன்மை → ஊடாடல் → AssistiveTouch → எப்போதும் மெனுவைக் காட்டு: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AlwaysShowMenu`
+- அணுகல்தன்மை → ஊடாடல் → AssistiveTouch → கிளிக் செய்யும்போதான ஒலி: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#MouseClickSounds`
+- அணுகல்தன்மை → ஊடாடல் → AssistiveTouch → கண்வழிக் கட்டுப்பாடு: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellEnabledSpecifier`
+- அணுகல்தன்மை → ஊடாடல் → AssistiveTouch → நகரக்கூடிய தூரம்: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellToleranceSpecifier`
+- அணுகல்தன்மை → ஊடாடல் → AssistiveTouch → நகரக்கூடிய தூரம் → நகரக்கூடிய தூரம்: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellToleranceSpecifier#DwellToleranceSpecifier`
+- அணுகல்தன்மை → ஊடாடல் → AssistiveTouch → டிராக்கிங் உணர்திறன்: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#TouchSpeed`
+- அணுகல்தன்மை → ஊடாடல் → AssistiveTouch → ஃபால்பேக் செயல்: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellAutorevertSpecifier`
+- அணுகல்தன்மை → ஊடாடல் → AssistiveTouch → ஃபால்பேக் செயல் → ஃபால்பேக் செயல்: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellAutorevertSpecifier#DwellAutorevertSpecifier`
+- அணுகல்தன்மை → ஊடாடல் → AssistiveTouch → ஹாட் கார்னர்கள்: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellCornersSpecifier`
+- அணுகல்தன்மை → ஊடாடல் → AssistiveTouch → ஹாட் கார்னர்கள் → ஹாட் கார்னர்கள்: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellCornersSpecifier#DwellCornersSpecifier`
+- அணுகல்தன்மை → ஊடாடல் → AssistiveTouch → ஹாட் கார்னர்கள் → மேல் இடது: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellCornersSpecifier#TopLeft`
+- அணுகல்தன்மை → ஊடாடல் → AssistiveTouch → ஹாட் கார்னர்கள் → மேல் வலது: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellCornersSpecifier#TopRight`
+- அணுகல்தன்மை → ஊடாடல் → AssistiveTouch → ஹாட் கார்னர்கள் → கீழ் இடது: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellCornersSpecifier#BottomLeft`
+- அணுகல்தன்மை → ஊடாடல் → AssistiveTouch → ஹாட் கார்னர்கள் → கீழ் வலது: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellCornersSpecifier#BottomRight`
+- அணுகல்தன்மை → ஊடாடல் → AssistiveTouch → விரிவாக்கப்பட்ட கணிப்புகள்: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellExtendedPredictionsSpecifier`
+- அணுகல்தன்மை → ஊடாடல் → AssistiveTouch → கண்வழிக் கட்டுப்பாடு நேரம் முடிந்தது: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellTimeoutSpecifier`
+- அணுகல்தன்மை → ஊடாடல் → AssistiveTouch → AssistiveTouch மூலம் உறுதிசெய்யவும்: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#APPLE_PAY_SWITCH`
+- அணுகல்தன்மை → ஊடாடல் → AssistiveTouch → “தொடுதல்” சைகைகளை நிறைவேற்றவும்: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#MouseBehavesLikeFinger`
+- அணுகல்தன்மை → ஊடாடல் → AssistiveTouch → கேம் கன்ட்ரோலரைப் பயன்படுத்தவும்: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#EnableAssistiveTouchGameControllerSpecifier`
+- அணுகல்தன்மை → ஊடாடல் → AssistiveTouch → ஒலிச் செயல்பாடுகள்: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/SOUND_ACTIONS`
+- அணுகல்தன்மை → ஊடாடல் → AssistiveTouch → ஒலிச் செயல்பாடுகள்: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#SOUND_ACTIONS`
+- அணுகல்தன்மை → ஊடாடல் → கண்வழிக் கட்டுப்பாடு: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL`
+- அணுகல்தன்மை → ஊடாடல் → கண்வழிக் கட்டுப்பாடு → கண்வழிக் கட்டுப்பாடு: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL#DWELL_CONTROL_TITLE`
+- அணுகல்தன்மை → ஊடாடல் → கண்வழிக் கட்டுப்பாடு → இலக்கு: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL/DWELL_CONTROL_TARGET`
+- அணுகல்தன்மை → ஊடாடல் → கண்வழிக் கட்டுப்பாடு → நகரக்கூடிய தூரம்: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL/DWELL_MOVEMENT_TOLERANCE`
+- அணுகல்தன்மை → ஊடாடல் → கண்வழிக் கட்டுப்பாடு → கட்டுப்பாட்டை ஹைலைட் செய்: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL#DWELL_HIGHLIGHT_CONTROL_TITLE`
+- அணுகல்தன்மை → ஊடாடல் → கண்வழிக் கட்டுப்பாடு → மீடியோ பிளேபேக் செய்யப்படும்போது இடைநிறுத்து: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL#DWELL_PAUSE_FOR_MEDIA_PLAYBACK_TITLE`
+- அணுகல்தன்மை → ஊடாடல் → கண்வழிக் கட்டுப்பாடு → ஸ்க்ரால் கட்டுப்பாடுகளைக் காட்டு: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL#AXDwellQuickScrollSpecifierID`
+- அணுகல்தன்மை → ஊடாடல் → கண்வழிக் கட்டுப்பாடு → மெனுவைப் பின்தொடரவும்: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL#AXDwellFollowSpecifierID`
+- அணுகல்தன்மை → ஊடாடல் → கண்வழிக் கட்டுப்பாடு: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/#DwellEnabledSpecifier`
+- அணுகல்தன்மை → ஊடாடல் → எட்டுதல்: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#REACHABILITY`
+- அணுகல்தன்மை → ஊடாடல் → ஹேப்டிக் டச்: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch`
+- அணுகல்தன்மை → ஊடாடல் → ஹேப்டிக் டச் → ஹேப்டிக் டச்: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#ForceTouch`
+- அணுகல்தன்மை → ஊடாடல் → ஹேப்டிக் டச் → 3D Touch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#ForceTouchAccessibilityMainSwitch`
+- அணுகல்தன்மை → ஊடாடல் → ஹேப்டிக் டச் → 3D Touch உணர்திறன்: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#FourceTouchSensitivityGroupIdentifier`
+- அணுகல்தன்மை → ஊடாடல் → ஹேப்டிக் டச் → தொடுதலுக்கான கால அளவு: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#timingGroup`
+- அணுகல்தன்மை → ஊடாடல் → ஹேப்டிக் டச் → தொடுதலுக்கான கால அளவுச் சோதனை: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#FourceTouchSensitivityTestGroupIdentifier`
+- அணுகல்தன்மை → ஊடாடல் → தொடு வசதிகள்: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS`
+- அணுகல்தன்மை → ஊடாடல் → தொடு வசதிகள் → தொடு வசதிகள்: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#TOUCH_ACCOMMODATIONS_SWITCHER`
+- அணுகல்தன்மை → ஊடாடல் → தொடு வசதிகள் → அழுத்திப்பிடித்தல் காலஅளவு: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#HoldDuration`
+- அணுகல்தன்மை → ஊடாடல் → தொடு வசதிகள் → ரிப்பீட்டைப் புறக்கணி: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#IgnoreRepeat`
+- அணுகல்தன்மை → ஊடாடல் → தொடு வசதிகள் → தட்டுவதற்கான உதவி: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#Tap%20Assistance`
+- அணுகல்தன்மை → ஊடாடல் → செயல்படுத்த, தட்டவும்: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TAP_TO_WAKE_TITLE`
+- அணுகல்தன்மை → ஊடாடல் → செயல்படுத்த, தட்டவும்/ஸ்வைப் செய்யவும்: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TAP_TOUCH_TO_WAKE_TITLE`
+- அணுகல்தன்மை → ஊடாடல் → செயல்தவிர்க்க அசைக்கவும்: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#SHAKE_TO_UNDO`
+- அணுகல்தன்மை → ஊடாடல் → அதிர்வு: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#VIBRATION`
+- அணுகல்தன்மை → ஊடாடல் → லாக் அழைப்பைத் துண்டிப்பதைத் தவிர்: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#LockButtonIgnore`
+- அணுகல்தன்மை → ஊடாடல் → அழைப்பு ஆடியோ ரூட்டிங்: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING`
+- அணுகல்தன்மை → ஊடாடல் → அழைப்பு ஆடியோ ரூட்டிங் → அழைப்பு ஆடியோ ரூட்டிங்: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING`
+- அணுகல்தன்மை → ஊடாடல் → அழைப்பு ஆடியோ ரூட்டிங் → அழைப்புகளுக்கான தன்னியக்கப் பதில்கள்: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING/callAudioRoutingAutoAnswer`
+- அணுகல்தன்மை → ஊடாடல் → அழைப்பு ஆடியோ ரூட்டிங் → அழைப்புகளுக்கான தன்னியக்கப் பதில்கள் → அழைப்புகளுக்கான தன்னியக்கப் பதில்கள்: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING/callAudioRoutingAutoAnswer#callAudioRoutingAutoAnswer`
+- அணுகல்தன்மை → ஊடாடல் → பின்பக்க தட்டுதல்: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/BackTap`
+- அணுகல்தன்மை → ஊடாடல் → பின்பக்க தட்டுதல் → பின்பக்க தட்டுதல்: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/BackTap#BackTap`
+- அணுகல்தன்மை → ஊடாடல் → பின்பக்க தட்டுதல் → இருமுறை தட்டு: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/BackTap/DoubleTap`
+- அணுகல்தன்மை → ஊடாடல் → பின்பக்க தட்டுதல் → இருமுறை தட்டு → இருமுறை தட்டு: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/BackTap/DoubleTap#DoubleTap`
+- அணுகல்தன்மை → ஊடாடல் → பின்பக்க தட்டுதல் → மூன்று முறை தட்டுதல்: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/BackTap/TripleTap`
+- அணுகல்தன்மை → ஊடாடல் → பின்பக்க தட்டுதல் → மூன்று முறை தட்டுதல் → மூன்று முறை தட்டுதல்: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/BackTap/TripleTap#TripleTap`
+- அணுகல்தன்மை → ஊடாடல் → பாயின்டர் கட்டுப்பாடு: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer`
+- அணுகல்தன்மை → ஊடாடல் → பாயின்டர் கட்டுப்பாடு → கான்ட்ராஸ்ட்டை அதிகரி: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#PointerIncreaseContrastSpecifier`
+- அணுகல்தன்மை → ஊடாடல் → பாயின்டர் கட்டுப்பாடு → பாயின்டரைத் தானாக மறை: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#PointerAutoHideSpecifier`
+- அணுகல்தன்மை → ஊடாடல் → பாயின்டர் கட்டுப்பாடு → நிறம்: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#PointerColorSpecifier`
+- அணுகல்தன்மை → ஊடாடல் → பாயின்டர் கட்டுப்பாடு → பாயின்டர் அளவு: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#PointerSizeSpecifier`
+- அணுகல்தன்மை → ஊடாடல் → பாயின்டர் கட்டுப்பாடு → பாயின்டர் கட்டுப்பாடு: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#PointerControlEnablingCell`
+- அணுகல்தன்மை → ஊடாடல் → பாயின்டர் கட்டுப்பாடு → கட்டுப்பாடு: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer/POINTER_CONTROL_CONTROL`
+- அணுகல்தன்மை → ஊடாடல் → பாயின்டர் கட்டுப்பாடு → நிறம்: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer/PointerColorSpecifier`
+- அணுகல்தன்மை → ஊடாடல் → பாயின்டர் கட்டுப்பாடு → நிறம் → பார்டர் அகலம்: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer/PointerColorSpecifier#PointerStrokeWidth`
+- அணுகல்தன்மை → ஊடாடல் → பாயின்டர் கட்டுப்பாடு → டிராக்பேடைப் புறக்கணி: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#IgnoreTrackpad`
+- அணுகல்தன்மை → ஊடாடல் → பாயின்டர் கட்டுப்பாடு → டிராக்பேடு இனர்ஷியா: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#PointerInertia`
+- அணுகல்தன்மை → ஊடாடல் → பாயின்டர் கட்டுப்பாடு → பாயின்டர் அனிமேஷன்கள்: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#PointerCustomShapes`
+- அணுகல்தன்மை → ஊடாடல் → பாயின்டர் கட்டுப்பாடு → ஸ்க்ராலிங் வேகம்: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#DeviceScrollSpeed`
+- அணுகல்தன்மை → ஊடாடல் → கட்டுப்பாட்டு மையத்தை அணுக, மேல் நோக்கிப் பார்க்கவும்: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/UPWARDS_HUD`
+- அணுகல்தன்மை → ஊடாடல் → கட்டுப்பாட்டு மையத்தை அணுக, மேல் நோக்கிப் பார்க்கவும் → கட்டுப்பாடு மையத்தின் செங்குத்து நிலை: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/UPWARDS_HUD#UpwardsHUDPositionSpecifier`
+- அணுகல்தன்மை → ஊடாடல் → கட்டுப்பாட்டு மையத்தை அணுக, மேல் நோக்கிப் பார்க்கவும் → கட்டுப்பாட்டு மையத்தை அணுக, மேல் நோக்கிப் பார்க்கவும்: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/UPWARDS_HUD#UpwardsHUDToggleSpecifier`
+- அணுகல்தன்மை → ஊடாடல் → ஒலிச் செயல்பாடுகள்: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/SOUND_ACTIONS`
+- அணுகல்தன்மை → ஊடாடல் → ஹெட்லாக் செய்யப்படாத கட்டுப்பாடுகளுக்கு முன்னுரிமை வழங்குதல்: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#CAMERA_ANCHOR_ALTERNATIVE_Preference`
+- அணுகல்தன்மை → Face ID & கவன ஈர்ப்பு: `prefs:root=ACCESSIBILITY&path=FACE_ID`
+- அணுகல்தன்மை → Face ID & கவன ஈர்ப்பு → Face IDக்குக் கவன ஈர்ப்பு தேவை: `prefs:root=ACCESSIBILITY&path=FACE_ID#PearlUnlockAttention`
+- அணுகல்தன்மை → Face ID & கவன ஈர்ப்பு → கவன ஈர்ப்பு அறிதல் அம்சங்கள்: `prefs:root=ACCESSIBILITY&path=FACE_ID#AttentionAware`
+- அணுகல்தன்மை → Face ID & கவன ஈர்ப்பு → அங்கீகரிப்பு நிறைவுசெய்யப்படும்போது ஹேப்டிக்: `prefs:root=ACCESSIBILITY&path=FACE_ID#PearlSuccessHaptic`
+- அணுகல்தன்மை → ஸ்விட்ச் கட்டுப்பாடு: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle`
+- அணுகல்தன்மை → ஸ்விட்ச் கட்டுப்பாடு → ஸ்விட்ச்கள்: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier`
+- அணுகல்தன்மை → ஸ்விட்ச் கட்டுப்பாடு → ஸ்விட்ச்கள் → ஸ்விட்ச்கள்: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier#SwitchesIdentifier`
+- அணுகல்தன்மை → ஸ்விட்ச் கட்டுப்பாடு → ஸ்விட்ச்கள் → புதிய ஸ்விட்சைச் சேர்…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier/AddSwitchIdentifier`
+- அணுகல்தன்மை → ஸ்விட்ச் கட்டுப்பாடு → ஸ்விட்ச்கள் → புதிய ஸ்விட்சைச் சேர்… → புதிய ஸ்விட்சைச் சேர்…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier/AddSwitchIdentifier#AddSwitchIdentifier`
+- அணுகல்தன்மை → ஸ்விட்ச் கட்டுப்பாடு → ஸ்விட்ச்கள் → Bluetooth சாதனங்கள்…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier/BluetoothDevicesIdentifier`
+- அணுகல்தன்மை → ஸ்விட்ச் கட்டுப்பாடு → ஸ்விட்ச்கள் → Bluetooth சாதனங்கள்… → Bluetooth சாதனங்கள்…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier/BluetoothDevicesIdentifier/BluetoothDevicesIdentifier`
+- அணுகல்தன்மை → ஸ்விட்ச் கட்டுப்பாடு → ஸ்விட்ச்கள் → தவறான ஸ்விட்ச் அமைவைப் புறக்கணி: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier#UpwardsHUDToggleSpecifier`
+- அணுகல்தன்மை → ஸ்விட்ச் கட்டுப்பாடு → பிரத்தியேகச் செயல்பாடுகள்: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/RecipesIdentifier`
+- அணுகல்தன்மை → ஸ்விட்ச் கட்டுப்பாடு → பிரத்தியேகச் செயல்பாடுகள் → பிரத்தியேகச் செயல்பாடுகள்: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/RecipesIdentifier#RecipesIdentifier`
+- அணுகல்தன்மை → ஸ்விட்ச் கட்டுப்பாடு → பிரத்தியேகச் செயல்பாடுகள் → புதிய பிரத்தியேகச் செயல்பாட்டை உருவாக்கு…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/RecipesIdentifier/CreateNewRecipe`
+- அணுகல்தன்மை → ஸ்விட்ச் கட்டுப்பாடு → பிரத்தியேகச் செயல்பாடுகள் → புதிய பிரத்தியேகச் செயல்பாட்டை உருவாக்கு… → புதிய பிரத்தியேகச் செயல்பாட்டை உருவாக்கு…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/RecipesIdentifier/CreateNewRecipe#CreateNewRecipe`
+- அணுகல்தன்மை → ஸ்விட்ச் கட்டுப்பாடு → பிரத்தியேகச் செயல்பாடுகள் → பிரத்தியேகச் செயல்பாட்டைத் தொடங்கு: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/RecipesIdentifier/LaunchRecipe`
+- அணுகல்தன்மை → ஸ்விட்ச் கட்டுப்பாடு → பிரத்தியேகச் செயல்பாடுகள் → பிரத்தியேகச் செயல்பாட்டைத் தொடங்கு → பிரத்தியேகச் செயல்பாட்டைத் தொடங்கு: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/RecipesIdentifier/LaunchRecipe#LaunchRecipe`
+- அணுகல்தன்மை → ஸ்விட்ச் கட்டுப்பாடு → ஸ்கேனிங் ஸ்டைல்: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier`
+- அணுகல்தன்மை → ஸ்விட்ச் கட்டுப்பாடு → ஸ்கேனிங் ஸ்டைல் → ஸ்கேனிங் ஸ்டைல்: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#ScanningStyleIdentifier`
+- அணுகல்தன்மை → ஸ்விட்ச் கட்டுப்பாடு → ஸ்விட்ச் கட்டுப்பாடு பயன்முறை: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/FirstLaunchScanningModeIdentifier`
+- அணுகல்தன்மை → ஸ்விட்ச் கட்டுப்பாடு → ஸ்விட்ச் கட்டுப்பாடு பயன்முறை → ஸ்விட்ச் கட்டுப்பாடு பயன்முறை: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/FirstLaunchScanningModeIdentifier#FirstLaunchScanningModeIdentifier`
+- அணுகல்தன்மை → ஸ்விட்ச் கட்டுப்பாடு → தானியங்கு ஸ்கேனிங் நேரம்: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningSpeedIdentifier`
+- அணுகல்தன்மை → ஸ்விட்ச் கட்டுப்பாடு → தானியங்கு ஸ்கேனிங் நேரம் → தானியங்கு ஸ்கேனிங் நேரம்: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningSpeedIdentifier#NumericalPreferencePickerGroupIdentifier`
+- அணுகல்தன்மை → ஸ்விட்ச் கட்டுப்பாடு → முதல் ஐட்டத்தில் இடைநிறுத்துதல்: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/DelayAfterInputIdentifier`
+- அணுகல்தன்மை → ஸ்விட்ச் கட்டுப்பாடு → முதல் ஐட்டத்தில் இடைநிறுத்துதல் → முதல் ஐட்டத்தில் இடைநிறுத்துதல்: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/DelayAfterInputIdentifier#NumericalPreferenceSwitcherIdentifier`
+- அணுகல்தன்மை → ஸ்விட்ச் கட்டுப்பாடு → லூப்கள்: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanCyclesIdentifier`
+- அணுகல்தன்மை → ஸ்விட்ச் கட்டுப்பாடு → லூப்கள் → லூப்கள்: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanCyclesIdentifier#ScanCyclesIdentifier`
+- அணுகல்தன்மை → ஸ்விட்ச் கட்டுப்பாடு → ரிப்பீட்டை மாற்றுதல்: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ActionRepeatIdentifier`
+- அணுகல்தன்மை → ஸ்விட்ச் கட்டுப்பாடு → ரிப்பீட்டை மாற்றுதல் → ரிப்பீட்டை மாற்றுதல்: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ActionRepeatIdentifier#NumericalPreferenceSwitcherIdentifier`
+- அணுகல்தன்மை → ஸ்விட்ச் கட்டுப்பாடு → ஸ்விட்ச் கட்டுப்பாடு பயன்முறை: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSelectionGroupIdentifier`
+- அணுகல்தன்மை → ஸ்விட்ச் கட்டுப்பாடு → ஸ்விட்ச் கட்டுப்பாடு பயன்முறை → கிளைடிங் கர்சர்: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSelectionGroupIdentifier#POINTER_PICKER_ENABLED`
+- அணுகல்தன்மை → ஸ்விட்ச் கட்டுப்பாடு → நீண்ட நேரம் அழுத்துதல்: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/LongPressIdentifier`
+- அணுகல்தன்மை → ஸ்விட்ச் கட்டுப்பாடு → நீண்ட நேரம் அழுத்துதல் → நீண்ட நேரம் அழுத்துதல்: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/LongPressIdentifier#NumericalPreferenceSwitcherIdentifier`
+- அணுகல்தன்மை → ஸ்விட்ச் கட்டுப்பாடு → தட்டுதலுக்கான செயல்பாடு: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier`
+- அணுகல்தன்மை → ஸ்விட்ச் கட்டுப்பாடு → தட்டுதலுக்கான செயல்பாடு → தட்டுதலுக்கான செயல்பாடு: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#TapBehaviorIdentifier`
+- அணுகல்தன்மை → ஸ்விட்ச் கட்டுப்பாடு → தட்டிய பிறகு ஃபோகஸ் செய்யப்படும் ஐட்டம்: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanLocationIdentifier`
+- அணுகல்தன்மை → ஸ்விட்ச் கட்டுப்பாடு → தட்டிய பிறகு ஃபோகஸ் செய்யப்படும் ஐட்டம் → தட்டிய பிறகு ஃபோகஸ் செய்யப்படும் ஐட்டம்: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanLocationIdentifier#ScanLocationIdentifier`
+- அணுகல்தன்மை → ஸ்விட்ச் கட்டுப்பாடு → தட்டிய பிறகு அதே கீயை ஸ்கேன் செய்யவும்: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#RestartScanAtCurrentIdentifier`
+- அணுகல்தன்மை → ஸ்விட்ச் கட்டுப்பாடு → எப்போதும் கீபோர்டு பட்டன்களைத் தட்டவும்: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AlwaysTapKeyboardIdentifier`
+- அணுகல்தன்மை → ஸ்விட்ச் கட்டுப்பாடு → விரிவாக்கப்பட்ட கணிப்புகள்: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#UseExtendedKeyboardPredictionsIdentifier`
+- அணுகல்தன்மை → ஸ்விட்ச் கட்டுப்பாடு → அழுத்திப்பிடித்தல் காலஅளவு: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/HoldDurationIdentifier`
+- அணுகல்தன்மை → ஸ்விட்ச் கட்டுப்பாடு → அழுத்திப்பிடித்தல் காலஅளவு → அழுத்திப்பிடித்தல் காலஅளவு: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/HoldDurationIdentifier#NumericalPreferenceSwitcherIdentifier`
+- அணுகல்தன்மை → ஸ்விட்ச் கட்டுப்பாடு → ரிப்பீட்டைப் புறக்கணி: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/IgnoreRepeatIdentifier`
+- அணுகல்தன்மை → ஸ்விட்ச் கட்டுப்பாடு → ரிப்பீட்டைப் புறக்கணி → ரிப்பீட்டைப் புறக்கணி: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/IgnoreRepeatIdentifier#NumericalPreferenceSwitcherIdentifier`
+- அணுகல்தன்மை → ஸ்விட்ச் கட்டுப்பாடு → கிளைடிங் கர்சர்: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier`
+- அணுகல்தன்மை → ஸ்விட்ச் கட்டுப்பாடு → கிளைடிங் கர்சர் → கிளைடிங் கர்சர்: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#AxisSweepIdentifier`
+- அணுகல்தன்மை → ஸ்விட்ச் கட்டுப்பாடு → கிளைடிங் கர்சர் → தேர்வுப் பயன்முறை: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleGroup`
+- அணுகல்தன்மை → ஸ்விட்ச் கட்டுப்பாடு → கிளைடிங் கர்சர் → கிளைடிங் கர்சர் வேகம்: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#AxisSweepSpeed`
+- அணுகல்தன்மை → ஸ்விட்ச் கட்டுப்பாடு → தலை அசைவு: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CameraPointPickerSwitch`
+- அணுகல்தன்மை → ஸ்விட்ச் கட்டுப்பாடு → தலை அசைவு → தலை அசைவு: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CameraPointPickerSwitch#CameraPointPickerSwitcher`
+- அணுகல்தன்மை → ஸ்விட்ச் கட்டுப்பாடு → சவுண்டு எஃபெக்ட்கள்: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SoundIdentifier`
+- அணுகல்தன்மை → ஸ்விட்ச் கட்டுப்பாடு → பேச்சு: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier`
+- அணுகல்தன்மை → ஸ்விட்ச் கட்டுப்பாடு → பேச்சு → குரல்கள்: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#VoicesIdentifier`
+- அணுகல்தன்மை → ஸ்விட்ச் கட்டுப்பாடு → பேச்சு → திரையில் உள்ளவற்றின் பண்புகளைச் சொல்லுதல்: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#SPEECH_SPEAKS_TRAITS_LABEL`
+- அணுகல்தன்மை → ஸ்விட்ச் கட்டுப்பாடு → பேச்சு → பேசும்போது இடைநிறுத்துதல்: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#SPEECH_PAUSES_SCANNING_LABEL`
+- அணுகல்தன்மை → ஸ்விட்ச் கட்டுப்பாடு → மெனுவில் உள்ளவை: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier`
+- அணுகல்தன்மை → ஸ்விட்ச் கட்டுப்பாடு → மெனுவில் உள்ளவை → மெனுவில் உள்ளவை: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier#CustomizeMenuIdentifier`
+- அணுகல்தன்மை → ஸ்விட்ச் கட்டுப்பாடு → மெனுவில் உள்ளவை → மேல் நிலை: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/TopLevel`
+- அணுகல்தன்மை → ஸ்விட்ச் கட்டுப்பாடு → மெனுவில் உள்ளவை → மேல் நிலை → மேல் நிலை: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/TopLevel#TopLevel`
+- அணுகல்தன்மை → ஸ்விட்ச் கட்டுப்பாடு → மெனுவில் உள்ளவை → சைகைகள்: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Gestures`
+- அணுகல்தன்மை → ஸ்விட்ச் கட்டுப்பாடு → மெனுவில் உள்ளவை → சைகைகள் → சைகைகள்: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Gestures#Gestures`
+- அணுகல்தன்மை → ஸ்விட்ச் கட்டுப்பாடு → மெனுவில் உள்ளவை → சாதனம்: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Device`
+- அணுகல்தன்மை → ஸ்விட்ச் கட்டுப்பாடு → மெனுவில் உள்ளவை → சாதனம் → சாதனம்: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Device#Device`
+- அணுகல்தன்மை → ஸ்விட்ச் கட்டுப்பாடு → மெனுவில் உள்ளவை → அமைப்புகள்: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Settings`
+- அணுகல்தன்மை → ஸ்விட்ச் கட்டுப்பாடு → மெனுவில் உள்ளவை → அமைப்புகள் → அமைப்புகள்: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Settings#Settings`
+- அணுகல்தன்மை → ஸ்விட்ச் கட்டுப்பாடு → மெனுவில் உள்ளவை → மீடியா கட்டுப்பாடுகள்: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/MediaControls`
+- அணுகல்தன்மை → ஸ்விட்ச் கட்டுப்பாடு → மெனுவில் உள்ளவை → மீடியா கட்டுப்பாடுகள் → மீடியா கட்டுப்பாடுகள்: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/MediaControls#MediaControls`
+- அணுகல்தன்மை → ஸ்விட்ச் கட்டுப்பாடு → குழுவில் உள்ளவை: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ItemGroupingIdentifier`
+- அணுகல்தன்மை → ஸ்விட்ச் கட்டுப்பாடு → பெரிய கர்சர்: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CursorVisibilityIdentifier`
+- அணுகல்தன்மை → ஸ்விட்ச் கட்டுப்பாடு → சேமிக்கப்பட்ட சைகைகள்: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomGesturesIdentifier`
+- அணுகல்தன்மை → ஸ்விட்ச் கட்டுப்பாடு → சேமிக்கப்பட்ட சைகைகள் → சேமிக்கப்பட்ட சைகைகள்: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomGesturesIdentifier#CustomGesturesIdentifier`
+- அணுகல்தன்மை → ஸ்விட்ச் கட்டுப்பாடு → சேமிக்கப்பட்ட சைகைகள் → புதிய சைகையை உருவாக்கு…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomGesturesIdentifier/CreateCustomGesture`
+- அணுகல்தன்மை → ஸ்விட்ச் கட்டுப்பாடு → சேமிக்கப்பட்ட சைகைகள் → புதிய சைகையை உருவாக்கு… → புதிய சைகையை உருவாக்கு…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomGesturesIdentifier/CreateCustomGesture#CreateCustomGesture`
+- அணுகல்தன்மை → ஸ்விட்ச் கட்டுப்பாடு → ஸ்விட்ச் கட்டுப்பாடு மூலம் உறுதிசெய்யவும்: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#APPLE_PAY_SWITCH`
+- அணுகல்தன்மை → ஸ்விட்ச் கட்டுப்பாடு → கர்சர் நிறம்: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CursorColorIdentifier`
+- அணுகல்தன்மை → ஸ்விட்ச் கட்டுப்பாடு → கர்சர் நிறம் → கர்சர் நிறம்: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CursorColorIdentifier#CursorColorIdentifier`
+- அணுகல்தன்மை → குரல் கட்டுப்பாடு: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle`
+- அணுகல்தன்மை → குரல் கட்டுப்பாடு → குரல் கட்டுப்பாடு அம்சத்தை அமை: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#SETUP_COMMAND_AND_CONTROL`
+- அணுகல்தன்மை → குரல் கட்டுப்பாடு → குரல் கட்டுப்பாட்டு டுடோரியலைத் திற: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#COMMAND_AND_CONTROL_LAUNCH_ONBOARDING`
+- அணுகல்தன்மை → குரல் கட்டுப்பாடு → மொழி: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_LANGUAGE`
+- அணுகல்தன்மை → குரல் கட்டுப்பாடு → மொழி → மொழி: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_LANGUAGE#COMMAND_AND_CONTROL_LANGUAGE`
+- அணுகல்தன்மை → குரல் கட்டுப்பாடு → கட்டளைகள்: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS`
+- அணுகல்தன்மை → குரல் கட்டுப்பாடு → கட்டளைகள் → கட்டளைகள்: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS#COMMAND_AND_CONTROL_COMMANDS`
+- அணுகல்தன்மை → குரல் கட்டுப்பாடு → கட்டளைகள் → புதிய கட்டளையை உருவாக்கு: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/CreateNewCommand`
+- அணுகல்தன்மை → குரல் கட்டுப்பாடு → கட்டளைகள் → புதிய கட்டளையை உருவாக்கு → புதிய கட்டளையை உருவாக்கு: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/CreateNewCommand#CreateNewCommand`
+- அணுகல்தன்மை → குரல் கட்டுப்பாடு → கட்டளைகள் → அடிப்படை நகர்வு: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/System`
+- அணுகல்தன்மை → குரல் கட்டுப்பாடு → கட்டளைகள் → ஓவர்லேக்கள்: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/Overlays`
+- அணுகல்தன்மை → குரல் கட்டுப்பாடு → கட்டளைகள் → அடிப்படை சைகைகள்: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/Gestures`
+- அணுகல்தன்மை → குரல் கட்டுப்பாடு → கட்டளைகள் → மேம்பட்ட சைகைகள்: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/DragDropGestures`
+- அணுகல்தன்மை → குரல் கட்டுப்பாடு → கட்டளைகள் → டிக்டேஷன்: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/TextDictation`
+- அணுகல்தன்மை → குரல் கட்டுப்பாடு → கட்டளைகள் → உரை நெடுக நகர்தல்: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/Movement`
+- அணுகல்தன்மை → குரல் கட்டுப்பாடு → கட்டளைகள் → உரைத் தேர்வு: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/Selection`
+- அணுகல்தன்மை → குரல் கட்டுப்பாடு → கட்டளைகள் → உரை திருத்துதல்: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/Editing`
+- அணுகல்தன்மை → குரல் கட்டுப்பாடு → கட்டளைகள் → உரை நீக்குதல்: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/AdvancedDeletion`
+- அணுகல்தன்மை → குரல் கட்டுப்பாடு → கட்டளைகள் → சாதனம்: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/Hardware`
+- அணுகல்தன்மை → குரல் கட்டுப்பாடு → கட்டளைகள் → அணுகல்தன்மை: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/Accessibility`
+- அணுகல்தன்மை → குரல் கட்டுப்பாடு → கட்டளைகள் → பிரத்தியேகக் கட்டளைகளை இம்போர்ட் செய்: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/ImportCustomCommands`
+- அணுகல்தன்மை → குரல் கட்டுப்பாடு → கட்டளைகள் → பிரத்தியேகக் கட்டளைகளை இம்போர்ட் செய் → பிரத்தியேகக் கட்டளைகளை இம்போர்ட் செய்: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/ImportCustomCommands#ImportCustomCommands`
+- அணுகல்தன்மை → குரல் கட்டுப்பாடு → வார்த்தைத் தொகுப்பு: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_VOCABULARY`
+- அணுகல்தன்மை → குரல் கட்டுப்பாடு → வார்த்தைத் தொகுப்பு → வார்த்தைத் தொகுப்பு: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_VOCABULARY/VOCABULARY`
+- அணுகல்தன்மை → குரல் கட்டுப்பாடு → வார்த்தைத் தொகுப்பு → வார்த்தைத் தொகுப்பு → வார்த்தைத் தொகுப்பு: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_VOCABULARY/VOCABULARY#VOCABULARY`
+- அணுகல்தன்மை → குரல் கட்டுப்பாடு → வார்த்தைத் தொகுப்பு → வார்த்தைத் தொகுப்பை இம்போர்ட் செய்: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_VOCABULARY#IMPORT_VOCABULARY`
+- அணுகல்தன்மை → குரல் கட்டுப்பாடு → வார்த்தைத் தொகுப்பு → வார்த்தைத் தொகுப்பை எக்ஸ்போர்ட் செய்: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_VOCABULARY#EXPORT_VOCABULARY`
+- அணுகல்தன்மை → குரல் கட்டுப்பாடு → வார்த்தைத் தொகுப்பு → வார்த்தைத் தொகுப்புகள் அனைத்தையும் நீக்கு: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_VOCABULARY#DELETE_ALL_VOCABULARY`
+- அணுகல்தன்மை → குரல் கட்டுப்பாடு → உறுதிப்படுத்துதலைக் காட்டு: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#SHOW_TEXT_RESPONSE_TITLE`
+- அணுகல்தன்மை → குரல் கட்டுப்பாடு → ஒலியை பிளேசெய்: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#PLAY_SOUND_RESPONSE_TITLE`
+- அணுகல்தன்மை → குரல் கட்டுப்பாடு → குறிப்புகளைக் காட்டு: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#USER_HINTS_SHOW_HINTS_TITLE`
+- அணுகல்தன்மை → குரல் கட்டுப்பாடு → ஓவர்லே: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY`
+- அணுகல்தன்மை → குரல் கட்டுப்பாடு → ஓவர்லே → ஓவர்லே: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#ALWAYS_SHOW_OVERLAY`
+- அணுகல்தன்மை → குரல் கட்டுப்பாடு → கவன ஈர்ப்பு அறிதல்: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ATTENTION_AWARE_ACTION`
+- அணுகல்தன்மை → மேல் பட்டன்/Touch ID: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE`
+- அணுகல்தன்மை → மேல் பட்டன்/Touch ID → கிளிக் வேகம்: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_SPEED_HEADER`
+- அணுகல்தன்மை → மேல் பட்டன்/Touch ID → பேச, அழுத்திப் பிடிக்கவும்: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantTitle`
+- அணுகல்தன்மை → மேல் பட்டன்/Touch ID → முகப்பு பட்டன்: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE/HomeButtonAssistantTitle`
+- அணுகல்தன்மை → மேல் பட்டன்/Touch ID → முகப்பு பட்டன் → திறக்க விரலை வைக்கவும்: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE/HomeButtonAssistantTitle#RestingUnlockSetting`
+- அணுகல்தன்மை → மேல் பட்டன்/Touch ID → ஸ்விட்ச் கட்டுப்பாடு மூலம் உறுதிப்படுத்துதல் அம்சத்தை இயக்கவும்: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#APPLE_PAY_CONFIRM_WITH_SC`
+- அணுகல்தன்மை → மேல் பட்டன்/Touch ID → “AssistiveTouch மூலம் உறுதிசெய்தல்” வசதியைச் செயலாக்கவும்: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#APPLE_PAY_CONFIRM_WITH_AST`
+- அணுகல்தன்மை → Apple TV Remote: `prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE`
+- அணுகல்தன்மை → Apple TV Remote → திசைக் கட்டுப்பாட்டு பட்டன்: `prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE#AppleTVSimpleGestures`
+- அணுகல்தன்மை → Apple TV Remote → Live TV பட்டன்கள்: `prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE#AppleTVLiveTVButtons`
+- அணுகல்தன்மை → Apple Watch மிரரிங்: `prefs:root=ACCESSIBILITY&path=APPLE_WATCH_REMOTE_SCREEN`
+- அணுகல்தன்மை → ஹியரிங் சாதனங்கள்: `prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE`
+- அணுகல்தன்மை → ஹியரிங் சாதனங்கள் → MFi ஹியரிங் சாதனங்கள்: `prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#AvailableAidsHeading`
+- அணுகல்தன்மை → ஹியரிங் சாதனங்கள் → ஹியரிங் எய்டு இணக்கத்தன்மை: `prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#HEARING_AID_COMPLIANCE`
+- அணுகல்தன்மை → ஹியரிங் கன்ட்ரோல் மையம்: `prefs:root=ACCESSIBILITY&path=HEARING_CONTROL_CENTER`
+- அணுகல்தன்மை → ஹியரிங் கன்ட்ரோல் மையம் → உள்ளடங்கிய கட்டுப்பாடுகள்: `prefs:root=ACCESSIBILITY&path=HEARING_CONTROL_CENTER#INCLUDED_MODULES_SECTION_TITLE`
+- அணுகல்தன்மை → ஹியரிங் கன்ட்ரோல் மையம் → மேலும் கட்டுப்பாடுகள்: `prefs:root=ACCESSIBILITY&path=HEARING_CONTROL_CENTER#MORE_MODULES_SECTION_TITLE`
+- அணுகல்தன்மை → ஒலியறிதல்: `prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE`
+- அணுகல்தன்மை → ஒலியறிதல் → ஒலிகள்: `prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE/Sounds`
+- அணுகல்தன்மை → ஒலியறிதல் → ஒலிகள் → ஒலிகள்: `prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE/Sounds#Sounds`
+- அணுகல்தன்மை → RTT/TTY: `prefs:root=ACCESSIBILITY&path=RTT`
+- அணுகல்தன்மை → RTT/TTY → மென்பொருள் RTT/TTY: `prefs:root=ACCESSIBILITY&path=RTT#SW_TTY`
+- அணுகல்தன்மை → RTT/TTY → வன்பொருள் TTY: `prefs:root=ACCESSIBILITY&path=RTT#HW_TTY`
+- அணுகல்தன்மை → ஆடியோ & விஷுவல்: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE`
+- அணுகல்தன்மை → ஆடியோ & விஷுவல் → ஹெட்ஃபோன் வசதிகள்: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID`
+- அணுகல்தன்மை → ஆடியோ & விஷுவல் → ஹெட்ஃபோன் வசதிகள் → ஹெட்ஃபோன் வசதிகள்: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID#AXPAEnableSpecID`
+- அணுகல்தன்மை → ஆடியோ & விஷுவல் → ஹெட்ஃபோன் வசதிகள் → பிரத்தியேக ஆடியோ அமைவு: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID#AXPAPersonalAudioSetupSpecID`
+- அணுகல்தன்மை → ஆடியோ & விஷுவல் → பின்னணி ஒலிகள்: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID`
+- அணுகல்தன்மை → ஆடியோ & விஷுவல் → பின்னணி ஒலிகள் → பின்னணி ஒலிகள்: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID#CSFeatureToggleSpecID`
+- அணுகல்தன்மை → ஆடியோ & விஷுவல் → பின்னணி ஒலிகள் → ஒலி: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID/ComfortSoundSoundLabel`
+- அணுகல்தன்மை → ஆடியோ & விஷுவல் → பின்னணி ஒலிகள் → ஒலி → ஒலி: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID/ComfortSoundSoundLabel#ComfortSoundSoundLabel`
+- அணுகல்தன்மை → ஆடியோ & விஷுவல் → பின்னணி ஒலிகள் → பின்னணி ஒலிகளுக்கான ஒலியளவு: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID#ComfortSoundsVolume`
+- அணுகல்தன்மை → ஆடியோ & விஷுவல் → பின்னணி ஒலிகள் → மீடியா பிளே செய்யப்படும்போது பயன்படுத்துதல்: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID#ComfortSoundsMixingName`
+- அணுகல்தன்மை → ஆடியோ & விஷுவல் → பின்னணி ஒலிகள் → ஒலியுடனான மீடியா: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID#ComfortSoundsMixingVolume`
+- அணுகல்தன்மை → ஆடியோ & விஷுவல் → பின்னணி ஒலிகள் → லாக் செய்யப்படும்போது ஒலிகளை நிறுத்தும்: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID#ComfortSoundsPlayWhenLockedName`
+- அணுகல்தன்மை → ஆடியோ & விஷுவல் → மோனோ ஆடியோ: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAMonoSpecID`
+- அணுகல்தன்மை → ஆடியோ & விஷுவல் → ஒலியளவுக் கட்டுப்பாட்டை எப்போதும் காட்டு: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAAlwaysShowVolumeControlSpecID`
+- அணுகல்தன்மை → ஆடியோ & விஷுவல் → ஃபோன் இரைச்சல் நீக்கம்: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPANoiseSpecID`
+- அணுகல்தன்மை → ஆடியோ & விஷுவல் → விழிப்பூட்டல்களுக்கு LED ஃபிளாஷ்: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH`
+- அணுகல்தன்மை → ஆடியோ & விஷுவல் → விழிப்பூட்டல்களுக்கு LED ஃபிளாஷ் → விழிப்பூட்டல்களுக்கு LED ஃபிளாஷ்: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_FLASH`
+- அணுகல்தன்மை → ஆடியோ & விஷுவல் → விழிப்பூட்டல்களுக்கு LED ஃபிளாஷ் → அன்லாக் செய்யப்பட்டுள்ளபோது ஃபிளாஷ் செய்: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_FLASH_WHILE_UNLOCKED`
+- அணுகல்தன்மை → ஆடியோ & விஷுவல் → விழிப்பூட்டல்களுக்கு LED ஃபிளாஷ் → அமைதிப் பயன்முறையில் ஃபிளாஷ் செய்: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_RINGER_SWITCH_CONTROL`
+- அணுகல்தன்மை → ஆடியோ & விஷுவல் → இடது-வலது ஸ்டீரியோ பேலன்ஸ்: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#LeftRightBalance`
+- அணுகல்தன்மை → ஆடியோ & விஷுவல் → பவரை ஆன் மற்றும் ஆஃப் செய்தலுக்கான ஒலிகள்: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#StartupSound`
+- அணுகல்தன்மை → ஆடியோ & விஷுவல் → ஹெட்ஃபோன் அறிவிப்புகள்: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXHeadphoneNotificationsSpecID`
+- அணுகல்தன்மை → ஆடியோ & விஷுவல் → “குரலைத் தெளிவாக்குதல்” அம்சத்தைச் சேர்: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#ExtendedVoiceIsolationSpecID`
+- அணுகல்தன்மை → ஆடியோ & விஷுவல் → சவுண்டு எஃபெக்ட்கள்: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#SOUND_EFFECTS_PREFERENCE`
+- அணுகல்தன்மை → ஆடியோ & விஷுவல் → அழைப்புகளில் ஆடியோவைச் சேர்த்தல்: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/MIX_TO_UPLINK`
+- அணுகல்தன்மை → ஆடியோ & விஷுவல் → அழைப்புகளில் ஆடியோவைச் சேர்த்தல் → அழைப்புகளில் ஆடியோவைச் சேர்க்க செயலிகளை அனுமதி: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/MIX_TO_UPLINK#MIX_TO_UPLINK`
+- அணுகல்தன்மை → வசனங்கள் & கேப்ஷனிங்: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING`
+- அணுகல்தன்மை → வசனங்கள் & கேப்ஷனிங் → ஸ்டைல்: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING/currentTheme`
+- அணுகல்தன்மை → வசனங்கள் & கேப்ஷனிங் → ஸ்டைல் → ஸ்டைல்: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING/currentTheme#currentTheme`
+- அணுகல்தன்மை → வசனங்கள் & கேப்ஷனிங் → காட்சி விளக்கங்கள் + SDH: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#PREFER_SDH`
+- அணுகல்தன்மை → வசனங்கள் & கேப்ஷனிங் → ஆடியோ ஒலிபெயர்ப்புகளைக் காட்டு: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#SHOW_AUDIO_TRANSCRIPTIONS`
+- அணுகல்தன்மை → வசனங்கள் & கேப்ஷனிங் → ஒலிமுடக்கப்படும்போது காட்டு: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#SHOW_WHEN_MUTED`
+- அணுகல்தன்மை → வசனங்கள் & கேப்ஷனிங் → பின்செல்லும்போது காட்டு: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#SHOW_ON_SKIP_BACK`
+- அணுகல்தன்மை → நேரலை கேப்ஷன்கள்: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION`
+- அணுகல்தன்மை → நேரலை கேப்ஷன்கள் → நேரலை கேப்ஷன்கள்: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION#LIVE_TRANSCRIPTION_TITLE`
+- அணுகல்தன்மை → நேரலை கேப்ஷன்கள் → தோற்றம்: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE`
+- அணுகல்தன்மை → நேரலை கேப்ஷன்கள் → தோற்றம் → தோற்றம்: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE#LIVE_TRANSCRIPTION_APPEARANCE`
+- அணுகல்தன்மை → நேரலை கேப்ஷன்கள் → தோற்றம் → தடித்த உரை: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE/ENHANCE_TEXT_LEGIBILITY`
+- அணுகல்தன்மை → நேரலை கேப்ஷன்கள் → தோற்றம் → தடித்த உரை → தடித்த உரை: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE/ENHANCE_TEXT_LEGIBILITY#ENHANCE_TEXT_LEGIBILITY`
+- அணுகல்தன்மை → நேரலை கேப்ஷன்கள் → தோற்றம் → எழுத்தின் அளவு: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE/LARGER_TEXT`
+- அணுகல்தன்மை → நேரலை கேப்ஷன்கள் → தோற்றம் → எழுத்தின் அளவு → எழுத்தின் அளவு: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE/LARGER_TEXT#LARGER_TEXT`
+- அணுகல்தன்மை → நேரலை கேப்ஷன்கள் → தோற்றம் → நிற விருப்பங்கள்: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE#LIVE_TRANSCRIPTION_COLOR_OPTIONS`
+- அணுகல்தன்மை → நேரலை கேப்ஷன்கள் → தோற்றம் → உரை வண்ணம்: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE#LIVE_TRANSCRIPTION_TEXT_COLOR`
+- அணுகல்தன்மை → நேரலை கேப்ஷன்கள் → தோற்றம் → பின்னணி நிறம்: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE#LIVE_TRANSCRIPTION_BACKGROUND_COLOR`
+- அணுகல்தன்மை → நேரலை கேப்ஷன்கள் → தோற்றம் → நிறங்களை மீட்டமை: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE#LIVE_TRANSCRIPTION_RESET_COLORS`
+- அணுகல்தன்மை → நேரலை கேப்ஷன்கள் → தோற்றம் → செயலில் இல்லாததற்கான தெரிவுநிலை: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE#LIVE_CAPTIONS_IDLE_OPACITY_TITLE`
+- அணுகல்தன்மை → நேரலை கேப்ஷன்கள் → FaceTimeஇல் நேரலை கேப்ஷன்கள்: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION#FACE_TIME_CAPTIONS`
+- அணுகல்தன்மை → வழிகாட்டப்பட்ட அணுகல்: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE`
+- அணுகல்தன்மை → வழிகாட்டப்பட்ட அணுகல் → பாஸ்கோடு அமைப்புகள்: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessSecurityLinkList`
+- அணுகல்தன்மை → வழிகாட்டப்பட்ட அணுகல் → பாஸ்கோடு அமைப்புகள் → பாஸ்கோடு அமைப்புகள்: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessSecurityLinkList#GuidedAccessSecurityLinkList`
+- அணுகல்தன்மை → வழிகாட்டப்பட்ட அணுகல் → பாஸ்கோடு அமைப்புகள் → “வழிகாட்டப்பட்ட அணுகல்” பாஸ்கோடை அமைக்கவும்: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessSecurityLinkList#GAXPinButton`
+- அணுகல்தன்மை → வழிகாட்டப்பட்ட அணுகல் → பாஸ்கோடு அமைப்புகள் → Touch ID: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessSecurityLinkList#GAXSpecIDTouchIDSwitch`
+- அணுகல்தன்மை → வழிகாட்டப்பட்ட அணுகல் → நேர வரம்புகள்: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList`
+- அணுகல்தன்மை → வழிகாட்டப்பட்ட அணுகல் → நேர வரம்புகள் → நேர வரம்புகள்: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GuidedAccessTimeRestrictionsLinkList`
+- அணுகல்தன்மை → வழிகாட்டப்பட்ட அணுகல் → நேர வரம்புகள் → ஒலி: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList/GUIDED_ACCESS_TIME_RESTRICTIONS_SOUND_TITLE`
+- அணுகல்தன்மை → வழிகாட்டப்பட்ட அணுகல் → நேர வரம்புகள் → ஒலி → ஒலி: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList/GUIDED_ACCESS_TIME_RESTRICTIONS_SOUND_TITLE#GUIDED_ACCESS_TIME_RESTRICTIONS_SOUND_TITLE`
+- அணுகல்தன்மை → வழிகாட்டப்பட்ட அணுகல் → நேர வரம்புகள் → பேசுக: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_SPEAK_TITLE`
+- அணுகல்தன்மை → வழிகாட்டப்பட்ட அணுகல் → அணுகல்தன்மை சுருக்கவழி: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessEnableAXFeatures`
+- அணுகல்தன்மை → வழிகாட்டப்பட்ட அணுகல் → ஆட்டோ லாக் கட்டுப்பாட்டைக் காட்டு: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessAutoLockTime`
+- அணுகல்தன்மை → வழிகாட்டப்பட்ட அணுகல் → ஆட்டோ லாக் கட்டுப்பாட்டைக் காட்டு → ஆட்டோ லாக் கட்டுப்பாட்டைக் காட்டு: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessAutoLockTime#GuidedAccessAutoLockTime`
+- அணுகல்தன்மை → உதவிகரமான அணுகல்: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE`
+- அணுகல்தன்மை → உதவிகரமான அணுகல் → “உதவிகரமான அணுகல்” அம்சத்தை அமை: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#SetUpClarityUISpecifier`
+- அணுகல்தன்மை → உதவிகரமான அணுகல் → “உதவிகரமான அணுகல்” அம்சத்தைத் தொடங்கு: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#ClarityUIStart`
+- அணுகல்தன்மை → உதவிகரமான அணுகல் → செயலிகள்: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#Applications`
+- அணுகல்தன்மை → உதவிகரமான அணுகல் → விருப்பங்கள்: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#Options`
+- அணுகல்தன்மை → உதவிகரமான அணுகல் → வால்பேப்பர்: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE/Wallpaper`
+- அணுகல்தன்மை → உதவிகரமான அணுகல் → வால்பேப்பர் → வால்பேப்பர்: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE/Wallpaper#Wallpaper`
+- அணுகல்தன்மை → உதவிகரமான அணுகல் → ஒலியளவு பட்டன்களை அனுமதி: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#VolumeButtons`
+- அணுகல்தன்மை → உதவிகரமான அணுகல் → நேரத்தைப் பூட்டுத் திரையில் காட்டு: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#ShowTime`
+- அணுகல்தன்மை → உதவிகரமான அணுகல் → பேட்டரி அளவை முகப்புத் திரையில் காட்டு: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#ShowBattery`
+- அணுகல்தன்மை → உதவிகரமான அணுகல் → அறிவிப்பு பேட்ஜ்களை காட்டு: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#ShowNotification`
+- அணுகல்தன்மை → உதவிகரமான அணுகல் → Siriக்கு அனுமதி வழங்கவும்: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#AllowSiri`
+- அணுகல்தன்மை → உதவிகரமான அணுகல் → பாஸ்கோடு அமைப்புகள்: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE/PasscodeSettings`
+- அணுகல்தன்மை → உதவிகரமான அணுகல் → பாஸ்கோடு அமைப்புகள் → பாஸ்கோடு அமைப்புகள்: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE/PasscodeSettings#PasscodeSettings`
+- அணுகல்தன்மை → Siri: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE`
+- அணுகல்தன்மை → Siri → Siriஇல் டைப் செய்க: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_SETTINGS_TYPE_TO_SIRI`
+- அணுகல்தன்மை → Siri → Siri இடைநிறுத்த நேரம்: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#ENDPOINTER`
+- அணுகல்தன்மை → Siri → Siri பேச்சு வீதம்: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SPEECH_RATE`
+- அணுகல்தன்மை → Siri → பேச்சு வடிவப் பதில்கள்: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK`
+- அணுகல்தன்மை → Siri → எப்போதும் “Siri” எனக் கேட்கிறதா என்று கவனி: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_SETTINGS_VOICE_ACTIVATION_ALWAYS_ALLOW`
+- அணுகல்தன்மை → Siri → செயலிகளை Siriஇன் பின்னணியில் காட்டு: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRL_SHOW_APPS`
+- அணுகல்தன்மை → Siri → அறிவிப்புகளை ஸ்பீக்கரில் தெரிவித்தல்: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#ANNOUNCE_NOTIFICATIONS_BUILT_IN_SPEAKER_ID`
+- அணுகல்தன்மை → Siri → அழைப்பைத் துண்டித்தல்: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE/SIRI_CALL_HANGUP_ID`
+- அணுகல்தன்மை → Siri → அழைப்பைத் துண்டித்தல் → அழைப்பைத் துண்டித்தல்: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE/SIRI_CALL_HANGUP_ID#SIRI_CALL_HANGUP_ID`
+- அணுகல்தன்மை → Siri → பேசும் முறையில் உள்ள வேறுபாட்டைக் கவனித்தல்: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_ATYPICAL_SPEECH`
+- அணுகல்தன்மை → Siri → இடைநிறுத்த “Siri” தேவை: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_BARGE`
+- அணுகல்தன்மை → அணுகல்தன்மை சுருக்கவழி: `prefs:root=ACCESSIBILITY&path=TRIPLE_CLICK_TITLE`
+- அணுகல்தன்மை → தனிச் செயலி அமைப்புகள்: `prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE`
+- அணுகல்தன்மை → தனிச் செயலி அமைப்புகள் → மறைக்கப்பட்ட செயலிகளைக் காட்டு: `prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE#PROTECTED_APPS_SHOW_HIDDEN_TITLE`
+- அணுகல்தன்மை → தனிச் செயலி அமைப்புகள் → செயலியைச் சேர்: `prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE#AX_ADD_BUTTON_IDENTIFIER`
+- அணுகல்தன்மை → அருகிலுள்ள சாதனங்களைக் கட்டுப்படுத்துதல்: `prefs:root=ACCESSIBILITY&path=CONTROL_NEARBY_DEVICES`
+- அணுகல்தன்மை → அருகிலுள்ள சாதனங்களைக் கட்டுப்படுத்துதல் → அருகிலுள்ள சாதனங்களைக் கட்டுப்படுத்துதல்: `prefs:root=ACCESSIBILITY&path=CONTROL_NEARBY_DEVICES#CONTROL_NEARBY_DEVICES`
+- அணுகல்தன்மை → கண் உள்ளீடு: `prefs:root=ACCESSIBILITY&path=DOMINANT_EYE`
+- அணுகல்தன்மை → நேரலைப் பேச்சு: `prefs:root=ACCESSIBILITY&path=LIVE_SPEECH_TITLE`
+- அணுகல்தன்மை → நேரலைப் பேச்சு → சொற்றொடர்கள்: `prefs:root=ACCESSIBILITY&path=LIVE_SPEECH_TITLE/LiveSpeechCategoryManagement`
+- அணுகல்தன்மை → நேரலைப் பேச்சு → குரல்கள்: `prefs:root=ACCESSIBILITY&path=LIVE_SPEECH_TITLE#LIVE_SPEECH_VOICES`
+- அணுகல்தன்மை → என் குரல்: `prefs:root=ACCESSIBILITY&path=PERSONAL_VOICE_TITLE`
+- அணுகல்தன்மை → என் குரல் → “என் குரல்” ஆடியோவை உருவாக்கு: `prefs:root=ACCESSIBILITY&path=PERSONAL_VOICE_TITLE#VB_CREATE_PERSONAL_VOICE`
+- அணுகல்தன்மை → என் குரல் → அனைத்துச் சாதனங்களிலும் பகிர்: `prefs:root=ACCESSIBILITY&path=PERSONAL_VOICE_TITLE#VB_USE_ICLOUD_TITLE`
+- அணுகல்தன்மை → என் குரல் → பயன்படுத்துவதற்காக, செயலிகள் கோர அனுமதிக்கவும்: `prefs:root=ACCESSIBILITY&path=PERSONAL_VOICE_TITLE#VB_ALLOW_WITH_APPS`
+- அணுகல்தன்மை → AirPods: `prefs:root=ACCESSIBILITY&path=AIRPODS`
+- அணுகல்தன்மை → AirPods → அழுத்துவதற்கான வேகம்: `prefs:root=ACCESSIBILITY&path=AIRPODS#TapGroup`
+- அணுகல்தன்மை → AirPods → அழுத்திப் பிடிப்பதற்கான கால அளவு: `prefs:root=ACCESSIBILITY&path=AIRPODS#HoldGroup`
+- அணுகல்தன்மை → AirPods → iPhone ஆடியோ & விஷுவல் அமைப்புகள்: `prefs:root=ACCESSIBILITY&path=AIRPODS#PERSONAL_AUDIO_AIRPODS_BUTTON`
+- அணுகல்தன்மை → AirPods → iPhoneஐப் பின்தொடர்: `prefs:root=ACCESSIBILITY&path=AIRPODS#SPATIAL_AUDIO_SWITCH`
+- அணுகல்தன்மை → AirPods → டோனின் ஒலியளவு: `prefs:root=ACCESSIBILITY&path=AIRPODS#TONE_VOLUME`
+- அணுகல்தன்மை → குரல்வழிச் சுருக்கவழிகள்: `prefs:root=ACCESSIBILITY&path=ADAPTIVE_VOICE_SHORTCUTS_TITLE`
+- அணுகல்தன்மை → குரல்வழிச் சுருக்கவழிகள் → குரல்வழிச் சுருக்கவழிகளை அமை: `prefs:root=ACCESSIBILITY&path=ADAPTIVE_VOICE_SHORTCUTS_TITLE#AVS_SET_UP_BUTTON_TITLE`
+- அணுகல்தன்மை → மியூசிக் ஹேப்டிக்ஸ்: `prefs:root=ACCESSIBILITY&path=HAPTIC_MUSIC`
+- அணுகல்தன்மை → கண் நகர்வு: `prefs:root=ACCESSIBILITY&path=OnDeviceEyeTracking`
+- அணுகல்தன்மை → கண் நகர்வு → கண் நகர்வு: `prefs:root=ACCESSIBILITY&path=OnDeviceEyeTracking#OnDeviceEyeTrackingEnabledSpecifier`
+- அணுகல்தன்மை → கண் நகர்வு → ஸ்மூத்திங்: `prefs:root=ACCESSIBILITY&path=OnDeviceEyeTracking#SMOOTHING`
+- அணுகல்தன்மை → கண் நகர்வு → நகர்த்த ஸ்னாப் செய்: `prefs:root=ACCESSIBILITY&path=OnDeviceEyeTracking#SNAP_TO_ITEM`
+- அணுகல்தன்மை → கண் நகர்வு → கீபோர்டு பட்டன்களை ஜூம் செய்யவும்: `prefs:root=ACCESSIBILITY&path=OnDeviceEyeTracking#KEYBOARD_ZOOM`
+- அணுகல்தன்மை → கண் நகர்வு → தானாக மறை: `prefs:root=ACCESSIBILITY&path=OnDeviceEyeTracking#AUTO_HIDE`
+- அணுகல்தன்மை → கண் நகர்வு → கண்வழிக் கட்டுப்பாடு: `prefs:root=ACCESSIBILITY&path=OnDeviceEyeTracking#DWELL_CONTROL`
+- அணுகல்தன்மை → கேமரா கட்டுப்பாடு: `prefs:root=ACCESSIBILITY&path=CAMERA_CONTROL`
+- அணுகல்தன்மை → கேமரா கட்டுப்பாடு → கேமரா கட்டுப்பாடு: `prefs:root=ACCESSIBILITY&path=CAMERA_CONTROL#CAMERA_CONTROL_SWITCH`
+- அணுகல்தன்மை → கேமரா கட்டுப்பாடு → லேசாக அழுத்துதல்: `prefs:root=ACCESSIBILITY&path=CAMERA_CONTROL#LIGHT_PRESS`
+- அணுகல்தன்மை → கேமரா கட்டுப்பாடு → ஸ்வைப்: `prefs:root=ACCESSIBILITY&path=CAMERA_CONTROL#SWIPE`
+- அணுகல்தன்மை → கேமரா கட்டுப்பாடு → லேசாக அழுத்துவதற்கான விசை: `prefs:root=ACCESSIBILITY&path=CAMERA_CONTROL#LIGHT_PRESS_FORCE`
+- அணுகல்தன்மை → கேமரா கட்டுப்பாடு → இரண்டு முறை லேசாக அழுத்துவதற்கான வேகம்: `prefs:root=ACCESSIBILITY&path=CAMERA_CONTROL#SENSITIVITY`
+- Mail: `prefs:root=MAIL`
+- Mail → கணக்குகள்: `prefs:root=MAIL&path=ACCOUNTS`
+- Mail → கணக்குகள் → கணக்கைச் சேர்: `prefs:root=MAIL&path=ACCOUNTS#ADD_ACCOUNT`
+- Mail → கணக்குகள் → புதிய தரவைப் பெறுக: `prefs:root=MAIL&path=ACCOUNTS#FETCH_NEW_DATA`
+- Mail → முன்னோட்டம்: `prefs:root=MAIL&path=Preview`
+- Mail → பெறுநர்/Cc லேபிள்களைக் காட்டு: `prefs:root=MAIL#Show%20To/Cc%20Labels`
+- Mail → ஸ்வைப் விருப்பங்கள்: `prefs:root=MAIL&path=Swipe%20Options`
+- Mail → நீக்கும் முன் கேள்: `prefs:root=MAIL#Ask%20Before%20Deleting`
+- Mail → ரிமோட் இமேஜ்களை ஏற்று: `prefs:root=MAIL#Load%20Remote%20Images`
+- Mail → திரெட் வாரியாக ஒழுங்குபடுத்து: `prefs:root=MAIL#Organize%20by%20Thread`
+- Mail → படித்த மெசேஜ்களைச் சுருக்கு: `prefs:root=MAIL#Collapse%20Read%20Messages`
+- Mail → சமீபத்தியவற்றை மேலே காட்டு: `prefs:root=MAIL#Most%20Recent%20Message%20on%20Top`
+- Mail → முழு திரெட்களும்: `prefs:root=MAIL#Complete%20Threads`
+- Mail → மியூட் செய்யப்பட்ட திரெட் செயல்பாடு: `prefs:root=MAIL&path=Muted%20Thread%20Action`
+- Mail → தடுக்கப்பட்ட அனுப்புநர்களைப் புறக்கணி: `prefs:root=MAIL#Ignore%20Blocked%20Senders`
+- Mail → தடுக்கப்பட்ட அனுப்புநர் விருப்பங்கள்: `prefs:root=MAIL&path=Blocked%20Sender%20Options`
+- Mail → தடுக்கப்பட்டது: `prefs:root=MAIL&path=Blocked`
+- Mail → எப்போதும் என்னை Bccஇல் வை: `prefs:root=MAIL#Always%20Bcc%20Myself`
+- Mail → முகவரிகளைக் குறி: `prefs:root=MAIL&path=Mark%20Addresses`
+- Mail → மேற்கோள் தேர்வியை அதிகரி: `prefs:root=MAIL&path=Increase%20Quote%20Level`
+- Mail → பதில்களில் இணைப்புகளைச் சேர்: `prefs:root=MAIL&path=Include%20Attachments%20with%20Replies`
+- Mail → சிக்னேச்சர்: `prefs:root=MAIL&path=Signature`
+- வால்பேப்பர்: `prefs:root=Wallpaper`
+- குறிப்புகள்: `prefs:root=NOTES`
+- குறிப்புகள் → இயல்புநிலைக் கணக்கு: `prefs:root=NOTES&path=Default%20Account`
+- குறிப்புகள் → பாஸ்வேர்டு: `prefs:root=NOTES&path=Password`
+- குறிப்புகள் → குறிப்புகளை இவ்வாறு வகைப்படுத்து: `prefs:root=NOTES&path=Sort%20Notes%20By`
+- குறிப்புகள் → இதனுடன் புதிய குறிப்புகளைத் தொடங்கவும்:: `prefs:root=NOTES&path=New%20Notes%20Start%20With`
+- குறிப்புகள் → சரிபார்த்த ஐட்டங்களை வகைப்படுத்து: `prefs:root=NOTES&path=Sort%20Checked%20Items`
+- குறிப்புகள் → கோடுகள் & கட்டங்கள்: `prefs:root=NOTES&path=Lines%20%26%20Grids`
+- குறிப்புகள் → ஃபோட்டோஸுக்குச் சேமி: `prefs:root=NOTES#Save%20to%20Photos`
+- குறிப்புகள் → பூட்டுத்திரையில் குறிப்புகளை அணுகுதல்: `prefs:root=NOTES&path=Access%20Notes%20from%20Lock%20Screen`
+- பாஸ்கோடு: `prefs:root=PASSCODE`
+- பாஸ்கோடு → பாஸ்கோடை ஆஃப் செய்: `prefs:root=PASSCODE#PASSCODE_OFF`
+- பாஸ்கோடு → பாஸ்கோடை மாற்றவும்: `prefs:root=PASSCODE#CHANGE_PASSCODE`
+- பாஸ்கோடு → பாஸ்கோடு தேவை: `prefs:root=PASSCODE&path=PASSCODE_REQ`
+- பாஸ்கோடு → வாய்ஸ் டயல்: `prefs:root=PASSCODE#VOICE_DIAL`
+- பாஸ்கோடு → பூட்டப்பட்டிருக்கும்போது அணுகலை அனுமதி: `prefs:root=PASSCODE#ALLOW_ACCESS_WHEN_LOCKED`
+- பாஸ்கோடு → மெசேஜ் மூலம் பதிலளி: `prefs:root=PASSCODE#REPLY_WITH_MESSAGE_SWITCH`
+- பாஸ்கோடு → ஹோம் கன்ட்ரோல்: `prefs:root=PASSCODE#HOME_CONTROL_SWITCH`
+- பாஸ்கோடு → வாலெட்: `prefs:root=PASSCODE#WALLET_SWITCH`
+- பாஸ்கோடு → தவறிய அழைப்புகளைத் திரும்ப அழை: `prefs:root=PASSCODE#RETURN_MISSED_CALLS_SWITCH`
+- பாஸ்கோடு → தரவுகளை அழி: `prefs:root=PASSCODE#WIPE_DEVICE`
+- பாஸ்கோடு → Apple Watch மூலம் அன்லாக் செய்: `prefs:root=PASSCODE#AUTO_UNLOCK_DEVICES_GROUP`
+- பாஸ்கோடு → சாதனத் திருட்டுப் பாதுகாப்பு: `prefs:root=PASSCODE#DTO_GROUP_ID`
+- கேலண்டர்: `prefs:root=CALENDAR`
+- கேலண்டர் → நேர மண்டல ஓவர்ரைடு: `prefs:root=CALENDAR&path=TimeZoneCityArray`
+- கேலண்டர் → மாற்று கேலண்டர்கள்: `prefs:root=CALENDAR&path=Alternate%20Calendars`
+- கேலண்டர் → வார எண்கள்: `prefs:root=CALENDAR#Week%20Numbers`
+- கேலண்டர் → அழைக்கப்பட்டர்களின் நிராகரிப்புகளைக் காட்டு: `prefs:root=CALENDAR#Show%20Invitee%20Declines`
+- கேலண்டர் → ஒத்திசை: `prefs:root=CALENDAR&path=Sync`
+- கேலண்டர் → இயல்புநிலை விழிப்பூட்டல் நேரங்கள்: `prefs:root=CALENDAR&path=Default%20Alert%20Times`
+- கேலண்டர் → இந்த நாளில் வாரத்தைத் தொடங்கு: `prefs:root=CALENDAR&path=Start%20Week%20On`
+- கேலண்டர் → இருப்பிடப் பரிந்துரைகள்: `prefs:root=CALENDAR#Location%20Suggestions`
+- உடல்நலத் தரவு: `prefs:root=HEALTH`
+- ஃபோன்: `prefs:root=Phone`
+- ஃபோன் → எனது எண்: `prefs:root=Phone&path=My%20Number`
+- ஃபோன் → உள்வரும் அழைப்புகள்: `prefs:root=Phone&path=INCOMING_CALL_STYLE`
+- ஃபோன் → அழைப்புகளை அறிவி: `prefs:root=Phone&path=ANNOUNCE_CALLS`
+- ஃபோன் → SMS/அழைப்பைப் புகாரளித்தல்: `prefs:root=Phone&path=CLASSIFICATION_AND_REPORTING`
+- ஃபோன் → மெசேஜ் மூலம் பதிலளித்தல்: `prefs:root=Phone&path=Respond%20with%20Text`
+- ஃபோன் → அழைப்பை பார்வேர்டு செய்தல்: `prefs:root=Phone&path=Call%20Forwarding`
+- ஃபோன் → அழைப்பை பார்வேர்டு செய்தல் → அழைப்பை பார்வேர்டு செய்தல்: `prefs:root=Phone&path=Call%20Forwarding#idMasterOnOffSwitch`
+- ஃபோன் → காத்திருக்கும் அழைப்பு: `prefs:root=Phone&path=Call%20Waiting`
+- ஃபோன் → எனது காலர் ஐடியைக் காட்டு: `prefs:root=Phone&path=Show%20My%20Caller%20ID`
+- ஃபோன் → எனது காலர் ஐடியைக் காட்டு → எனது காலர் ஐடியைக் காட்டு: `prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary`
+- ஃபோன் → எனது காலர் ஐடியைக் காட்டு → எனது காலர் ஐடியைக் காட்டு → எனது காலர் ஐடியைக் காட்டு: `prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary#Show%20My%20Caller%20ID`
+- ஃபோன் → தெரியாத அழைப்புகளை அமைதியாக்கு: `prefs:root=Phone#SILENCE_CALLS`
+- ஃபோன் → தடுக்கப்பட்ட தொடர்புகள்: `prefs:root=Phone&path=SPECIFIER_IDENTIFIER_BLACKLIST`
+- ஃபோன் → டயல் அசிஸ்ட்: `prefs:root=Phone&path=Dial%20Assist`
+- App Store: `prefs:root=STORE`
+- App Store → தானாகப் பதிவிறக்கப்படுபவை: `prefs:root=STORE#Automatic%20Downloads`
+- App Store → செயலிப் புதுப்பிப்புகள்: `prefs:root=STORE#App%20Updates`
+- App Store → செயலிப் பதிவிறக்கங்கள்: `prefs:root=STORE&path=App%20Downloads`
+- App Store → வீடியோ ஆட்டோபிளே: `prefs:root=STORE&path=Video%20Autoplay`
+- App Store → செயலிக்குள் வழங்கப்படும் மதிப்பீடுகள் & கருத்துகள்: `prefs:root=STORE#In-App%20Ratings%20&%20Reviews`
+- தனியுரிமை & பாதுகாப்பு: `prefs:root=Privacy` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity`
+- தனியுரிமை & பாதுகாப்பு → உடல்நலம்: `prefs:root=Privacy&path=HEALTH` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/HEALTH`
+- தனியுரிமை & பாதுகாப்பு → உடல்நலத் தரவு: `prefs:root=Privacy&path=HEALTH_DATA` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/HEALTH_DATA`
+- தனியுரிமை & பாதுகாப்பு → இருப்பிடம்: `prefs:root=Privacy&path=LOCATION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/LOCATION`
+- தனியுரிமை & பாதுகாப்பு → இருப்பிடம் → எனது இருப்பிடத்தைப் பகிர்: `prefs:root=Privacy&path=LOCATION/LOCATION_SHARING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/LOCATION/LOCATION_SHARING`
+- தனியுரிமை & பாதுகாப்பு → தொடர்புகள்: `prefs:root=Privacy&path=CONTACTS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CONTACTS`
+- தனியுரிமை & பாதுகாப்பு → கேலண்டர்கள்: `prefs:root=Privacy&path=CALENDARS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CALENDARS`
+- தனியுரிமை & பாதுகாப்பு → நினைவூட்டல்கள்: `prefs:root=Privacy&path=REMINDERS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/REMINDERS`
+- தனியுரிமை & பாதுகாப்பு → ஃபோட்டோஸ்: `prefs:root=Privacy&path=PHOTOS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PHOTOS`
+- தனியுரிமை & பாதுகாப்பு → Bluetooth பகிர்வு: `prefs:root=Privacy&path=BT_PERIPHERAL` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/BT_PERIPHERAL`
+- தனியுரிமை & பாதுகாப்பு → மைக்ரோஃபோன்: `prefs:root=Privacy&path=MICROPHONE` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/MICROPHONE`
+- தனியுரிமை & பாதுகாப்பு → பேச்சறிதல்: `prefs:root=Privacy&path=SPEECH_RECOGNITION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/SPEECH_RECOGNITION`
+- தனியுரிமை & பாதுகாப்பு → கேமரா: `prefs:root=Privacy&path=CAMERA` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CAMERA`
+- தனியுரிமை & பாதுகாப்பு → HomeKit: `prefs:root=Privacy&path=WILLOW` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/WILLOW`
+- தனியுரிமை & பாதுகாப்பு → மீடியா & Apple Music: `prefs:root=Privacy&path=MEDIALIBRARY` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/MEDIALIBRARY`
+- தனியுரிமை & பாதுகாப்பு → பகுப்பாய்வுகள்: `prefs:root=Privacy&path=PROBLEM_REPORTING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PROBLEM_REPORTING`
+- தனியுரிமை & பாதுகாப்பு → விளம்பரப்படுத்தல்: `prefs:root=Privacy&path=ADVERTISING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/ADVERTISING`
+- தனியுரிமை & பாதுகாப்பு → கோப்புகளும் கோப்புறைகளும்: `prefs:root=Privacy&path=FILEACCESS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/FILEACCESS`
+- தனியுரிமை & பாதுகாப்பு → டிராக்கிங்: `prefs:root=Privacy&path=USER_TRACKING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/USER_TRACKING`
+- தனியுரிமை & பாதுகாப்பு → செயலித் தனியுரிமை அறிக்கை: `prefs:root=Privacy&path=PRIVACY_REPORT` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PRIVACY_REPORT`
+- தனியுரிமை & பாதுகாப்பு → லாக்டவுன் பயன்முறை: `prefs:root=Privacy#LOCKDOWN_MODE` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity#LOCKDOWN_MODE#LOCKDOWN_MODE`
+- தனியுரிமை & பாதுகாப்பு → உணர்வைப் பாதிக்கக்கூடிய உள்ளடக்கம்: `prefs:root=Privacy#NUDITY_DETECTION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity#NUDITY_DETECTION#NUDITY_DETECTION`
+- அளவீடு: `prefs:root=MEASURE`
+- அளவீடு → அளவீடு யூனிட்கள்: `prefs:root=MEASURE#MEASURE_UNITS`
+- அளவீடு → இம்பீரியல்: `prefs:root=MEASURE#Imperial`
+- அளவீடு → மெட்ரிக்: `prefs:root=MEASURE#Metric`
+- வீடியோக்கள்: `prefs:root=TVAPP`
+- வீடியோக்கள் → பிளேபேக்கிற்கு மொபைல் டேட்டாவைப் பயன்படுத்து: `prefs:root=TVAPP#com.apple.videos%3AVideosUseCellularDataEnabledSetting`
+- வீடியோக்கள் → பிளேபேக் தரம்: `prefs:root=TVAPP#com.apple.videos%3APlaybackQualityGroup`
+- வீடியோக்கள் → வாங்குதல்கள் மற்றும் வாடகை: `prefs:root=TVAPP&path=com.apple.videos%3APreferredPurchaseResolution`
+- வீடியோக்கள் → ஹோம் பகிர்வு: `prefs:root=TVAPP#com.apple.videos%3AHomeSharingFooter`
+- Game Center: `prefs:root=GAMECENTER`
+- Voice Memos: `prefs:root=VOICE_MEMOS`
+- Voice Memos → நீக்கியவற்றை அழி: `prefs:root=VOICE_MEMOS&path=RCVoiceMemosRecentlyDeletedWindowKey`
+- Voice Memos → ஆடியோ தரம்: `prefs:root=VOICE_MEMOS&path=RCVoiceMemosAudioQualityKey`
+- Voice Memos → இருப்பிடம்-அடிப்படையிலான பெயரிடல்: `prefs:root=VOICE_MEMOS#RCVoiceMemosUseLocationBasedNaming`
+- சுருக்கவழிகள்: `prefs:root=SHORTCUTS`
+- சுருக்கவழிகள் → iCloud ஒத்திசைவு: `prefs:root=SHORTCUTS#WFCloudKitSyncEnabled`
+- சுருக்கவழிகள் → சுருக்கவழி வரிசையை ஒத்திசை: `prefs:root=SHORTCUTS#WFCloudKitSyncOrderEnabled`
+- சுருக்கவழிகள் → சட்டப்பூர்வ அறிவிப்புகள்: `prefs:root=SHORTCUTS&path=Legal%20Notices`
+- நினைவூட்டல்கள்: `prefs:root=REMINDERS`
+- நினைவூட்டல்கள் → இயல்புநிலைப் பட்டியல்: `prefs:root=REMINDERS&path=DEFAULT_LIST`
+- நினைவூட்டல்கள் → இயல்புநிலைப் பட்டியல் → நினைவூட்டல்கள்: `prefs:root=REMINDERS&path=DEFAULT_LIST#preferredDefaultListID`
+- நினைவூட்டல்கள் → இன்றைய அறிவிப்பு: `prefs:root=REMINDERS#todayNotificationFireTime`
+- நினைவூட்டல்கள் → காலக்கெடு முடிந்ததாகக் காட்டு: `prefs:root=REMINDERS#showRemindersAsOverdue`
+- இசை: `prefs:root=MUSIC`
+- இசை → Apple Musicஐக் காட்டு: `prefs:root=MUSIC#com.apple.Music%3AAppleMusicEnabled`
+- இசை → பிளேலிஸ்ட் பாடல்களைச் சேர்: `prefs:root=MUSIC#com.apple.Music%3AAddPlaylistSongsToMyMusicSwitch`
+- இசை → நட்சத்திர மதிப்பீட்டைக் காட்டு: `prefs:root=MUSIC#com.apple.Music%3AShowStarRatings`
+- இசை → லைப்ரரியை ஒத்திசை: `prefs:root=MUSIC#com.apple.Music%3ACloudMusicLibraryEnabled`
+- இசை → மொபைல் டேட்டா: `prefs:root=MUSIC&path=com.apple.Music%3ACellularData`
+- இசை → பதிவிறக்கப்பட்ட இசை: `prefs:root=MUSIC&path=com.apple.Music%3AMusicUsageLink`
+- இசை → சேமிப்பகத்தை உகந்ததாக்கு: `prefs:root=MUSIC&path=com.apple.Music%3AOptimizeStorage`
+- இசை → தானாகப் பதிவிறக்கப்படுபவை: `prefs:root=MUSIC#com.apple.Music%3AMusicAutomaticDownload`
+- இசை → EQ: `prefs:root=MUSIC&path=com.apple.Music%3AEQ`
+- இசை → ஒலிச்சரிபார்ப்பு: `prefs:root=MUSIC#com.apple.Music%3ASoundCheck`
+- இசை → கேட்டல் வரலாற்றைப் பயன்படுத்து: `prefs:root=MUSIC#com.apple.Music%3APrivateListening`
+- Siri: `prefs:root=SIRI`
+- Siri → லாக் செய்யப்பட்டிருக்கும்போது Siriஐ அனுமதி: `prefs:root=SIRI#ASSISTANT_LOCK_SCREEN_ACCESS`
+- Siri → மொழி: `prefs:root=SIRI&path=LANGUAGE_ID`
+- Siri → Siri வாய்ஸ்: `prefs:root=SIRI&path=VOICE_ID`
+- Siri → வாய்ஸ் ஃபீட்பேக்: `prefs:root=SIRI&path=VOICE_FEEDBACK_ID`
+- Siri → எனது தகவல்: `prefs:root=SIRI&path=MY_INFO`
+- ஒலிகள்: `prefs:root=Sounds`
+- ஒலிகள் → இயர்பட்கள் பாதுகாப்பு: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING`
+- ஒலிகள் → இயர்பட்கள் பாதுகாப்பு → லைட்னிங் அடாப்டர்கள்: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING/HEADPHONE_LIGHTNING_ADAPTERS`
+- ஒலிகள் → இயர்பட்கள் பாதுகாப்பு → இயர்பட்கள் அறிவிப்புகள்: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneWeeklyNotificationsKey`
+- ஒலிகள் → இயர்பட்கள் பாதுகாப்பு → உரத்த ஆடியோவின் ஒலியைக் குறை: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneLevelLimitSwitchKey`
+- ஒலிகள் → சவுண்டு எஃபெக்ட்கள்: `prefs:root=Sounds&path=SOUND_EFFECTS`
+- ஒலிகள் → ரிங்கர் மற்றும் விழிப்பூட்டல்கள்: `prefs:root=Sounds#RINGER_AND_ALERT_GROUP`
+- ஒலிகள் → பட்டன்களைப் பயன்படுத்தி மாற்று: `prefs:root=Sounds#CHANGE_WITH_BUTTONS`
+- ஒலிகள் → ஒலிகள் மற்றும் அதிர்வு பேட்டர்ன்கள்: `prefs:root=Sounds#SOUNDS_ALERT_GROUP`
+- ஒலிகள் → ரிங்டோன்: `prefs:root=Sounds&path=Ringtone`
+- ஒலிகள் → மெசேஜ் டோன்: `prefs:root=Sounds&path=Text_Messages`
+- ஒலிகள் → புதிய வாய்ஸ்மெயில்: `prefs:root=Sounds&path=Voicemail`
+- ஒலிகள் → புதிய மின்னஞ்சல்: `prefs:root=Sounds&path=NEW_MAIL`
+- ஒலிகள் → அனுப்பிய மின்னஞ்சல்: `prefs:root=Sounds&path=SENT_MAIL`
+- ஒலிகள் → கேலண்டர் விழிப்பூட்டல்கள்: `prefs:root=Sounds&path=Calendar%20Alarm`
+- ஒலிகள் → நினைவூட்டல் விழிப்பூட்டல்கள்: `prefs:root=Sounds&path=Reminder%20Alerts`
+- ஒலிகள் → கீபோர்டு கிளிக்குகள்: `prefs:root=Sounds#KEYBOARD_SOUND_SWITCH`
+- ஒலிகள் → திரைப்பூட்டு ஒலி: `prefs:root=Sounds#LOCK_SOUND_SWITCH`
+- ஒலிகள் → தனிப்பயனாக்கப்பட்ட ஸ்பேஷியல் ஆடியோ: `prefs:root=Sounds&path=Personalized%20Spatial%20Audio`
+- Apple Pencil: `prefs:root=Pencil`
+- Apple Pencil → Apple Pencil: `prefs:root=Pencil#PrefersPencilDraws`
+- Apple Pencil → Apple Pencil: `prefs:root=Pencil#PencilTextInput`
+- அவசரகால SOS: `prefs:root=EMERGENCY_SOS`
+- அவசரகால SOS → பக்கவாட்டு பட்டனை அழுத்தினால் அழை: `prefs:root=EMERGENCY_SOS#CALL_WITH_SIDE_BUTTON`
+- அவசரகால SOS → தானாக அழை: `prefs:root=EMERGENCY_SOS#AUTO_CALL`
+- அவசரகால SOS → அவசரகாலத் தொடர்புகள்: `prefs:root=EMERGENCY_SOS#EMERGENCY_CONTACTS`
+- அவசரகால SOS → கவுன்ட்டவுன் ஒலி: `prefs:root=EMERGENCY_SOS#ALARM_SOUND_SWITCH`
+- Wi-Fi: `prefs:root=WIFI`
+- தொடர்புகள்: `prefs:root=CONTACTS`
+- தொடர்புகள் → அணுகுவதற்குத் தொடர்புகளை அனுமதி: `prefs:root=CONTACTS#Allow%20Contacts%20To%20Access`
+- தொடர்புகள் → Siri: `prefs:root=CONTACTS&path=SIRI_AND_SEARCH`
+- தொடர்புகள் → வகைப்படுத்தல் வரிசை: `prefs:root=CONTACTS&path=ContactsSortOrder`
+- தொடர்புகள் → காட்டப்படும் வரிசை: `prefs:root=CONTACTS&path=PersonNameOrder`
+- தொடர்புகள் → சுருக்கப் பெயர்: `prefs:root=CONTACTS&path=PersonShortName`
+- தொடர்புகள் → சுருக்கப் பெயர் → சுருக்கப் பெயர்: `prefs:root=CONTACTS&path=PersonShortName#Short%20Name`
+- தொடர்புகள் → சுருக்கப் பெயர் → புனைபெயர்களைப் பயன்படுத்து: `prefs:root=CONTACTS&path=PersonShortName#Prefer%20Nicknames`
+- தொடர்புகள் → எனது தகவல்: `prefs:root=CONTACTS&path=MeCard`
+- தொடர்புகள் → SIM தொடர்புகளை இம்போர்ட் செய்: `prefs:root=CONTACTS#SIMImport`
+- கட்டுப்பாட்டு மையம்: `prefs:root=ControlCenter`
+- கட்டுப்பாட்டு மையம் → செயலிகளுக்கு இடையிலான அணுகல்: `prefs:root=ControlCenter#ALLOWED_WITHIN_APPS`
+- கட்டுப்பாட்டு மையம் → கன்ட்ரோல்களைப் பிரத்தியேகமாக்கு: `prefs:root=ControlCenter&path=CUSTOMIZE_CONTROLS`
+- டெவலப்பர்: `prefs:root=DEVELOPER_SETTINGS`
+- டெவலப்பர் → மல்டிபாத் நெட்வொர்க்கிங்: `prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG`
+- டெவலப்பர் → மல்டிபாத் நெட்வொர்க்கிங் → மல்டிபாத் நெட்வொர்க்கிங்: `prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG#Multipath%20Networking`
+- டெவலப்பர் → தோற்றம்: `prefs:root=DEVELOPER_SETTINGS#UIAppearanceGroup`
+- டெவலப்பர் → அடர் தோற்றம்: `prefs:root=DEVELOPER_SETTINGS#UIAppearanceSettings`
+- டெவலப்பர் → இணைக்கப்பட்ட சாதனங்கள்: `prefs:root=DEVELOPER_SETTINGS#DTPairedDevicesGroup`
+- டெவலப்பர் → நம்பகமான கம்ப்யூட்டர்களை நீக்கு: `prefs:root=DEVELOPER_SETTINGS#CLEAR_TRUSTED_COMPUTERS`
+- டெவலப்பர் → பதிவு செய்தல்: `prefs:root=DEVELOPER_SETTINGS&path=DTInstrumentsSettings`
+- டெவலப்பர் → UI ஆட்டோமேஷனைச் செயல்படுத்து: `prefs:root=DEVELOPER_SETTINGS#UIAGroup`
+- டெவலப்பர் → நெட்வொர்க்கிங்: `prefs:root=DEVELOPER_SETTINGS#NLCGroup`
+- டெவலப்பர் → நெட்வொர்க் இணைப்பு கண்டிஷனர்: `prefs:root=DEVELOPER_SETTINGS&path=NLC`
+- டெவலப்பர் → கூடுதல் பதிவுகள்: `prefs:root=DEVELOPER_SETTINGS#ADDITIONAL_LOGGING`
+- டெவலப்பர் → HTTP சேவைகளை அனுமதி: `prefs:root=DEVELOPER_SETTINGS#ALLOW_HTTP_SERVICES`
+- டெவலப்பர் → விகித வரம்பிடலைக் காட்டு: `prefs:root=DEVELOPER_SETTINGS#DISABLE_RATE_LIMITING`
+- டெவலப்பர் → NFC பாஸ் கீ விருப்பத்தேர்வு: `prefs:root=DEVELOPER_SETTINGS#NFC_PASS_KEY_OPTIONAL`
+- டெவலப்பர் → மீடியா சேவைகளைச் சோதித்தல்: `prefs:root=DEVELOPER_SETTINGS#MEDIA_SERVICES_TESTING`
+- டெவலப்பர் → மீடியா சேவைகளை மீட்டமை: `prefs:root=DEVELOPER_SETTINGS#RESET_MEDIA_SERVICES`
+- டெவலப்பர் → Newsஐச் சோதித்தல்: `prefs:root=DEVELOPER_SETTINGS#NEWS_TESTING`
+- டெவலப்பர் → அடுத்த முறை தொடங்கும்போது உள்ளகத் தரவுகளை மீட்டமை: `prefs:root=DEVELOPER_SETTINGS#RESET_LOCAL_DATA_ON_NEXT_LAUNCH`
+- டெவலப்பர் → மீடியா பிளேயர் ஃபிரேம்வொர்க்கைச் சோதித்தல்: `prefs:root=DEVELOPER_SETTINGS#RoutineSettingsGroup`
+- டெவலப்பர் → பிளே ஆகக்கூடிய உள்ளடக்க API: `prefs:root=DEVELOPER_SETTINGS&path=RoutineSettings`
+- டெவலப்பர் → டிவி புரொவைடர்: `prefs:root=DEVELOPER_SETTINGS&path=VideoSubscriberAccountSettings`
+- டெவலப்பர் → ClassKit API: `prefs:root=DEVELOPER_SETTINGS&path=ClassKitSettings`
+- டெவலப்பர் → CoreSpotlightஐச் சோதித்தல்: `prefs:root=DEVELOPER_SETTINGS#CORESPOTLIGHT_TESTING`
+- டெவலப்பர் → அனைத்து ஐட்டங்களையும் மறுஅட்டவணையிடு: `prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS`
+- டெவலப்பர் → அடையாளத் தகவல் மூலம் அனைத்து ஐட்டங்களையும் மறுஅட்டவணையிடு: `prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS_WITH_IDENTIFIERS`
+- டெவலப்பர் → சுருக்கவழிகளைச் சோதித்தல்: `prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_TESTING`
+- டெவலப்பர் → சமீபத்திய சுருக்கவழிகளைக் காட்டு: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_SPOTLIGHT`
+- டெவலப்பர் → இனிவரும் மீடியாவை காட்டு: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_UPCOMING_MEDIA`
+- டெவலப்பர் → பூட்டுத் திரையில் நன்கொடைகளைக் காட்டு: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_LOCKSCREEN`
+- டெவலப்பர் → Watch உடன் சுருக்கவழிகளைக் கட்டாயமாக ஒத்திசை: `prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_SYNC_WATCHOS`
+- டெவலப்பர் → MIDI-CIஐச் சோதித்தல்: `prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA`
+- டெவலப்பர் → MIDI-CIஐச் செயல்படுத்து: `prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA_ENABLE`
+- டெவலப்பர் → ஹேங் கண்டறிதல்: `prefs:root=DEVELOPER_SETTINGS#HANGTRACER_EXTERNAL_CONFIGURE`
+- Bluetooth: `prefs:root=Bluetooth`
+- பங்குகள்: `prefs:root=STOCKS`
+- பங்குகள் → தனியுரிமை: `prefs:root=STOCKS#Privacy`
+- பங்குகள் → அடையாளத் தகவலை மீட்டமை: `prefs:root=STOCKS#reset_identifier`
+- மொழிபெயர்ப்பு: `prefs:root=TRANSLATE`
+- மொழிபெயர்ப்பு → சாதனத்தில் மொழிபெயர்ப்புப் பயன்முறை: `prefs:root=TRANSLATE#OnDeviceOnly`
+- செய்திகள்: `prefs:root=NEWS`
+- செய்திகள் → செய்தி முன்னோட்டங்களைக் காட்டு: `prefs:root=NEWS#show_excerpt_mode`
+- செய்திகள் → குறிப்பிட்ட செய்திகளை மட்டும் “இன்று” பிரிவில் பெறுக: `prefs:root=NEWS#showStoriesFromFavoritesSpecifierID`
+- செய்திகள் → தனியுரிமை: `prefs:root=NEWS#Privacy`
+- செய்திகள் → அடையாளத் தகவலை மீட்டமை: `prefs:root=NEWS#reset_identifier`
+- செய்திகள் → அங்கீகாரங்கள்: `prefs:root=NEWS&path=Acknowledgements`
+- மெசேஜஸ்: `prefs:root=MESSAGES`
+- FaceTime: `prefs:root=FACETIME`
+- ஃபோட்டோஸ்: `prefs:root=Photos`
+- ஃபோட்டோஸ் → iCloud புகைப்படங்கள்: `prefs:root=Photos#iCloudPhotosSwitch`
+- ஃபோட்டோஸ் → சேமிப்பகத்தை உகந்ததாக்கு: `prefs:root=Photos#iCloudOptimizeStorageOption`
+- ஃபோட்டோஸ் → பதிவிறக்கு, அசல்களை வைத்திரு: `prefs:root=Photos#iCloudKeepOriginalsOption`
+- ஃபோட்டோஸ் → பகிர்ந்த ஆல்பங்கள்: `prefs:root=Photos#SharedStreamsSwitch`
+- ஃபோட்டோஸ் → மொபைல் டேட்டா: `prefs:root=Photos&path=CellularDataLinkList`
+- ஃபோட்டோஸ் → வீடியோக்களை ஆட்டோபிளே செய்: `prefs:root=Photos#VideoAutoplaySwitch`
+- ஃபோட்டோஸ் → முழு HDRஇல் காட்டு: `prefs:root=Photos#ImageModulationSwitch`
+- ஃபோட்டோஸ் → விடுமுறை நிகழ்வுகளைக் காட்டு: `prefs:root=Photos#MEMORIES_HOLIDAY_CALENDAR_EVENTS_SWITCH`
+- ஃபோட்டோஸ் → Mac அல்லது PCக்கு இடமாற்றுதல்: `prefs:root=Photos#TransferGroup`
+- பாதிப்பு அறிவிப்புகள்: `prefs:root=EXPOSURE_NOTIFICATION`
+- கேமரா: `prefs:root=CAMERA`
+- கேமரா → வடிவமைப்புகள்: `prefs:root=CAMERA&path=CameraFormatsSettingsList`
+- கேமரா → வடிவமைப்புகள் → Apple ProRaw: `prefs:root=CAMERA&path=CameraFormatsSettingsList#CAMUserPreferenceEnableLinearDNGControl`
+- கேமரா → Record Video: `prefs:root=CAMERA&path=Record%20Video`
+- கேமரா → Record Video → HDR வீடியோ: `prefs:root=CAMERA&path=Record%20Video#HDR%20Video`
+- கேமரா → அமைப்புகளைச் சேமி: `prefs:root=CAMERA&path=CameraPreserveSettingsSwitch`
+- கேமரா → அமைப்புகளைச் சேமி → கேமரா பயன்முறை: `prefs:root=CAMERA&path=CameraPreserveSettingsSwitch#CAMUserPreferencePreserveCaptureMode`
+- கேமரா → கிரிட்: `prefs:root=CAMERA#CameraGridSwitch`
+- கேமரா → QR குறியீடுகளை ஸ்கேன் செய்: `prefs:root=CAMERA#CameraQRBannerSwitch`
+- மொபைல் சேவை: `prefs:root=MOBILE_DATA_SETTINGS_ID`
+- மொபைல் சேவை → மொபைல் டேட்டா விருப்பங்கள்: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS`
+- மொபைல் சேவை → மொபைல் டேட்டா விருப்பங்கள் → குறைந்த தரவுப் பயன்முறை: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS#Low%20Data%20Mode`
+- மொபைல் சேவை → மொபைல் டேட்டா: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=SHOW_ALL`
+- பாட்காஸ்ட்கள்: `prefs:root=PODCASTS`
+- திசைகாட்டி: `prefs:root=COMPASS`
+- திசைகாட்டி → உண்மை வடக்கைப் பயன்படுத்து: `prefs:root=COMPASS#USE_TRUE_NORTH`
+- புத்தகங்கள்: `prefs:root=IBOOKS`
+- புத்தகங்கள் → ஆன்லைன் உள்ளடக்கம்: `prefs:root=IBOOKS#BKAllowOnlineContent`
+- புத்தகங்கள் → ஒத்திசைக்கிறது: `prefs:root=IBOOKS#SYNCING`
+- புத்தகங்கள் → தற்போது வாசிப்பவை: `prefs:root=IBOOKS#BKLibrary.ReadingNow`
+- புத்தகங்கள் → iCloud Drive: `prefs:root=IBOOKS#BCSyncICloudDrive`
+- புத்தகங்கள் → படித்தல்: `prefs:root=IBOOKS#READING`
+- புத்தகங்கள் → முழுச் சீரமைப்பு: `prefs:root=IBOOKS#BKFullJustification`
+- புத்தகங்கள் → தானாக ஹைஃபன் இடுதல்: `prefs:root=IBOOKS#BKAutoHyphenation`
+- புத்தகங்கள் → இரண்டு மார்ஜின்களிலும் முன்னனுப்பு: `prefs:root=IBOOKS#BKLeftTapTurnToNext`
+- புத்தகங்கள் → வாசிப்பு இலக்குகள்: `prefs:root=IBOOKS#READING_GOALS`
+- புத்தகங்கள் → வாசிப்பு இலக்குகளின் தரவுகளை அழி: `prefs:root=IBOOKS#BKReadingGoalsShouldClearDataKey`
+- புத்தகங்கள் → தேடுகிறது: `prefs:root=IBOOKS#SEARCHING`
+- புத்தகங்கள் → புத்தக ஸ்டோர்: `prefs:root=IBOOKS#BKIncludeBookStoreResultsInSearch`
+- புத்தகங்கள் → ஆடியோ புத்தகங்கள்: `prefs:root=IBOOKS#AUDIOBOOKS`
+- புத்தகங்கள் → முன்னோக்கிச் செல்: `prefs:root=IBOOKS&path=BKAudioBookSkipForward`
+- புத்தகங்கள் → பின்னோக்கிச் செல்: `prefs:root=IBOOKS&path=BKAudioBookSkipBackward`
+- புத்தகங்கள் → வெளிப்புற கன்ட்ரோல்கள்: `prefs:root=IBOOKS#BKRemoteSkipInsteadOfNextTrackDefaultKey`
+- புத்தகங்கள் → அடுத்து/முன்பு: `prefs:root=IBOOKS#Next/Previous`
+- புத்தகங்கள் → முன்னோக்கி/பின்னோக்கிச் செல்: `prefs:root=IBOOKS#Skip%20Forward/Back`
+- புத்தகங்கள் → தனியுரிமை: `prefs:root=IBOOKS#PRIVACY`
+- புத்தகங்கள் → அடையாளத் தகவலை மீட்டமை: `prefs:root=IBOOKS#BAResetAnalyticsUserID`
+- புத்தகங்கள் → அங்கீகாரங்கள்: `prefs:root=IBOOKS&path=Acknowledgements`
+- விமானப் பயன்முறை: `prefs:root=ROOT#AIRPLANE_MODE`

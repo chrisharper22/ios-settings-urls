@@ -1,0 +1,1186 @@
+- Batteri: `prefs:root=BATTERY_USAGE`
+- Batteri → Strömsparläge: `prefs:root=BATTERY_USAGE#BATTERY_SAVER_MODE`
+- Batteri → Batterihälsa: `prefs:root=BATTERY_USAGE#BATTERY_HEALTH_ID`
+- Snabbknapp: `prefs:root=ACTION_BUTTON`
+- Notiser: `prefs:root=NOTIFICATIONS_ID`
+- Notiser → Schemalagd sammanfattning: `prefs:root=NOTIFICATIONS_ID&path=SCHEDULED_DELIVERY_ID`
+- Allmänt: `prefs:root=General`
+- Allmänt → VPN och enhetshantering: `prefs:root=General&path=ManagedConfigurationList`
+- Allmänt → AppleCare och garanti: `prefs:root=General&path=COVERAGE/`
+- Allmänt → Autofyll och lösenord: `prefs:root=General&path=AUTOFILL`
+- Allmänt → Autofyll och lösenord → Autofyll lösenord: `prefs:root=General&path=AUTOFILL#AUTOFILL`
+- Allmänt → Autofyll och lösenord → Rensa verifieringskoder: `prefs:root=General&path=AUTOFILL#CLEAN_UP_VERIFICATION_CODES`
+- Allmänt → Autofyll och lösenord → Ställ in verifieringskoder: `prefs:root=General&path=AUTOFILL#SET_UP_VERIFICATION_CODES`
+- Allmänt → Lagring: `prefs:root=General&path=STORAGE_MGMT`
+- Allmänt → Lagring → Lagring: `prefs:root=General&path=STORAGE_MGMT#MANAGE`
+- Allmänt → Lagring → Avlasta oanvända: `prefs:root=General&path=STORAGE_MGMT#OFFLOAD`
+- Allmänt → Programuppdatering: `prefs:root=General&path=SOFTWARE_UPDATE_LINK`
+- Allmänt → Programuppdatering → Uppdatera automatiskt: `prefs:root=General&path=SOFTWARE_UPDATE_LINK/SUAutomaticUpdateButton`
+- Allmänt → Tangentbord: `prefs:root=General&path=Keyboard`
+- Allmänt → Tangentbord → Tangentbord: `prefs:root=General&path=Keyboard/KEYBOARDS`
+- Allmänt → Tangentbord → Textersättning: `prefs:root=General&path=Keyboard/USER_DICTIONARY`
+- Allmänt → Tangentbord → Automatiska versaler: `prefs:root=General&path=Keyboard#KeyboardAutocapitalization`
+- Allmänt → Tangentbord → Automatisk korrigering: `prefs:root=General&path=Keyboard#KeyboardAutocorrection`
+- Allmänt → Tangentbord → Kontrollera stavning: `prefs:root=General&path=Keyboard#KeyboardCheckSpelling`
+- Allmänt → Tangentbord → Aktivera skiftlås: `prefs:root=General&path=Keyboard#KeyboardCapsLock`
+- Allmänt → Tangentbord → Genvägar: `prefs:root=General&path=Keyboard#KeyboardAssistant`
+- Allmänt → Tangentbord → Förslag: `prefs:root=General&path=Keyboard#KeyboardPrediction`
+- Allmänt → Tangentbord → Smart interpunktion: `prefs:root=General&path=Keyboard#SmartTyping`
+- Allmänt → Tangentbord → Delat tangentbord: `prefs:root=General&path=Keyboard#RivenKeyboard`
+- Allmänt → Tangentbord → Aktivera tangentsvepningar: `prefs:root=General&path=Keyboard#GesturesEnabled`
+- Allmänt → Tangentbord → Förhandsvisning av tecken: `prefs:root=General&path=Keyboard#KeyboardAllowPaddle`
+- Allmänt → Tangentbord → ”.”-kortkommando: `prefs:root=General&path=Keyboard#KeyboardPeriodShortcut`
+- Allmänt → Tangentbord → Dra för att skriva: `prefs:root=General&path=Keyboard#KeyboardContinuousPathEnabled`
+- Allmänt → Tangentbord → Aktivera diktering: `prefs:root=General&path=Keyboard#Dictation`
+- Allmänt → Tangentbord → Automatiska skiljetecken: `prefs:root=General&path=Keyboard#AutoPunctuationSetting`
+- Allmänt → Språk och region: `prefs:root=General&path=INTERNATIONAL`
+- Allmänt → Språk och region → Andra språk…: `prefs:root=General&path=INTERNATIONAL#NEW_PREFERRED_LANGUAGE`
+- Allmänt → Språk och region → Föredragen språkordning: `prefs:root=General&path=INTERNATIONAL#PREFERRED_LANGUAGE_GROUP`
+- Allmänt → Språk och region → Lägg till språk…: `prefs:root=General&path=INTERNATIONAL#ADD_PREFERRED_LANGUAGE`
+- Allmänt → Språk och region → Region: `prefs:root=General&path=INTERNATIONAL/LOCALE`
+- Allmänt → Språk och region → Siffror: `prefs:root=General&path=INTERNATIONAL/NUMBERING_SYSTEM`
+- Allmänt → Språk och region → Kalender: `prefs:root=General&path=INTERNATIONAL/CALENDAR`
+- Allmänt → Språk och region → Temperaturenhet: `prefs:root=General&path=INTERNATIONAL/TEMPERATURE_UNIT`
+- Allmänt → Ordbok: `prefs:root=General&path=DICTIONARY`
+- Allmänt → Bild-i-bild: `prefs:root=General&path=PiP_SPEC`
+- Allmänt → Styrplatta: `prefs:root=General&path=POINTERS`
+- Allmänt → NFC: `prefs:root=General&path=NFC_LINK`
+- Allmänt → VPN: `prefs:root=General&path=VPN`
+- Allmänt → CarPlay: `prefs:root=General&path=CARPLAY`
+- Allmänt → Om: `prefs:root=General&path=About`
+- Allmänt → Om → Betrodda certifikat: `prefs:root=General&path=About/CERT_TRUST_SETTINGS`
+- Allmänt → Om → Serienummer: `prefs:root=General&path=About#SerialNumber`
+- Allmänt → Om → Modellnummer: `prefs:root=General&path=About#ProductModel`
+- Allmänt → Om → Modellnamn: `prefs:root=General&path=About#ProductModelName`
+- Allmänt → Om → iOS-version: `prefs:root=General&path=About/SW_VERSION_SPECIFIER`
+- Allmänt → Juridik och regelverk: `prefs:root=General&path=LEGAL_AND_REGULATORY`
+- Allmänt → Juridik och regelverk → Garanti: `prefs:root=General&path=LEGAL_AND_REGULATORY#Warranty`
+- Allmänt → AirDrop: `prefs:root=General&path=AIRDROP_LINK`
+- Allmänt → AirDrop → Sammanföra enheter: `prefs:root=General&path=AIRDROP_LINK#AIRDROP_NFC_ID`
+- Allmänt → Hemknapp: `prefs:root=General&path=HOME_BUTTON`
+- Allmänt → Sidoknapp: `prefs:root=General#Rotation_Switch_Action_Group`
+- Allmänt → Appaktiviteter i bakgrunden: `prefs:root=General&path=AUTO_CONTENT_DOWNLOAD`
+- Allmänt → Datum och tid: `prefs:root=General&path=DATE_AND_TIME`
+- Allmänt → TV ut: `prefs:root=General&path=TV_OUT`
+- Allmänt → Nollställ: `prefs:root=General&path=Reset`
+- Allmänt → Nollställ → Nollställ alla inställningar: `prefs:root=General&path=Reset#settingsErase`
+- Allmänt → Nollställ → Radera allt innehåll och alla inställningar: `prefs:root=General&path=Reset#fullErase`
+- Allmänt → Nollställ → Nollställ nätverk: `prefs:root=General&path=Reset#RESET_NETWORK_LABEL`
+- Allmänt → Nollställ → Ta bort alla mobildataabonnemang: `prefs:root=General&path=Reset#cellularErase`
+- Allmänt → Nollställ → Abonnemangstjänster: `prefs:root=General&path=Reset#SUBSCRIBER_SERVICES_ID`
+- Allmänt → Nollställ → Nollställ tangentbordsordbok: `prefs:root=General&path=Reset#RESET_KEYBOARD_DICTIONARY_LABEL`
+- Allmänt → Nollställ → Nollställ hemskärmens layout: `prefs:root=General&path=Reset#RESET_ICONS_LABEL`
+- Allmänt → Nollställ → Nollställ plats och integritet: `prefs:root=General&path=Reset#RESET_PRIVACY_LABEL`
+- Allmänt → Stäng av: `prefs:root=General#SHUTDOWN_LABEL`
+- Allmänt → AirPlay och kontinuitet: `prefs:root=General&path=CONTINUITY_SPEC`
+- Allmänt → AirPlay och kontinuitet → Handoff: `prefs:root=General&path=CONTINUITY_SPEC#CONTINUITY`
+- Allmänt → AirPlay och kontinuitet → Överför till HomePod: `prefs:root=General&path=CONTINUITY_SPEC#TRANSFER_TO_HOMEPOD`
+- Allmänt → AirPlay och kontinuitet → Automatiskt med AirPlay: `prefs:root=General&path=CONTINUITY_SPEC#AUTOMATICALLY_AIRPLAY`
+- Allmänt → AirPlay och kontinuitet → Kontinuitetskamera: `prefs:root=General&path=CONTINUITY_SPEC#WOMBAT_CAMERA`
+- Plånbok och Apple Pay: `prefs:root=PASSBOOK`
+- Plånbok och Apple Pay → Apple Cash: `prefs:root=PASSBOOK#Apple%C2%A0Cash`
+- Plånbok och Apple Pay → Kontokort: `prefs:root=PASSBOOK#SETTINGS_PAYMENT_CARDS_GROUP`
+- Plånbok och Apple Pay → Lägg till kort: `prefs:root=PASSBOOK#Add%20Card`
+- Plånbok och Apple Pay → Dubbelklicka på sidoknappen: `prefs:root=PASSBOOK#Double-Click%20Side%20Button`
+- Plånbok och Apple Pay → Beställningsspårning: `prefs:root=PASSBOOK#ORDER_TRACKING`
+- Dagbok: `prefs:root=JOURNAL`
+- Standby: `prefs:root=AMBIENT`
+- Väder: `prefs:root=WEATHER`
+- Apple-konto: `prefs:root=APPLE_ACCOUNT` or `settings-navigation://com.apple.Settings.AppleAccount`
+- Apple-konto → iCloud: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE` or `prefs:root=CASTLE`
+- Apple-konto → iCloud → iCloud-lagring: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/STORAGE_AND_BACKUP` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/STORAGE_AND_BACKUP` or `prefs:root=CASTLE&path=STORAGE_AND_BACKUP`
+- Apple-konto → iCloud → iCloud Drive: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Ubiquity` or `prefs:root=CASTLE&path=com.apple.Dataclass.Ubiquity`
+- Apple-konto → iCloud → Bilder: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.MediaStream` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.MediaStream` or `prefs:root=CASTLE&path=com.apple.Dataclass.MediaStream`
+- Apple-konto → iCloud → Mail: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Mail` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail` or `prefs:root=CASTLE&path=com.apple.Dataclass.Mail`
+- Apple-konto → iCloud → Mail → Anpassad e-postdomän: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Mail/BYOD_SETTING_SPECIFIER_ID` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/BYOD_SETTING_SPECIFIER_ID` or `prefs:root=CASTLE&path=com.apple.Dataclass.Mail/BYOD_SETTING_SPECIFIER_ID`
+- Apple-konto → iCloud → Kontakter: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Contacts` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Contacts` or `prefs:root=CASTLE&path=com.apple.Dataclass.Contacts`
+- Apple-konto → iCloud → Kalender: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Calendars` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Calendars` or `prefs:root=CASTLE&path=com.apple.Dataclass.Calendars`
+- Apple-konto → iCloud → Påminnelser: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Reminders` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Reminders` or `prefs:root=CASTLE&path=com.apple.Dataclass.Reminders`
+- Apple-konto → iCloud → Safari: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Bookmarks` or `prefs:root=CASTLE&path=com.apple.Dataclass.Bookmarks`
+- Apple-konto → iCloud → Anteckningar: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Notes` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Notes` or `prefs:root=CASTLE&path=com.apple.Dataclass.Notes`
+- Apple-konto → iCloud → News: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.News` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.News` or `prefs:root=CASTLE&path=com.apple.Dataclass.News`
+- Apple-konto → iCloud → Säkerhetskopiering: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/BACKUP` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/BACKUP` or `prefs:root=CASTLE&path=BACKUP`
+- Apple-konto → iCloud → Hälsa: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.Health` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Health` or `prefs:root=CASTLE&path=com.apple.Dataclass.Health`
+- Apple-konto → iCloud → Lösenord och nyckelring: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.KeychainSync` or `prefs:root=CASTLE&path=com.apple.Dataclass.KeychainSync`
+- Apple-konto → iCloud → Dölj min e-postadress: `prefs:root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE` or `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/PRIVATE_EMAIL_MANAGE` or `prefs:root=CASTLE&path=PRIVATE_EMAIL_MANAGE`
+- Apple-konto → Dela min platsinfo: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING` or `settings-navigation://com.apple.Settings.AppleAccount/LOCATION_SHARING`
+- Apple-konto → Dela min platsinfo → Hitta: `prefs:root=APPLE_ACCOUNT&path=LOCATION_SHARING/FindMyDevice-Settings` or `settings-navigation://com.apple.Settings.AppleAccount/LOCATION_SHARING/FindMyDevice-Settings`
+- Apple-konto → Namn, telefon, e-post: `prefs:root=APPLE_ACCOUNT&path=APPLE_ACCOUNT_CONTACT` or `settings-navigation://com.apple.Settings.AppleAccount/APPLE_ACCOUNT_CONTACT`
+- Apple-konto → Lösenord och säkerhet: `prefs:root=APPLE_ACCOUNT&path=PASSWORD_AND_SECURITY` or `settings-navigation://com.apple.Settings.AppleAccount/PASSWORD_AND_SECURITY`
+- Apple-konto → Betalning och leverans: `prefs:root=APPLE_ACCOUNT&path=PAYMENT_AND_SHIPPING` or `settings-navigation://com.apple.Settings.AppleAccount/PAYMENT_AND_SHIPPING`
+- Apple-konto → Abonnemang: `prefs:root=APPLE_ACCOUNT&path=SUBSCRIPTIONS` or `settings-navigation://com.apple.Settings.AppleAccount/SUBSCRIPTIONS`
+- Apple-konto → Familj: `prefs:root=APPLE_ACCOUNT&path=Family` or `settings-navigation://com.apple.Settings.AppleAccount/Family`
+- Apple-konto → Verifiering av kontaktnyckel: `prefs:root=APPLE_ACCOUNT&path=TRANSPARENCY` or `settings-navigation://com.apple.Settings.AppleAccount/TRANSPARENCY`
+- Kartor: `prefs:root=MAPS`
+- Kartor → Luftkvalitet: `prefs:root=MAPS#AirQualityPreferenceID`
+- Kartor → Alltid på svenska: `prefs:root=MAPS#LabelLanguageAlwaysUIPreferenceID`
+- Kartor → Cykling: `prefs:root=MAPS&path=CyclingLinkPreferenceID`
+- Kartor → Önskad transporttyp: `prefs:root=MAPS#TransportTypePreferenceGroupID`
+- Kartor → Bil: `prefs:root=MAPS&path=DrivingLinkPreferenceID`
+- Kartor → Upplästa färdbeskrivningar: `prefs:root=MAPS&path=NavigationGuidanceLinkPreferenceID`
+- Kartor → Visa plats för parkeringen: `prefs:root=MAPS#ParkedCarPreferenceID`
+- Kartor → Dela beräknad ankomst: `prefs:root=MAPS#ShareETAPreferenceID`
+- Kartor → Kollektivtrafik: `prefs:root=MAPS&path=TransitLinkPreferenceID`
+- Kartor → Gång: `prefs:root=MAPS&path=WalkingLinkPreferenceID`
+- Kartor → Väderförhållanden: `prefs:root=MAPS#WeatherConditionsPreferenceID`
+- Skärmtid: `prefs:root=SCREEN_TIME`
+- Skärmtid → See All App & Website Activity: `prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY`
+- Skärmtid → See All App & Website Activity → Idag: `prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY#DAY`
+- Skärmtid → See All App & Website Activity → Vecka: `prefs:root=SCREEN_TIME&path=SCREEN_TIME_SUMMARY#WEEK`
+- Skärmtid → Skärmfri tid: `prefs:root=SCREEN_TIME&path=DOWNTIME`
+- Skärmtid → Appbegränsningar: `prefs:root=SCREEN_TIME&path=APP_LIMITS`
+- Skärmtid → Kommunikationsgränser: `prefs:root=SCREEN_TIME&path=COMMUNICATION_LIMITS`
+- Skärmtid → Kommunikationssäkerhet: `prefs:root=SCREEN_TIME&path=COMMUNICATION_SAFETY`
+- Skärmtid → Alltid tillåtna: `prefs:root=SCREEN_TIME&path=ALWAYS_ALLOWED`
+- Skärmtid → Begränsa innehåll/integritet: `prefs:root=SCREEN_TIME&path=CONTENT_PRIVACY`
+- Skärmtid → Föräldrakontroll: `prefs:root=SCREEN_TIME#FAMILY`
+- Skärmtid → Skärmavstånd: `prefs:root=SCREEN_TIME&path=EYE_DISTANCE`
+- Freeform: `prefs:root=FREEFORM`
+- Fokus: `prefs:root=DO_NOT_DISTURB`
+- Fokus → Fokusstatus: `prefs:root=DO_NOT_DISTURB&path=status`
+- Utseende: `prefs:root=DISPLAY`
+- Utseende → Utseende: `prefs:root=DISPLAY#DEVICE_APPEARANCE`
+- Utseende → True Tone: `prefs:root=DISPLAY#WHITE_BALANCE`
+- Utseende → Night Shift: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION`
+- Utseende → Night Shift → Schemalagd: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#SCHEDULED`
+- Utseende → Night Shift → Aktivera manuellt tills imorgon: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#MANUAL`
+- Utseende → Night Shift → Färgtemperatur: `prefs:root=DISPLAY&path=BLUE_LIGHT_REDUCTION#COLOR_TEMPERATURE`
+- Utseende → Autolås: `prefs:root=DISPLAY&path=AUTOLOCK`
+- Utseende → Håll upp för att väcka: `prefs:root=DISPLAY#RAISE_TO_WAKE`
+- Utseende → Lås/Lås upp: `prefs:root=DISPLAY#SMART_CASE_LOCK_SPEC`
+- Utseende → Textstorlek: `prefs:root=DISPLAY&path=TEXT_SIZE`
+- Utseende → Fet text: `prefs:root=DISPLAY#BOLD_TEXT`
+- Utseende → Ljusstyrka: `prefs:root=DISPLAY#BRIGHTNESS`
+- Utseende → Visningszoom: `prefs:root=DISPLAY#DISPLAY_ZOOM_GROUP`
+- Utseende → Utseende: `prefs:root=DISPLAY&path=APPEARANCE`
+- Utseende → Utseende → Fönsterzoom: `prefs:root=DISPLAY&path=APPEARANCE#WINDOW_ZOOM`
+- Utseende → Utseende → Fönsterzoom med två händer: `prefs:root=DISPLAY&path=APPEARANCE#TWO_HANDED_WINDOW_ZOOM`
+- Utseende → Visa: `prefs:root=DISPLAY&path=MAGNIFY`
+- Utseende → Alltid på: `prefs:root=DISPLAY&path=ALWAYS_ON`
+- Utseende → Alltid på → Alltid på: `prefs:root=DISPLAY&path=ALWAYS_ON#ALWAYS_ON`
+- Utseende → Kompatibla appar: `prefs:root=DISPLAY&path=COMPATIBLE_APPEARANCE`
+- Utseende → Kompatibla appar → Mörkt, ljust: `prefs:root=DISPLAY&path=COMPATIBLE_APPEARANCE#COMPATIBLE_APPEARANCE_CHOICES`
+- Hemskärm: `prefs:root=HOME_SCREEN`
+- Hemskärm → Senast hämtade appar: `prefs:root=HOME_SCREEN&path=APP_DOWNLOADS_GO_TO`
+- Hemskärm → Notisbrickor: `prefs:root=HOME_SCREEN#BADGES_IN_APP_LIBRARY`
+- Hemskärm och appbibliotek: `prefs:root=HOME_SCREEN_DOCK`
+- Hemskärm och appbibliotek → Senast hämtade appar: `prefs:root=HOME_SCREEN_DOCK&path=APP_DOWNLOADS_GO_TO`
+- Hemskärm och appbibliotek → Dock: `prefs:root=HOME_SCREEN_DOCK&path=MULTITASKING_DOCK`
+- Hemskärm och appbibliotek → Dock → Visa appbiblioteket i Dock: `prefs:root=HOME_SCREEN_DOCK&path=MULTITASKING_DOCK#SHOW_APP_LIBRARY`
+- Hemskärm och appbibliotek → Visa föreslagna och senaste appar i Dock: `prefs:root=HOME_SCREEN_DOCK#ALLOW_RECENTS`
+- Hemskärm och appbibliotek → Blickfång: `prefs:root=HOME_SCREEN_DOCK&path=CONTINUOUS-EXPOSE`
+- Multitasking & Gestures: `prefs:root=com.apple.MultitaskingAndGesturesSettings`
+- Multitasking & Gestures → Multitasking: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Multitasking`
+- Multitasking & Gestures → Multitasking → Tillåt flera appar: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Multitasking#MultipleApps`
+- Multitasking & Gestures → Multitasking → Split View och Slide Over: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Multitasking#SplitViewSlideOver`
+- Multitasking & Gestures → Multitasking → Skärm­dubblering: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Multitasking#ScreenMirroring`
+- Multitasking & Gestures → Multitasking → Blickfång: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Multitasking#StageManager`
+- Multitasking & Gestures → Multitasking → Visa senaste appar i Blickfång: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Multitasking#StageManagerRecentApps`
+- Multitasking & Gestures → Multitasking → Visa Dock i Blickfång: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Multitasking#StageManagerDock`
+- Multitasking & Gestures → Bild-i-bild: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=PictureInPicture`
+- Multitasking & Gestures → Produktivitetsgester: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Productivity`
+- Multitasking & Gestures → Produktivitetsgester → Gester: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Productivity#Gestures`
+- Multitasking & Gestures → Produktivitetsgester → Produktivitetsgester: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=Productivity#ProductivityGestures`
+- Multitasking & Gestures → Gester med fyra eller fem fingrar: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=FourAndFiveFingers`
+- Multitasking & Gestures → Skaka för att ångra: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=ShakeToUndo`
+- Multitasking & Gestures → Hörngester: `prefs:root=com.apple.MultitaskingAndGesturesSettings&path=CornerGestures`
+- Hjälpmedel: `prefs:root=ACCESSIBILITY`
+- Hjälpmedel → VoiceOver: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE`
+- Hjälpmedel → VoiceOver → VoiceOver-träning: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#VoiceOverTouchTutorialEnabled`
+- Hjälpmedel → VoiceOver → Uppläsningshastighet: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#SpeakingRateSlider`
+- Hjälpmedel → VoiceOver → Tal: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Voices`
+- Hjälpmedel → VoiceOver → Tal → Uttal: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Voices/PRONUNCIATION_DICTIONARY`
+- Hjälpmedel → VoiceOver → Tal → Uttal → Uttal: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Voices/PRONUNCIATION_DICTIONARY#PRONUNCIATION_DICTIONARY`
+- Hjälpmedel → VoiceOver → Tal → Tonändring: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Voices#PITCH_CHANGES_TITLE`
+- Hjälpmedel → VoiceOver → Tal → Lägg till rotorröst…: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Voices#ADD_NEW_VOICE`
+- Hjälpmedel → VoiceOver → Tal → Upptäck språk: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Voices#LANGUAGE_DETECTION`
+- Hjälpmedel → VoiceOver → Tal → Rumsanpassa tal: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Voices#SPATIALIZE_SPEECH`
+- Hjälpmedel → VoiceOver → Utförlighet: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity`
+- Hjälpmedel → VoiceOver → Utförlighet → Utförlighet: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#Verbosity`
+- Hjälpmedel → VoiceOver → Utförlighet → Interpunktion: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup`
+- Hjälpmedel → VoiceOver → Utförlighet → Interpunktion → Interpunktion: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup#voiceOverPunctuationGroup`
+- Hjälpmedel → VoiceOver → Utförlighet → Interpunktion → Aktiv interpunktionsgrupp: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup#voiceOverActivePunctuationGroup`
+- Hjälpmedel → VoiceOver → Utförlighet → Interpunktion → Alla: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup#all`
+- Hjälpmedel → VoiceOver → Utförlighet → Interpunktion → Vissa: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup#AXSSVoiceOverPunctuationGroupSome`
+- Hjälpmedel → VoiceOver → Utförlighet → Interpunktion → Ingen: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup#PunctuationGroupNone`
+- Hjälpmedel → VoiceOver → Utförlighet → Interpunktion → Lägg till interpunktionsgrupp: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup/NewPunctuation`
+- Hjälpmedel → VoiceOver → Utförlighet → Interpunktion → Lägg till interpunktionsgrupp → Lägg till interpunktionsgrupp: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup/NewPunctuation#NewPunctuation`
+- Hjälpmedel → VoiceOver → Utförlighet → Interpunktion → Importera: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup/ImportPunctuation`
+- Hjälpmedel → VoiceOver → Utförlighet → Interpunktion → Importera → Importera: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverPunctuationGroup/ImportPunctuation#ImportPunctuation`
+- Hjälpmedel → VoiceOver → Utförlighet → Läs upp tips: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#HINTS_TITLE`
+- Hjälpmedel → VoiceOver → Utförlighet → Systemnotiser: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/SystemNotifications`
+- Hjälpmedel → VoiceOver → Utförlighet → Systemnotiser → Systemnotiser: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/SystemNotifications#SystemNotifications`
+- Hjälpmedel → VoiceOver → Utförlighet → Systemnotiser → Notiser när skärmen är låst: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/SystemNotifications#LockScreenNotifications`
+- Hjälpmedel → VoiceOver → Utförlighet → Systemnotiser → Banderollnotiser: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/SystemNotifications#BannerNotifications`
+- Hjälpmedel → VoiceOver → Utförlighet → Systemnotiser → Använd tyst läge: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/SystemNotifications#NOTIFICATION_USE_RINGER_SWITCH`
+- Hjälpmedel → VoiceOver → Utförlighet → QuickNav-meddelanden: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverQuickNavAnnouncementFeedback`
+- Hjälpmedel → VoiceOver → Utförlighet → QuickNav-meddelanden → QuickNav-meddelanden: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverQuickNavAnnouncementFeedback#voiceOverQuickNavAnnouncementFeedback`
+- Hjälpmedel → VoiceOver → Utförlighet → Notiser för ficklampa: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverFlashlightNotificationsEnabled`
+- Hjälpmedel → VoiceOver → Utförlighet → Notiser för ficklampa → Notiser för ficklampa: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverFlashlightNotificationsEnabled#voiceOverFlashlightNotificationsEnabled`
+- Hjälpmedel → VoiceOver → Utförlighet → Stora bokstäver: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverCapitalLetterFeedback`
+- Hjälpmedel → VoiceOver → Utförlighet → Stora bokstäver → Stora bokstäver: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverCapitalLetterFeedback#voiceOverCapitalLetterFeedback`
+- Hjälpmedel → VoiceOver → Utförlighet → Radera text: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverDeletionFeedback`
+- Hjälpmedel → VoiceOver → Utförlighet → Radera text → Radera text: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverDeletionFeedback#voiceOverDeletionFeedback`
+- Hjälpmedel → VoiceOver → Utförlighet → Länkar: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverLinkFeedback`
+- Hjälpmedel → VoiceOver → Utförlighet → Länkar → Länkar: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverLinkFeedback#voiceOverLinkFeedback`
+- Hjälpmedel → VoiceOver → Utförlighet → Åtgärder: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverActionsFeedback`
+- Hjälpmedel → VoiceOver → Utförlighet → Åtgärder → Åtgärder: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverActionsFeedback#voiceOverActionsFeedback`
+- Hjälpmedel → VoiceOver → Utförlighet → Mer innehåll: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMoreContentOutputFeedback`
+- Hjälpmedel → VoiceOver → Utförlighet → Mer innehåll → Mer innehåll: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMoreContentOutputFeedback#voiceOverMoreContentOutputFeedback`
+- Hjälpmedel → VoiceOver → Utförlighet → Beskrivningar av behållare: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverContainerOutputFeedback`
+- Hjälpmedel → VoiceOver → Utförlighet → Beskrivningar av behållare → Beskrivningar av behållare: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverContainerOutputFeedback#voiceOverContainerOutputFeedback`
+- Hjälpmedel → VoiceOver → Utförlighet → Siffror: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverNumberFeedback`
+- Hjälpmedel → VoiceOver → Utförlighet → Siffror → Siffror: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverNumberFeedback#voiceOverNumberFeedback`
+- Hjälpmedel → VoiceOver → Utförlighet → Förutseende text-feedback: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/PREDICTIVE_TEXT_FEEDBACK`
+- Hjälpmedel → VoiceOver → Utförlighet → Förutseende text-feedback → Förutseende text-feedback: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/PREDICTIVE_TEXT_FEEDBACK#PREDICTIVE_TEXT_FEEDBACK`
+- Hjälpmedel → VoiceOver → Utförlighet → Förutseende text-feedback → När förutseende text visas: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/PREDICTIVE_TEXT_FEEDBACK/InlineTextCompletionAppearanceFeedback`
+- Hjälpmedel → VoiceOver → Utförlighet → Förutseende text-feedback → När förutseende text visas → När förutseende text visas: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/PREDICTIVE_TEXT_FEEDBACK/InlineTextCompletionAppearanceFeedback#InlineTextCompletionAppearanceFeedback`
+- Hjälpmedel → VoiceOver → Utförlighet → Förutseende text-feedback → När förutseende text-feedback anges: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/PREDICTIVE_TEXT_FEEDBACK/InlineTextCompletionInsertionFeedback`
+- Hjälpmedel → VoiceOver → Utförlighet → Förutseende text-feedback → När förutseende text-feedback anges → När förutseende text-feedback anges: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/PREDICTIVE_TEXT_FEEDBACK/InlineTextCompletionInsertionFeedback#InlineTextCompletionInsertionFeedback`
+- Hjälpmedel → VoiceOver → Utförlighet → Tabellrubriker: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#speakTableHeader`
+- Hjälpmedel → VoiceOver → Utförlighet → Rad- och kolumnnummer: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#SPEAK_TABLE_ROW_COLUMN`
+- Hjälpmedel → VoiceOver → Utförlighet → Läs upp bekräftelse: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#ACTION_CONFIRMATION`
+- Hjälpmedel → VoiceOver → Utförlighet → Sammanfattning för webbrotor: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverRotorSummaryFeedback`
+- Hjälpmedel → VoiceOver → Utförlighet → Sammanfattning för webbrotor → Sammanfattning för webbrotor: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverRotorSummaryFeedback#voiceOverRotorSummaryFeedback`
+- Hjälpmedel → VoiceOver → Utförlighet → Emojier: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverEmojiFeedback`
+- Hjälpmedel → VoiceOver → Utförlighet → Emojier → Emojier: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverEmojiFeedback#voiceOverEmojiFeedback`
+- Hjälpmedel → VoiceOver → Utförlighet → Emoji-suffix: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#EMOJI_SUFFIX`
+- Hjälpmedel → VoiceOver → Utförlighet → Mediebeskrivningar: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions`
+- Hjälpmedel → VoiceOver → Utförlighet → Mediebeskrivningar → Mediebeskrivningar: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity/voiceOverMediaDescriptions#voiceOverMediaDescriptions`
+- Hjälpmedel → VoiceOver → Utförlighet → Inmatningsfeedback: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#voiceOverInputFeedback`
+- Hjälpmedel → VoiceOver → Utförlighet → Appfeedback under pekaren: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Verbosity#voiceOverAppHoverFeedback`
+- Hjälpmedel → VoiceOver → Punktskrift: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille`
+- Hjälpmedel → VoiceOver → Punktskrift → Punktskrift: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#Braille`
+- Hjälpmedel → VoiceOver → Punktskrift → Utmatning: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput`
+- Hjälpmedel → VoiceOver → Punktskrift → Utmatning → Utmatning: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayOutput#BrailleDisplayOutput`
+- Hjälpmedel → VoiceOver → Punktskrift → Inmatning: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput`
+- Hjälpmedel → VoiceOver → Punktskrift → Inmatning → Inmatning: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleDisplayInput#BrailleDisplayInput`
+- Hjälpmedel → VoiceOver → Punktskrift → Matcha in- och utmatningstabeller: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BRAILLE_SYNC_TABLES`
+- Hjälpmedel → VoiceOver → Punktskrift → In- och utmatning: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BrailleDisplayOutput`
+- Hjälpmedel → VoiceOver → Punktskrift → Automatisk översättning: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#GRADE2_AUTO_TRANSLATE`
+- Hjälpmedel → VoiceOver → Punktskrift → Punktskrift på skärm: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput`
+- Hjälpmedel → VoiceOver → Punktskrift → Punktskrift på skärm → Punktskrift på skärm: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#BrailleGesturesInput`
+- Hjälpmedel → VoiceOver → Punktskrift → Punktskrift på skärm → Starta automatiskt vid redigering av text: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#AUTO_ACTIVATE_ON_TEXT_FIELDS`
+- Hjälpmedel → VoiceOver → Punktskrift → Punktskrift på skärm → Omvända punktpositioner: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#SHOULD_REVERSE_DOTS`
+- Hjälpmedel → VoiceOver → Punktskrift → Punktskrift på skärm → Håll aktivt tills det avfärdas: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#CONTROL_DEVICE_USING_BRAILLE_GESTURE`
+- Hjälpmedel → VoiceOver → Punktskrift → Punktskrift på skärm → Visuell text-feedback: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#DISPLAY_ENTERED_TEXT`
+- Hjälpmedel → VoiceOver → Punktskrift → Punktskrift på skärm → Tal vid skrift: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#TYPING_FEEDBACK`
+- Hjälpmedel → VoiceOver → Punktskrift → Punktskrift på skärm → Ljud: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#USE_TYPING_SOUND_FEEDBACK`
+- Hjälpmedel → VoiceOver → Punktskrift → Punktskrift på skärm → Ljud: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#USE_HAPTIC_FEEDBACK`
+- Hjälpmedel → VoiceOver → Punktskrift → Punktskrift på skärm → Lägesmeddelanden: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#SOUND_OPTION`
+- Hjälpmedel → VoiceOver → Punktskrift → Punktskrift på skärm → Välj en punktskriftstabell: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/BrailleGesturesInput#BSI_TABLES`
+- Hjälpmedel → VoiceOver → Punktskrift → Punktskriftstabeller: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier`
+- Hjälpmedel → VoiceOver → Punktskrift → Punktskriftstabeller → Punktskriftstabeller: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier#tableIdentifier`
+- Hjälpmedel → VoiceOver → Punktskrift → Punktskriftstabeller → Lägg till punktskriftstabell…: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier/ADD_NEW_BRAILLE_LANGUAGE`
+- Hjälpmedel → VoiceOver → Punktskrift → Punktskriftstabeller → Lägg till punktskriftstabell… → Lägg till punktskriftstabell…: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/tableIdentifier/ADD_NEW_BRAILLE_LANGUAGE#ADD_NEW_BRAILLE_LANGUAGE`
+- Hjälpmedel → VoiceOver → Punktskrift → Statusceller: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL`
+- Hjälpmedel → VoiceOver → Punktskrift → Statusceller → Statusceller: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL`
+- Hjälpmedel → VoiceOver → Punktskrift → Statusceller → Position för statusceller: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#STATUS_CELL_POSITION`
+- Hjälpmedel → VoiceOver → Punktskrift → Statusceller → Visa allmän status: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#StatusCellGeneral`
+- Hjälpmedel → VoiceOver → Punktskrift → Statusceller → Visa textstatus: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/STATUS_CELL#StatusCellTextStyle`
+- Hjälpmedel → VoiceOver → Punktskrift → Ekvationer med Nemeth-kod: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#ALWAYS_USE_NEMETH`
+- Hjälpmedel → VoiceOver → Punktskrift → Visa tangentbord på skärmen: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#SHOW_SW_KEYBOARD`
+- Hjälpmedel → VoiceOver → Punktskrift → Vänd blad vid panorering: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#AUTO_TURN_PAGES`
+- Hjälpmedel → VoiceOver → Punktskrift → Ordbrytning: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#WORD_WRAP`
+- Hjälpmedel → VoiceOver → Punktskrift → Textformatering: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#BRAILLE_FORMATTING`
+- Hjälpmedel → VoiceOver → Punktskrift → Punktskriftsvarning: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleAlertDisplayDuration`
+- Hjälpmedel → VoiceOver → Punktskrift → Punktskriftsvarning → Punktskriftsvarning: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleAlertDisplayDuration#voiceOverBrailleAlertDisplayDuration`
+- Hjälpmedel → VoiceOver → Punktskrift → Punktskriftsvarning → Punktskriftsvarning: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleAlertDisplayDuration#NumericalPreferenceSwitcherIdentifier`
+- Hjälpmedel → VoiceOver → Punktskrift → Punktskriftsvarning → Visa tills det avfärdas: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleAlertDisplayDuration#NumericalPreferenceInfiniteTimeDurationIdentifier`
+- Hjälpmedel → VoiceOver → Punktskrift → Tidslängd för att ignorera ackord: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleDebounceTimeout`
+- Hjälpmedel → VoiceOver → Punktskrift → Tidslängd för att ignorera ackord → Tidslängd för att ignorera ackord: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleDebounceTimeout/voiceOverBrailleDebounceTimeout`
+- Hjälpmedel → VoiceOver → Punktskrift → Tidslängd för automatisk frammatning: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleAutoAdvance`
+- Hjälpmedel → VoiceOver → Punktskrift → Tidslängd för automatisk frammatning → Tidslängd för automatisk frammatning: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille/voiceOverBrailleAutoAdvance#voiceOverBrailleAutoAdvance`
+- Hjälpmedel → VoiceOver → Punktskrift → Ljudbarriär: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#SOUND_CURTAIN`
+- Hjälpmedel → VoiceOver → Punktskrift → Aktivera Bluetooth vid start: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#voiceOverAlwaysTurnOnBluetooth`
+- Hjälpmedel → VoiceOver → Punktskrift → Välj en punktskriftsdisplay: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Braille#DEVICES`
+- Hjälpmedel → VoiceOver → Ljud: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio`
+- Hjälpmedel → VoiceOver → Ljud → Ljud: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#Audio`
+- Hjälpmedel → VoiceOver → Ljud → Ljud för VoiceOver: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds`
+- Hjälpmedel → VoiceOver → Ljud → Ljud för VoiceOver → Ljud för VoiceOver: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSounds`
+- Hjälpmedel → VoiceOver → Ljud → Ljud för VoiceOver → Ljud: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSSettingsItem.Sounds`
+- Hjälpmedel → VoiceOver → Ljud → Ljud för VoiceOver → Interagering: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSOutputEventCategory.Interaction`
+- Hjälpmedel → VoiceOver → Ljud → Ljud för VoiceOver → VoiceOver-feedback: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSOutputEventCategory.VoiceOverFeedback`
+- Hjälpmedel → VoiceOver → Ljud → Ljud för VoiceOver → App-feedback: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSOutputEventCategory.AppFeedback`
+- Hjälpmedel → VoiceOver → Ljud → Ljud för VoiceOver → Punktskrift: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSOutputEventCategory.Braille`
+- Hjälpmedel → VoiceOver → Ljud → Ljud för VoiceOver → Textredigering: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSOutputEventCategory.TextEditing`
+- Hjälpmedel → VoiceOver → Ljud → Ljud för VoiceOver → System: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio/VOSounds#VOSOutputEventCategory.System`
+- Hjälpmedel → VoiceOver → Ljud → Ljudduckning: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#AUDIO_DUCKING`
+- Hjälpmedel → VoiceOver → Ljud → Välj automatiskt högtalare: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#ROUTE_TO_SPEAKER`
+- Hjälpmedel → VoiceOver → Ljud → Skicka till HDMI: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/Audio#ROUTE_TO_HDMI`
+- Hjälpmedel → VoiceOver → Kommandon: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands`
+- Hjälpmedel → VoiceOver → Kommandon → Kommandon: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands#CustomizeCommands`
+- Hjälpmedel → VoiceOver → Kommandon → Alla kommandon: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/AllCommands`
+- Hjälpmedel → VoiceOver → Kommandon → Alla kommandon → Alla kommandon: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/AllCommands#AllCommands`
+- Hjälpmedel → VoiceOver → Kommandon → Punktskriftsinmatning på tangentbord: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/BrailleKeyboardInput`
+- Hjälpmedel → VoiceOver → Kommandon → Punktskriftsinmatning på tangentbord → Punktskriftsinmatning på tangentbord: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/BrailleKeyboardInput#BrailleKeyboardInput`
+- Hjälpmedel → VoiceOver → Kommandon → Pekgester: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/TouchGestures`
+- Hjälpmedel → VoiceOver → Kommandon → Pekgester → Pekgester: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/TouchGestures#TouchGestures`
+- Hjälpmedel → VoiceOver → Kommandon → Kortkommandon: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/KeyboardShortcuts`
+- Hjälpmedel → VoiceOver → Kommandon → Kortkommandon → Kortkommandon: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/KeyboardShortcuts#KeyboardShortcuts`
+- Hjälpmedel → VoiceOver → Kommandon → Handskrift: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/Handwriting`
+- Hjälpmedel → VoiceOver → Kommandon → Handskrift → Handskrift: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/Handwriting#Handwriting`
+- Hjälpmedel → VoiceOver → Kommandon → Punktskrift på skärm: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/BrailleScreenInput`
+- Hjälpmedel → VoiceOver → Kommandon → Punktskrift på skärm → Punktskrift på skärm: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands/BrailleScreenInput#BrailleScreenInput`
+- Hjälpmedel → VoiceOver → Kommandon → Nollställ VoiceOver-kommandon: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands#ResetVoiceOverCommands`
+- Hjälpmedel → VoiceOver → Kommandon → Växla höger- eller vänsterhänthet för gest: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/CustomizeCommands#SWITCH_GESTURE_HANDEDNESS`
+- Hjälpmedel → VoiceOver → Aktiviteter: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/activities`
+- Hjälpmedel → VoiceOver → Aktiviteter → Aktiviteter: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/activities#activities`
+- Hjälpmedel → VoiceOver → Aktiviteter → Programmering: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/activities/Programming`
+- Hjälpmedel → VoiceOver → Aktiviteter → Programmering → Programmering: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/activities/Programming#Programming`
+- Hjälpmedel → VoiceOver → Aktiviteter → Lägg till aktivitet…: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/activities/New`
+- Hjälpmedel → VoiceOver → Aktiviteter → Lägg till aktivitet… → Lägg till aktivitet…: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/activities/New#New`
+- Hjälpmedel → VoiceOver → Rotor: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions`
+- Hjälpmedel → VoiceOver → Rotor → Rotor: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#RotorActions`
+- Hjälpmedel → VoiceOver → Rotor → Rotorobjekt: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions/WebRotor`
+- Hjälpmedel → VoiceOver → Rotor → Rotorobjekt → Rotorobjekt: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions/WebRotor#WebRotor`
+- Hjälpmedel → VoiceOver → Rotor → Byt rotor med objekt: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#STICKY_ROTOR_TITLE`
+- Hjälpmedel → VoiceOver → Rotor → Ändra appar på hemskärmen: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions#editApps`
+- Hjälpmedel → VoiceOver → Rotor → Direkttrycksappar: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions/apps`
+- Hjälpmedel → VoiceOver → Rotor → Direkttrycksappar → Direkttrycksappar: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/RotorActions/apps#apps`
+- Hjälpmedel → VoiceOver → Tangenttryckning: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions`
+- Hjälpmedel → VoiceOver → Tangenttryckning → Tangenttryckning: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions#TypingOptions`
+- Hjälpmedel → VoiceOver → Tangenttryckning → Skrivmetod: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_MODE_TITLE`
+- Hjälpmedel → VoiceOver → Tangenttryckning → Skrivmetod → Skrivmetod: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_MODE_TITLE#TYPING_MODE_TITLE`
+- Hjälpmedel → VoiceOver → Tangenttryckning → Fonetisk feedback: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE`
+- Hjälpmedel → VoiceOver → Tangenttryckning → Fonetisk feedback → Fonetisk feedback: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/PHONETICS_TITLE#PHONETICS_TITLE`
+- Hjälpmedel → VoiceOver → Tangenttryckning → Tal vid skrift: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_FEEDBACK`
+- Hjälpmedel → VoiceOver → Tangenttryckning → Tal vid skrift → Tal vid skrift: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/TYPING_FEEDBACK#TYPING_FEEDBACK`
+- Hjälpmedel → VoiceOver → Tangenttryckning → Specialtangenter: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS`
+- Hjälpmedel → VoiceOver → Tangenttryckning → Specialtangenter → Specialtangenter: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/MODIFIER_KEYS#MODIFIER_KEYS`
+- Hjälpmedel → VoiceOver → Tangenttryckning → Tid för tangentbordsinteragering: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/KEYBOARD_TIMING_TIMEOUT`
+- Hjälpmedel → VoiceOver → Tangenttryckning → Tid för tangentbordsinteragering → Tid för tangentbordsinteragering: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/TypingOptions/KEYBOARD_TIMING_TIMEOUT#KEYBOARD_TIMING_TIMEOUT`
+- Hjälpmedel → VoiceOver → Navigera bilder: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages`
+- Hjälpmedel → VoiceOver → Navigera bilder → Navigera bilder: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/IncludeUnlabeledImages#IncludeUnlabeledImages`
+- Hjälpmedel → VoiceOver → Stor markör: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CursorStyle`
+- Hjälpmedel → VoiceOver → Textpanel: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#CaptionPanel`
+- Hjälpmedel → VoiceOver → Två snabba tryck, tidsgräns: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/DOUBLE_TAP_INTERVAL_TITLE`
+- Hjälpmedel → VoiceOver → Två snabba tryck, tidsgräns → Två snabba tryck, tidsgräns: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/DOUBLE_TAP_INTERVAL_TITLE#NumericalPreferencePickerGroupIdentifier`
+- Hjälpmedel → VoiceOver → Navigeringsstil: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NavigationStyle`
+- Hjälpmedel → VoiceOver → Navigeringsstil → Navigeringsstil: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NavigationStyle#NavigationStyle`
+- Hjälpmedel → VoiceOver → Snabbinställningar: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings`
+- Hjälpmedel → VoiceOver → Snabbinställningar → Snabbinställningar: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/QuickSettings#QuickSettings`
+- Hjälpmedel → VoiceOver → VoiceOver-igenkänning: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver`
+- Hjälpmedel → VoiceOver → VoiceOver-igenkänning → VoiceOver-igenkänning: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver#NeuralVoiceOver`
+- Hjälpmedel → VoiceOver → VoiceOver-igenkänning → Bildbeskrivningar: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_IMAGE_DESCRIPTIONS`
+- Hjälpmedel → VoiceOver → VoiceOver-igenkänning → Bildbeskrivningar → Bildbeskrivningar: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_IMAGE_DESCRIPTIONS#VO_IMAGE_DESCRIPTIONS`
+- Hjälpmedel → VoiceOver → VoiceOver-igenkänning → Bildbeskrivningar → Känsligt innehåll i utmatning: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_IMAGE_DESCRIPTIONS#SensitiveContentGroup`
+- Hjälpmedel → VoiceOver → VoiceOver-igenkänning → Bildbeskrivningar → Fler språk: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_IMAGE_DESCRIPTIONS/AdditionalLanguages`
+- Hjälpmedel → VoiceOver → VoiceOver-igenkänning → Bildbeskrivningar → Fler språk → Fler språk: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_IMAGE_DESCRIPTIONS/AdditionalLanguages#AdditionalLanguages`
+- Hjälpmedel → VoiceOver → VoiceOver-igenkänning → Bildbeskrivningar → Använd i appar: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_IMAGE_DESCRIPTIONS/apps`
+- Hjälpmedel → VoiceOver → VoiceOver-igenkänning → Bildbeskrivningar → Använd i appar → Använd i appar: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_IMAGE_DESCRIPTIONS/apps#apps`
+- Hjälpmedel → VoiceOver → VoiceOver-igenkänning → Skärmigenkänning: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_SCREEN_RECOGNITION`
+- Hjälpmedel → VoiceOver → VoiceOver-igenkänning → Skärmigenkänning → Skärmigenkänning: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_SCREEN_RECOGNITION#VO_SCREEN_RECOGNITION`
+- Hjälpmedel → VoiceOver → VoiceOver-igenkänning → Skärmigenkänning → Använd i appar: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_SCREEN_RECOGNITION/apps`
+- Hjälpmedel → VoiceOver → VoiceOver-igenkänning → Skärmigenkänning → Använd i appar → Använd i appar: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_SCREEN_RECOGNITION/apps#apps`
+- Hjälpmedel → VoiceOver → VoiceOver-igenkänning → Textigenkänning: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver#VO_OCR`
+- Hjälpmedel → VoiceOver → VoiceOver-igenkänning → Feedbackstil: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_FEEDBACK`
+- Hjälpmedel → VoiceOver → VoiceOver-igenkänning → Feedbackstil → Feedbackstil: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_FEEDBACK#VO_FEEDBACK`
+- Hjälpmedel → VoiceOver → VoiceOver-igenkänning → Igenkänning i realtid: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE/NeuralVoiceOver/VO_REAL_WORLD_DETECTION`
+- Hjälpmedel → VoiceOver → Fördröjning innan markering: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#VoiceOverDelayUntilSpeak`
+- Hjälpmedel → VoiceOver → Tidsgräns för dubbelnypning: `prefs:root=ACCESSIBILITY&path=VOICEOVER_TITLE#DOUBLE_TAP_INTERVAL`
+- Hjälpmedel → Zooma: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE`
+- Hjälpmedel → Zooma → Följ fokus: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomShouldFollowFocus`
+- Hjälpmedel → Zooma → Smart tangentbord: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomAlwaysUseWindowZoomForTyping`
+- Hjälpmedel → Zooma → Kortkommandon: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts`
+- Hjälpmedel → Zooma → Kortkommandon → Kortkommandon: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomEnableKeyboardShortcuts`
+- Hjälpmedel → Zooma → Kortkommandon → Justera zoomnivå: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutAdjustZoomLevel`
+- Hjälpmedel → Zooma → Kortkommandon → Slå av eller på zoom: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutToggleZoom`
+- Hjälpmedel → Zooma → Kortkommandon → Flytta zoomfönster: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutPanZoom`
+- Hjälpmedel → Zooma → Kortkommandon → Ändra storlek på zoomfönstret: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutResizeZoomWindow`
+- Hjälpmedel → Zooma → Kortkommandon → Växla zoomområde: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutSwitchZoomMode`
+- Hjälpmedel → Zooma → Kortkommandon → Växla zoomning tillfälligt: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutTempToggleZoom`
+- Hjälpmedel → Zooma → Kortkommandon → Zooma med rullningshjul: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomKeyboardShortcuts#ZoomKeyboardShortcutScrollWheel`
+- Hjälpmedel → Zooma → Använd styrplattegest till att zooma: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomWithTrackpad`
+- Hjälpmedel → Zooma → Zoomreglage: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug`
+- Hjälpmedel → Zooma → Zoomreglage → Zoomreglage: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug#ZoomSlug`
+- Hjälpmedel → Zooma → Zoomreglage → Visa reglage: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug#ZOOM_DETACH_CONTROLS`
+- Hjälpmedel → Zooma → Zoomreglage → Enkelt tryck: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_CONTROLLER_ACTION_SINGLE_TAP`
+- Hjälpmedel → Zooma → Zoomreglage → Enkelt tryck → Enkelt tryck: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_CONTROLLER_ACTION_SINGLE_TAP#ZOOM_CONTROLLER_ACTION_SINGLE_TAP`
+- Hjälpmedel → Zooma → Zoomreglage → Tryck snabbt två gånger: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_CONTROLLER_ACTION_DOUBLE_TAP`
+- Hjälpmedel → Zooma → Zoomreglage → Tryck snabbt två gånger → Tryck snabbt två gånger: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_CONTROLLER_ACTION_DOUBLE_TAP#ZOOM_CONTROLLER_ACTION_DOUBLE_TAP`
+- Hjälpmedel → Zooma → Zoomreglage → Tryck snabbt tre gånger: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_CONTROLLER_ACTION_TRIPLE_TAP`
+- Hjälpmedel → Zooma → Zoomreglage → Tryck snabbt tre gånger → Tryck snabbt tre gånger: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_CONTROLLER_ACTION_TRIPLE_TAP#ZOOM_CONTROLLER_ACTION_TRIPLE_TAP`
+- Hjälpmedel → Zooma → Zoomreglage → Justera zoomnivå: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug#ZOOM_TAP_AND_SLIDE_TO_ADJUST_ZOOM_LEVEL`
+- Hjälpmedel → Zooma → Zoomreglage → Färg: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/CONTROLLER_COLOR`
+- Hjälpmedel → Zooma → Zoomreglage → Färg → Färg: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/CONTROLLER_COLOR#CONTROLLER_COLOR`
+- Hjälpmedel → Zooma → Zoomreglage → Synlighet vid inaktivitet: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_IDLE_SLUG_OPACITY`
+- Hjälpmedel → Zooma → Zoomreglage → Synlighet vid inaktivitet → Synlighet vid inaktivitet: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomSlug/ZOOM_IDLE_SLUG_OPACITY#ZOOM_IDLE_SLUG_OPACITY`
+- Hjälpmedel → Zooma → Zoomområde: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode`
+- Hjälpmedel → Zooma → Zoomområde → Zoomområde: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomLensMode#ZoomLensMode`
+- Hjälpmedel → Zooma → Maximal zoomnivå: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomPreferredMaxZoomLevel`
+- Hjälpmedel → Zooma → Zoomfilter: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomFilter`
+- Hjälpmedel → Zooma → Zoomfilter → Zoomfilter: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE/ZoomFilter#ZoomFilter`
+- Hjälpmedel → Zooma → Visa vid skärmdubblering: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomShowWhileMirroring`
+- Hjälpmedel → Zooma → Ställ in zoomning som förvalsfokus: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomAsDefaultDial`
+- Hjälpmedel → Zooma → Zooma med Digital Crown: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#ZoomStealsCrownTurns`
+- Hjälpmedel → Zooma → Ramfärg: `prefs:root=ACCESSIBILITY&path=ZOOM_TITLE#MagnifyingGlassBorderColor`
+- Hjälpmedel → Text under pekaren: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE`
+- Hjälpmedel → Text under pekaren → Visningsläge: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextDisplayMode`
+- Hjälpmedel → Text under pekaren → Visningsläge → Visningsläge: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextDisplayMode#HoverTextDisplayMode`
+- Hjälpmedel → Text under pekaren → Rullningshastighet: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextScrollSpeed`
+- Hjälpmedel → Text under pekaren → Rullningshastighet → Rullningshastighet: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextScrollSpeed#HoverTextScrollSpeed`
+- Hjälpmedel → Text under pekaren → Typsnitt: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextStyle`
+- Hjälpmedel → Text under pekaren → Typsnitt → Typsnitt: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextStyle#HoverTextStyle`
+- Hjälpmedel → Text under pekaren → Storlek: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextSize`
+- Hjälpmedel → Text under pekaren → Storlek → Storlek: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextSize#HoverTextSize`
+- Hjälpmedel → Text under pekaren → Färger: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE#HOVER_TEXT_COLOR_OPTIONS`
+- Hjälpmedel → Text under pekaren → Specialtangent för aktivering: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextActivationModifier`
+- Hjälpmedel → Text under pekaren → Specialtangent för aktivering → Specialtangent för aktivering: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE/HoverTextActivationModifier#HoverTextActivationModifier`
+- Hjälpmedel → Text under pekaren → Aktiveringslås: `prefs:root=ACCESSIBILITY&path=HOVERTEXT_TITLE#HOVER_TEXT_ACTIVATION_LOCK`
+- Hjälpmedel → Tangentbord och skrift: `prefs:root=ACCESSIBILITY&path=KEYBOARDS`
+- Hjälpmedel → Tangentbord och skrift → Skrift under pekaren: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING`
+- Hjälpmedel → Tangentbord och skrift → Skrift under pekaren → Visningsläge: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING/HoverTextTypingDisplayMode`
+- Hjälpmedel → Tangentbord och skrift → Skrift under pekaren → Visningsläge → Visningsläge: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING/HoverTextTypingDisplayMode#HoverTextTypingDisplayMode`
+- Hjälpmedel → Tangentbord och skrift → Skrift under pekaren → Typsnitt: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING/HoverTypingStyle`
+- Hjälpmedel → Tangentbord och skrift → Skrift under pekaren → Typsnitt → Typsnitt: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING/HoverTypingStyle#HoverTypingStyle`
+- Hjälpmedel → Tangentbord och skrift → Skrift under pekaren → Storlek: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING/HoverTextSize`
+- Hjälpmedel → Tangentbord och skrift → Skrift under pekaren → Storlek → Storlek: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING/HoverTextSize#HoverTextSize`
+- Hjälpmedel → Tangentbord och skrift → Skrift under pekaren → Inmatningsfärger: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TYPING_COLOR_OPTIONS`
+- Hjälpmedel → Tangentbord och skrift → Skrift under pekaren → Visningsfärger: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TYPING_DISPLAY_COLOR_OPTIONS`
+- Hjälpmedel → Tangentbord och skrift → Skrift under pekaren → Textfärg: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TEXT_TEXT_COLOR`
+- Hjälpmedel → Tangentbord och skrift → Skrift under pekaren → Insättningspunktfärg: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TEXT_INSERTION_POINT_COLOR`
+- Hjälpmedel → Tangentbord och skrift → Skrift under pekaren → Bakgrundsfärg: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TEXT_BACKGROUND_COLOR`
+- Hjälpmedel → Tangentbord och skrift → Skrift under pekaren → Ramfärg: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TEXT_BORDER_COLOR`
+- Hjälpmedel → Tangentbord och skrift → Skrift under pekaren → Färg för autokorrigerat ord: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TYPING_AUTOCORRECTED_WORD_COLOR`
+- Hjälpmedel → Tangentbord och skrift → Skrift under pekaren → Färg för felstavat ord: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TYPING_MISSPELLED_WORD`
+- Hjälpmedel → Tangentbord och skrift → Skrift under pekaren → Återställ till förval: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/HOVER_TYPING#HOVER_TYPING_RESET_BUTTON`
+- Hjälpmedel → Tangentbord och skrift → Tangentbordstjänster: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS`
+- Hjälpmedel → Tangentbord och skrift → Tangentbordstjänster → Tangentbordstjänster: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS#FKAEnabledSwitch`
+- Hjälpmedel → Tangentbord och skrift → Tangentbordstjänster → Kommandon: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKACommands`
+- Hjälpmedel → Tangentbord och skrift → Tangentbordstjänster → Kommandon → Kommandon: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKACommands#FKACommands`
+- Hjälpmedel → Tangentbord och skrift → Tangentbordstjänster → Autogöm: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKAFocusRingTimeout`
+- Hjälpmedel → Tangentbord och skrift → Tangentbordstjänster → Autogöm → Autogöm: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKAFocusRingTimeout#FKAFocusRingTimeout`
+- Hjälpmedel → Tangentbord och skrift → Tangentbordstjänster → Öka storlek: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKALargeFocusRingEnabled`
+- Hjälpmedel → Tangentbord och skrift → Tangentbordstjänster → Hög kontrast: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKAFocusRingHighContrastEnabled`
+- Hjälpmedel → Tangentbord och skrift → Tangentbordstjänster → Färg: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKAFocusRingColor`
+- Hjälpmedel → Tangentbord och skrift → Tangentbordstjänster → Färg → Färg: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/FULL_KEYBOARD_ACCESS/FKAFocusRingColor#FKAFocusRingColor`
+- Hjälpmedel → Tangentbord och skrift → Upprepa tangent: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT`
+- Hjälpmedel → Tangentbord och skrift → Upprepa tangent → Upprepa tangent: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatEnabled`
+- Hjälpmedel → Tangentbord och skrift → Upprepa tangent → Tid mellan tangentupprepningar: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatInterval`
+- Hjälpmedel → Tangentbord och skrift → Upprepa tangent → Fördröjning innan upprepning: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/KEY_REPEAT#KeyRepeatDelay`
+- Hjälpmedel → Tangentbord och skrift → Flertangentlås: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS`
+- Hjälpmedel → Tangentbord och skrift → Flertangentlås → Flertangentlås: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysEnabled`
+- Hjälpmedel → Tangentbord och skrift → Flertangentlås → Växla med skifttangent: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysShiftToggle`
+- Hjälpmedel → Tangentbord och skrift → Flertangentlås → Ljud: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/STICKY_KEYS#StickyKeysSound`
+- Hjälpmedel → Tangentbord och skrift → Tröga tangenter: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/SLOW_KEYS`
+- Hjälpmedel → Tangentbord och skrift → Tröga tangenter → Tröga tangenter: `prefs:root=ACCESSIBILITY&path=KEYBOARDS/SLOW_KEYS#NumericalPreferenceSwitcherIdentifier`
+- Hjälpmedel → Tangentbord och skrift → Virtuella tangentbord: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#SOFTWARE_KEYBOARDS`
+- Hjälpmedel → Tangentbord och skrift → Visa gemena tangenter: `prefs:root=ACCESSIBILITY&path=KEYBOARDS#LOWERCASE_KEYBOARD`
+- Hjälpmedel → Skärm och textstorlek: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT`
+- Hjälpmedel → Skärm och textstorlek → Fet text: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#ENHANCE_TEXT_LEGIBILITY`
+- Hjälpmedel → Skärm och textstorlek → Större text: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/LARGER_TEXT`
+- Hjälpmedel → Skärm och textstorlek → Större text → Större text: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/LARGER_TEXT#LARGER_TEXT`
+- Hjälpmedel → Skärm och textstorlek → Större text → Större hjälpmedelsstorlekar: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/LARGER_TEXT#LARGER_DYNAMIC_TYPE_SWITCH`
+- Hjälpmedel → Skärm och textstorlek → Knappformer: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#BUTTON_SHAPES`
+- Hjälpmedel → Skärm och textstorlek → Av-/På-etiketter: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#OnOffLabels`
+- Hjälpmedel → Skärm och textstorlek → Minska gen­omskinlighet: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#REDUCE_TRANSPARENCY`
+- Hjälpmedel → Skärm och textstorlek → Öka kontrast: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#TEXT_COLORS_DARKEN`
+- Hjälpmedel → Skärm och textstorlek → Differentiera utan färg: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#DIFFERENTIATE_WITHOUT_COLOR`
+- Hjälpmedel → Skärm och textstorlek → Föredra horisontell text: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#PREFER_HORIZONTAL_TEXT`
+- Hjälpmedel → Skärm och textstorlek → Smart invertering: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#SMART_INVERT`
+- Hjälpmedel → Skärm och textstorlek → Klassisk invertering: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#CLASSIC_INVERT`
+- Hjälpmedel → Skärm och textstorlek → Färgfilter: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR`
+- Hjälpmedel → Skärm och textstorlek → Färgfilter → Färgfilter: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR#DISPLAY_FILTER_COLOR`
+- Hjälpmedel → Skärm och textstorlek → Färgfilter → Använd vid videogenomströmning: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT/DISPLAY_FILTER_COLOR#VIDEO_PASSTHROUGH`
+- Hjälpmedel → Skärm och textstorlek → Minska vitpunkt: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#WHITE_POINT`
+- Hjälpmedel → Skärm och textstorlek → Automatisk ljusstyrka: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#AUTO_BRIGHTNESS`
+- Hjälpmedel → Skärm och textstorlek → Stabilisera med hjälp av Ignorera ögonrörelser: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#STATIC_FOVEATION_TEXT`
+- Hjälpmedel → Skärm och textstorlek → Justera skärmarna automatiskt: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#AUTO_IPD_TEXT`
+- Hjälpmedel → Skärm och textstorlek → Öka fokusläge: `prefs:root=ACCESSIBILITY&path=DISPLAY_AND_TEXT#INCREASE_FOCUS_STATE_TEXT`
+- Hjälpmedel → Rörelse: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE`
+- Hjälpmedel → Rörelse → Minska rörelse: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION`
+- Hjälpmedel → Rörelse → Spela upp effekter: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#ReduceMotionAutoplayMessagesEffects`
+- Hjälpmedel → Rörelse → Spela upp animerade bilder automatiskt: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION_AUTOPLAY_ANIMATED_IMAGES`
+- Hjälpmedel → Rörelse → Förhandsvisa video automatiskt: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REDUCE_MOTION_AUTOPLAY_VIDEO_PREVIEWS`
+- Hjälpmedel → Rörelse → Föredra pekare som inte blinkar: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#PREFER_NONBLINKING_CURSOR`
+- Hjälpmedel → Rörelse → Begränsa bildhastighet: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#REFRESH_RATE`
+- Hjälpmedel → Rörelse → Tona ned blinkande ljus: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#PHOTOSENSITIVE_MITIGATION`
+- Hjälpmedel → Rörelse → Visa rörelsesignaler för fordon: `prefs:root=ACCESSIBILITY&path=MOTION_TITLE#MotionCues`
+- Hjälpmedel → Talat innehåll: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE`
+- Hjälpmedel → Talat innehåll → Läs upp markering: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QUICK_SPEAK_TITLE`
+- Hjälpmedel → Talat innehåll → Läs upp skärm: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SpeakThisEnabled`
+- Hjälpmedel → Talat innehåll → Talreglage: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController`
+- Hjälpmedel → Talat innehåll → Talreglage → Talreglage: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController#SpeechController`
+- Hjälpmedel → Talat innehåll → Talreglage → Långt tryck: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController/SpeechControllerLongPressAction`
+- Hjälpmedel → Talat innehåll → Talreglage → Långt tryck → Långt tryck: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController/SpeechControllerLongPressAction#SpeechControllerLongPressAction`
+- Hjälpmedel → Talat innehåll → Talreglage → Tryck snabbt två gånger: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController/SpeechControllerDoubleTapAction`
+- Hjälpmedel → Talat innehåll → Talreglage → Tryck snabbt två gånger → Tryck snabbt två gånger: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController/SpeechControllerDoubleTapAction#SpeechControllerDoubleTapAction`
+- Hjälpmedel → Talat innehåll → Talreglage → Synlighet vid inaktivitet: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController/SpeechControllerIdleOpacity`
+- Hjälpmedel → Talat innehåll → Talreglage → Synlighet vid inaktivitet → Synlighet vid inaktivitet: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController/SpeechControllerIdleOpacity#SpeechControllerIdleOpacity`
+- Hjälpmedel → Talat innehåll → Talreglage → Anpassa musknappar: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpeechController#CustomizeMouseButtons`
+- Hjälpmedel → Talat innehåll → Markera innehåll: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/QuickSpeakHighlight`
+- Hjälpmedel → Talat innehåll → Markera innehåll → Markera innehåll: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/QuickSpeakHighlight#QuickSpeakHighlight`
+- Hjälpmedel → Talat innehåll → Markera innehåll → Markeringsstil för meningar: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/QuickSpeakHighlight#SENTENCE_HIGHLIGHT_STYLE`
+- Hjälpmedel → Talat innehåll → Markera innehåll → Markeringsfärger: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/QuickSpeakHighlight#COLOR_CHOICE`
+- Hjälpmedel → Talat innehåll → Tal vid skrift: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback`
+- Hjälpmedel → Talat innehåll → Tal vid skrift → Tal vid skrift: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#TypingFeedback`
+- Hjälpmedel → Talat innehåll → Tal vid skrift → Tecken: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#LETTER`
+- Hjälpmedel → Talat innehåll → Tal vid skrift → Teckentips: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#PhoneticFeedback`
+- Hjälpmedel → Talat innehåll → Tal vid skrift → Läs upp ord: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#WORD_FEEDBACK`
+- Hjälpmedel → Talat innehåll → Tal vid skrift → Läs upp autotext: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#SPEAK_AUTOCORRECTIONS`
+- Hjälpmedel → Talat innehåll → Tal vid skrift → Håll för att höra förutsägelser: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/TypingFeedback#QUICKTYPE_WORD_FEEDBACK`
+- Hjälpmedel → Talat innehåll → Röster: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/QuickSpeakAccents`
+- Hjälpmedel → Talat innehåll → Röster → Röster: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/QuickSpeakAccents#QuickSpeakAccents`
+- Hjälpmedel → Talat innehåll → Förvalt språk: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpokenContentDefaultLanguage`
+- Hjälpmedel → Talat innehåll → Förvalt språk → Förvalt språk: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/SpokenContentDefaultLanguage#SpokenContentDefaultLanguage`
+- Hjälpmedel → Talat innehåll → Upptäck språk: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#LANGUAGE_DETECTION`
+- Hjälpmedel → Talat innehåll → Uppläsningshastighet: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#QuickSpeakRate`
+- Hjälpmedel → Talat innehåll → Uttal: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/VoiceOverSettings`
+- Hjälpmedel → Talat innehåll → Uttal → Uttal: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE/VoiceOverSettings#VoiceOverSettings`
+- Hjälpmedel → Talat innehåll → Rumsanpassa tal: `prefs:root=ACCESSIBILITY&path=SPEECH_TITLE#SPATIALIZE_SPEECH`
+- Hjälpmedel → Syntolkning: `prefs:root=ACCESSIBILITY&path=DESCRIPTIVE_VIDEO`
+- Hjälpmedel → Interagering: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE`
+- Hjälpmedel → Interagering → AssistiveTouch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE`
+- Hjälpmedel → Interagering → AssistiveTouch → AssistiveTouch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#EnableAssistiveTouchSpecifier`
+- Hjälpmedel → Interagering → AssistiveTouch → Anpassa överordnad meny: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize`
+- Hjälpmedel → Interagering → AssistiveTouch → Anpassa överordnad meny → Anpassa överordnad meny: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize#AssistiveTouchCustomize`
+- Hjälpmedel → Interagering → AssistiveTouch → Anpassa överordnad meny → Tryck på en symbol för att ändra:: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchCustomize#ASTStepperCell`
+- Hjälpmedel → Interagering → AssistiveTouch → Enkelt tryck: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/TapSpecifier`
+- Hjälpmedel → Interagering → AssistiveTouch → Enkelt tryck → Enkelt tryck: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/TapSpecifier#TapSpecifier`
+- Hjälpmedel → Interagering → AssistiveTouch → Tryck snabbt två gånger: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier`
+- Hjälpmedel → Interagering → AssistiveTouch → Tryck snabbt två gånger → Tryck snabbt två gånger: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier#DoubleTapSpecifier`
+- Hjälpmedel → Interagering → AssistiveTouch → Tryck snabbt två gånger → Två snabba tryck, tidsgräns: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier/ASTDoubleTapTimeoutSpecifier`
+- Hjälpmedel → Interagering → AssistiveTouch → Tryck snabbt två gånger → Två snabba tryck, tidsgräns → Två snabba tryck, tidsgräns: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DoubleTapSpecifier/ASTDoubleTapTimeoutSpecifier#ASTDoubleTapTimeoutSpecifier`
+- Hjälpmedel → Interagering → AssistiveTouch → Långt tryck: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier`
+- Hjälpmedel → Interagering → AssistiveTouch → Långt tryck → Långt tryck: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier#LongPressSpecifier`
+- Hjälpmedel → Interagering → AssistiveTouch → Långt tryck → Tidslängd för långt tryck: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier/ASTLongPressDurationSpecifier`
+- Hjälpmedel → Interagering → AssistiveTouch → Långt tryck → Tidslängd för långt tryck → Tidslängd för långt tryck: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/LongPressSpecifier/ASTLongPressDurationSpecifier#ASTLongPressDurationSpecifier`
+- Hjälpmedel → Interagering → AssistiveTouch → 3D Touch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#ForceTouchSpecifier`
+- Hjälpmedel → Interagering → AssistiveTouch → Skapa ny gest…: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/CreateCustomGesture`
+- Hjälpmedel → Interagering → AssistiveTouch → Skapa ny gest… → Skapa ny gest…: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/CreateCustomGesture#CreateCustomGesture`
+- Hjälpmedel → Interagering → AssistiveTouch → Synlighet vid inaktivitet: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/IdleOpacity`
+- Hjälpmedel → Interagering → AssistiveTouch → Synlighet vid inaktivitet → Synlighet vid inaktivitet: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/IdleOpacity#IdleOpacity`
+- Hjälpmedel → Interagering → AssistiveTouch → Virtuell styrplatta: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID`
+- Hjälpmedel → Interagering → AssistiveTouch → Virtuell styrplatta → Acceleration: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID#TRACKING_SPEED_SLIDER`
+- Hjälpmedel → Interagering → AssistiveTouch → Virtuell styrplatta → Naturlig rullning: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID#NATURAL_SCROLLING`
+- Hjälpmedel → Interagering → AssistiveTouch → Virtuell styrplatta → Rullningshastighet: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID#SCROLL_SPEED_SLIDER`
+- Hjälpmedel → Interagering → AssistiveTouch → Virtuell styrplatta → Ram: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID#BORDER`
+- Hjälpmedel → Interagering → AssistiveTouch → Virtuell styrplatta → Ram: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID/BORDER`
+- Hjälpmedel → Interagering → AssistiveTouch → Virtuell styrplatta → Ram → Färg: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID/BORDER#COLOR`
+- Hjälpmedel → Interagering → AssistiveTouch → Virtuell styrplatta → Ram → Opacitet: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID/BORDER#OPACITY`
+- Hjälpmedel → Interagering → AssistiveTouch → Virtuell styrplatta → Ram → Kantbredd: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID/BORDER#BORDER_WIDTH`
+- Hjälpmedel → Interagering → AssistiveTouch → Virtuell styrplatta → Styrplatta: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID#TRACKPAD`
+- Hjälpmedel → Interagering → AssistiveTouch → Virtuell styrplatta → Styrplatta: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID/TRACKPAD`
+- Hjälpmedel → Interagering → AssistiveTouch → Virtuell styrplatta → Styrplatta → Färg: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID/TRACKPAD#COLOR`
+- Hjälpmedel → Interagering → AssistiveTouch → Virtuell styrplatta → Styrplatta → Opacitet: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/ASTVirtualTrackpadCellID/TRACKPAD#OPACITY`
+- Hjälpmedel → Interagering → AssistiveTouch → Enheter: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices`
+- Hjälpmedel → Interagering → AssistiveTouch → Enheter → Enheter: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices#AssistiveTouchMouseDevices`
+- Hjälpmedel → Interagering → AssistiveTouch → Enheter → Bluetooth-enheter…: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices/BluetoothDevicesScanning`
+- Hjälpmedel → Interagering → AssistiveTouch → Enheter → Bluetooth-enheter… → Bluetooth-enheter…: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseDevices/BluetoothDevicesScanning#BluetoothDevicesScanning`
+- Hjälpmedel → Interagering → AssistiveTouch → Mustangenter: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseKeys`
+- Hjälpmedel → Interagering → AssistiveTouch → Mustangenter → Mustangenter: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseKeys#AssistiveTouchMouseKeys`
+- Hjälpmedel → Interagering → AssistiveTouch → Mustangenter → Alternativtangentsväxling: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseKeys#OptionKeyToggle`
+- Hjälpmedel → Interagering → AssistiveTouch → Mustangenter → Använd primärt tangentbord: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseKeys#UsePrimaryKeyboard`
+- Hjälpmedel → Interagering → AssistiveTouch → Mustangenter → Fördröjning: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseKeys#InitialDelay`
+- Hjälpmedel → Interagering → AssistiveTouch → Mustangenter → Maxhastighet: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/AssistiveTouchMouseKeys#MaximumSpeed`
+- Hjälpmedel → Interagering → AssistiveTouch → Visa tangentbord på skärmen: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AlwaysShowSoftwareKeyboard`
+- Hjälpmedel → Interagering → AssistiveTouch → Visa alltid meny: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#AlwaysShowMenu`
+- Hjälpmedel → Interagering → AssistiveTouch → Ljud vid klick: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#MouseClickSounds`
+- Hjälpmedel → Interagering → AssistiveTouch → Fördröjningsstyrning: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellEnabledSpecifier`
+- Hjälpmedel → Interagering → AssistiveTouch → Tolerans för rörelse: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellToleranceSpecifier`
+- Hjälpmedel → Interagering → AssistiveTouch → Tolerans för rörelse → Tolerans för rörelse: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellToleranceSpecifier#DwellToleranceSpecifier`
+- Hjälpmedel → Interagering → AssistiveTouch → Styrkänslighet: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#TouchSpeed`
+- Hjälpmedel → Interagering → AssistiveTouch → Återgångsåtgärd: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellAutorevertSpecifier`
+- Hjälpmedel → Interagering → AssistiveTouch → Återgångsåtgärd → Återgångsåtgärd: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellAutorevertSpecifier#DwellAutorevertSpecifier`
+- Hjälpmedel → Interagering → AssistiveTouch → Aktiva hörn: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellCornersSpecifier`
+- Hjälpmedel → Interagering → AssistiveTouch → Aktiva hörn → Aktiva hörn: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellCornersSpecifier#DwellCornersSpecifier`
+- Hjälpmedel → Interagering → AssistiveTouch → Aktiva hörn → Övre vänstra: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellCornersSpecifier#TopLeft`
+- Hjälpmedel → Interagering → AssistiveTouch → Aktiva hörn → Övre högra: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellCornersSpecifier#TopRight`
+- Hjälpmedel → Interagering → AssistiveTouch → Aktiva hörn → Nedre vänstra: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellCornersSpecifier#BottomLeft`
+- Hjälpmedel → Interagering → AssistiveTouch → Aktiva hörn → Nedre högra: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/DwellCornersSpecifier#BottomRight`
+- Hjälpmedel → Interagering → AssistiveTouch → Utökade förutsägelser: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellExtendedPredictionsSpecifier`
+- Hjälpmedel → Interagering → AssistiveTouch → Tidsgräns för fördröjningsstyrning: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#DwellTimeoutSpecifier`
+- Hjälpmedel → Interagering → AssistiveTouch → Bekräfta med AssistiveTouch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#APPLE_PAY_SWITCH`
+- Hjälpmedel → Interagering → AssistiveTouch → Gör pekgester: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#MouseBehavesLikeFinger`
+- Hjälpmedel → Interagering → AssistiveTouch → Använd spelkontroll: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#EnableAssistiveTouchGameControllerSpecifier`
+- Hjälpmedel → Interagering → AssistiveTouch → Ljudåtgärder: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE/SOUND_ACTIONS`
+- Hjälpmedel → Interagering → AssistiveTouch → Ljudåtgärder: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#SOUND_ACTIONS`
+- Hjälpmedel → Interagering → Fördröjningsstyrning: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL`
+- Hjälpmedel → Interagering → Fördröjningsstyrning → Fördröjningsstyrning: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL#DWELL_CONTROL_TITLE`
+- Hjälpmedel → Interagering → Fördröjningsstyrning → Mål: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL/DWELL_CONTROL_TARGET`
+- Hjälpmedel → Interagering → Fördröjningsstyrning → Tolerans för rörelse: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL/DWELL_MOVEMENT_TOLERANCE`
+- Hjälpmedel → Interagering → Fördröjningsstyrning → Markeringsstyrning: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL#DWELL_HIGHLIGHT_CONTROL_TITLE`
+- Hjälpmedel → Interagering → Fördröjningsstyrning → Pausa under medieuppspelning: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL#DWELL_PAUSE_FOR_MEDIA_PLAYBACK_TITLE`
+- Hjälpmedel → Interagering → Fördröjningsstyrning → Visa rullningsreglage: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL#AXDwellQuickScrollSpecifierID`
+- Hjälpmedel → Interagering → Fördröjningsstyrning → Menyn Följ: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/DWELL#AXDwellFollowSpecifierID`
+- Hjälpmedel → Interagering → Fördröjningsstyrning: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/#DwellEnabledSpecifier`
+- Hjälpmedel → Interagering → Lätt att nå: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#REACHABILITY`
+- Hjälpmedel → Interagering → Haptiskt tryck: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch`
+- Hjälpmedel → Interagering → Haptiskt tryck → Haptiskt tryck: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#ForceTouch`
+- Hjälpmedel → Interagering → Haptiskt tryck → 3D Touch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#ForceTouchAccessibilityMainSwitch`
+- Hjälpmedel → Interagering → Haptiskt tryck → Känslighet för 3D Touch: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#FourceTouchSensitivityGroupIdentifier`
+- Hjälpmedel → Interagering → Haptiskt tryck → Trycktid: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#timingGroup`
+- Hjälpmedel → Interagering → Haptiskt tryck → Trycktidstest: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/ForceTouch#FourceTouchSensitivityTestGroupIdentifier`
+- Hjälpmedel → Interagering → Pekhjälpmedel: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS`
+- Hjälpmedel → Interagering → Pekhjälpmedel → Pekhjälpmedel: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#TOUCH_ACCOMMODATIONS_SWITCHER`
+- Hjälpmedel → Interagering → Pekhjälpmedel → Hålltid: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#HoldDuration`
+- Hjälpmedel → Interagering → Pekhjälpmedel → Ignorera upprepning: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#IgnoreRepeat`
+- Hjälpmedel → Interagering → Pekhjälpmedel → Tryckhjälp: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/TOUCH_ACCOMMODATIONS#Tap%20Assistance`
+- Hjälpmedel → Interagering → Tryck för att väcka: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TAP_TO_WAKE_TITLE`
+- Hjälpmedel → Interagering → Tryck eller svep för att väcka: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#TAP_TOUCH_TO_WAKE_TITLE`
+- Hjälpmedel → Interagering → Skaka för att ångra: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#SHAKE_TO_UNDO`
+- Hjälpmedel → Interagering → Vibrering: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#VIBRATION`
+- Hjälpmedel → Interagering → Förhindra att låsning avslutar samtal: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#LockButtonIgnore`
+- Hjälpmedel → Interagering → Röstsamtalshantering: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING`
+- Hjälpmedel → Interagering → Röstsamtalshantering → Röstsamtalshantering: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING#CALL_AUDIO_ROUTING`
+- Hjälpmedel → Interagering → Röstsamtalshantering → Svara på samtal automatiskt: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING/callAudioRoutingAutoAnswer`
+- Hjälpmedel → Interagering → Röstsamtalshantering → Svara på samtal automatiskt → Svara på samtal automatiskt: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/CALL_AUDIO_ROUTING/callAudioRoutingAutoAnswer#callAudioRoutingAutoAnswer`
+- Hjälpmedel → Interagering → Tryck på baksidan: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/BackTap`
+- Hjälpmedel → Interagering → Tryck på baksidan → Tryck på baksidan: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/BackTap#BackTap`
+- Hjälpmedel → Interagering → Tryck på baksidan → Tryck snabbt två gånger: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/BackTap/DoubleTap`
+- Hjälpmedel → Interagering → Tryck på baksidan → Tryck snabbt två gånger → Tryck snabbt två gånger: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/BackTap/DoubleTap#DoubleTap`
+- Hjälpmedel → Interagering → Tryck på baksidan → Tryck snabbt tre gånger: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/BackTap/TripleTap`
+- Hjälpmedel → Interagering → Tryck på baksidan → Tryck snabbt tre gånger → Tryck snabbt tre gånger: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/BackTap/TripleTap#TripleTap`
+- Hjälpmedel → Interagering → Pekarstyrning: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer`
+- Hjälpmedel → Interagering → Pekarstyrning → Öka kontrast: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#PointerIncreaseContrastSpecifier`
+- Hjälpmedel → Interagering → Pekarstyrning → Göm pekaren automatiskt: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#PointerAutoHideSpecifier`
+- Hjälpmedel → Interagering → Pekarstyrning → Färg: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#PointerColorSpecifier`
+- Hjälpmedel → Interagering → Pekarstyrning → Pekarstorlek: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#PointerSizeSpecifier`
+- Hjälpmedel → Interagering → Pekarstyrning → Pekarstyrning: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#PointerControlEnablingCell`
+- Hjälpmedel → Interagering → Pekarstyrning → Styrning: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer/POINTER_CONTROL_CONTROL`
+- Hjälpmedel → Interagering → Pekarstyrning → Färg: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer/PointerColorSpecifier`
+- Hjälpmedel → Interagering → Pekarstyrning → Färg → Kantbredd: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer/PointerColorSpecifier#PointerStrokeWidth`
+- Hjälpmedel → Interagering → Pekarstyrning → Ignorera styrplatta: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#IgnoreTrackpad`
+- Hjälpmedel → Interagering → Pekarstyrning → Avstannande styrplatta: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#PointerInertia`
+- Hjälpmedel → Interagering → Pekarstyrning → Pekaranimeringar: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#PointerCustomShapes`
+- Hjälpmedel → Interagering → Pekarstyrning → Rullningshastighet: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/Pointer#DeviceScrollSpeed`
+- Hjälpmedel → Interagering → Titta uppåt för Kontrollcenter: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/UPWARDS_HUD`
+- Hjälpmedel → Interagering → Titta uppåt för Kontrollcenter → Lodrät position för Kontrollcenter: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/UPWARDS_HUD#UpwardsHUDPositionSpecifier`
+- Hjälpmedel → Interagering → Titta uppåt för Kontrollcenter → Titta uppåt för Kontrollcenter: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/UPWARDS_HUD#UpwardsHUDToggleSpecifier`
+- Hjälpmedel → Interagering → Ljudåtgärder: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/SOUND_ACTIONS`
+- Hjälpmedel → Interagering → Föredra reglage som inte är huvudlåsta: `prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE#CAMERA_ANCHOR_ALTERNATIVE_Preference`
+- Hjälpmedel → Face ID och uppmärksamhet: `prefs:root=ACCESSIBILITY&path=FACE_ID`
+- Hjälpmedel → Face ID och uppmärksamhet → Kräv uppmärksamhet för Face ID: `prefs:root=ACCESSIBILITY&path=FACE_ID#PearlUnlockAttention`
+- Hjälpmedel → Face ID och uppmärksamhet → Uppmärksamhetsfunktioner: `prefs:root=ACCESSIBILITY&path=FACE_ID#AttentionAware`
+- Hjälpmedel → Face ID och uppmärksamhet → Haptik vid lyckad autentisering: `prefs:root=ACCESSIBILITY&path=FACE_ID#PearlSuccessHaptic`
+- Hjälpmedel → Reglagestyrning: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle`
+- Hjälpmedel → Reglagestyrning → Reglage: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier`
+- Hjälpmedel → Reglagestyrning → Reglage → Reglage: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier#SwitchesIdentifier`
+- Hjälpmedel → Reglagestyrning → Reglage → Lägg till nytt reglage…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier/AddSwitchIdentifier`
+- Hjälpmedel → Reglagestyrning → Reglage → Lägg till nytt reglage… → Lägg till nytt reglage…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier/AddSwitchIdentifier#AddSwitchIdentifier`
+- Hjälpmedel → Reglagestyrning → Reglage → Bluetooth-enheter…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier/BluetoothDevicesIdentifier`
+- Hjälpmedel → Reglagestyrning → Reglage → Bluetooth-enheter… → Bluetooth-enheter…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier/BluetoothDevicesIdentifier/BluetoothDevicesIdentifier`
+- Hjälpmedel → Reglagestyrning → Reglage → Ignorera ogiltig reglageinställning: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SwitchesIdentifier#UpwardsHUDToggleSpecifier`
+- Hjälpmedel → Reglagestyrning → Manus: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/RecipesIdentifier`
+- Hjälpmedel → Reglagestyrning → Manus → Manus: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/RecipesIdentifier#RecipesIdentifier`
+- Hjälpmedel → Reglagestyrning → Manus → Skapa nytt manus…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/RecipesIdentifier/CreateNewRecipe`
+- Hjälpmedel → Reglagestyrning → Manus → Skapa nytt manus… → Skapa nytt manus…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/RecipesIdentifier/CreateNewRecipe#CreateNewRecipe`
+- Hjälpmedel → Reglagestyrning → Manus → Öppna manus: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/RecipesIdentifier/LaunchRecipe`
+- Hjälpmedel → Reglagestyrning → Manus → Öppna manus → Öppna manus: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/RecipesIdentifier/LaunchRecipe#LaunchRecipe`
+- Hjälpmedel → Reglagestyrning → Skanningsstil: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier`
+- Hjälpmedel → Reglagestyrning → Skanningsstil → Skanningsstil: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningStyleIdentifier#ScanningStyleIdentifier`
+- Hjälpmedel → Reglagestyrning → Växla styrningsläge: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/FirstLaunchScanningModeIdentifier`
+- Hjälpmedel → Reglagestyrning → Växla styrningsläge → Växla styrningsläge: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/FirstLaunchScanningModeIdentifier#FirstLaunchScanningModeIdentifier`
+- Hjälpmedel → Reglagestyrning → Autoskanningstid: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningSpeedIdentifier`
+- Hjälpmedel → Reglagestyrning → Autoskanningstid → Autoskanningstid: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanningSpeedIdentifier#NumericalPreferencePickerGroupIdentifier`
+- Hjälpmedel → Reglagestyrning → Pausa på första objektet: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/DelayAfterInputIdentifier`
+- Hjälpmedel → Reglagestyrning → Pausa på första objektet → Pausa på första objektet: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/DelayAfterInputIdentifier#NumericalPreferenceSwitcherIdentifier`
+- Hjälpmedel → Reglagestyrning → Loopar: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanCyclesIdentifier`
+- Hjälpmedel → Reglagestyrning → Loopar → Loopar: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanCyclesIdentifier#ScanCyclesIdentifier`
+- Hjälpmedel → Reglagestyrning → Upprepning av flytt: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ActionRepeatIdentifier`
+- Hjälpmedel → Reglagestyrning → Upprepning av flytt → Upprepning av flytt: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ActionRepeatIdentifier#NumericalPreferenceSwitcherIdentifier`
+- Hjälpmedel → Reglagestyrning → Växla styrningsläge: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSelectionGroupIdentifier`
+- Hjälpmedel → Reglagestyrning → Växla styrningsläge → Glidande markör: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSelectionGroupIdentifier#POINTER_PICKER_ENABLED`
+- Hjälpmedel → Reglagestyrning → Långt tryck: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/LongPressIdentifier`
+- Hjälpmedel → Reglagestyrning → Långt tryck → Långt tryck: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/LongPressIdentifier#NumericalPreferenceSwitcherIdentifier`
+- Hjälpmedel → Reglagestyrning → Tryckbeteende: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier`
+- Hjälpmedel → Reglagestyrning → Tryckbeteende → Tryckbeteende: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/TapBehaviorIdentifier#TapBehaviorIdentifier`
+- Hjälpmedel → Reglagestyrning → Objekt i fokus efter tryck: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanLocationIdentifier`
+- Hjälpmedel → Reglagestyrning → Objekt i fokus efter tryck → Objekt i fokus efter tryck: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/ScanLocationIdentifier#ScanLocationIdentifier`
+- Hjälpmedel → Reglagestyrning → Skanna samma knapp igen: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#RestartScanAtCurrentIdentifier`
+- Hjälpmedel → Reglagestyrning → Tryck alltid på tangentbord: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#AlwaysTapKeyboardIdentifier`
+- Hjälpmedel → Reglagestyrning → Utökade förutsägelser: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#UseExtendedKeyboardPredictionsIdentifier`
+- Hjälpmedel → Reglagestyrning → Hålltid: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/HoldDurationIdentifier`
+- Hjälpmedel → Reglagestyrning → Hålltid → Hålltid: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/HoldDurationIdentifier#NumericalPreferenceSwitcherIdentifier`
+- Hjälpmedel → Reglagestyrning → Ignorera upprepning: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/IgnoreRepeatIdentifier`
+- Hjälpmedel → Reglagestyrning → Ignorera upprepning → Ignorera upprepning: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/IgnoreRepeatIdentifier#NumericalPreferenceSwitcherIdentifier`
+- Hjälpmedel → Reglagestyrning → Glidande markör: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier`
+- Hjälpmedel → Reglagestyrning → Glidande markör → Glidande markör: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#AxisSweepIdentifier`
+- Hjälpmedel → Reglagestyrning → Glidande markör → Markeringsläge: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#SelectionStyleGroup`
+- Hjälpmedel → Reglagestyrning → Glidande markör → Hastighet för glidande markör: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/AxisSweepIdentifier#AxisSweepSpeed`
+- Hjälpmedel → Reglagestyrning → Huvudspårning: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CameraPointPickerSwitch`
+- Hjälpmedel → Reglagestyrning → Huvudspårning → Huvudspårning: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CameraPointPickerSwitch#CameraPointPickerSwitcher`
+- Hjälpmedel → Reglagestyrning → Ljudeffekter: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#SoundIdentifier`
+- Hjälpmedel → Reglagestyrning → Tal: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier`
+- Hjälpmedel → Reglagestyrning → Tal → Röster: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#VoicesIdentifier`
+- Hjälpmedel → Reglagestyrning → Tal → Läs upp enhetsattribut: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#SPEECH_SPEAKS_TRAITS_LABEL`
+- Hjälpmedel → Reglagestyrning → Tal → Pausa under tal: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/SpeechIdentifier#SPEECH_PAUSES_SCANNING_LABEL`
+- Hjälpmedel → Reglagestyrning → Menyobjekt: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier`
+- Hjälpmedel → Reglagestyrning → Menyobjekt → Menyobjekt: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier#CustomizeMenuIdentifier`
+- Hjälpmedel → Reglagestyrning → Menyobjekt → Övre nivå: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/TopLevel`
+- Hjälpmedel → Reglagestyrning → Menyobjekt → Övre nivå → Övre nivå: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/TopLevel#TopLevel`
+- Hjälpmedel → Reglagestyrning → Menyobjekt → Gester: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Gestures`
+- Hjälpmedel → Reglagestyrning → Menyobjekt → Gester → Gester: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Gestures#Gestures`
+- Hjälpmedel → Reglagestyrning → Menyobjekt → Enhet: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Device`
+- Hjälpmedel → Reglagestyrning → Menyobjekt → Enhet → Enhet: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Device#Device`
+- Hjälpmedel → Reglagestyrning → Menyobjekt → Inställningar: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Settings`
+- Hjälpmedel → Reglagestyrning → Menyobjekt → Inställningar → Inställningar: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/Settings#Settings`
+- Hjälpmedel → Reglagestyrning → Menyobjekt → Mediereglage: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/MediaControls`
+- Hjälpmedel → Reglagestyrning → Menyobjekt → Mediereglage → Mediereglage: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomizeMenuIdentifier/MediaControls#MediaControls`
+- Hjälpmedel → Reglagestyrning → Gruppera objekt: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#ItemGroupingIdentifier`
+- Hjälpmedel → Reglagestyrning → Stor markör: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#CursorVisibilityIdentifier`
+- Hjälpmedel → Reglagestyrning → Sparade gester: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomGesturesIdentifier`
+- Hjälpmedel → Reglagestyrning → Sparade gester → Sparade gester: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomGesturesIdentifier#CustomGesturesIdentifier`
+- Hjälpmedel → Reglagestyrning → Sparade gester → Skapa ny gest…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomGesturesIdentifier/CreateCustomGesture`
+- Hjälpmedel → Reglagestyrning → Sparade gester → Skapa ny gest… → Skapa ny gest…: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CustomGesturesIdentifier/CreateCustomGesture#CreateCustomGesture`
+- Hjälpmedel → Reglagestyrning → Bekräfta med Reglagestyrning: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle#APPLE_PAY_SWITCH`
+- Hjälpmedel → Reglagestyrning → Markörfärg: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CursorColorIdentifier`
+- Hjälpmedel → Reglagestyrning → Markörfärg → Markörfärg: `prefs:root=ACCESSIBILITY&path=ScannerSwitchTitle/CursorColorIdentifier#CursorColorIdentifier`
+- Hjälpmedel → Röststyrning: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle`
+- Hjälpmedel → Röststyrning → Ställ in röststyrning: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#SETUP_COMMAND_AND_CONTROL`
+- Hjälpmedel → Röststyrning → Öppna röststyrningsträning: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#COMMAND_AND_CONTROL_LAUNCH_ONBOARDING`
+- Hjälpmedel → Röststyrning → Språk: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_LANGUAGE`
+- Hjälpmedel → Röststyrning → Språk → Språk: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_LANGUAGE#COMMAND_AND_CONTROL_LANGUAGE`
+- Hjälpmedel → Röststyrning → Kommandon: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS`
+- Hjälpmedel → Röststyrning → Kommandon → Kommandon: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS#COMMAND_AND_CONTROL_COMMANDS`
+- Hjälpmedel → Röststyrning → Kommandon → Skapa nytt kommando: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/CreateNewCommand`
+- Hjälpmedel → Röststyrning → Kommandon → Skapa nytt kommando → Skapa nytt kommando: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/CreateNewCommand#CreateNewCommand`
+- Hjälpmedel → Röststyrning → Kommandon → Enkel navigering: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/System`
+- Hjälpmedel → Röststyrning → Kommandon → Överlägg: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/Overlays`
+- Hjälpmedel → Röststyrning → Kommandon → Grundläggande gester: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/Gestures`
+- Hjälpmedel → Röststyrning → Kommandon → Avancerade gester: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/DragDropGestures`
+- Hjälpmedel → Röststyrning → Kommandon → Diktering: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/TextDictation`
+- Hjälpmedel → Röststyrning → Kommandon → Textnavigering: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/Movement`
+- Hjälpmedel → Röststyrning → Kommandon → Textmarkering: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/Selection`
+- Hjälpmedel → Röststyrning → Kommandon → Textredigering: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/Editing`
+- Hjälpmedel → Röststyrning → Kommandon → Textradering: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/AdvancedDeletion`
+- Hjälpmedel → Röststyrning → Kommandon → Enhet: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/Hardware`
+- Hjälpmedel → Röststyrning → Kommandon → Hjälpmedel: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/Accessibility`
+- Hjälpmedel → Röststyrning → Kommandon → Importera anpassade kommandon: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/ImportCustomCommands`
+- Hjälpmedel → Röststyrning → Kommandon → Importera anpassade kommandon → Importera anpassade kommandon: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_COMMANDS/ImportCustomCommands#ImportCustomCommands`
+- Hjälpmedel → Röststyrning → Vokabulär: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_VOCABULARY`
+- Hjälpmedel → Röststyrning → Vokabulär → Vokabulär: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_VOCABULARY/VOCABULARY`
+- Hjälpmedel → Röststyrning → Vokabulär → Vokabulär → Vokabulär: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_VOCABULARY/VOCABULARY#VOCABULARY`
+- Hjälpmedel → Röststyrning → Vokabulär → Importera vokabulär: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_VOCABULARY#IMPORT_VOCABULARY`
+- Hjälpmedel → Röststyrning → Vokabulär → Exportera vokabulär: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_VOCABULARY#EXPORT_VOCABULARY`
+- Hjälpmedel → Röststyrning → Vokabulär → Radera all vokabulär: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/COMMAND_AND_CONTROL_VOCABULARY#DELETE_ALL_VOCABULARY`
+- Hjälpmedel → Röststyrning → Visa bekräftelse: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#SHOW_TEXT_RESPONSE_TITLE`
+- Hjälpmedel → Röststyrning → Spela ljud: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#PLAY_SOUND_RESPONSE_TITLE`
+- Hjälpmedel → Röststyrning → Visa tips: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#USER_HINTS_SHOW_HINTS_TITLE`
+- Hjälpmedel → Röststyrning → Överlägg: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY`
+- Hjälpmedel → Röststyrning → Överlägg → Överlägg: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle/ALWAYS_SHOW_OVERLAY#ALWAYS_SHOW_OVERLAY`
+- Hjälpmedel → Röststyrning → Uppmärksamhet: `prefs:root=ACCESSIBILITY&path=CommandAndControlTitle#ATTENTION_AWARE_ACTION`
+- Hjälpmedel → Knapp på ovansidan/Touch ID: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE`
+- Hjälpmedel → Knapp på ovansidan/Touch ID → Klickhastighet: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HOME_SPEED_HEADER`
+- Hjälpmedel → Knapp på ovansidan/Touch ID → Tryck och håll för att tala: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#HomeButtonAssistantTitle`
+- Hjälpmedel → Knapp på ovansidan/Touch ID → Hemknapp: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE/HomeButtonAssistantTitle`
+- Hjälpmedel → Knapp på ovansidan/Touch ID → Hemknapp → Håll fingret stilla för att öppna: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE/HomeButtonAssistantTitle#RestingUnlockSetting`
+- Hjälpmedel → Knapp på ovansidan/Touch ID → Aktivera bekräftelse med Reglagestyrning: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#APPLE_PAY_CONFIRM_WITH_SC`
+- Hjälpmedel → Knapp på ovansidan/Touch ID → Aktivera bekräftelse med AssistiveTouch: `prefs:root=ACCESSIBILITY&path=HOME_CLICK_TITLE#APPLE_PAY_CONFIRM_WITH_AST`
+- Hjälpmedel → Apple TV Remote: `prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE`
+- Hjälpmedel → Apple TV Remote → Riktningsknappar: `prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE#AppleTVSimpleGestures`
+- Hjälpmedel → Apple TV Remote → Knappar för direktsänd TV: `prefs:root=ACCESSIBILITY&path=APPLE_TV_REMOTE#AppleTVLiveTVButtons`
+- Hjälpmedel → Apple Watch-dubblering: `prefs:root=ACCESSIBILITY&path=APPLE_WATCH_REMOTE_SCREEN`
+- Hjälpmedel → Hörapparater: `prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE`
+- Hjälpmedel → Hörapparater → MFi-hörapparater: `prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#AvailableAidsHeading`
+- Hjälpmedel → Hörapparater → Hörapparatskompatibilitet: `prefs:root=ACCESSIBILITY&path=HEARING_AID_TITLE#HEARING_AID_COMPLIANCE`
+- Hjälpmedel → Hörselkontrollcenter: `prefs:root=ACCESSIBILITY&path=HEARING_CONTROL_CENTER`
+- Hjälpmedel → Hörselkontrollcenter → Inkluderade reglage: `prefs:root=ACCESSIBILITY&path=HEARING_CONTROL_CENTER#INCLUDED_MODULES_SECTION_TITLE`
+- Hjälpmedel → Hörselkontrollcenter → Fler reglage: `prefs:root=ACCESSIBILITY&path=HEARING_CONTROL_CENTER#MORE_MODULES_SECTION_TITLE`
+- Hjälpmedel → Ljudigenkänning: `prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE`
+- Hjälpmedel → Ljudigenkänning → Ljud: `prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE/Sounds`
+- Hjälpmedel → Ljudigenkänning → Ljud → Ljud: `prefs:root=ACCESSIBILITY&path=SOUND_RECOGNITION_TITLE/Sounds#Sounds`
+- Hjälpmedel → RTT/TTY: `prefs:root=ACCESSIBILITY&path=RTT`
+- Hjälpmedel → RTT/TTY → Programvara för RTT/TTY: `prefs:root=ACCESSIBILITY&path=RTT#SW_TTY`
+- Hjälpmedel → RTT/TTY → Maskinvaru-TTY: `prefs:root=ACCESSIBILITY&path=RTT#HW_TTY`
+- Hjälpmedel → Ljud och visuellt: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE`
+- Hjälpmedel → Ljud och visuellt → Anpassat ljud för hörlurar: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID`
+- Hjälpmedel → Ljud och visuellt → Anpassat ljud för hörlurar → Anpassat ljud för hörlurar: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID#AXPAEnableSpecID`
+- Hjälpmedel → Ljud och visuellt → Anpassat ljud för hörlurar → Inställning av anpassat ljud: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXPAEnableSpecID#AXPAPersonalAudioSetupSpecID`
+- Hjälpmedel → Ljud och visuellt → Bakgrundsljud: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID`
+- Hjälpmedel → Ljud och visuellt → Bakgrundsljud → Bakgrundsljud: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID#CSFeatureToggleSpecID`
+- Hjälpmedel → Ljud och visuellt → Bakgrundsljud → Ljud: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID/ComfortSoundSoundLabel`
+- Hjälpmedel → Ljud och visuellt → Bakgrundsljud → Ljud → Ljud: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID/ComfortSoundSoundLabel#ComfortSoundSoundLabel`
+- Hjälpmedel → Ljud och visuellt → Bakgrundsljud → Volym för bakgrundsljud: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID#ComfortSoundsVolume`
+- Hjälpmedel → Ljud och visuellt → Bakgrundsljud → Använd när medier spelas: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID#ComfortSoundsMixingName`
+- Hjälpmedel → Ljud och visuellt → Bakgrundsljud → Volym med medier: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID#ComfortSoundsMixingVolume`
+- Hjälpmedel → Ljud och visuellt → Bakgrundsljud → Stoppa ljud när enheten är låst: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/AXCSEnableSpecID#ComfortSoundsPlayWhenLockedName`
+- Hjälpmedel → Ljud och visuellt → Mono-ljud: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAMonoSpecID`
+- Hjälpmedel → Ljud och visuellt → Visa alltid volymreglage: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPAAlwaysShowVolumeControlSpecID`
+- Hjälpmedel → Ljud och visuellt → Brusreducering: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXPANoiseSpecID`
+- Hjälpmedel → Ljud och visuellt → Blinkande LED vid notiser: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH`
+- Hjälpmedel → Ljud och visuellt → Blinkande LED vid notiser → Blinkande LED vid notiser: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_FLASH`
+- Hjälpmedel → Ljud och visuellt → Blinkande LED vid notiser → Blinka i upplåst läge: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_FLASH_WHILE_UNLOCKED`
+- Hjälpmedel → Ljud och visuellt → Blinkande LED vid notiser → Blinka i tyst läge: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/LED_FLASH#LED_RINGER_SWITCH_CONTROL`
+- Hjälpmedel → Ljud och visuellt → Höger/vänster stereobalans: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#LeftRightBalance`
+- Hjälpmedel → Ljud och visuellt → Av/på-ljud: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#StartupSound`
+- Hjälpmedel → Ljud och visuellt → Notiser om hörlurar: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#AXHeadphoneNotificationsSpecID`
+- Hjälpmedel → Ljud och visuellt → Lägg till röstisolering: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#ExtendedVoiceIsolationSpecID`
+- Hjälpmedel → Ljud och visuellt → Ljudeffekter: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE#SOUND_EFFECTS_PREFERENCE`
+- Hjälpmedel → Ljud och visuellt → Lägg till ljud i samtal: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/MIX_TO_UPLINK`
+- Hjälpmedel → Ljud och visuellt → Lägg till ljud i samtal → Tillåt att appar lägger till ljud i samtal: `prefs:root=ACCESSIBILITY&path=AUDIO_VISUAL_TITLE/MIX_TO_UPLINK#MIX_TO_UPLINK`
+- Hjälpmedel → Undertext och dold textning: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING`
+- Hjälpmedel → Undertext och dold textning → Stil: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING/currentTheme`
+- Hjälpmedel → Undertext och dold textning → Stil → Stil: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING/currentTheme#currentTheme`
+- Hjälpmedel → Undertext och dold textning → Textning för hörselskadade: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#PREFER_SDH`
+- Hjälpmedel → Undertext och dold textning → Visa ljudtranskribering: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#SHOW_AUDIO_TRANSCRIPTIONS`
+- Hjälpmedel → Undertext och dold textning → Visa vid Ljud av: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#SHOW_WHEN_MUTED`
+- Hjälpmedel → Undertext och dold textning → Visa vid Hoppa bakåt: `prefs:root=ACCESSIBILITY&path=SUBTITLES_CAPTIONING#SHOW_ON_SKIP_BACK`
+- Hjälpmedel → Direkttextning: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION`
+- Hjälpmedel → Direkttextning → Direkttextning: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION#LIVE_TRANSCRIPTION_TITLE`
+- Hjälpmedel → Direkttextning → Utseende: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE`
+- Hjälpmedel → Direkttextning → Utseende → Utseende: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE#LIVE_TRANSCRIPTION_APPEARANCE`
+- Hjälpmedel → Direkttextning → Utseende → Fet text: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE/ENHANCE_TEXT_LEGIBILITY`
+- Hjälpmedel → Direkttextning → Utseende → Fet text → Fet text: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE/ENHANCE_TEXT_LEGIBILITY#ENHANCE_TEXT_LEGIBILITY`
+- Hjälpmedel → Direkttextning → Utseende → Textstorlek: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE/LARGER_TEXT`
+- Hjälpmedel → Direkttextning → Utseende → Textstorlek → Textstorlek: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE/LARGER_TEXT#LARGER_TEXT`
+- Hjälpmedel → Direkttextning → Utseende → Färgalternativ: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE#LIVE_TRANSCRIPTION_COLOR_OPTIONS`
+- Hjälpmedel → Direkttextning → Utseende → Textfärg: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE#LIVE_TRANSCRIPTION_TEXT_COLOR`
+- Hjälpmedel → Direkttextning → Utseende → Bakgrundsfärg: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE#LIVE_TRANSCRIPTION_BACKGROUND_COLOR`
+- Hjälpmedel → Direkttextning → Utseende → Nollställ färger: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE#LIVE_TRANSCRIPTION_RESET_COLORS`
+- Hjälpmedel → Direkttextning → Utseende → Synlighet vid inaktivitet: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION/LIVE_TRANSCRIPTION_APPEARANCE#LIVE_CAPTIONS_IDLE_OPACITY_TITLE`
+- Hjälpmedel → Direkttextning → Direkttextning i FaceTime: `prefs:root=ACCESSIBILITY&path=LIVE_TRANSCRIPTION#FACE_TIME_CAPTIONS`
+- Hjälpmedel → Guidad åtkomst: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE`
+- Hjälpmedel → Guidad åtkomst → Lösenkodsinställningar: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessSecurityLinkList`
+- Hjälpmedel → Guidad åtkomst → Lösenkodsinställningar → Lösenkodsinställningar: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessSecurityLinkList#GuidedAccessSecurityLinkList`
+- Hjälpmedel → Guidad åtkomst → Lösenkodsinställningar → Ställ in lösenkod för Guidad åtkomst: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessSecurityLinkList#GAXPinButton`
+- Hjälpmedel → Guidad åtkomst → Lösenkodsinställningar → Touch ID: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessSecurityLinkList#GAXSpecIDTouchIDSwitch`
+- Hjälpmedel → Guidad åtkomst → Tidsgränser: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList`
+- Hjälpmedel → Guidad åtkomst → Tidsgränser → Tidsgränser: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GuidedAccessTimeRestrictionsLinkList`
+- Hjälpmedel → Guidad åtkomst → Tidsgränser → Ljud: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList/GUIDED_ACCESS_TIME_RESTRICTIONS_SOUND_TITLE`
+- Hjälpmedel → Guidad åtkomst → Tidsgränser → Ljud → Ljud: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList/GUIDED_ACCESS_TIME_RESTRICTIONS_SOUND_TITLE#GUIDED_ACCESS_TIME_RESTRICTIONS_SOUND_TITLE`
+- Hjälpmedel → Guidad åtkomst → Tidsgränser → Tal: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessTimeRestrictionsLinkList#GUIDED_ACCESS_TIME_RESTRICTIONS_SPEAK_TITLE`
+- Hjälpmedel → Guidad åtkomst → Hjälpmedels­genväg: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE#GuidedAccessEnableAXFeatures`
+- Hjälpmedel → Guidad åtkomst → Skärmautolås: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessAutoLockTime`
+- Hjälpmedel → Guidad åtkomst → Skärmautolås → Skärmautolås: `prefs:root=ACCESSIBILITY&path=GUIDED_ACCESS_TITLE/GuidedAccessAutoLockTime#GuidedAccessAutoLockTime`
+- Hjälpmedel → Åtkomststöd: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE`
+- Hjälpmedel → Åtkomststöd → Ställ in Åtkomststöd: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#SetUpClarityUISpecifier`
+- Hjälpmedel → Åtkomststöd → Starta Åtkomststöd: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#ClarityUIStart`
+- Hjälpmedel → Åtkomststöd → Appar: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#Applications`
+- Hjälpmedel → Åtkomststöd → Alternativ: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#Options`
+- Hjälpmedel → Åtkomststöd → Bakgrund: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE/Wallpaper`
+- Hjälpmedel → Åtkomststöd → Bakgrund → Bakgrund: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE/Wallpaper#Wallpaper`
+- Hjälpmedel → Åtkomststöd → Tillåt volymknappar: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#VolumeButtons`
+- Hjälpmedel → Åtkomststöd → Visa tid på låst skärm: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#ShowTime`
+- Hjälpmedel → Åtkomststöd → Visa batterinivå på hemskärmen: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#ShowBattery`
+- Hjälpmedel → Åtkomststöd → Visa notisbrickor: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#ShowNotification`
+- Hjälpmedel → Åtkomststöd → Tillåt Siri: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE#AllowSiri`
+- Hjälpmedel → Åtkomststöd → Lösenkodsinställningar: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE/PasscodeSettings`
+- Hjälpmedel → Åtkomststöd → Lösenkodsinställningar → Lösenkodsinställningar: `prefs:root=ACCESSIBILITY&path=CLARITY_UI_TITLE/PasscodeSettings#PasscodeSettings`
+- Hjälpmedel → Siri: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE`
+- Hjälpmedel → Siri → Skriv till Siri: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_SETTINGS_TYPE_TO_SIRI`
+- Hjälpmedel → Siri → Paustid för Siri: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#ENDPOINTER`
+- Hjälpmedel → Siri → Siris talhastighet: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SPEECH_RATE`
+- Hjälpmedel → Siri → Upplästa svar: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#VOICE_FEEDBACK`
+- Hjälpmedel → Siri → Lyssna alltid efter ”Siri”: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_SETTINGS_VOICE_ACTIVATION_ALWAYS_ALLOW`
+- Hjälpmedel → Siri → Visa appar bakom Siri: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRL_SHOW_APPS`
+- Hjälpmedel → Siri → Tillkännage notiser på högtalaren: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#ANNOUNCE_NOTIFICATIONS_BUILT_IN_SPEAKER_ID`
+- Hjälpmedel → Siri → Lägg på samtal: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE/SIRI_CALL_HANGUP_ID`
+- Hjälpmedel → Siri → Lägg på samtal → Lägg på samtal: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE/SIRI_CALL_HANGUP_ID#SIRI_CALL_HANGUP_ID`
+- Hjälpmedel → Siri → Lyssna efter atypiskt tal: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_ATYPICAL_SPEECH`
+- Hjälpmedel → Siri → Kräv ”Siri” för avbrott: `prefs:root=ACCESSIBILITY&path=SIRI_SETTINGS_TITLE#SIRI_BARGE`
+- Hjälpmedel → Hjälpmedels­genväg: `prefs:root=ACCESSIBILITY&path=TRIPLE_CLICK_TITLE`
+- Hjälpmedel → Inställningar per app: `prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE`
+- Hjälpmedel → Inställningar per app → Visa gömda appar: `prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE#PROTECTED_APPS_SHOW_HIDDEN_TITLE`
+- Hjälpmedel → Inställningar per app → Lägg till app: `prefs:root=ACCESSIBILITY&path=APP_AX_SETTINGS_TITLE#AX_ADD_BUTTON_IDENTIFIER`
+- Hjälpmedel → Styr enheter i närheten: `prefs:root=ACCESSIBILITY&path=CONTROL_NEARBY_DEVICES`
+- Hjälpmedel → Styr enheter i närheten → Styr enheter i närheten: `prefs:root=ACCESSIBILITY&path=CONTROL_NEARBY_DEVICES#CONTROL_NEARBY_DEVICES`
+- Hjälpmedel → Ögonstyrning: `prefs:root=ACCESSIBILITY&path=DOMINANT_EYE`
+- Hjälpmedel → Tal i realtid: `prefs:root=ACCESSIBILITY&path=LIVE_SPEECH_TITLE`
+- Hjälpmedel → Tal i realtid → Fraser: `prefs:root=ACCESSIBILITY&path=LIVE_SPEECH_TITLE/LiveSpeechCategoryManagement`
+- Hjälpmedel → Tal i realtid → Röster: `prefs:root=ACCESSIBILITY&path=LIVE_SPEECH_TITLE#LIVE_SPEECH_VOICES`
+- Hjälpmedel → Personlig röst: `prefs:root=ACCESSIBILITY&path=PERSONAL_VOICE_TITLE`
+- Hjälpmedel → Personlig röst → Skapa en personlig röst: `prefs:root=ACCESSIBILITY&path=PERSONAL_VOICE_TITLE#VB_CREATE_PERSONAL_VOICE`
+- Hjälpmedel → Personlig röst → Dela mellan enheter: `prefs:root=ACCESSIBILITY&path=PERSONAL_VOICE_TITLE#VB_USE_ICLOUD_TITLE`
+- Hjälpmedel → Personlig röst → Tillåt att appar begär att få använda: `prefs:root=ACCESSIBILITY&path=PERSONAL_VOICE_TITLE#VB_ALLOW_WITH_APPS`
+- Hjälpmedel → AirPods: `prefs:root=ACCESSIBILITY&path=AIRPODS`
+- Hjälpmedel → AirPods → Tryckhastighet: `prefs:root=ACCESSIBILITY&path=AIRPODS#TapGroup`
+- Hjälpmedel → AirPods → Tidslängd för nedtryck: `prefs:root=ACCESSIBILITY&path=AIRPODS#HoldGroup`
+- Hjälpmedel → AirPods → iPhone-inställningar för ljud och visuellt: `prefs:root=ACCESSIBILITY&path=AIRPODS#PERSONAL_AUDIO_AIRPODS_BUTTON`
+- Hjälpmedel → AirPods → Följ iPhone: `prefs:root=ACCESSIBILITY&path=AIRPODS#SPATIAL_AUDIO_SWITCH`
+- Hjälpmedel → AirPods → Tonvolym: `prefs:root=ACCESSIBILITY&path=AIRPODS#TONE_VOLUME`
+- Hjälpmedel → Röstgenvägar: `prefs:root=ACCESSIBILITY&path=ADAPTIVE_VOICE_SHORTCUTS_TITLE`
+- Hjälpmedel → Röstgenvägar → Ställ in röstgenvägar: `prefs:root=ACCESSIBILITY&path=ADAPTIVE_VOICE_SHORTCUTS_TITLE#AVS_SET_UP_BUTTON_TITLE`
+- Hjälpmedel → Musikhaptik: `prefs:root=ACCESSIBILITY&path=HAPTIC_MUSIC`
+- Hjälpmedel → Ögonspårning: `prefs:root=ACCESSIBILITY&path=OnDeviceEyeTracking`
+- Hjälpmedel → Ögonspårning → Ögonspårning: `prefs:root=ACCESSIBILITY&path=OnDeviceEyeTracking#OnDeviceEyeTrackingEnabledSpecifier`
+- Hjälpmedel → Ögonspårning → Utjämning: `prefs:root=ACCESSIBILITY&path=OnDeviceEyeTracking#SMOOTHING`
+- Hjälpmedel → Ögonspårning → Fäst vid objekt: `prefs:root=ACCESSIBILITY&path=OnDeviceEyeTracking#SNAP_TO_ITEM`
+- Hjälpmedel → Ögonspårning → Zooma på tangentbordstangenter: `prefs:root=ACCESSIBILITY&path=OnDeviceEyeTracking#KEYBOARD_ZOOM`
+- Hjälpmedel → Ögonspårning → Autogöm: `prefs:root=ACCESSIBILITY&path=OnDeviceEyeTracking#AUTO_HIDE`
+- Hjälpmedel → Ögonspårning → Fördröjningsstyrning: `prefs:root=ACCESSIBILITY&path=OnDeviceEyeTracking#DWELL_CONTROL`
+- Hjälpmedel → Kamerareglage: `prefs:root=ACCESSIBILITY&path=CAMERA_CONTROL`
+- Hjälpmedel → Kamerareglage → Kamerareglage: `prefs:root=ACCESSIBILITY&path=CAMERA_CONTROL#CAMERA_CONTROL_SWITCH`
+- Hjälpmedel → Kamerareglage → Lätt tryck: `prefs:root=ACCESSIBILITY&path=CAMERA_CONTROL#LIGHT_PRESS`
+- Hjälpmedel → Kamerareglage → Svep: `prefs:root=ACCESSIBILITY&path=CAMERA_CONTROL#SWIPE`
+- Hjälpmedel → Kamerareglage → Lätt tryck: `prefs:root=ACCESSIBILITY&path=CAMERA_CONTROL#LIGHT_PRESS_FORCE`
+- Hjälpmedel → Kamerareglage → Hastighet för dubbelt lätt tryck: `prefs:root=ACCESSIBILITY&path=CAMERA_CONTROL#SENSITIVITY`
+- Mail: `prefs:root=MAIL`
+- Mail → Konton: `prefs:root=MAIL&path=ACCOUNTS`
+- Mail → Konton → Lägg till konto: `prefs:root=MAIL&path=ACCOUNTS#ADD_ACCOUNT`
+- Mail → Konton → Hämta nya data: `prefs:root=MAIL&path=ACCOUNTS#FETCH_NEW_DATA`
+- Mail → Förhandsvisning: `prefs:root=MAIL&path=Preview`
+- Mail → Visa etiketter för Till/Kopia: `prefs:root=MAIL#Show%20To/Cc%20Labels`
+- Mail → Svepalternativ: `prefs:root=MAIL&path=Swipe%20Options`
+- Mail → Fråga före radering: `prefs:root=MAIL#Ask%20Before%20Deleting`
+- Mail → Visa bilder från server: `prefs:root=MAIL#Load%20Remote%20Images`
+- Mail → Ordna trådvis: `prefs:root=MAIL#Organize%20by%20Thread`
+- Mail → Minimera lästa mejl: `prefs:root=MAIL#Collapse%20Read%20Messages`
+- Mail → Senaste mejl högst upp: `prefs:root=MAIL#Most%20Recent%20Message%20on%20Top`
+- Mail → Fullständiga trådar: `prefs:root=MAIL#Complete%20Threads`
+- Mail → Åtgärd för tråd utan notiser: `prefs:root=MAIL&path=Muted%20Thread%20Action`
+- Mail → Ignorera blockerade avsändare: `prefs:root=MAIL#Ignore%20Blocked%20Senders`
+- Mail → Alternativ för blockerade avsändare: `prefs:root=MAIL&path=Blocked%20Sender%20Options`
+- Mail → Blockerade: `prefs:root=MAIL&path=Blocked`
+- Mail → Dold kopia till mig: `prefs:root=MAIL#Always%20Bcc%20Myself`
+- Mail → Markera adresser: `prefs:root=MAIL&path=Mark%20Addresses`
+- Mail → Öka citatnivån: `prefs:root=MAIL&path=Increase%20Quote%20Level`
+- Mail → Inkludera bilagor med svar: `prefs:root=MAIL&path=Include%20Attachments%20with%20Replies`
+- Mail → Signatur: `prefs:root=MAIL&path=Signature`
+- Bakgrundsbild: `prefs:root=Wallpaper`
+- Anteckningar: `prefs:root=NOTES`
+- Anteckningar → Förvalt konto: `prefs:root=NOTES&path=Default%20Account`
+- Anteckningar → Lösenord: `prefs:root=NOTES&path=Password`
+- Anteckningar → Sortera efter: `prefs:root=NOTES&path=Sort%20Notes%20By`
+- Anteckningar → Nya ant. börjar med: `prefs:root=NOTES&path=New%20Notes%20Start%20With`
+- Anteckningar → Sortera avbockade objekt: `prefs:root=NOTES&path=Sort%20Checked%20Items`
+- Anteckningar → Linjer och rutnät: `prefs:root=NOTES&path=Lines%20%26%20Grids`
+- Anteckningar → Spara i Bilder: `prefs:root=NOTES#Save%20to%20Photos`
+- Anteckningar → Anteckningar från låsskärmen: `prefs:root=NOTES&path=Access%20Notes%20from%20Lock%20Screen`
+- Lösenkod: `prefs:root=PASSCODE`
+- Lösenkod → Stäng av lösenkod: `prefs:root=PASSCODE#PASSCODE_OFF`
+- Lösenkod → Ändra lösenkod: `prefs:root=PASSCODE#CHANGE_PASSCODE`
+- Lösenkod → Kräv lösenkod: `prefs:root=PASSCODE&path=PASSCODE_REQ`
+- Lösenkod → Röststyrd uppringning: `prefs:root=PASSCODE#VOICE_DIAL`
+- Lösenkod → Tillåt åtkomst från låst skärm: `prefs:root=PASSCODE#ALLOW_ACCESS_WHEN_LOCKED`
+- Lösenkod → Svara med meddelande: `prefs:root=PASSCODE#REPLY_WITH_MESSAGE_SWITCH`
+- Lösenkod → Hemkontroll: `prefs:root=PASSCODE#HOME_CONTROL_SWITCH`
+- Lösenkod → Plånbok: `prefs:root=PASSCODE#WALLET_SWITCH`
+- Lösenkod → Ring upp missade samtal: `prefs:root=PASSCODE#RETURN_MISSED_CALLS_SWITCH`
+- Lösenkod → Radera data: `prefs:root=PASSCODE#WIPE_DEVICE`
+- Lösenkod → Lås upp med Apple Watch: `prefs:root=PASSCODE#AUTO_UNLOCK_DEVICES_GROUP`
+- Lösenkod → Skydd för stulen enhet: `prefs:root=PASSCODE#DTO_GROUP_ID`
+- Kalender: `prefs:root=CALENDAR`
+- Kalender → Fast tidszon: `prefs:root=CALENDAR&path=TimeZoneCityArray`
+- Kalender → Alternativa kalendrar: `prefs:root=CALENDAR&path=Alternate%20Calendars`
+- Kalender → Veckonummer: `prefs:root=CALENDAR#Week%20Numbers`
+- Kalender → Visa inbjudna som tackat nej: `prefs:root=CALENDAR#Show%20Invitee%20Declines`
+- Kalender → Synka: `prefs:root=CALENDAR&path=Sync`
+- Kalender → Förvalda påminnelser: `prefs:root=CALENDAR&path=Default%20Alert%20Times`
+- Kalender → Veckan börjar på: `prefs:root=CALENDAR&path=Start%20Week%20On`
+- Kalender → Platsförslag: `prefs:root=CALENDAR#Location%20Suggestions`
+- Hälsodata: `prefs:root=HEALTH`
+- Telefon: `prefs:root=Phone`
+- Telefon → Mitt nummer: `prefs:root=Phone&path=My%20Number`
+- Telefon → Inkommande samtal: `prefs:root=Phone&path=INCOMING_CALL_STYLE`
+- Telefon → Tillkännage samtal: `prefs:root=Phone&path=ANNOUNCE_CALLS`
+- Telefon → Rapportering av SMS och samtal: `prefs:root=Phone&path=CLASSIFICATION_AND_REPORTING`
+- Telefon → Svara med meddelande: `prefs:root=Phone&path=Respond%20with%20Text`
+- Telefon → Vidarekoppling: `prefs:root=Phone&path=Call%20Forwarding`
+- Telefon → Vidarekoppling → Vidarekoppling: `prefs:root=Phone&path=Call%20Forwarding#idMasterOnOffSwitch`
+- Telefon → Samtal väntar: `prefs:root=Phone&path=Call%20Waiting`
+- Telefon → Visa mitt nummer: `prefs:root=Phone&path=Show%20My%20Caller%20ID`
+- Telefon → Visa mitt nummer → Visa mitt nummer: `prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary`
+- Telefon → Visa mitt nummer → Visa mitt nummer → Visa mitt nummer: `prefs:root=Phone&path=Show%20My%20Caller%20ID/Primary#Show%20My%20Caller%20ID`
+- Telefon → Tysta ned okända uppringare: `prefs:root=Phone#SILENCE_CALLS`
+- Telefon → Blockerade kontakter: `prefs:root=Phone&path=SPECIFIER_IDENTIFIER_BLACKLIST`
+- Telefon → Ringassistans: `prefs:root=Phone&path=Dial%20Assist`
+- App Store: `prefs:root=STORE`
+- App Store → Automatiska hämtningar: `prefs:root=STORE#Automatic%20Downloads`
+- App Store → Appuppdateringar: `prefs:root=STORE#App%20Updates`
+- App Store → Apphämtningar: `prefs:root=STORE&path=App%20Downloads`
+- App Store → Autouppspelning av video: `prefs:root=STORE&path=Video%20Autoplay`
+- App Store → Betyg och recensioner i appar: `prefs:root=STORE#In-App%20Ratings%20&%20Reviews`
+- Integritet och säkerhet: `prefs:root=Privacy` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity`
+- Integritet och säkerhet → Hälsa: `prefs:root=Privacy&path=HEALTH` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/HEALTH`
+- Integritet och säkerhet → Hälsodata: `prefs:root=Privacy&path=HEALTH_DATA` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/HEALTH_DATA`
+- Integritet och säkerhet → Platstjänster: `prefs:root=Privacy&path=LOCATION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/LOCATION`
+- Integritet och säkerhet → Platstjänster → Dela min platsinfo: `prefs:root=Privacy&path=LOCATION/LOCATION_SHARING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/LOCATION/LOCATION_SHARING`
+- Integritet och säkerhet → Kontakter: `prefs:root=Privacy&path=CONTACTS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CONTACTS`
+- Integritet och säkerhet → Kalendrar: `prefs:root=Privacy&path=CALENDARS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CALENDARS`
+- Integritet och säkerhet → Påminnelser: `prefs:root=Privacy&path=REMINDERS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/REMINDERS`
+- Integritet och säkerhet → Bilder: `prefs:root=Privacy&path=PHOTOS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PHOTOS`
+- Integritet och säkerhet → Bluetooth-delning: `prefs:root=Privacy&path=BT_PERIPHERAL` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/BT_PERIPHERAL`
+- Integritet och säkerhet → Mikrofon: `prefs:root=Privacy&path=MICROPHONE` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/MICROPHONE`
+- Integritet och säkerhet → Röstigenkänning: `prefs:root=Privacy&path=SPEECH_RECOGNITION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/SPEECH_RECOGNITION`
+- Integritet och säkerhet → Kamera: `prefs:root=Privacy&path=CAMERA` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/CAMERA`
+- Integritet och säkerhet → HomeKit: `prefs:root=Privacy&path=WILLOW` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/WILLOW`
+- Integritet och säkerhet → Medier och Apple Music: `prefs:root=Privacy&path=MEDIALIBRARY` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/MEDIALIBRARY`
+- Integritet och säkerhet → Analys: `prefs:root=Privacy&path=PROBLEM_REPORTING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PROBLEM_REPORTING`
+- Integritet och säkerhet → Reklam: `prefs:root=Privacy&path=ADVERTISING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/ADVERTISING`
+- Integritet och säkerhet → Filer och mappar: `prefs:root=Privacy&path=FILEACCESS` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/FILEACCESS`
+- Integritet och säkerhet → Spårning: `prefs:root=Privacy&path=USER_TRACKING` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/USER_TRACKING`
+- Integritet och säkerhet → Rapport om appintegritet: `prefs:root=Privacy&path=PRIVACY_REPORT` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity/PRIVACY_REPORT`
+- Integritet och säkerhet → Låst läge: `prefs:root=Privacy#LOCKDOWN_MODE` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity#LOCKDOWN_MODE#LOCKDOWN_MODE`
+- Integritet och säkerhet → Känsligt innehåll: `prefs:root=Privacy#NUDITY_DETECTION` or `settings-navigation://com.apple.Settings.PrivacyAndSecurity#NUDITY_DETECTION#NUDITY_DETECTION`
+- Mätverktyg: `prefs:root=MEASURE`
+- Mätverktyg → Måttenheter: `prefs:root=MEASURE#MEASURE_UNITS`
+- Mätverktyg → Brittiska: `prefs:root=MEASURE#Imperial`
+- Mätverktyg → Metriska: `prefs:root=MEASURE#Metric`
+- Videor: `prefs:root=TVAPP`
+- Videor → Uppspelning med mobildata: `prefs:root=TVAPP#com.apple.videos%3AVideosUseCellularDataEnabledSetting`
+- Videor → Uppspelningskvalitet: `prefs:root=TVAPP#com.apple.videos%3APlaybackQualityGroup`
+- Videor → Inköp och hyrfilmer: `prefs:root=TVAPP&path=com.apple.videos%3APreferredPurchaseResolution`
+- Videor → Hemmadelning: `prefs:root=TVAPP#com.apple.videos%3AHomeSharingFooter`
+- Game Center: `prefs:root=GAMECENTER`
+- Röstmemon: `prefs:root=VOICE_MEMOS`
+- Röstmemon → Rensa raderade: `prefs:root=VOICE_MEMOS&path=RCVoiceMemosRecentlyDeletedWindowKey`
+- Röstmemon → Ljudkvalitet: `prefs:root=VOICE_MEMOS&path=RCVoiceMemosAudioQualityKey`
+- Röstmemon → Platsbaserade namn: `prefs:root=VOICE_MEMOS#RCVoiceMemosUseLocationBasedNaming`
+- Genvägar: `prefs:root=SHORTCUTS`
+- Genvägar → iCloud-synkronisering: `prefs:root=SHORTCUTS#WFCloudKitSyncEnabled`
+- Genvägar → Synka genvägsordning: `prefs:root=SHORTCUTS#WFCloudKitSyncOrderEnabled`
+- Genvägar → Juridiska anmärkningar: `prefs:root=SHORTCUTS&path=Legal%20Notices`
+- Påminnelser: `prefs:root=REMINDERS`
+- Påminnelser → Förvald lista: `prefs:root=REMINDERS&path=DEFAULT_LIST`
+- Påminnelser → Förvald lista → Påminnelser: `prefs:root=REMINDERS&path=DEFAULT_LIST#preferredDefaultListID`
+- Påminnelser → Notis för idag: `prefs:root=REMINDERS#todayNotificationFireTime`
+- Påminnelser → Visa som försenade: `prefs:root=REMINDERS#showRemindersAsOverdue`
+- Musik: `prefs:root=MUSIC`
+- Musik → Visa Apple Music: `prefs:root=MUSIC#com.apple.Music%3AAppleMusicEnabled`
+- Musik → Lägg till spellistelåtar: `prefs:root=MUSIC#com.apple.Music%3AAddPlaylistSongsToMyMusicSwitch`
+- Musik → Visa betyg med stjärnor: `prefs:root=MUSIC#com.apple.Music%3AShowStarRatings`
+- Musik → Synkronisera bibliotek: `prefs:root=MUSIC#com.apple.Music%3ACloudMusicLibraryEnabled`
+- Musik → Mobildata: `prefs:root=MUSIC&path=com.apple.Music%3ACellularData`
+- Musik → Hämtad musik: `prefs:root=MUSIC&path=com.apple.Music%3AMusicUsageLink`
+- Musik → Optimera lagring: `prefs:root=MUSIC&path=com.apple.Music%3AOptimizeStorage`
+- Musik → Automatiska hämtningar: `prefs:root=MUSIC#com.apple.Music%3AMusicAutomaticDownload`
+- Musik → EQ: `prefs:root=MUSIC&path=com.apple.Music%3AEQ`
+- Musik → Ljudkontroll: `prefs:root=MUSIC#com.apple.Music%3ASoundCheck`
+- Musik → Använd lyssningshistorik: `prefs:root=MUSIC#com.apple.Music%3APrivateListening`
+- Siri: `prefs:root=SIRI`
+- Siri → Tillåt Siri när skärmen är låst: `prefs:root=SIRI#ASSISTANT_LOCK_SCREEN_ACCESS`
+- Siri → Språk: `prefs:root=SIRI&path=LANGUAGE_ID`
+- Siri → Siri-röst: `prefs:root=SIRI&path=VOICE_ID`
+- Siri → Röst-feedback: `prefs:root=SIRI&path=VOICE_FEEDBACK_ID`
+- Siri → Min information: `prefs:root=SIRI&path=MY_INFO`
+- Ljud: `prefs:root=Sounds`
+- Ljud → Säkerhet med hörlurar: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING`
+- Ljud → Säkerhet med hörlurar → Lightning-adaptrar: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING/HEADPHONE_LIGHTNING_ADAPTERS`
+- Ljud → Säkerhet med hörlurar → Notiser om hörlurar: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneWeeklyNotificationsKey`
+- Ljud → Säkerhet med hörlurar → Minska starkt ljud: `prefs:root=Sounds&path=HEADPHONE_LEVEL_LIMIT_SETTING#SHSHeadphoneLevelLimitSwitchKey`
+- Ljud → Ljudeffekter: `prefs:root=Sounds&path=SOUND_EFFECTS`
+- Ljud → Ringsignal och påminnelser: `prefs:root=Sounds#RINGER_AND_ALERT_GROUP`
+- Ljud → Ändra med knappar: `prefs:root=Sounds#CHANGE_WITH_BUTTONS`
+- Ljud → Ljud och vibreringsmönster: `prefs:root=Sounds#SOUNDS_ALERT_GROUP`
+- Ljud → Ringsignal: `prefs:root=Sounds&path=Ringtone`
+- Ljud → SMS-signal: `prefs:root=Sounds&path=Text_Messages`
+- Ljud → Nytt röstmeddelande: `prefs:root=Sounds&path=Voicemail`
+- Ljud → Nytt mejl: `prefs:root=Sounds&path=NEW_MAIL`
+- Ljud → Skickat mejl: `prefs:root=Sounds&path=SENT_MAIL`
+- Ljud → Kalenderpåminnelser: `prefs:root=Sounds&path=Calendar%20Alarm`
+- Ljud → Påminnelseljud: `prefs:root=Sounds&path=Reminder%20Alerts`
+- Ljud → Tangentbordsljud: `prefs:root=Sounds#KEYBOARD_SOUND_SWITCH`
+- Ljud → Låsljud: `prefs:root=Sounds#LOCK_SOUND_SWITCH`
+- Ljud → Personanpassat rumsligt ljud: `prefs:root=Sounds&path=Personalized%20Spatial%20Audio`
+- Apple Pencil: `prefs:root=Pencil`
+- Apple Pencil → Apple Pencil: `prefs:root=Pencil#PrefersPencilDraws`
+- Apple Pencil → Apple Pencil: `prefs:root=Pencil#PencilTextInput`
+- Nödanrop SOS: `prefs:root=EMERGENCY_SOS`
+- Nödanrop SOS → Ring med sidoknappen: `prefs:root=EMERGENCY_SOS#CALL_WITH_SIDE_BUTTON`
+- Nödanrop SOS → Ring automatiskt: `prefs:root=EMERGENCY_SOS#AUTO_CALL`
+- Nödanrop SOS → Nödkontakter: `prefs:root=EMERGENCY_SOS#EMERGENCY_CONTACTS`
+- Nödanrop SOS → Nedräkningsljud: `prefs:root=EMERGENCY_SOS#ALARM_SOUND_SWITCH`
+- Wi-Fi: `prefs:root=WIFI`
+- Kontakter: `prefs:root=CONTACTS`
+- Kontakter → Ge Kontakter tillgång: `prefs:root=CONTACTS#Allow%20Contacts%20To%20Access`
+- Kontakter → Siri: `prefs:root=CONTACTS&path=SIRI_AND_SEARCH`
+- Kontakter → Sorteringsordning: `prefs:root=CONTACTS&path=ContactsSortOrder`
+- Kontakter → Visa efter: `prefs:root=CONTACTS&path=PersonNameOrder`
+- Kontakter → Kortnamn: `prefs:root=CONTACTS&path=PersonShortName`
+- Kontakter → Kortnamn → Kortnamn: `prefs:root=CONTACTS&path=PersonShortName#Short%20Name`
+- Kontakter → Kortnamn → Föredra smeknamn: `prefs:root=CONTACTS&path=PersonShortName#Prefer%20Nicknames`
+- Kontakter → Min info: `prefs:root=CONTACTS&path=MeCard`
+- Kontakter → Importera SIM-kontakter: `prefs:root=CONTACTS#SIMImport`
+- Kontrollcenter: `prefs:root=ControlCenter`
+- Kontrollcenter → Åtkomst inuti appar: `prefs:root=ControlCenter#ALLOWED_WITHIN_APPS`
+- Kontrollcenter → Anpassa reglage: `prefs:root=ControlCenter&path=CUSTOMIZE_CONTROLS`
+- Utvecklare: `prefs:root=DEVELOPER_SETTINGS`
+- Utvecklare → Multipath-nätverk: `prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG`
+- Utvecklare → Multipath-nätverk → Multipath-nätverk: `prefs:root=DEVELOPER_SETTINGS&path=MULTI_PATH_AGG#Multipath%20Networking`
+- Utvecklare → Utseende: `prefs:root=DEVELOPER_SETTINGS#UIAppearanceGroup`
+- Utvecklare → Mörkt utseende: `prefs:root=DEVELOPER_SETTINGS#UIAppearanceSettings`
+- Utvecklare → Parkopplade enheter: `prefs:root=DEVELOPER_SETTINGS#DTPairedDevicesGroup`
+- Utvecklare → Rensa betrodda datorer: `prefs:root=DEVELOPER_SETTINGS#CLEAR_TRUSTED_COMPUTERS`
+- Utvecklare → Loggning: `prefs:root=DEVELOPER_SETTINGS&path=DTInstrumentsSettings`
+- Utvecklare → Aktivera UI-automatisering: `prefs:root=DEVELOPER_SETTINGS#UIAGroup`
+- Utvecklare → Nätverk: `prefs:root=DEVELOPER_SETTINGS#NLCGroup`
+- Utvecklare → Network Link Conditioner: `prefs:root=DEVELOPER_SETTINGS&path=NLC`
+- Utvecklare → Ytterligare loggning: `prefs:root=DEVELOPER_SETTINGS#ADDITIONAL_LOGGING`
+- Utvecklare → Tillåt HTTP-tjänster: `prefs:root=DEVELOPER_SETTINGS#ALLOW_HTTP_SERVICES`
+- Utvecklare → Avaktivera begränsning för antal förfrågningar: `prefs:root=DEVELOPER_SETTINGS#DISABLE_RATE_LIMITING`
+- Utvecklare → NFC-nyckel (frivilligt): `prefs:root=DEVELOPER_SETTINGS#NFC_PASS_KEY_OPTIONAL`
+- Utvecklare → Testning av medietjänster: `prefs:root=DEVELOPER_SETTINGS#MEDIA_SERVICES_TESTING`
+- Utvecklare → Nollställ medietjänster: `prefs:root=DEVELOPER_SETTINGS#RESET_MEDIA_SERVICES`
+- Utvecklare → News-testning: `prefs:root=DEVELOPER_SETTINGS#NEWS_TESTING`
+- Utvecklare → Nollställ lokala data vid nästa öppning: `prefs:root=DEVELOPER_SETTINGS#RESET_LOCAL_DATA_ON_NEXT_LAUNCH`
+- Utvecklare → Testning av ramverk för mediespelare: `prefs:root=DEVELOPER_SETTINGS#RoutineSettingsGroup`
+- Utvecklare → API för uppspelningsbart innehåll: `prefs:root=DEVELOPER_SETTINGS&path=RoutineSettings`
+- Utvecklare → TV-leverantör: `prefs:root=DEVELOPER_SETTINGS&path=VideoSubscriberAccountSettings`
+- Utvecklare → ClassKit-API: `prefs:root=DEVELOPER_SETTINGS&path=ClassKitSettings`
+- Utvecklare → CoreSpotlight-testning: `prefs:root=DEVELOPER_SETTINGS#CORESPOTLIGHT_TESTING`
+- Utvecklare → Indexera om alla objekt: `prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS`
+- Utvecklare → Indexera om alla objekt med ID: `prefs:root=DEVELOPER_SETTINGS#REINDEX_ALL_ITEMS_WITH_IDENTIFIERS`
+- Utvecklare → Genvägstestning: `prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_TESTING`
+- Utvecklare → Visa senaste genvägar: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_SPOTLIGHT`
+- Utvecklare → Visa kommande medier: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_UPCOMING_MEDIA`
+- Utvecklare → Visa donationer på låsskärmen: `prefs:root=DEVELOPER_SETTINGS#DISPLAY_DONATIONS_LOCKSCREEN`
+- Utvecklare → Tvinga synkronisering av genvägar till Apple Watch: `prefs:root=DEVELOPER_SETTINGS#SIRI_ACTIONS_SYNC_WATCHOS`
+- Utvecklare → MIDI-CI-testning: `prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA`
+- Utvecklare → Aktivera MIDI-CI: `prefs:root=DEVELOPER_SETTINGS#MIDI_CI_API_BETA_ENABLE`
+- Utvecklare → Frysningsdetektering: `prefs:root=DEVELOPER_SETTINGS#HANGTRACER_EXTERNAL_CONFIGURE`
+- Bluetooth: `prefs:root=Bluetooth`
+- Aktier: `prefs:root=STOCKS`
+- Aktier → Integritet: `prefs:root=STOCKS#Privacy`
+- Aktier → Nollställ ID: `prefs:root=STOCKS#reset_identifier`
+- Översätt: `prefs:root=TRANSLATE`
+- Översätt → Lokalt på enheten: `prefs:root=TRANSLATE#OnDeviceOnly`
+- News: `prefs:root=NEWS`
+- News → Visa förhandsvisning av artiklar: `prefs:root=NEWS#show_excerpt_mode`
+- News → Begränsa artiklar i Idag: `prefs:root=NEWS#showStoriesFromFavoritesSpecifierID`
+- News → Integritet: `prefs:root=NEWS#Privacy`
+- News → Nollställ ID: `prefs:root=NEWS#reset_identifier`
+- News → Tillkännagivanden: `prefs:root=NEWS&path=Acknowledgements`
+- Meddelanden: `prefs:root=MESSAGES`
+- FaceTime: `prefs:root=FACETIME`
+- Bilder: `prefs:root=Photos`
+- Bilder → iCloud-bilder: `prefs:root=Photos#iCloudPhotosSwitch`
+- Bilder → Optimera lagring: `prefs:root=Photos#iCloudOptimizeStorageOption`
+- Bilder → Hämta och behåll original: `prefs:root=Photos#iCloudKeepOriginalsOption`
+- Bilder → Delade album: `prefs:root=Photos#SharedStreamsSwitch`
+- Bilder → Mobildata: `prefs:root=Photos&path=CellularDataLinkList`
+- Bilder → Spela upp videor automatiskt: `prefs:root=Photos#VideoAutoplaySwitch`
+- Bilder → Visa fullständig HDR: `prefs:root=Photos#ImageModulationSwitch`
+- Bilder → Visa helgdagsaktiviteter: `prefs:root=Photos#MEMORIES_HOLIDAY_CALENDAR_EVENTS_SWITCH`
+- Bilder → Överför till Mac eller PC: `prefs:root=Photos#TransferGroup`
+- Exponeringsnotiser: `prefs:root=EXPOSURE_NOTIFICATION`
+- Kamera: `prefs:root=CAMERA`
+- Kamera → Format: `prefs:root=CAMERA&path=CameraFormatsSettingsList`
+- Kamera → Format → Apple ProRaw: `prefs:root=CAMERA&path=CameraFormatsSettingsList#CAMUserPreferenceEnableLinearDNGControl`
+- Kamera → Record Video: `prefs:root=CAMERA&path=Record%20Video`
+- Kamera → Record Video → HDR-video: `prefs:root=CAMERA&path=Record%20Video#HDR%20Video`
+- Kamera → Förvalsinställningar: `prefs:root=CAMERA&path=CameraPreserveSettingsSwitch`
+- Kamera → Förvalsinställningar → Kameraläge: `prefs:root=CAMERA&path=CameraPreserveSettingsSwitch#CAMUserPreferencePreserveCaptureMode`
+- Kamera → Rutnät: `prefs:root=CAMERA#CameraGridSwitch`
+- Kamera → Skanna QR-koder: `prefs:root=CAMERA#CameraQRBannerSwitch`
+- Mobilnät: `prefs:root=MOBILE_DATA_SETTINGS_ID`
+- Mobilnät → Alternativ för mobildata: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS`
+- Mobilnät → Alternativ för mobildata → Låg dataförbrukning: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=CELLULAR_DATA_OPTIONS#Low%20Data%20Mode`
+- Mobilnät → Mobildata: `prefs:root=MOBILE_DATA_SETTINGS_ID&path=SHOW_ALL`
+- Podcaster: `prefs:root=PODCASTS`
+- Kompass: `prefs:root=COMPASS`
+- Kompass → Använd geografisk nord: `prefs:root=COMPASS#USE_TRUE_NORTH`
+- Böcker: `prefs:root=IBOOKS`
+- Böcker → Innehåll på internet: `prefs:root=IBOOKS#BKAllowOnlineContent`
+- Böcker → SYNKRONISERING: `prefs:root=IBOOKS#SYNCING`
+- Böcker → Läser nu: `prefs:root=IBOOKS#BKLibrary.ReadingNow`
+- Böcker → iCloud Drive: `prefs:root=IBOOKS#BCSyncICloudDrive`
+- Böcker → LÄSNING: `prefs:root=IBOOKS#READING`
+- Böcker → Marginaljustering: `prefs:root=IBOOKS#BKFullJustification`
+- Böcker → Avstavning: `prefs:root=IBOOKS#BKAutoHyphenation`
+- Böcker → Bläddra med båda marginaler: `prefs:root=IBOOKS#BKLeftTapTurnToNext`
+- Böcker → Läsmål: `prefs:root=IBOOKS#READING_GOALS`
+- Böcker → Rensa data för läsmål: `prefs:root=IBOOKS#BKReadingGoalsShouldClearDataKey`
+- Böcker → SÖKER: `prefs:root=IBOOKS#SEARCHING`
+- Böcker → Bokhandel: `prefs:root=IBOOKS#BKIncludeBookStoreResultsInSearch`
+- Böcker → LJUDBÖCKER: `prefs:root=IBOOKS#AUDIOBOOKS`
+- Böcker → Hoppa framåt: `prefs:root=IBOOKS&path=BKAudioBookSkipForward`
+- Böcker → Hoppa bakåt: `prefs:root=IBOOKS&path=BKAudioBookSkipBackward`
+- Böcker → EXTERNA REGLAGE: `prefs:root=IBOOKS#BKRemoteSkipInsteadOfNextTrackDefaultKey`
+- Böcker → Nästa/föregående: `prefs:root=IBOOKS#Next/Previous`
+- Böcker → Hoppa framåt/bakåt: `prefs:root=IBOOKS#Skip%20Forward/Back`
+- Böcker → INTEGRITET: `prefs:root=IBOOKS#PRIVACY`
+- Böcker → Nollställ ID: `prefs:root=IBOOKS#BAResetAnalyticsUserID`
+- Böcker → Tillkännagivanden: `prefs:root=IBOOKS&path=Acknowledgements`
+- Flygplansläge: `prefs:root=ROOT#AIRPLANE_MODE`

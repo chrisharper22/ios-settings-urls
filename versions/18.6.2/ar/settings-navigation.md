@@ -1,0 +1,29 @@
+- حساب Apple: `settings-navigation://com.apple.Settings.AppleAccount`
+- حساب Apple → ‏iCloud: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE`
+- حساب Apple → ‏iCloud → التقويم: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Calendars`
+- حساب Apple → ‏iCloud → التقويم → الإرسال والاستلام: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Calendars/CALENDAR_SEND_RECEIVE`
+- حساب Apple → ‏iCloud → التقويم → استلام تحديثات البريد الإلكتروني: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Calendars/CALENDAR_SHARED_CALENDAR_UPDATE`
+- حساب Apple → ‏iCloud → البريد: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail`
+- حساب Apple → ‏iCloud → البريد → البريد الإلكتروني الافتراضي: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/DEFAULT_EMAIL`
+- حساب Apple → ‏iCloud → البريد → العناوين: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/ALIASES`
+- حساب Apple → ‏iCloud → البريد → الرد التلقائي: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/AUTO_REPLY`
+- حساب Apple → ‏iCloud → البريد → قواعد بريد iCloud: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/SERVER_SIDE_RULES`
+- حساب Apple → ‏iCloud → البريد → تحويل البريد: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/MAIL_FORWARDING`
+- حساب Apple → ‏iCloud → البريد → سلوكيات صندوق البريد: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/MAILBOX_BEHAVIORS`
+- حساب Apple → ‏iCloud → البريد → التوقيع والتشفير: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/S_MIME`
+- حساب Apple → ‏iCloud → البريد → استيراد الرسائل: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/MAIL_IMPORT`
+- Apps: `settings-navigation://com.apple.Settings.Apps`
+- Apps → Fitness: `settings-navigation://com.apple.Settings.Apps/com.apple.Fitness`
+- Apps → سفاري: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/`
+- Apps → سفاري → الملحقات: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/WEB_EXTENSIONS`
+- Apps → سفاري → منع الإطارات المُنبثقة: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari#BLOCK_POPUPS`
+- Apps → سفاري → منع التتبع أثناء تصفح المواقع: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari#TRACKER_PROTECTION`
+- Apps → سفاري → التعبئة التلقائية: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/AUTO_FILL`
+- Apps → سفاري → التنزيلات: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/DOWNLOADS`
+- Apps → كلمات السر: `settings-navigation://com.apple.Settings.Apps/com.apple.Passwords`
+- Apps → كلمات السر → توصيات الأمن: `settings-navigation://com.apple.Settings.Apps/com.apple.Passwords#SECURITY_RECOMMENDATIONS`
+- الخصوصية والأمن: `settings-navigation://com.apple.Settings.PrivacyAndSecurity`
+- الخصوصية والأمن → التحقق من الأمان: `settings-navigation://com.apple.Settings.PrivacyAndSecurity/SAFETY_CHECK`
+- المنزل: `settings-navigation://com.apple.Settings.HomeKit`
+- Search: `settings-navigation://com.apple.Settings.Search`
+- مزود خدمة التلفزيون: `settings-navigation://com.apple.Settings.TVProvider`

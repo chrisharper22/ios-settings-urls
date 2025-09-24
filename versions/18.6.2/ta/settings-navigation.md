@@ -1,0 +1,29 @@
+- Apple கணக்கு: `settings-navigation://com.apple.Settings.AppleAccount`
+- Apple கணக்கு → iCloud: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE`
+- Apple கணக்கு → iCloud → கேலண்டர்: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Calendars`
+- Apple கணக்கு → iCloud → கேலண்டர் → அனுப்பு & பெறு: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Calendars/CALENDAR_SEND_RECEIVE`
+- Apple கணக்கு → iCloud → கேலண்டர் → மின்னஞ்சல் அறிவிப்புகளைப் பெறுங்கள்: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Calendars/CALENDAR_SHARED_CALENDAR_UPDATE`
+- Apple கணக்கு → iCloud → Mail: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail`
+- Apple கணக்கு → iCloud → Mail → இயல்புநிலை மின்னஞ்சல்: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/DEFAULT_EMAIL`
+- Apple கணக்கு → iCloud → Mail → முகவரிகள்: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/ALIASES`
+- Apple கணக்கு → iCloud → Mail → தானாகப் பதிலளி: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/AUTO_REPLY`
+- Apple கணக்கு → iCloud → Mail → iCloud மெயில் விதிகள்: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/SERVER_SIDE_RULES`
+- Apple கணக்கு → iCloud → Mail → மெயிலை ஃபார்வேர்டு செய்: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/MAIL_FORWARDING`
+- Apple கணக்கு → iCloud → Mail → மெயில்பாக்ஸ் செயல்பாடுகள்: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/MAILBOX_BEHAVIORS`
+- Apple கணக்கு → iCloud → Mail → ஸைனிங் மற்றும் என்கிரிப்ஷன்: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/S_MIME`
+- Apple கணக்கு → iCloud → Mail → மெசேஜ்களை இம்போர்ட் செய்: `settings-navigation://com.apple.Settings.AppleAccount/ICLOUD_SERVICE/com.apple.Dataclass.Mail/MAIL_IMPORT`
+- Apps: `settings-navigation://com.apple.Settings.Apps`
+- Apps → Fitness: `settings-navigation://com.apple.Settings.Apps/com.apple.Fitness`
+- Apps → Safari: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/`
+- Apps → Safari → நீட்டிப்புகள்: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/WEB_EXTENSIONS`
+- Apps → Safari → பாப்-அப்களைத் தடு: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari#BLOCK_POPUPS`
+- Apps → Safari → கிராஸ்-சைட் டிராக்கிங்கைத் தடு: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari#TRACKER_PROTECTION`
+- Apps → Safari → தானாக நிரப்பு: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/AUTO_FILL`
+- Apps → Safari → பதிவிறக்கங்கள்: `settings-navigation://com.apple.Settings.Apps/com.apple.mobilesafari/DOWNLOADS`
+- Apps → பாஸ்வேர்டுகள்: `settings-navigation://com.apple.Settings.Apps/com.apple.Passwords`
+- Apps → பாஸ்வேர்டுகள் → பாதுகாப்புப் பரிந்துரைகள்: `settings-navigation://com.apple.Settings.Apps/com.apple.Passwords#SECURITY_RECOMMENDATIONS`
+- தனியுரிமை & பாதுகாப்பு: `settings-navigation://com.apple.Settings.PrivacyAndSecurity`
+- தனியுரிமை & பாதுகாப்பு → பாதுகாப்புச் சரிபார்ப்பு: `settings-navigation://com.apple.Settings.PrivacyAndSecurity/SAFETY_CHECK`
+- ஹோம்: `settings-navigation://com.apple.Settings.HomeKit`
+- Search: `settings-navigation://com.apple.Settings.Search`
+- டிவி புரொவைடர்: `settings-navigation://com.apple.Settings.TVProvider`
